@@ -21,7 +21,7 @@
     "height": 2,
     "output": {
       "type": "item",
-      "code": "wildcraft:clipping-cloudberry-green",
+      "code": "wildcraft:seeds-{type}",
       "quantity": 1
     }
   }

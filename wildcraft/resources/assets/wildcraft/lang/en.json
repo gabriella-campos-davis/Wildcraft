@@ -8,6 +8,7 @@
   "item-fruit-gooseberry": "Gooseberry",
   "item-fruit-honeysuckle": "Honeysuckle",
   "item-fruit-raspberry": "Raspberry",
+  "item-fruit-blueraspberry": "Blue Raspberry",
   "item-fruit-strawberry": "Strawberry",
 
   "recipeingredient-item-fruit-huckleberry": "huckleberries",
@@ -19,7 +20,20 @@
   "recipeingredient-item-fruit-gooseberry": "gooseberries",
   "recipeingredient-item-fruit-honeysuckle": "honeysuckle",
   "recipeingredient-item-fruit-raspberry": "raspberries",
+  "recipeingredient-item-fruit-blueraspberry": "blueraspberries",
   "recipeingredient-item-fruit-strawberry": "strawberries",
+
+  "pie-single-wildcraft:fruit-huckleberry-raw": "Huckleberry pie (raw)",
+  "pie-single-wildcraft:fruit-dogrose-raw": "Dogrose pie (raw)",
+  "pie-single-wildcraft:fruit-snowberry-raw": "Snowberry pie (raw)",
+  "pie-single-wildcraft:fruit-brambleberry-raw": "Brambleberry pie (raw)",
+  "pie-single-wildcraft:fruit-cloudberry-raw": "Cloudberry pie (raw)",
+  "pie-single-wildcraft:fruit-elderberry-raw": "Elderberry pie (raw)",
+  "pie-single-wildcraft:fruit-gooseberry-raw": "Gooseberry pie (raw)",
+  "pie-single-wildcraft:fruit-honeysuckle-raw": "Honeysuckle pie (raw)",
+  "pie-single-wildcraft:fruit-raspberry-raw": "Raspberry pie (raw)",
+  "pie-single-wildcraft:fruit-blueraspberry-raw": "Blue Raspberry pie (raw)",
+  "pie-single-wildcraft:fruit-strawberry-raw": "Strawberry pie (raw)",
 
   "recipeingredient-item-fruit-huckleberry-insturmentalcase": "huckleberries",
   "recipeingredient-item-fruit-snowberry-insturmentalcase": "snowberris",
@@ -30,6 +44,7 @@
   "recipeingredient-item-fruit-gooseberry-insturmentalcase": "gooseberries",
   "recipeingredient-item-fruit-honeysuckle-insturmentalcase": "honeysuckle",
   "recipeingredient-item-fruit-raspberry-insturmentalcase": "raspberries",
+  "recipeingredient-item-fruit-blueraspberry-insturmentalcase": "blueraspberries",
   "recipeingredient-item-fruit-strawberry-insturmentalcase": "strawberries",
 
   "item-clipping-huckleberry-green": "Huckleberry clipping (green)",
