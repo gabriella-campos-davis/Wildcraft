@@ -1,0 +1,43 @@
+{
+  "code": "clipping",
+  "class": "ItemClipping",
+  "maxstacksize": 4,
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ]
+  },
+  "variantgroups": [
+    {
+      "code": "type",
+      "states": [ "huckleberry", "snowberry", "raspberry", "brambleberry", "dogrose", "gooseberry", "honeysuckle", "elderberry", "blueraspberry", "redcurrant", "blackcurrant", "whitecurrant", "blueberry", "cranberry", "strawberry", "cloudberry" ]
+    },
+    {
+      "code": "state",
+      "states": [ "green", "dry" ]
+    }
+  ],
+  "transitionablePropsByType": {
+    "@clipping-(huckleberry|snowberry|raspberry|brambleberry|dogrose|gooseberry|honeysuckle|elderberry|blueraspberry|blackcurrant|whitecurrant|redcurrant|blueberry|cranberry)-green": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 12 },
+        "transitionHours": { "avg": 12 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "wildcraft:clipping-{type}-dry"
+        },
+        "transitionRatio": 0.25
+      }
+    ]
+  },
+  "textureByType": {
+    "*-strawberry-*": { "base": "wildcraft:items/clipping/strawberry_seeds" },
+    "*-cloudberry-*": { "base": "wildcraft:items/clipping/cloudberry_seeds" },
+    "*": { "base": "wildcraft:items/clipping/clipping_{state}" }
+  },
+  "materialDensity": 200,
+  "combustibleProps": {
+    "burnTemperature": 600,
+    "burnDuration": 10
+  }
+}

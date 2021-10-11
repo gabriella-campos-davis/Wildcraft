@@ -1,0 +1,172 @@
+{
+  "code": "berrybush",
+  "class": "BerryBush",
+  "attributes": {
+    "stackableByType": {
+      "*-raspberry-*": true,
+      "*-blueraspberry-*": true,
+      "*-dogrose-*": true,
+      "*-gooseberry-*": true,
+      "*": false
+    },
+    "butterflyFeedByType": {
+      "*-flowering": true
+    },
+    "beeFeedByType": {
+      "*-flowering": true
+    },
+    "forageStatAffected": true,
+    "reinforcable": true,
+    "resetBelowTemperature": -1,
+    "stopBelowTemperature": 4,
+    "revertBlockBelowTemperature": -4,
+
+    "resetAboveTemperature": 35,
+    "stopAboveTemperature": 30,
+    "revertBlockAboveTemperature": 38,
+
+    "overrideRandomDrawOffset": 14,
+
+    "immuneCreatures": [ "game:chicken-baby", "game:chicken-hen", "game:chicken-rooster", "game:fox-arctic-female", "game:fox-arctic-male", "game:fox-female", "game:fox-male", "game:fox-pup", "game:hare-baby", "game:hare-female", "game:hare-male", "game:pig-wild-female", "game:pig-wild-male", "game:pig-wild-piglet", "game:raccoon-male", "game:raccoon-female", "game:raccoon-pup", "game:sheep-bighorn-female", "game:sheep-bighorn-lamb", "game:sheep-bighorn-male" ],
+    "pricklyByType": {
+      "*-raspberry-*": true,
+      "*-blueraspberry-*": true,
+      "*-brambleberry-*": true,
+      "*-dogrose-*": true,
+      "*": false
+    }
+  },
+  "walkspeedmultiplierByType": {
+    "*-raspberry-*": 0.55,
+    "*-blueraspberry-*": 0.55,
+    "*-brambleberry-*": 0.55,
+    "*-dogrose-*": 0.55
+  },
+  "entityclass": "BerryBush",
+  "behaviorsByType": {
+    "*-ripe": [
+      {
+        "name": "Harvestable",
+        "properties": {
+          "harvestTime": 0.6,
+          "harvestedStack": {
+            "type": "item",
+            "code": "wildcraft:fruit-{type}",
+            "quantity": { "avg": 2.2 }
+          },
+          "harvestedBlockCode": "wildcraft:berrybush-{type}-empty"
+        }
+      }
+    ],
+    "@berrybush-(huckleberry|snowberry|raspberry|brambleberry|dogrose|gooseberry|honeysuckle|elderberry|blueraspberry)-flowering": [
+      {
+        "name": "BehaviorClippable",
+        "properties": {
+          "harvestTime": 0.8,
+          "harvestedStack": {
+            "type": "item",
+            "code": "wildcraft:clipping-{type}-green",
+            "quantity": { "avg": 1.0 }
+          },
+          "harvestedBlockCode": "wildcraft:berrybush-{type}-empty"
+        }
+      }
+    ]
+  },
+  "variantgroups": [
+    {
+      "code": "type",
+      "states": [ "huckleberry", "snowberry", "raspberry", "brambleberry", "dogrose", "gooseberry", "honeysuckle", "elderberry", "strawberry", "cloudberry", "blueraspberry" ]
+    },
+    {
+      "code": "state",
+      "states": [ "empty", "flowering", "ripe" ]
+    }
+  ],
+  "creativeinventory": {
+    "general": [ "*" ],
+    "flora": [ "*" ]
+  },
+  "renderpass": "OpaqueNoCull",
+  "renderAlphaTest": 0.4,
+  "randomDrawOffset": true,
+  "shapeByType": {
+    "*-snowberry-*": { "base": "wildcraft:block/plant/berrybush/{state}/shrubberrybush_{state}" },
+    "*-elderberry-*": { "base": "wildcraft:block/plant/berrybush/{state}/shrubberrybush_{state}" },
+    "*-strawberry-*": { "base": "wildcraft:block/plant/berrybush/{state}/groundberrybush_{state}" },
+    "*-cloudberry-*": { "base": "wildcraft:block/plant/berrybush/{state}/groundberrybush_{state}" },
+    "*": { "base": "game:block/plant/berrybush_{state}" }
+  },
+  "blockmaterial": "Plant",
+  "texturesByType": {
+    "*-empty": {
+      "leaves": { "base": "wildcraft:block/plant/berrybush/leaves/{type}1" },
+      "branches": { "base": "game:block/plant/berrybush/branches/default" }
+    },
+    "*-flowering": {
+      "leaves": { "base": "wildcraft:block/plant/berrybush/leaves/{type}1" },
+      "branches": { "base": "game:block/plant/berrybush/branches/default" },
+      "berries": { "base": "wildcraft:block/plant/berrybush/flowering/{type}1" },
+      "berriesup": { "base": "wildcraft:block/plant/berrybush/flowering/{type}1" }
+    },
+    "*-ripe": {
+      "leaves": { "base": "wildcraft:block/plant/berrybush/leaves/{type}1" },
+      "branches": { "base": "game:block/plant/berrybush/branches/default" },
+      "berries": { "base": "wildcraft:block/plant/berrybush/ripe/{type}1" },
+      "berriesup": { "base": "wildcraft:block/plant/berrybush/ripe/{type}1" }
+    }
+
+  },
+  "sideopaque": {
+    "all": false
+  },
+  "sidesolid": {
+    "all": false
+  },
+  "replaceable": 3000,
+  "lightAbsorption": 0,
+  "resistance": 0.5,
+  "collisionbox": null,
+  "selectionboxByType": {
+    "*-strawberry-*": {
+      "x1": 0.0625,
+      "y1": 0,
+      "z1": 0.0625,
+      "x2": 0.9375,
+      "y2": 0.25,
+      "z2": 0.9375
+    },
+    "*-cloudberry-*": {
+      "x1": 0.0625,
+      "y1": 0,
+      "z1": 0.0625,
+      "x2": 0.9375,
+      "y2": 0.25,
+      "z2": 0.9375
+    }
+  },
+  "sounds": {
+    "place": "game:block/plant",
+    "break": "game:block/plant",
+    "hit": "game:block/plant"
+  },
+  "rainPermeable": false,
+  "dropsByType": {
+    "*-ripe": [
+      {
+        "type": "item",
+        "code": "wildcraft:fruit-{type}",
+        "quantity": { "avg": 2.2 }
+      }
+    ]
+  },
+  "materialDensity": 200,
+  "vertexFlags": {
+    "zOffset": 2
+  },
+  "frostable": true,
+  "combustibleProps": {
+    "burnTemperature": 600,
+    "burnDuration": 10
+  }
+}

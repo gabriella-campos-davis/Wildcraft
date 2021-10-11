@@ -1,0 +1,389 @@
+[
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of raspberry bushes",
+      "blockCodes": [
+        "wildcraft:berrybush-raspberry-empty",
+        "wildcraft:berrybush-raspberry-flowering",
+        "wildcraft:berrybush-raspberry-ripe"
+      ],
+      "minTemp": -4,
+      "maxTemp": 18,
+      "minRain": 0.15,
+      "maxRain": 0.6,
+      "minForest": 0.65,
+      "maxForest": 1,
+      "minFertility": 0.15,
+      "maxFertility": 1,
+      "chance": 0.03,
+      "offsetX": {
+        "dist": "gaussian",
+        "avg": 0,
+        "var": 15
+      },
+      "offsetZ": {
+        "dist": "gaussian",
+        "avg": 0,
+        "var": 15
+      },
+      "quantity": {
+        "avg": 5,
+        "var": 12
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of snowberry bushes",
+      "blockCodes": [
+        "wildcraft:berrybush-snowberry-empty",
+        "wildcraft:berrybush-snowberry-flowering",
+        "wildcraft:berrybush-snowberry-ripe"
+      ],
+      "minTemp": 0,
+      "maxTemp": 24,
+      "minRain": 0.15,
+      "maxRain": 0.6,
+      "minForest": 0.65,
+      "maxForest": 1,
+      "minFertility": 0.15,
+      "maxFertility": 1,
+      "chance": 0.03,
+      "offsetX": {
+        "dist": "gaussian",
+        "avg": 0,
+        "var": 15
+      },
+      "offsetZ": {
+        "dist": "gaussian",
+        "avg": 0,
+        "var": 15
+      },
+      "quantity": {
+        "avg": 5,
+        "var": 12
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of elderberry bushes",
+      "blockCodes": [
+        "wildcraft:berrybush-elderberry-empty",
+        "wildcraft:berrybush-elderberry-flowering",
+        "wildcraft:berrybush-elderberry-ripe"
+      ],
+      "minTemp": -2,
+      "maxTemp": 24,
+      "minRain": 0.35,
+      "maxRain": 0.9,
+      "minForest": 0.65,
+      "maxForest": 1,
+      "minFertility": 0.15,
+      "maxFertility": 1,
+      "chance": 0.03,
+      "offsetX": {
+        "dist": "gaussian",
+        "avg": 0,
+        "var": 15
+      },
+      "offsetZ": {
+        "dist": "gaussian",
+        "avg": 0,
+        "var": 15
+      },
+      "quantity": {
+        "avg": 5,
+        "var": 12
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of strawberry bushes",
+      "blockCodes": [
+        "wildcraft:berrybush-strawberry-empty",
+        "wildcraft:berrybush-strawberry-flowering",
+        "wildcraft:berrybush-strawberry-ripe"
+      ],
+      "minTemp": 2,
+      "maxTemp": 24,
+      "minRain": 0.34,
+      "maxRain": 0.9,
+      "minForest": 0.65,
+      "maxForest": 1,
+      "minFertility": 0.15,
+      "maxFertility": 1,
+      "chance": 0.03,
+      "offsetX": {
+        "dist": "gaussian",
+        "avg": 0,
+        "var": 15
+      },
+      "offsetZ": {
+        "dist": "gaussian",
+        "avg": 0,
+        "var": 15
+      },
+      "quantity": {
+        "avg": 5,
+        "var": 12
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of cloudberry bushes",
+      "blockCodes": [
+        "wildcraft:berrybush-cloudberry-empty",
+        "wildcraft:berrybush-cloudberry-flowering",
+        "wildcraft:berrybush-cloudberry-ripe"
+      ],
+      "minTemp": -4,
+      "maxTemp": 16,
+      "minRain": 0.34,
+      "maxRain": 0.8,
+      "minForest": 0.25,
+      "maxForest": 0.8,
+      "minFertility": 0.15,
+      "maxFertility": 1,
+      "chance": 0.03,
+      "offsetX": {
+        "dist": "gaussian",
+        "avg": 0,
+        "var": 15
+      },
+      "offsetZ": {
+        "dist": "gaussian",
+        "avg": 0,
+        "var": 15
+      },
+      "quantity": {
+        "avg": 5,
+        "var": 12
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of honeysuckle bushes",
+      "blockCodes": [
+        "wildcraft:berrybush-honeysuckle-empty",
+        "wildcraft:berrybush-honeysuckle-flowering",
+        "wildcraft:berrybush-honeysuckle-ripe"
+      ],
+      "minTemp": -2,
+      "maxTemp": 18,
+      "minRain": 0.5,
+      "maxRain": 1,
+      "minForest": 0.1,
+      "maxForest": 0.8,
+      "minFertility": 0.35,
+      "maxFertility": 0.8,
+      "chance": 0.03,
+      "offsetX": {
+        "dist": "gaussian",
+        "avg": 0,
+        "var": 15
+      },
+      "offsetZ": {
+        "dist": "gaussian",
+        "avg": 0,
+        "var": 15
+      },
+      "quantity": {
+        "avg": 5,
+        "var": 12
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of bramblberry bushes",
+      "blockCodes": [
+        "wildcraft:berrybush-brambleberry-empty",
+        "wildcraft:berrybush-brambleberry-flowering",
+        "wildcraft:berrybush-brambleberry-ripe"
+      ],
+      "minTemp": 2,
+      "maxTemp": 24,
+      "minRain": 0.3,
+      "maxRain": 0.8,
+      "minForest": 0.2,
+      "maxForest": 0.8,
+      "minFertility": 0.15,
+      "maxFertility": 1,
+      "chance": 0.03,
+      "offsetX": {
+        "dist": "gaussian",
+        "avg": 0,
+        "var": 15
+      },
+      "offsetZ": {
+        "dist": "gaussian",
+        "avg": 0,
+        "var": 15
+      },
+      "quantity": {
+        "avg": 5,
+        "var": 12
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of dogrose bushes",
+      "blockCodes": [
+        "wildcraft:berrybush-dogrose-empty",
+        "wildcraft:berrybush-dogrose-flowering",
+        "wildcraft:berrybush-dogrose-ripe"
+      ],
+      "minTemp": 18,
+      "maxTemp": 42,
+      "minRain": 0.3,
+      "maxRain": 0.7,
+      "minFertility": 0.25,
+      "maxFertility": 0.6,
+      "chance": 0.03,
+      "maxForest": 0.45,
+      "maxY": 0.62,
+      "quantity": {
+        "dist": "invexp",
+        "avg": 2,
+        "var": 4
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of gooseberry bushes",
+      "blockCodes": [
+        "wildcraft:berrybush-gooseberry-empty",
+        "wildcraft:berrybush-gooseberry-flowering",
+        "wildcraft:berrybush-gooseberry-ripe"
+      ],
+      "minTemp": 18,
+      "maxTemp": 42,
+      "minRain": 0.3,
+      "maxRain": 0.7,
+      "chance": 0.03,
+      "maxForest": 0.4,
+      "maxY": 0.62,
+      "quantity": {
+        "dist": "invexp",
+        "avg": 2,
+        "var": 4
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of huckleberry bushes",
+      "blockCodes": [
+        "wildcraft:berrybush-huckleberry-empty",
+        "wildcraft:berrybush-huckleberry-flowering",
+        "wildcraft:berrybush-huckleberry-ripe"
+      ],
+      "minTemp": -2,
+      "maxTemp": 16,
+      "minRain": 0.3,
+      "maxRain": 0.7,
+      "minFertility": 0.25,
+      "maxFertility": 0.6,
+      "chance": 0.03,
+      "maxForest": 0.8,
+      "maxY": 0.62,
+      "quantity": {
+        "dist": "invexp",
+        "avg": 2,
+        "var": 4
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of minerslettuce",
+      "blockCodes": [
+        "wildcraft:leafygroundvegetable-minerslettuce-normal",
+        "wildcraft:leafygroundvegetable-minerslettuce-normal",
+        "wildcraft:leafygroundvegetable-minerslettuce-harvested"
+      ],
+      "minTemp": 0,
+      "maxTemp": 20,
+      "minRain": 0.4,
+      "maxRain": 1,
+      "minFertility": 0.35,
+      "maxFertility": 1.0,
+      "chance": 0.06,
+      "minForest": 0.5,
+      "maxForest": 0.9,
+      "maxY": 0.62,
+      "quantity": {
+        "dist": "invexp",
+        "avg": 6,
+        "var": 4
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of stinging nettle",
+      "blockCodes": [
+        "wildcraft:leafygroundvegetable-stingingnettle-normal",
+        "wildcraft:leafygroundvegetable-stingingnettle-normal",
+        "wildcraft:leafygroundvegetable-stingingnettle-harvested"
+      ],
+      "minTemp": 0,
+      "maxTemp": 20,
+      "minRain": 0.4,
+      "maxRain": 0.9,
+      "minFertility": 0.35,
+      "maxFertility": 1.0,
+      "chance": 0.03,
+      "minForest": 0.5,
+      "maxForest": 0.9,
+      "maxY": 0.62,
+      "quantity": {
+        "dist": "invexp",
+        "avg": 6,
+        "var": 4
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  }
+]

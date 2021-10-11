@@ -1,0 +1,9 @@
+D:\11modding11\wildcraft\bin\Debug\net461\wildcraft.dll
+D:\11modding11\wildcraft\bin\Debug\net461\wildcraft.pdb
+D:\11modding11\wildcraft\obj\Debug\net461\wildcraft.csproj.AssemblyReference.cache
+D:\11modding11\wildcraft\obj\Debug\net461\wildcraft.AssemblyInfoInputs.cache
+D:\11modding11\wildcraft\obj\Debug\net461\wildcraft.AssemblyInfo.cs
+D:\11modding11\wildcraft\obj\Debug\net461\wildcraft.csproj.CoreCompileInputs.cache
+D:\11modding11\wildcraft\obj\Debug\net461\wildcraft.dll
+D:\11modding11\wildcraft\obj\Debug\net461\wildcraft.pdb
+D:\11modding11\wildcraft\obj\Debug\net461\wildcraft.GeneratedMSBuildEditorConfig.editorconfig

@@ -1,0 +1,104 @@
+{
+	"code": "leafygroundvegetable",
+	"class": "LeafyGroundVegetable",
+	"entityClass": "Transient",
+	"variantgroups": [
+		{ "code": "type", "states": ["minerslettuce", "stingingnettle"] },
+		{ "code": "state", "states": ["normal", "harvested"] }
+	],
+  "attributes": {
+    "transientPropsByType": {
+      "*-harvested": {
+        "convertFrom": "*-harvested",
+        "convertTo": "*-normal",
+        "inGameHours": "36",
+        "resetBelowTemperature": -4,
+        "stopBelowTemperature": 2
+      },
+      "*-normal": {
+        "condition": "temperature",
+        "whenBelowTemperature": 2,
+        "convertTo": "*-harvested",
+        "convertFrom": "*-normal"
+      }
+    },
+    "forageStatAffected": true,
+
+    "immuneCreatures": [ "game:chicken-baby", "game:chicken-hen", "game:chicken-rooster", "game:fox-arctic-female", "game:fox-arctic-male", "game:fox-female", "game:fox-male", "game:fox-pup", "game:hare-baby", "game:hare-female", "game:hare-male", "game:pig-wild-female", "game:pig-wild-male", "game:pig-wild-piglet", "game:raccoon-male", "game:raccoon-female", "game:raccoon-pup", "game:sheep-bighorn-female", "game:sheep-bighorn-lamb", "game:sheep-bighorn-male" ],
+    "pricklyByType": {
+      "*-stingingnettle-normal": true,
+      "*": false
+    }
+  },
+  "texturesByType": {
+    "*-stingingnettle-*": {
+      "leaves": { "base": "wildcraft:block/plant/stingingnettle_{state}" }
+    },
+    "*-minerslettuce-*": {
+      "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/minerlettucebase" },
+      "stems": { "base": "wildcraft:block/plant/leafygroundvegetable/minerlettucebase" }
+    }
+  },
+	"creativeinventory": { "general": ["*-normal"], "flora": ["*-normal"] },
+  "shapeByType": {
+    "*-stingingnettle-*": { "base": "wildcraft:block/plant/stingingnettle/stingingnettle_{state}*" },
+    "*": { "base": "wildcraft:block/plant/leafygroundvegetable/{type}_{state}*" }
+
+  },
+	"renderpass": "OpaqueNoCull",
+	"renderAlphaTest": 0.4,
+	"blockmaterial": "Plant",
+	"randomizeRotations": true,
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 1.5,
+	"collisionbox": null,
+	"selectionBox": { "x1": 0 , "y1": 0, "z1": 0, "x2": 1, "y2": 0.25, "z2": 1 },
+	"guiTransform": {
+		"rotation": { "x": -22, "y": 107, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+		"scale": 2
+	},
+	"groundTransform": {
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 2.5
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.93, "y": -0.17, "z": -0.8 },
+		"rotation": { "x": 15, "y": -10, "z": -114 },
+		"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+		"scale": 0.58
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant"
+	},
+	"vertexFlags": {
+		"leavesWindWave": true
+	},
+	"materialDensity": 200,
+	"frostable": true,
+  "dropsByType": {
+    "*-stingingnettle-*": [
+      {
+        "type": "item",
+        "code": "wildcraft:nettle",
+        "quantity": { "avg": 1.8 }
+      }
+    ],
+    "*": [
+      {
+        "type": "item",
+        "code": "wildcraft:minerslettuce",
+        "quantity": { "avg": 1.1 }
+      }
+    ]
+  }
+}

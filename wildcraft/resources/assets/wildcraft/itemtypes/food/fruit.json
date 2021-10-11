@@ -1,0 +1,300 @@
+{
+  "code": "fruit",
+  "maxstacksize": 64,
+  "variantgroups": [
+    { "loadFromProperties": "wildcraft:block/fruit" }
+  ],
+  "materialDensityByType": {
+    "*-cranberry": 600
+  },
+  "attributes": {
+    "nutritionPropsWhenInMealByType": {
+      "*-brambleberry": {
+        "satiety": 100,
+        "health": 0,
+        "foodcategory": "Fruit"
+      },
+      "*-dogrose": {
+        "satiety": 40,
+        "foodcategory": "Fruit"
+      },
+      "*-gooseberry": {
+        "satiety": 100,
+        "foodcategory": "Fruit"
+      },
+      "*-honeysuckle": {
+        "satiety": 100,
+        "foodcategory": "Fruit"
+      },
+      "*-snowberry": {
+        "satiety": 60,
+        "health": -5,
+        "foodcategory": "Fruit"
+      },
+      "*-elderberry": {
+        "satiety": 80,
+        "health": 0,
+        "foodcategory": "Fruit"
+      },
+      "*-strawberry": {
+        "satiety": 100,
+        "foodcategory": "Fruit"
+      },
+      "*-cloudberry": {
+        "satiety": 140,
+        "foodcategory": "Fruit"
+      },
+      "*-raspberry": {
+        "satiety": 100,
+        "foodcategory": "Fruit"
+      },
+      "*": {
+        "satiety": 80,
+        "foodcategory": "Fruit"
+      }
+    },
+    "inPieProperties": {
+      "texture": "block/food/pie/fill-{fruit}",
+      "partType": "Filling"
+    },
+    "juicableProperties": {
+      "quantity": 4,
+      "liquidStack": {
+        "type": "item",
+        "code": "juiceportion-{fruit}",
+        "stacksize": 1
+      }
+    }
+  },
+  "shapebytype": {
+    "*-pineapple": { "base": "item/food/fruit/pineapple-slice" }
+  },
+  "texture": { "base": "wildcraft:items/fruit/{fruit}" },
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ]
+  },
+  "nutritionPropsByType": {
+    "*-brambleberry": {
+      "satiety": 80,
+      "health": 0,
+      "foodcategory": "Fruit"
+    },
+    "*-dogrose": {
+      "satiety": 20,
+      "foodcategory": "Fruit"
+    },
+    "*-gooseberry": {
+      "satiety": 80,
+      "foodcategory": "Fruit"
+    },
+    "*-honeysuckle": {
+      "satiety": 80,
+      "foodcategory": "Fruit"
+    },
+    "*-snowberry": {
+      "satiety": 60,
+      "health": -5,
+      "foodcategory": "Fruit"
+    },
+    "*-elderberry": {
+      "satiety": 60,
+      "health": -0.5,
+      "foodcategory": "Fruit"
+    },
+    "*-strawberry": {
+      "satiety": 80,
+      "foodcategory": "Fruit"
+    },
+    "*-cloudberry": {
+      "satiety": 120,
+      "foodcategory": "Fruit"
+    },
+    "*-raspberry": {
+      "satiety": 80,
+      "foodcategory": "Fruit"
+    },
+    "*": {
+      "satiety": 60,
+      "foodcategory": "Fruit"
+    }
+  },
+  "transitionablePropsByType": {
+    "*-snowberry": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 72 },
+        "transitionHours": { "avg": 12 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 0.25
+      }
+    ],
+    "*-cloudberry": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 6 },
+        "transitionHours": { "avg": 2 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 0.25
+      }
+    ],
+    "*-strawberry": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 24 },
+        "transitionHours": { "avg": 12 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 0.25
+      }
+    ],
+    "*-elderberry": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 68 },
+        "transitionHours": { "avg": 12 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 0.25
+      }
+    ],
+    "*-huckleberry": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 96 },
+        "transitionHours": { "avg": 12 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 0.25
+      }
+    ],
+    "*-honeysuckle": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 24 },
+        "transitionHours": { "avg": 12 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 0.25
+      }
+    ],
+    "*-dogrose": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 336 },
+        "transitionHours": { "avg": 168 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 0.25
+      }
+    ],
+    "*": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 48 },
+        "transitionHours": { "avg": 12 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 0.25
+      }
+    ]
+  },
+  "guiTransformByType": {
+    "*-pineapple": {
+      "translation": {
+        "x": 2,
+        "y": 3,
+        "z": 0
+      },
+      "rotation": {
+        "x": 127,
+        "y": 180,
+        "z": 23
+      },
+      "origin": {
+        "x": 0.55,
+        "y": 0.05,
+        "z": 0.5
+      },
+      "scale": 2.04
+    }
+  },
+  "fpHandTransformByType": {
+    "*-pineapple": {
+      "translation": {
+        "x": 0,
+        "y": 0.22,
+        "z": 0
+      },
+      "rotation": {
+        "x": 31,
+        "y": 10,
+        "z": 2
+      },
+      "origin": {
+        "x": 0.7,
+        "y": 0.1,
+        "z": 0.5
+      },
+      "scale": 1.74
+    }
+  },
+  "tpHandTransformByType": {
+    "*-pineapple": {
+      "translation": {
+        "x": -1.85,
+        "y": -0.23,
+        "z": -1.61
+      },
+      "rotation": {
+        "x": 124,
+        "y": -42,
+        "z": -65
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.1,
+        "z": 0.5
+      },
+      "scale": 0.26
+    }
+  },
+  "groundTransformByType": {
+    "*-pineapple": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -3
+      },
+      "origin": {
+        "x": 0.47,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 2.35
+    }
+  }
+}
