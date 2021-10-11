@@ -9,7 +9,7 @@
   "variantgroups": [
     {
       "code": "type",
-      "states": [ "huckleberry", "snowberry", "raspberry", "brambleberry", "dogrose", "gooseberry", "honeysuckle", "elderberry", "blueraspberry", "redcurrant", "blackcurrant", "whitecurrant", "blueberry", "cranberry", "strawberry", "cloudberry" ]
+      "states": [ "huckleberry", "snowberry", "raspberry", "brambleberry", "dogrose", "gooseberry", "honeysuckle", "elderberry", "blueraspberry", "redcurrant", "blackcurrant", "whitecurrant", "blueberry", "cranberry"]
     },
     {
       "code": "state",
@@ -17,7 +17,7 @@
     }
   ],
   "transitionablePropsByType": {
-    "@clipping-(huckleberry|snowberry|raspberry|brambleberry|dogrose|gooseberry|honeysuckle|elderberry|blueraspberry|blackcurrant|whitecurrant|redcurrant|blueberry|cranberry)-green": [
+    "*-green": [
       {
         "type": "Perish",
         "freshHours": { "avg": 12 },
@@ -31,8 +31,6 @@
     ]
   },
   "textureByType": {
-    "*-strawberry-*": { "base": "wildcraft:items/clipping/strawberry_seeds" },
-    "*-cloudberry-*": { "base": "wildcraft:items/clipping/cloudberry_seeds" },
     "*": { "base": "wildcraft:items/clipping/clipping_{state}" }
   },
   "materialDensity": 200,

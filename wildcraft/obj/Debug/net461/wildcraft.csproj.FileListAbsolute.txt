@@ -7,3 +7,12 @@ D:\11modding11\wildcraft\obj\Debug\net461\wildcraft.csproj.CoreCompileInputs.cac
 D:\11modding11\wildcraft\obj\Debug\net461\wildcraft.dll
 D:\11modding11\wildcraft\obj\Debug\net461\wildcraft.pdb
 D:\11modding11\wildcraft\obj\Debug\net461\wildcraft.GeneratedMSBuildEditorConfig.editorconfig
+D:\VSMods\Wildcraft\wildcraft\bin\Debug\net461\wildcraft.dll
+D:\VSMods\Wildcraft\wildcraft\bin\Debug\net461\wildcraft.pdb
+D:\VSMods\Wildcraft\wildcraft\obj\Debug\net461\wildcraft.csproj.AssemblyReference.cache
+D:\VSMods\Wildcraft\wildcraft\obj\Debug\net461\wildcraft.GeneratedMSBuildEditorConfig.editorconfig
+D:\VSMods\Wildcraft\wildcraft\obj\Debug\net461\wildcraft.AssemblyInfoInputs.cache
+D:\VSMods\Wildcraft\wildcraft\obj\Debug\net461\wildcraft.AssemblyInfo.cs
+D:\VSMods\Wildcraft\wildcraft\obj\Debug\net461\wildcraft.csproj.CoreCompileInputs.cache
+D:\VSMods\Wildcraft\wildcraft\obj\Debug\net461\wildcraft.dll
+D:\VSMods\Wildcraft\wildcraft\obj\Debug\net461\wildcraft.pdb

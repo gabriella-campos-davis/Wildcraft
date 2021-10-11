@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\11modding11\\wildcraft\\wildcraft.csproj",
+      "projectUniqueName": "D:\\VSMods\\Wildcraft\\wildcraft\\wildcraft.csproj",
       "projectName": "wildcraft",
-      "projectPath": "D:\\11modding11\\wildcraft\\wildcraft.csproj",
+      "projectPath": "D:\\VSMods\\Wildcraft\\wildcraft\\wildcraft.csproj",
       "packagesPath": "C:\\Users\\gcamp\\.nuget\\packages\\",
-      "outputPath": "D:\\11modding11\\wildcraft\\obj\\",
+      "outputPath": "D:\\VSMods\\Wildcraft\\wildcraft\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gcamp\\AppData\\Roaming\\NuGet\\NuGet.Config",

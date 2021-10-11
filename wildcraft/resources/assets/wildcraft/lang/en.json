@@ -36,13 +36,12 @@
   "item-clipping-blueraspberry-green": "Blue Raspberry clipping (green)",
   "item-clipping-snowberry-green": "Snowberry clipping (green)",
   "item-clipping-brambleberry-green": "Brambleberry clipping (green)",
-  "item-clipping-cloudberry-green": "Cloudberry seed",
   "item-clipping-dogrose-green": "Dogrose clipping (green)",
   "item-clipping-elderberry-green": "Elderberry clipping (green)",
   "item-clipping-gooseberry-green": "Gooseberry clipping (green)",
   "item-clipping-honeysuckle-green": "Honeysuckle clipping (green)",
   "item-clipping-raspberry-green": "Raspberry clipping (green)",
-  "item-clipping-strawberry-green": "Strawberry seed",
+  
 
   "item-clipping-blackcurrant-green": "Black currant clipping (green)",
   "item-clipping-redcurrant-green": "Red currant clipping (green)",
@@ -67,6 +66,9 @@
   "item-clipping-whitecurrant-dry": "White currant clipping (dry)",
   "item-clipping-blueberry-dry": "Blueberry clipping (dry)",
   "item-clipping-cranberry-dry": "Cranberry clipping (dry)",
+
+  "item-seeds-strawberry": "Strawberry seeds",
+  "item-seeds-cloudberry": "Cloudberry seeds",
 
   "block-clipping-huckleberry": "Huckleberry (Growing)",
   "block-clipping-blueraspberry": "Blue Raspberry (Growing)",
