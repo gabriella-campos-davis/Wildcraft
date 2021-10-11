@@ -1,0 +1,128 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"strawberry1": "block/plant/berrybush/leaves/strawberry1"
+	},
+	"elements": [
+		{
+			"name": "Leaves2",
+			"from": [ 10.0042, 1.7, 4.9937 ], 
+			"to": [ 14.0042, 1.7, 8.9937 ], 
+			"climateColorMap": "climatePlantTint",
+			"seasonColorMap": "seasonalFoliage",
+			"rotationOrigin": [ 10.0042, -0.3, 4.9937 ],
+			"rotationX": 24.14866825398205,
+			"rotationY": 20.70482049985859,
+			"rotationZ": -9.007171064863078,
+			"faces": {
+				"north": { "texture": "#leaves", "uv": [ 0.0, 18.0, 16.0, 34.0 ], "enabled": false, "autoUv": false },
+				"east": { "texture": "#leaves", "uv": [ 0.0, -17.5, 16.0, -2.0 ], "enabled": false, "autoUv": false },
+				"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
+				"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
+				"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
+				"down": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false }
+			}
+		},
+		{
+			"name": "Leaves",
+			"from": [ 10.7696, 0.0, 6.8415 ], 
+			"to": [ 14.7696, 0.0, 10.8415 ], 
+			"climateColorMap": "climatePlantTint",
+			"seasonColorMap": "seasonalFoliage",
+			"rotationOrigin": [ 10.7696, 0.0, 6.8415 ],
+			"rotationX": -24.14867307897135,
+			"rotationY": 20.704818674413737,
+			"rotationZ": 9.007169261928237,
+			"faces": {
+				"north": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.5 ], "enabled": false, "autoUv": false },
+				"east": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
+				"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
+				"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
+				"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
+				"down": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false }
+			}
+		},
+		{
+			"name": "Leaves6",
+			"from": [ 5.0063, 1.7, 9.0042 ], 
+			"to": [ 9.0063, 1.7, 13.0042 ], 
+			"climateColorMap": "climatePlantTint",
+			"seasonColorMap": "seasonalFoliage",
+			"rotationOrigin": [ 5.0063, -0.3, 9.0042 ],
+			"rotationX": 47.26577874882291,
+			"rotationY": -58.60028458455186,
+			"rotationZ": 42.73419778429084,
+			"faces": {
+				"north": { "texture": "#leaves", "uv": [ 0.0, 18.0, 16.0, 34.0 ], "enabled": false, "autoUv": false },
+				"east": { "texture": "#leaves", "uv": [ 0.0, -17.5, 16.0, -2.0 ], "enabled": false, "autoUv": false },
+				"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
+				"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
+				"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
+				"down": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false }
+			}
+		},
+		{
+			"name": "Leaves7",
+			"from": [ 3.1585, 0.0, 9.7696 ], 
+			"to": [ 7.1585, 0.0, 13.7696 ], 
+			"climateColorMap": "climatePlantTint",
+			"seasonColorMap": "seasonalFoliage",
+			"rotationOrigin": [ 3.1585, 0.0, 9.7696 ],
+			"rotationX": -47.265773567763134,
+			"rotationY": -58.60027802973603,
+			"rotationZ": -42.734191295406525,
+			"faces": {
+				"north": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.5 ], "enabled": false, "autoUv": false },
+				"east": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
+				"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
+				"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
+				"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
+				"down": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false }
+			}
+		},
+		{
+			"name": "Leaves10",
+			"from": [ 2.463, 1.7, 4.6997 ], 
+			"to": [ 6.463, 1.7, 8.6997 ], 
+			"climateColorMap": "climatePlantTint",
+			"seasonColorMap": "seasonalFoliage",
+			"rotationOrigin": [ 2.463, -0.3, 4.6997 ],
+			"rotationX": 47.2658072697938,
+			"rotationY": 58.60030424900671,
+			"rotationZ": -42.7342272465983,
+			"faces": {
+				"north": { "texture": "#leaves", "uv": [ 0.0, 18.0, 16.0, 34.0 ], "enabled": false, "autoUv": false },
+				"east": { "texture": "#leaves", "uv": [ 0.0, -17.5, 16.0, -2.0 ], "enabled": false, "autoUv": false },
+				"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
+				"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
+				"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
+				"down": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false }
+			}
+		},
+		{
+			"name": "Leaves11",
+			"from": [ 4.3108, 0.0, 5.4651 ], 
+			"to": [ 8.3108, 0.0, 9.4651 ], 
+			"climateColorMap": "climatePlantTint",
+			"seasonColorMap": "seasonalFoliage",
+			"rotationOrigin": [ 4.3108, 0.0, 5.4651 ],
+			"rotationX": -47.26580208872562,
+			"rotationY": 58.60028458455186,
+			"rotationZ": 42.73422075770591,
+			"faces": {
+				"north": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.5 ], "enabled": false, "autoUv": false },
+				"east": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
+				"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
+				"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
+				"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
+				"down": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false }
+			}
+		}
+	]}

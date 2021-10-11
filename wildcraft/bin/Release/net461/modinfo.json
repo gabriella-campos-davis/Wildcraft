@@ -1,0 +1,12 @@
+{
+    "type": "code",
+    "modid": "wildcraft",
+    "name": "wildcraft",
+    "author": "Unknown",
+    "description": "",
+    "version": "1.0.2",
+    "dependency": {
+      "game": ""
+    }
+  }
+  

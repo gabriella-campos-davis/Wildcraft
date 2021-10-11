@@ -1,0 +1,15 @@
+{
+	"code": "seeds",
+	"class": "ItemClipping",
+	"maxstacksize": 64,
+	"variantgroups": [
+		{ "code": "type", "states": [ "strawberry", "cloudberry" ] }
+	],
+	"texture": { "base": "items/seeds/{type}" },
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"fpHandTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 180, "y": 90, "z": 13 }
+	},
+	"materialDensity": 450
+}

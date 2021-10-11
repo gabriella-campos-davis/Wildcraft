@@ -1,0 +1,133 @@
+{
+  "code": "clipping",
+  "class": "Clipping",
+  "entityclass": "BlockEntityClipping",
+  "attributes": {
+    "matureDays": {
+      "avg": 7,
+      "var": 2
+    }
+  },
+  "variantgroups": [
+    {
+      "code": "type",
+      "states": [ "huckleberry", "snowberry", "raspberry", "brambleberry", "dogrose", "gooseberry", "honeysuckle", "elderberry", "blueraspberry", "redcurrant", "blackcurrant", "whitecurrant", "blueberry", "cranberry", "strawberry", "cloudberry" ]
+    }
+  ],
+  "creativeinventory": {
+    "general": [ "*" ],
+    "flora": [ "*" ]
+  },
+  "renderpass": "OpaqueNoCull",
+  "drawtype": "JSON",
+  "randomDrawOffset": true,
+  "randomizeRotations": true,
+  "shapeByType": {
+    "*-strawberry": { "base": "wildcraft:block/plant/clipping/clipping_groundplant" },
+    "*-cloudberry": { "base": "wildcraft:block/plant/clipping/clipping_groundplant" },
+    "*": { "base": "wildcraft:block/plant/clipping/clipping" }
+  },
+  "blockmaterial": "Plant",
+  "sideopaqueByType": {
+    "*": { "all": false }
+  },
+  "sidesolid": {
+    "all": false
+  },
+  "texturesByType": {
+    "*-blackcurrant": {
+      "leaves": { "base": "game:block/plant/berrybush/leaves/{type}*" }
+    },
+    "*-redcurrant": {
+      "leaves": { "base": "game:block/plant/berrybush/leaves/{type}*" }
+    },
+    "*-whitecurrant": {
+      "leaves": { "base": "game:block/plant/berrybush/leaves/redcurrant*" }
+    },
+    "*-blueberry": {
+      "leaves": { "base": "game:block/plant/berrybush/leaves/{type}*" }
+    },
+    "*-cranberry": {
+      "leaves": { "base": "game:block/plant/berrybush/leaves/{type}*" }
+    },
+    "*": {
+      "leaves": { "base": "wildcraft:block/plant/berrybush/leaves/{type}*" }
+    }
+  },
+  "replaceable": 5200,
+  "lightAbsorption": 0,
+  "resistance": 1,
+  "collisionbox": null,
+  "selectionbox": {
+    "x1": 0.3,
+    "y1": 0,
+    "z1": 0.2,
+    "x2": 0.7,
+    "y2": 0.5,
+    "z2": 0.7
+  },
+  "sounds": {
+    "place": "block/plant",
+    "break": "block/plant",
+    "hit": "block/plant"
+  },
+  "rainPermeable": true,
+  "materialDensity": 200,
+  "combustibleProps": {
+    "burnTemperature": 600,
+    "burnDuration": 10
+  },
+  "guiTransformByType": {
+    "*": {
+      "rotation": {
+        "x": -22,
+        "y": -44,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.28,
+        "z": 0.5
+      },
+      "scale": 2.6
+    }
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -1.3,
+      "y": -1,
+      "z": -1
+    },
+    "rotation": {
+      "x": 2,
+      "y": -12,
+      "z": -105
+    },
+    "scale": 0.5
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": -45,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0,
+      "z": 0.5
+    },
+    "scale": 3
+  },
+  "frostable": true,
+  "__comment": "Wind wave looks not good on ground and horrible in planters and flower post",
+  "vertexFlags": {
+    "weakWave": true,
+    "grassWindWave": false,
+    "leavesWindWave": false
+  }
+}

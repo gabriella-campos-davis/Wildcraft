@@ -1,0 +1,70 @@
+[
+	{ "file": "game:blocktypes/plant/bigberrybush", "op": "replace", "path": "/class", "value": "BerryBush" },
+  { "file": "game:blocktypes/plant/bigberrybush", "op": "add", "path": "/behaviorsByType", "value": {
+    "*-ripe": [
+      {
+        "name": "Harvestable",
+        "properties": {
+          "harvestTime": 0.6,
+          "harvestedStack": {
+            "type": "item",
+            "code": "fruit-{type}",
+            "quantity": { "avg": 2.2 }
+          },
+          "harvestedBlockCode": "bigberrybush-{type}-empty"
+        }
+      }
+    ],
+    "*-flowering": [
+      {
+        "name": "BehaviorClippable",
+        "properties": {
+          "harvestTime": 0.8,
+          "harvestedStack": {
+            "type": "item",
+            "code": "wildcraft:clipping-{type}-green",
+            "quantity": { "avg": 1.0 }
+          },
+          "harvestedBlockCode": "bigberrybush-{type}-empty"
+        }
+      }
+    ]
+    }
+  },
+  { "file": "game:blocktypes/plant/bigberrybush", "op": "remove", "path": "/dropsByType/*-ripe/0" },
+  { "file": "game:blocktypes/plant/bigberrybush", "op": "remove", "path": "/dropsByType/*"},
+  { "file": "game:blocktypes/plant/smallberrybush", "op": "replace", "path": "/class", "value": "BerryBush" },
+  { "file": "game:blocktypes/plant/smallberrybush", "op": "add", "path": "/behaviorsByType", "value": {
+    "*-ripe": [
+      {
+        "name": "Harvestable",
+        "properties": {
+          "harvestTime": 0.6,
+          "harvestedStack": {
+            "type": "item",
+            "code": "fruit-{type}",
+            "quantity": { "avg": 2.2 }
+          },
+          "harvestedBlockCode": "smallberrybush-{type}-empty"
+        }
+      }
+    ],
+    "*-flowering": [
+      {
+        "name": "BehaviorClippable",
+        "properties": {
+          "harvestTime": 0.8,
+          "harvestedStack": {
+            "type": "item",
+            "code": "wildcraft:clipping-{type}-green",
+            "quantity": { "avg": 1.0 }
+          },
+          "harvestedBlockCode": "smallberrybush-{type}-empty"
+        }
+      }
+    ]
+    }
+  },
+  { "file": "game:blocktypes/plant/smallberrybush", "op": "remove", "path": "/dropsByType/*-ripe/0" },
+  { "file": "game:blocktypes/plant/smallberrybush", "op": "remove", "path": "/dropsByType/*"}
+]
