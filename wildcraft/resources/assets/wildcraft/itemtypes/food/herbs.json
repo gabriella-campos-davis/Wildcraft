@@ -1,0 +1,44 @@
+{
+    "code": "herbs",
+    "maxstacksize": 64,
+    "variantgroups": [
+        { "code": "type", "states": ["minerslettuce", "stingingnettle", "basil", "mint", "cilantro", "dill", "blackpepper", "saffron", "sage", "sedge", "marshmallow", "mugwort"] }
+    ],
+    "materialDensityByType": {
+      "*": 600
+    },
+    "attributes": {
+      "nutritionPropsWhenInMealByType": {
+        "*": {
+          "satiety": 1,
+          "foodcategory": "Vegetable"
+        }
+      }
+    },
+    "texture": { "base": "wildcraft:items/herbs/{type}" },
+    "creativeinventory": {
+      "general": [ "*" ],
+      "items": [ "*" ]
+    },
+    "nutritionPropsByType": {
+      "*": {
+        "satiety": 1,
+        "foodcategory": "Fruit"
+      }
+    },
+    "transitionablePropsByType": {
+      "*": [
+        {
+          "type": "Perish",
+          "freshHours": { "avg": 48 },
+          "transitionHours": { "avg": 12 },
+          "transitionedStack": {
+            "type": "item",
+            "code": "game:rot"
+          },
+          "transitionRatio": 0.25
+        }
+      ]
+    }
+  }
+  

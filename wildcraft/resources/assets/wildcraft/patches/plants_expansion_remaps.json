@@ -38,8 +38,8 @@
       "/iir remapq wildcraft:fruit-blueraspberry plantexpansion:fruit-blueraspberry force",
       "/iir remapq wildcraft:fruit-snowberry plantexpansion:fruit-snowberry force",
 
-      "/iir remapq wildcraft:seeds-strawberry wildcraft:item-clipping-strawberry-green",
-      "/iir remapq wildcraft:seeds-cloudberry wildcraft:item-clipping-cloudberry-green"
+      "/iir remapq wildcraft:seeds-strawberry wildcraft:item-clipping-strawberry-green force",
+      "/iir remapq wildcraft:seeds-cloudberry wildcraft:item-clipping-cloudberry-green force"
     ]
 	}
 ]

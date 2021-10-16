@@ -1,5 +1,6 @@
 [
 	{ "file": "game:blocktypes/plant/bigberrybush", "op": "replace", "path": "/class", "value": "BerryBush" },
+  { "file": "game:blocktypes/plant/bigberrybush", "op": "replace", "path": "/entityclass", "value": "BlockEntityWCBerryBush" },
   { "file": "game:blocktypes/plant/bigberrybush", "op": "add", "path": "/behaviorsByType", "value": {
     "*-ripe": [
       {
@@ -34,6 +35,7 @@
   { "file": "game:blocktypes/plant/bigberrybush", "op": "remove", "path": "/dropsByType/*-ripe/0" },
   { "file": "game:blocktypes/plant/bigberrybush", "op": "remove", "path": "/dropsByType/*"},
   { "file": "game:blocktypes/plant/smallberrybush", "op": "replace", "path": "/class", "value": "BerryBush" },
+  { "file": "game:blocktypes/plant/smallberrybush", "op": "replace", "path": "/entityclass", "value": "BlockEntityWCBerryBush" },
   { "file": "game:blocktypes/plant/smallberrybush", "op": "add", "path": "/behaviorsByType", "value": {
     "*-ripe": [
       {

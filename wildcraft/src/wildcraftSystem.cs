@@ -18,15 +18,13 @@ namespace wildcraft
             api.RegisterBlockClass("LeafyGroundVegetable", typeof(LeafyGroundVegetable));
 
             api.RegisterBlockClass("Clipping", typeof(Clipping));
-            //api.RegisterBlockClass("Clipping", typeof(Seedling));
 
             api.RegisterBlockEntityClass("BlockEntityClipping", typeof(BlockEntityClipping));
-            //api.RegisterBlockEntityClass("BlockEntityClipping", typeof(BlockEntitySeedling));
+            api.RegisterBlockEntityClass("BlockEntityWCBerryBush", typeof(BlockEntityWCBerryBush));
 
             api.RegisterBlockBehaviorClass("BehaviorClippable", typeof(BehaviorClippable));
 
             api.RegisterItemClass("ItemClipping", typeof(ItemClipping));
-            //api.RegisterItemClass("ItemClipping", typeof(ItemSeed));
         }
         public override void StartServerSide(ICoreServerAPI api)
         {

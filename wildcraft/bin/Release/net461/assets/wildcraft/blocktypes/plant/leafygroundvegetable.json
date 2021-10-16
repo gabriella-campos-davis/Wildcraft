@@ -3,7 +3,7 @@
 	"class": "LeafyGroundVegetable",
 	"entityClass": "Transient",
 	"variantgroups": [
-		{ "code": "type", "states": ["minerslettuce", "stingingnettle"] },
+		{ "code": "type", "states": ["minerslettuce", "stingingnettle", "basil", "mint", "cilantro", "dill", "blackpepper", "saffron", "sage", "sedge", "marshmallow", "mugwort"] },
 		{ "code": "state", "states": ["normal", "harvested"] }
 	],
   "attributes": {
@@ -27,23 +27,24 @@
     "immuneCreatures": [ "game:chicken-baby", "game:chicken-hen", "game:chicken-rooster", "game:fox-arctic-female", "game:fox-arctic-male", "game:fox-female", "game:fox-male", "game:fox-pup", "game:hare-baby", "game:hare-female", "game:hare-male", "game:pig-wild-female", "game:pig-wild-male", "game:pig-wild-piglet", "game:raccoon-male", "game:raccoon-female", "game:raccoon-pup", "game:sheep-bighorn-female", "game:sheep-bighorn-lamb", "game:sheep-bighorn-male" ],
     "pricklyByType": {
       "*-stingingnettle-normal": true,
+      "*-sedge-normal": true,
       "*": false
     }
   },
   "texturesByType": {
-    "*-stingingnettle-*": {
-      "leaves": { "base": "wildcraft:block/plant/stingingnettle_{state}" }
-    },
     "*-minerslettuce-*": {
       "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/minerlettucebase" },
       "stems": { "base": "wildcraft:block/plant/leafygroundvegetable/minerlettucebase" }
+    },
+    "*": {
+      "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/{state}/{type}*" }
     }
   },
 	"creativeinventory": { "general": ["*-normal"], "flora": ["*-normal"] },
   "shapeByType": {
-    "*-stingingnettle-*": { "base": "wildcraft:block/plant/stingingnettle/stingingnettle_{state}*" },
-    "*": { "base": "wildcraft:block/plant/leafygroundvegetable/{type}_{state}*" }
-
+    "*-minerslettuce-*": { "base": "wildcraft:block/plant/leafygroundvegetable/minerslettuce_{state}*" },
+    "*-stiningnettle-*": { "base": "wildcraft:block/plant/stingingnettle/stingingnettle_{state}*" },
+    "*": {"base": "wildcraft:block/plant/leafygroundvegetable/normal*"}
   },
 	"renderpass": "OpaqueNoCull",
 	"renderAlphaTest": 0.4,
@@ -93,10 +94,17 @@
         "quantity": { "avg": 1.8 }
       }
     ],
-    "*": [
+    "*-minerslettuce-*": [
       {
         "type": "item",
         "code": "wildcraft:minerslettuce",
+        "quantity": { "avg": 1.1 }
+      }
+    ],
+    "*": [
+      {
+        "type": "item",
+        "code": "wildcraft:herbs-{type}",
         "quantity": { "avg": 1.1 }
       }
     ]

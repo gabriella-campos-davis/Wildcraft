@@ -14,15 +14,8 @@ namespace wildcraft
     public class LeafyGroundVegetable : BlockPlant
     {
         WorldInteraction[] interactions = null;
-
-        /// <summary>
-        /// Code part indicating a non harvested, fully grown mushroom
-        /// </summary>
         public static readonly string normalCodePart = "normal";
 
-        /// <summary>
-        /// Code part indicating a harvested mushroom
-        /// </summary>
         public static readonly string harvestedCodePart = "harvested";
 
         public static float speedMulti = 2;
