@@ -3,8 +3,8 @@
 	"class": "LeafyGroundVegetable",
 	"entityClass": "Transient",
 	"variantgroups": [
-		{ "code": "type", "states": ["minerslettuce", "stingingnettle", "basil", "mint", "cilantro", "dill", "blackpepper", "saffron", "sage", "sedge", "marshmallow", "mugwort"] },
-		{ "code": "state", "states": ["normal", "harvested"] }
+		{ "loadFromProperties": "wildcraft:block/herbs" },
+		{ "code": "state", "states": ["harvested", "normal"] }
 	],
   "attributes": {
     "transientPropsByType": {
@@ -36,15 +36,25 @@
       "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/minerlettucebase" },
       "stems": { "base": "wildcraft:block/plant/leafygroundvegetable/minerlettucebase" }
     },
+    "*-burdock-*":{
+      "burdock_stem": {"base": "wildcraft:block/plant/leafygroundvegetable/burdock_stem"},
+      "burdock_flowers": {"base": "wildcraft:block/plant/leafygroundvegetable/burdock_flowers"},
+      "burdock_leaf_small": {"base": "wildcraft:block/plant/leafygroundvegetable/burdock_leaf_small"},
+      "burdock_leaf_big": {"base": "wildcraft:block/plant/leafygroundvegetable/burdock_leaf_big"}
+      
+    },
     "*": {
-      "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/{state}/{type}*" }
+      "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/{state}/{herbs}*" }
     }
   },
 	"creativeinventory": { "general": ["*-normal"], "flora": ["*-normal"] },
   "shapeByType": {
     "*-minerslettuce-*": { "base": "wildcraft:block/plant/leafygroundvegetable/minerslettuce_{state}*" },
-    "*-stiningnettle-*": { "base": "wildcraft:block/plant/stingingnettle/stingingnettle_{state}*" },
-    "*": {"base": "wildcraft:block/plant/leafygroundvegetable/normal*"}
+    "*-stingingnettle-*": { "base": "wildcraft:block/plant/stingingnettle/stingingnettle_{state}*" },
+    "*-mugwort-*": {"base": "wildcraft:block/plant/leafygroundvegetable/bushy_{state}"},
+    "*-sedge-*": {"base": "wildcraft:block/plant/leafygroundvegetable/bushy_{state}"},
+    "*-burdock-normal*": {"base": "wildcraft:block/plant/leafygroundvegetable/burdock_{state}*"},
+    "*": {"base": "wildcraft:block/plant/leafygroundvegetable/default_{state}*"}
   },
 	"renderpass": "OpaqueNoCull",
 	"renderAlphaTest": 0.4,
@@ -104,7 +114,7 @@
     "*": [
       {
         "type": "item",
-        "code": "wildcraft:herbs-{type}",
+        "code": "wildcraft:herbs-{herbs}",
         "quantity": { "avg": 1.1 }
       }
     ]

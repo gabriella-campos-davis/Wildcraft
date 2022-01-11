@@ -1,0 +1,22 @@
+[
+  {
+    "op": "add",
+    "path": "/ingredients/4/validStacks/13",
+    "value": {
+      "type": "item",
+      "code": "wildcraft:herbs-*",
+      "shapeElement": "bowl/fruit 1/*"
+    },
+    "file": "game:recipes/cooking/meatystew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/13",
+    "value": {
+      "type": "item",
+      "code": "wildcraft:herbs-*",
+      "shapeElement": "bowl/fruit 2/*"
+    },
+    "file": "game:recipes/cooking/meatystew.json"
+  }
+]

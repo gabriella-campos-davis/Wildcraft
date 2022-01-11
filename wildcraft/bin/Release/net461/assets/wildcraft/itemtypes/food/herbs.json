@@ -2,28 +2,47 @@
     "code": "herbs",
     "maxstacksize": 64,
     "variantgroups": [
-        { "code": "type", "states": ["minerslettuce", "stingingnettle", "basil", "mint", "cilantro", "dill", "blackpepper", "saffron", "sage", "sedge", "marshmallow", "mugwort"] }
+      { "loadFromProperties": "wildcraft:block/herbs" }
     ],
     "materialDensityByType": {
       "*": 600
     },
     "attributes": {
       "nutritionPropsWhenInMealByType": {
+        "*-mustard": {
+          "satiety": 65,
+          "health": 2,
+          "foodcategory": "Vegetable"
+        },
+        "*-basil": {
+          "satiety": 45,
+          "health": 3.5,
+          "foodcategory": "Vegetable"
+        },
         "*": {
-          "satiety": 1,
+          "satiety": 55,
+          "health": 1,
           "foodcategory": "Vegetable"
         }
       }
     },
-    "texture": { "base": "wildcraft:items/herbs/{type}" },
+    "texture": { "base": "wildcraft:items/herbs/{herbs}" },
     "creativeinventory": {
       "general": [ "*" ],
       "items": [ "*" ]
     },
     "nutritionPropsByType": {
+      "*-mustard": {
+        "satiety": 45,
+        "foodcategory": "Vegetable"
+      },
+      "*-basil": {
+        "satiety": 25,
+        "foodcategory": "Vegetable"
+      },
       "*": {
-        "satiety": 1,
-        "foodcategory": "Fruit"
+        "satiety": 35,
+        "foodcategory": "Vegetable"
       }
     },
     "transitionablePropsByType": {

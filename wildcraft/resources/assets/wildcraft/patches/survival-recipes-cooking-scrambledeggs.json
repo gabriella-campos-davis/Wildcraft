@@ -1,0 +1,22 @@
+[
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/13",
+    "value": {
+      "type": "item",
+      "code": "wildcraft:herbs-*",
+      "shapeElement": "bowl/fruit"
+    },
+    "file": "game:recipes/cooking/scrambledeggs.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/4/validStacks/12",
+    "value": {
+      "type": "item",
+      "code": "wildcraft:herbs-*",
+      "shapeElement": "bowl/fruit"
+    },
+    "file": "game:recipes/cooking/scrambledeggs.json"
+  }
+]

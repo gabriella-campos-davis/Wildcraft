@@ -95,7 +95,7 @@
     "*-elderberry-*": { "base": "wildcraft:block/plant/berrybush/{state}/shrubberrybush_{state}" },
     "*-strawberry-*": { "base": "wildcraft:block/plant/berrybush/{state}/groundberrybush_{state}" },
     "*-cloudberry-*": { "base": "wildcraft:block/plant/berrybush/{state}/groundberrybush_{state}" },
-    "*": { "base": "game:block/plant/berrybush_{state}" }
+    "*": { "base": "game:block/plant/berrybush/large_{state}" }
   },
   "blockmaterial": "Plant",
   "texturesByType": {

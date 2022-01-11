@@ -106,11 +106,84 @@
   "item-minerslettuce": "Miner's Lettuce'",
   "item-nettle": "Nettle",
 
+  "recipeingredient-item-herbs-mustard-insturmentalcase": "mustard",
+  "recipeingredient-item-herbs-mustard": "mustard",
+  "meal-ingredient-soup-primary-herbs-mustard": "Mustard",
+  "meal-ingredient-soup-secondary-herbs-mustard": "mustard",
+
+  "meal-ingredient-soup-primary-herbs": "herbal",
+  "meal-ingredient-soup-secondary-herbs": "herbal",
+
+  "item-herbs-mustard":"Bundle of Mustard",
+
   "block-leafygroundvegetable-minerslettuce-normal": "Miner's Lettuce",
   "block-leafygroundvegetable-minerslettuce-harvested": "Miner's Lettuce (Growing)",
 
   "block-leafygroundvegetable-stingingnettle-normal": "Stinging Nettle",
   "block-leafygroundvegetable-stingingnettle-harvested": "Stinging Nettle (Growing)",
+
+  "block-leafygroundvegetable-basil-normal": "Basil",
+  "block-leafygroundvegetable-basil-harvested": "Basil (Growing)",
+
+  "block-leafygroundvegetable-bearleek-normal": "Bearleek",
+  "block-leafygroundvegetable-bearleek-harvested": "Bearleek (Growing)",
+
+  "block-leafygroundvegetable-blackpepper-normal": "Black pepper",
+  "block-leafygroundvegetable-blackpepper-harvested": "Black pepper (Growing)",
+
+  "block-leafygroundvegetable-celery-normal": "Celery",
+  "block-leafygroundvegetable-celery-harvested": "Celery (Growing)",
+
+  "block-leafygroundvegetable-dill-normal": "Dill",
+  "block-leafygroundvegetable-dill-harvested": "Dill (Growing)",
+
+  "block-leafygroundvegetable-chamomile-normal": "Chamomile",
+  "block-leafygroundvegetable-chamomile-harvested": "Chamomile (Growing)",
+
+  "block-leafygroundvegetable-cilantro-normal": "Cilantro",
+  "block-leafygroundvegetable-cilantro-harvested": "Cilantro (Growing)",
+
+  "block-leafygroundvegetable-dock-normal": "Dock",
+  "block-leafygroundvegetable-dock-harvested": "Dock (Growing)",
+
+  "block-leafygroundvegetable-lavender-normal": "Lavender",
+  "block-leafygroundvegetable-lavender-harvested": "Lavender (Growing)",
+
+  "block-leafygroundvegetable-marjoram-normal": "Marjoram",
+  "block-leafygroundvegetable-marjoram-harvested": "Marjoram (Growing)",
+
+  "block-leafygroundvegetable-marshmallow-normal": "Marshmallow",
+  "block-leafygroundvegetable-marshmallow-harvested": "Marshmallow (Growing)",
+
+  "block-leafygroundvegetable-mint-normal": "Mint",
+  "block-leafygroundvegetable-mint-harvested": "Mint (Growing)",
+
+  "block-leafygroundvegetable-mustard-normal": "Mustard",
+  "block-leafygroundvegetable-mustard-harvested": "Mustard (Growing)",
+
+  "block-leafygroundvegetable-rosemary-normal": "Rosemary",
+  "block-leafygroundvegetable-rosemary-harvested": "Rosemary (Growing)",
+
+  "block-leafygroundvegetable-saffron-normal": "Saffron",
+  "block-leafygroundvegetable-saffron-harvested": "Saffron (Growing)",
+
+  "block-leafygroundvegetable-sage-normal": "Sage",
+  "block-leafygroundvegetable-sage-harvested": "Sage (Growing)",
+
+  "block-leafygroundvegetable-sedge-normal": "Sedge",
+  "block-leafygroundvegetable-sedge-harvested": "Sedge (Growing)",
+
+  "block-leafygroundvegetable-stjohnswort-normal": "St John's Wort",
+  "block-leafygroundvegetable-stjohnswort-harvested": "St John's Wort (Growing)",
+
+  "block-leafygroundvegetable-thyme-normal": "Thyme",
+  "block-leafygroundvegetable-thyme-harvested": "Thyme (Growing)",
+
+  "block-leafygroundvegetable-mugwort-normal": "Mugwort",
+  "block-leafygroundvegetable-mugwort-harvested": "Mugwort (Growing)",
+
+  "block-leafygroundvegetable-burdock-normal": "Burdock",
+  "block-leafygroundvegetable-burdock-harvested": "Burdock (Growing)",
 
   "block-berrybush-huckleberry-empty": "Huckleberry Bush (Empty)",
   "block-berrybush-huckleberry-flowering": "Huckleberry Bush (Flowering)",
@@ -157,6 +230,7 @@
   "block-berrybush-cloudberry-ripe": "Cloudberry Plant (Ripe)",
 
   "heldhelp-plant": "Plant",
+  "heldhelp-seedextraction": "Extract seeds",
   "Will grow in less than a day": "Will grow in less than a day",
   "Will grow in about {0} days": "Will grow in about {0} days",
 

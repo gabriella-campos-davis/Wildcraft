@@ -1,0 +1,624 @@
+[  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of minerslettuce",
+      "blockCodes": [
+        "wildcraft:leafygroundvegetable-minerslettuce-normal",
+        "wildcraft:leafygroundvegetable-minerslettuce-normal",
+        "wildcraft:leafygroundvegetable-minerslettuce-harvested"
+      ],
+      "minTemp": 0,
+      "maxTemp": 20,
+      "minRain": 0.4,
+      "maxRain": 1,
+      "minFertility": 0.35,
+      "maxFertility": 1.0,
+      "chance": 0.095,
+      "minForest": 0.5,
+      "maxForest": 1,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 6,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of stinging nettle",
+      "blockCodes": [
+        "wildcraft:leafygroundvegetable-stingingnettle-normal",
+        "wildcraft:leafygroundvegetable-stingingnettle-normal",
+        "wildcraft:leafygroundvegetable-stingingnettle-harvested"
+      ],
+      "minTemp": 0,
+      "maxTemp": 20,
+      "minRain": 0.4,
+      "maxRain": 1,
+      "minFertility": 0.35,
+      "maxFertility": 1.0,
+      "chance": 0.08,
+      "minForest": 0.5,
+      "maxForest": 1,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of basil in warm wet areas (tropical)",
+      "blockCodes": [
+        "wildcraft:leafygroundvegetable-basil-normal",
+        "wildcraft:leafygroundvegetable-basil-normal",
+        "wildcraft:leafygroundvegetable-basil-harvested"
+      ],
+      "minTemp": 20,
+      "maxTemp": 42,
+      "minRain": 0.4,
+      "maxRain": 1,
+      "minFertility": 0.15,
+      "maxFertility": 1.0,
+      "chance": 0.08,
+      "minForest": 0.5,
+      "maxForest": 1,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of black pepper in warm wet areas (tropical)",
+      "blockCodes": [
+        "wildcraft:leafygroundvegetable-blackpepper-normal",
+        "wildcraft:leafygroundvegetable-blackpepper-normal",
+        "wildcraft:leafygroundvegetable-blackpepper-harvested"
+      ],
+      "minTemp": 20,
+      "maxTemp": 42,
+      "minRain": 0.4,
+      "maxRain": 1,
+      "minFertility": 0.15,
+      "maxFertility": 1.0,
+      "chance": 0.08,
+      "minForest": 0.5,
+      "maxForest": 1,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of bearleek in temperate wodded/wet areas ",
+      "blockCodes": [
+        "wildcraft:leafygroundvegetable-bearleek-normal",
+        "wildcraft:leafygroundvegetable-bearleek-normal",
+        "wildcraft:leafygroundvegetable-bearleek-harvested"
+      ],
+      "minTemp": 2,
+      "maxTemp": 22,
+      "minRain": 0.4,
+      "maxRain": 1,
+      "minFertility": 0.15,
+      "maxFertility": 1.0,
+      "chance": 0.08,
+      "minForest": 0.25,
+      "maxForest": 1,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of chamomile in temperate dry fields",
+      "blockCodes": [
+        "wildcraft:leafygroundvegetable-chamomile-normal",
+        "wildcraft:leafygroundvegetable-chamomile-normal",
+        "wildcraft:leafygroundvegetable-chamomile-harvested"
+      ],
+      "minTemp": 2,
+      "maxTemp": 22,
+      "minRain": 0.0,
+      "maxRain": 0.35,
+      "minFertility": 0.15,
+      "maxFertility": 1.0,
+      "chance": 0.08,
+      "minForest": 0.0,
+      "maxForest": 0.35,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of marshmallow in temperate areas near water",
+      "blockCodes": [
+        "wildcraft:leafygroundvegetable-marshmallow-normal",
+        "wildcraft:leafygroundvegetable-marshmallow-normal",
+        "wildcraft:leafygroundvegetable-marshmallow-harvested"
+      ],
+      "minTemp": 2,
+      "maxTemp": 22,
+      "minRain": 0.35,
+      "maxRain": 1.0,
+      "minFertility": 0.35,
+      "maxFertility": 1.0,
+      "chance": 0.08,
+      "minForest": 0.0,
+      "maxForest": 0.75,
+      "maxY": 0.62,
+      "placement": "NearWater",
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of sedge in temperate areas near water",
+      "blockCodes": [
+        "wildcraft:leafygroundvegetable-sedge-normal",
+        "wildcraft:leafygroundvegetable-sedge-normal",
+        "wildcraft:leafygroundvegetable-sedge-harvested"
+      ],
+      "minTemp": -8,
+      "maxTemp": 24,
+      "minRain": 0.55,
+      "maxRain": 1.0,
+      "minFertility": 0.10,
+      "maxFertility": 1.0,
+      "chance": 0.12,
+      "maxForest": 0.9,
+      "maxY": 0.62,
+      "placement": "NearWater",
+      "quantity": {
+        "avg": 8,
+        "var": 16
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of burdock in temperate areas near water",
+      "blockCodes": [
+        "wildcraft:leafygroundvegetable-burdock-normal",
+        "wildcraft:leafygroundvegetable-burdock-normal",
+        "wildcraft:leafygroundvegetable-burdock-harvested"
+      ],
+      "minTemp": -2,
+      "maxTemp": 22,
+      "minRain": 0.35,
+      "maxRain": 1.0,
+      "minFertility": 0.15,
+      "maxFertility": 1.0,
+      "chance": 0.08,
+      "minForest": 0.0,
+      "maxForest": 1.0,
+      "maxY": 0.62,
+      "placement": "NearWater",
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of cilantro in temperate areas",
+      "blockCodes": [
+        "wildcraft:leafygroundvegetable-cilantro-normal",
+        "wildcraft:leafygroundvegetable-cilantro-normal",
+        "wildcraft:leafygroundvegetable-cilantro-harvested"
+      ],
+      "minTemp": 2,
+      "maxTemp": 22,
+      "minRain": 0.35,
+      "maxRain": 1,
+      "minFertility": 0.35,
+      "maxFertility": 1.0,
+      "chance": 0.08,
+      "minForest": 0.15,
+      "maxForest": 1.0,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of stjohnswort in temperate clear areas",
+      "blockCodes": [
+        "wildcraft:leafygroundvegetable-stjohnswort-normal",
+        "wildcraft:leafygroundvegetable-stjohnswort-normal",
+        "wildcraft:leafygroundvegetable-stjohnswort-harvested"
+      ],
+      "minTemp": 4,
+      "maxTemp": 32,
+      "minRain": 0.35,
+      "maxRain": 1,
+      "minFertility": 0.15,
+      "maxFertility": 0.55,
+      "chance": 0.08,
+      "minForest": 0.05,
+      "maxForest": 0.45,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of thyme in temperate clear areas",
+      "blockCodes": [
+        "wildcraft:leafygroundvegetable-thyme-normal",
+        "wildcraft:leafygroundvegetable-thyme-normal",
+        "wildcraft:leafygroundvegetable-thyme-harvested"
+      ],
+      "minTemp": 2,
+      "maxTemp": 28,
+      "minRain": 0.25,
+      "maxRain": 1.0,
+      "minFertility": 0.15,
+      "maxFertility": 0.55,
+      "chance": 0.08,
+      "minForest": 0.05,
+      "maxForest": 0.45,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of mugwort in temperate clear and forestsed areas",
+      "blockCodes": [
+        "wildcraft:leafygroundvegetable-mugwort-normal",
+        "wildcraft:leafygroundvegetable-mugwort-normal",
+        "wildcraft:leafygroundvegetable-mugwort-harvested"
+      ],
+      "minTemp": 2,
+      "maxTemp": 28,
+      "minRain": 0.35,
+      "maxRain": 1.0,
+      "minFertility": 0.35,
+      "maxFertility": 1.0,
+      "chance": 0.08,
+      "minForest": 0.05,
+      "maxForest": 0.75,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of mint in temperate areas",
+      "blockCodes": [
+        "wildcraft:leafygroundvegetable-mint-normal",
+        "wildcraft:leafygroundvegetable-mint-normal",
+        "wildcraft:leafygroundvegetable-mint-harvested"
+      ],
+      "minTemp": 0,
+      "maxTemp": 24,
+      "minRain": 0.35,
+      "maxRain": 1,
+      "minFertility": 0.35,
+      "maxFertility": 1.0,
+      "chance": 0.08,
+      "minForest": 0.15,
+      "maxForest": 1.0,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of lavender in temperate areas",
+      "blockCodes": [
+        "wildcraft:leafygroundvegetable-lavender-normal",
+        "wildcraft:leafygroundvegetable-lavender-normal",
+        "wildcraft:leafygroundvegetable-lavender-harvested"
+      ],
+      "minTemp": 2,
+      "maxTemp": 26,
+      "minRain": 0.15,
+      "maxRain": 0.75,
+      "minFertility": 0.1,
+      "maxFertility": 0.9,
+      "chance": 0.08,
+      "minForest": 0.15,
+      "maxForest": 1.0,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of mustard in temperate areas",
+      "blockCodes": [
+        "wildcraft:leafygroundvegetable-mustard-normal",
+        "wildcraft:leafygroundvegetable-mustard-normal",
+        "wildcraft:leafygroundvegetable-mustard-harvested"
+      ],
+      "minTemp": 0,
+      "maxTemp": 22,
+      "minRain": 0.35,
+      "maxRain": 1.0,
+      "minFertility": 0.35,
+      "maxFertility": 1.0,
+      "chance": 0.08,
+      "minForest": 0.25,
+      "maxForest": 1.0,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of celery",
+      "blockCodes": [
+        "wildcraft:leafygroundvegetable-celery-normal",
+        "wildcraft:leafygroundvegetable-celery-normal",
+        "wildcraft:leafygroundvegetable-celery-harvested"
+      ],
+      "minTemp": 2,
+      "maxTemp": 22,
+      "minRain": 0.65,
+      "maxRain": 1,
+      "minFertility": 0.55,
+      "maxFertility": 1.0,
+      "chance": 0.08,
+      "minForest": 0.0,
+      "maxForest": 0.5,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of saffron",
+      "blockCodes": [
+        "wildcraft:leafygroundvegetable-saffron-normal",
+        "wildcraft:leafygroundvegetable-saffron-normal",
+        "wildcraft:leafygroundvegetable-saffron-harvested"
+      ],
+      "minTemp": 2,
+      "maxTemp": 22,
+      "minRain": 0.45,
+      "maxRain": 0.9,
+      "minFertility": 0.55,
+      "maxFertility": 1.0,
+      "chance": 0.08,
+      "minForest": 0.0,
+      "maxForest": 0.55,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of sage",
+      "blockCodes": [
+        "wildcraft:leafygroundvegetable-sage-normal",
+        "wildcraft:leafygroundvegetable-sage-normal",
+        "wildcraft:leafygroundvegetable-sage-harvested"
+      ],
+      "minTemp": 4,
+      "maxTemp": 28,
+      "minRain": 0.15,
+      "maxRain": 0.75,
+      "minFertility": 0.35,
+      "maxFertility": 1.0,
+      "chance": 0.08,
+      "minForest": 0.0,
+      "maxForest": 0.35,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of dill",
+      "blockCodes": [
+        "wildcraft:leafygroundvegetable-dill-normal",
+        "wildcraft:leafygroundvegetable-dill-normal",
+        "wildcraft:leafygroundvegetable-dill-harvested"
+      ],
+      "minTemp": 6,
+      "maxTemp": 28,
+      "minRain": 0.65,
+      "maxRain": 1,
+      "minFertility": 0.55,
+      "maxFertility": 1.0,
+      "chance": 0.08,
+      "minForest": 0.0,
+      "maxForest": 0.5,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of rosemary",
+      "blockCodes": [
+        "wildcraft:leafygroundvegetable-rosemary-normal",
+        "wildcraft:leafygroundvegetable-rosemary-normal",
+        "wildcraft:leafygroundvegetable-rosemary-harvested"
+      ],
+      "minTemp": 6,
+      "maxTemp": 28,
+      "minRain": 0.15,
+      "maxRain": 0.85,
+      "minFertility": 0.15,
+      "maxFertility": 0.85,
+      "chance": 0.08,
+      "minForest": 0.0,
+      "maxForest": 0.5,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of marjoram",
+      "blockCodes": [
+        "wildcraft:leafygroundvegetable-marjoram-normal",
+        "wildcraft:leafygroundvegetable-marjoram-normal",
+        "wildcraft:leafygroundvegetable-marjoram-harvested"
+      ],
+      "minTemp": 8,
+      "maxTemp": 32,
+      "minRain": 0.65,
+      "maxRain": 1,
+      "minFertility": 0.45,
+      "maxFertility": 1.0,
+      "chance": 0.08,
+      "minForest": 0.0,
+      "maxForest": 0.35,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of dock",
+      "blockCodes": [
+        "wildcraft:leafygroundvegetable-dock-normal",
+        "wildcraft:leafygroundvegetable-dock-normal",
+        "wildcraft:leafygroundvegetable-dock-harvested"
+      ],
+      "minTemp": 2,
+      "maxTemp": 32,
+      "minRain": 0.15,
+      "maxRain": 1,
+      "minFertility": 0.15,
+      "maxFertility": 1.0,
+      "chance": 0.08,
+      "minForest": 0.0,
+      "maxForest": 0.35,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  }
+]

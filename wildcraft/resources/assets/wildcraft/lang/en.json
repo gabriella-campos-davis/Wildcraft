@@ -106,11 +106,191 @@
   "item-minerslettuce": "Miner's Lettuce'",
   "item-nettle": "Nettle",
 
+  "recipeingredient-item-herbs-mustard-insturmentalcase": "mustard",
+  "recipeingredient-item-herbs-mustard": "mustard",
+  "meal-ingredient-soup-primary-herbs-mustard": "Mustard",
+  "meal-ingredient-soup-secondary-herbs-mustard": "mustard",
+
+  "item-herbs-mustard":"Mustard",
+
+  "recipeingredient-item-herbs-basil-insturmentalcase": "basil",
+  "recipeingredient-item-herbs-basil": "basil",
+
+  "item-herbs-basil":"Basil",
+
+  "recipeingredient-item-herbs-bearleek-insturmentalcase": "bearleek",
+  "recipeingredient-item-herbs-bearleek": "bearleek",
+
+  "item-herbs-bearleek":"Bearleek",
+
+  "recipeingredient-item-herbs-blackpepper-insturmentalcase": "blackpepper",
+  "recipeingredient-item-herbs-blackpepper": "blackpepper",
+
+  "item-herbs-blackpepper":"Blackpepper",
+
+  "recipeingredient-item-herbs-celery-insturmentalcase": "celery",
+  "recipeingredient-item-herbs-celery": "celery",
+
+  "item-herbs-celery":"Celery",
+
+  "recipeingredient-item-herbs-chamomile-insturmentalcase": "chamomile",
+  "recipeingredient-item-herbs-chamomile": "chamomile",
+
+  "item-herbs-chamomile":"Chamomile",
+
+  "recipeingredient-item-herbs-cilantro-insturmentalcase": "cilantro",
+  "recipeingredient-item-herbs-cilantro": "cilantro",
+
+  "item-herbs-cilantro":"Cilantro",
+
+  "recipeingredient-item-herbs-dill-insturmentalcase": "dill",
+  "recipeingredient-item-herbs-dill": "dill",
+
+  "item-herbs-dill":"Dill",
+
+  "recipeingredient-item-herbs-dock-insturmentalcase": "dock",
+  "recipeingredient-item-herbs-dock": "dock",
+
+  "item-herbs-dock":"Dock",
+
+  "recipeingredient-item-herbs-marjoram-insturmentalcase": "marjoram",
+  "recipeingredient-item-herbs-marjoram": "marjoram",
+
+  "item-herbs-marjoram":"Marjoram",
+
+  "recipeingredient-item-herbs-lavender-insturmentalcase": "lavender",
+  "recipeingredient-item-herbs-lavender": "lavender",
+
+  "item-herbs-lavender":"Lavender",
+
+  "recipeingredient-item-herbs-marshmallow-insturmentalcase": "marshmallow",
+  "recipeingredient-item-herbs-marshmallow": "marshmallow",
+
+  "item-herbs-marshmallow":"Marshmallow",
+
+  "recipeingredient-item-herbs-mint-insturmentalcase": "mint",
+  "recipeingredient-item-herbs-mint": "mint",
+
+  "item-herbs-mint":"Mint",
+
+  "recipeingredient-item-herbs-rosemary-insturmentalcase": "rosemary",
+  "recipeingredient-item-herbs-rosemary": "rosemary",
+
+  "item-herbs-rosemary":"Rosemary",
+
+  "recipeingredient-item-herbs-saffron-insturmentalcase": "saffron",
+  "recipeingredient-item-herbs-saffron": "saffron",
+
+  "item-herbs-saffron":"Saffron",
+
+  "recipeingredient-item-herbs-sedge-insturmentalcase": "sedge",
+  "recipeingredient-item-herbs-sedge": "sedge",
+
+  "item-herbs-sedge":"Sedge",
+
+  "recipeingredient-item-herbs-sage-insturmentalcase": "sage",
+  "recipeingredient-item-herbs-sage": "sage",
+
+  "item-herbs-sage":"Sage",
+
+  "recipeingredient-item-herbs-stingingnettle-insturmentalcase": "nettle",
+  "recipeingredient-item-herbs-stingingnettle": "nettle",
+
+  "item-herbs-stingingnettle":"Nettle",
+
+  "recipeingredient-item-herbs-stjohnswort-insturmentalcase": "st john's wort",
+  "recipeingredient-item-herbs-stjohnswort": "st john's wort",
+
+  "item-herbs-stjohnswort":"St John's Wort",
+
+  "recipeingredient-item-herbs-thyme-insturmentalcase": "thyme",
+  "recipeingredient-item-herbs-thyme": "thyme",
+
+  "item-herbs-thyme":"Thyme",
+
+  "recipeingredient-item-herbs-minerslettuce-insturmentalcase": "miner's lettuce",
+  "recipeingredient-item-herbs-minerslettuce": "miner's lettuce",
+
+  "item-herbs-minerslettuce":"Miner's Lettuce",
+
+  "recipeingredient-item-herbs-mugwort-insturmentalcase": "mugwort",
+  "recipeingredient-item-herbs-mugwort": "mugwort",
+
+  "item-herbs-mugwort":"Mugwort",
+
+  "recipeingredient-item-herbs-burdock-insturmentalcase": "burdock",
+  "recipeingredient-item-herbs-burdock": "burdock",
+
+  "item-herbs-burdock":"Burdock",
+
   "block-leafygroundvegetable-minerslettuce-normal": "Miner's Lettuce",
   "block-leafygroundvegetable-minerslettuce-harvested": "Miner's Lettuce (Growing)",
 
   "block-leafygroundvegetable-stingingnettle-normal": "Stinging Nettle",
   "block-leafygroundvegetable-stingingnettle-harvested": "Stinging Nettle (Growing)",
+
+  "block-leafygroundvegetable-basil-normal": "Basil",
+  "block-leafygroundvegetable-basil-harvested": "Basil (Growing)",
+
+  "block-leafygroundvegetable-bearleek-normal": "Bearleek",
+  "block-leafygroundvegetable-bearleek-harvested": "Bearleek (Growing)",
+
+  "block-leafygroundvegetable-blackpepper-normal": "Black pepper",
+  "block-leafygroundvegetable-blackpepper-harvested": "Black pepper (Growing)",
+
+  "block-leafygroundvegetable-celery-normal": "Celery",
+  "block-leafygroundvegetable-celery-harvested": "Celery (Growing)",
+
+  "block-leafygroundvegetable-dill-normal": "Dill",
+  "block-leafygroundvegetable-dill-harvested": "Dill (Growing)",
+
+  "block-leafygroundvegetable-chamomile-normal": "Chamomile",
+  "block-leafygroundvegetable-chamomile-harvested": "Chamomile (Growing)",
+
+  "block-leafygroundvegetable-cilantro-normal": "Cilantro",
+  "block-leafygroundvegetable-cilantro-harvested": "Cilantro (Growing)",
+
+  "block-leafygroundvegetable-dock-normal": "Dock",
+  "block-leafygroundvegetable-dock-harvested": "Dock (Growing)",
+
+  "block-leafygroundvegetable-lavender-normal": "Lavender",
+  "block-leafygroundvegetable-lavender-harvested": "Lavender (Growing)",
+
+  "block-leafygroundvegetable-marjoram-normal": "Marjoram",
+  "block-leafygroundvegetable-marjoram-harvested": "Marjoram (Growing)",
+
+  "block-leafygroundvegetable-marshmallow-normal": "Marshmallow",
+  "block-leafygroundvegetable-marshmallow-harvested": "Marshmallow (Growing)",
+
+  "block-leafygroundvegetable-mint-normal": "Mint",
+  "block-leafygroundvegetable-mint-harvested": "Mint (Growing)",
+
+  "block-leafygroundvegetable-mustard-normal": "Mustard",
+  "block-leafygroundvegetable-mustard-harvested": "Mustard (Growing)",
+
+  "block-leafygroundvegetable-rosemary-normal": "Rosemary",
+  "block-leafygroundvegetable-rosemary-harvested": "Rosemary (Growing)",
+
+  "block-leafygroundvegetable-saffron-normal": "Saffron",
+  "block-leafygroundvegetable-saffron-harvested": "Saffron (Growing)",
+
+  "block-leafygroundvegetable-sage-normal": "Sage",
+  "block-leafygroundvegetable-sage-harvested": "Sage (Growing)",
+
+  "block-leafygroundvegetable-sedge-normal": "Sedge",
+  "block-leafygroundvegetable-sedge-harvested": "Sedge (Growing)",
+
+  "block-leafygroundvegetable-stjohnswort-normal": "St John's Wort",
+  "block-leafygroundvegetable-stjohnswort-harvested": "St John's Wort (Growing)",
+
+  "block-leafygroundvegetable-thyme-normal": "Thyme",
+  "block-leafygroundvegetable-thyme-harvested": "Thyme (Growing)",
+
+  "block-leafygroundvegetable-mugwort-normal": "Mugwort",
+  "block-leafygroundvegetable-mugwort-harvested": "Mugwort (Growing)",
+
+  "block-leafygroundvegetable-burdock-normal": "Burdock",
+  "block-leafygroundvegetable-burdock-harvested": "Burdock (Growing)",
 
   "block-berrybush-huckleberry-empty": "Huckleberry Bush (Empty)",
   "block-berrybush-huckleberry-flowering": "Huckleberry Bush (Flowering)",
@@ -157,6 +337,7 @@
   "block-berrybush-cloudberry-ripe": "Cloudberry Plant (Ripe)",
 
   "heldhelp-plant": "Plant",
+  "heldhelp-seedextraction": "Extract seeds",
   "Will grow in less than a day": "Will grow in less than a day",
   "Will grow in about {0} days": "Will grow in about {0} days",
 

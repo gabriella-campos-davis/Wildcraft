@@ -1,10 +1,10 @@
 {
     "type": "code",
     "modid": "wildcraft",
-    "name": "wildcraft",
-    "author": "Unknown",
-    "description": "",
-    "version": "1.0.3",
+    "name": "Wildcraft",
+    "author": "gabb",
+    "description": "Adds new plants to the game",
+    "version": "1.1.0",
     "dependency": {
       "game": ""
     }
