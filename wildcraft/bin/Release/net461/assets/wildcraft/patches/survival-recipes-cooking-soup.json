@@ -1,7 +1,7 @@
 [
   {
     "op": "add",
-    "path": "/ingredients/1/validStacks/-",
+    "path": "/ingredients/1/validStacks/10",
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-minerslettuce",
@@ -11,7 +11,7 @@
   },
   {
     "op": "add",
-    "path": "/ingredients/1/validStacks/-",
+    "path": "/ingredients/1/validStacks/11",
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-sedge",
@@ -21,7 +21,7 @@
   },
   {
     "op": "add",
-    "path": "/ingredients/1/validStacks/-",
+    "path": "/ingredients/1/validStacks/12",
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-stingingnettle",
@@ -31,7 +31,7 @@
   },
   {
     "op": "add",
-    "path": "/ingredients/1/validStacks/-",
+    "path": "/ingredients/1/validStacks/13",
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-bearleek",
@@ -41,7 +41,7 @@
   },
   {
     "op": "add",
-    "path": "/ingredients/1/validStacks/-",
+    "path": "/ingredients/1/validStacks/14",
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-dock",
@@ -51,7 +51,7 @@
   },
   {
     "op": "add",
-    "path": "/ingredients/1/validStacks/-",
+    "path": "/ingredients/1/validStacks/15",
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-burdock",
@@ -61,7 +61,7 @@
   },
   {
     "op": "add",
-    "path": "/ingredients/1/validStacks/-",
+    "path": "/ingredients/1/validStacks/16",
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-celery",
@@ -71,7 +71,7 @@
   },
   {
     "op": "add",
-    "path": "/ingredients/1/validStacks/-",
+    "path": "/ingredients/1/validStacks/17",
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-mustard",
@@ -81,7 +81,7 @@
   },
   {
     "op": "add",
-    "path": "/ingredients/2/validStacks/-",
+    "path": "/ingredients/2/validStacks/10",
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-*",
@@ -91,7 +91,7 @@
   },
   {
     "op": "add",
-    "path": "/ingredients/3/validStacks/-",
+    "path": "/ingredients/3/validStacks/12",
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-*",

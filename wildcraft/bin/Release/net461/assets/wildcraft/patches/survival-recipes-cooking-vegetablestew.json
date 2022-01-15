@@ -5,7 +5,7 @@
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-minerslettuce",
-      "shapeElement": "bowl/vegetable 1/*"
+      "shapeElement": "bowl/fruit"
     },
     "file": "game:recipes/cooking/vegetablestew.json"
   },
@@ -15,7 +15,7 @@
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-sedge",
-      "shapeElement": "bowl/vegetable 1/*"
+      "shapeElement": "bowl/fruit"
     },
     "file": "game:recipes/cooking/vegetablestew.json"
   },
@@ -25,7 +25,7 @@
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-stingingnettle",
-      "shapeElement": "bowl/vegetable 1/*"
+      "shapeElement": "bowl/fruit"
     },
     "file": "game:recipes/cooking/vegetablestew.json"
   },
@@ -35,7 +35,7 @@
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-bearleek",
-      "shapeElement": "bowl/vegetable 1/*"
+      "shapeElement": "bowl/fruit"
     },
     "file": "game:recipes/cooking/vegetablestew.json"
   },
@@ -45,7 +45,7 @@
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-dock",
-      "shapeElement": "bowl/vegetable 1/*"
+      "shapeElement": "bowl/fruit"
     },
     "file": "game:recipes/cooking/vegetablestew.json"
   },
@@ -55,7 +55,7 @@
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-burdock",
-      "shapeElement": "bowl/vegetable 1/*"
+      "shapeElement": "bowl/fruit"
     },
     "file": "game:recipes/cooking/vegetablestew.json"
   },
@@ -65,7 +65,7 @@
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-celery",
-      "shapeElement": "bowl/vegetable 1/*"
+      "shapeElement": "bowl/fruit"
     },
     "file": "game:recipes/cooking/vegetablestew.json"
   },
@@ -75,7 +75,7 @@
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-mustard",
-      "shapeElement": "bowl/vegetable 1/*"
+      "shapeElement": "bowl/fruit"
     },
     "file": "game:recipes/cooking/vegetablestew.json"
   },

@@ -186,21 +186,212 @@
     },
     "file": "game:blocktypes/clay/pot.json"
   },
+
   {
     "op": "add",
-    "path": "/attributesByType/claypot-cooked/textureMapping/herbs-*",
+    "path": "/attributesByType/claypot-cooked/textureMapping/wildcraft:herbs-basil",
     "value": [
-      "vegetable", 
-      "herbs"
+      "vegetable",
+      "group10"
     ],
-    "file": "game:blocktypes/clay/pot.json"
+    "file": "blocktypes/clay/pot.json"
   },
   {
     "op": "add",
-    "path": "/texturesByType/*/herbs",
-    "value":{
-      "base":"wildcraft:block/food/pie/fill-generic"
-    },
-    "file": "game:blocktypes/clay/pot.json"
+    "path": "/attributesByType/claypot-cooked/textureMapping/wildcraft:herbs-bearleek",
+    "value": [
+      "vegetable",
+      "group10"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/wildcraft:herbs-blackpepper",
+    "value": [
+      "vegetable",
+      "group10"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/wildcraft:herbs-burdock",
+    "value": [
+      "vegetable",
+      "group10"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/wildcraft:herbs-celery",
+    "value": [
+      "vegetable",
+      "group10"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/wildcraft:herbs-chamomile",
+    "value": [
+      "vegetable",
+      "group10"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/wildcraft:herbs-cilantro",
+    "value": [
+      "vegetable",
+      "group10"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/wildcraft:herbs-dill",
+    "value": [
+      "vegetable",
+      "group10"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/wildcraft:herbs-dock",
+    "value": [
+      "vegetable",
+      "group10"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/wildcraft:herbs-lavender",
+    "value": [
+      "vegetable",
+      "group10"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/wildcraft:herbs-marjoram",
+    "value": [
+      "vegetable",
+      "group10"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/wildcraft:herbs-marshmallow",
+    "value": [
+      "vegetable",
+      "group10"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/wildcraft:herbs-minerslettuce",
+    "value": [
+      "vegetable",
+      "group10"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/wildcraft:herbs-mint",
+    "value": [
+      "vegetable",
+      "group10"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/wildcraft:herbs-mugwort",
+    "value": [
+      "vegetable",
+      "group10"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/wildcraft:herbs-mustard",
+    "value": [
+      "vegetable",
+      "group10"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/wildcraft:herbs-rosemary",
+    "value": [
+      "vegetable",
+      "group10"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/wildcraft:herbs-saffron",
+    "value": [
+      "vegetable",
+      "group10"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/wildcraft:herbs-sage",
+    "value": [
+      "vegetable",
+      "group10"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/wildcraft:herbs-sedge",
+    "value": [
+      "vegetable",
+      "group10"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/wildcraft:herbs-stingingnettle",
+    "value": [
+      "vegetable",
+      "group10"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/wildcraft:herbs-stjohnswort",
+    "value": [
+      "vegetable",
+      "group10"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/wildcraft:herbs-thyme",
+    "value": [
+      "vegetable",
+      "group10"
+    ],
+    "file": "blocktypes/clay/pot.json"
   }
 ]

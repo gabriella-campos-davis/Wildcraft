@@ -100,15 +100,15 @@
     "*-stingingnettle-*": [
       {
         "type": "item",
-        "code": "wildcraft:nettle",
+        "code": "wildcraft:herbs-{herbs}",
         "quantity": { "avg": 1.8 }
       }
     ],
     "*-minerslettuce-*": [
       {
         "type": "item",
-        "code": "wildcraft:minerslettuce",
-        "quantity": { "avg": 1.1 }
+        "code": "wildcraft:herbs-{herbs}",
+        "quantity": { "avg": 1.3 }
       }
     ],
     "*": [

@@ -1,22 +1,22 @@
 [
   {
     "op": "add",
-    "path": "/ingredients/3/validStacks/-",
+    "path": "/ingredients/4/validStacks/13",
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-*",
       "shapeElement": "bowl/vegetable 1/*"
     },
-    "file": "game:recipes/cooking/scrambledeggs.json"
+    "file": "game:recipes/cooking/meatystew.json"
   },
   {
     "op": "add",
-    "path": "/ingredients/4/validStacks/-",
+    "path": "/ingredients/5/validStacks/13",
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-*",
       "shapeElement": "bowl/vegetable 1/*"
     },
-    "file": "game:recipes/cooking/scrambledeggs.json"
+    "file": "game:recipes/cooking/meatystew.json"
   }
 ]
