@@ -1,101 +1,253 @@
 [
   {
     "op": "add",
-    "path": "/ingredients/1/validStacks/10",
+    "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-minerslettuce",
-      "shapeElement": "bowl/vegetable 1/*"
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
     },
     "file": "game:recipes/cooking/soup.json"
   },
   {
     "op": "add",
-    "path": "/ingredients/1/validStacks/11",
+    "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-sedge",
-      "shapeElement": "bowl/vegetable 1/*"
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
     },
     "file": "game:recipes/cooking/soup.json"
   },
   {
     "op": "add",
-    "path": "/ingredients/1/validStacks/12",
+    "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-stingingnettle",
-      "shapeElement": "bowl/vegetable 1/*"
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
     },
     "file": "game:recipes/cooking/soup.json"
   },
   {
     "op": "add",
-    "path": "/ingredients/1/validStacks/13",
+    "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-bearleek",
-      "shapeElement": "bowl/vegetable 1/*"
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
     },
     "file": "game:recipes/cooking/soup.json"
   },
   {
     "op": "add",
-    "path": "/ingredients/1/validStacks/14",
+    "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-dock",
-      "shapeElement": "bowl/vegetable 1/*"
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
     },
     "file": "game:recipes/cooking/soup.json"
   },
   {
     "op": "add",
-    "path": "/ingredients/1/validStacks/15",
+    "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-burdock",
-      "shapeElement": "bowl/vegetable 1/*"
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
     },
     "file": "game:recipes/cooking/soup.json"
   },
   {
     "op": "add",
-    "path": "/ingredients/1/validStacks/16",
+    "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-celery",
-      "shapeElement": "bowl/vegetable 1/*"
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
     },
     "file": "game:recipes/cooking/soup.json"
   },
   {
     "op": "add",
-    "path": "/ingredients/1/validStacks/17",
+    "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-mustard",
-      "shapeElement": "bowl/vegetable 1/*"
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
     },
     "file": "game:recipes/cooking/soup.json"
   },
   {
     "op": "add",
-    "path": "/ingredients/2/validStacks/10",
+    "path": "/ingredients/1/validStacks/-",
     "value": {
       "type": "item",
-      "code": "wildcraft:herbs-*",
-      "shapeElement": "bowl/vegetable 1/*"
+      "code": "wildcraft:herbs-minerslettuce",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
     },
     "file": "game:recipes/cooking/soup.json"
   },
   {
     "op": "add",
-    "path": "/ingredients/3/validStacks/12",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "wildcraft:herbs-sedge",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
+    },
+    "file": "game:recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "wildcraft:herbs-stingingnettle",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
+    },
+    "file": "game:recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "wildcraft:herbs-bearleek",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
+    },
+    "file": "game:recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "wildcraft:herbs-dock",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
+    },
+    "file": "game:recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "wildcraft:herbs-burdock",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
+    },
+    "file": "game:recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "wildcraft:herbs-celery",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
+    },
+    "file": "game:recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "wildcraft:herbs-mustard",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
+    },
+    "file": "game:recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-*",
-      "shapeElement": "bowl/vegetable 1/*"
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
+    },
+    "file": "game:recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "wildcraft:herbs-*",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
     },
     "file": "game:recipes/cooking/soup.json"
   }

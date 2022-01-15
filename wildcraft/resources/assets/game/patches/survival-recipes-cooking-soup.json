@@ -1,7 +1,7 @@
 [
   {
     "op": "add",
-    "path": "/ingredients/3/validStacks/-",
+    "path": "/ingredients/2/validStacks/-",
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-*",
@@ -11,11 +11,11 @@
         "group10"
       ]
     },
-    "file": "game:recipes/cooking/scrambledeggs.json"
+    "file": "game:recipes/cooking/soup.json"
   },
   {
     "op": "add",
-    "path": "/ingredients/4/validStacks/-",
+    "path": "/ingredients/3/validStacks/-",
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-*",
@@ -25,6 +25,6 @@
         "group10"
       ]
     },
-    "file": "game:recipes/cooking/scrambledeggs.json"
+    "file": "game:recipes/cooking/soup.json"
   }
 ]

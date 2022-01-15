@@ -108,10 +108,10 @@
 
   "recipeingredient-item-herbs-mustard-insturmentalcase": "mustard",
   "recipeingredient-item-herbs-mustard": "mustard",
-  "meal-ingredient-soup-primary-herbs-mustard": "Mustard",
-  "meal-ingredient-soup-secondary-herbs-mustard": "mustard",
-  "meal-ingredient-stew-primary-herbs-mustard": "Mustard",
-  "meal-ingredient-stew-secondary-herbs-mustard": "mustard",
+  "meal-ingredient-soup-primary-wildcraft:herbs-mustard": "Mustard",
+  "meal-ingredient-soup-secondary-wildcraft:herbs-mustard": "mustard",
+  "meal-ingredient-stew-primary-wildcraft:herbs-mustard": "Mustard",
+  "meal-ingredient-stew-secondary-wildcraft:herbs-mustard": "mustard",
 
   "item-herbs-mustard":"Mustard",
 
@@ -125,10 +125,10 @@
 
   "item-herbs-bearleek":"Bearleek",
 
-  "recipeingredient-item-herbs-blackpepper-insturmentalcase": "blackpepper",
-  "recipeingredient-item-herbs-blackpepper": "blackpepper",
+  "recipeingredient-item-herbs-blackpepper-insturmentalcase": "black pepper",
+  "recipeingredient-item-herbs-blackpepper": "black pepper",
 
-  "item-herbs-blackpepper":"Blackpepper",
+  "item-herbs-blackpepper":"Black pepper",
 
   "recipeingredient-item-herbs-celery-insturmentalcase": "celery",
   "recipeingredient-item-herbs-celery": "celery",
@@ -142,6 +142,7 @@
 
   "recipeingredient-item-herbs-cilantro-insturmentalcase": "cilantro",
   "recipeingredient-item-herbs-cilantro": "cilantro",
+  
 
   "item-herbs-cilantro":"Cilantro",
 
