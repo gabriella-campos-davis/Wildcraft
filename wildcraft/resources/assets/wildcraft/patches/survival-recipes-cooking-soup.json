@@ -1,6 +1,166 @@
 [
   {
     "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "wildcraft:herbs-minerslettuce",
+      "shapeElement": "bowl/vegetable 1/*"
+    },
+    "file": "game:recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "wildcraft:herbs-sedge",
+      "shapeElement": "bowl/vegetable 1/*"
+    },
+    "file": "game:recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "wildcraft:herbs-nettle",
+      "shapeElement": "bowl/vegetable 1/*"
+    },
+    "file": "game:recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "wildcraft:herbs-bearleek",
+      "shapeElement": "bowl/vegetable 1/*"
+    },
+    "file": "game:recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "wildcraft:herbs-dock",
+      "shapeElement": "bowl/vegetable 1/*"
+    },
+    "file": "game:recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "wildcraft:herbs-burdock",
+      "shapeElement": "bowl/vegetable 1/*"
+    },
+    "file": "game:recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "wildcraft:herbs-celery",
+      "shapeElement": "bowl/vegetable 1/*"
+    },
+    "file": "game:recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "wildcraft:herbs-mustard",
+      "shapeElement": "bowl/vegetable 1/*"
+    },
+    "file": "game:recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/13",
+    "value": {
+      "type": "item",
+      "code": "wildcraft:herbs-minerslettuce",
+      "shapeElement": "bowl/vegetable 1/*"
+    },
+    "file": "game:recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "wildcraft:herbs-sedge",
+      "shapeElement": "bowl/vegetable 1/*"
+    },
+    "file": "game:recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "wildcraft:herbs-nettle",
+      "shapeElement": "bowl/vegetable 1/*"
+    },
+    "file": "game:recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "wildcraft:herbs-bearleek",
+      "shapeElement": "bowl/vegetable 1/*"
+    },
+    "file": "game:recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "wildcraft:herbs-dock",
+      "shapeElement": "bowl/vegetable 1/*"
+    },
+    "file": "game:recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "wildcraft:herbs-burdock",
+      "shapeElement": "bowl/vegetable 1/*"
+    },
+    "file": "game:recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "wildcraft:herbs-celery",
+      "shapeElement": "bowl/vegetable 1/*"
+    },
+    "file": "game:recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "wildcraft:herbs-mustard",
+      "shapeElement": "bowl/vegetable 1/*"
+    },
+    "file": "game:recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
     "path": "/ingredients/2/validStacks/-",
     "value": {
       "type": "item",

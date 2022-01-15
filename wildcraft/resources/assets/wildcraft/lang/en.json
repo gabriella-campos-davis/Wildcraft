@@ -108,55 +108,35 @@
 
   "recipeingredient-item-herbs-mustard-instrumentalcase": "mustard",
   "recipeingredient-item-herbs-mustard": "mustard",
-  "meal-ingredient-soup-primary-herbs-mustard": "Mustard",
-  "meal-ingredient-soup-secondary-herbs-mustard": "mustard",
-  "meal-ingredient-stew-primary-herbs-mustard": "Mustard",
-  "meal-ingredient-stew-secondary-herbs-mustard": "mustard",
+  "meal-ingredient-soup-primary-wildcraft:herbs-mustard": "Mustard",
+  "meal-ingredient-soup-secondary-wildcraft:herbs-mustard": "mustard",
+  "meal-ingredient-stew-primary-wildcraft:herbs-mustard": "Mustard",
+  "meal-ingredient-stew-secondary-wildcraft:herbs-mustard": "mustard",
 
   "item-herbs-mustard":"Mustard",
 
   "recipeingredient-item-herbs-basil-instrumentalcase": "basil",
   "recipeingredient-item-herbs-basil": "basil",
-  "meal-ingredient-soup-primary-herbs-basil": "Basil",
-  "meal-ingredient-soup-secondary-herbs-basil": "basil",
-  "meal-ingredient-stew-primary-herbs-basil": "Basil",
-  "meal-ingredient-stew-secondary-herbs-basil": "basil",
 
   "item-herbs-basil":"Basil",
 
   "recipeingredient-item-herbs-bearleek-instrumentalcase": "bearleek",
   "recipeingredient-item-herbs-bearleek": "bearleek",
-  "meal-ingredient-soup-primary-herbs-bearleek": "Bearleek",
-  "meal-ingredient-soup-secondary-herbs-bearleek": "bearleek",
-  "meal-ingredient-stew-primary-herbs-bearleek": "Bearleek",
-  "meal-ingredient-stew-secondary-herbs-bearleek": "bearleek",
 
   "item-herbs-bearleek":"Bearleek",
 
   "recipeingredient-item-herbs-blackpepper-instrumentalcase": "black pepper",
   "recipeingredient-item-herbs-blackpepper": "black pepper",
-  "meal-ingredient-soup-primary-herbs-blackpepper": "Black Pepper",
-  "meal-ingredient-soup-secondary-herbs-blackpepper": "black pepper",
-  "meal-ingredient-stew-primary-herbs-blackpepper": "Black Pepper",
-  "meal-ingredient-stew-secondary-herbs-blackpepper": "black pepper",
 
   "item-herbs-blackpepper":"Black pepper",
 
   "recipeingredient-item-herbs-celery-instrumentalcase": "celery",
   "recipeingredient-item-herbs-celery": "celery",
-  "meal-ingredient-soup-primary-herbs-celery": "Celery",
-  "meal-ingredient-soup-secondary-herbs-celery": "celery",
-  "meal-ingredient-stew-primary-herbs-celery": "Celery",
-  "meal-ingredient-stew-secondary-herbs-celery": "celery",
 
   "item-herbs-celery":"Celery",
 
   "recipeingredient-item-herbs-chamomile-instrumentalcase": "chamomile",
   "recipeingredient-item-herbs-chamomile": "chamomile",
-  "meal-ingredient-soup-primary-herbs-chamomile": "Chamomile",
-  "meal-ingredient-soup-secondary-herbs-chamomile": "chamomile",
-  "meal-ingredient-stew-primary-herbs-chamomile": "Chamomile",
-  "meal-ingredient-stew-secondary-herbs-chamomile": "chamomile",
 
   "item-herbs-chamomile":"Chamomile",
 

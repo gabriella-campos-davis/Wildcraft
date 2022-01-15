@@ -194,7 +194,7 @@
       "vegetable",
       "group10"
     ],
-    "file": "blocktypes/clay/pot.json"
+    "file": "game:blocktypes/clay/pot.json"
   },
   {
     "op": "add",
@@ -203,7 +203,7 @@
       "vegetable",
       "group10"
     ],
-    "file": "blocktypes/clay/pot.json"
+    "file": "game:blocktypes/clay/pot.json"
   },
   {
     "op": "add",
@@ -212,7 +212,7 @@
       "vegetable",
       "group10"
     ],
-    "file": "blocktypes/clay/pot.json"
+    "file": "game:blocktypes/clay/pot.json"
   },
   {
     "op": "add",
@@ -221,7 +221,7 @@
       "vegetable",
       "group10"
     ],
-    "file": "blocktypes/clay/pot.json"
+    "file": "game:blocktypes/clay/pot.json"
   },
   {
     "op": "add",
@@ -230,7 +230,7 @@
       "vegetable",
       "group10"
     ],
-    "file": "blocktypes/clay/pot.json"
+    "file": "game:blocktypes/clay/pot.json"
   },
   {
     "op": "add",
@@ -239,7 +239,7 @@
       "vegetable",
       "group10"
     ],
-    "file": "blocktypes/clay/pot.json"
+    "file": "game:blocktypes/clay/pot.json"
   },
   {
     "op": "add",
@@ -248,7 +248,7 @@
       "vegetable",
       "group10"
     ],
-    "file": "blocktypes/clay/pot.json"
+    "file": "game:blocktypes/clay/pot.json"
   },
   {
     "op": "add",
@@ -257,7 +257,7 @@
       "vegetable",
       "group10"
     ],
-    "file": "blocktypes/clay/pot.json"
+    "file": "game:blocktypes/clay/pot.json"
   },
   {
     "op": "add",
@@ -266,7 +266,7 @@
       "vegetable",
       "group10"
     ],
-    "file": "blocktypes/clay/pot.json"
+    "file": "game:blocktypes/clay/pot.json"
   },
   {
     "op": "add",
@@ -275,7 +275,7 @@
       "vegetable",
       "group10"
     ],
-    "file": "blocktypes/clay/pot.json"
+    "file": "game:blocktypes/clay/pot.json"
   },
   {
     "op": "add",
@@ -284,7 +284,7 @@
       "vegetable",
       "group10"
     ],
-    "file": "blocktypes/clay/pot.json"
+    "file": "game:blocktypes/clay/pot.json"
   },
   {
     "op": "add",
@@ -293,7 +293,7 @@
       "vegetable",
       "group10"
     ],
-    "file": "blocktypes/clay/pot.json"
+    "file": "game:blocktypes/clay/pot.json"
   },
   {
     "op": "add",
@@ -302,7 +302,7 @@
       "vegetable",
       "group10"
     ],
-    "file": "blocktypes/clay/pot.json"
+    "file": "game:blocktypes/clay/pot.json"
   },
   {
     "op": "add",
@@ -311,7 +311,7 @@
       "vegetable",
       "group10"
     ],
-    "file": "blocktypes/clay/pot.json"
+    "file": "game:blocktypes/clay/pot.json"
   },
   {
     "op": "add",
@@ -320,7 +320,7 @@
       "vegetable",
       "group10"
     ],
-    "file": "blocktypes/clay/pot.json"
+    "file": "game:blocktypes/clay/pot.json"
   },
   {
     "op": "add",
@@ -329,7 +329,7 @@
       "vegetable",
       "group10"
     ],
-    "file": "blocktypes/clay/pot.json"
+    "file": "game:blocktypes/clay/pot.json"
   },
   {
     "op": "add",
@@ -338,7 +338,7 @@
       "vegetable",
       "group10"
     ],
-    "file": "blocktypes/clay/pot.json"
+    "file": "game:blocktypes/clay/pot.json"
   },
   {
     "op": "add",
@@ -347,7 +347,7 @@
       "vegetable",
       "group10"
     ],
-    "file": "blocktypes/clay/pot.json"
+    "file": "game:blocktypes/clay/pot.json"
   },
   {
     "op": "add",
@@ -356,7 +356,7 @@
       "vegetable",
       "group10"
     ],
-    "file": "blocktypes/clay/pot.json"
+    "file": "game:blocktypes/clay/pot.json"
   },
   {
     "op": "add",
@@ -365,7 +365,7 @@
       "vegetable",
       "group10"
     ],
-    "file": "blocktypes/clay/pot.json"
+    "file": "game:blocktypes/clay/pot.json"
   },
   {
     "op": "add",
@@ -374,7 +374,7 @@
       "vegetable",
       "group10"
     ],
-    "file": "blocktypes/clay/pot.json"
+    "file": "game:blocktypes/clay/pot.json"
   },
   {
     "op": "add",
@@ -383,7 +383,7 @@
       "vegetable",
       "group10"
     ],
-    "file": "blocktypes/clay/pot.json"
+    "file": "game:blocktypes/clay/pot.json"
   },
   {
     "op": "add",
@@ -392,6 +392,6 @@
       "vegetable",
       "group10"
     ],
-    "file": "blocktypes/clay/pot.json"
+    "file": "game:blocktypes/clay/pot.json"
   }
 ]
