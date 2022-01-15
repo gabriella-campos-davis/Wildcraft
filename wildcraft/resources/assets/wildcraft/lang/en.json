@@ -35,17 +35,17 @@
   "pie-single-wildcraft:fruit-blueraspberry-raw": "Blue Raspberry pie (raw)",
   "pie-single-wildcraft:fruit-strawberry-raw": "Strawberry pie (raw)",
 
-  "recipeingredient-item-fruit-huckleberry-instrumentalcase": "huckleberries",
-  "recipeingredient-item-fruit-snowberry-instrumentalcase": "snowberris",
-  "recipeingredient-item-fruit-brambleberry-instrumentalcase": "brambleberries",
-  "recipeingredient-item-fruit-cloudberry-instrumentalcase": "cloudberries",
-  "recipeingredient-item-fruit-dogrose-instrumentalcase": "dogrose",
-  "recipeingredient-item-fruit-elderberry-instrumentalcase": "elderberries",
-  "recipeingredient-item-fruit-gooseberry-instrumentalcase": "gooseberries",
-  "recipeingredient-item-fruit-honeysuckle-instrumentalcase": "honeysuckle",
-  "recipeingredient-item-fruit-raspberry-instrumentalcase": "raspberries",
-  "recipeingredient-item-fruit-blueraspberry-instrumentalcase": "blueraspberries",
-  "recipeingredient-item-fruit-strawberry-instrumentalcase": "strawberries",
+  "recipeingredient-item-fruit-huckleberry-insturmentalcase": "huckleberries",
+  "recipeingredient-item-fruit-snowberry-insturmentalcase": "snowberris",
+  "recipeingredient-item-fruit-brambleberry-insturmentalcase": "brambleberries",
+  "recipeingredient-item-fruit-cloudberry-insturmentalcase": "cloudberries",
+  "recipeingredient-item-fruit-dogrose-insturmentalcase": "dogrose",
+  "recipeingredient-item-fruit-elderberry-insturmentalcase": "elderberries",
+  "recipeingredient-item-fruit-gooseberry-insturmentalcase": "gooseberries",
+  "recipeingredient-item-fruit-honeysuckle-insturmentalcase": "honeysuckle",
+  "recipeingredient-item-fruit-raspberry-insturmentalcase": "raspberries",
+  "recipeingredient-item-fruit-blueraspberry-insturmentalcase": "blueraspberries",
+  "recipeingredient-item-fruit-strawberry-insturmentalcase": "strawberries",
 
   "item-clipping-huckleberry-green": "Huckleberry clipping (green)",
   "item-clipping-blueraspberry-green": "Blue Raspberry clipping (green)",
@@ -106,7 +106,7 @@
   "item-minerslettuce": "Miner's Lettuce'",
   "item-nettle": "Nettle",
 
-  "recipeingredient-item-herbs-mustard-instrumentalcase": "mustard",
+  "recipeingredient-item-herbs-mustard-insturmentalcase": "mustard",
   "recipeingredient-item-herbs-mustard": "mustard",
   "meal-ingredient-soup-primary-wildcraft:herbs-mustard": "Mustard",
   "meal-ingredient-soup-secondary-wildcraft:herbs-mustard": "mustard",
@@ -115,113 +115,113 @@
 
   "item-herbs-mustard":"Mustard",
 
-  "recipeingredient-item-herbs-basil-instrumentalcase": "basil",
+  "recipeingredient-item-herbs-basil-insturmentalcase": "basil",
   "recipeingredient-item-herbs-basil": "basil",
 
   "item-herbs-basil":"Basil",
 
-  "recipeingredient-item-herbs-bearleek-instrumentalcase": "bearleek",
+  "recipeingredient-item-herbs-bearleek-insturmentalcase": "bearleek",
   "recipeingredient-item-herbs-bearleek": "bearleek",
 
   "item-herbs-bearleek":"Bearleek",
 
-  "recipeingredient-item-herbs-blackpepper-instrumentalcase": "black pepper",
+  "recipeingredient-item-herbs-blackpepper-insturmentalcase": "black pepper",
   "recipeingredient-item-herbs-blackpepper": "black pepper",
 
   "item-herbs-blackpepper":"Black pepper",
 
-  "recipeingredient-item-herbs-celery-instrumentalcase": "celery",
+  "recipeingredient-item-herbs-celery-insturmentalcase": "celery",
   "recipeingredient-item-herbs-celery": "celery",
 
   "item-herbs-celery":"Celery",
 
-  "recipeingredient-item-herbs-chamomile-instrumentalcase": "chamomile",
+  "recipeingredient-item-herbs-chamomile-insturmentalcase": "chamomile",
   "recipeingredient-item-herbs-chamomile": "chamomile",
 
   "item-herbs-chamomile":"Chamomile",
 
-  "recipeingredient-item-herbs-cilantro-instrumentalcase": "cilantro",
+  "recipeingredient-item-herbs-cilantro-insturmentalcase": "cilantro",
   "recipeingredient-item-herbs-cilantro": "cilantro",
   
 
   "item-herbs-cilantro":"Cilantro",
 
-  "recipeingredient-item-herbs-dill-instrumentalcase": "dill",
+  "recipeingredient-item-herbs-dill-insturmentalcase": "dill",
   "recipeingredient-item-herbs-dill": "dill",
 
   "item-herbs-dill":"Dill",
 
-  "recipeingredient-item-herbs-dock-instrumentalcase": "dock",
+  "recipeingredient-item-herbs-dock-insturmentalcase": "dock",
   "recipeingredient-item-herbs-dock": "dock",
 
   "item-herbs-dock":"Dock",
 
-  "recipeingredient-item-herbs-marjoram-instrumentalcase": "marjoram",
+  "recipeingredient-item-herbs-marjoram-insturmentalcase": "marjoram",
   "recipeingredient-item-herbs-marjoram": "marjoram",
 
   "item-herbs-marjoram":"Marjoram",
 
-  "recipeingredient-item-herbs-lavender-instrumentalcase": "lavender",
+  "recipeingredient-item-herbs-lavender-insturmentalcase": "lavender",
   "recipeingredient-item-herbs-lavender": "lavender",
 
   "item-herbs-lavender":"Lavender",
 
-  "recipeingredient-item-herbs-marshmallow-instrumentalcase": "marshmallow",
+  "recipeingredient-item-herbs-marshmallow-insturmentalcase": "marshmallow",
   "recipeingredient-item-herbs-marshmallow": "marshmallow",
 
   "item-herbs-marshmallow":"Marshmallow",
 
-  "recipeingredient-item-herbs-mint-instrumentalcase": "mint",
+  "recipeingredient-item-herbs-mint-insturmentalcase": "mint",
   "recipeingredient-item-herbs-mint": "mint",
 
   "item-herbs-mint":"Mint",
 
-  "recipeingredient-item-herbs-rosemary-instrumentalcase": "rosemary",
+  "recipeingredient-item-herbs-rosemary-insturmentalcase": "rosemary",
   "recipeingredient-item-herbs-rosemary": "rosemary",
 
   "item-herbs-rosemary":"Rosemary",
 
-  "recipeingredient-item-herbs-saffron-instrumentalcase": "saffron",
+  "recipeingredient-item-herbs-saffron-insturmentalcase": "saffron",
   "recipeingredient-item-herbs-saffron": "saffron",
 
   "item-herbs-saffron":"Saffron",
 
-  "recipeingredient-item-herbs-sedge-instrumentalcase": "sedge",
+  "recipeingredient-item-herbs-sedge-insturmentalcase": "sedge",
   "recipeingredient-item-herbs-sedge": "sedge",
 
   "item-herbs-sedge":"Sedge",
 
-  "recipeingredient-item-herbs-sage-instrumentalcase": "sage",
+  "recipeingredient-item-herbs-sage-insturmentalcase": "sage",
   "recipeingredient-item-herbs-sage": "sage",
 
   "item-herbs-sage":"Sage",
 
-  "recipeingredient-item-herbs-stingingnettle-instrumentalcase": "nettle",
+  "recipeingredient-item-herbs-stingingnettle-insturmentalcase": "nettle",
   "recipeingredient-item-herbs-stingingnettle": "nettle",
 
   "item-herbs-stingingnettle":"Nettle",
 
-  "recipeingredient-item-herbs-stjohnswort-instrumentalcase": "st john's wort",
+  "recipeingredient-item-herbs-stjohnswort-insturmentalcase": "st john's wort",
   "recipeingredient-item-herbs-stjohnswort": "st john's wort",
 
   "item-herbs-stjohnswort":"St John's Wort",
 
-  "recipeingredient-item-herbs-thyme-instrumentalcase": "thyme",
+  "recipeingredient-item-herbs-thyme-insturmentalcase": "thyme",
   "recipeingredient-item-herbs-thyme": "thyme",
 
   "item-herbs-thyme":"Thyme",
 
-  "recipeingredient-item-herbs-minerslettuce-instrumentalcase": "miner's lettuce",
+  "recipeingredient-item-herbs-minerslettuce-insturmentalcase": "miner's lettuce",
   "recipeingredient-item-herbs-minerslettuce": "miner's lettuce",
 
   "item-herbs-minerslettuce":"Miner's Lettuce",
 
-  "recipeingredient-item-herbs-mugwort-instrumentalcase": "mugwort",
+  "recipeingredient-item-herbs-mugwort-insturmentalcase": "mugwort",
   "recipeingredient-item-herbs-mugwort": "mugwort",
 
   "item-herbs-mugwort":"Mugwort",
 
-  "recipeingredient-item-herbs-burdock-instrumentalcase": "burdock",
+  "recipeingredient-item-herbs-burdock-insturmentalcase": "burdock",
   "recipeingredient-item-herbs-burdock": "burdock",
 
   "item-herbs-burdock":"Burdock",

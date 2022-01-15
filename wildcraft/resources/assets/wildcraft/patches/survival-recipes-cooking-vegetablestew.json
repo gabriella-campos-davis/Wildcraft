@@ -5,7 +5,11 @@
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-minerslettuce",
-      "shapeElement": "bowl/vegetable 1/*"
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
     },
     "file": "game:recipes/cooking/vegetablestew.json"
   },
@@ -15,7 +19,11 @@
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-sedge",
-      "shapeElement": "bowl/vegetable 1/*"
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
     },
     "file": "game:recipes/cooking/vegetablestew.json"
   },
@@ -24,8 +32,12 @@
     "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
-      "code": "wildcraft:herbs-nettle",
-      "shapeElement": "bowl/vegetable 1/*"
+      "code": "wildcraft:herbs-stingingnettle",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
     },
     "file": "game:recipes/cooking/vegetablestew.json"
   },
@@ -35,7 +47,11 @@
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-bearleek",
-      "shapeElement": "bowl/vegetable 1/*"
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
     },
     "file": "game:recipes/cooking/vegetablestew.json"
   },
@@ -45,7 +61,11 @@
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-dock",
-      "shapeElement": "bowl/vegetable 1/*"
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
     },
     "file": "game:recipes/cooking/vegetablestew.json"
   },
@@ -55,7 +75,11 @@
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-burdock",
-      "shapeElement": "bowl/vegetable 1/*"
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
     },
     "file": "game:recipes/cooking/vegetablestew.json"
   },
@@ -65,7 +89,11 @@
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-celery",
-      "shapeElement": "bowl/vegetable 1/*"
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
     },
     "file": "game:recipes/cooking/vegetablestew.json"
   },
@@ -75,17 +103,25 @@
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-mustard",
-      "shapeElement": "bowl/vegetable 1/*"
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
     },
     "file": "game:recipes/cooking/vegetablestew.json"
   },
   {
     "op": "add",
-    "path": "/ingredients/1/validStacks/13",
+    "path": "/ingredients/1/validStacks/-",
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-minerslettuce",
-      "shapeElement": "bowl/vegetable 1/*"
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
     },
     "file": "game:recipes/cooking/vegetablestew.json"
   },
@@ -95,7 +131,11 @@
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-sedge",
-      "shapeElement": "bowl/vegetable 1/*"
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
     },
     "file": "game:recipes/cooking/vegetablestew.json"
   },
@@ -104,8 +144,12 @@
     "path": "/ingredients/1/validStacks/-",
     "value": {
       "type": "item",
-      "code": "wildcraft:herbs-nettle",
-      "shapeElement": "bowl/vegetable 1/*"
+      "code": "wildcraft:herbs-stingingnettle",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
     },
     "file": "game:recipes/cooking/vegetablestew.json"
   },
@@ -115,7 +159,11 @@
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-bearleek",
-      "shapeElement": "bowl/vegetable 1/*"
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
     },
     "file": "game:recipes/cooking/vegetablestew.json"
   },
@@ -125,7 +173,11 @@
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-dock",
-      "shapeElement": "bowl/vegetable 1/*"
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
     },
     "file": "game:recipes/cooking/vegetablestew.json"
   },
@@ -135,7 +187,11 @@
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-burdock",
-      "shapeElement": "bowl/vegetable 1/*"
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
     },
     "file": "game:recipes/cooking/vegetablestew.json"
   },
@@ -145,7 +201,11 @@
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-celery",
-      "shapeElement": "bowl/vegetable 1/*"
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
     },
     "file": "game:recipes/cooking/vegetablestew.json"
   },
@@ -155,7 +215,11 @@
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-mustard",
-      "shapeElement": "bowl/vegetable 1/*"
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
     },
     "file": "game:recipes/cooking/vegetablestew.json"
   },
@@ -165,7 +229,11 @@
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-*",
-      "shapeElement": "bowl/vegetable 1/*"
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
     },
     "file": "game:recipes/cooking/vegetablestew.json"
   },
@@ -175,7 +243,11 @@
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-*",
-      "shapeElement": "bowl/vegetable 1/*"
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
     },
     "file": "game:recipes/cooking/vegetablestew.json"
   }

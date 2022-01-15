@@ -5,7 +5,11 @@
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-*",
-      "shapeElement": "bowl/vegetable 1/*"
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
     },
     "file": "game:recipes/cooking/scrambledeggs.json"
   },
@@ -15,7 +19,11 @@
     "value": {
       "type": "item",
       "code": "wildcraft:herbs-*",
-      "shapeElement": "bowl/vegetable 1/*"
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
     },
     "file": "game:recipes/cooking/scrambledeggs.json"
   }
