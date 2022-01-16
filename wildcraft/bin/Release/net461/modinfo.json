@@ -4,9 +4,10 @@
     "name": "Wildcraft",
     "author": "gabb",
     "description": "Adds new plants to the game",
-    "version": "1.1.0",
-    "dependency": {
-      "game": ""
+    "version": "1.1.1",
+    "dependencies": {
+      "game": "1.16.0",
+      "survival": "1.16.0"
     }
   }
   
