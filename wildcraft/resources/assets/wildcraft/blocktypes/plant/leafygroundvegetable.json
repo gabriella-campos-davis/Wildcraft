@@ -36,12 +36,14 @@
       "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/minerlettucebase" },
       "stems": { "base": "wildcraft:block/plant/leafygroundvegetable/minerlettucebase" }
     },
-    "*-burdock-*":{
+    "*-burdock-normal*":{
       "burdock_stem": {"base": "wildcraft:block/plant/leafygroundvegetable/burdock_stem"},
       "burdock_flowers": {"base": "wildcraft:block/plant/leafygroundvegetable/burdock_flowers"},
       "burdock_leaf_small": {"base": "wildcraft:block/plant/leafygroundvegetable/burdock_leaf_small"},
-      "burdock_leaf_big": {"base": "wildcraft:block/plant/leafygroundvegetable/burdock_leaf_big"}
-      
+      "burdock_leaf_big": {"base": "wildcraft:block/plant/leafygroundvegetable/burdock_leaf_big"} 
+    },
+    "*-burdock-harvested*":{
+      "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/burdock_harvested*"}
     },
     "*": {
       "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/{state}/{herbs}*" }
@@ -50,11 +52,12 @@
 	"creativeinventory": { "general": ["*-normal"], "flora": ["*-normal"] },
   "shapeByType": {
     "*-minerslettuce-*": { "base": "wildcraft:block/plant/leafygroundvegetable/minerslettuce_{state}*" },
-    "*-stingingnettle-*": { "base": "wildcraft:block/plant/stingingnettle/stingingnettle_{state}*" },
-    "*-mugwort-*": {"base": "wildcraft:block/plant/leafygroundvegetable/bushy_{state}"},
-    "*-sedge-*": {"base": "wildcraft:block/plant/leafygroundvegetable/bushy_{state}"},
-    "*-burdock-normal*": {"base": "wildcraft:block/plant/leafygroundvegetable/burdock_{state}*"},
-    "*": {"base": "wildcraft:block/plant/leafygroundvegetable/default_{state}*"}
+    "*-stingingnettle-*": { "base": "wildcraft:block/plant/stingingnettle/stingingnettle_normal*" },
+    "*-mugwort-*": {"base": "wildcraft:block/plant/leafygroundvegetable/bushy_normal"},
+    "*-sedge-*": {"base": "wildcraft:block/plant/leafygroundvegetable/bushy_normal"},
+    "*-burdock-normal*": {"base": "wildcraft:block/plant/leafygroundvegetable/burdock_normal*"},
+
+    "*": {"base": "wildcraft:block/plant/leafygroundvegetable/default_normal*"}
   },
 	"renderpass": "OpaqueNoCull",
 	"renderAlphaTest": 0.4,
@@ -97,21 +100,42 @@
 	"materialDensity": 200,
 	"frostable": true,
   "dropsByType": {
-    "*-stingingnettle-*": [
+    "*-bearleek-harvested": [
+      {
+        "type": "item",
+        "code": "wildcraft:roots-bearleek",
+        "quantity": { "avg": 1.8 }
+      }
+    ],
+    "*-burdock-harvested": [
+      {
+        "type": "item",
+        "code": "wildcraft:roots-burdock",
+        "quantity": { "avg": 1.8 }
+      }
+    ],
+    "*-marshmallow-harvested": [
+      {
+        "type": "item",
+        "code": "wildcraft:roots-marshmallow",
+        "quantity": { "avg": 1.8 }
+      }
+    ],
+    "*-stingingnettle-normal": [
       {
         "type": "item",
         "code": "wildcraft:herbs-{herbs}",
         "quantity": { "avg": 1.8 }
       }
     ],
-    "*-minerslettuce-*": [
+    "*-minerslettuce-normal": [
       {
         "type": "item",
         "code": "wildcraft:herbs-{herbs}",
         "quantity": { "avg": 1.3 }
       }
     ],
-    "*": [
+    "*-normal": [
       {
         "type": "item",
         "code": "wildcraft:herbs-{herbs}",

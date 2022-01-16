@@ -106,123 +106,168 @@
   "item-minerslettuce": "Miner's Lettuce'",
   "item-nettle": "Nettle",
 
+  "meal-ingredient-soup-secondary-herbs": "herbs",
+  "meal-ingredient-stew-secondary-herbs": "herbs",
+
   "recipeingredient-item-herbs-mustard-insturmentalcase": "mustard",
   "recipeingredient-item-herbs-mustard": "mustard",
-  "meal-ingredient-soup-primary-wildcraft:herbs-mustard": "Mustard",
-  "meal-ingredient-soup-secondary-wildcraft:herbs-mustard": "mustard",
-  "meal-ingredient-stew-primary-wildcraft:herbs-mustard": "Mustard",
-  "meal-ingredient-stew-secondary-wildcraft:herbs-mustard": "mustard",
+  "meal-ingredient-soup-secondary-herbs-mustard": "mustard",
+  "meal-ingredient-stew-secondary-herbs-mustard": "mustard",
 
   "item-herbs-mustard":"Mustard",
 
   "recipeingredient-item-herbs-basil-insturmentalcase": "basil",
   "recipeingredient-item-herbs-basil": "basil",
+  "meal-ingredient-soup-secondary-herbs-basil": "basil",
+  "meal-ingredient-stew-secondary-herbs-basil": "basil",
 
   "item-herbs-basil":"Basil",
 
   "recipeingredient-item-herbs-bearleek-insturmentalcase": "bearleek",
   "recipeingredient-item-herbs-bearleek": "bearleek",
+  "meal-ingredient-soup-secondary-herbs-bearleek": "bearleek",
+  "meal-ingredient-stew-secondary-herbs-bearleek": "bearleek",
 
   "item-herbs-bearleek":"Bearleek",
 
   "recipeingredient-item-herbs-blackpepper-insturmentalcase": "black pepper",
   "recipeingredient-item-herbs-blackpepper": "black pepper",
+  "meal-ingredient-soup-secondary-herbs-blackpepper": "black pepper",
+  "meal-ingredient-stew-secondary-herbs-blackpepper": "black pepper",
 
   "item-herbs-blackpepper":"Black pepper",
 
   "recipeingredient-item-herbs-celery-insturmentalcase": "celery",
   "recipeingredient-item-herbs-celery": "celery",
+  "meal-ingredient-soup-secondary-herbs-celery": "celery",
+  "meal-ingredient-stew-secondary-herbs-celery": "celery",
 
   "item-herbs-celery":"Celery",
 
   "recipeingredient-item-herbs-chamomile-insturmentalcase": "chamomile",
   "recipeingredient-item-herbs-chamomile": "chamomile",
+  "meal-ingredient-soup-secondary-herbs-chamomile": "chamomile",
+  "meal-ingredient-stew-secondary-herbs-chamomile": "chamomile",
 
   "item-herbs-chamomile":"Chamomile",
 
   "recipeingredient-item-herbs-cilantro-insturmentalcase": "cilantro",
   "recipeingredient-item-herbs-cilantro": "cilantro",
+  "meal-ingredient-soup-secondary-herbs-cilantro": "cilantro",
+  "meal-ingredient-stew-secondary-herbs-cilantro": "cilantro",
   
 
   "item-herbs-cilantro":"Cilantro",
 
   "recipeingredient-item-herbs-dill-insturmentalcase": "dill",
   "recipeingredient-item-herbs-dill": "dill",
+  "meal-ingredient-soup-secondary-herbs-dill": "dill",
+  "meal-ingredient-stew-secondary-herbs-dill": "dill",
 
   "item-herbs-dill":"Dill",
 
   "recipeingredient-item-herbs-dock-insturmentalcase": "dock",
   "recipeingredient-item-herbs-dock": "dock",
+  "meal-ingredient-soup-secondary-herbs-dock": "dock",
+  "meal-ingredient-stew-secondary-herbs-dock": "dock",
 
   "item-herbs-dock":"Dock",
 
   "recipeingredient-item-herbs-marjoram-insturmentalcase": "marjoram",
   "recipeingredient-item-herbs-marjoram": "marjoram",
+  "meal-ingredient-soup-secondary-herbs-marjoram": "marjoram",
+  "meal-ingredient-stew-secondary-herbs-marjoram": "marjoram",
 
   "item-herbs-marjoram":"Marjoram",
 
   "recipeingredient-item-herbs-lavender-insturmentalcase": "lavender",
   "recipeingredient-item-herbs-lavender": "lavender",
+  "meal-ingredient-soup-secondary-herbs-lavender": "lavender",
+  "meal-ingredient-stew-secondary-herbs-lavender": "lavender",
 
   "item-herbs-lavender":"Lavender",
 
   "recipeingredient-item-herbs-marshmallow-insturmentalcase": "marshmallow",
   "recipeingredient-item-herbs-marshmallow": "marshmallow",
+  "meal-ingredient-soup-secondary-herbs-marshmallow": "marshmallow",
+  "meal-ingredient-stew-secondary-herbs-marshmallow": "marshmallow",
 
   "item-herbs-marshmallow":"Marshmallow",
 
   "recipeingredient-item-herbs-mint-insturmentalcase": "mint",
   "recipeingredient-item-herbs-mint": "mint",
+  "meal-ingredient-soup-secondary-herbs-mint": "mint",
+  "meal-ingredient-stew-secondary-herbs-mint": "mint",
 
   "item-herbs-mint":"Mint",
 
   "recipeingredient-item-herbs-rosemary-insturmentalcase": "rosemary",
   "recipeingredient-item-herbs-rosemary": "rosemary",
+  "meal-ingredient-soup-secondary-herbs-rosemary": "rosemary",
+  "meal-ingredient-stew-secondary-herbs-rosemary": "rosemary",
 
   "item-herbs-rosemary":"Rosemary",
 
   "recipeingredient-item-herbs-saffron-insturmentalcase": "saffron",
   "recipeingredient-item-herbs-saffron": "saffron",
+  "meal-ingredient-soup-secondary-herbs-saffron": "saffron",
+  "meal-ingredient-stew-secondary-herbs-saffron": "saffron",
 
   "item-herbs-saffron":"Saffron",
 
   "recipeingredient-item-herbs-sedge-insturmentalcase": "sedge",
   "recipeingredient-item-herbs-sedge": "sedge",
+  "meal-ingredient-soup-secondary-herbs-sedge": "sedge",
+  "meal-ingredient-stew-secondary-herbs-sedge": "sedge",
 
   "item-herbs-sedge":"Sedge",
 
   "recipeingredient-item-herbs-sage-insturmentalcase": "sage",
   "recipeingredient-item-herbs-sage": "sage",
+  "meal-ingredient-soup-secondary-herbs-sage": "sage",
+  "meal-ingredient-stew-secondary-herbs-sage": "sage",
 
   "item-herbs-sage":"Sage",
 
   "recipeingredient-item-herbs-stingingnettle-insturmentalcase": "nettle",
   "recipeingredient-item-herbs-stingingnettle": "nettle",
+  "meal-ingredient-soup-secondary-herbs-stingingnettle": "nettle",
+  "meal-ingredient-stew-secondary-herbs-stingingnettle": "nettle",
 
   "item-herbs-stingingnettle":"Nettle",
 
   "recipeingredient-item-herbs-stjohnswort-insturmentalcase": "st john's wort",
   "recipeingredient-item-herbs-stjohnswort": "st john's wort",
+  "meal-ingredient-soup-secondary-herbs-stjohnswort": "st john's wort",
+  "meal-ingredient-stew-secondary-herbs-stjohnswort": "st john's wort",
 
   "item-herbs-stjohnswort":"St John's Wort",
 
   "recipeingredient-item-herbs-thyme-insturmentalcase": "thyme",
   "recipeingredient-item-herbs-thyme": "thyme",
+  "meal-ingredient-soup-secondary-herbs-thyme": "thyme",
+  "meal-ingredient-stew-secondary-herbs-thyme": "thyme",
 
   "item-herbs-thyme":"Thyme",
 
   "recipeingredient-item-herbs-minerslettuce-insturmentalcase": "miner's lettuce",
   "recipeingredient-item-herbs-minerslettuce": "miner's lettuce",
+  "meal-ingredient-soup-secondary-herbs-minerslettuce": "miner's lettuce",
+  "meal-ingredient-stew-secondary-herbs-minerslettuce": "miner's lettuce",
 
   "item-herbs-minerslettuce":"Miner's Lettuce",
 
   "recipeingredient-item-herbs-mugwort-insturmentalcase": "mugwort",
   "recipeingredient-item-herbs-mugwort": "mugwort",
+  "meal-ingredient-soup-secondary-herbs-mugwort": "mugwort",
+  "meal-ingredient-stew-secondary-herbs-mugwort": "mugwort",
 
   "item-herbs-mugwort":"Mugwort",
 
   "recipeingredient-item-herbs-burdock-insturmentalcase": "burdock",
   "recipeingredient-item-herbs-burdock": "burdock",
+  "meal-ingredient-soup-secondary-herbs-burdock": "burdock",
+  "meal-ingredient-stew-secondary-herbs-burdock": "burdock",
 
   "item-herbs-burdock":"Burdock",
 
@@ -338,6 +383,86 @@
   "block-berrybush-cloudberry-empty": "Cloudberry Plant (Empty)",
   "block-berrybush-cloudberry-flowering": "Cloudberry Plant (Flowering)",
   "block-berrybush-cloudberry-ripe": "Cloudberry Plant (Ripe)",
+
+  "item-pressedmash-huckleberry": "Pressed huckleberry mash",
+	"item-juiceportion-huckleberry": "Huckleberry juice",
+  "incontainer-item-juiceportion-huckleberry": "Huckleberry juice",
+	"item-ciderportion-huckleberry": "Huckleberry cider",
+  "incontainer-item-ciderportion-huckleberry": "Huckleberry wine",
+	"item-spiritportion-huckleberry": "Huckleberry brandy",
+  "incontainer-item-spiritportion-huckleberry": "Huckleberry brandy",
+
+  "item-pressedmash-snowberry": "Pressed Snowberry mash",
+	"item-juiceportion-snowberry": "Snowberry juice",
+  "incontainer-item-juiceportion-snowberry": "Snowberry juice",
+	"item-ciderportion-snowberry": "Snowberry cider",
+  "incontainer-item-ciderportion-snowberry": "Snowberry wine",
+	"item-spiritportion-snowberry": "Snowberry brandy",
+  "incontainer-item-spiritportion-snowberry": "Snowberry brandy",
+
+  "item-pressedmash-brambleberry": "Pressed Brambleberry mash",
+	"item-juiceportion-brambleberry": "Brambleberry juice",
+  "incontainer-item-juiceportion-brambleberry": "Brambleberry juice",
+	"item-ciderportion-brambleberry": "Brambleberry cider",
+  "incontainer-item-ciderportion-brambleberry": "Brambleberry wine",
+	"item-spiritportion-brambleberry": "Brambleberry brandy",
+  "incontainer-item-spiritportion-brambleberry": "Brambleberry brandy",
+
+  "item-pressedmash-cloudberry": "Pressed Cloudberry mash",
+	"item-juiceportion-cloudberry": "Cloudberry juice",
+  "incontainer-item-juiceportion-cloudberry": "Cloudberry juice",
+	"item-ciderportion-cloudberry": "Cloudberry cider",
+  "incontainer-item-ciderportion-cloudberry": "Cloudberry wine",
+	"item-spiritportion-cloudberry": "Cloudberry brandy",
+  "incontainer-item-spiritportion-cloudberry": "Cloudberry brandy",
+
+  "item-pressedmash-dogrose": "Pressed Dogrose mash",
+	"item-juiceportion-dogrose": "Dogrose juice",
+  "incontainer-item-juiceportion-dogrose": "Dogrose juice",
+	"item-ciderportion-dogrose": "Dogrose cider",
+  "incontainer-item-ciderportion-dogrose": "Dogrose wine",
+	"item-spiritportion-dogrose": "Dogrose brandy",
+  "incontainer-item-spiritportion-dogrose": "Dogrose brandy",
+
+  "item-pressedmash-elderberry": "Pressed Elderberry mash",
+	"item-juiceportion-elderberry": "Elderberry juice",
+  "incontainer-item-juiceportion-elderberry": "Elderberry juice",
+	"item-ciderportion-elderberry": "Elderberry cider",
+  "incontainer-item-ciderportion-elderberry": "Elderberry wine",
+	"item-spiritportion-elderberry": "Elderberry brandy",
+  "incontainer-item-spiritportion-elderberry": "Elderberry brandy",
+
+  "item-pressedmash-gooseberry": "Pressed Gooseberry mash",
+	"item-juiceportion-gooseberry": "Gooseberry juice",
+  "incontainer-item-juiceportion-gooseberry": "Gooseberry juice",
+	"item-ciderportion-gooseberry": "Gooseberry cider",
+  "incontainer-item-ciderportion-gooseberry": "Gooseberry wine",
+	"item-spiritportion-gooseberry": "Gooseberry brandy",
+  "incontainer-item-spiritportion-gooseberry": "Gooseberry brandy",
+
+  "item-pressedmash-honeysuckle": "Pressed Honeysuckle mash",
+	"item-juiceportion-honeysuckle": "Honeysuckle juice",
+  "incontainer-item-juiceportion-honeysuckle": "Honeysuckle juice",
+	"item-ciderportion-honeysuckle": "Honeysuckle cider",
+  "incontainer-item-ciderportion-honeysuckle": "Honeysuckle wine",
+	"item-spiritportion-honeysuckle": "Honeysuckle brandy",
+  "incontainer-item-spiritportion-honeysuckle": "Honeysuckle brandy",
+
+  "item-pressedmash-raspberry": "Pressed Raspberry mash",
+	"item-juiceportion-raspberry": "Raspberry juice",
+  "incontainer-item-juiceportion-raspberry": "Raspberry juice",
+	"item-ciderportion-raspberry": "Raspberry cider",
+  "incontainer-item-ciderportion-raspberry": "Raspberry wine",
+	"item-spiritportion-raspberry": "Raspberry brandy",
+  "incontainer-item-spiritportion-raspberry": "Raspberry brandy",
+
+  "item-pressedmash-strawberry": "Pressed Strawberry mash",
+	"item-juiceportion-strawberry": "Strawberry juice",
+  "incontainer-item-juiceportion-strawberry": "Strawberry juice",
+	"item-ciderportion-strawberry": "Strawberry cider",
+  "incontainer-item-ciderportion-strawberry": "Strawberry wine",
+	"item-spiritportion-strawberry": "Strawberry brandy",
+  "incontainer-item-spiritportion-strawberry": "Strawberry brandy",
 
   "heldhelp-plant": "Plant",
   "heldhelp-seedextraction": "Extract seeds",

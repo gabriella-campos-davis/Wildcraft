@@ -115,6 +115,7 @@
   "meal-ingredient-stew-secondary-herbs-mustard": "mustard",
 
   "item-herbs-mustard":"Mustard",
+  "item-herbseeds-mustard":"Mustard Seeds",
 
   "recipeingredient-item-herbs-basil-insturmentalcase": "basil",
   "recipeingredient-item-herbs-basil": "basil",
@@ -122,6 +123,7 @@
   "meal-ingredient-stew-secondary-herbs-basil": "basil",
 
   "item-herbs-basil":"Basil",
+  "item-herbseeds-basil":"Basil Seeds",
 
   "recipeingredient-item-herbs-bearleek-insturmentalcase": "bearleek",
   "recipeingredient-item-herbs-bearleek": "bearleek",
@@ -129,6 +131,8 @@
   "meal-ingredient-stew-secondary-herbs-bearleek": "bearleek",
 
   "item-herbs-bearleek":"Bearleek",
+  "item-herbseeds-bearleek":"Bearleek Seeds",
+
 
   "recipeingredient-item-herbs-blackpepper-insturmentalcase": "black pepper",
   "recipeingredient-item-herbs-blackpepper": "black pepper",
@@ -136,6 +140,8 @@
   "meal-ingredient-stew-secondary-herbs-blackpepper": "black pepper",
 
   "item-herbs-blackpepper":"Black pepper",
+  "item-herbseeds-blackpepper":"Black Pepper Seeds",
+
 
   "recipeingredient-item-herbs-celery-insturmentalcase": "celery",
   "recipeingredient-item-herbs-celery": "celery",
@@ -143,6 +149,8 @@
   "meal-ingredient-stew-secondary-herbs-celery": "celery",
 
   "item-herbs-celery":"Celery",
+  "item-herbseeds-celery":"Celery Seeds",
+
 
   "recipeingredient-item-herbs-chamomile-insturmentalcase": "chamomile",
   "recipeingredient-item-herbs-chamomile": "chamomile",
@@ -150,14 +158,17 @@
   "meal-ingredient-stew-secondary-herbs-chamomile": "chamomile",
 
   "item-herbs-chamomile":"Chamomile",
+  "item-herbseeds-chamomile":"Chamomile Seeds",
+
 
   "recipeingredient-item-herbs-cilantro-insturmentalcase": "cilantro",
   "recipeingredient-item-herbs-cilantro": "cilantro",
   "meal-ingredient-soup-secondary-herbs-cilantro": "cilantro",
   "meal-ingredient-stew-secondary-herbs-cilantro": "cilantro",
   
-
   "item-herbs-cilantro":"Cilantro",
+  "item-herbseeds-cilantro":"Cilantro Seeds",
+
 
   "recipeingredient-item-herbs-dill-insturmentalcase": "dill",
   "recipeingredient-item-herbs-dill": "dill",
@@ -165,6 +176,8 @@
   "meal-ingredient-stew-secondary-herbs-dill": "dill",
 
   "item-herbs-dill":"Dill",
+  "item-herbseeds-dill":"Dill Seeds",
+
 
   "recipeingredient-item-herbs-dock-insturmentalcase": "dock",
   "recipeingredient-item-herbs-dock": "dock",
@@ -172,6 +185,8 @@
   "meal-ingredient-stew-secondary-herbs-dock": "dock",
 
   "item-herbs-dock":"Dock",
+  "item-herbseeds-dock":"Dock Seeds",
+
 
   "recipeingredient-item-herbs-marjoram-insturmentalcase": "marjoram",
   "recipeingredient-item-herbs-marjoram": "marjoram",
@@ -179,6 +194,8 @@
   "meal-ingredient-stew-secondary-herbs-marjoram": "marjoram",
 
   "item-herbs-marjoram":"Marjoram",
+  "item-herbseeds-marjoram":"Marjoram Seeds",
+
 
   "recipeingredient-item-herbs-lavender-insturmentalcase": "lavender",
   "recipeingredient-item-herbs-lavender": "lavender",
@@ -186,6 +203,8 @@
   "meal-ingredient-stew-secondary-herbs-lavender": "lavender",
 
   "item-herbs-lavender":"Lavender",
+  "item-herbseeds-lavender":"Lavender Seeds",
+
 
   "recipeingredient-item-herbs-marshmallow-insturmentalcase": "marshmallow",
   "recipeingredient-item-herbs-marshmallow": "marshmallow",
@@ -193,6 +212,8 @@
   "meal-ingredient-stew-secondary-herbs-marshmallow": "marshmallow",
 
   "item-herbs-marshmallow":"Marshmallow",
+  "item-herbseeds-marshmallow":"Marshmallow Seeds",
+
 
   "recipeingredient-item-herbs-mint-insturmentalcase": "mint",
   "recipeingredient-item-herbs-mint": "mint",
@@ -200,6 +221,8 @@
   "meal-ingredient-stew-secondary-herbs-mint": "mint",
 
   "item-herbs-mint":"Mint",
+  "item-herbseeds-mint":"Mint Seeds",
+
 
   "recipeingredient-item-herbs-rosemary-insturmentalcase": "rosemary",
   "recipeingredient-item-herbs-rosemary": "rosemary",
@@ -207,6 +230,8 @@
   "meal-ingredient-stew-secondary-herbs-rosemary": "rosemary",
 
   "item-herbs-rosemary":"Rosemary",
+  "item-herbseeds-rosemary":"Rosemary Seeds",
+
 
   "recipeingredient-item-herbs-saffron-insturmentalcase": "saffron",
   "recipeingredient-item-herbs-saffron": "saffron",
@@ -214,6 +239,8 @@
   "meal-ingredient-stew-secondary-herbs-saffron": "saffron",
 
   "item-herbs-saffron":"Saffron",
+  "item-herbseeds-saffron":"Saffron Seeds",
+
 
   "recipeingredient-item-herbs-sedge-insturmentalcase": "sedge",
   "recipeingredient-item-herbs-sedge": "sedge",
@@ -221,6 +248,8 @@
   "meal-ingredient-stew-secondary-herbs-sedge": "sedge",
 
   "item-herbs-sedge":"Sedge",
+  "item-herbseeds-sedge":"Sedge Seeds",
+
 
   "recipeingredient-item-herbs-sage-insturmentalcase": "sage",
   "recipeingredient-item-herbs-sage": "sage",
@@ -228,6 +257,8 @@
   "meal-ingredient-stew-secondary-herbs-sage": "sage",
 
   "item-herbs-sage":"Sage",
+  "item-herbseeds-sage":"Sage Seeds",
+
 
   "recipeingredient-item-herbs-stingingnettle-insturmentalcase": "nettle",
   "recipeingredient-item-herbs-stingingnettle": "nettle",
@@ -235,6 +266,8 @@
   "meal-ingredient-stew-secondary-herbs-stingingnettle": "nettle",
 
   "item-herbs-stingingnettle":"Nettle",
+  "item-herbseeds-stingingnettle":"Nettle Seeds",
+
 
   "recipeingredient-item-herbs-stjohnswort-insturmentalcase": "st john's wort",
   "recipeingredient-item-herbs-stjohnswort": "st john's wort",
@@ -242,6 +275,8 @@
   "meal-ingredient-stew-secondary-herbs-stjohnswort": "st john's wort",
 
   "item-herbs-stjohnswort":"St John's Wort",
+  "item-herbseeds-stjohnswort":"St John's Wort Seeds",
+
 
   "recipeingredient-item-herbs-thyme-insturmentalcase": "thyme",
   "recipeingredient-item-herbs-thyme": "thyme",
@@ -249,6 +284,8 @@
   "meal-ingredient-stew-secondary-herbs-thyme": "thyme",
 
   "item-herbs-thyme":"Thyme",
+  "item-herbseeds-thyme":"Thyme Seeds",
+
 
   "recipeingredient-item-herbs-minerslettuce-insturmentalcase": "miner's lettuce",
   "recipeingredient-item-herbs-minerslettuce": "miner's lettuce",
@@ -256,6 +293,8 @@
   "meal-ingredient-stew-secondary-herbs-minerslettuce": "miner's lettuce",
 
   "item-herbs-minerslettuce":"Miner's Lettuce",
+  "item-herbseeds-minerslettuce":"Miner's Lettuc Seeds",
+
 
   "recipeingredient-item-herbs-mugwort-insturmentalcase": "mugwort",
   "recipeingredient-item-herbs-mugwort": "mugwort",
@@ -263,6 +302,8 @@
   "meal-ingredient-stew-secondary-herbs-mugwort": "mugwort",
 
   "item-herbs-mugwort":"Mugwort",
+  "item-herbseeds-mugwort":"Mugwort Seeds",
+
 
   "recipeingredient-item-herbs-burdock-insturmentalcase": "burdock",
   "recipeingredient-item-herbs-burdock": "burdock",
@@ -270,6 +311,25 @@
   "meal-ingredient-stew-secondary-herbs-burdock": "burdock",
 
   "item-herbs-burdock":"Burdock",
+  "item-herbseeds-burdock":"Burdock Seeds",
+
+  "item-roots-burdock":"Burdock root",
+  "recipeingredient-item-roots-burdock-insturmentalcase": "burdock root",
+  "recipeingredient-item-roots-burdock": "burdock root",
+  "meal-ingredient-soup-secondary-roots-burdock": "burdock root",
+  "meal-ingredient-stew-secondary-roots-burdock": "burdock root",
+
+  "item-roots-bearleek":"Bearleek bulb",
+  "recipeingredient-item-roots-bearleek-insturmentalcase": "bearleek bulb",
+  "recipeingredient-item-roots-bearleek": "bearleek bulb",
+  "meal-ingredient-soup-secondary-roots-bearleek": "bearleek bulb",
+  "meal-ingredient-stew-secondary-roots-bearleek": "bearleek bulb",
+
+  "item-roots-marshmallow":"Marshmallow root",
+  "recipeingredient-item-roots-marshmallow-insturmentalcase": "marshmallow root",
+  "recipeingredient-item-roots-marshmallow": "marshmallow root",
+  "meal-ingredient-soup-secondary-roots-marshmallow": "marshmallow root",
+  "meal-ingredient-stew-secondary-roots-marshmallow": "marshmallow root",
 
   "block-leafygroundvegetable-minerslettuce-normal": "Miner's Lettuce",
   "block-leafygroundvegetable-minerslettuce-harvested": "Miner's Lettuce (Growing)",

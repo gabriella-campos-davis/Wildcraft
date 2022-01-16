@@ -25,6 +25,8 @@ namespace wildcraft
             api.RegisterBlockBehaviorClass("BehaviorClippable", typeof(BehaviorClippable));
 
             api.RegisterItemClass("ItemClipping", typeof(ItemClipping));
+            api.RegisterItemClass("ItemHerbSeed", typeof(ItemHerbSeed));
+
             //api.RegisterItemClass("ItemFruit", typeof(ItemFruit));
         }
         public override void StartServerSide(ICoreServerAPI api)

@@ -248,8 +248,8 @@ D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\textures\block
 D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\textures\block\food\pie\fill-generic.png
 D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\textures\block\food\pie\fill-sedge.png
 D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\patches\survival-blocktypes-clay-pot.json
-D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\patches\survival-recipes-cooking-meatystew.json
-D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\patches\survival-recipes-cooking-scrambledeggs.json
-D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\patches\survival-recipes-cooking-soup.json
-D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\patches\survival-recipes-cooking-vegetablestew.json
 D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\textures\items\herbs\stingingnettle.png
+D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\game\patches\survival-recipes-cooking-meatystew.json
+D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\game\patches\survival-recipes-cooking-scrambledeggs.json
+D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\game\patches\survival-recipes-cooking-soup.json
+D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\game\patches\survival-recipes-cooking-vegetablestew.json

@@ -106,9 +106,13 @@ namespace wildcraft
 
                 return base.GetDrops(world, pos, byPlayer, dropQuantityMultiplier);
             }
+
+            if(IsRoot() && !IsGrown()){
+                return base.GetDrops(world, pos, byPlayer, dropQuantityMultiplier);     
+            }
             else
             {
-                return null;
+               return null;
             }
         }
 
@@ -116,6 +120,15 @@ namespace wildcraft
         public bool IsGrown()
         {
             return Code.Path.Contains(normalCodePart);
+        }
+
+        public bool IsRoot()
+        {
+            if(Variant["herbs"] == "bearleek" ||Variant["herbs"] == "burdock" || Variant["herbs"] == "marshmallow"){
+                return true;
+            } else {
+                return false;
+            }
         }
 
         public Block GetNormalBlock(IWorldAccessor world)
