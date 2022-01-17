@@ -65,11 +65,14 @@ namespace wildcraft
 
         public override bool TryPlaceBlock(IWorldAccessor world, IPlayer byPlayer, ItemStack itemstack, BlockSelection blockSel, ref string failureCode)
         {
+
+            /*
             if (byPlayer.WorldData.CurrentGameMode != EnumGameMode.Creative)
             {
                 failureCode = "__ignore__";
                 return false;
             }
+            */
 
             return base.TryPlaceBlock(world, byPlayer, itemstack, blockSel, ref failureCode);
         }
