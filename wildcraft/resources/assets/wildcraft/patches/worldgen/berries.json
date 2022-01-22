@@ -47,13 +47,13 @@
         ],
         "minTemp": 0,
         "maxTemp": 24,
-        "minRain": 0.15,
-        "maxRain": 0.6,
-        "minForest": 0.65,
+        "minRain": 0.1,
+        "maxRain": 0.60,
+        "minForest": 0.35,
         "maxForest": 1,
         "minFertility": 0.15,
         "maxFertility": 1,
-        "chance": 0.03,
+        "chance": 0.08,
         "offsetX": {
           "dist": "gaussian",
           "avg": 0,
@@ -84,7 +84,6 @@
         "minTemp": -2,
         "maxTemp": 24,
         "minRain": 0.35,
-        "maxRain": 0.9,
         "minForest": 0.65,
         "maxForest": 1,
         "minFertility": 0.15,
@@ -261,7 +260,7 @@
           "wildcraft:berrybush-dogrose-flowering",
           "wildcraft:berrybush-dogrose-ripe"
         ],
-        "minTemp": 18,
+        "minTemp": 22,
         "maxTemp": 42,
         "minRain": 0.3,
         "maxRain": 0.7,
@@ -288,7 +287,7 @@
           "wildcraft:berrybush-gooseberry-flowering",
           "wildcraft:berrybush-gooseberry-ripe"
         ],
-        "minTemp": 18,
+        "minTemp": 22,
         "maxTemp": 42,
         "minRain": 0.3,
         "maxRain": 0.7,
@@ -307,25 +306,49 @@
       "op": "add",
       "path": "/patches/-",
       "value": {
-        "comment": "Patches of huckleberry bushes",
+        "comment": "Patches of huckleberry bushes near water",
         "blockCodes": [
           "wildcraft:berrybush-huckleberry-empty",
           "wildcraft:berrybush-huckleberry-flowering",
           "wildcraft:berrybush-huckleberry-ripe"
         ],
-        "minTemp": -2,
+        "minTemp": -6,
         "maxTemp": 16,
-        "minRain": 0.3,
-        "maxRain": 0.7,
+        "minRain": 0.2,
         "minFertility": 0.25,
-        "maxFertility": 0.6,
         "chance": 0.03,
         "maxForest": 0.8,
         "maxY": 0.62,
+        "placement": "NearWater",
         "quantity": {
           "dist": "invexp",
-          "avg": 2,
-          "var": 4
+          "avg": 4,
+          "var": 8
+        }
+      },
+      "file": "game:worldgen/blockpatches.json"
+    },
+    {
+      "op": "add",
+      "path": "/patches/-",
+      "value": {
+        "comment": "Patches of huckleberry bushes in forests",
+        "blockCodes": [
+          "wildcraft:berrybush-huckleberry-empty",
+          "wildcraft:berrybush-huckleberry-flowering",
+          "wildcraft:berrybush-huckleberry-ripe"
+        ],
+        "minTemp": -6,
+        "maxTemp": 16,
+        "minRain": 0.2,
+        "minFertility": 0.25,
+        "chance": 0.03,
+        "minForest": 0.55,
+        "maxY": 0.82,
+        "quantity": {
+          "dist": "invexp",
+          "avg": 4,
+          "var": 8
         }
       },
       "file": "game:worldgen/blockpatches.json"

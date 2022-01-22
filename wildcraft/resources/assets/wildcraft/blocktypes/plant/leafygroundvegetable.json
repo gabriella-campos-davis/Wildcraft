@@ -128,6 +128,13 @@
         "quantity": { "avg": 1.8 }
       }
     ],
+    "*-sedge-normal": [
+      {
+        "type": "item",
+        "code": "wildcraft:herbs-{herbs}",
+        "quantity": { "avg": 1.0 }
+      }
+    ],
     "*-minerslettuce-normal": [
       {
         "type": "item",

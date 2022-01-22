@@ -159,7 +159,7 @@ namespace wildcraft
                     if (immuneCreatures[i] == entity.Code.ToString())
                         return;
                 }
-                    if (world.Rand.NextDouble() > 0.992)
+                    if (world.Rand.NextDouble() > 0.996)
                     {
                         entity.ReceiveDamage(new DamageSource() { Source = EnumDamageSource.Block, SourceBlock = this, Type = EnumDamageType.PiercingAttack, SourcePos = pos.ToVec3d() }, dmg);
                     }

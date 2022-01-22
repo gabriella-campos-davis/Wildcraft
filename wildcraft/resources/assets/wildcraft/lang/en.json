@@ -1,4 +1,35 @@
 {
+  "item-basket": "Hand basket",
+  "block-sedge-stationarybasket-*": "Sedge basket",
+
+  "item-poultice-linen-honey-sulfur-lavender": "Honey-sulfur and Lavender Poultice (from linen)",
+  "item-poultice-linen-honey-sulfur-thyme": "Honey-sulfur and Thyme Poultice (from linen)",
+  "item-poultice-linen-honey-sulfur-marshmallow": "Honey-sulfur and Marshmallow Poultice (from linen)",
+
+  "item-poultice-reed-honey-sulfur-lavender": "Honey-sulfur and Lavender Poultice (from reeds)",
+  "item-poultice-reed-honey-sulfur-thyme": "Honey-sulfur and Thyme Poultice (from reeds)",
+  "item-poultice-reed-honey-sulfur-marshmallow": "Honey-sulfur and Marshmallow Poultice (from reeds)",
+
+  "item-poultice-linen-horsetail-lavender": "Horsetail and Lavender Poultice (from linen)",
+  "item-poultice-linen-horsetail-thyme": "Horsetail and Thyme Poultice (from linen)",
+  "item-poultice-linen-horsetail-marshmallow": "Horsetail and Marshmallow Poultice (from linen)",
+
+  "item-poultice-reed-horsetail-lavender": "Horsetail and Lavender Poultice (from reeds)",
+  "item-poultice-reed-horsetail-thyme": "Horsetail and Thyme Poultice (from reeds)",
+  "item-poultice-reed-horsetail-marshmallow": "Horsetail and Marshmallow Poultice (from reeds)",
+
+  "item-poultice-linen-stjohnswort-lavender": "St John's Wort and Lavender Poultice (from linen)",
+  "item-poultice-linen-stjohnswort-thyme": "St John's Wort and Thyme Poultice (from linen)",
+  "item-poultice-linen-stjohnswort-marshmallow": "St John's Wort and Marshmallow Poultice (from linen)",
+
+  "item-poultice-reed-stjohnswort-lavender": "St John's Wort and Lavender Poultice (from reeds)",
+  "item-poultice-reed-stjohnswort-thyme": "St John's Wort and Thyme Poultice (from reeds)",
+  "item-poultice-reed-stjohnswort-marshmallow": "St John's Wort and Marshmallow Poultice (from reeds)",
+
+  "itemdesc-poultice-*": "A bandage to heal minor wounds",
+  "item-handbooktitle-poultice-*": "About:",
+  "item-handbooktext-poultice-*": "Poultices are a sort of combination of bandage with other healing components, used to help heal wounds.",	
+
   "item-fruit-huckleberry": "Huckleberry",
   "item-fruit-snowberry": "Snowberry",
   "item-fruit-brambleberry": "Brambleberry",
