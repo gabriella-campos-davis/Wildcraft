@@ -11,7 +11,7 @@
       "*-harvested": {
         "convertFrom": "*-harvested",
         "convertTo": "*-normal",
-        "inGameHours": "36",
+        "inGameHours": "72",
         "resetBelowTemperature": -4,
         "stopBelowTemperature": 2
       },
@@ -42,6 +42,9 @@
       "burdock_leaf_small": {"base": "wildcraft:block/plant/leafygroundvegetable/burdock_leaf_small"},
       "burdock_leaf_big": {"base": "wildcraft:block/plant/leafygroundvegetable/burdock_leaf_big"} 
     },
+    "*-lavender-*":{
+      "straight": { "base": "wildcraft:block/plant/leafygroundvegetable/{state}/lavender"}
+    },
     "*-burdock-harvested*":{
       "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/burdock_harvested*"}
     },
@@ -56,6 +59,7 @@
     "*-mugwort-*": {"base": "wildcraft:block/plant/leafygroundvegetable/bushy_normal"},
     "*-sedge-*": {"base": "wildcraft:block/plant/leafygroundvegetable/bushy_normal"},
     "*-burdock-normal*": {"base": "wildcraft:block/plant/leafygroundvegetable/burdock_normal*"},
+    "*-lavender-*": {"base": "wildcraft:block/plant/leafygroundvegetable/shrub"},
 
     "*": {"base": "wildcraft:block/plant/leafygroundvegetable/default_normal*"}
   },
@@ -146,7 +150,7 @@
       {
         "type": "item",
         "code": "wildcraft:herbs-{herbs}",
-        "quantity": { "avg": 1.1 }
+        "quantity": { "avg": 1.0 }
       }
     ]
   }
