@@ -17,15 +17,15 @@
 			"climateColorMap": "climatePlantTint",
 			"seasonColorMap": "seasonalFoliage",
 			"rotationOrigin": [ 5.7696, 0.0, 7.8415 ],
-			"rotationX": -24.14867307897135,
-			"rotationY": 20.704818674413737,
-			"rotationZ": 9.007169261928237,
+			"rotationX": -24.149,
+			"rotationY": 20.705,
+			"rotationZ": 9.007,
 			"faces": {
 				"north": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.5 ], "enabled": false, "autoUv": false },
 				"east": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
 				"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
 				"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
-				"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
+				"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,1,1,0] },
 				"down": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false }
 			},
 			"children": [
@@ -36,15 +36,15 @@
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalFoliage",
 					"rotationOrigin": [ 0.0, 0.4882, -1.9626 ],
-					"rotationX": 44.999992699547086,
-					"rotationY": 8.752259051895278E-7,
-					"rotationZ": -2.112981896175339E-6,
+					"rotationX": 45.0,
+					"rotationY": 0.0,
+					"rotationZ": 0.0,
 					"faces": {
 						"north": { "texture": "#leaves", "uv": [ 0.0, 18.0, 16.0, 34.0 ], "enabled": false, "autoUv": false },
 						"east": { "texture": "#leaves", "uv": [ 0.0, -17.5, 16.0, -2.0 ], "enabled": false, "autoUv": false },
 						"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
 						"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
-						"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
+						"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [1,0,0,1] },
 						"down": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false }
 					}
 				}

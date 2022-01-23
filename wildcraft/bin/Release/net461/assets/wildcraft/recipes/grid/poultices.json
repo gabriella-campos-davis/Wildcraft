@@ -1,0 +1,248 @@
+[
+	{
+		ingredientPattern: "SBS,_L_,_R_",
+		ingredients: {
+			"L": { type: "block", code: "game:linen-*" },
+			"S": { type: "item", code: "game:powderedsulfur" },
+			"B": { type: "block", code: "game:bowl-fired" },
+            "R": { type: "item", code: "wildcraft:herbs-lavender", quantity: 2}
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "game:honeyportion" },
+				requiresLitres: 0.25
+			}
+		},		
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "wildcraft:poultice-linen-honey-sulfur-lavender", quantity: 4  }
+	},
+    {
+		ingredientPattern: "SBS,_L_,_T_",
+		ingredients: {
+			"L": { type: "block", code: "game:linen-*" },
+			"S": { type: "item", code: "game:powderedsulfur" },
+			"B": { type: "block", code: "game:bowl-fired" },
+            "T": { type: "item", code: "wildcraft:herbs-thyme", quantity: 2}
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "game:honeyportion" },
+				requiresLitres: 0.25
+			}
+		},		
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "wildcraft:poultice-linen-honey-sulfur-thyme", quantity: 4  }
+	},
+    {
+		ingredientPattern: "SBS,_L_,_T_",
+		ingredients: {
+			"L": { type: "block", code: "game:linen-*" },
+			"S": { type: "item", code: "game:powderedsulfur" },
+			"B": { type: "block", code: "game:bowl-fired" },
+            "T": { type: "item", code: "wildcraft:herbs-marshmallow", quantity: 2}
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "game:honeyportion" },
+				requiresLitres: 0.25
+			}
+		},		
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "wildcraft:poultice-linen-honey-sulfur-marshmallow", quantity: 4  }
+	},
+	
+	{
+		ingredientPattern: "H,L,T",
+		ingredients: {
+			"L": { type: "block", code: "game:linen-*" },
+			"H": { type: "block", code: "game:flower-horsetail-free", quantity: 4 },
+            "T": { type: "item", code: "wildcraft:herbs-lavender", quantity: 2}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "wildcraft:poultice-linen-horsetail-lavender", quantity: 4  }
+	},
+    {
+		ingredientPattern: "H,L,T",
+		ingredients: {
+			"L": { type: "block", code: "game:linen-*" },
+			"H": { type: "block", code: "game:flower-horsetail-free", quantity: 4 },
+            "T": { type: "item", code: "wildcraft:herbs-marshmallow", quantity: 2}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "wildcraft:poultice-linen-horsetail-marshmallow", quantity: 4  }
+	},
+    {
+		ingredientPattern: "H,L,T",
+		ingredients: {
+			"L": { type: "block", code: "game:linen-*" },
+			"H": { type: "block", code: "game:flower-horsetail-free", quantity: 4 },
+            "T": { type: "item", code: "wildcraft:herbs-thyme", quantity: 2}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "wildcraft:poultice-linen-horsetail-thyme", quantity: 4  }
+	},
+
+    {
+		ingredientPattern: "H,L,T",
+		ingredients: {
+			"L": { type: "block", code: "game:linen-*" },
+			"H": { type: "item", code: "wildcraft:herbs-stjohnswort", quantity: 4 },
+            "T": { type: "item", code: "wildcraft:herbs-lavender", quantity: 2}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "wildcraft:poultice-linen-stjohnswort-lavender", quantity: 4  }
+	},
+    {
+		ingredientPattern: "H,L,T",
+		ingredients: {
+			"L": { type: "block", code: "game:linen-*" },
+			"H": { type: "item", code: "wildcraft:herbs-stjohnswort", quantity: 4 },
+            "T": { type: "item", code: "wildcraft:herbs-marshmallow", quantity: 2}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "wildcraft:poultice-linen-stjohnswort-marshmallow", quantity: 4  }
+	},
+    {
+		ingredientPattern: "H,L,T",
+		ingredients: {
+			"L": { type: "block", code: "game:linen-*" },
+			"H": { type: "item", code: "wildcraft:herbs-stjohnswort", quantity: 4 },
+            "T": { type: "item", code: "wildcraft:herbs-thyme", quantity: 2}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "wildcraft:poultice-linen-stjohnswort-thyme", quantity: 4  }
+	},
+
+	{
+		ingredientPattern: "H,C,T",
+		ingredients: {
+			"C": { type: "item", code: "game:cattailtops", quantity: 2 },
+			"H": { type: "block", code: "game:flower-horsetail-free", quantity: 4 },
+            "T": { type: "item", code: "wildcraft:herbs-thyme", quantity: 2}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "wildcraft:poultice-reed-horsetail-thyme", quantity: 4  }
+	},
+    {
+		ingredientPattern: "H,C,T",
+		ingredients: {
+			"C": { type: "item", code: "game:cattailtops", quantity: 2 },
+			"H": { type: "block", code: "game:flower-horsetail-free", quantity: 4 },
+            "T": { type: "item", code: "wildcraft:herbs-lavender", quantity: 2}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "wildcraft:poultice-reed-horsetail-lavender", quantity: 4  }
+	},
+    {
+		ingredientPattern: "H,C,T",
+		ingredients: {
+			"C": { type: "item", code: "game:cattailtops", quantity: 2 },
+			"H": { type: "block", code: "game:flower-horsetail-free", quantity: 4 },
+            "T": { type: "item", code: "wildcraft:herbs-marshmallow", quantity: 2}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "wildcraft:poultice-reed-horsetail-marshmallow", quantity: 4  }
+	},
+	
+	{
+		ingredientPattern: "SBS,_C_,_T_",
+		ingredients: {
+			"C": { type: "item", code: "game:cattailtops", quantity: 2 },
+			"S": { type: "item", code: "game:powderedsulfur" },
+			"B": { type: "block", code: "game:bowl-fired" },
+            "T": { type: "item", code: "wildcraft:herbs-marshmallow", quantity: 2}
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "game:honeyportion" },
+				requiresLitres: 0.25
+			}
+		},		
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "wildcraft:poultice-reed-honey-sulfur-marshmallow", quantity: 4  }
+	},
+    {
+		ingredientPattern: "SBS,_C_,_T_",
+		ingredients: {
+			"C": { type: "item", code: "game:cattailtops", quantity: 2 },
+			"S": { type: "item", code: "game:powderedsulfur" },
+			"B": { type: "block", code: "game:bowl-fired" },
+            "T": { type: "item", code: "wildcraft:herbs-lavender", quantity: 2}
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "game:honeyportion" },
+				requiresLitres: 0.25
+			}
+		},		
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "wildcraft:poultice-reed-honey-sulfur-lavender", quantity: 4  }
+	},
+    {
+		ingredientPattern: "SBS,_C_,_T_",
+		ingredients: {
+			"C": { type: "item", code: "game:cattailtops", quantity: 2 },
+			"S": { type: "item", code: "game:powderedsulfur" },
+			"B": { type: "block", code: "game:bowl-fired" },
+            "T": { type: "item", code: "wildcraft:herbs-thyme", quantity: 2}
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "game:honeyportion" },
+				requiresLitres: 0.25
+			}
+		},		
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "wildcraft:poultice-reed-honey-sulfur-thyme", quantity: 4  }
+	},
+
+    
+    {
+		ingredientPattern: "H,C,T",
+		ingredients: {
+			"C": { type: "item", code: "game:cattailtops", quantity: 2 },
+			"H": { type: "item", code: "wildcraft:herbs-stjohnswort", quantity: 4 },
+            "T": { type: "item", code: "wildcraft:herbs-thyme", quantity: 2}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "wildcraft:poultice-reed-stjohnswort-thyme", quantity: 4  }
+	},
+    {
+		ingredientPattern: "H,C,T",
+		ingredients: {
+			"C": { type: "item", code: "game:cattailtops", quantity: 2 },
+			"H": { type: "item", code: "wildcraft:herbs-stjohnswort", quantity: 4 },
+            "T": { type: "item", code: "wildcraft:herbs-lavender", quantity: 2}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "wildcraft:poultice-reed-stjohnswort-lavender", quantity: 4  }
+	},
+    {
+		ingredientPattern: "H,C,T",
+		ingredients: {
+			"C": { type: "item", code: "game:cattailtops", quantity: 2 },
+			"H": { type: "item", code: "wildcraft:herbs-stjohnswort", quantity: 4 },
+            "T": { type: "item", code: "wildcraft:herbs-marshmallow", quantity: 2}
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "wildcraft:poultice-reed-stjohnswort-marshmallow", quantity: 4  }
+	}
+]

@@ -42,9 +42,15 @@
       "burdock_leaf_small": {"base": "wildcraft:block/plant/leafygroundvegetable/burdock_leaf_small"},
       "burdock_leaf_big": {"base": "wildcraft:block/plant/leafygroundvegetable/burdock_leaf_big"} 
     },
-    "*-lavender-*":{
-      "straight": { "base": "wildcraft:block/plant/leafygroundvegetable/{state}/lavender"}
+    "*-lavender-*": {
+			"north": { "base": "wildcraft:block/plant/leafygroundvegetable/{state}/lavender" },
+			"south": { "base": "wildcraft:block/plant/leafygroundvegetable/{state}/lavender*" },
+			"flower2": { "base": "wildcraft:block/plant/leafygroundvegetable/{state}/lavender" },
+			"northTinted": { "base": "wildcraft:block/plant/leafygroundvegetable/{state}/lavender" },
+			"southTinted": { "base": "wildcraft:block/plant/leafygroundvegetable/{state}/lavender" },
+			"flower2Tinted": { "base": "wildcraft:block/plant/leafygroundvegetable/{state}/lavender" }
     },
+
     "*-burdock-harvested*":{
       "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/burdock_harvested*"}
     },

@@ -17,11 +17,7 @@ namespace wildcraft
         public static readonly string normalCodePart = "normal";
 
         public static readonly string harvestedCodePart = "harvested";
-
-        public static float speedMulti = 2;
-        public static float baseDmg = 1;
-        public float dmg;
-
+        public float dmg = 0.5f;
         public string[] immuneCreatures;
         public bool prickly;
 
@@ -159,7 +155,7 @@ namespace wildcraft
                     if (immuneCreatures[i] == entity.Code.ToString())
                         return;
                 }
-                    if (world.Rand.NextDouble() > 0.996)
+                    if (world.Rand.NextDouble() > 0.7)
                     {
                         entity.ReceiveDamage(new DamageSource() { Source = EnumDamageSource.Block, SourceBlock = this, Type = EnumDamageType.PiercingAttack, SourcePos = pos.ToVec3d() }, dmg);
                     }

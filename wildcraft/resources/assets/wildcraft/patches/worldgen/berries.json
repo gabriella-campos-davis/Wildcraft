@@ -10,28 +10,11 @@
           "wildcraft:berrybush-raspberry-ripe"
         ],
         "minTemp": -4,
-        "maxTemp": 18,
-        "minRain": 0.15,
-        "maxRain": 0.6,
-        "minForest": 0.65,
-        "maxForest": 1,
-        "minFertility": 0.15,
-        "maxFertility": 1,
-        "chance": 0.03,
-        "offsetX": {
-          "dist": "gaussian",
-          "avg": 0,
-          "var": 15
-        },
-        "offsetZ": {
-          "dist": "gaussian",
-          "avg": 0,
-          "var": 15
-        },
-        "quantity": {
-          "avg": 5,
-          "var": 12
-        }
+        "maxTemp": 28,
+        "maxRain": 0.8,
+        "maxForest": 0.5,
+        "chance": 0.05,
+        "quantity": { "dist": "invexp", "avg": 8, "var": 15 }
       },
       "file": "game:worldgen/blockpatches.json"
     },
@@ -45,27 +28,23 @@
           "wildcraft:berrybush-snowberry-flowering",
           "wildcraft:berrybush-snowberry-ripe"
         ],
-        "minTemp": 0,
-        "maxTemp": 24,
-        "minRain": 0.1,
-        "maxRain": 0.60,
-        "minForest": 0.35,
-        "maxForest": 1,
-        "minFertility": 0.15,
-        "maxFertility": 1,
-        "chance": 0.08,
+        "minTemp": -16,
+        "maxTemp": 22,
+        "maxRain": 0.55,
+        "maxForest": 0.55,
+        "chance": 0.04,
         "offsetX": {
           "dist": "gaussian",
           "avg": 0,
-          "var": 15
+          "var": 8
         },
         "offsetZ": {
           "dist": "gaussian",
           "avg": 0,
-          "var": 15
+          "var": 8
         },
         "quantity": {
-          "avg": 5,
+          "avg": 8,
           "var": 12
         }
       },
@@ -81,26 +60,24 @@
           "wildcraft:berrybush-elderberry-flowering",
           "wildcraft:berrybush-elderberry-ripe"
         ],
-        "minTemp": -2,
+        "minTemp": -16,
         "maxTemp": 24,
-        "minRain": 0.35,
-        "minForest": 0.65,
-        "maxForest": 1,
-        "minFertility": 0.15,
-        "maxFertility": 1,
-        "chance": 0.03,
+        "minRain": 0.3,
+        "minForest": 0.15,
+        "maxForest": 0.55,
+        "chance": 0.04,
         "offsetX": {
           "dist": "gaussian",
           "avg": 0,
-          "var": 15
+          "var": 8
         },
         "offsetZ": {
           "dist": "gaussian",
           "avg": 0,
-          "var": 15
+          "var": 8
         },
         "quantity": {
-          "avg": 5,
+          "avg": 8,
           "var": 12
         }
       },
@@ -116,15 +93,14 @@
           "wildcraft:berrybush-strawberry-flowering",
           "wildcraft:berrybush-strawberry-ripe"
         ],
-        "minTemp": 2,
-        "maxTemp": 24,
-        "minRain": 0.34,
-        "maxRain": 0.9,
-        "minForest": 0.65,
+        "minTemp": 18,
+        "maxTemp": 40,
+        "minRain": 0.5,
+        "minForest": 0.35,
         "maxForest": 1,
-        "minFertility": 0.25,
+        "minFertility": 0.3,
         "maxFertility": 1,
-        "chance": 0.03,
+        "chance": 0.05,
         "offsetX": {
           "dist": "gaussian",
           "avg": 0,
@@ -154,13 +130,12 @@
         ],
         "minTemp": -4,
         "maxTemp": 16,
-        "minRain": 0.34,
-        "maxRain": 0.8,
-        "minForest": 0.25,
+        "minRain": 0.35,
         "maxForest": 0.8,
-        "minFertility": 0.15,
+        "minFertility": 0.3,
         "maxFertility": 1,
         "chance": 0.03,
+        "placement": "NearWater",
         "offsetX": {
           "dist": "gaussian",
           "avg": 0,
@@ -188,15 +163,13 @@
           "wildcraft:berrybush-honeysuckle-flowering",
           "wildcraft:berrybush-honeysuckle-ripe"
         ],
-        "minTemp": -2,
-        "maxTemp": 18,
+        "minTemp": 10,
+        "maxTemp": 30,
         "minRain": 0.5,
         "maxRain": 1,
-        "minForest": 0.1,
-        "maxForest": 0.8,
+        "maxForest": 0.65,
         "minFertility": 0.35,
-        "maxFertility": 0.8,
-        "chance": 0.03,
+        "chance": 0.05,
         "offsetX": {
           "dist": "gaussian",
           "avg": 0,
@@ -208,7 +181,7 @@
           "var": 15
         },
         "quantity": {
-          "avg": 5,
+          "avg": 8,
           "var": 12
         }
       },
@@ -230,23 +203,9 @@
         "maxRain": 0.8,
         "minForest": 0.2,
         "maxForest": 0.8,
-        "minFertility": 0.15,
-        "maxFertility": 1,
-        "chance": 0.03,
-        "offsetX": {
-          "dist": "gaussian",
-          "avg": 0,
-          "var": 15
-        },
-        "offsetZ": {
-          "dist": "gaussian",
-          "avg": 0,
-          "var": 15
-        },
-        "quantity": {
-          "avg": 5,
-          "var": 12
-        }
+        "minFertility": 0.25,
+        "chance": 0.05,
+        "quantity": { "dist": "invexp", "avg": 8, "var": 15 }
       },
       "file": "game:worldgen/blockpatches.json"
     },
@@ -265,15 +224,11 @@
         "minRain": 0.3,
         "maxRain": 0.7,
         "minFertility": 0.25,
-        "maxFertility": 0.6,
-        "chance": 0.03,
+        "maxFertility": 0.7,
+        "chance": 0.05,
         "maxForest": 0.45,
         "maxY": 1.0,
-        "quantity": {
-          "dist": "invexp",
-          "avg": 2,
-          "var": 4
-        }
+        "quantity": { "dist": "invexp", "avg": 8, "var": 15 }
       },
       "file": "game:worldgen/blockpatches.json"
     },
@@ -287,12 +242,11 @@
           "wildcraft:berrybush-gooseberry-flowering",
           "wildcraft:berrybush-gooseberry-ripe"
         ],
-        "minTemp": 22,
-        "maxTemp": 42,
-        "minRain": 0.3,
+        "minTemp": -3,
+        "maxTemp": 18,
         "maxRain": 0.7,
         "chance": 0.03,
-        "maxForest": 0.4,
+        "minForest": 0.1,
         "maxY": 0.62,
         "quantity": {
           "dist": "invexp",

@@ -11,7 +11,7 @@ namespace wildcraft
 {
     public class BerryBush : BlockPlant
     {
-        public static float dmg = 1;
+        public static float dmg = 0.5f;
 
         public string[] immuneCreatures;
 
@@ -78,7 +78,7 @@ namespace wildcraft
                     if (immuneCreatures[i] == entity.Code.ToString())
                         return;
                 }
-                if (world.Rand.NextDouble() > 0.998)
+                if (world.Rand.NextDouble() > 0.7)
                 {
                     entity.ReceiveDamage(new DamageSource() { Source = EnumDamageSource.Block, SourceBlock = this, Type = EnumDamageType.PiercingAttack, SourcePos = pos.ToVec3d() }, dmg);
                 }
