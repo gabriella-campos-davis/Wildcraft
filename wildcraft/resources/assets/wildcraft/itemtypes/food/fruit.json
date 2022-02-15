@@ -54,7 +54,7 @@
       }
     },
     "inPieProperties": {
-      "texture": "block/food/pie/fill-{fruit}",
+      "texture": "wildcraft:block/food/pie/fill-{fruit}",
       "partType": "Filling"
     },
     "juicablePropertiesByType": {

@@ -560,5 +560,11 @@
   "Will grow in less than a day": "Will grow in less than a day",
   "Will grow in about {0} days": "Will grow in about {0} days",
 
-  "blockhelp-clippable-clip": "Clip branch"
+  "blockhelp-clippable-clip": "Clip branch",
+
+  "herb-harvested-xdays": "Will grow in {0} days, weather permitting",
+  "herb-harvested-1day": "Will grow in less than a day, weather permitting",
+
+  "Will grow in less than a day, weather permitting": "Will grow in less than a day, weather permitting",
+  "Will grow in {0} days, weather permitting": "Will grow in {0} days, weather permitting"
 }

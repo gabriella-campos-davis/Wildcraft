@@ -1,33 +1,30 @@
 {
 	"code": "leafygroundvegetable",
 	"class": "LeafyGroundVegetable",
-	"entityClass": "Transient",
+	"entityClass": "BlockEntityHerb",
 	"variantgroups": [
 		{ "loadFromProperties": "wildcraft:block/herbs" },
 		{ "code": "state", "states": ["harvested", "normal"] }
 	],
   "attributes": {
-    "transientPropsByType": {
-      "*-harvested": {
-        "convertFrom": "*-harvested",
-        "convertTo": "*-normal",
-        "inGameHours": "72",
-        "resetBelowTemperature": -4,
-        "stopBelowTemperature": 2
-      },
-      "*-normal": {
-        "condition": "temperature",
-        "whenBelowTemperature": 2,
-        "convertTo": "*-harvested",
-        "convertFrom": "*-normal"
-      }
+    "butterflyFeedByType": {
+      "*-normal": true
     },
+    "beeFeedByType": {
+      "*-normal": true
+    },
+    "resetBelowTemperature": -1,
+    "stopBelowTemperature": 4,
+    "revertBlockBelowTemperature": -4,
+
+    "resetAboveTemperature": 35,
+    "stopAboveTemperature": 30,
+    "revertBlockAboveTemperature": 38,
     "forageStatAffected": true,
 
     "immuneCreatures": [ "game:chicken-baby", "game:chicken-hen", "game:chicken-rooster", "game:fox-arctic-female", "game:fox-arctic-male", "game:fox-female", "game:fox-male", "game:fox-pup", "game:hare-baby", "game:hare-female", "game:hare-male", "game:pig-wild-female", "game:pig-wild-male", "game:pig-wild-piglet", "game:raccoon-male", "game:raccoon-female", "game:raccoon-pup", "game:sheep-bighorn-female", "game:sheep-bighorn-lamb", "game:sheep-bighorn-male" ],
     "pricklyByType": {
       "*-stingingnettle-normal": true,
-      "*-sedge-normal": true,
       "*": false
     }
   },

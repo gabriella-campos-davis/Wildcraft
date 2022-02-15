@@ -1,5 +1,6 @@
 {
 	"code": "pressedmash",
+	"class": "ItemPressedMash",
 	"maxstacksize": 64,
     "variantgroups": [
         { "loadFromProperties": "wildcraft:block/fruit" }
