@@ -6,7 +6,7 @@
         { "loadFromProperties": "wildcraft:block/fruit" }
       ],
 	"attributes": {
-		"juicablePropertiesByType": {
+		"juiceablePropertiesByType": {
 			"*": {
 				"liquidStack": { "type": "item", "code": "wildcraft:juiceportion-{fruit}", "stacksize": 1 },
 				"pressedStack": { "type": "item", "code": "wildcraft:pressedmash-{fruit}", "stacksize": 1 }

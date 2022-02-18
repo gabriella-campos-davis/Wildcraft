@@ -475,7 +475,8 @@
   "block-berrybush-cloudberry-flowering": "Cloudberry Plant (Flowering)",
   "block-berrybush-cloudberry-ripe": "Cloudberry Plant (Ripe)",
 
-  "item-pressedmash-huckleberry": "Pressed huckleberry mash",
+  "item-pressedmash-huckleberry-dry": "Pressed Huckleberry mash",
+  "item-pressedmash-huckleberry-wet": "Huckleberry mash ",
 	"item-juiceportion-huckleberry": "Huckleberry juice",
   "incontainer-item-juiceportion-huckleberry": "Huckleberry juice",
 	"item-ciderportion-huckleberry": "Huckleberry cider",
@@ -483,7 +484,8 @@
 	"item-spiritportion-huckleberry": "Huckleberry brandy",
   "incontainer-item-spiritportion-huckleberry": "Huckleberry brandy",
 
-  "item-pressedmash-snowberry": "Pressed Snowberry mash",
+  "item-pressedmash-snowberry-dry": "Pressed Snowberry mash",
+  "item-pressedmash-snowberry-wet": "Snowberry mash ",
 	"item-juiceportion-snowberry": "Snowberry juice",
   "incontainer-item-juiceportion-snowberry": "Snowberry juice",
 	"item-ciderportion-snowberry": "Snowberry cider",
@@ -491,7 +493,8 @@
 	"item-spiritportion-snowberry": "Snowberry brandy",
   "incontainer-item-spiritportion-snowberry": "Snowberry brandy",
 
-  "item-pressedmash-brambleberry": "Pressed Brambleberry mash",
+  "item-pressedmash-brambleberry-dry": "Pressed Brambleberry mash",
+  "item-pressedmash-brambleberry-wet": "Brambleberry mash ",
 	"item-juiceportion-brambleberry": "Brambleberry juice",
   "incontainer-item-juiceportion-brambleberry": "Brambleberry juice",
 	"item-ciderportion-brambleberry": "Brambleberry cider",
@@ -499,7 +502,8 @@
 	"item-spiritportion-brambleberry": "Brambleberry brandy",
   "incontainer-item-spiritportion-brambleberry": "Brambleberry brandy",
 
-  "item-pressedmash-cloudberry": "Pressed Cloudberry mash",
+  "item-pressedmash-cloudberry-dry": "Pressed Cloudberry mash",
+  "item-pressedmash-cloudberry-wet": "Cloudberry mash ",
 	"item-juiceportion-cloudberry": "Cloudberry juice",
   "incontainer-item-juiceportion-cloudberry": "Cloudberry juice",
 	"item-ciderportion-cloudberry": "Cloudberry cider",
@@ -507,7 +511,8 @@
 	"item-spiritportion-cloudberry": "Cloudberry brandy",
   "incontainer-item-spiritportion-cloudberry": "Cloudberry brandy",
 
-  "item-pressedmash-dogrose": "Pressed Dogrose mash",
+  "item-pressedmash-dogrose-dry": "Pressed Dogrose mash",
+  "item-pressedmash-dogrose-wet": "Dogrose mash ",
 	"item-juiceportion-dogrose": "Dogrose juice",
   "incontainer-item-juiceportion-dogrose": "Dogrose juice",
 	"item-ciderportion-dogrose": "Dogrose cider",
@@ -515,7 +520,8 @@
 	"item-spiritportion-dogrose": "Dogrose brandy",
   "incontainer-item-spiritportion-dogrose": "Dogrose brandy",
 
-  "item-pressedmash-elderberry": "Pressed Elderberry mash",
+  "item-pressedmash-elderberry-dry": "Pressed Elderberry mash",
+  "item-pressedmash-elderberry-wet": "Elderberry mash ",
 	"item-juiceportion-elderberry": "Elderberry juice",
   "incontainer-item-juiceportion-elderberry": "Elderberry juice",
 	"item-ciderportion-elderberry": "Elderberry cider",
@@ -523,7 +529,8 @@
 	"item-spiritportion-elderberry": "Elderberry brandy",
   "incontainer-item-spiritportion-elderberry": "Elderberry brandy",
 
-  "item-pressedmash-gooseberry": "Pressed Gooseberry mash",
+  "item-pressedmash-gooseberry-dry": "Pressed Gooseberry mash",
+  "item-pressedmash-gooseberry-wet": "Gooseberry mash ",
 	"item-juiceportion-gooseberry": "Gooseberry juice",
   "incontainer-item-juiceportion-gooseberry": "Gooseberry juice",
 	"item-ciderportion-gooseberry": "Gooseberry cider",
@@ -531,7 +538,8 @@
 	"item-spiritportion-gooseberry": "Gooseberry brandy",
   "incontainer-item-spiritportion-gooseberry": "Gooseberry brandy",
 
-  "item-pressedmash-honeysuckle": "Pressed Honeysuckle mash",
+  "item-pressedmash-honeysuckle-dry": "Pressed Honeysuckle mash",
+  "item-pressedmash-honeysuckle-wet": "Honeysuckle mash ",
 	"item-juiceportion-honeysuckle": "Honeysuckle juice",
   "incontainer-item-juiceportion-honeysuckle": "Honeysuckle juice",
 	"item-ciderportion-honeysuckle": "Honeysuckle cider",
@@ -539,7 +547,8 @@
 	"item-spiritportion-honeysuckle": "Honeysuckle brandy",
   "incontainer-item-spiritportion-honeysuckle": "Honeysuckle brandy",
 
-  "item-pressedmash-raspberry": "Pressed Raspberry mash",
+  "item-pressedmash-raspberry-dry": "Pressed Raspberry mash",
+  "item-pressedmash-raspberry-wet": "Raspberry mash ",
 	"item-juiceportion-raspberry": "Raspberry juice",
   "incontainer-item-juiceportion-raspberry": "Raspberry juice",
 	"item-ciderportion-raspberry": "Raspberry cider",
@@ -547,7 +556,8 @@
 	"item-spiritportion-raspberry": "Raspberry brandy",
   "incontainer-item-spiritportion-raspberry": "Raspberry brandy",
 
-  "item-pressedmash-strawberry": "Pressed Strawberry mash",
+  "item-pressedmash-strawberry-dry": "Pressed Strawberry mash ",
+  "item-pressedmash-strawberry-wet": "Strawberry mash ",
 	"item-juiceportion-strawberry": "Strawberry juice",
   "incontainer-item-juiceportion-strawberry": "Strawberry juice",
 	"item-ciderportion-strawberry": "Strawberry cider",

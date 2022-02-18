@@ -32,6 +32,16 @@
       "/bir remapq wildcraft:leafygroundvegetable-minerslettuce-normal plantexpansion:leafygroundvegetable-minerslettuce-normal force",
       "/bir remapq wildcraft:leafygroundvegetable-minerslettuce-harvested plantexpansion:leafygroundvegetable-minerslettuce-harvested force",
 
+      "/bir remapq wildcraft:leafygroundvegetable-chamomile-normal game:herb-chamomile force",
+      "/bir remapq wildcraft:leafygroundvegetable-basil-normal game:herb-basil force",
+      "/bir remapq wildcraft:leafygroundvegetable-cilantro-normal game:herb-cilantro force",
+      "/bir remapq wildcraft:leafygroundvegetable-lavender-normal game:herb-lavender force",
+      "/bir remapq wildcraft:leafygroundvegetable-marjoram-normal game:herb-marjoram force",
+      "/bir remapq wildcraft:leafygroundvegetable-mint-normal herb-mint force",
+      "/bir remapq wildcraft:leafygroundvegetable-saffron-normal game:herb-saffron force",
+      "/bir remapq wildcraft:leafygroundvegetable-sage-normal game:herb-sage force",
+      "/bir remapq wildcraft:leafygroundvegetable-thyme-normal game:herb-thyme force",
+
       "/iir remapq wildcraft:fruit-huckleberry plantexpansion:fruit-huckleberry force",
       "/iir remapq wildcraft:fruit-strawberry plantexpansion:fruit-strawberry force",
       "/iir remapq wildcraft:fruit-raspberry plantexpansion:fruit-raspberry force",
@@ -40,6 +50,7 @@
 
       "/iir remapq wildcraft:seeds-strawberry wildcraft:item-clipping-strawberry-green force",
       "/iir remapq wildcraft:seeds-cloudberry wildcraft:item-clipping-cloudberry-green force"
+
     ]
 	}
 ]
