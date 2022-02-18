@@ -244,5 +244,26 @@
 		width: 1,
 		height: 3,
 		output: { type: "item", code: "wildcraft:poultice-reed-stjohnswort-marshmallow", quantity: 4  }
+	},
+
+	{
+		ingredientPattern: "H,C,_",
+		ingredients: {
+			"C": { type: "item", code: "game:cattailtops", quantity: 2 },
+			"H": { type: "item", code: "wildcraft:herbs-stjohnswort", quantity: 4 },
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "wildcraft:simplepoultice-reed-stjohnswort", quantity: 4  }
+	},
+	{
+		ingredientPattern: "H,L,_",
+		ingredients: {
+			"L": { type: "block", code: "game:linen-*" },
+			"H": { type: "item", code: "wildcraft:herbs-stjohnswort", quantity: 4 },
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "wildcraft:simplepoultice-linen-stjohnswort", quantity: 4  }
 	}
 ]

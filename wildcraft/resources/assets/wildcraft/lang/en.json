@@ -26,6 +26,9 @@
   "item-poultice-reed-stjohnswort-thyme": "St John's Wort and Thyme Poultice (from reeds)",
   "item-poultice-reed-stjohnswort-marshmallow": "St John's Wort and Marshmallow Poultice (from reeds)",
 
+  "item-simplepoultice-reed-stjohnswort": "St John's Wort Poultice (from reeds)",
+  "item-simplepoultice-linen-stjohnswort": "St John's Wort Poultice (from linen)",
+
   "itemdesc-poultice-*": "A bandage to heal minor wounds",
   "item-handbooktitle-poultice-*": "About:",
   "item-handbooktext-poultice-*": "Poultices are a sort of combination of bandage with other healing components, used to help heal wounds.",	
