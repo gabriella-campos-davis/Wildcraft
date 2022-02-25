@@ -52,8 +52,12 @@ namespace wildcraft
             }
 
             string herbtype = Variant["herbs"];
-
-            Block herbBlock = byEntity.World.GetBlock(AssetLocation.Create("wildcraft:leafygroundvegetable-" + herbtype + "-harvested", Code.Domain));
+            Block herbBlock;
+            if(this.Code.GetName().Contains("waterchestnut")){
+                herbBlock = byEntity.World.GetBlock(AssetLocation.Create("wildcraft:waterplant-" + herbtype + "-land-harvested-free", Code.Domain));
+            } else {
+                herbBlock= byEntity.World.GetBlock(AssetLocation.Create("wildcraft:leafygroundvegetable-" + herbtype + "-harvested", Code.Domain));
+            }
 
             if (herbBlock != null)
             {

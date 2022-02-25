@@ -1,7 +1,9 @@
 {
 	"code": "leafygroundvegetable",
 	"class": "LeafyGroundVegetable",
-	"entityClass": "BlockEntityHerb",
+  "entityClassByType": {
+		"*-harvested": "Transient"
+	},
 	"variantgroups": [
 		{ "loadFromProperties": "wildcraft:block/herbs" },
 		{ "code": "state", "states": ["harvested", "normal"] }
@@ -13,6 +15,15 @@
     "beeFeedByType": {
       "*-normal": true
     },
+    "transientPropsByType": {
+			"*-harvested": {
+				"convertFrom": "*-harvested", 
+				"convertTo": "*-normal", 
+				"inGameHours": "84",
+				"resetBelowTemperature": -4,
+				"stopBelowTemperature": 2
+			}
+		},
     "resetBelowTemperature": -1,
     "stopBelowTemperature": 4,
     "revertBlockBelowTemperature": -4,
@@ -25,6 +36,9 @@
     "immuneCreatures": [ "game:chicken-baby", "game:chicken-hen", "game:chicken-rooster", "game:fox-arctic-female", "game:fox-arctic-male", "game:fox-female", "game:fox-male", "game:fox-pup", "game:hare-baby", "game:hare-female", "game:hare-male", "game:pig-wild-female", "game:pig-wild-male", "game:pig-wild-piglet", "game:raccoon-male", "game:raccoon-female", "game:raccoon-pup", "game:sheep-bighorn-female", "game:sheep-bighorn-lamb", "game:sheep-bighorn-male" ],
     "pricklyByType": {
       "*-stingingnettle-normal": true,
+      "*-poisonoak-normal": true,
+      "*-thistle-normal": true,
+      "*-holly-normal": true,
       "*": false
     }
   },
@@ -38,6 +52,16 @@
       "burdock_flowers": {"base": "wildcraft:block/plant/leafygroundvegetable/burdock_flowers"},
       "burdock_leaf_small": {"base": "wildcraft:block/plant/leafygroundvegetable/burdock_leaf_small"},
       "burdock_leaf_big": {"base": "wildcraft:block/plant/leafygroundvegetable/burdock_leaf_big"} 
+    },
+    "*-thistle-normal*":{
+      "burdock_stem": {"base": "wildcraft:block/plant/leafygroundvegetable/burdock_stem"},
+      "burdock_flowers": {"base": "wildcraft:block/plant/leafygroundvegetable/burdock_flowers"},
+      "burdock_leaf_small": {"base": "wildcraft:block/plant/leafygroundvegetable/thistle_leaf_small"},
+      "burdock_leaf_big": {"base": "wildcraft:block/plant/leafygroundvegetable/thistle_leaf_big"} 
+    },
+    "*-inula-normal*":{
+      "burdock_stem": {"base": "wildcraft:block/plant/leafygroundvegetable/inula_stem"},
+      "burdock_leaf_big": {"base": "wildcraft:block/plant/leafygroundvegetable/inula_leaf"} 
     },
     "*-lavender-*": {
 			"north": { "base": "wildcraft:block/plant/leafygroundvegetable/{state}/lavender" },
@@ -62,6 +86,9 @@
     "*-mugwort-*": {"base": "wildcraft:block/plant/leafygroundvegetable/bushy_normal"},
     "*-sedge-*": {"base": "wildcraft:block/plant/leafygroundvegetable/bushy_normal"},
     "*-burdock-normal*": {"base": "wildcraft:block/plant/leafygroundvegetable/burdock_normal*"},
+    "*-thistle-normal*": {"base": "wildcraft:block/plant/leafygroundvegetable/burdock_normal*"},
+    "*-inula-normal*": {"base": "wildcraft:block/plant/leafygroundvegetable/inula_normal*"},
+
     "*-lavender-*": {"base": "wildcraft:block/plant/leafygroundvegetable/shrub"},
 
     "*": {"base": "wildcraft:block/plant/leafygroundvegetable/default_normal*"}
@@ -125,6 +152,20 @@
       {
         "type": "item",
         "code": "wildcraft:roots-marshmallow",
+        "quantity": { "avg": 1.8 }
+      }
+    ],
+    "*-chicory-harvested": [
+      {
+        "type": "item",
+        "code": "wildcraft:roots-chicory",
+        "quantity": { "avg": 1.8 }
+      }
+    ],
+    "*-liquorice-harvested": [
+      {
+        "type": "item",
+        "code": "wildcraft:roots-liquorice",
         "quantity": { "avg": 1.8 }
       }
     ],

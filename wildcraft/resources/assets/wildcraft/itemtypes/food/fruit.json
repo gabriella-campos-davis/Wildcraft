@@ -226,18 +226,12 @@
       "origin": { "x": 0.5599, "y": 0.16, "z": 0.5599 },
       "scale": 3.45
     },
-    "*-snowberry":{
-      "translation": { "x": 0, "y": 0, "z": 0 },
-      "rotation": { "x": 119, "y": -91, "z": -42 },
-      "origin": { "x": 0.5299, "y": 0.22, "z": 0.47 },
-      "scale": 2.91
-    },
-    "*-huckleberry":	{
-      translation: { x: 0, y: 0, z: 0 },
-      rotation: { x: 125, y: -74, z: -32 },
-      origin: { x: 0.5299, y: 0.22, z: 0.5299 },
-      scale: 3.3
-    },
+    "@*-(huckleberry|snowberry)": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -113, y: -58, z: 16 },
+			origin: { x: 0.46, y: 0.22, z: 0.42 },
+			scale: 2.6
+		},
     "*-brambleberry": {
       translation: { x: 0, y: 0, z: 0 },
       rotation: { x: 130, y: -75, z: -29 },
@@ -282,18 +276,11 @@
       origin: { x: 0.7, y: 0.3, z: 0.5 },
       scale: 1.29
     },
-    "*-snowberry": 	{
-      translation: { x: 0, y: 0, z: 0 },
-      rotation: { x: 36, y: 17, z: -22 },
-      origin: { x: 0.6, y: 0.3, z: 0.6 },
-      scale: 1.11
-    },
-    "*-huckleberry": {
-      translation: { x: 0, y: 0, z: 0 },
-      rotation: { x: -81, y: 105, z: 114 },
-      origin: { x: 0.55, y: 0.5, z: 0.6 },
-      scale: 1.06
-    },
+		"@*-(huckleberry|snowberry)": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 39, y: 3, z: -30 },
+			origin: { x: 0.3, y: 0.2, z: 0.5 }
+		},
     "*-brambleberry": {
       translation: { x: 0, y: 0, z: 0 },
       rotation: { x: 22, y: 17, z: -14 },
@@ -321,9 +308,9 @@
       scale: 1.46
     },
     "*-dogrose":{
-      rotation: { x: 126, y: 131, z: -49 },
-      origin: { x: 0.5, y: 0.4, z: 0.7 },
-      scale: 1.38
+        rotation: { x: 7, y: 5, z: 4 },
+        origin: { x: 0.2, y: 0.4, z: 1 },
+        scale: 1.27
     },
     "*-honeysuckle": {
       origin: { x: 0.5, y: 0.25, z: 0.5 },

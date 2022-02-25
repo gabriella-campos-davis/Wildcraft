@@ -13,7 +13,7 @@
         "maxTemp": 28,
         "maxRain": 0.8,
         "maxForest": 0.5,
-        "chance": 0.05,
+        "chance": 0.04,
         "quantity": { "dist": "invexp", "avg": 8, "var": 15 }
       },
       "file": "game:worldgen/blockpatches.json"
@@ -32,7 +32,7 @@
         "maxTemp": 22,
         "maxRain": 0.55,
         "maxForest": 0.55,
-        "chance": 0.04,
+        "chance": 0.02,
         "offsetX": {
           "dist": "gaussian",
           "avg": 0,
@@ -62,10 +62,10 @@
         ],
         "minTemp": -16,
         "maxTemp": 24,
-        "minRain": 0.3,
-        "minForest": 0.15,
-        "maxForest": 0.55,
-        "chance": 0.04,
+        "minRain": 0.5,
+        "minForest": 0.25,
+        "maxForest": 0.75,
+        "chance": 0.02,
         "offsetX": {
           "dist": "gaussian",
           "avg": 0,
@@ -100,7 +100,7 @@
         "maxForest": 1,
         "minFertility": 0.3,
         "maxFertility": 1,
-        "chance": 0.05,
+        "chance": 0.04,
         "offsetX": {
           "dist": "gaussian",
           "avg": 0,
@@ -169,7 +169,7 @@
         "maxRain": 1,
         "maxForest": 0.65,
         "minFertility": 0.35,
-        "chance": 0.05,
+        "chance": 0.03,
         "offsetX": {
           "dist": "gaussian",
           "avg": 0,
@@ -191,7 +191,7 @@
       "op": "add",
       "path": "/patches/-",
       "value": {
-        "comment": "Patches of bramblberry bushes",
+        "comment": "Patches of bramblberry bushes in forest",
         "blockCodes": [
           "wildcraft:berrybush-brambleberry-empty",
           "wildcraft:berrybush-brambleberry-flowering",
@@ -200,11 +200,9 @@
         "minTemp": 2,
         "maxTemp": 24,
         "minRain": 0.3,
-        "maxRain": 0.8,
-        "minForest": 0.2,
-        "maxForest": 0.8,
+        "minForest": 0.5,
         "minFertility": 0.25,
-        "chance": 0.05,
+        "chance": 0.04,
         "quantity": { "dist": "invexp", "avg": 8, "var": 15 }
       },
       "file": "game:worldgen/blockpatches.json"
@@ -270,7 +268,7 @@
         "maxTemp": 16,
         "minRain": 0.2,
         "minFertility": 0.25,
-        "chance": 0.03,
+        "chance": 0.01,
         "maxForest": 0.8,
         "maxY": 0.62,
         "placement": "NearWater",
@@ -296,7 +294,7 @@
         "maxTemp": 16,
         "minRain": 0.2,
         "minFertility": 0.25,
-        "chance": 0.03,
+        "chance": 0.02,
         "minForest": 0.55,
         "maxY": 0.82,
         "quantity": {

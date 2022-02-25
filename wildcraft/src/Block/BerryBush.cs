@@ -75,7 +75,7 @@ namespace wildcraft
             {
                 for (int i = 0; i < immuneCreatures.Length; i++)
                 {
-                    if (immuneCreatures[i] == entity.Code.ToString())
+                    if (immuneCreatures[i].Contains(entity.Code.ToString()))
                         return;
                 }
                 if (world.Rand.NextDouble() > 0.7)

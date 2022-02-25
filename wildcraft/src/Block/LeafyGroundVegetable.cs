@@ -17,7 +17,7 @@ namespace wildcraft
         public static readonly string normalCodePart = "normal";
 
         public static readonly string harvestedCodePart = "harvested";
-        public float dmg = 0.5f;
+        public float dmg = 1f / 8f;
         public string[] immuneCreatures;
         public bool prickly;
 
@@ -123,7 +123,7 @@ namespace wildcraft
 
         public bool IsRoot()
         {
-            if(Variant["herbs"] == "bearleek" ||Variant["herbs"] == "burdock" || Variant["herbs"] == "marshmallow"){
+            if(Variant["herbs"] == "bearleek" ||Variant["herbs"] == "burdock" || Variant["herbs"] == "marshmallow" || Variant["herbs"] == "chicory" || Variant["herbs"] == "liquorice"){
                 return true;
             } else {
                 return false;
@@ -152,12 +152,20 @@ namespace wildcraft
             {
                 for (int i = 0; i < immuneCreatures.Length; i++)
                 {
-                    if (immuneCreatures[i] == entity.Code.ToString())
+                    if (immuneCreatures[i].Contains(entity.Code.ToString()))
                         return;
                 }
                     if (world.Rand.NextDouble() > 0.7)
                     {
-                        entity.ReceiveDamage(new DamageSource() { Source = EnumDamageSource.Block, SourceBlock = this, Type = EnumDamageType.PiercingAttack, SourcePos = pos.ToVec3d() }, dmg);
+                        if(Variant["herbs"] == "stingingnettle"){
+                            var sting = new StingingNettle();
+                            sting.Apply(entity);
+                        } else if(Variant["herbs"] == "poisonoak"){
+                            var poison = new PoisonOak();
+                            poison.Apply(entity);
+                        } else{
+                            entity.ReceiveDamage(new DamageSource() { Source = EnumDamageSource.Block, SourceBlock = this, Type = EnumDamageType.PiercingAttack, SourcePos = pos.ToVec3d() }, dmg);
+                        }
                     }
             }
             base.OnEntityInside(world, entity, pos);

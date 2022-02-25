@@ -19,7 +19,7 @@
 			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
 			"faces": {
 				"north": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 24.0 ], "enabled": false, "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] },
-				"east": { "texture": "#burdock_stem", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] },
+				"east": { "texture": "#burdock_stem", "uv": [ 2.0, 0.0, 14.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] },
 				"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 24.0 ], "enabled": false, "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
 				"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 24.0 ], "enabled": false, "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
 				"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
@@ -36,7 +36,7 @@
 					"rotationY": 90.0,
 					"faces": {
 						"north": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 24.0 ], "enabled": false },
-						"east": { "texture": "#burdock_stem", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] },
+						"east": { "texture": "#burdock_stem", "uv": [ 2.0, 0.0, 14.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] },
 						"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 24.0 ], "enabled": false },
 						"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 24.0 ], "enabled": false },
 						"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
@@ -52,7 +52,7 @@
 					"rotationOrigin": [ 0.0, 0.0, 8.0 ],
 					"faces": {
 						"north": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 24.0 ], "enabled": false },
-						"east": { "texture": "#burdock_flowers", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] },
+						"east": { "texture": "#burdock_flowers", "uv": [ 2.0, 0.0, 14.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] },
 						"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 24.0 ], "enabled": false },
 						"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 24.0 ], "enabled": false },
 						"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
@@ -69,7 +69,7 @@
 							"rotationY": 90.0,
 							"faces": {
 								"north": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 24.0 ], "enabled": false },
-								"east": { "texture": "#burdock_flowers", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] },
+								"east": { "texture": "#burdock_flowers", "uv": [ 2.0, 0.0, 14.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] },
 								"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 24.0 ], "enabled": false },
 								"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 24.0 ], "enabled": false },
 								"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },

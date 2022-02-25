@@ -5,8 +5,7 @@
       "comment": "Patches of minerslettuce",
       "blockCodes": [
         "wildcraft:leafygroundvegetable-minerslettuce-normal",
-        "wildcraft:leafygroundvegetable-minerslettuce-normal",
-        "wildcraft:leafygroundvegetable-minerslettuce-harvested"
+        "wildcraft:leafygroundvegetable-minerslettuce-normal"
       ],
       "minTemp": 0,
       "maxTemp": 20,
@@ -29,8 +28,7 @@
       "comment": "Patches of stinging nettle",
       "blockCodes": [
         "wildcraft:leafygroundvegetable-stingingnettle-normal",
-        "wildcraft:leafygroundvegetable-stingingnettle-normal",
-        "wildcraft:leafygroundvegetable-stingingnettle-harvested"
+        "wildcraft:leafygroundvegetable-stingingnettle-normal"
       ],
       "minTemp": 0,
       "maxTemp": 20,
@@ -53,8 +51,7 @@
       "comment": "Patches of basil in warm wet areas (tropical)",
       "blockCodes": [
         "wildcraft:leafygroundvegetable-basil-normal",
-        "wildcraft:leafygroundvegetable-basil-normal",
-        "wildcraft:leafygroundvegetable-basil-harvested"
+        "wildcraft:leafygroundvegetable-basil-normal"
       ],
       "minTemp": 20,
       "maxTemp": 42,
@@ -80,8 +77,7 @@
       "comment": "Patches of black pepper in warm wet areas (tropical)",
       "blockCodes": [
         "wildcraft:leafygroundvegetable-blackpepper-normal",
-        "wildcraft:leafygroundvegetable-blackpepper-normal",
-        "wildcraft:leafygroundvegetable-blackpepper-harvested"
+        "wildcraft:leafygroundvegetable-blackpepper-normal"
       ],
       "minTemp": 20,
       "maxTemp": 42,
@@ -107,8 +103,7 @@
       "comment": "Patches of bearleek in temperate wooded/wet areas ",
       "blockCodes": [
         "wildcraft:leafygroundvegetable-bearleek-normal",
-        "wildcraft:leafygroundvegetable-bearleek-normal",
-        "wildcraft:leafygroundvegetable-bearleek-harvested"
+        "wildcraft:leafygroundvegetable-bearleek-normal"
       ],
       "minTemp": 2,
       "maxTemp": 22,
@@ -134,8 +129,7 @@
       "comment": "Patches of chamomile in temperate dry fields",
       "blockCodes": [
         "wildcraft:leafygroundvegetable-chamomile-normal",
-        "wildcraft:leafygroundvegetable-chamomile-normal",
-        "wildcraft:leafygroundvegetable-chamomile-harvested"
+        "wildcraft:leafygroundvegetable-chamomile-normal"
       ],
       "minTemp": 2,
       "maxTemp": 22,
@@ -161,8 +155,7 @@
       "comment": "Patches of marshmallow in temperate areas near water",
       "blockCodes": [
         "wildcraft:leafygroundvegetable-marshmallow-normal",
-        "wildcraft:leafygroundvegetable-marshmallow-normal",
-        "wildcraft:leafygroundvegetable-marshmallow-harvested"
+        "wildcraft:leafygroundvegetable-marshmallow-normal"
       ],
       "minTemp": 2,
       "maxTemp": 22,
@@ -191,8 +184,7 @@
         "wildcraft:leafygroundvegetable-sedge-normal",
         "wildcraft:leafygroundvegetable-sedge-normal",
         "wildcraft:leafygroundvegetable-sedge-normal",
-        "wildcraft:leafygroundvegetable-sedge-normal",
-        "wildcraft:leafygroundvegetable-sedge-harvested"
+        "wildcraft:leafygroundvegetable-sedge-normal"
       ],
       "minTemp": -4,
       "maxTemp": 24,
@@ -213,8 +205,7 @@
       "comment": "Patches of burdock in temperate areas near water",
       "blockCodes": [
         "wildcraft:leafygroundvegetable-burdock-normal",
-        "wildcraft:leafygroundvegetable-burdock-normal",
-        "wildcraft:leafygroundvegetable-burdock-harvested"
+        "wildcraft:leafygroundvegetable-burdock-normal"
       ],
       "minTemp": -2,
       "maxTemp": 22,
@@ -241,8 +232,7 @@
       "comment": "Patches of cilantro in temperate areas",
       "blockCodes": [
         "wildcraft:leafygroundvegetable-cilantro-normal",
-        "wildcraft:leafygroundvegetable-cilantro-normal",
-        "wildcraft:leafygroundvegetable-cilantro-harvested"
+        "wildcraft:leafygroundvegetable-cilantro-normal"
       ],
       "minTemp": 2,
       "maxTemp": 22,
@@ -268,8 +258,7 @@
       "comment": "Patches of stjohnswort in temperate clear areas",
       "blockCodes": [
         "wildcraft:leafygroundvegetable-stjohnswort-normal",
-        "wildcraft:leafygroundvegetable-stjohnswort-normal",
-        "wildcraft:leafygroundvegetable-stjohnswort-harvested"
+        "wildcraft:leafygroundvegetable-stjohnswort-normal"
       ],
       "minTemp": 4,
       "maxTemp": 32,
@@ -294,8 +283,7 @@
       "comment": "Patches of thyme in temperate clear areas",
       "blockCodes": [
         "wildcraft:leafygroundvegetable-thyme-normal",
-        "wildcraft:leafygroundvegetable-thyme-normal",
-        "wildcraft:leafygroundvegetable-thyme-harvested"
+        "wildcraft:leafygroundvegetable-thyme-normal"
       ],
       "minTemp": 2,
       "maxTemp": 28,
@@ -321,8 +309,7 @@
       "comment": "Patches of mugwort in temperate clear and forestsed areas",
       "blockCodes": [
         "wildcraft:leafygroundvegetable-mugwort-normal",
-        "wildcraft:leafygroundvegetable-mugwort-normal",
-        "wildcraft:leafygroundvegetable-mugwort-harvested"
+        "wildcraft:leafygroundvegetable-mugwort-normal"
       ],
       "minTemp": 2,
       "maxTemp": 28,
@@ -348,8 +335,7 @@
       "comment": "Patches of mint in temperate areas",
       "blockCodes": [
         "wildcraft:leafygroundvegetable-mint-normal",
-        "wildcraft:leafygroundvegetable-mint-normal",
-        "wildcraft:leafygroundvegetable-mint-harvested"
+        "wildcraft:leafygroundvegetable-mint-normal"
       ],
       "minTemp": 0,
       "maxTemp": 24,
@@ -375,8 +361,7 @@
       "comment": "Patches of lavender in temperate areas",
       "blockCodes": [
         "wildcraft:leafygroundvegetable-lavender-normal",
-        "wildcraft:leafygroundvegetable-lavender-normal",
-        "wildcraft:leafygroundvegetable-lavender-harvested"
+        "wildcraft:leafygroundvegetable-lavender-normal"
       ],
       "minTemp": 2,
       "maxTemp": 28,
@@ -399,8 +384,7 @@
       "comment": "Patches of mustard in temperate areas",
       "blockCodes": [
         "wildcraft:leafygroundvegetable-mustard-normal",
-        "wildcraft:leafygroundvegetable-mustard-normal",
-        "wildcraft:leafygroundvegetable-mustard-harvested"
+        "wildcraft:leafygroundvegetable-mustard-normal"
       ],
       "minTemp": 0,
       "maxTemp": 22,
@@ -426,8 +410,7 @@
       "comment": "Patches of celery",
       "blockCodes": [
         "wildcraft:leafygroundvegetable-celery-normal",
-        "wildcraft:leafygroundvegetable-celery-normal",
-        "wildcraft:leafygroundvegetable-celery-harvested"
+        "wildcraft:leafygroundvegetable-celery-normal"
       ],
       "minTemp": 2,
       "maxTemp": 22,
@@ -453,8 +436,7 @@
       "comment": "Patches of saffron",
       "blockCodes": [
         "wildcraft:leafygroundvegetable-saffron-normal",
-        "wildcraft:leafygroundvegetable-saffron-normal",
-        "wildcraft:leafygroundvegetable-saffron-harvested"
+        "wildcraft:leafygroundvegetable-saffron-normal"
       ],
       "minTemp": 2,
       "maxTemp": 22,
@@ -480,8 +462,7 @@
       "comment": "Patches of sage",
       "blockCodes": [
         "wildcraft:leafygroundvegetable-sage-normal",
-        "wildcraft:leafygroundvegetable-sage-normal",
-        "wildcraft:leafygroundvegetable-sage-harvested"
+        "wildcraft:leafygroundvegetable-sage-normal"
       ],
       "minTemp": 4,
       "maxTemp": 28,
@@ -507,8 +488,7 @@
       "comment": "Patches of dill",
       "blockCodes": [
         "wildcraft:leafygroundvegetable-dill-normal",
-        "wildcraft:leafygroundvegetable-dill-normal",
-        "wildcraft:leafygroundvegetable-dill-harvested"
+        "wildcraft:leafygroundvegetable-dill-normal"
       ],
       "minTemp": 6,
       "maxTemp": 28,
@@ -534,8 +514,7 @@
       "comment": "Patches of rosemary",
       "blockCodes": [
         "wildcraft:leafygroundvegetable-rosemary-normal",
-        "wildcraft:leafygroundvegetable-rosemary-normal",
-        "wildcraft:leafygroundvegetable-rosemary-harvested"
+        "wildcraft:leafygroundvegetable-rosemary-normal"
       ],
       "minTemp": 6,
       "maxTemp": 28,
@@ -561,8 +540,7 @@
       "comment": "Patches of marjoram",
       "blockCodes": [
         "wildcraft:leafygroundvegetable-marjoram-normal",
-        "wildcraft:leafygroundvegetable-marjoram-normal",
-        "wildcraft:leafygroundvegetable-marjoram-harvested"
+        "wildcraft:leafygroundvegetable-marjoram-normal"
       ],
       "minTemp": 8,
       "maxTemp": 32,
@@ -588,8 +566,7 @@
       "comment": "Patches of dock",
       "blockCodes": [
         "wildcraft:leafygroundvegetable-dock-normal",
-        "wildcraft:leafygroundvegetable-dock-normal",
-        "wildcraft:leafygroundvegetable-dock-harvested"
+        "wildcraft:leafygroundvegetable-dock-normal"
       ],
       "minTemp": 2,
       "maxTemp": 32,

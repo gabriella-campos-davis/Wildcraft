@@ -276,3 +276,4 @@ D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\textures\items
 D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\textures\items\medicine\reed\honey-sulfur.png
 D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\textures\items\medicine\reed\horsetail.png
 D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\textures\items\medicine\reed\stjohnswort.png
+D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\itemtypes\simplepoultice.json

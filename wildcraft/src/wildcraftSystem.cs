@@ -1,6 +1,7 @@
 using Vintagestory.API.Common;
 using Vintagestory.API.Server;
 using Vintagestory.API.Client;
+using BuffStuff;
 
 [assembly: ModInfo( "Wildcraft",
 	Description = "Adds new plants to the game",
@@ -27,17 +28,19 @@ namespace wildcraft
 
             api.RegisterItemClass("ItemClipping", typeof(ItemClipping));
             api.RegisterItemClass("ItemHerbSeed", typeof(ItemHerbSeed));
-
-            //api.RegisterItemClass("ItemFruit", typeof(ItemFruit));
+            api.RegisterItemClass("ItemWCPoultice", typeof(ItemWCPoultice));
         }
         public override void StartServerSide(ICoreServerAPI api)
         {
-
+            BuffManager.Initialize(api, this);
+            BuffManager.RegisterBuffType("StingingNettle", typeof(StingingNettle));
+            BuffManager.RegisterBuffType("PoisonOak", typeof(PoisonOak));
+            BuffManager.RegisterBuffType("PoulticeBuff", typeof(PoulticeBuff));
         }
 
         public override void StartClientSide(ICoreClientAPI api)
         {
-
+            base.StartClientSide(api);
         }
     }
 }

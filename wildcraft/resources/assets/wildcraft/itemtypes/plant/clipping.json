@@ -19,8 +19,8 @@
   "transitionablePropsByType": {
     "*-green": [
       {
-        "type": "Perish",
-        "freshHours": { "avg": 12 },
+        "type": "Dry",
+        "freshHours": { "avg": 18 },
         "transitionHours": { "avg": 12 },
         "transitionedStack": {
           "type": "item",
@@ -30,12 +30,67 @@
       }
     ]
   },
-  "textureByType": {
-    "*": { "base": "wildcraft:items/clipping/clipping_{state}" }
+  "shapeByType": {
+    "*-green": { "base": "wildcraft:item/clipping/clipping" },
+    "*-dry": { "base": "wildcraft:item/clipping/clipping_dry" }
+  },
+  "texturesByType": {
+    "*-blackcurrant-dry": {
+      "leaves": { "base": "game:block/plant/berrybush/leaves/{type}*" }
+    },
+    "*-redcurrant-dry": {
+      "leaves": { "base": "game:block/plant/berrybush/leaves/{type}*" }
+    },
+    "*-whitecurrant-dry": {
+      "leaves": { "base": "game:block/plant/berrybush/leaves/redcurrant*" }
+    },
+    "*-blueberry-dry": {
+      "leaves": { "base": "game:block/plant/berrybush/leaves/{type}*" }
+    },
+    "*-cranberry-dry": {
+      "leaves": { "base": "game:block/plant/berrybush/leaves/{type}*" }
+    },
+    "*-dry": {
+      "leaves": { "base": "wildcraft:block/plant/berrybush/leaves/{type}*" }
+    },
+    "*-blackcurrant-green": {
+      "leaves": { "base": "wildcraft:block/plant/clipping/greenleaves/{type}*" }
+    },
+    "*-redcurrant-green": {
+      "leaves": { "base": "wildcraft:block/plant/clipping/greenleaves/{type}*" }
+    },
+    "*-whitecurrant-green": {
+      "leaves": { "base": "wildcraft:block/plant/clipping/greenleaves/redcurrant*" }
+    },
+    "*-blueberry-green": {
+      "leaves": { "base": "wildcraft:block/plant/clipping/greenleaves/{type}*" }
+    },
+    "*-cranberry-green": {
+      "leaves": { "base": "wildcraft:block/plant/clipping/greenleaves/{type}*" }
+    },
+    "*-green": {
+      "leaves": { "base": "wildcraft:block/plant/clipping/greenleaves/{type}*" }
+    }
   },
   "materialDensity": 200,
   "combustibleProps": {
     "burnTemperature": 600,
     "burnDuration": 10
-  }
+  },
+  "guiTransformByType": {
+    "*": {
+        rotation: { x: 94, y: 0, z: 0 },
+        origin: { x: 0.6, y: 0.2, z: 0.6 },
+        scale: 1.47
+    }
+  },
+  "fpHandTransform": {
+		rotation: { x: 87, y: 152, z: -58 },
+		origin: { x: 0.5, y: 0.5, z: 0.3 }
+	},
+  "tpHandTransform": {
+      rotation: { x: 0, y: 55, z: 14 },
+      origin: { x: 0.5, y: 0.75, z: 0.4 },
+      scale: 0.34
+  },
 }

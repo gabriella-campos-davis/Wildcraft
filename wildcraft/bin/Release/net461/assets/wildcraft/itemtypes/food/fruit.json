@@ -54,15 +54,15 @@
       }
     },
     "inPieProperties": {
-      "texture": "block/food/pie/fill-{fruit}",
+      "texture": "wildcraft:block/food/pie/fill-{fruit}",
       "partType": "Filling"
     },
-    "juicablePropertiesByType": {
+    "juiceablePropertiesByType": {
       "*": {
-				"litresPerItem": 0.3125,
-				"liquidStack": { "type": "item", "code": "wildcraft:juiceportion-{fruit}", "stacksize": 1 },
-				"pressedStack": { "type": "item", "code": "wildcraft:pressedmash-{fruit}", "stacksize": 1 }
-			}
+				  "litresPerItem": 0.3125,
+				  "liquidStack": { "type": "item", "code": "wildcraft:juiceportion-{fruit}", "stacksize": 1 },
+				  "pressedStack": { "type": "item", "code": "wildcraft:pressedmash-{fruit}", "stacksize": 1 }
+      }
     }
   },
   "shapebytype": {
