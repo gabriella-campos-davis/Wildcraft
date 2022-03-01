@@ -1,6 +1,9 @@
 using System;
 using ProtoBuf;
 using Vintagestory.API.Common.Entities;
+using Vintagestory.API.Common;
+//using Vintagestory.API.Client;
+//using Vintagestory.API.Server;
 
 namespace BuffStuff {
   public abstract class Buff {

@@ -1,6 +1,7 @@
 using Vintagestory.API.Common;
 using Vintagestory.API.Server;
 using Vintagestory.API.Client;
+using wildcraft.Gui;
 using BuffStuff;
 
 [assembly: ModInfo( "Wildcraft",
@@ -38,9 +39,12 @@ namespace wildcraft
             BuffManager.RegisterBuffType("PoulticeBuff", typeof(PoulticeBuff));
         }
 
-        public override void StartClientSide(ICoreClientAPI api)
+        public override void StartClientSide(ICoreClientAPI capi)
         {
-            base.StartClientSide(api);
+            base.StartClientSide(capi);
+
+            //capi.Gui.RegisterDialog(new HudElementBuffs(capi));
+            
         }
     }
 }

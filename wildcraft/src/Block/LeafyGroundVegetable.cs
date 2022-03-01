@@ -10,7 +10,7 @@
 namespace wildcraft
 {
 
-
+        
     public class LeafyGroundVegetable : BlockPlant
     {
         WorldInteraction[] interactions = null;
@@ -20,11 +20,11 @@ namespace wildcraft
         public float dmg = 1f / 8f;
         public string[] immuneCreatures;
         public bool prickly;
-
-
         public override void OnLoaded(ICoreAPI api)
         {
             base.OnLoaded(api);
+
+            
 
             immuneCreatures = Attributes["immuneCreatures"].AsArray<string>();
             prickly = Attributes["prickly"].AsBool();

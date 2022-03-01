@@ -1,4 +1,38 @@
 {
+  "item-basket": "Ручная корзина",
+  "block-sedge-stationarybasket-*": "Корзина из осоки",
+
+  "item-poultice-linen-honey-sulfur-lavender": "Припарка из меда, серы и лаванды (из льна)",
+  "item-poultice-linen-honey-sulfur-thyme": "Припарка из меда, серы и тимьяна (из льна)",
+  "item-poultice-linen-honey-sulfur-marshmallow": "Припарка из меда, серы и алтея (из льна)",
+
+  "item-poultice-reed-honey-sulfur-lavender": "Припарка из меда, серы и лаванды (из тростника)",
+  "item-poultice-reed-honey-sulfur-thyme": "Припарка из меда, серы и тимьяна (из тростника)",
+  "item-poultice-reed-honey-sulfur-marshmallow": "Припарка из меда, серы и алтея (из тростника)",
+
+  "item-poultice-linen-horsetail-lavender": "Припарка из хвоща и лаванды (из льна)",
+  "item-poultice-linen-horsetail-thyme": "Припарка из хвоща и тимьяна (из льна)",
+  "item-poultice-linen-horsetail-marshmallow": "Припарка из хвоща и алтея (из льна)",
+
+  "item-poultice-reed-horsetail-lavender": "Припарка из хвоща и лаванды (из тростника)",
+  "item-poultice-reed-horsetail-thyme": "Припарка из хвоща и тимьяна (из тростника)",
+  "item-poultice-reed-horsetail-marshmallow": "Припарка из хвоща и алтея (из тростника)",
+
+  "item-poultice-linen-stjohnswort-lavender": "Припарка из зверобоя и лаванды (из льна)",
+  "item-poultice-linen-stjohnswort-thyme": "Припарка из зверобоя и тимьяна (из льна)",
+  "item-poultice-linen-stjohnswort-marshmallow": "Припарка из зверобоя и алтея (из льна)",
+
+  "item-poultice-reed-stjohnswort-lavender": "Припарка из зверобоя и лаванды (из тростника)",
+  "item-poultice-reed-stjohnswort-thyme": "Припарка из зверобоя и тимьяна (из тростника)",
+  "item-poultice-reed-stjohnswort-marshmallow": "Припарка из зверобоя и алтея (из тростника)",
+
+  "item-simplepoultice-reed-stjohnswort": "Припарка из зверобоя (из тростника)",
+  "item-simplepoultice-linen-stjohnswort": "Припарка из зверобоя (из льна)",
+  
+  "itemdesc-poultice-*": "Повязка для заживления небольших ран",
+  "item-handbooktitle-poultice-*": "Об:",
+  "item-handbooktext-poultice-*": "Припарки - это комбинации повязки с другими целебными компонентами, используемые для заживления ран.",	
+
   "item-fruit-huckleberry": "Черника",
   "item-fruit-snowberry": "Снежноягодник",
   "item-fruit-brambleberry": "Ежевика",
@@ -85,80 +119,465 @@
   "item-seeds-strawberry": "Семена клубники",
   "item-seeds-cloudberry": "Семена морошки",
 
-  "block-clipping-huckleberry": "Черника (Растет)",
-  "block-clipping-blueraspberry": "Голубая малина (Растет)",
-  "block-clipping-snowberry": "Снежноягодник (Растет)",
-  "block-clipping-brambleberry": "Ежевика (Растет)",
-  "block-clipping-cloudberry": "Росток морошки (Растет)",
-  "block-clipping-dogrose": "Шиповник (Растет)",
-  "block-clipping-elderberry": "Бузина (Растет)",
-  "block-clipping-gooseberry": "Крыжовник (Растет)",
-  "block-clipping-honeysuckle": "Жимолость (Растет)",
-  "block-clipping-raspberry": "Малина (Растет)",
-  "block-clipping-strawberry": "Росток клубники (Растет)",
+  "block-clipping-huckleberry": "Черника (растет)",
+  "block-clipping-blueraspberry": "Голубая малина (растет)",
+  "block-clipping-snowberry": "Снежноягодник (растет)",
+  "block-clipping-brambleberry": "Ежевика (растет)",
+  "block-clipping-cloudberry": "Росток морошки (растет)",
+  "block-clipping-dogrose": "Шиповник (растет)",
+  "block-clipping-elderberry": "Бузина (растет)",
+  "block-clipping-gooseberry": "Крыжовник (растет)",
+  "block-clipping-honeysuckle": "Жимолость (растет)",
+  "block-clipping-raspberry": "Малина (растет)",
+  "block-clipping-strawberry": "Росток клубники (растет)",
 
-  "block-clipping-blackcurrant": "Черная смородина (Растет)",
-  "block-clipping-redcurrant": "Красная смородина (Растет)",
-  "block-clipping-whitecurrant": "Белая смородина (Растет)",
-  "block-clipping-blueberry": "Голубика (Растет)",
-  "block-clipping-cranberry": "Клюква (Растет)",
+  "block-clipping-blackcurrant": "Черная смородина (растет)",
+  "block-clipping-redcurrant": "Красная смородина (растет)",
+  "block-clipping-whitecurrant": "Белая смородина (растет)",
+  "block-clipping-blueberry": "Голубика (растет)",
+  "block-clipping-cranberry": "Клюква (растет)",
 
   "item-minerslettuce": "Шахтерский салат",
   "item-nettle": "Крапива",
 
+  "meal-ingredient-soup-secondary-herbs": "травы",
+  "meal-ingredient-stew-secondary-herbs": "травы",
+
+  "recipeingredient-item-herbs-mustard-insturmentalcase": "горчицей",
+  "recipeingredient-item-herbs-mustard": "горчицей",
+  "meal-ingredient-soup-secondary-herbs-mustard": "горчицей",
+  "meal-ingredient-stew-secondary-herbs-mustard": "горчицей",
+
+  "item-herbs-mustard":"Горчица",
+  "item-herbseeds-mustard":"Семена Горчицы",
+
+  "recipeingredient-item-herbs-basil-insturmentalcase": "базиликом",
+  "recipeingredient-item-herbs-basil": "базиликом",
+  "meal-ingredient-soup-secondary-herbs-basil": "базиликом",
+  "meal-ingredient-stew-secondary-herbs-basil": "базиликом",
+
+  "item-herbs-basil":"Базилик",
+  "item-herbseeds-basil":"Семена Базилика",
+
+  "recipeingredient-item-herbs-bearleek-insturmentalcase": "медвежьим луком",
+  "recipeingredient-item-herbs-bearleek": "медвежьим луком",
+  "meal-ingredient-soup-secondary-herbs-bearleek": "медвежьим луком",
+  "meal-ingredient-stew-secondary-herbs-bearleek": "медвежьим луком",
+
+  "item-herbs-bearleek":"Медвежий лук",
+  "item-herbseeds-bearleek":"Семена М едвежьего лука",
+
+
+  "recipeingredient-item-herbs-blackpepper-insturmentalcase": "черным перецем",
+  "recipeingredient-item-herbs-blackpepper": "черным перецем",
+  "meal-ingredient-soup-secondary-herbs-blackpepper": "черным перецем",
+  "meal-ingredient-stew-secondary-herbs-blackpepper": "черным перецем",
+
+  "item-herbs-blackpepper":"Черный перец",
+  "item-herbseeds-blackpepper":"Семена Черного перца",
+
+
+  "recipeingredient-item-herbs-celery-insturmentalcase": "сельдереем",
+  "recipeingredient-item-herbs-celery": "сельдереем",
+  "meal-ingredient-soup-secondary-herbs-celery": "сельдереем",
+  "meal-ingredient-stew-secondary-herbs-celery": "сельдереем",
+
+  "item-herbs-celery":"Сельдерей",
+  "item-herbseeds-celery":"Семена Сельдерея",
+
+
+  "recipeingredient-item-herbs-chamomile-insturmentalcase": "ромашкаой",
+  "recipeingredient-item-herbs-chamomile": "ромашкаой",
+  "meal-ingredient-soup-secondary-herbs-chamomile": "ромашкаой",
+  "meal-ingredient-stew-secondary-herbs-chamomile": "ромашкаой",
+
+  "item-herbs-chamomile":"Ромашка",
+  "item-herbseeds-chamomile":"Семена Ромашки",
+
+
+  "recipeingredient-item-herbs-cilantro-insturmentalcase": "кинзой",
+  "recipeingredient-item-herbs-cilantro": "кинзой",
+  "meal-ingredient-soup-secondary-herbs-cilantro": "кинзой",
+  "meal-ingredient-stew-secondary-herbs-cilantro": "кинзой",
+  
+  "item-herbs-cilantro":"Кинза",
+  "item-herbseeds-cilantro":"Семена Кинзы",
+
+
+  "recipeingredient-item-herbs-dill-insturmentalcase": "укропом",
+  "recipeingredient-item-herbs-dill": "укропом",
+  "meal-ingredient-soup-secondary-herbs-dill": "укропом",
+  "meal-ingredient-stew-secondary-herbs-dill": "укропом",
+
+  "item-herbs-dill":"Укроп",
+  "item-herbseeds-dill":"Семена Укропа",
+
+
+  "recipeingredient-item-herbs-dock-insturmentalcase": "щавелем",
+  "recipeingredient-item-herbs-dock": "щавелем",
+  "meal-ingredient-soup-secondary-herbs-dock": "щавелем",
+  "meal-ingredient-stew-secondary-herbs-dock": "щавелем",
+
+  "item-herbs-dock":"Щавель",
+  "item-herbseeds-dock":"Семена Щавеля",
+
+
+  "recipeingredient-item-herbs-marjoram-insturmentalcase": "майораном",
+  "recipeingredient-item-herbs-marjoram": "майораном",
+  "meal-ingredient-soup-secondary-herbs-marjoram": "майораном",
+  "meal-ingredient-stew-secondary-herbs-marjoram": "майораном",
+
+  "item-herbs-marjoram":"Майоран",
+  "item-herbseeds-marjoram":"Семена Майорана",
+
+
+  "recipeingredient-item-herbs-lavender-insturmentalcase": "лавандой",
+  "recipeingredient-item-herbs-lavender": "лавандой",
+  "meal-ingredient-soup-secondary-herbs-lavender": "лавандой",
+  "meal-ingredient-stew-secondary-herbs-lavender": "лавандой",
+
+  "item-herbs-lavender":"Лаванда",
+  "item-herbseeds-lavender":"Семена Лаванды",
+
+
+  "recipeingredient-item-herbs-marshmallow-insturmentalcase": "алтеем",
+  "recipeingredient-item-herbs-marshmallow": "алтеем",
+  "meal-ingredient-soup-secondary-herbs-marshmallow": "алтеем",
+  "meal-ingredient-stew-secondary-herbs-marshmallow": "алтеем",
+
+  "item-herbs-marshmallow":"Алтей",
+  "item-herbseeds-marshmallow":"Семена Алтея",
+
+
+  "recipeingredient-item-herbs-mint-insturmentalcase": "мятой",
+  "recipeingredient-item-herbs-mint": "мятой",
+  "meal-ingredient-soup-secondary-herbs-mint": "мятой",
+  "meal-ingredient-stew-secondary-herbs-mint": "мятой",
+
+  "item-herbs-mint":"Мята",
+  "item-herbseeds-mint":"Семена Мяты",
+
+
+  "recipeingredient-item-herbs-rosemary-insturmentalcase": "розмарином",
+  "recipeingredient-item-herbs-rosemary": "розмарином",
+  "meal-ingredient-soup-secondary-herbs-rosemary": "розмарином",
+  "meal-ingredient-stew-secondary-herbs-rosemary": "розмарином",
+
+  "item-herbs-rosemary":"Розмарин",
+  "item-herbseeds-rosemary":"Семена Розмарина",
+
+
+  "recipeingredient-item-herbs-saffron-insturmentalcase": "шафраном",
+  "recipeingredient-item-herbs-saffron": "шафраном",
+  "meal-ingredient-soup-secondary-herbs-saffron": "шафраном",
+  "meal-ingredient-stew-secondary-herbs-saffron": "шафраном",
+
+  "item-herbs-saffron":"Шафран",
+  "item-herbseeds-saffron":"Семена Шафрана",
+
+
+  "recipeingredient-item-herbs-sedge-insturmentalcase": "осокой",
+  "recipeingredient-item-herbs-sedge": "осокой",
+  "meal-ingredient-soup-secondary-herbs-sedge": "осокой",
+  "meal-ingredient-stew-secondary-herbs-sedge": "осокой",
+
+  "item-herbs-sedge":"Осока",
+  "item-herbseeds-sedge":"Семена Осоки",
+
+
+  "recipeingredient-item-herbs-sage-insturmentalcase": "шалфеем",
+  "recipeingredient-item-herbs-sage": "шалфеем",
+  "meal-ingredient-soup-secondary-herbs-sage": "шалфеем",
+  "meal-ingredient-stew-secondary-herbs-sage": "шалфеем",
+
+  "item-herbs-sage":"Шалфей",
+  "item-herbseeds-sage":"Семена Шалфея",
+
+
+  "recipeingredient-item-herbs-stingingnettle-insturmentalcase": "крапивой",
+  "recipeingredient-item-herbs-stingingnettle": "крапивой",
+  "meal-ingredient-soup-secondary-herbs-stingingnettle": "крапивой",
+  "meal-ingredient-stew-secondary-herbs-stingingnettle": "крапивой",
+
+  "item-herbs-stingingnettle":"Крапива",
+  "item-herbseeds-stingingnettle":"Семена Крапивы",
+
+
+  "recipeingredient-item-herbs-stjohnswort-insturmentalcase": "зверобоем",
+  "recipeingredient-item-herbs-stjohnswort": "зверобоем",
+  "meal-ingredient-soup-secondary-herbs-stjohnswort": "зверобоем",
+  "meal-ingredient-stew-secondary-herbs-stjohnswort": "зверобоем",
+
+  "item-herbs-stjohnswort":"Зверобой",
+  "item-herbseeds-stjohnswort":"Семена Зверобоя",
+
+
+  "recipeingredient-item-herbs-thyme-insturmentalcase": "тимьяном",
+  "recipeingredient-item-herbs-thyme": "тимьяном",
+  "meal-ingredient-soup-secondary-herbs-thyme": "тимьяном",
+  "meal-ingredient-stew-secondary-herbs-thyme": "тимьяном",
+
+  "item-herbs-thyme":"Тимьян",
+  "item-herbseeds-thyme":"Семена Тимьяна",
+
+
+  "recipeingredient-item-herbs-minerslettuce-insturmentalcase": "шахтерским салатом",
+  "recipeingredient-item-herbs-minerslettuce": "шахтерским салатом",
+  "meal-ingredient-soup-secondary-herbs-minerslettuce": "шахтерским салатом",
+  "meal-ingredient-stew-secondary-herbs-minerslettuce": "шахтерским салатом",
+
+  "item-herbs-minerslettuce":"Шахтерский салат",
+  "item-herbseeds-minerslettuce":"Семена Шахтерского салата",
+
+
+  "recipeingredient-item-herbs-mugwort-insturmentalcase": "полынью",
+  "recipeingredient-item-herbs-mugwort": "полынью",
+  "meal-ingredient-soup-secondary-herbs-mugwort": "полынью",
+  "meal-ingredient-stew-secondary-herbs-mugwort": "полынью",
+
+  "item-herbs-mugwort":"Полынь",
+  "item-herbseeds-mugwort":"Семена Полыни",
+
+
+  "recipeingredient-item-herbs-burdock-insturmentalcase": "лопухом",
+  "recipeingredient-item-herbs-burdock": "лопухом",
+  "meal-ingredient-soup-secondary-herbs-burdock": "лопухом",
+  "meal-ingredient-stew-secondary-herbs-burdock": "лопухом",
+
+  "item-herbs-burdock":"Лопух",
+  "item-herbseeds-burdock":"Семена Лопуха",
+
+  "item-roots-burdock":"корень лопуха",
+  "recipeingredient-item-roots-burdock-insturmentalcase": "коренем лопуха",
+  "recipeingredient-item-roots-burdock": "коренем лопуха",
+  "meal-ingredient-soup-secondary-roots-burdock": "коренем лопуха",
+  "meal-ingredient-stew-secondary-roots-burdock": "коренем лопуха",
+
+  "item-roots-bearleek":"Луковица Медвежьего лука",
+  "recipeingredient-item-roots-bearleek-insturmentalcase": "луковицей медвежьего лука",
+  "recipeingredient-item-roots-bearleek": "луковицей медвежьего лука",
+  "meal-ingredient-soup-secondary-roots-bearleek": "луковицей медвежьего лука",
+  "meal-ingredient-stew-secondary-roots-bearleek": "луковицей медвежьего лука",
+
+  "item-roots-marshmallow":"Корень Алтея",
+  "recipeingredient-item-roots-marshmallow-insturmentalcase": "кореньем алтея",
+  "recipeingredient-item-roots-marshmallow": "кореньем алтея",
+  "meal-ingredient-soup-secondary-roots-marshmallow": "кореньем алтея",
+  "meal-ingredient-stew-secondary-roots-marshmallow": "кореньем алтея",
+
   "block-leafygroundvegetable-minerslettuce-normal": "Шахтерский салат",
-  "block-leafygroundvegetable-minerslettuce-harvested": "Шахтерский салат (Растет)",
+  "block-leafygroundvegetable-minerslettuce-harvested": "Шахтерский салат (растет)",
 
   "block-leafygroundvegetable-stingingnettle-normal": "Жгучая крапива",
-  "block-leafygroundvegetable-stingingnettle-harvested": "Жгучая крапива (Растет)",
+  "block-leafygroundvegetable-stingingnettle-harvested": "Жгучая крапива (растет)",
 
-  "block-berrybush-huckleberry-empty": "Куст черники (Пустой)",
-  "block-berrybush-huckleberry-flowering": "Куст черники (Цветет)",
-  "block-berrybush-huckleberry-ripe": "Куст черники (Созрел)",
+  "block-leafygroundvegetable-basil-normal": "Базилик",
+  "block-leafygroundvegetable-basil-harvested": "Базилик (растет)",
 
-  "block-berrybush-snowberry-empty": "Куст снежноягодника (Пустой)",
-  "block-berrybush-snowberry-flowering": "Куст снежноягодника (Цветет)",
-  "block-berrybush-snowberry-ripe": "Куст снежноягодника (Созрел)",
+  "block-leafygroundvegetable-bearleek-normal": "Медвежий лук",
+  "block-leafygroundvegetable-bearleek-harvested": "Медвежий лук (растет)",
 
-  "block-berrybush-raspberry-empty": "Куст малины (Пустой)",
-  "block-berrybush-raspberry-flowering": "Куст малины (Цветет)",
-  "block-berrybush-raspberry-ripe": "Куст малины (Созрел)",
+  "block-leafygroundvegetable-blackpepper-normal": "Черный перец",
+  "block-leafygroundvegetable-blackpepper-harvested": "Черный перец (растет)",
 
-  "block-berrybush-blueraspberry-empty": "Куст голубой малины (Пустой)",
-  "block-berrybush-blueraspberry-flowering": "Куст голубой малины (Цветет)",
-  "block-berrybush-blueraspberry-ripe": "Куст голубой малины (Созрел)",
+  "block-leafygroundvegetable-celery-normal": "Сельдерей",
+  "block-leafygroundvegetable-celery-harvested": "Сельдерей (растет)",
 
-  "block-berrybush-brambleberry-empty": "Куст ежевики (Пустой)",
-  "block-berrybush-brambleberry-flowering": "Куст ежевики (Цветет)",
-  "block-berrybush-brambleberry-ripe": "Куст ежевики (Созрел)",
+  "block-leafygroundvegetable-dill-normal": "Укроп",
+  "block-leafygroundvegetable-dill-harvested": "Укроп (растет)",
 
-  "block-berrybush-dogrose-empty": "Куст шиповника (Пустой)",
-  "block-berrybush-dogrose-flowering": "Куст шиповника (Цветет)",
-  "block-berrybush-dogrose-ripe": "Куст шиповника (Созрел)",
+  "block-leafygroundvegetable-chamomile-normal": "Ромашка",
+  "block-leafygroundvegetable-chamomile-harvested": "Ромашка (растет)",
 
-  "block-berrybush-gooseberry-empty": "Куст крыжовника (Пустой)",
-  "block-berrybush-gooseberry-flowering": "Куст крыжовника (Цветет)",
-  "block-berrybush-gooseberry-ripe": "Куст крыжовника (Созрел)",
+  "block-leafygroundvegetable-cilantro-normal": "Кинза",
+  "block-leafygroundvegetable-cilantro-harvested": "Кинза (растет)",
 
-  "block-berrybush-honeysuckle-empty": "Куст жимолости (Пустой)",
-  "block-berrybush-honeysuckle-flowering": "Куст жимолости (Цветет)",
-  "block-berrybush-honeysuckle-ripe": "Куст жимолости (Созрел)",
+  "block-leafygroundvegetable-dock-normal": "Щавель",
+  "block-leafygroundvegetable-dock-harvested": "Щавель (растет)",
 
-  "block-berrybush-elderberry-empty": "Куст бузины (Пустой)",
-  "block-berrybush-elderberry-flowering": "Куст бузины (Цветет)",
-  "block-berrybush-elderberry-ripe": "Куст бузины (Созрел)",
+  "block-leafygroundvegetable-lavender-normal": "Лаванда",
+  "block-leafygroundvegetable-lavender-harvested": "Лаванда (растет)",
 
-  "block-berrybush-strawberry-empty": "Куст клубники (Пустой)",
-  "block-berrybush-strawberry-flowering": "Куст клубники (Цветет)",
-  "block-berrybush-strawberry-ripe": "Куст клубники (Созрел)",
+  "block-leafygroundvegetable-marjoram-normal": "Майоран",
+  "block-leafygroundvegetable-marjoram-harvested": "Майоран (растет)",
 
-  "block-berrybush-cloudberry-empty": "Куст морошки (Пустой)",
-  "block-berrybush-cloudberry-flowering": "Куст морошки (Цветет)",
-  "block-berrybush-cloudberry-ripe": "Куст морошки (Созрел)",
+  "block-leafygroundvegetable-marshmallow-normal": "Алтей",
+  "block-leafygroundvegetable-marshmallow-harvested": "Алтей (растет)",
+
+  "block-leafygroundvegetable-mint-normal": "Мята",
+  "block-leafygroundvegetable-mint-harvested": "Мята (растет)",
+
+  "block-leafygroundvegetable-mustard-normal": "Горчица",
+  "block-leafygroundvegetable-mustard-harvested": "Горчица (растет)",
+
+  "block-leafygroundvegetable-rosemary-normal": "Розмарин",
+  "block-leafygroundvegetable-rosemary-harvested": "Розмарин (растет)",
+
+  "block-leafygroundvegetable-saffron-normal": "Шафран",
+  "block-leafygroundvegetable-saffron-harvested": "Шафран (растет)",
+
+  "block-leafygroundvegetable-sage-normal": "Шалфей",
+  "block-leafygroundvegetable-sage-harvested": "Шалфей (растет)",
+
+  "block-leafygroundvegetable-sedge-normal": "Осока",
+  "block-leafygroundvegetable-sedge-harvested": "Осока (растет)",
+
+  "block-leafygroundvegetable-stjohnswort-normal": "Зверобой",
+  "block-leafygroundvegetable-stjohnswort-harvested": "Зверобой (растет)",
+
+  "block-leafygroundvegetable-thyme-normal": "Тимьян",
+  "block-leafygroundvegetable-thyme-harvested": "Тимьян (растет)",
+
+  "block-leafygroundvegetable-mugwort-normal": "Полынь",
+  "block-leafygroundvegetable-mugwort-harvested": "Полынь (растет)",
+
+  "block-leafygroundvegetable-burdock-normal": "Лопух",
+  "block-leafygroundvegetable-burdock-harvested": "Лопух (растет)",
+
+  "block-berrybush-huckleberry-empty": "Куст черники (пустой)",
+  "block-berrybush-huckleberry-flowering": "Куст черники (цветет)",
+  "block-berrybush-huckleberry-ripe": "Куст черники (спелый)",
+
+  "block-berrybush-snowberry-empty": "Куст снежноягодника (пустой)",
+  "block-berrybush-snowberry-flowering": "Куст снежноягодника (цветет)",
+  "block-berrybush-snowberry-ripe": "Куст снежноягодника (спелый)",
+
+  "block-berrybush-raspberry-empty": "Куст малины (пустой)",
+  "block-berrybush-raspberry-flowering": "Куст малины (цветет)",
+  "block-berrybush-raspberry-ripe": "Куст малины (спелый)",
+
+  "block-berrybush-blueraspberry-empty": "Куст голубой малины (пустой)",
+  "block-berrybush-blueraspberry-flowering": "Куст голубой малины (цветет)",
+  "block-berrybush-blueraspberry-ripe": "Куст голубой малины (спелый)",
+
+  "block-berrybush-brambleberry-empty": "Куст ежевики (пустой)",
+  "block-berrybush-brambleberry-flowering": "Куст ежевики (цветет)",
+  "block-berrybush-brambleberry-ripe": "Куст ежевики (спелый)",
+
+  "block-berrybush-dogrose-empty": "Куст шиповника (пустой)",
+  "block-berrybush-dogrose-flowering": "Куст шиповника (цветет)",
+  "block-berrybush-dogrose-ripe": "Куст шиповника (спелый)",
+
+  "block-berrybush-gooseberry-empty": "Куст крыжовника (пустой)",
+  "block-berrybush-gooseberry-flowering": "Куст крыжовника (цветет)",
+  "block-berrybush-gooseberry-ripe": "Куст крыжовника (спелый)",
+
+  "block-berrybush-honeysuckle-empty": "Куст жимолости (пустой)",
+  "block-berrybush-honeysuckle-flowering": "Куст жимолости (цветет)",
+  "block-berrybush-honeysuckle-ripe": "Куст жимолости (спелый)",
+
+  "block-berrybush-elderberry-empty": "Куст бузины (пустой)",
+  "block-berrybush-elderberry-flowering": "Куст бузины (цветет)",
+  "block-berrybush-elderberry-ripe": "Куст бузины (спелый)",
+
+  "block-berrybush-strawberry-empty": "Куст клубники (пустой)",
+  "block-berrybush-strawberry-flowering": "Куст клубники (цветет)",
+  "block-berrybush-strawberry-ripe": "Куст клубники (спелый)",
+
+  "block-berrybush-cloudberry-empty": "Куст морошки (пустой)",
+  "block-berrybush-cloudberry-flowering": "Куст морошки (цветет)",
+  "block-berrybush-cloudberry-ripe": "Куст морошки (спелый)",
+
+  "item-pressedmash-huckleberry": "Сухая мякоть черники",
+  "item-pressedmash-huckleberry-wet": "Мякоть черники ",
+	"item-juiceportion-huckleberry": "Сок из черники",
+  "incontainer-item-juiceportion-huckleberry": "Сок из черники",
+	"item-ciderportion-huckleberry": "Сидр из черники",
+  "incontainer-item-ciderportion-huckleberry": "Вино из черники",
+	"item-spiritportion-huckleberry": "Бренди из черники",
+  "incontainer-item-spiritportion-huckleberry": "Бренди из черники",
+
+  "item-pressedmash-snowberry": "Сухая мякоть снежной ягоды",
+  "item-pressedmash-snowberry-wet": "Мякоть снежной ягоды ",
+	"item-juiceportion-snowberry": "Сок из снежной ягоды",
+  "incontainer-item-juiceportion-snowberry": "Сок из снежной ягоды",
+	"item-ciderportion-snowberry": "Сидр из снежной ягоды",
+  "incontainer-item-ciderportion-snowberry": "Вино из снежной ягоды",
+	"item-spiritportion-snowberry": "Бренди из снежной ягоды",
+  "incontainer-item-spiritportion-snowberry": "Бренди из снежной ягоды",
+
+  "item-pressedmash-brambleberry": "Сухая мякоть ежевики",
+  "item-pressedmash-brambleberry-wet": "Мякоть ежевики ",
+	"item-juiceportion-brambleberry": "Сок из ежевики",
+  "incontainer-item-juiceportion-brambleberry": "Сок из ежевики",
+	"item-ciderportion-brambleberry": "Сидр из ежевики",
+  "incontainer-item-ciderportion-brambleberry": "Вино из ежевики",
+	"item-spiritportion-brambleberry": "Бренди из ежевики",
+  "incontainer-item-spiritportion-brambleberry": "Бренди из ежевики",
+
+  "item-pressedmash-cloudberry": "Сухая мякоть морошки",
+  "item-pressedmash-cloudberry-wet": "Мякоть морошки ",
+	"item-juiceportion-cloudberry": "Сок из морошки",
+  "incontainer-item-juiceportion-cloudberry": "Сок из морошки",
+	"item-ciderportion-cloudberry": "Сидр из морошки",
+  "incontainer-item-ciderportion-cloudberry": "Вино из морошки",
+	"item-spiritportion-cloudberry": "Бренди из морошки",
+  "incontainer-item-spiritportion-cloudberry": "Бренди из морошки",
+
+  "item-pressedmash-dogrose": "Сухая мякоть шиповника",
+  "item-pressedmash-dogrose-wet": "Мякоть шиповника ",
+	"item-juiceportion-dogrose": "Сок из шиповника",
+  "incontainer-item-juiceportion-dogrose": "Сок из шиповника",
+	"item-ciderportion-dogrose": "Сидр из шиповника",
+  "incontainer-item-ciderportion-dogrose": "Вино из шиповника",
+	"item-spiritportion-dogrose": "Бренди из шиповника",
+  "incontainer-item-spiritportion-dogrose": "Бренди из шиповника",
+
+  "item-pressedmash-elderberry": "Сухая мякоть бузины",
+  "item-pressedmash-elderberry-wet": "Мякоть бузины ",
+	"item-juiceportion-elderberry": "Сок из бузины",
+  "incontainer-item-juiceportion-elderberry": "Сок из бузины",
+	"item-ciderportion-elderberry": "Сидр из бузины",
+  "incontainer-item-ciderportion-elderberry": "Вино из бузины",
+	"item-spiritportion-elderberry": "Бренди из бузины",
+  "incontainer-item-spiritportion-elderberry": "Бренди из бузины",
+
+  "item-pressedmash-gooseberry": "Сухая мякоть крыжовника",
+  "item-pressedmash-gooseberry-wet": "Мякоть крыжовника ",
+	"item-juiceportion-gooseberry": "Сок из крыжовника",
+  "incontainer-item-juiceportion-gooseberry": "Сок из крыжовника",
+	"item-ciderportion-gooseberry": "Сидр из крыжовника",
+  "incontainer-item-ciderportion-gooseberry": "Вино из крыжовника",
+	"item-spiritportion-gooseberry": "Бренди из крыжовника",
+  "incontainer-item-spiritportion-gooseberry": "Бренди из крыжовника",
+
+  "item-pressedmash-honeysuckle": "Сухая мякоть жимолости",
+  "item-pressedmash-honeysuckle-wet": "Мякоть жимолости ",
+	"item-juiceportion-honeysuckle": "Сок из жимолости",
+  "incontainer-item-juiceportion-honeysuckle": "Сок из жимолости",
+	"item-ciderportion-honeysuckle": "Сидр из жимолости",
+  "incontainer-item-ciderportion-honeysuckle": "Вино из жимолости",
+	"item-spiritportion-honeysuckle": "Бренди из жимолости",
+  "incontainer-item-spiritportion-honeysuckle": "Бренди из жимолости",
+
+  "item-pressedmash-raspberry": "Сухая мякоть Малины",
+  "item-pressedmash-raspberry-wet": "Мякоть Малины ",
+	"item-juiceportion-raspberry": "Сок из Малины",
+  "incontainer-item-juiceportion-raspberry": "Сок из малины",
+	"item-ciderportion-raspberry": "Сидр из Малины",
+  "incontainer-item-ciderportion-raspberry": "Вино из малины",
+	"item-spiritportion-raspberry": "Бренди из малины",
+  "incontainer-item-spiritportion-raspberry": "Бренди из малины",
+
+  "item-pressedmash-strawberry": "Сухая мякоть клубники",
+  "item-pressedmash-strawberry-wet": "Мякоть клубники ",
+	"item-juiceportion-strawberry": "Сок из клубники",
+  "incontainer-item-juiceportion-strawberry": "Сок из клубники",
+	"item-ciderportion-strawberry": "Сидр из клубники",
+  "incontainer-item-ciderportion-strawberry": "Вино из клубники",
+	"item-spiritportion-strawberry": "Бренди из клубники",
+  "incontainer-item-spiritportion-strawberry": "Бренди из клубники",
 
   "heldhelp-plant": "Растение",
+  "heldhelp-seedextraction": "Извлечь семена",
   "Will grow in less than a day": "Вырастет меньше, чем через день",
   "Will grow in about {0} days": "Вырастет примерно через {0} дня",
 
-  "blockhelp-clippable-clip": "Отрезать ветку"
+  "blockhelp-clippable-clip": "Отрезать ветку",
+
+  "herb-harvested-xdays": "Вырастет через {0} дней, при хорошей погоде",
+  "herb-harvested-1day": "Вырастет менее чем за день, при хорошей погоде",
+
+  "Will grow in less than a day, weather permitting": "Вырастет менее чем за день, при хорошей погоде",
+  "Will grow in {0} days, weather permitting": "Вырастет через {0} дней, при хорошей погоде"
 }

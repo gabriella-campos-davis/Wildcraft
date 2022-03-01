@@ -638,9 +638,22 @@
   "item-waterherbseeds-waterchestnut":"Waterchestnut Seeds",
 
   "item-roots-waterchestnut":"Water chestnut",
-  "item-roots-chicory":"Chicory root",
-  "item-roots-liquorice":"Liquorice root",
+  "recipeingredient-item-roots-waterchestnut-insturmentalcase": "water chestnut",
+  "recipeingredient-item-roots-waterchestnut": "water chestnut",
+  "meal-ingredient-soup-secondary-roots-waterchestnut": "water chestnut",
+  "meal-ingredient-stew-secondary-roots-waterchestnut": "water chestnut",
 
+  "item-roots-chicory":"Chicory root",
+  "recipeingredient-item-roots-chicory-insturmentalcase": "chicory root",
+  "recipeingredient-item-roots-chicory": "chicory root",
+  "meal-ingredient-soup-secondary-roots-chicory": "chicory root",
+  "meal-ingredient-stew-secondary-roots-chicory": "chicory root",
+
+  "item-roots-liquorice":"Liquorice root",
+  "recipeingredient-item-roots-liquorice-insturmentalcase": "liquorice root",
+  "recipeingredient-item-roots-liquorice": "liquorice root",
+  "meal-ingredient-soup-secondary-roots-liquorice": "liquorice root",
+  "meal-ingredient-stew-secondary-roots-liquorice": "liquorice root",
   
   "block-berrybush-huckleberry-empty": "Huckleberry Bush (Empty)",
   "block-berrybush-huckleberry-flowering": "Huckleberry Bush (Flowering)",
