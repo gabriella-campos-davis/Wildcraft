@@ -4,7 +4,6 @@
     "value": {
       "comment": "Patches of minerslettuce",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-minerslettuce-normal",
         "wildcraft:leafygroundvegetable-minerslettuce-normal"
       ],
       "minTemp": 0,
@@ -27,7 +26,6 @@
     "value": {
       "comment": "Patches of stinging nettle",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-stingingnettle-normal",
         "wildcraft:leafygroundvegetable-stingingnettle-normal"
       ],
       "minTemp": 0,
@@ -50,7 +48,6 @@
     "value": {
       "comment": "Patches of basil in warm wet areas (tropical)",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-basil-normal",
         "wildcraft:leafygroundvegetable-basil-normal"
       ],
       "minTemp": 20,
@@ -76,7 +73,6 @@
     "value": {
       "comment": "Patches of black pepper in warm wet areas (tropical)",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-blackpepper-normal",
         "wildcraft:leafygroundvegetable-blackpepper-normal"
       ],
       "minTemp": 20,
@@ -102,7 +98,6 @@
     "value": {
       "comment": "Patches of bearleek in temperate wooded/wet areas ",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-bearleek-normal",
         "wildcraft:leafygroundvegetable-bearleek-normal"
       ],
       "minTemp": 2,
@@ -128,7 +123,6 @@
     "value": {
       "comment": "Patches of chamomile in temperate dry fields",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-chamomile-normal",
         "wildcraft:leafygroundvegetable-chamomile-normal"
       ],
       "minTemp": 2,
@@ -154,7 +148,6 @@
     "value": {
       "comment": "Patches of marshmallow in temperate areas near water",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-marshmallow-normal",
         "wildcraft:leafygroundvegetable-marshmallow-normal"
       ],
       "minTemp": 2,
@@ -202,9 +195,28 @@
     "op": "add",
     "path": "/patches/-",
     "value": {
+      "comment": "Larges Patches of water chestnut in tropical areas near water",
+      "blockCodes": [
+        "wildcraft:waterplant-waterchestnut-land-normal-free"
+      ],
+      "minTemp": 24,
+      "maxTemp": 40,
+      "minRain": 0.45,
+      "maxRain": 1.0,
+      "chance": 0.45,
+      "placement": "NearWater",
+      "quantity": { "avg": 25, "var": 15 },
+      "offsetX": { "avg": 0, "var": 12 },
+      "offsetZ": { "avg": 0, "var": 12 }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
       "comment": "Patches of burdock in temperate areas near water",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-burdock-normal",
         "wildcraft:leafygroundvegetable-burdock-normal"
       ],
       "minTemp": -2,
@@ -231,7 +243,6 @@
     "value": {
       "comment": "Patches of cilantro in temperate areas",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-cilantro-normal",
         "wildcraft:leafygroundvegetable-cilantro-normal"
       ],
       "minTemp": 2,
@@ -257,7 +268,6 @@
     "value": {
       "comment": "Patches of stjohnswort in temperate clear areas",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-stjohnswort-normal",
         "wildcraft:leafygroundvegetable-stjohnswort-normal"
       ],
       "minTemp": 4,
@@ -280,9 +290,234 @@
     "op": "add",
     "path": "/patches/-",
     "value": {
+      "comment": "Patches of holly in subtropical forests",
+      "blockCodes": [
+        "wildcraft:leafygroundvegetable-holly-normal"
+      ],
+      "minTemp": 12,
+      "maxTemp": 36,
+      "minRain": 0.65,
+      "maxRain": 1,
+      "minFertility": 0.15,
+      "chance": 0.05,
+      "minForest": 0.65,
+      "maxY": 0.72,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of chicory in temperate areas",
+      "blockCodes": [
+        "wildcraft:leafygroundvegetable-chicory-normal"
+      ],
+      "minTemp": 2,
+      "maxTemp": 22,
+      "minRain": 0.65,
+      "maxRain": 1,
+      "minFertility": 0.25,
+      "chance": 0.05,
+      "maxForest": 0.65,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of marigold in subtropical areas",
+      "blockCodes": [
+        "wildcraft:leafygroundvegetable-marigold-normal"
+      ],
+      "minTemp": 18,
+      "maxTemp": 38,
+      "minRain": 0.15,
+      "maxRain": 0.75,
+      "minFertility": 0.25,
+      "chance": 0.05,
+      "maxForest": 0.65,
+      "maxY": 0.72,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of inula in temperate areas",
+      "blockCodes": [
+        "wildcraft:leafygroundvegetable-inula-normal"
+      ],
+      "minTemp": 2,
+      "maxTemp": 22,
+      "minRain": 0.65,
+      "minFertility": 0.25,
+      "chance": 0.05,
+      "maxForest": 0.65,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of celandine in temperate areas",
+      "blockCodes": [
+        "wildcraft:leafygroundvegetable-celandine-normal"
+      ],
+      "minTemp": 2,
+      "maxTemp": 22,
+      "minRain": 0.75,
+      "minFertility": 0.25,
+      "chance": 0.05,
+      "maxForest": 0.65,
+      "maxY": 0.62,
+      "placement": "NearWater",
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of leek in temperate areas",
+      "blockCodes": [
+        "wildcraft:leafygroundvegetable-leek-normal"
+      ],
+      "minTemp": 2,
+      "maxTemp": 22,
+      "minRain": 0.75,
+      "minFertility": 0.25,
+      "chance": 0.05,
+      "minForest": 0.65,
+      "maxY": 0.62,
+      "placement": "OnSurfacePlusUnderTrees",
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of plantain in areas",
+      "blockCodes": [
+        "wildcraft:leafygroundvegetable-plantain-normal"
+      ],
+      "minTemp": 2,
+      "maxTemp": 38,
+
+      "minRain": 0.25,
+      "minFertility": 0.25,
+      "chance": 0.03,
+      "minForest": 0.25,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of saltwort in warm areas",
+      "blockCodes": [
+        "wildcraft:leafygroundvegetable-saltwort-normal"
+      ],
+      "minTemp": 18,
+      "maxTemp": 38,
+      "maxRain": 0.75,
+      "maxFertility": 0.35,
+      "chance": 0.04,
+      "maxY": 0.62,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of yarrow in  areas",
+      "blockCodes": [
+        "wildcraft:leafygroundvegetable-yarrow-normal"
+      ],
+      "minTemp": 2,
+      "maxTemp": 38,
+      "maxRain": 0.45,
+      "maxFertility": 0.4,
+      "maxForest": 0.55,
+      "chance": 0.04,
+      "maxY": 0.72,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of liquorice in  areas",
+      "blockCodes": [
+        "wildcraft:leafygroundvegetable-liquorice-normal"
+      ],
+      "minTemp": 2,
+      "maxTemp": 28,
+      "minRain": 0.25,
+      "maxRain": 0.85,
+      "minFertility": 0.25,
+      "maxForest": 0.55,
+      "chance": 0.04,
+      "maxY": 0.72,
+      "quantity": {
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
       "comment": "Patches of thyme in temperate clear areas",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-thyme-normal",
         "wildcraft:leafygroundvegetable-thyme-normal"
       ],
       "minTemp": 2,
@@ -308,7 +543,6 @@
     "value": {
       "comment": "Patches of mugwort in temperate clear and forestsed areas",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-mugwort-normal",
         "wildcraft:leafygroundvegetable-mugwort-normal"
       ],
       "minTemp": 2,
@@ -334,7 +568,6 @@
     "value": {
       "comment": "Patches of mint in temperate areas",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-mint-normal",
         "wildcraft:leafygroundvegetable-mint-normal"
       ],
       "minTemp": 0,
@@ -360,7 +593,6 @@
     "value": {
       "comment": "Patches of lavender in temperate areas",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-lavender-normal",
         "wildcraft:leafygroundvegetable-lavender-normal"
       ],
       "minTemp": 2,
@@ -383,7 +615,6 @@
     "value": {
       "comment": "Patches of mustard in temperate areas",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-mustard-normal",
         "wildcraft:leafygroundvegetable-mustard-normal"
       ],
       "minTemp": 0,
@@ -409,7 +640,6 @@
     "value": {
       "comment": "Patches of celery",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-celery-normal",
         "wildcraft:leafygroundvegetable-celery-normal"
       ],
       "minTemp": 2,
@@ -435,7 +665,6 @@
     "value": {
       "comment": "Patches of saffron",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-saffron-normal",
         "wildcraft:leafygroundvegetable-saffron-normal"
       ],
       "minTemp": 2,
@@ -461,7 +690,6 @@
     "value": {
       "comment": "Patches of sage",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-sage-normal",
         "wildcraft:leafygroundvegetable-sage-normal"
       ],
       "minTemp": 4,
@@ -487,7 +715,6 @@
     "value": {
       "comment": "Patches of dill",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-dill-normal",
         "wildcraft:leafygroundvegetable-dill-normal"
       ],
       "minTemp": 6,
@@ -513,7 +740,6 @@
     "value": {
       "comment": "Patches of rosemary",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-rosemary-normal",
         "wildcraft:leafygroundvegetable-rosemary-normal"
       ],
       "minTemp": 6,
@@ -539,7 +765,6 @@
     "value": {
       "comment": "Patches of marjoram",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-marjoram-normal",
         "wildcraft:leafygroundvegetable-marjoram-normal"
       ],
       "minTemp": 8,
@@ -565,7 +790,6 @@
     "value": {
       "comment": "Patches of dock",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-dock-normal",
         "wildcraft:leafygroundvegetable-dock-normal"
       ],
       "minTemp": 2,
@@ -582,6 +806,26 @@
         "avg": 4,
         "var": 8
       }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of poison oak in temperate forests",
+      "blockCodes": [
+        "wildcraft:leafygroundvegetable-poisonoak-normal"
+      ],
+      "minTemp": -4,
+      "maxTemp": 22,
+      "minRain": 0.45,
+      "maxRain": 1,
+      "minFertility": 0.25,
+      "chance": 0.05,
+      "minForest": 0.45,
+      "maxY": 0.62,
+      "quantity": { "dist": "invexp", "avg": 8, "var": 15 }
     },
     "file": "game:worldgen/blockpatches.json"
   }

@@ -1,18 +1,29 @@
 {
 	"code": "simplepoultice",
-	"class": "ItemPoultice",
+	"class": "ItemWCPoultice",
 	"attributesByType": {
 		"*-reed-stjohnswort": { "health": 2 },
         "*-linen-stjohnswort": { "health": 4 },
+
+		"*-reed-poisonoak": { "health": 1.5 },
+        "*-linen-poisonoak": { "health": 3.5 },
+
+		"*-reed-inula": { "health": 2 },
+        "*-linen-inula": { "health": 4 },
+
+		"*-reed-celandine": { "health": 3 },
+        "*-linen-celandine": { "health": 5 }
 	},
 	"maxstacksize": 16,
 	"variantgroups": [
 		{ "code": "material", "states": ["linen", "reed" ] },
-		{ "code": "primary", "states": ["stjohnswort" ] }
+		{ "code": "primary", "states": ["stjohnswort", "poisonoak", "inula", "celandine" ] }
 	],
-	"shape": { "base": "game:item/medicine/poultice-{material}" },
+	"shape": { "base": "wildcraft:item/medicine/{material}/{material}" },
 	"textures": {
-		"primary": { "base": "wildcraft:item/medicine/{material}/{primary}" },
+		"material": { "base": "wildcraft:items/medicine/{material}/{primary}" },
+		"primary": { "base": "wildcraft:items/medicine/{material}/{primary}" },
+		"secondary": { "base": "wildcraft:items/medicine/{material}/{primary}" },
 	},
 	"creativeinventory": { "general": ["*"], "items": ["*"] },
 	"materialDensity": 600,

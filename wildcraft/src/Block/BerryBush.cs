@@ -13,14 +13,11 @@ namespace wildcraft
     {
         public static float dmg = 0.5f;
 
-        public string[] immuneCreatures;
-
         List<ItemStack> shearStacklist = new List<ItemStack>();
         public bool prickly;
         public override void OnLoaded(ICoreAPI api)
         {
             base.OnLoaded(api);
-            immuneCreatures = Attributes["immuneCreatures"].AsArray<string>();
             prickly = Attributes["prickly"].AsBool();
 
             foreach (Item item in api.World.Items)
@@ -67,17 +64,11 @@ namespace wildcraft
         }
         public override void OnEntityInside(IWorldAccessor world, Entity entity, BlockPos pos)
         {
-            if (prickly != true)
-            {
+            if(prickly != true || entity == null ||!entity.Code.ToString().Contains("player")){
                 return;
             }
             if (world.Side == EnumAppSide.Server && entity is EntityAgent && !(entity as EntityAgent).ServerControls.Sneak)
             {
-                for (int i = 0; i < immuneCreatures.Length; i++)
-                {
-                    if (immuneCreatures[i].Contains(entity.Code.ToString()))
-                        return;
-                }
                 if (world.Rand.NextDouble() > 0.7)
                 {
                     entity.ReceiveDamage(new DamageSource() { Source = EnumDamageSource.Block, SourceBlock = this, Type = EnumDamageType.PiercingAttack, SourcePos = pos.ToVec3d() }, dmg);

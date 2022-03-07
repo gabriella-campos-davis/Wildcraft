@@ -42,7 +42,6 @@ namespace wildcraft
         public override void StartClientSide(ICoreClientAPI capi)
         {
             base.StartClientSide(capi);
-
             //capi.Gui.RegisterDialog(new HudElementBuffs(capi));
             
         }

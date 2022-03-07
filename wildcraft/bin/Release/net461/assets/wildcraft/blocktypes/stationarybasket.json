@@ -74,10 +74,10 @@
 	"heldTpIdleAnimation": "holdunderarm",
 	"shapeInventory": { "base": "game:block/reed/basket-normal", "rotateY": 270 },
 	"shapeByType": {
-		"*-north": { "base": "block/reed/basket-normal", "rotateY": 0 },
-		"*-east": { "base": "block/reed/basket-normal", "rotateY": 270 },
-		"*-west": { "base": "block/reed/basket-normal", "rotateY": 90 },
-		"*-south": { "base": "block/reed/basket-normal", "rotateY": 180 }
+		"*-north": { "base": "game:block/reed/basket-normal", "rotateY": 0 },
+		"*-east": { "base": "game:block/reed/basket-normal", "rotateY": 270 },
+		"*-west": { "base": "game:block/reed/basket-normal", "rotateY": 90 },
+		"*-south": { "base": "game:block/reed/basket-normal", "rotateY": 180 }
 	},
 
 	"_comment": "Must declare textures so they get added to the block texture atlas",

@@ -18,15 +18,11 @@ namespace wildcraft
 
         public static readonly string harvestedCodePart = "harvested";
         public float dmg = 1f / 8f;
-        public string[] immuneCreatures;
         public bool prickly;
         public override void OnLoaded(ICoreAPI api)
         {
             base.OnLoaded(api);
 
-            
-
-            immuneCreatures = Attributes["immuneCreatures"].AsArray<string>();
             prickly = Attributes["prickly"].AsBool();
 
             if (Variant["state"] == "harvested")
@@ -144,17 +140,11 @@ namespace wildcraft
 
         public override void OnEntityInside(IWorldAccessor world, Entity entity, BlockPos pos)
         {
-            if (prickly != true)
-            {
+            if(prickly != true || entity == null ||!entity.Code.ToString().Contains("player")){
                 return;
             }
             if (world.Side == EnumAppSide.Server && entity is EntityAgent && !(entity as EntityAgent).ServerControls.Sneak)
             {
-                for (int i = 0; i < immuneCreatures.Length; i++)
-                {
-                    if (immuneCreatures[i].Contains(entity.Code.ToString()))
-                        return;
-                }
                     if (world.Rand.NextDouble() > 0.7)
                     {
                         if(Variant["herbs"] == "stingingnettle"){

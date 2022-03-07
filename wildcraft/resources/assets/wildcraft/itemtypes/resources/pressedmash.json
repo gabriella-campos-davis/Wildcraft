@@ -15,16 +15,16 @@
 	},
 	"shape": { "base": "game:item/pressedmash" },
 	"textures": {
-		"material": { "base": "wildcraft:block/food/pie/fill-{fruit}" },
+		"material": { "base": "wildcraft:block/food/pie/fill-{fruit}" }
 	},
 	"creativeinventory": { "general": ["*"], "items": ["*"] },
-	"transitionablePropsByType": {
-		"type": "Perish",
-		"freshHours": { "avg": 12 },
-		"transitionHours": { "avg": 12 },
-		"transitionedStack": { "type": "item", "code": "rot" },
-		"transitionRatio": 1
-	},
+	"transitionableProps": [{		
+			"type": "Perish",
+			"freshHours": { "avg": 12 },
+			"transitionHours": { "avg": 12 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 1
+	}],
 	fpHandTransform: {
 		rotation: { x: 29, y: 113, z: -30 },
 		origin: { x: 0.5, y: 0.25, z: 0.5 },

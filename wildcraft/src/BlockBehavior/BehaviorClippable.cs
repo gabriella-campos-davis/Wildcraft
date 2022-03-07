@@ -14,6 +14,7 @@ namespace wildcraft
         public BlockDropItemStack harvestedStack;
 
         public AssetLocation harvestingSound;
+        public Item harvestingTool;
 
         AssetLocation harvestedBlockCode;
         Block harvestedBlock;

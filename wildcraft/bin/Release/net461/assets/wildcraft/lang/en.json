@@ -5,29 +5,110 @@
   "item-poultice-linen-honey-sulfur-lavender": "Honey-sulfur and Lavender Poultice (from linen)",
   "item-poultice-linen-honey-sulfur-thyme": "Honey-sulfur and Thyme Poultice (from linen)",
   "item-poultice-linen-honey-sulfur-marshmallow": "Honey-sulfur and Marshmallow Poultice (from linen)",
+  "item-poultice-linen-honey-sulfur-holly": "Honey-sulfur and Holly Poultice (from linen)",
+  "item-poultice-linen-honey-sulfur-marigold": "Honey-sulfur and Marigold Poultice (from linen)",
+  "item-poultice-linen-honey-sulfur-yarrow": "Honey-sulfur and Yarrow Poultice (from linen)",
+  "item-poultice-linen-honey-sulfur-sage": "Honey-sulfur and Sage Poultice (from linen)",
 
   "item-poultice-reed-honey-sulfur-lavender": "Honey-sulfur and Lavender Poultice (from reeds)",
   "item-poultice-reed-honey-sulfur-thyme": "Honey-sulfur and Thyme Poultice (from reeds)",
   "item-poultice-reed-honey-sulfur-marshmallow": "Honey-sulfur and Marshmallow Poultice (from reeds)",
+  "item-poultice-reed-honey-sulfur-holly": "Honey-sulfur and Holly Poultice (from reeds)",
+  "item-poultice-reed-honey-sulfur-marigold": "Honey-sulfur and Marigold Poultice (from reeds)",
+  "item-poultice-reed-honey-sulfur-yarrow": "Honey-sulfur and Yarrow Poultice (from reeds)",
+  "item-poultice-reed-honey-sulfur-sage": "Honey-sulfur and Sage Poultice (from reeds)",
 
   "item-poultice-linen-horsetail-lavender": "Horsetail and Lavender Poultice (from linen)",
   "item-poultice-linen-horsetail-thyme": "Horsetail and Thyme Poultice (from linen)",
   "item-poultice-linen-horsetail-marshmallow": "Horsetail and Marshmallow Poultice (from linen)",
+  "item-poultice-linen-horsetail-holly": "Horsetail and Holly Poultice (from linen)",
+  "item-poultice-linen-horsetail-marigold": "Horsetail and Marigold Poultice (from linen)",
+  "item-poultice-linen-horsetail-yarrow": "Horsetail and Yarrow Poultice (from linen)",
+  "item-poultice-linen-horsetail-sage": "Horsetail and Sage Poultice (from linen)",
 
   "item-poultice-reed-horsetail-lavender": "Horsetail and Lavender Poultice (from reeds)",
   "item-poultice-reed-horsetail-thyme": "Horsetail and Thyme Poultice (from reeds)",
   "item-poultice-reed-horsetail-marshmallow": "Horsetail and Marshmallow Poultice (from reeds)",
+  "item-poultice-reed-horsetail-holly": "Horsetail and Holly Poultice (from reeds)",
+  "item-poultice-reed-horsetail-marigold": "Horsetail and Marigold Poultice (from reeds)",
+  "item-poultice-reed-horsetail-yarrow": "Horsetail and Yarrow Poultice (from reeds)",
+  "item-poultice-reed-horsetail-sage": "Horsetail and Sage Poultice (from reeds)",
 
   "item-poultice-linen-stjohnswort-lavender": "St John's Wort and Lavender Poultice (from linen)",
   "item-poultice-linen-stjohnswort-thyme": "St John's Wort and Thyme Poultice (from linen)",
   "item-poultice-linen-stjohnswort-marshmallow": "St John's Wort and Marshmallow Poultice (from linen)",
+  "item-poultice-linen-stjohnswort-holly": "St John's Wort and Holly Poultice (from linen)",
+  "item-poultice-linen-stjohnswort-marigold": "St John's Wort and Marigold Poultice (from linen)",
+  "item-poultice-linen-stjohnswort-yarrow": "St John's Wort and Yarrow Poultice (from linen)",
+  "item-poultice-linen-stjohnswort-sage": "St John's Wort and Sage Poultice (from linen)",
 
   "item-poultice-reed-stjohnswort-lavender": "St John's Wort and Lavender Poultice (from reeds)",
   "item-poultice-reed-stjohnswort-thyme": "St John's Wort and Thyme Poultice (from reeds)",
   "item-poultice-reed-stjohnswort-marshmallow": "St John's Wort and Marshmallow Poultice (from reeds)",
+  "item-poultice-reed-stjohnswort-holly": "St John's Wort and Holly Poultice (from reeds)",
+  "item-poultice-reed-stjohnswort-marigold": "St John's Wort and Marigold Poultice (from reeds)",
+  "item-poultice-reed-stjohnswort-yarrow": "St John's Wort and Yarrow Poultice (from reeds)",
+  "item-poultice-reed-stjohnswort-sage": "St John's Wort and Sage Poultice (from reeds)",
+
+  "item-poultice-linen-poisonoak-lavender": "Poison Oak and Lavender Poultice (from linen)",
+  "item-poultice-linen-poisonoak-thyme": "Poison Oak and Thyme Poultice (from linen)",
+  "item-poultice-linen-poisonoak-marshmallow": "Poison Oak and Marshmallow Poultice (from linen)",
+  "item-poultice-linen-poisonoak-holly": "Poison Oak and Holly Poultice (from linen)",
+  "item-poultice-linen-poisonoak-marigold": "Poison Oak and Marigold Poultice (from linen)",
+  "item-poultice-linen-poisonoak-yarrow": "Poison Oak and Yarrow Poultice (from linen)",
+  "item-poultice-linen-poisonoak-sage": "Poison Oak and Sage Poultice (from linen)",
+
+  "item-poultice-reed-poisonoak-lavender": "Poison Oak and Lavender Poultice (from reeds)",
+  "item-poultice-reed-poisonoak-thyme": "Poison Oak and Thyme Poultice (from reeds)",
+  "item-poultice-reed-poisonoak-marshmallow": "Poison Oak and Marshmallow Poultice (from reeds)",
+  "item-poultice-reed-poisonoak-holly": "Poison Oak and Holly Poultice (from reeds)",
+  "item-poultice-reed-poisonoak-marigold": "Poison Oak and Marigold Poultice (from reeds)",
+  "item-poultice-reed-poisonoak-yarrow": "Poison Oak and Yarrow Poultice (from reeds)",
+  "item-poultice-reed-poisonoak-sage": "Poison Oak and Sage Poultice (from reeds)",
+
+  "item-poultice-linen-inula-lavender": "Inula and Lavender Poultice (from linen)",
+  "item-poultice-linen-inula-thyme": "Inula and Thyme Poultice (from linen)",
+  "item-poultice-linen-inula-marshmallow": "Inula and Marshmallow Poultice (from linen)",
+  "item-poultice-linen-inula-holly": "Inula and Holly Poultice (from linen)",
+  "item-poultice-linen-inula-marigold": "Inula and Marigold Poultice (from linen)",
+  "item-poultice-linen-inula-yarrow": "Inula and Yarrow Poultice (from linen)",
+  "item-poultice-linen-inula-sage": "Inula and Sage Poultice (from linen)",
+
+  "item-poultice-reed-inula-lavender": "Inula and Lavender Poultice (from reeds)",
+  "item-poultice-reed-inula-thyme": "Inula and Thyme Poultice (from reeds)",
+  "item-poultice-reed-inula-marshmallow": "Inula and Marshmallow Poultice (from reeds)",
+  "item-poultice-reed-inula-holly": "Inula and Holly Poultice (from reeds)",
+  "item-poultice-reed-inula-marigold": "Inula and Marigold Poultice (from reeds)",
+  "item-poultice-reed-inula-yarrow": "Inula and Yarrow Poultice (from reeds)",
+  "item-poultice-reed-inula-sage": "Inula and Sage Poultice (from reeds)",
+
+  "item-poultice-linen-celandine-lavender": "Celandine and Lavender Poultice (from linen)",
+  "item-poultice-linen-celandine-thyme": "Celandine and Thyme Poultice (from linen)",
+  "item-poultice-linen-celandine-marshmallow": "Celandine and Marshmallow Poultice (from linen)",
+  "item-poultice-linen-celandine-holly": "Celandine and Holly Poultice (from linen)",
+  "item-poultice-linen-celandine-marigold": "Celandine and Marigold Poultice (from linen)",
+  "item-poultice-linen-celandine-yarrow": "Celandine and Yarrow Poultice (from linen)",
+  "item-poultice-linen-celandine-sage": "Celandine and Sage Poultice (from linen)",
+
+  "item-poultice-reed-celandine-lavender": "Celandine and Lavender Poultice (from reeds)",
+  "item-poultice-reed-celandine-thyme": "Celandine and Thyme Poultice (from reeds)",
+  "item-poultice-reed-celandine-marshmallow": "Celandine and Marshmallow Poultice (from reeds)",
+  "item-poultice-reed-celandine-holly": "Celandine and Holly Poultice (from reeds)",
+  "item-poultice-reed-celandine-marigold": "Celandine and Marigold Poultice (from reeds)",
+  "item-poultice-reed-celandine-yarrow": "Celandine and Yarrow Poultice (from reeds)",
+  "item-poultice-reed-celandine-sage": "Celandine and Sage Poultice (from reeds)",
 
   "item-simplepoultice-reed-stjohnswort": "St John's Wort Poultice (from reeds)",
   "item-simplepoultice-linen-stjohnswort": "St John's Wort Poultice (from linen)",
+
+  "item-simplepoultice-reed-poisonoak": "Poison Oak Poultice (from reeds)",
+  "item-simplepoultice-linen-poisonoak": "Poison Oak Poultice (from linen)",
+
+  "item-simplepoultice-reed-celandine": "Celandine Poultice (from reeds)",
+  "item-simplepoultice-linen-celandine": "Celandine Poultice (from linen)",
+
+  "item-simplepoultice-reed-inula": "Inula Poultice (from reeds)",
+  "item-simplepoultice-linen-inula": "Inula Poultice (from linen)",
 
   "itemdesc-poultice-*": "A bandage to heal minor wounds",
   "item-handbooktitle-poultice-*": "About:",
@@ -434,6 +515,146 @@
   "block-leafygroundvegetable-burdock-normal": "Burdock",
   "block-leafygroundvegetable-burdock-harvested": "Burdock (Growing)",
 
+  "block-leafygroundvegetable-poisonoak-normal": "Poison Oak",
+  "block-leafygroundvegetable-poisonoak-harvested": "Poison Oak (Growing)",
+
+  "block-leafygroundvegetable-holly-normal": "Holly",
+  "block-leafygroundvegetable-holly-harvested": "Holly (Growing)",
+
+  "block-leafygroundvegetable-chicory-normal": "Chicory",
+  "block-leafygroundvegetable-chicory-harvested": "Chicory (Growing)",
+
+  "block-leafygroundvegetable-marigold-normal": "Marigold",
+  "block-leafygroundvegetable-marigold-harvested": "Marigold (Growing)",
+
+  "block-leafygroundvegetable-inula-normal": "Inula",
+  "block-leafygroundvegetable-inula-harvested": "Inula (Growing)",
+
+  "block-leafygroundvegetable-celandine-normal": "Celandine",
+  "block-leafygroundvegetable-celandine-harvested": "Celanine (Growing)",
+
+  "block-leafygroundvegetable-leek-normal": "Leek",
+  "block-leafygroundvegetable-leek-harvested": "Leek (Growing)",
+
+  "block-leafygroundvegetable-plantain-normal": "Broadleaf plantain",
+  "block-leafygroundvegetable-plantain-harvested": "Broadleaf plantain (Growing)",
+
+  "block-leafygroundvegetable-saltwort-normal": "Saltwort",
+  "block-leafygroundvegetable-saltwort-harvested": "Saltwort (Growing)",
+
+  "block-leafygroundvegetable-yarrow-normal": "Yarrow",
+  "block-leafygroundvegetable-yarrow-harvested": "Yarrow (Growing)",
+
+  "block-leafygroundvegetable-liquorice-normal": "Liquorice",
+  "block-leafygroundvegetable-liquorice-harvested": "Liquorice (Growing)",
+
+  "block-waterplant-waterchestnut-*-normal-*": "Water chestnut",
+  "block-waterplant-waterchestnut-*-harvested-*": "Water chestnut (Growing)",
+
+  "item-herbs-poisonoak":"Poison Oak",
+  "item-herbseeds-poisonoak":"Poison Oak Seeds",
+
+  "item-herbs-holly":"Holly",
+  "item-herbseeds-holly":"Holly Seeds",
+
+  "recipeingredient-item-herbs-chicory-insturmentalcase": "chicory",
+  "recipeingredient-item-herbs-chicory": "chicory",
+  "meal-ingredient-soup-secondary-herbs-chicory": "chicory",
+  "meal-ingredient-stew-secondary-herbs-chicory": "chicory",
+
+  "item-herbs-chicory":"Chicory",
+  "item-herbseeds-chicory":"Chicory Seeds",
+
+  "recipeingredient-item-herbs-marigold-insturmentalcase": "marigold",
+  "recipeingredient-item-herbs-marigold": "marigold",
+  "meal-ingredient-soup-secondary-herbs-marigold": "marigold",
+  "meal-ingredient-stew-secondary-herbs-marigold": "marigold",
+
+  "item-herbs-marigold":"Marigold",
+  "item-herbseeds-marigold":"Marigold Seeds",
+
+  "recipeingredient-item-herbs-inula-insturmentalcase": "inula",
+  "recipeingredient-item-herbs-inula": "inula",
+  "meal-ingredient-soup-secondary-herbs-inula": "inula",
+  "meal-ingredient-stew-secondary-herbs-inula": "inula",
+
+  "item-herbs-inula":"Inula",
+  "item-herbseeds-inula":"Inula Seeds",
+
+  "recipeingredient-item-herbs-celandine-insturmentalcase": "celandine",
+  "recipeingredient-item-herbs-celandine": "celandine",
+  "meal-ingredient-soup-secondary-herbs-celandine": "celandine",
+  "meal-ingredient-stew-secondary-herbs-celandine": "celandine",
+
+  "item-herbs-celandine":"Celandine",
+  "item-herbseeds-celandine":"Celandine Seeds",
+
+  "recipeingredient-item-herbs-leek-insturmentalcase": "leek",
+  "recipeingredient-item-herbs-leek": "leek",
+  "meal-ingredient-soup-secondary-herbs-leek": "leek",
+  "meal-ingredient-stew-secondary-herbs-leek": "leek",
+
+  "item-herbs-leek":"Leek",
+  "item-herbseeds-leek":"Leek Seeds",
+
+  "recipeingredient-item-herbs-plantain-insturmentalcase": "plantain",
+  "recipeingredient-item-herbs-plantain": "plantain",
+  "meal-ingredient-soup-secondary-herbs-plantain": "plantain",
+  "meal-ingredient-stew-secondary-herbs-plantain": "plantain",
+
+  "item-herbs-plantain":"Broadleaf Plantain",
+  "item-herbseeds-plantain":"Broadleaf Plantain Seeds",
+
+  "recipeingredient-item-herbs-saltwort-insturmentalcase": "saltwort",
+  "recipeingredient-item-herbs-saltwort": "saltwort",
+  "meal-ingredient-soup-secondary-herbs-saltwort": "saltwort",
+  "meal-ingredient-stew-secondary-herbs-saltwort": "saltwort",
+
+  "item-herbs-saltwort":"Saltwort",
+  "item-herbseeds-saltwort":"Saltwort Seeds",
+
+  "recipeingredient-item-herbs-yarrow-insturmentalcase": "yarrow",
+  "recipeingredient-item-herbs-yarrow": "yarrow",
+  "meal-ingredient-soup-secondary-herbs-yarrow": "yarrow",
+  "meal-ingredient-stew-secondary-herbs-yarrow": "yarrow",
+
+  "item-herbs-yarrow":"Yarrow",
+  "item-herbseeds-yarrow":"Yarrow Seeds",
+
+  "recipeingredient-item-herbs-liquorice-insturmentalcase": "liquorice",
+  "recipeingredient-item-herbs-liquorice": "liquorice",
+  "meal-ingredient-soup-secondary-herbs-liquorice": "liquorice",
+  "meal-ingredient-stew-secondary-herbs-liquorice": "liquorice",
+
+  "item-herbs-liquorice":"Liquorice",
+  "item-herbseeds-liquorice":"Liquorice Seeds",
+
+  "recipeingredient-item-herbs-waterchestnut-insturmentalcase": "water chestnut tails",
+  "recipeingredient-item-herbs-waterchestnut": "water chestnut tails",
+  "meal-ingredient-soup-secondary-herbs-waterchestnut": "water chestnut tails",
+  "meal-ingredient-stew-secondary-herbs-waterchestnut": "water chestnut tails",
+
+  "item-waterherbs-waterchestnut":"Waterchestnut ends",
+  "item-waterherbseeds-waterchestnut":"Waterchestnut Seeds",
+
+  "item-roots-waterchestnut":"Water chestnut",
+  "recipeingredient-item-roots-waterchestnut-insturmentalcase": "water chestnut",
+  "recipeingredient-item-roots-waterchestnut": "water chestnut",
+  "meal-ingredient-soup-secondary-roots-waterchestnut": "water chestnut",
+  "meal-ingredient-stew-secondary-roots-waterchestnut": "water chestnut",
+
+  "item-roots-chicory":"Chicory root",
+  "recipeingredient-item-roots-chicory-insturmentalcase": "chicory root",
+  "recipeingredient-item-roots-chicory": "chicory root",
+  "meal-ingredient-soup-secondary-roots-chicory": "chicory root",
+  "meal-ingredient-stew-secondary-roots-chicory": "chicory root",
+
+  "item-roots-liquorice":"Liquorice root",
+  "recipeingredient-item-roots-liquorice-insturmentalcase": "liquorice root",
+  "recipeingredient-item-roots-liquorice": "liquorice root",
+  "meal-ingredient-soup-secondary-roots-liquorice": "liquorice root",
+  "meal-ingredient-stew-secondary-roots-liquorice": "liquorice root",
+  
   "block-berrybush-huckleberry-empty": "Huckleberry Bush (Empty)",
   "block-berrybush-huckleberry-flowering": "Huckleberry Bush (Flowering)",
   "block-berrybush-huckleberry-ripe": "Huckleberry Bush (Ripe)",
