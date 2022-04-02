@@ -134,7 +134,7 @@
         "maxForest": 0.8,
         "minFertility": 0.3,
         "maxFertility": 1,
-        "chance": 0.03,
+        "chance": 0.02,
         "placement": "NearWater",
         "offsetX": {
           "dist": "gaussian",
@@ -202,7 +202,7 @@
         "minRain": 0.3,
         "minForest": 0.5,
         "minFertility": 0.25,
-        "chance": 0.04,
+        "chance": 0.03,
         "quantity": { "dist": "invexp", "avg": 8, "var": 15 }
       },
       "file": "game:worldgen/blockpatches.json"

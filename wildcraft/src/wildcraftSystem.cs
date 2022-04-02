@@ -29,6 +29,7 @@ namespace wildcraft
 
             api.RegisterItemClass("ItemClipping", typeof(ItemClipping));
             api.RegisterItemClass("ItemHerbSeed", typeof(ItemHerbSeed));
+            //api.RegisterItemClass("ItemTemporalSpear", typeof(ItemTemporalSpear));
             api.RegisterItemClass("ItemWCPoultice", typeof(ItemWCPoultice));
         }
         public override void StartServerSide(ICoreServerAPI api)

@@ -13,10 +13,18 @@ public class PoulticeBuff : Buff {
       hpPerTick = totalHealthChange / DURATION_TICKS;
       SetExpiryInTicks(DURATION_TICKS);
     }
+    public override void OnDeath() {
+      SetExpiryImmediately();
+    }
+
+    public override void OnExpire()
+    {
+      SetExpiryImmediately();
+    }
     public override void OnTick() {
       Entity.ReceiveDamage(new DamageSource {
         Source = EnumDamageSource.Internal,
-        Type = hpPerTick < 0 ? EnumDamageType.Poison : EnumDamageType.Heal
+        Type = hpPerTick < 0 ? EnumDamageType.Heal : EnumDamageType.Heal
       }, (float)hpPerTick);
     }
   }

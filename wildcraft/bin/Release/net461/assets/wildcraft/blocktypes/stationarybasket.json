@@ -128,5 +128,9 @@
 	guiTransform: {
 		origin: { x: 0.5, y: 0.3, z: 0.5 },
 		scale: 1.3
+	},
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10
 	}
 }
