@@ -1,6 +1,7 @@
 {
   "code": "clipping",
   "class": "ItemClipping",
+  "attributes": {},
   "maxstacksize": 4,
   "creativeinventory": {
     "general": [ "*" ],
