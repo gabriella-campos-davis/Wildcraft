@@ -1,143 +1,99 @@
 {
-	"code": "poultice",
-	"class": "ItemWCPoultice",
-	"attributesByType": {
-		"*-reed-honey-sulfur-lavender": { "health": 6 },
-        "*-reed-honey-sulfur-thyme": { "health": 5.5 },
-        "*-reed-honey-sulfur-marshmallow": { "health": 5 },
-		"*-reed-honey-sulfur-holly": { "health": 5 },
-		"*-reed-honey-sulfur-marigold": { "health": 5 },
-		"*-reed-honey-sulfur-yarrow": { "health": 5.5 },
-		"*-reed-honey-sulfur-sage": { "health": 6 },
+  "code": "poultice",
+  "class": "ItemWCPoultice",
+  "attributes": {
+    "healthByType": {
+      "@.*-reed-honey-sulfur-(lavender|sage)": 6,
+      "@.*-reed-honey-sulfur-(thyme|yarrow)": 5.5,
+      "@.*-reed-honey-sulfur-(marshmallow|holly|marigold)": 5,
 
-        "*-linen-honey-sulfur-lavender": { "health": 9 },
-        "*-linen-honey-sulfur-thyme": { "health": 8 },
-        "*-linen-honey-sulfur-marshmallow": { "health": 7.5 },
-		"*-linen-honey-sulfur-holly": { "health": 7.5 },
-		"*-linen-honey-sulfur-marigold": { "health": 8 },
-		"*-linen-honey-sulfur-yarrow": { "health": 7.5 },
-		"*-linen-honey-sulfur-sage": { "health": 9 },
+      "@.*-linen-honey-sulfur-(lavender|sage)": 9,
+      "@.*-linen-honey-sulfur-(thyme|marigold)": 8,
+      "@.*-linen-honey-sulfur-(marshmallow|holly|yarrow)": 7.5,
 
+      "@.*-reed-horsetail-(lavender|yarrow|sage)": 3,
+      "@.*-reed-horsetail-(thyme|marigold)": 5,
+      "@.*-reed-horsetail-(marshmallow|holly)": 4,
 
-		"*-reed-horsetail-lavender": { "health": 3 },
-        "*-reed-horsetail-thyme": { "health": 5 },
-        "*-reed-horsetail-marshmallow": { "health": 4 },
-		"*-reed-horsetail-holly": { "health": 4 },
-		"*-reed-horsetail-yarrow": { "health": 3 },
-		"*-reed-horsetail-marigold": { "health": 5 },
-		"*-reed-horsetail-sage": { "health": 3 },
+      "@.*-linen-horsetail-(lavender|yarrow|sage)": 5,
+      "@.*-linen-horsetail-(thyme|marigold)": 7,
+      "@.*-linen-horsetail-(marshmallow|holly)": 6,
 
+      "@.*-reed-stjohnswort-(lavender|yarrow)": 4,
+      "@.*-reed-stjohnswort-(thyme|marigold)": 3,
+      "@.*-reed-stjohnswort-(marshmallow|holly|sage)": 6,
 
-        "*-linen-horsetail-lavender": { "health": 5 },
-        "*-linen-horsetail-thyme": { "health": 7 },
-        "*-linen-horsetail-marshmallow": { "health": 6 },
-		"*-linen-horsetail-holly": { "health": 6 },
-		"*-linen-horsetail-yarrow": { "health": 5 },
-		"*-linen-horsetail-marigold": { "health": 7 },
-		"*-linen-horsetail-sage": { "health": 5 },
+      "@.*-linen-stjohnswort-(lavender|yarrow)": 6,
+      "@.*-linen-stjohnswort-(thyme|marigold)": 5,
+      "@.*-linen-stjohnswort-(marshmallow|sage)": 8,
+      "@.*-linen-stjohnswort-(holly)": 4,
 
+      "@.*-reed-poisonoak-(lavender|marigold)": 3,
+      "@.*-reed-poisonoak-(thyme|sage)": 2,
+      "@.*-reed-poisonoak-(marshmallow|yarrow)": 4,
+      "@.*-reed-poisonoak-(holly)": 5,
 
-        "*-reed-stjohnswort-lavender": { "health": 4 },
-        "*-reed-stjohnswort-thyme": { "health": 3 },
-        "*-reed-stjohnswort-marshmallow": { "health": 6 },
-		"*-reed-stjohnswort-holly": { "health": 6 },
-		"*-reed-stjohnswort-marigold": { "health": 3 },
-		"*-reed-stjohnswort-yarrow": { "health": 4 },
-		"*-reed-stjohnswort-sage": { "health": 6 },
-		
-        "*-linen-stjohnswort-lavender": { "health": 6 },
-        "*-linen-stjohnswort-thyme": { "health": 5 },
-        "*-linen-stjohnswort-marshmallow": { "health": 8 },
-		"*-linen-stjohnswort-holly": { "health": 4 },
-		"*-linen-stjohnswort-marigold": { "health": 5 },
-		"*-linen-stjohnswort-yarrow": { "health": 6 },
-		"*-linen-stjohnswort-sage": { "health": 8 },
+      "@.*-linen-poisonoak-(lavender|marigold)": 5,
+      "@.*-linen-poisonoak-(thyme|holly|sage)": 4,
+      "@.*-linen-poisonoak-(marshmallow|yarrow)": 6,
 
-		"*-reed-poisonoak-lavender": { "health": 3 },
-        "*-reed-poisonoak-thyme": { "health": 2 },
-        "*-reed-poisonoak-marshmallow": { "health": 4 },
-		"*-reed-poisonoak-holly": { "health": 5 },
-		"*-reed-poisonoak-marigold": { "health": 3 },
-		"*-reed-poisonoak-yarrow": { "health": 4 },
-		"*-reed-poisonoak-sage": { "health": 2 },
-		
-        "*-linen-poisonoak-lavender": { "health": 5 },
-        "*-linen-poisonoak-thyme": { "health": 4 },
-        "*-linen-poisonoak-marshmallow": { "health": 6 },
-		"*-linen-poisonoak-holly": { "health": 4 },
-		"*-linen-poisonoak-marigold": { "health": 5 },
-		"*-linen-poisonoak-yarrow": { "health": 6 },
-		"*-linen-poisonoak-sage": { "health": 4 },
+      "@.*-reed-inula-(lavender|sage)": 3,
+      "@.*-reed-inula-(thyme|yarrow)": 4,
+      "@.*-reed-inula-(marshmallow|holly|marigold)": 6,
 
-		"*-reed-inula-lavender": { "health": 3 },
-        "*-reed-inula-thyme": { "health": 4 },
-        "*-reed-inula-marshmallow": { "health": 6 },
-		"*-reed-inula-holly": { "health": 6 },
-		"*-reed-inula-marigold": { "health": 6 },
-		"*-reed-inula-yarrow": { "health": 4 },
-		"*-reed-inula-sage": { "health": 3 },
-		
-        "*-linen-inula-lavender": { "health": 5 },
-        "*-linen-inula-thyme": { "health": 6 },
-        "*-linen-inula-marshmallow": { "health": 8 },
-		"*-linen-inula-holly": { "health": 4 },
-		"*-linen-inula-marigold": { "health": 8 },
-		"*-linen-inula-yarrow": { "health": 7 },
-		"*-linen-inula-sage": { "health": 5 },
+      "@.*-linen-inula-(lavender|sage)": 5,
+      "@.*-linen-inula-(thyme)": 6,
+      "@.*-linen-inula-(marshmallow|marigold)": 8,
+      "@.*-linen-inula-(holly)": 4,
+      "@.*-linen-inula-(yarrow)": 7,
 
-		"*-reed-celandine-lavender": { "health": 4 },
-        "*-reed-celandine-thyme": { "health": 5 },
-        "*-reed-celandine-marshmallow": { "health": 6 },
-		"*-reed-celandine-holly": { "health": 4 },
-		"*-reed-celandine-marigold": { "health": 7 },
-		"*-reed-celandine-yarrow": { "health": 5 },
-		"*-reed-celandine-sage": { "health": 4 },
-		
-        "*-linen-celandine-lavender": { "health": 6 },
-        "*-linen-celandine-thyme": { "health": 7 },
-        "*-linen-celandine-marshmallow": { "health": 8 },
-		"*-linen-celandine-holly": { "health": 6 },
-		"*-linen-celandine-marigold": { "health": 9 },
-		"*-linen-celandine-yarrow": { "health": 7 },
-		"*-linen-celandine-sage": { "health": 6 }
+      "@.*-reed-celandine-(lavender|holly|sage)": 4,
+      "@.*-reed-celandine-(thyme|yarrow)": 5,
+      "@.*-reed-celandine-(marshmallow)": 6,
+      "@.*-reed-celandine-(marigold)": 7,
 
-	},
-	"maxstacksize": 16,
-	"variantgroups": [
-		{ "code": "material", "states": ["linen", "reed" ] },
-		{ "code": "primary", "states": ["honey-sulfur", "horsetail", "stjohnswort", "poisonoak", "inula", "celandine" ] },
-        { "code": "secondary", "states": ["lavender", "thyme", "marshmallow", "holly", "marigold", "yarrow", "sage" ] }
-	],
-	"shape": { "base": "wildcraft:item/medicine/{material}/{material}" },
-	"textures": {
-		"material": { "base": "wildcraft:items/medicine/{material}/{primary}" },
-		"primary": { "base": "wildcraft:items/medicine/{material}/{primary}" },
-		"secondary": { "base": "wildcraft:items/medicine/secondary/{secondary}" }
-	},
-	"creativeinventory": { "general": ["*"], "items": ["*"] },
-	"materialDensity": 600,
-	"guiTransform": {
-		translation: { x: 3, y: 0, z: 0 },
-		rotation: { x: 120, y: 41, z: 7 },
-		origin: { x: 0.5, y: 0.11, z: 0.5 },
-		scale: 2.15
-	},
-	fpHandTransform: {
-		translation: { x: 0, y: 0, z: 0 },
-		rotation: { x: 40, y: 91, z: 15 },
-		origin: { x: 0.8, y: 0.4, z: 0 },
-		scale: 1.47
-	},
-	groundTransform: {
-		translation: { x: 0, y: 0, z: 0 },
-		rotation: { x: 180, y: 33, z: -180 },
-		origin: { x: 0.5, y: 0, z: 0.5 },
-		scale: 2.5
-	},
-	tpHandTransform: {
-		translation: { x: 0, y: 0, z: 0 },
-		rotation: { x: 5, y: 41, z: -31 },
-		origin: { x: 0.16, y: 0.05, z: 0.08 },
-		scale: 0.44
-	}
+      "@.*-linen-celandine-(lavender|holly|sage)": 6,
+      "@.*-linen-celandine-(thyme|yarrow)": 7,
+      "@.*-linen-celandine-(marshmallow|)": 8,
+      "@.*-linen-celandine-(marigold|)": 9
+    }
+  },
+  "maxstacksize": 16,
+  "variantgroups": [
+    { "code": "material", "states": ["linen", "reed"] },
+    { "code": "primary", "states": ["honey-sulfur", "horsetail", "stjohnswort", "poisonoak", "inula", "celandine"] },
+    { "code": "secondary", "states": ["lavender", "thyme", "marshmallow", "holly", "marigold", "yarrow", "sage"] }
+  ],
+  "shape": { "base": "wildcraft:item/medicine/{material}/{material}" },
+  "textures": {
+    "material": { "base": "wildcraft:items/medicine/{material}/{primary}" },
+    "primary": { "base": "wildcraft:items/medicine/{material}/{primary}" },
+    "secondary": { "base": "wildcraft:items/medicine/secondary/{secondary}" }
+  },
+  "creativeinventory": { "general": ["*"], "items": ["*"] },
+  "materialDensity": 600,
+  "guiTransform": {
+    "translation": { "x": 3, "y": 0, "z": 0 },
+    "rotation": { "x": 120, "y": 41, "z": 7 },
+    "origin": { "x": 0.5, "y": 0.11, "z": 0.5 },
+    "scale": 2.15
+  },
+  "fpHandTransform": {
+    "translation": { "x": 0, "y": 0, "z": 0 },
+    "rotation": { "x": 40, "y": 91, "z": 15 },
+    "origin": { "x": 0.8, "y": 0.4, "z": 0 },
+    "scale": 1.47
+  },
+  "groundTransform": {
+    "translation": { "x": 0, "y": 0, "z": 0 },
+    "rotation": { "x": 180, "y": 33, "z": -180 },
+    "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+    "scale": 2.5
+  },
+  "tpHandTransform": {
+    "translation": { "x": 0, "y": 0, "z": 0 },
+    "rotation": { "x": 5, "y": 41, "z": -31 },
+    "origin": { "x": 0.16, "y": 0.05, "z": 0.08 },
+    "scale": 0.44
+  }
 }
