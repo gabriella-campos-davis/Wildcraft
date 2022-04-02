@@ -1,6 +1,7 @@
 {
 	"code": "waterherbseeds",
 	"class": "ItemHerbSeed",
+	"attributes": {},
 	"maxstacksize": 64,
 	"variantgroups": [
 		{ "code": "herbs", "states": ["waterchestnut"] }
