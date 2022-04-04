@@ -1,0 +1,24 @@
+{
+    "code": "immunecreatures",
+    "variants": [
+      {
+        "code": "chicken"
+      },
+      {
+        "code": "fox"
+      },
+      {
+        "code": "hare"
+      },
+      {
+        "code": "pig"
+      },
+      {
+        "code": "raccoon"
+      },
+      {
+        "code": "sheep"
+      }
+    ]
+  }
+  

@@ -12,6 +12,7 @@ namespace wildcraft
     public class BerryBush : BlockPlant
     {
         public static float dmg = 0.5f;
+        public string[] immuneCreatures;
 
         List<ItemStack> shearStacklist = new List<ItemStack>();
         public bool prickly;
@@ -19,6 +20,7 @@ namespace wildcraft
         {
             base.OnLoaded(api);
             prickly = Attributes["prickly"].AsBool();
+            immuneCreatures = Attributes["immuneCreatures"].AsArray<string>();
 
             foreach (Item item in api.World.Items)
             {
@@ -64,8 +66,13 @@ namespace wildcraft
         }
         public override void OnEntityInside(IWorldAccessor world, Entity entity, BlockPos pos)
         {
-            if(prickly != true || entity == null ||!entity.Code.ToString().Contains("player")){
+            if(prickly != true || entity == null || immuneCreatures == null){
                 return;
+            }
+            for(int i = 0; i < immuneCreatures.Length; i++){
+                if(entity.Code.ToString().Contains(immuneCreatures[i])){
+                    return;
+                }
             }
             if (world.Side == EnumAppSide.Server && entity is EntityAgent && !(entity as EntityAgent).ServerControls.Sneak)
             {

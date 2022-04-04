@@ -25,9 +25,12 @@
     "overrideRandomDrawOffset": 14,
 
     "pricklyByType": {
-      "*-(raspberry|brambleberry|dogrose)-*": true,
+      "*-raspberry-*": true,
+      "*-brambleberry-*": true,
+      "*-dogrose-*": true,
       "*": false
-    }
+    },
+    "immuneCreatures":[ "game:chicken", "game:fox", "game:hare", "game:pig", "game:raccoon", "game:sheep"]
   },
   "walkspeedmultiplierByType": {
     "*-(raspberry|gooseberry|brambleberry|dogrose)-*": 0.55
