@@ -2,32 +2,113 @@
   "item-basket": "Ручная корзина",
   "block-sedge-stationarybasket-*": "Корзина из осоки",
 
-  "item-poultice-linen-honey-sulfur-lavender": "Припарка из меда, серы и лаванды (из льна)",
-  "item-poultice-linen-honey-sulfur-thyme": "Припарка из меда, серы и тимьяна (из льна)",
-  "item-poultice-linen-honey-sulfur-marshmallow": "Припарка из меда, серы и алтея (из льна)",
+  "item-poultice-linen-honey-sulfur-lavender": "Припарка из меда, серы и лаванды (льняная)",
+  "item-poultice-linen-honey-sulfur-thyme": "Припарка из меда, серы и тимьяна (льняная)",
+  "item-poultice-linen-honey-sulfur-marshmallow": "Припарка из меда, серы и алтея (льняная)",
+  "item-poultice-linen-honey-sulfur-holly": "Припарка из меда, серы и падуба (льняная)",
+  "item-poultice-linen-honey-sulfur-marigold": "Припарка из меда, серы и календулы (льняная)",
+  "item-poultice-linen-honey-sulfur-yarrow": "Припарка из меда, серы и тысячелистника (льняная)",
+  "item-poultice-linen-honey-sulfur-sage": "Припарка из меда, серы и шалфея (льняная)",
+  
+  "item-poultice-reed-honey-sulfur-lavender": "Припарка из меда, серы и лаванды (тростниковая)",
+  "item-poultice-reed-honey-sulfur-thyme": "Припарка из меда, серы и тимьяна (тростниковая)",
+  "item-poultice-reed-honey-sulfur-marshmallow": "Припарка из меда, серы и алтея (тростниковая)",
+  "item-poultice-reed-honey-sulfur-holly": "Припарка из меда, серы и падуба (тростниковая)",
+  "item-poultice-reed-honey-sulfur-marigold": "Припарка из меда, серы и календулы (тростниковая)",
+  "item-poultice-reed-honey-sulfur-yarrow": "Припарка из меда, серы и тысячелистника (тростниковая)",
+  "item-poultice-reed-honey-sulfur-sage": "Припарка из меда, серы и шалфея (тростниковая)",
 
-  "item-poultice-reed-honey-sulfur-lavender": "Припарка из меда, серы и лаванды (из тростника)",
-  "item-poultice-reed-honey-sulfur-thyme": "Припарка из меда, серы и тимьяна (из тростника)",
-  "item-poultice-reed-honey-sulfur-marshmallow": "Припарка из меда, серы и алтея (из тростника)",
+  "item-poultice-linen-horsetail-lavender": "Припарка из хвоща и лаванды (льняная)",
+  "item-poultice-linen-horsetail-thyme": "Припарка из хвоща и тимьяна (льняная)",
+  "item-poultice-linen-horsetail-marshmallow": "Припарка из хвоща и алтея (льняная)",
+  "item-poultice-linen-horsetail-holly": "Припарка из хвоща и падуба (льняная)",
+  "item-poultice-linen-horsetail-marigold": "Припарка из хвоща и календулы (льняная)",
+  "item-poultice-linen-horsetail-yarrow": "Припарка из хвоща и тысячелистника (льняная)",
+  "item-poultice-linen-horsetail-sage": "Припарка из хвоща и шалфея (льняная)",
 
-  "item-poultice-linen-horsetail-lavender": "Припарка из хвоща и лаванды (из льна)",
-  "item-poultice-linen-horsetail-thyme": "Припарка из хвоща и тимьяна (из льна)",
-  "item-poultice-linen-horsetail-marshmallow": "Припарка из хвоща и алтея (из льна)",
+  "item-poultice-reed-horsetail-lavender": "Припарка из хвоща и лаванды (тростниковая)",
+  "item-poultice-reed-horsetail-thyme": "Припарка из хвоща и тимьяна (тростниковая)",
+  "item-poultice-reed-horsetail-marshmallow": "Припарка из хвоща и алтея (тростниковая)",
+  "item-poultice-reed-horsetail-holly": "Припарка из хвоща и падуба (тростниковая)",
+  "item-poultice-reed-horsetail-marigold": "Припарка из хвоща и календулы (тростниковая)",
+  "item-poultice-reed-horsetail-yarrow": "Припарка из хвоща и тысячелистника (тростниковая)",
+  "item-poultice-reed-horsetail-sage": "Припарка из хвоща и шалфея (тростниковая)",
 
-  "item-poultice-reed-horsetail-lavender": "Припарка из хвоща и лаванды (из тростника)",
-  "item-poultice-reed-horsetail-thyme": "Припарка из хвоща и тимьяна (из тростника)",
-  "item-poultice-reed-horsetail-marshmallow": "Припарка из хвоща и алтея (из тростника)",
+  "item-poultice-linen-stjohnswort-lavender": "Припарка из зверобоя и лаванды (льняная)",
+  "item-poultice-linen-stjohnswort-thyme": "Припарка из зверобоя и тимьяна (льняная)",
+  "item-poultice-linen-stjohnswort-marshmallow": "Припарка из зверобоя и алтея (льняная)",
+  "item-poultice-linen-stjohnswort-holly": "Припарка из зверобоя и падуба (льняная)",
+  "item-poultice-linen-stjohnswort-marigold": "Припарка из зверобоя и календулы (льняная)",
+  "item-poultice-linen-stjohnswort-yarrow": "Припарка из зверобоя и тысячелистника (льняная)",
+  "item-poultice-linen-stjohnswort-sage": "Припарка из зверобоя и шалфея (льняная)",
 
-  "item-poultice-linen-stjohnswort-lavender": "Припарка из зверобоя и лаванды (из льна)",
-  "item-poultice-linen-stjohnswort-thyme": "Припарка из зверобоя и тимьяна (из льна)",
-  "item-poultice-linen-stjohnswort-marshmallow": "Припарка из зверобоя и алтея (из льна)",
+  "item-poultice-reed-stjohnswort-lavender": "Припарка из зверобоя и лаванды (тростниковая)",
+  "item-poultice-reed-stjohnswort-thyme": "Припарка из зверобоя и тимьяна (тростниковая)",
+  "item-poultice-reed-stjohnswort-marshmallow": "Припарка из зверобоя и алтея (тростниковая)",
+  "item-poultice-reed-stjohnswort-holly": "Припарка из зверобоя и падуба (тростниковая)",
+  "item-poultice-reed-stjohnswort-marigold": "Припарка из зверобоя и календулы (тростниковая)",
+  "item-poultice-reed-stjohnswort-yarrow": "Припарка из зверобоя и тысячелистника (тростниковая)",
+  "item-poultice-reed-stjohnswort-sage": "Припарка из зверобоя и шалфея (тростниковая)",
+  
+  "item-poultice-linen-poisonoak-lavender": "Припарка из ядовитого дуба и лаванды (льняная)",
+  "item-poultice-linen-poisonoak-thyme": "Припарка из ядовитого дуба и тимьяна (льняная)",
+  "item-poultice-linen-poisonoak-marshmallow": "Припарка из ядовитого дуба и алтея (льняная)",
+  "item-poultice-linen-poisonoak-holly": "Припарка из ядовитого дуба и падуба (льняная)",
+  "item-poultice-linen-poisonoak-marigold": "Припарка из ядовитого дуба и календулы (льняная)",
+  "item-poultice-linen-poisonoak-yarrow": "Припарка из ядовитого дуба и тысячелистника (льняная)",
+  "item-poultice-linen-poisonoak-sage": "Припарка из ядовитого дуба и шалфея (льняная)",
 
-  "item-poultice-reed-stjohnswort-lavender": "Припарка из зверобоя и лаванды (из тростника)",
-  "item-poultice-reed-stjohnswort-thyme": "Припарка из зверобоя и тимьяна (из тростника)",
-  "item-poultice-reed-stjohnswort-marshmallow": "Припарка из зверобоя и алтея (из тростника)",
+  "item-poultice-reed-poisonoak-lavender": "Припарка из ядовитого дуба и лаванды (тростниковая)",
+  "item-poultice-reed-poisonoak-thyme": "Припарка из ядовитого дуба и тимьяна (тростниковая)",
+  "item-poultice-reed-poisonoak-marshmallow": "Припарка из ядовитого дуба и алтея (тростниковая)",
+  "item-poultice-reed-poisonoak-holly": "Припарка из ядовитого дуба и падуба (тростниковая)",
+  "item-poultice-reed-poisonoak-marigold": "Припарка из ядовитого дуба и календулы (тростниковая)",
+  "item-poultice-reed-poisonoak-yarrow": "Припарка из ядовитого дуба и тысячелистника (тростниковая)",
+  "item-poultice-reed-poisonoak-sage": "Припарка из ядовитого дуба и шалфея (тростниковая)",
 
-  "item-simplepoultice-reed-stjohnswort": "Припарка из зверобоя (из тростника)",
-  "item-simplepoultice-linen-stjohnswort": "Припарка из зверобоя (из льна)",
+  "item-poultice-linen-inula-lavender": "Припарка из девясила и лаванды (льняная)",
+  "item-poultice-linen-inula-thyme": "Припарка из девясила и тимьяна (льняная)",
+  "item-poultice-linen-inula-marshmallow": "Припарка из девясила и алтея (льняная)",
+  "item-poultice-linen-inula-holly": "Припарка из девясила и падуба (льняная)",
+  "item-poultice-linen-inula-marigold": "Припарка из девясила и календулы (льняная)",
+  "item-poultice-linen-inula-yarrow": "Припарка из девясила и тысячелистника (льняная)",
+  "item-poultice-linen-inula-sage": "Припарка из девясила и шалфея (льняная)",
+
+  "item-poultice-reed-inula-lavender": "Припарка из девясила и лаванды (тростниковая)",
+  "item-poultice-reed-inula-thyme": "Припарка из девясила и тимьяна (тростниковая)",
+  "item-poultice-reed-inula-marshmallow": "Припарка из девясила и алтея (тростниковая)",
+  "item-poultice-reed-inula-holly": "Припарка из девясила и падуба (тростниковая)",
+  "item-poultice-reed-inula-marigold": "Припарка из девясила и календулы (тростниковая)",
+  "item-poultice-reed-inula-yarrow": "Припарка из девясила и тысячелистника (тростниковая)",
+  "item-poultice-reed-inula-sage": "Припарка из девясила и шалфея (тростниковая)",
+
+  "item-poultice-linen-celandine-lavender": "Припарка из чистотела и лаванды (льняная)",
+  "item-poultice-linen-celandine-thyme": "Припарка из чистотела и тимьяна (льняная)",
+  "item-poultice-linen-celandine-marshmallow": "Припарка из чистотела и алтея (льняная)",
+  "item-poultice-linen-celandine-holly": "Припарка из чистотела и падуба (льняная)",
+  "item-poultice-linen-celandine-marigold": "Припарка из чистотела и календулы (льняная)",
+  "item-poultice-linen-celandine-yarrow": "Припарка из чистотела и тысячелистника (льняная)",
+  "item-poultice-linen-celandine-sage": "Припарка из чистотела и шалфея (льняная)",
+
+  "item-poultice-reed-celandine-lavender": "Припарка из чистотела и лаванды (тростниковая)",
+  "item-poultice-reed-celandine-thyme": "Припарка из чистотела и тимьяна (тростниковая)",
+  "item-poultice-reed-celandine-marshmallow": "Припарка из чистотела и алтея (тростниковая)",
+  "item-poultice-reed-celandine-holly": "Припарка из чистотела и падуба (тростниковая)",
+  "item-poultice-reed-celandine-marigold": "Припарка из чистотела и календулы (тростниковая)",
+  "item-poultice-reed-celandine-yarrow": "Припарка из чистотела и тысячелистника (тростниковая)",
+  "item-poultice-reed-celandine-sage": "Припарка из чистотела и шалфея (тростниковая)",
+
+  "item-simplepoultice-reed-poisonoak": "Припарка из ядовитого дуба (тростниковая)",
+  "item-simplepoultice-linen-poisonoak": "Припарка из ядовитого дуба (льняная)",
+
+  "item-simplepoultice-reed-celandine": "Припарка из чистотела (тростниковая)",
+  "item-simplepoultice-linen-celandine": "Припарка из чистотела (льняная)",
+
+  "item-simplepoultice-reed-inula": "Припарка из девясила (тростниковая)",
+  "item-simplepoultice-linen-inula": "Припарка из девясила (льняная)",
+
+  "item-simplepoultice-reed-stjohnswort": "Припарка из зверобоя (тростниковая)",
+  "item-simplepoultice-linen-stjohnswort": "Припарка из зверобоя (льняная)",
   
   "itemdesc-poultice-*": "Повязка для заживления небольших ран",
   "item-handbooktitle-poultice-*": "Об:",
@@ -149,7 +230,7 @@
   "meal-ingredient-stew-secondary-herbs-mustard": "горчицей",
 
   "item-herbs-mustard":"Горчица",
-  "item-herbseeds-mustard":"Семена Горчицы",
+  "item-herbseeds-mustard":"Семена горчицы",
 
   "recipeingredient-item-herbs-basil-insturmentalcase": "базиликом",
   "recipeingredient-item-herbs-basil": "базиликом",
@@ -157,7 +238,7 @@
   "meal-ingredient-stew-secondary-herbs-basil": "базиликом",
 
   "item-herbs-basil":"Базилик",
-  "item-herbseeds-basil":"Семена Базилика",
+  "item-herbseeds-basil":"Семена базилика",
 
   "recipeingredient-item-herbs-bearleek-insturmentalcase": "медвежьим луком",
   "recipeingredient-item-herbs-bearleek": "медвежьим луком",
@@ -165,7 +246,7 @@
   "meal-ingredient-stew-secondary-herbs-bearleek": "медвежьим луком",
 
   "item-herbs-bearleek":"Медвежий лук",
-  "item-herbseeds-bearleek":"Семена М едвежьего лука",
+  "item-herbseeds-bearleek":"Семена медвежьего лука",
 
 
   "recipeingredient-item-herbs-blackpepper-insturmentalcase": "черным перецем",
@@ -174,7 +255,7 @@
   "meal-ingredient-stew-secondary-herbs-blackpepper": "черным перецем",
 
   "item-herbs-blackpepper":"Черный перец",
-  "item-herbseeds-blackpepper":"Семена Черного перца",
+  "item-herbseeds-blackpepper":"Семена черного перца",
 
 
   "recipeingredient-item-herbs-celery-insturmentalcase": "сельдереем",
@@ -183,16 +264,16 @@
   "meal-ingredient-stew-secondary-herbs-celery": "сельдереем",
 
   "item-herbs-celery":"Сельдерей",
-  "item-herbseeds-celery":"Семена Сельдерея",
+  "item-herbseeds-celery":"Семена сельдерея",
 
 
-  "recipeingredient-item-herbs-chamomile-insturmentalcase": "ромашкаой",
-  "recipeingredient-item-herbs-chamomile": "ромашкаой",
-  "meal-ingredient-soup-secondary-herbs-chamomile": "ромашкаой",
-  "meal-ingredient-stew-secondary-herbs-chamomile": "ромашкаой",
+  "recipeingredient-item-herbs-chamomile-insturmentalcase": "ромашкой",
+  "recipeingredient-item-herbs-chamomile": "ромашкой",
+  "meal-ingredient-soup-secondary-herbs-chamomile": "ромашкой",
+  "meal-ingredient-stew-secondary-herbs-chamomile": "ромашкой",
 
   "item-herbs-chamomile":"Ромашка",
-  "item-herbseeds-chamomile":"Семена Ромашки",
+  "item-herbseeds-chamomile":"Семена ромашки",
 
 
   "recipeingredient-item-herbs-cilantro-insturmentalcase": "кинзой",
@@ -201,7 +282,7 @@
   "meal-ingredient-stew-secondary-herbs-cilantro": "кинзой",
   
   "item-herbs-cilantro":"Кинза",
-  "item-herbseeds-cilantro":"Семена Кинзы",
+  "item-herbseeds-cilantro":"Семена кинзы",
 
 
   "recipeingredient-item-herbs-dill-insturmentalcase": "укропом",
@@ -210,7 +291,7 @@
   "meal-ingredient-stew-secondary-herbs-dill": "укропом",
 
   "item-herbs-dill":"Укроп",
-  "item-herbseeds-dill":"Семена Укропа",
+  "item-herbseeds-dill":"Семена укропа",
 
 
   "recipeingredient-item-herbs-dock-insturmentalcase": "щавелем",
@@ -219,7 +300,7 @@
   "meal-ingredient-stew-secondary-herbs-dock": "щавелем",
 
   "item-herbs-dock":"Щавель",
-  "item-herbseeds-dock":"Семена Щавеля",
+  "item-herbseeds-dock":"Семена щавеля",
 
 
   "recipeingredient-item-herbs-marjoram-insturmentalcase": "майораном",
@@ -228,7 +309,7 @@
   "meal-ingredient-stew-secondary-herbs-marjoram": "майораном",
 
   "item-herbs-marjoram":"Майоран",
-  "item-herbseeds-marjoram":"Семена Майорана",
+  "item-herbseeds-marjoram":"Семена майорана",
 
 
   "recipeingredient-item-herbs-lavender-insturmentalcase": "лавандой",
@@ -237,7 +318,7 @@
   "meal-ingredient-stew-secondary-herbs-lavender": "лавандой",
 
   "item-herbs-lavender":"Лаванда",
-  "item-herbseeds-lavender":"Семена Лаванды",
+  "item-herbseeds-lavender":"Семена лаванды",
 
 
   "recipeingredient-item-herbs-marshmallow-insturmentalcase": "алтеем",
@@ -246,7 +327,7 @@
   "meal-ingredient-stew-secondary-herbs-marshmallow": "алтеем",
 
   "item-herbs-marshmallow":"Алтей",
-  "item-herbseeds-marshmallow":"Семена Алтея",
+  "item-herbseeds-marshmallow":"Семена алтея",
 
 
   "recipeingredient-item-herbs-mint-insturmentalcase": "мятой",
@@ -255,7 +336,7 @@
   "meal-ingredient-stew-secondary-herbs-mint": "мятой",
 
   "item-herbs-mint":"Мята",
-  "item-herbseeds-mint":"Семена Мяты",
+  "item-herbseeds-mint":"Семена мяты",
 
 
   "recipeingredient-item-herbs-rosemary-insturmentalcase": "розмарином",
@@ -264,7 +345,7 @@
   "meal-ingredient-stew-secondary-herbs-rosemary": "розмарином",
 
   "item-herbs-rosemary":"Розмарин",
-  "item-herbseeds-rosemary":"Семена Розмарина",
+  "item-herbseeds-rosemary":"Семена розмарина",
 
 
   "recipeingredient-item-herbs-saffron-insturmentalcase": "шафраном",
@@ -273,7 +354,7 @@
   "meal-ingredient-stew-secondary-herbs-saffron": "шафраном",
 
   "item-herbs-saffron":"Шафран",
-  "item-herbseeds-saffron":"Семена Шафрана",
+  "item-herbseeds-saffron":"Семена шафрана",
 
 
   "recipeingredient-item-herbs-sedge-insturmentalcase": "осокой",
@@ -282,7 +363,7 @@
   "meal-ingredient-stew-secondary-herbs-sedge": "осокой",
 
   "item-herbs-sedge":"Осока",
-  "item-herbseeds-sedge":"Семена Осоки",
+  "item-herbseeds-sedge":"Семена осоки",
 
 
   "recipeingredient-item-herbs-sage-insturmentalcase": "шалфеем",
@@ -291,7 +372,7 @@
   "meal-ingredient-stew-secondary-herbs-sage": "шалфеем",
 
   "item-herbs-sage":"Шалфей",
-  "item-herbseeds-sage":"Семена Шалфея",
+  "item-herbseeds-sage":"Семена шалфея",
 
 
   "recipeingredient-item-herbs-stingingnettle-insturmentalcase": "крапивой",
@@ -300,7 +381,7 @@
   "meal-ingredient-stew-secondary-herbs-stingingnettle": "крапивой",
 
   "item-herbs-stingingnettle":"Крапива",
-  "item-herbseeds-stingingnettle":"Семена Крапивы",
+  "item-herbseeds-stingingnettle":"Семена крапивы",
 
 
   "recipeingredient-item-herbs-stjohnswort-insturmentalcase": "зверобоем",
@@ -309,7 +390,7 @@
   "meal-ingredient-stew-secondary-herbs-stjohnswort": "зверобоем",
 
   "item-herbs-stjohnswort":"Зверобой",
-  "item-herbseeds-stjohnswort":"Семена Зверобоя",
+  "item-herbseeds-stjohnswort":"Семена зверобоя",
 
 
   "recipeingredient-item-herbs-thyme-insturmentalcase": "тимьяном",
@@ -318,7 +399,7 @@
   "meal-ingredient-stew-secondary-herbs-thyme": "тимьяном",
 
   "item-herbs-thyme":"Тимьян",
-  "item-herbseeds-thyme":"Семена Тимьяна",
+  "item-herbseeds-thyme":"Семена тимьяна",
 
 
   "recipeingredient-item-herbs-minerslettuce-insturmentalcase": "шахтерским салатом",
@@ -327,7 +408,7 @@
   "meal-ingredient-stew-secondary-herbs-minerslettuce": "шахтерским салатом",
 
   "item-herbs-minerslettuce":"Шахтерский салат",
-  "item-herbseeds-minerslettuce":"Семена Шахтерского салата",
+  "item-herbseeds-minerslettuce":"Семена шахтерского салата",
 
 
   "recipeingredient-item-herbs-mugwort-insturmentalcase": "полынью",
@@ -336,7 +417,7 @@
   "meal-ingredient-stew-secondary-herbs-mugwort": "полынью",
 
   "item-herbs-mugwort":"Полынь",
-  "item-herbseeds-mugwort":"Семена Полыни",
+  "item-herbseeds-mugwort":"Семена полыни",
 
 
   "recipeingredient-item-herbs-burdock-insturmentalcase": "лопухом",
@@ -345,25 +426,25 @@
   "meal-ingredient-stew-secondary-herbs-burdock": "лопухом",
 
   "item-herbs-burdock":"Лопух",
-  "item-herbseeds-burdock":"Семена Лопуха",
+  "item-herbseeds-burdock":"Семена лопуха",
 
-  "item-roots-burdock":"корень лопуха",
-  "recipeingredient-item-roots-burdock-insturmentalcase": "коренем лопуха",
-  "recipeingredient-item-roots-burdock": "коренем лопуха",
-  "meal-ingredient-soup-secondary-roots-burdock": "коренем лопуха",
-  "meal-ingredient-stew-secondary-roots-burdock": "коренем лопуха",
+  "item-roots-burdock":"Корень лопуха",
+  "recipeingredient-item-roots-burdock-insturmentalcase": "корнем лопуха",
+  "recipeingredient-item-roots-burdock": "корнем лопуха",
+  "meal-ingredient-soup-secondary-roots-burdock": "корнем лопуха",
+  "meal-ingredient-stew-secondary-roots-burdock": "корнем лопуха",
 
-  "item-roots-bearleek":"Луковица Медвежьего лука",
+  "item-roots-bearleek":"Луковица медвежьего лука",
   "recipeingredient-item-roots-bearleek-insturmentalcase": "луковицей медвежьего лука",
   "recipeingredient-item-roots-bearleek": "луковицей медвежьего лука",
   "meal-ingredient-soup-secondary-roots-bearleek": "луковицей медвежьего лука",
   "meal-ingredient-stew-secondary-roots-bearleek": "луковицей медвежьего лука",
 
-  "item-roots-marshmallow":"Корень Алтея",
-  "recipeingredient-item-roots-marshmallow-insturmentalcase": "кореньем алтея",
-  "recipeingredient-item-roots-marshmallow": "кореньем алтея",
-  "meal-ingredient-soup-secondary-roots-marshmallow": "кореньем алтея",
-  "meal-ingredient-stew-secondary-roots-marshmallow": "кореньем алтея",
+  "item-roots-marshmallow":"Корень алтея",
+  "recipeingredient-item-roots-marshmallow-insturmentalcase": "корнем алтея",
+  "recipeingredient-item-roots-marshmallow": "корнем алтея",
+  "meal-ingredient-soup-secondary-roots-marshmallow": "корнем алтея",
+  "meal-ingredient-stew-secondary-roots-marshmallow": "корнем алтея",
 
   "block-leafygroundvegetable-minerslettuce-normal": "Шахтерский салат",
   "block-leafygroundvegetable-minerslettuce-harvested": "Шахтерский салат (растет)",
@@ -433,7 +514,147 @@
 
   "block-leafygroundvegetable-burdock-normal": "Лопух",
   "block-leafygroundvegetable-burdock-harvested": "Лопух (растет)",
+  
+  "block-leafygroundvegetable-poisonoak-normal": "Ядовитый дуб",
+  "block-leafygroundvegetable-poisonoak-harvested": "Ядовитый дуб (растет)",
 
+  "block-leafygroundvegetable-holly-normal": "Падуб",
+  "block-leafygroundvegetable-holly-harvested": "Падуб (растет)",
+
+  "block-leafygroundvegetable-chicory-normal": "Цикорий",
+  "block-leafygroundvegetable-chicory-harvested": "Цикорий (растет)",
+
+  "block-leafygroundvegetable-marigold-normal": "Календула",
+  "block-leafygroundvegetable-marigold-harvested": "Календула (растет)",
+
+  "block-leafygroundvegetable-inula-normal": "Девясил",
+  "block-leafygroundvegetable-inula-harvested": "Девясил (растет)",
+
+  "block-leafygroundvegetable-celandine-normal": "Чистотел",
+  "block-leafygroundvegetable-celandine-harvested": "Чистотел (растет)",
+
+  "block-leafygroundvegetable-leek-normal": "Лук-порей",
+  "block-leafygroundvegetable-leek-harvested": "Лук-порей (растет)",
+
+  "block-leafygroundvegetable-plantain-normal": "Подорожник большой",
+  "block-leafygroundvegetable-plantain-harvested": "Подорожник большой (растет)",
+
+  "block-leafygroundvegetable-saltwort-normal": "Солянка",
+  "block-leafygroundvegetable-saltwort-harvested": "Солянка (растет)",
+
+  "block-leafygroundvegetable-yarrow-normal": "Тысячелистник",
+  "block-leafygroundvegetable-yarrow-harvested": "Тысячелистник (растет)",
+
+  "block-leafygroundvegetable-liquorice-normal": "Лакрица",
+  "block-leafygroundvegetable-liquorice-harvested": "Лакрица (растет)",
+
+  "block-waterplant-waterchestnut-*-normal-*": "Водный каштан",
+  "block-waterplant-waterchestnut-*-harvested-*": "Водный каштан (растет)",
+
+  "item-herbs-poisonoak":"Ядовитый дуб",
+  "item-herbseeds-poisonoak":"Семена ядовитого дуба",
+
+  "item-herbs-holly":"Падуб",
+  "item-herbseeds-holly":"Смена падуб",
+
+  "recipeingredient-item-herbs-chicory-insturmentalcase": "цикорием",
+  "recipeingredient-item-herbs-chicory": "цикорием",
+  "meal-ingredient-soup-secondary-herbs-chicory": "цикорием",
+  "meal-ingredient-stew-secondary-herbs-chicory": "цикорием",
+
+  "item-herbs-chicory":"Цикорий",
+  "item-herbseeds-chicory":"Семена цикория",
+
+  "recipeingredient-item-herbs-marigold-insturmentalcase": "календулой",
+  "recipeingredient-item-herbs-marigold": "календулой",
+  "meal-ingredient-soup-secondary-herbs-marigold": "календулой",
+  "meal-ingredient-stew-secondary-herbs-marigold": "календулой",
+
+  "item-herbs-marigold":"Календула",
+  "item-herbseeds-marigold":"Семена календулы",
+
+  "recipeingredient-item-herbs-inula-insturmentalcase": "девясилом",
+  "recipeingredient-item-herbs-inula": "девясилом",
+  "meal-ingredient-soup-secondary-herbs-inula": "девясилом",
+  "meal-ingredient-stew-secondary-herbs-inula": "девясилом",
+
+  "item-herbs-inula":"Девясил",
+  "item-herbseeds-inula":"Семена девясила",
+
+  "recipeingredient-item-herbs-celandine-insturmentalcase": "чистотелом",
+  "recipeingredient-item-herbs-celandine": "чистотелом",
+  "meal-ingredient-soup-secondary-herbs-celandine": "чистотелом",
+  "meal-ingredient-stew-secondary-herbs-celandine": "чистотелом",
+
+  "item-herbs-celandine":"Чистотел",
+  "item-herbseeds-celandine":"Семена чистотела",
+
+  "recipeingredient-item-herbs-leek-insturmentalcase": "луком-пореем",
+  "recipeingredient-item-herbs-leek": "луком-пореем",
+  "meal-ingredient-soup-secondary-herbs-leek": "луком-пореем",
+  "meal-ingredient-stew-secondary-herbs-leek": "луком-пореем",
+
+  "item-herbs-leek":"Лук-порей",
+  "item-herbseeds-leek":"Семена лука-порея",
+
+  "recipeingredient-item-herbs-plantain-insturmentalcase": "подорожником",
+  "recipeingredient-item-herbs-plantain": "подорожником",
+  "meal-ingredient-soup-secondary-herbs-plantain": "подорожником",
+  "meal-ingredient-stew-secondary-herbs-plantain": "подорожником",
+
+  "item-herbs-plantain":"Подорожник большой",
+  "item-herbseeds-plantain":"Семена подорожника большого",
+
+  "recipeingredient-item-herbs-saltwort-insturmentalcase": "солянкой",
+  "recipeingredient-item-herbs-saltwort": "солянкой",
+  "meal-ingredient-soup-secondary-herbs-saltwort": "солянкой",
+  "meal-ingredient-stew-secondary-herbs-saltwort": "солянкой",
+
+  "item-herbs-saltwort":"Солянка",
+  "item-herbseeds-saltwort":"Семена солянки",
+
+  "recipeingredient-item-herbs-yarrow-insturmentalcase": "тысячелистником",
+  "recipeingredient-item-herbs-yarrow": "тысячелистником",
+  "meal-ingredient-soup-secondary-herbs-yarrow": "тысячелистником",
+  "meal-ingredient-stew-secondary-herbs-yarrow": "тысячелистником",
+
+  "item-herbs-yarrow":"Тысячелистник",
+  "item-herbseeds-yarrow":"Семена тысячелистника",
+
+  "recipeingredient-item-herbs-liquorice-insturmentalcase": "лакрицей",
+  "recipeingredient-item-herbs-liquorice": "лакрицей",
+  "meal-ingredient-soup-secondary-herbs-liquorice": "лакрицей",
+  "meal-ingredient-stew-secondary-herbs-liquorice": "лакрицей",
+
+  "item-herbs-liquorice":"Лакрица",
+  "item-herbseeds-liquorice":"Семена лакрицы",
+
+  "recipeingredient-item-herbs-waterchestnut-insturmentalcase": "хвостами водного каштана",
+  "recipeingredient-item-herbs-waterchestnut": "хвостами водного каштана",
+  "meal-ingredient-soup-secondary-herbs-waterchestnut": "хвостами водного каштана",
+  "meal-ingredient-stew-secondary-herbs-waterchestnut": "хвостами водного каштана",
+
+  "item-waterherbs-waterchestnut":"Хвосты водного каштана",
+  "item-waterherbseeds-waterchestnut":"Семена водного каштана",
+
+  "item-roots-waterchestnut":"Водный каштан",
+  "recipeingredient-item-roots-waterchestnut-insturmentalcase": "корнем водного каштана",
+  "recipeingredient-item-roots-waterchestnut": "корнем водного каштана",
+  "meal-ingredient-soup-secondary-roots-waterchestnut": "корнем водного каштана",
+  "meal-ingredient-stew-secondary-roots-waterchestnut": "корнем водного каштана",
+
+  "item-roots-chicory":"Корень цикория",
+  "recipeingredient-item-roots-chicory-insturmentalcase": "корнем цикория",
+  "recipeingredient-item-roots-chicory": "корнем цикория",
+  "meal-ingredient-soup-secondary-roots-chicory": "корнем цикория",
+  "meal-ingredient-stew-secondary-roots-chicory": "корнем цикория",
+
+  "item-roots-liquorice":"Корень лакрицы",
+  "recipeingredient-item-roots-liquorice-insturmentalcase": "корнем лакрицы",
+  "recipeingredient-item-roots-liquorice": "корнем лакрицы",
+  "meal-ingredient-soup-secondary-roots-liquorice": "корнем лакрицы",
+  "meal-ingredient-stew-secondary-roots-liquorice": "корнем лакрицы",
+  
   "block-berrybush-huckleberry-empty": "Куст черники (пустой)",
   "block-berrybush-huckleberry-flowering": "Куст черники (цветет)",
   "block-berrybush-huckleberry-ripe": "Куст черники (спелый)",

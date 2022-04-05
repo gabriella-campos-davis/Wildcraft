@@ -1,10 +1,12 @@
 {
 	"code": "seeds",
 	"class": "ItemClipping",
+	"attributes": {},
 	"maxstacksize": 64,
 	"variantgroups": [
 		{ "code": "type", "states": [ "strawberry", "cloudberry" ] }
 	],
+	"attributes": { "handbook": { "groupBy": ["herbseeds-*", "waterherbseeds-*"] } },
 	"texture": { "base": "items/seeds/{type}" },
 	"creativeinventory": { "general": ["*"], "items": ["*"] },
 	"fpHandTransform": {

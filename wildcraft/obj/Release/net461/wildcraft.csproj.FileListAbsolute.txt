@@ -12,7 +12,6 @@ D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\patches\berrie
 D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\patches\plants_expansion_remaps.json
 D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\patches\vanilla_berry_patches.json
 D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\recipes\grid\berryseeds.json
-D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\recipes\grid\berryseeds2.json
 D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\shapes\block\plant\berrybush\empty\groundberrybush_empty.json
 D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\shapes\block\plant\berrybush\empty\shrubberrybush_empty.json
 D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\shapes\block\plant\berrybush\flowering\groundberrybush_flowering.json
@@ -263,7 +262,6 @@ D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\itemtypes\bag\
 D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\itemtypes\poultice.json
 D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\lang\fr.json
 D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\recipes\grid\basket.json
-D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\recipes\grid\poultices.json
 D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\shapes\block\plant\leafygroundvegetable\shrub.json
 D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\textures\block\sedge\basket\sedge-lid.png
 D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\textures\block\sedge\basket\sedge-northsouth.png
@@ -369,3 +367,16 @@ D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\textures\items
 D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\textures\items\seeds\saltwort.png
 D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\textures\items\seeds\waterchestnut.png
 D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\textures\items\seeds\yarrow.png
+D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\recipes\grid\poultices\poultice-linen-honey-sulfur-xxx.json
+D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\recipes\grid\poultices\poultice-linen-horsetail-xxx.json
+D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\recipes\grid\poultices\poultice-linen-xxx-yyy.json
+D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\recipes\grid\poultices\poultice-reed-honey-sulfur-xxx.json
+D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\recipes\grid\poultices\poultice-reed-horsetail-xxx.json
+D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\recipes\grid\poultices\poutice-reed-xxx-yyy.json
+D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\recipes\grid\poultices\simplepoultice-linen-xxx.json
+D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\recipes\grid\poultices\simplepoultice-reed-xxx.json
+D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\textures\block\plant\leafygroundvegetable\root.png
+D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\textures\block\plant\leafygroundvegetable\root2.png
+D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\worldproperties\wildcraft\wildflora.json
+D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\worldproperties\wildcraft\wildfruit.json
+D:\VSMods\Wildcraft\wildcraft\bin\Release\net461\assets\wildcraft\worldproperties\wildcraft\wildroots.json

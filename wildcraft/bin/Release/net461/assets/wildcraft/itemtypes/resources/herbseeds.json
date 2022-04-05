@@ -1,6 +1,7 @@
 {
 	"code": "herbseeds",
 	"class": "ItemHerbSeed",
+	"attributes": {},
 	"maxstacksize": 64,
 	"variantgroups": [
         { "loadFromProperties": "wildcraft:block/herbs" }

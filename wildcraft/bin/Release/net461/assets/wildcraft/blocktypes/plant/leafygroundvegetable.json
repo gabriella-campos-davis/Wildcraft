@@ -39,7 +39,8 @@
       "*-thistle-normal": true,
       "*-holly-normal": true,
       "*": false
-    }
+    },
+    "immuneCreatures":[ "game:chicken", "game:fox", "game:hare", "game:pig", "game:raccoon", "game:sheep"]  
   },
   "texturesByType": {
     "*-minerslettuce-*": {

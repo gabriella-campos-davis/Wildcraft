@@ -3,10 +3,7 @@
   "class": "BerryBush",
   "attributes": {
     "stackableByType": {
-      "*-raspberry-*": true,
-      "*-brambleberry-*": true,
-      "*-dogrose-*": true,
-      "*-gooseberry-*": true,
+      "*-(raspberry|brambleberry|dogrose|gooseberry)-*": true,
       "*": false
     },
     "butterflyFeedByType": {
@@ -29,17 +26,14 @@
 
     "pricklyByType": {
       "*-raspberry-*": true,
-      "*-blueraspberry-*": true,
       "*-brambleberry-*": true,
       "*-dogrose-*": true,
       "*": false
-    }
+    },
+    "immuneCreatures":[ "game:chicken", "game:fox", "game:hare", "game:pig", "game:raccoon", "game:sheep"]
   },
   "walkspeedmultiplierByType": {
-    "*-raspberry-*": 0.55,
-    "*-blueraspberry-*": 0.55,
-    "*-brambleberry-*": 0.55,
-    "*-dogrose-*": 0.55
+    "*-(raspberry|gooseberry|brambleberry|dogrose)-*": 0.55
   },
   "entityclass": "BlockEntityWCBerryBush",
   "behaviorsByType": {
@@ -50,34 +44,31 @@
           "harvestTime": 0.6,
           "harvestedStack": {
             "type": "item",
-            "code": "wildcraft:fruit-{type}",
+            "code": "wildcraft:fruit-{fruit}",
             "quantity": { "avg": 2.2 }
           },
-          "harvestedBlockCode": "wildcraft:berrybush-{type}-empty"
+          "harvestedBlockCode": "wildcraft:berrybush-{fruit}-empty"
         }
       }
     ],
-    "@berrybush-(huckleberry|snowberry|raspberry|brambleberry|dogrose|gooseberry|honeysuckle|elderberry|blueraspberry)-flowering": [
+    "@berrybush-(huckleberry|snowberry|raspberry|brambleberry|dogrose|gooseberry|honeysuckle|elderberry)-flowering": [
       {
         "name": "BehaviorClippable",
         "properties": {
           "harvestTime": 0.8,
           "harvestedStack": {
             "type": "item",
-            "code": "wildcraft:clipping-{type}-green",
+            "code": "wildcraft:clipping-{fruit}-green",
             "quantity": { "avg": 1.0 }
           },
-          "harvestedBlockCode": "wildcraft:berrybush-{type}-empty",
+          "harvestedBlockCode": "wildcraft:berrybush-{fruit}-empty",
           "harvestingTool": "game:knife-*"
         }
       }
     ]
   },
   "variantgroups": [
-    {
-      "code": "type",
-      "states": [ "huckleberry", "snowberry", "raspberry", "brambleberry", "dogrose", "gooseberry", "honeysuckle", "elderberry", "strawberry", "cloudberry", "blueraspberry" ]
-    },
+    { "loadFromProperties": "wildcraft:block/fruit" },
     {
       "code": "state",
       "states": [ "empty", "flowering", "ripe" ]
@@ -100,20 +91,20 @@
   "blockmaterial": "Plant",
   "texturesByType": {
     "*-empty": {
-      "leaves": { "base": "wildcraft:block/plant/berrybush/leaves/{type}1" },
+      "leaves": { "base": "wildcraft:block/plant/berrybush/leaves/{fruit}1" },
       "branches": { "base": "game:block/plant/berrybush/branches/default" }
     },
     "*-flowering": {
-      "leaves": { "base": "wildcraft:block/plant/berrybush/leaves/{type}1" },
+      "leaves": { "base": "wildcraft:block/plant/berrybush/leaves/{fruit}1" },
       "branches": { "base": "game:block/plant/berrybush/branches/default" },
-      "berries": { "base": "wildcraft:block/plant/berrybush/flowering/{type}1" },
-      "berriesup": { "base": "wildcraft:block/plant/berrybush/flowering/{type}1" }
+      "berries": { "base": "wildcraft:block/plant/berrybush/flowering/{fruit}1" },
+      "berriesup": { "base": "wildcraft:block/plant/berrybush/flowering/{fruit}1" }
     },
     "*-ripe": {
-      "leaves": { "base": "wildcraft:block/plant/berrybush/leaves/{type}1" },
+      "leaves": { "base": "wildcraft:block/plant/berrybush/leaves/{fruit}1" },
       "branches": { "base": "game:block/plant/berrybush/branches/default" },
-      "berries": { "base": "wildcraft:block/plant/berrybush/ripe/{type}1" },
-      "berriesup": { "base": "wildcraft:block/plant/berrybush/ripe/{type}1" }
+      "berries": { "base": "wildcraft:block/plant/berrybush/ripe/{fruit}1" },
+      "berriesup": { "base": "wildcraft:block/plant/berrybush/ripe/{fruit}1" }
     }
 
   },
@@ -128,15 +119,7 @@
   "resistance": 0.5,
   "collisionbox": null,
   "selectionboxByType": {
-    "*-strawberry-*": {
-      "x1": 0.0625,
-      "y1": 0,
-      "z1": 0.0625,
-      "x2": 0.9375,
-      "y2": 0.25,
-      "z2": 0.9375
-    },
-    "*-cloudberry-*": {
+    "*-(strawberry|cloudberry)-*": {
       "x1": 0.0625,
       "y1": 0,
       "z1": 0.0625,
@@ -155,7 +138,7 @@
     "*-ripe": [
       {
         "type": "item",
-        "code": "wildcraft:fruit-{type}",
+        "code": "wildcraft:fruit-{fruit}",
         "quantity": { "avg": 2.2 }
       }
     ]
