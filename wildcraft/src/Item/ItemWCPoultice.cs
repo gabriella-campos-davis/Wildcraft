@@ -75,7 +75,7 @@ namespace wildcraft
                 if (!isPoulticeActive) {
                     var buff = new PoulticeBuff();
                     buff.init(health);
-                    buff.Apply(byEntity);
+                    buff.Apply(entitySel?.Entity != null ? entitySel.Entity : byEntity);
                     if(isPoisonOak && this.Code.GetName().Contains("yarrow")){
                         BuffStuff.BuffManager.GetActiveBuff(byEntity, "PoisonOak").Remove();
                     }
