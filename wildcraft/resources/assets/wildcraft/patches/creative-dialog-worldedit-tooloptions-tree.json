@@ -1,0 +1,14 @@
+[
+  {
+    "op": "add",
+    "path": "/rows/0/elements/2/names/-",
+    "value": "Willow",
+    "file": "game:creative/dialog/worldedit-tooloptions-tree.json"
+  },
+  {
+    "op": "add",
+    "path": "/rows/0/elements/2/values/-",
+    "value": "wildcraft:willow",
+    "file": "game:creative/dialog/worldedit-tooloptions-tree.json"
+  }
+]

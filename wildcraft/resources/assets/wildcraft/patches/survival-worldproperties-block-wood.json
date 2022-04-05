@@ -1,0 +1,11 @@
+[
+  {
+    "op": "add",
+    "path": "/variants/12",
+    "value": {
+      "Code": "willow",
+      "treeType": "Decidious"
+    },
+    "file": "game:worldproperties/block/wood.json"
+  }
+]

@@ -11,7 +11,7 @@
   "variantgroups": [
     {
       "code": "type",
-      "states": [ "huckleberry", "snowberry", "raspberry", "brambleberry", "dogrose", "gooseberry", "honeysuckle", "elderberry", "blueraspberry", "redcurrant", "blackcurrant", "whitecurrant", "blueberry", "cranberry", "strawberry", "cloudberry" ]
+      "states": [ "huckleberry", "snowberry", "raspberry", "brambleberry", "dogrose", "gooseberry", "honeysuckle", "elderberry", "redcurrant", "blackcurrant", "whitecurrant", "blueberry", "cranberry", "strawberry", "cloudberry" ]
     }
   ],
   "creativeinventory": {
@@ -68,11 +68,6 @@
     "burnDuration": 10
   },
   "guiTransformByType": {
-    "*": {
-        "rotation": { "x": 94, "y": 0, "z": 0 },
-        "origin": { "x": 0.6, "y": 0.2, "z": 0.6 },
-        "scale": 1.47
-    }
   },
   "fpHandTransform": {
 		"rotation": { "x": 87, "y": 152, "z": -58 },

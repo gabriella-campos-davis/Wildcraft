@@ -1,0 +1,25 @@
+[
+  {
+    "op": "add",
+    "path": "/shrubgens/5",
+    "value": {
+      "Generator": "wildcraft:willowswamp",
+      "habitat": "Water",
+      "MinSize": 0.5,
+      "MaxSize": 0.85,
+      "SuitabilitySizeBonus": 0.3,
+      "Weight": 60,
+      "MinTemp": 15,
+      "MaxTemp": 24,
+      "MinRain": 180,
+      "MaxRain": 255,
+      "MinFert": 100,
+      "MaxFert": 255,
+      "MinForest": 120,
+      "MaxForest": 255,
+      "MinHeight": 0.3,
+      "MaxHeight": 1
+    },
+    "file": "game:worldgen/treengenproperties.json"
+  }
+]

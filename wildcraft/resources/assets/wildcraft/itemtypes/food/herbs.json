@@ -14,6 +14,15 @@
           "health": 2,
           "foodcategory": "Vegetable"
         },
+        "*-poisonoak": {
+          "satiety": 35,
+          "health": -1,
+          "foodcategory": "Vegetable"
+        },
+        "*-stingingnettle": {
+          "satiety": 55,
+          "foodcategory": "Vegetable"
+        },
         "*-basil": {
           "satiety": 45,
           "health": 3.5,
@@ -38,6 +47,16 @@
       },
       "*-basil": {
         "satiety": 25,
+        "foodcategory": "Vegetable"
+      },
+      "*-poisonoak": {
+        "satiety": 25,
+        "health": -0.5,
+        "foodcategory": "Vegetable"
+      },
+      "*-stingingnettle": {
+        "satiety": 25,
+        "health": -0.5,
         "foodcategory": "Vegetable"
       },
       "*": {
