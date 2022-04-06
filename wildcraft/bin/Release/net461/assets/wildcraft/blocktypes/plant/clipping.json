@@ -34,7 +34,16 @@
     "all": false
   },
   "texturesByType": {
-    "*-(blackcurrant|redcurrant|blueberry|cranberry)": {
+    "*-blueberry": {
+      "leaves": { "base": "game:block/plant/berrybush/leaves/{type}*" }
+    },
+    "*-cranberry": {
+      "leaves": { "base": "game:block/plant/berrybush/leaves/{type}*" }
+    },
+    "*-redcurrant": {
+      "leaves": { "base": "game:block/plant/berrybush/leaves/{type}*" }
+    },
+    "*-blackcurrant": {
       "leaves": { "base": "game:block/plant/berrybush/leaves/{type}*" }
     },
     "*-whitecurrant": {
