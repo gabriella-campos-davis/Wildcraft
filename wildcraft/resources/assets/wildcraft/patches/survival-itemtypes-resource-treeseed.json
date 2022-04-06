@@ -1,0 +1,95 @@
+[
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "willow",
+    "file": "game:itemtypes/resource/treeseed.json"
+  },
+  {
+    "op": "add",
+    "path": "/fpHandTransformByType/*-willow",
+    "value": {
+      "translation": {
+        "x": -0.1,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -21,
+        "y": 90,
+        "z": 13
+      },
+      "origin": {
+        "x": 0.7,
+        "y": 0.94,
+        "z": 0.5
+      },
+      "scale": 1.22
+    },
+    "file": "game:itemtypes/resource/treeseed.json"
+  },
+  {
+    "op": "add",
+    "path": "/groundTransformByType/*-willow",
+    "value": {
+      "translation": {
+        "x": -0.1,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -21,
+        "y": 90,
+        "z": 13
+      },
+      "origin": {
+        "x": 0.4,
+        "y": -0.26,
+        "z": -0.5
+      },
+      "scale": 1.45
+    },
+    "file": "game:itemtypes/resource/treeseed.json"
+  },
+  {
+    "op": "add",
+    "path": "/guiTransformByType/*-willow",
+    "value": {
+      "rotation": {
+        "x": 0,
+        "y": 42,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.1,
+        "y": 0.2,
+        "z": 0
+      },
+      "scale": 2.47
+    },
+    "file": "game:itemtypes/resource/treeseed.json"
+  },
+  {
+    "op": "add",
+    "path": "/tpHandTransformByType/*-willow",
+    "value": {
+      "translation": {
+        "x": -1.24,
+        "y": -0.17,
+        "z": -1.1
+      },
+      "rotation": {
+        "x": -13,
+        "y": -1,
+        "z": -95
+      },
+      "origin": {
+        "x": 0.55,
+        "y": -0.15,
+        "z": 0.35
+      },
+      "scale": 0.42
+    },
+    "file": "game:itemtypes/resource/treeseed.json"
+  }
+]
