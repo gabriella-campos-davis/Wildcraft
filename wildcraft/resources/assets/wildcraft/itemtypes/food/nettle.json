@@ -13,7 +13,8 @@
   "texture": { "base": "wildcraft:items/nettle" },
   "creativeinventory": {
     "general": [ "*" ],
-    "items": [ "*" ]
+    "items": [ "*" ],
+    "wildcraft": [ "*" ]
   },
   "nutritionPropsByType": {
     "*": {

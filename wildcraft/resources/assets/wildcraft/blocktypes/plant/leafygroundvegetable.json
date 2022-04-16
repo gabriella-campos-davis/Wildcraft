@@ -79,7 +79,11 @@
       "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/{state}/{herbs}*" }
     }
   },
-	"creativeinventory": { "general": ["*-normal"], "flora": ["*-normal"] },
+	"creativeinventory": {
+    "general": ["*-normal"],
+    "flora": ["*-normal"],
+    "wildcraft": [ "*-normal" ]
+  },
   "shapeByType": {
     "*-minerslettuce-*": { "base": "wildcraft:block/plant/leafygroundvegetable/minerslettuce_{state}*" },
     "*-stingingnettle-*": { "base": "wildcraft:block/plant/stingingnettle/stingingnettle_normal*" },

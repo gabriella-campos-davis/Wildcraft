@@ -55,7 +55,8 @@
   },
   "creativeinventory": {
     "general": [ "*" ],
-    "items": [ "*" ]
+    "items": [ "*" ],
+    "wildcraft": [ "*" ]
   },
   "nutritionPropsByType": {
     "*-(brambleberry|gooseberry|honeysuckle|strawberry|raspberry)": {

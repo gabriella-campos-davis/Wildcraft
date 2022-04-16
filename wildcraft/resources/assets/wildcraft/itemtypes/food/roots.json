@@ -28,7 +28,7 @@
 			"reeds" : { "base": "game:item/resource/reeds" }
 		}
 	},
-	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"creativeinventory": { "general": ["*"], "items": ["*"], "wildcraft": [ "*" ] },
 	"nutritionPropsByType": {
 		"*": { "satiety": 100, "foodcategory": "Vegetable" },
 	},

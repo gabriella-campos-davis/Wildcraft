@@ -70,7 +70,7 @@
     "primary": { "base": "wildcraft:items/medicine/{material}/{primary}" },
     "secondary": { "base": "wildcraft:items/medicine/secondary/{secondary}" }
   },
-  "creativeinventory": { "general": ["*"], "items": ["*"] },
+  "creativeinventory": { "general": ["*"], "items": ["*"], "wildcraft": [ "*" ] },
   "materialDensity": 600,
   "guiTransform": {
     "translation": { "x": 3, "y": 0, "z": 0 },

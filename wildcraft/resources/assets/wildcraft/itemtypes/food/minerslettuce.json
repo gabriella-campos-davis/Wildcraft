@@ -11,7 +11,7 @@
 	},
 
 	"texture": { "base": "wildcraft:items/minerslettuce" },
-	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"creativeinventory": { "general": ["*"], "items": ["*"], "wildcraft": [ "*" ] },
 	"nutritionPropsByType": {
 		"*": { "satiety": 30, "foodcategory": "Vegetable" }
 	},

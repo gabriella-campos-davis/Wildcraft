@@ -76,7 +76,8 @@
   ],
   "creativeinventory": {
     "general": [ "*" ],
-    "flora": [ "*" ]
+    "flora": [ "*" ],
+    "wildcraft": [ "*" ]
   },
   "renderpass": "OpaqueNoCull",
   "renderAlphaTest": 0.4,
