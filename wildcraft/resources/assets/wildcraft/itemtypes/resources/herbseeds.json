@@ -1,7 +1,11 @@
 {
 	"code": "herbseeds",
 	"class": "ItemHerbSeed",
-	"attributes": {},
+	"attributes": {
+		"handbook": {
+			"groupBy": ["herbseeds-*", "waterherbseeds-*", "seeds"]
+		}
+	},
 	"maxstacksize": 64,
 	"variantgroups": [
         { "loadFromProperties": "wildcraft:block/herbs" }
