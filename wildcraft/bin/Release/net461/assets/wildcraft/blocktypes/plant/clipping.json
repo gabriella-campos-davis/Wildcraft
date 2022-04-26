@@ -27,30 +27,13 @@
     "*": { "base": "wildcraft:block/plant/clipping/clipping" }
   },
   "blockmaterial": "Plant",
-  "sideopaqueByType": {
-    "*": { "all": false }
-  },
-  "sidesolid": {
-    "all": false
-  },
-  "texturesByType": {
-    "*-blueberry": {
-      "leaves": { "base": "game:block/plant/berrybush/leaves/{type}*" }
-    },
-    "*-cranberry": {
-      "leaves": { "base": "game:block/plant/berrybush/leaves/{type}*" }
-    },
-    "*-redcurrant": {
-      "leaves": { "base": "game:block/plant/berrybush/leaves/{type}*" }
-    },
-    "*-blackcurrant": {
-      "leaves": { "base": "game:block/plant/berrybush/leaves/{type}*" }
-    },
-    "*-whitecurrant": {
-      "leaves": { "base": "game:block/plant/berrybush/leaves/redcurrant*" }
-    },
-    "*": {
-      "leaves": { "base": "wildcraft:block/plant/berrybush/leaves/{type}*" }
+  "sideopaque": { "all": false },
+  "sidesolid": {"all": false },
+  "textures": {
+    "leavesByType": {
+      "@.*-(blueberry|cranberry|redcurrant|blackcurrant)": { "base": "game:block/plant/berrybush/leaves/{type}*" },
+      "*-whitecurrant": { "base": "game:block/plant/berrybush/leaves/redcurrant*" },
+      "*": { "base": "wildcraft:block/plant/berrybush/leaves/{type}*" }
     }
   },
   "replaceable": 5200,
@@ -76,12 +59,10 @@
     "burnTemperature": 600,
     "burnDuration": 10
   },
-  "guiTransformByType": {
-    "*": {
-        "rotation": { "x": 94, "y": 0, "z": 0 },
-        "origin": { "x": 0.6, "y": 0.2, "z": 0.6 },
-        "scale": 1.47
-    }
+  "guiTransform": {
+      "rotation": { "x": 94, "y": 0, "z": 0 },
+      "origin": { "x": 0.6, "y": 0.2, "z": 0.6 },
+      "scale": 1.47
   },
   "fpHandTransform": {
 		"rotation": { "x": 87, "y": 152, "z": -58 },

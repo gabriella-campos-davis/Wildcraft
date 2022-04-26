@@ -89,24 +89,15 @@
     "*": { "base": "game:block/plant/berrybush/large_{state}" }
   },
   "blockmaterial": "Plant",
-  "texturesByType": {
-    "*-empty": {
-      "leaves": { "base": "wildcraft:block/plant/berrybush/leaves/{fruit}1" },
-      "branches": { "base": "game:block/plant/berrybush/branches/default" }
+  "textures": {
+    "leavesByType": {
+      "@.*-(empty|flowering|ripe)": { "base": "wildcraft:block/plant/berrybush/leaves/{fruit}1" }
     },
-    "*-flowering": {
-      "leaves": { "base": "wildcraft:block/plant/berrybush/leaves/{fruit}1" },
-      "branches": { "base": "game:block/plant/berrybush/branches/default" },
-      "berries": { "base": "wildcraft:block/plant/berrybush/flowering/{fruit}1" },
-      "berriesup": { "base": "wildcraft:block/plant/berrybush/flowering/{fruit}1" }
+    "branchesByType": {
+      "@.*-(empty|flowering|ripe)": { "base": "game:block/plant/berrybush/branches/default" }
     },
-    "*-ripe": {
-      "leaves": { "base": "wildcraft:block/plant/berrybush/leaves/{fruit}1" },
-      "branches": { "base": "game:block/plant/berrybush/branches/default" },
-      "berries": { "base": "wildcraft:block/plant/berrybush/ripe/{fruit}1" },
-      "berriesup": { "base": "wildcraft:block/plant/berrybush/ripe/{fruit}1" }
-    }
-
+    "berriesByType": { "@.*-(flowering|ripe)": { "base": "wildcraft:block/plant/berrybush/{state}/{fruit}1" } },
+    "berriesupByType": { "@.*-(flowering|ripe)": { "base": "wildcraft:block/plant/berrybush/{state}/{fruit}1" } }
   },
   "sideopaque": {
     "all": false
