@@ -2,7 +2,7 @@
     "type": "code",
     "modid": "wildcraft",
     "name": "Wildcraft",
-    "author": "gabb",
+    "authors": ["gabb"],
     "description": "Adds new plants to the game",
     "version": "1.2.3",
     "dependencies": {
