@@ -63,7 +63,7 @@
 	"creativeinventoryStacksByType": {
 		"*-east": [
 			{
-				"tabs": [ "general", "decorative" ],
+				"tabs": [ "general", "decorative", "wildcraft" ],
 				"stacks": [
 					{ "type": "block", "code": "stationarybasket-east", "attributes": { "type": "sedge" } },
 

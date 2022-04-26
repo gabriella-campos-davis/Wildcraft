@@ -16,7 +16,8 @@
   ],
   "creativeinventory": {
     "general": [ "*" ],
-    "flora": [ "*" ]
+    "flora": [ "*" ],
+    "wildcraft": [ "*" ]
   },
   "renderpass": "OpaqueNoCull",
   "drawtype": "JSON",

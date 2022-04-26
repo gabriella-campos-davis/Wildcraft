@@ -46,7 +46,8 @@
 	],
 	creativeinventory: { 
 		"general": ["*-land-normal-free"], 
-		"flora": ["*-land-normal-free"] 
+		"flora": ["*-land-normal-free"],
+   		"wildcraft": [ "*-land-normal-free" ]
 	},
 	shapeByType: {
 		"waterplant-waterchestnut-ice-*": { base: "wildcraft:block/plant/leafygroundvegetable/bushy_ice" },

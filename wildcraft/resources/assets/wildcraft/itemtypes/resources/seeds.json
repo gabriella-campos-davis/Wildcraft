@@ -8,7 +8,7 @@
 	],
 	"attributes": { "handbook": { "groupBy": ["herbseeds-*", "waterherbseeds-*"] } },
 	"texture": { "base": "items/seeds/{type}" },
-	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"creativeinventory": { "general": ["*"], "items": ["*"], "wildcraft": [ "*" ] },
 	"fpHandTransform": {
 		"translation": { "x": 0, "y": 0, "z": 0 },
 		"rotation": { "x": 180, "y": 90, "z": 13 }

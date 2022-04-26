@@ -19,7 +19,8 @@
     "texture": { "base": "wildcraft:items/herbs/{type}" },
     "creativeinventory": {
       "general": [ "*" ],
-      "items": [ "*" ]
+      "items": [ "*" ],
+      "wildcraft": [ "*" ]
     },
     "nutritionPropsByType": {
       "*": {

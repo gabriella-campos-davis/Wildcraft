@@ -8,6 +8,9 @@
     "*": 600
   },
   "attributes": {
+    "inContainerTexture": {
+      "base": "wildcraft:block/food/pie/fill-{fruit}"
+    },
     "nutritionPropsWhenInMealByType": {
       "*-(brambleberry|gooseberry|honeysuckle|strawberry|raspberry)": {
         "satiety": 100,
@@ -52,7 +55,8 @@
   },
   "creativeinventory": {
     "general": [ "*" ],
-    "items": [ "*" ]
+    "items": [ "*" ],
+    "wildcraft": [ "*" ]
   },
   "nutritionPropsByType": {
     "*-(brambleberry|gooseberry|honeysuckle|strawberry|raspberry)": {

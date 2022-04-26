@@ -17,7 +17,7 @@
 	"textures": {
 		"material": { "base": "wildcraft:block/food/pie/fill-{fruit}" }
 	},
-	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"creativeinventory": { "general": ["*"], "items": ["*"], "wildcraft": [ "*" ] },
 	"transitionableProps": [{		
 			"type": "Perish",
 			"freshHours": { "avg": 12 },
