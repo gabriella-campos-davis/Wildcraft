@@ -24,8 +24,13 @@
   "randomDrawOffset": true,
   "randomizeRotations": true,
   "shapeByType": {
-    "*-(strawberry|cloudberry)": { "base": "wildcraft:block/plant/clipping/clipping_groundplant" },
-    "*": { "base": "wildcraft:block/plant/clipping/clipping" }
+    "*-strawberry": { "base": "wildcraft:block/plant/clipping/clipping_ground" },
+    "*-cloudberry": { "base": "wildcraft:block/plant/clipping/clipping_ground" },
+
+    "*-elderberry": { "base": "wildcraft:block/plant/clipping/clipping_shrub" },
+    "*-snowberry": { "base": "wildcraft:block/plant/clipping/clipping_shrub" },
+
+    "*": { "base": "wildcraft:block/plant/clipping/clipping_default" }
   },
   "blockmaterial": "Plant",
   "sideopaqueByType": {
