@@ -11,7 +11,7 @@
   "variantgroups": [
     {
       "code": "type",
-      "states": [ "huckleberry", "snowberry", "raspberry", "brambleberry", "dogrose", "gooseberry", "honeysuckle", "elderberry", "blueraspberry", "redcurrant", "blackcurrant", "whitecurrant", "blueberry", "cranberry", "strawberry", "cloudberry" ]
+      "states": [ "huckleberry", "snowberry", "raspberry", "brambleberry", "dogrose", "gooseberry", "honeysuckle", "elderberry", "redcurrant", "blackcurrant", "whitecurrant", "blueberry", "cranberry", "strawberry", "cloudberry" ]
     },
     {
       "code": "placement",
