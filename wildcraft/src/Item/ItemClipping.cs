@@ -59,7 +59,7 @@ namespace wildcraft
 
             string clippingtype = Variant["type"];
 
-            Block clipBlock = byEntity.World.GetBlock(AssetLocation.Create("wildcraft:clipping-" + clippingtype, Code.Domain));
+            Block clipBlock = byEntity.World.GetBlock(AssetLocation.Create("wildcraft:clipping-" + clippingtype + "-ground", Code.Domain));
 
             if (clipBlock != null)
             {

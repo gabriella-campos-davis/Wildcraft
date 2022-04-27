@@ -12,6 +12,10 @@
     {
       "code": "type",
       "states": [ "huckleberry", "snowberry", "raspberry", "brambleberry", "dogrose", "gooseberry", "honeysuckle", "elderberry", "blueraspberry", "redcurrant", "blackcurrant", "whitecurrant", "blueberry", "cranberry", "strawberry", "cloudberry" ]
+    },
+    {
+      "code": "placement",
+      "states": ["ground", "bush"]
     }
   ],
   "creativeinventory": {
@@ -24,13 +28,14 @@
   "randomDrawOffset": true,
   "randomizeRotations": true,
   "shapeByType": {
-    "*-strawberry": { "base": "wildcraft:block/plant/clipping/clipping_ground" },
-    "*-cloudberry": { "base": "wildcraft:block/plant/clipping/clipping_ground" },
+    "*-strawberry-ground": { "base": "wildcraft:block/plant/clipping/clipping_ground" },
+    "*-cloudberry-ground": { "base": "wildcraft:block/plant/clipping/clipping_ground" },
 
-    "*-elderberry": { "base": "wildcraft:block/plant/clipping/clipping_shrub" },
-    "*-snowberry": { "base": "wildcraft:block/plant/clipping/clipping_shrub" },
+    "*-elderberry-ground": { "base": "wildcraft:block/plant/clipping/clipping_shrub" },
+    "*-snowberry-ground": { "base": "wildcraft:block/plant/clipping/clipping_shrub" },
 
-    "*": { "base": "wildcraft:block/plant/clipping/clipping_default" }
+    "*-ground": { "base": "wildcraft:block/plant/clipping/clipping_default" },
+    "*-bush": { "base": "wildcraft:block/plant/clipping/clipping_bush" }
   },
   "blockmaterial": "Plant",
   "sideopaqueByType": {
@@ -40,19 +45,19 @@
     "all": false
   },
   "texturesByType": {
-    "*-blueberry": {
+    "*-blueberry-*": {
       "leaves": { "base": "game:block/plant/berrybush/leaves/{type}*" }
     },
-    "*-cranberry": {
+    "*-cranberry-*": {
       "leaves": { "base": "game:block/plant/berrybush/leaves/{type}*" }
     },
-    "*-redcurrant": {
+    "*-redcurrant-*": {
       "leaves": { "base": "game:block/plant/berrybush/leaves/{type}*" }
     },
-    "*-blackcurrant": {
+    "*-blackcurrant-*": {
       "leaves": { "base": "game:block/plant/berrybush/leaves/{type}*" }
     },
-    "*-whitecurrant": {
+    "*-whitecurrant-*": {
       "leaves": { "base": "game:block/plant/berrybush/leaves/redcurrant*" }
     },
     "*": {

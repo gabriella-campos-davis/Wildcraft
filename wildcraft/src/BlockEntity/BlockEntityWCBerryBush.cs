@@ -191,7 +191,7 @@ namespace wildcraft
                 if(growGrowth == true){
                     string clippingCode = this.Block.Variant["type"].ToString();
 
-                    Block clipBlock = Api.World.BlockAccessor.GetBlock(AssetLocation.Create("wildcraft:clipping-" + clippingCode));
+                    Block clipBlock = Api.World.BlockAccessor.GetBlock(AssetLocation.Create("wildcraft:clipping-" + clippingCode + "-bush"));
                     BlockPos pos = Pos.UpCopy(1);
                     Api.World.BlockAccessor.SetBlock(clipBlock.BlockId, pos);
                 } 

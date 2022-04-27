@@ -22,6 +22,8 @@ namespace wildcraft
             api.RegisterBlockClass("Clipping", typeof(Clipping));
 
             api.RegisterBlockEntityClass("BlockEntityClipping", typeof(BlockEntityClipping));
+            api.RegisterBlockEntityClass("BlockEntitySeedling", typeof(BlockEntitySeedling));
+
             api.RegisterBlockEntityClass("BlockEntityWCBerryBush", typeof(BlockEntityWCBerryBush));
             api.RegisterBlockEntityClass("BlockEntityHerb", typeof(BlockEntityHerb));
 
