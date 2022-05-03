@@ -1,7 +1,6 @@
 {
 	"code": "seeds",
 	"class": "ItemClipping",
-	"attributes": {},
 	"maxstacksize": 64,
 	"variantgroups": [
 		{ "code": "type", "states": [ "strawberry", "cloudberry" ] }
