@@ -78,6 +78,12 @@
     "burnTemperature": 600,
     "burnDuration": 10
   },
+  "groundTransform": {
+    "translation": { "x": 0, "y": 0, "z": 0 },
+    "rotation": { "x": 0, "y": 0, "z": 0 },
+    "origin": { "x": 0.5, "y": 0, "z": 0.5299 },
+    "scale": 3
+  },
   "guiTransformByType": {
     "*": {
         rotation: { x: 94, y: 0, z: 0 },
