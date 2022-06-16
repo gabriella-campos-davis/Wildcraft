@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "fWLZgeMYF8Txl1RNbLI9SDWMpJ/54mE74RJL1lN63iwXyeFZvx4bu9DRKhQGzliNeNjW3IsnKu6xoAICIv/fSg==",
+  "dgSpecHash": "3cFVhCd9CLfGuWQm5HZCYN7DFE1zsfp/zRe/Mwaydn1F6Ob2SUTpxPje458EAsz04CS3xIUn/gjcj5Rahvspmw==",
   "success": true,
   "projectFilePath": "D:\\VSMods\\Wildcraft\\wildcraft\\wildcraft.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\gcamp\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\gcamp\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

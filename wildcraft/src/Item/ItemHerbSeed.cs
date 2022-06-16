@@ -53,7 +53,7 @@ namespace wildcraft
 
             string herbtype = Variant["herbs"];
             Block herbBlock;
-            herbBlock = byEntity.World.GetBlock(AssetLocation.Create("wildcraft:seedling-" + herbtype, Code.Domain));
+            herbBlock = byEntity.World.GetBlock(AssetLocation.Create("wildcraft:seedling-" + herbtype + "-dirt", Code.Domain));
 
 
             if (herbBlock != null)

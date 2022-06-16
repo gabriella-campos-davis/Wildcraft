@@ -2,37 +2,77 @@ using Vintagestory.API.Common;
 using Vintagestory.API.Server;
 using Vintagestory.API.Client;
 using wildcraft.Gui;
+using wildcraft.config;
 using BuffStuff;
 
 [assembly: ModInfo( "Wildcraft",
 	Description = "Adds new plants to the game",
 	Website     = "",
-	Authors     = new []{ "gabb" } )]
+	Authors     = new []{ "gabb", "CATASTEROID" } )]
 
 namespace wildcraft
 {
     public class wildcraft : ModSystem
     {
+        public override bool ShouldLoad(EnumAppSide forSide)
+        {
+            return true;
+        }
+
         public override void Start(ICoreAPI api)
         {
             base.Start(api);
-            api.RegisterBlockClass("BerryBush", typeof(BerryBush));
+            api.RegisterBlockClass("WCBerryBush", typeof(WCBerryBush));
+            api.RegisterBlockClass("PricklyBerryBush", typeof(PricklyBerryBush));
             api.RegisterBlockClass("LeafyGroundVegetable", typeof(LeafyGroundVegetable));
 
             api.RegisterBlockClass("Clipping", typeof(Clipping));
 
             api.RegisterBlockEntityClass("BlockEntityClipping", typeof(BlockEntityClipping));
             api.RegisterBlockEntityClass("BlockEntitySeedling", typeof(BlockEntitySeedling));
-
             api.RegisterBlockEntityClass("BlockEntityWCBerryBush", typeof(BlockEntityWCBerryBush));
-            api.RegisterBlockEntityClass("BlockEntityHerb", typeof(BlockEntityHerb));
 
-            api.RegisterBlockBehaviorClass("BehaviorClippable", typeof(BehaviorClippable));
+            api.RegisterBlockEntityClass("BlockEntityHerb", typeof(BlockEntityHerb));
 
             api.RegisterItemClass("ItemClipping", typeof(ItemClipping));
             api.RegisterItemClass("ItemHerbSeed", typeof(ItemHerbSeed));
-            //api.RegisterItemClass("ItemTemporalSpear", typeof(ItemTemporalSpear));
             api.RegisterItemClass("ItemWCPoultice", typeof(ItemWCPoultice));
+
+            try
+            {
+                var Config = api.LoadModConfig<WildcraftConfig>("wildcraftconfig.json");
+                if (Config != null)
+                {
+                    api.Logger.Notification("Mod Config successfully loaded.");
+                    WildcraftConfig.Current = Config;
+                }
+                else
+                {
+                    api.Logger.Notification("No Mod Config specified. Falling back to default settings");
+                    WildcraftConfig.Current = WildcraftConfig.GetDefault();
+                }
+            }
+            catch
+            {
+                WildcraftConfig.Current = WildcraftConfig.GetDefault();
+                api.Logger.Error("Failed to load custom mod configuration. Falling back to default settings!");
+            }
+            finally
+            {
+                if (WildcraftConfig.Current.berryBushDamage == null)
+                    WildcraftConfig.Current.berryBushDamage = WildcraftConfig.GetDefault().berryBushDamage;
+
+                if (WildcraftConfig.Current.berryBushDamageTick == null)
+                    WildcraftConfig.Current.berryBushDamageTick = WildcraftConfig.GetDefault().berryBushDamageTick;
+
+                if (WildcraftConfig.Current.berryBushWillDamage == null)
+                    WildcraftConfig.Current.berryBushWillDamage = WildcraftConfig.GetDefault().berryBushWillDamage;
+
+                if (WildcraftConfig.Current.poulticeHealOverTime == null)
+                    WildcraftConfig.Current.poulticeHealOverTime = WildcraftConfig.GetDefault().poulticeHealOverTime;
+
+                api.StoreModConfig(WildcraftConfig.Current, "wildcraftconfig.json");
+            }
         }
         public override void StartServerSide(ICoreServerAPI api)
         {

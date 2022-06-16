@@ -1,0 +1,10 @@
+D:\VSMods\Wildcraft\wildcraft\obj\Debug\netstandard2.0\wildcraft.csproj.AssemblyReference.cache
+D:\VSMods\Wildcraft\wildcraft\obj\Debug\netstandard2.0\wildcraft.GeneratedMSBuildEditorConfig.editorconfig
+D:\VSMods\Wildcraft\wildcraft\obj\Debug\netstandard2.0\wildcraft.AssemblyInfoInputs.cache
+D:\VSMods\Wildcraft\wildcraft\obj\Debug\netstandard2.0\wildcraft.AssemblyInfo.cs
+D:\VSMods\Wildcraft\wildcraft\obj\Debug\netstandard2.0\wildcraft.csproj.CoreCompileInputs.cache
+D:\VSMods\Wildcraft\wildcraft\bin\Debug\netstandard2.0\wildcraft.deps.json
+D:\VSMods\Wildcraft\wildcraft\bin\Debug\netstandard2.0\wildcraft.dll
+D:\VSMods\Wildcraft\wildcraft\bin\Debug\netstandard2.0\wildcraft.pdb
+D:\VSMods\Wildcraft\wildcraft\obj\Debug\netstandard2.0\wildcraft.dll
+D:\VSMods\Wildcraft\wildcraft\obj\Debug\netstandard2.0\wildcraft.pdb

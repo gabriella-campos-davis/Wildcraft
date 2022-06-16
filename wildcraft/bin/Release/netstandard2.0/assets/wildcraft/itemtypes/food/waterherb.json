@@ -1,0 +1,46 @@
+{
+    "code": "waterherbs",
+    "maxstacksize": 64,
+    "variantgroups": [
+		{ "code": "type", "states": ["waterchestnut"] }
+	],
+    "materialDensityByType": {
+      "*": 600
+    },
+    "attributes": {
+      "nutritionPropsWhenInMealByType": {
+        "*": {
+          "satiety": 55,
+          "health": 1,
+          "foodcategory": "Vegetable"
+        }
+      }
+    },
+    "texture": { "base": "wildcraft:items/herbs/{type}" },
+    "creativeinventory": {
+      "general": [ "*" ],
+      "items": [ "*" ],
+      "wildcraft": [ "*" ]
+    },
+    "nutritionPropsByType": {
+      "*": {
+        "satiety": 35,
+        "foodcategory": "Vegetable"
+      }
+    },
+    "transitionablePropsByType": {
+      "*": [
+        {
+          "type": "Perish",
+          "freshHours": { "avg": 48 },
+          "transitionHours": { "avg": 12 },
+          "transitionedStack": {
+            "type": "item",
+            "code": "game:rot"
+          },
+          "transitionRatio": 0.25
+        }
+      ]
+    }
+  }
+  

@@ -69,8 +69,14 @@ namespace wildcraft
             ICoreServerAPI sapi = Api as ICoreServerAPI;
 
             Block block = Api.World.BlockAccessor.GetBlock(Pos);
+            if (block == null){
+                return;
+            }
 
             string herbtype = this.Block.Variant["wildflora"].ToString();
+            if(herbtype == null){
+                return;
+            }
 
             Block herbBlock;
             if(herbtype == "waterchestnut"){

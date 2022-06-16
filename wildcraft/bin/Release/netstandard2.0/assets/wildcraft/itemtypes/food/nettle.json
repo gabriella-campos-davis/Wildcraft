@@ -1,0 +1,40 @@
+{
+  "code": "nettle",
+  "maxstacksize": 64,
+  "attributes": {
+    "nutritionPropsWhenInMeal": {
+      "satietyByType": {
+        "*": 35
+      },
+      "foodcategory": "Vegetable"
+    }
+  },
+
+  "texture": { "base": "wildcraft:items/nettle" },
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ],
+    "wildcraft": [ "*" ]
+  },
+  "nutritionPropsByType": {
+    "*": {
+      "satiety": 20,
+      "health":  -2,
+      "foodcategory": "Vegetable"
+    }
+  },
+  "transitionablePropsByType": {
+    "*": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 128 },
+        "transitionHours": { "avg": 72 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 0.25
+      }
+    ]
+  }
+}

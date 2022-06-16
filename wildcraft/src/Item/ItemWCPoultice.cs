@@ -8,11 +8,13 @@ using Vintagestory.API.Config;
 using Vintagestory.API.Datastructures;
 using Vintagestory.API.MathTools;
 using Vintagestory.API.Util;
+using wildcraft.config;
 
 namespace wildcraft
 {
     public class ItemWCPoultice : Item
     {
+        WildcraftConfig config = new();
         public override void OnHeldInteractStart(ItemSlot slot, EntityAgent byEntity, BlockSelection blockSel, EntitySelection entitySel, bool firstEvent, ref EnumHandHandling handling)
         {
             byEntity.World.RegisterCallback((dt) =>
@@ -68,23 +70,34 @@ namespace wildcraft
                 JsonObject attr = slot.Itemstack.Collectible.Attributes;
                 float health = attr["health"].AsFloat();
 
-                var isPoulticeActive = BuffStuff.BuffManager.IsBuffActive(byEntity, "PoulticeBuff");
-                var isPoisonOak = BuffStuff.BuffManager.IsBuffActive(byEntity, "PoisonOak");
-                var isStingingNettle = BuffStuff.BuffManager.IsBuffActive(byEntity, "StingingNettle");
-                // only consume item and apply buff if there isn't a buff already active
-                if (!isPoulticeActive) {
-                    var buff = new PoulticeBuff();
-                    buff.init(health);
-                    buff.Apply(entitySel?.Entity != null ? entitySel.Entity : byEntity);
-                    if(isPoisonOak && this.Code.GetName().Contains("yarrow")){
-                        BuffStuff.BuffManager.GetActiveBuff(byEntity, "PoisonOak").Remove();
+                bool isHealingOverTimeEnabled = WildcraftConfig.Current.poulticeHealOverTime;
+                if(!isHealingOverTimeEnabled){
+                    //float health = attr["health"].AsFloat();
+                    byEntity.ReceiveDamage(new DamageSource()
+                        {
+                        Source = EnumDamageSource.Internal,
+                        Type = health > 0 ? EnumDamageType.Heal : EnumDamageType.Poison
+                        }, Math.Abs(health));
+                } else {
+                    var isPoulticeActive = BuffStuff.BuffManager.IsBuffActive(byEntity, "PoulticeBuff");
+                    var isPoisonOak = BuffStuff.BuffManager.IsBuffActive(byEntity, "PoisonOak");
+                    var isStingingNettle = BuffStuff.BuffManager.IsBuffActive(byEntity, "StingingNettle");
+                    // only consume item and apply buff if there isn't a buff already active
+                    if (!isPoulticeActive) {
+                        var buff = new PoulticeBuff();
+                        buff.init(health);
+                        buff.Apply(entitySel?.Entity != null ? entitySel.Entity : byEntity);
+                        if(isPoisonOak && this.Code.GetName().Contains("yarrow")){
+                            BuffStuff.BuffManager.GetActiveBuff(byEntity, "PoisonOak").Remove();
+                        }
+                        if(isStingingNettle && this.Code.GetName().Contains("poisonoak")){
+                            BuffStuff.BuffManager.GetActiveBuff(byEntity, "StingingNettle").Remove();
+                        }
+
                     }
-                    if(isStingingNettle && this.Code.GetName().Contains("poisonoak")){
-                        BuffStuff.BuffManager.GetActiveBuff(byEntity, "StingingNettle").Remove();
-                    }
-                    slot.TakeOut(1);
-                    slot.MarkDirty();
                 }
+                slot.TakeOut(1);
+                slot.MarkDirty();
             }
         }
 
