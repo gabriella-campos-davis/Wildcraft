@@ -22,15 +22,15 @@ namespace wildcraft
         public override void Start(ICoreAPI api)
         {
             base.Start(api);
-            api.RegisterBlockClass("WCBerryBush", typeof(WCBerryBush));
+            api.RegisterBlockClass("WildcraftBerryBush", typeof(WCBerryBush));
             api.RegisterBlockClass("PricklyBerryBush", typeof(PricklyBerryBush));
             api.RegisterBlockClass("LeafyGroundVegetable", typeof(LeafyGroundVegetable));
 
             api.RegisterBlockClass("Clipping", typeof(Clipping));
 
-            api.RegisterBlockEntityClass("BlockEntityClipping", typeof(BlockEntityClipping));
-            api.RegisterBlockEntityClass("BlockEntitySeedling", typeof(BlockEntitySeedling));
-            api.RegisterBlockEntityClass("BlockEntityWCBerryBush", typeof(BlockEntityWCBerryBush));
+            api.RegisterBlockEntityClass("BEClipping", typeof(BEClipping));
+            api.RegisterBlockEntityClass("BESeedling", typeof(BeSeedling));
+            api.RegisterBlockEntityClass("BEWildcraftBerryBush", typeof(BeWildcraftBerryBush));
 
             api.RegisterBlockEntityClass("BlockEntityHerb", typeof(BlockEntityHerb));
 
@@ -67,6 +67,15 @@ namespace wildcraft
 
                 if (WildcraftConfig.Current.berryBushWillDamage == null)
                     WildcraftConfig.Current.berryBushWillDamage = WildcraftConfig.GetDefault().berryBushWillDamage;
+
+                if (WildcraftConfig.Current.useKnifeForClipping == null)
+                    WildcraftConfig.Current.useKnifeForClipping = WildcraftConfig.GetDefault().useKnifeForClipping;
+
+                if (WildcraftConfig.Current.useShearsForClipping == null)
+                    WildcraftConfig.Current.useShearsForClipping = WildcraftConfig.GetDefault().useShearsForClipping;
+
+                if (WildcraftConfig.Current.plantsCanPoison == null)
+                    WildcraftConfig.Current.plantsCanPoison = WildcraftConfig.GetDefault().plantsCanPoison;
 
                 if (WildcraftConfig.Current.poulticeHealOverTime == null)
                     WildcraftConfig.Current.poulticeHealOverTime = WildcraftConfig.GetDefault().poulticeHealOverTime;

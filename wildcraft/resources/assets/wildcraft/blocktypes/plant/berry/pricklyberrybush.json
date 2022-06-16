@@ -20,7 +20,7 @@
 		revertBlockAboveTemperature: 38,
 	},
 	walkspeedmultiplier: 0.55,
-	entityclass: "BlockEntityWCBerryBush",
+	entityclass: "BEWildcraftBerryBush",
 	behaviorsByType: {
 		"*-ripe": [ {name: "Harvestable", properties: { 
 			harvestTime: 0.6, 

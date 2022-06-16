@@ -10,7 +10,7 @@ using wildcraft.config;
 
 namespace wildcraft
 {
-    public class PricklyBerryBush : WCBerryBush
+    public class PricklyBerryBush : WildcraftBerryBush
     {
         public string[] willDamage = WildcraftConfig.Current.berryBushWillDamage;
         public float dmg = WildcraftConfig.Current.berryBushDamage;
@@ -30,13 +30,13 @@ namespace wildcraft
 
             foreach(string creature in willDamage) 
             {
-                if(!entity.Code.ToString().Contains(creature))
+                if(entity.Code.ToString().Contains(creature))
                 {
-                    return;
+                    goto damagecreature;
                 }
             }
-
-            api.Logger.Notification("it can be harmed");
+            return;
+            damagecreature:
 
             if (world.Side == EnumAppSide.Server && entity is EntityAgent && !(entity as EntityAgent).ServerControls.Sneak) //if the creature ins't sneaking, deal damage.
             {

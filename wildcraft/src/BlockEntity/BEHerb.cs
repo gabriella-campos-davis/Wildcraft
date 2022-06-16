@@ -15,7 +15,7 @@ using Vintagestory.API.Util;
 
 namespace wildcraft
 {
-    public class BlockEntityHerb : BlockEntity
+    public class BEHerb : BlockEntity
     {
         static Random rand = new Random();
 
@@ -25,7 +25,7 @@ namespace wildcraft
         RoomRegistry roomreg;
         public int roomness;
 
-        public BlockEntityHerb(){}
+        public BEHerb(){}
 
         public override void Initialize(ICoreAPI api)
         {

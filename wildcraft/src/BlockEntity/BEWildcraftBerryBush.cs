@@ -15,7 +15,7 @@ using Vintagestory.GameContent;
 
 namespace wildcraft 
 {
-    public class BlockEntityWCBerryBush : BlockEntityBerryBush
+    public class BEWildcraftBerryBush : BlockEntityBerryBush
     {
         public void Prune()
         {

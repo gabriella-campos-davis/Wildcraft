@@ -11,17 +11,25 @@ using Vintagestory.API.Datastructures;
 using Vintagestory.API.MathTools;
 using Vintagestory.API.Server;
 using Vintagestory.API.Util;
+using Vintagestory.GameContent;
 
 namespace wildcraft
 {
-    public class BlockEntitySeedling : BlockEntity
+    public class BEClipping : BlockEntity
     {
         double totalHoursTillGrowth;
         long growListenerId;
+        float dieBelowTemp;
+
+        string[] berries;
         
         public override void Initialize(ICoreAPI api)
         {
             base.Initialize(api);
+
+            dieBelowTemp = this.Block.Attributes["dieBelowTemp"].ToFloat;
+
+            berries = this.Block.Variant["type"].ToArray();
 
             if (api is ICoreServerAPI)
             {
@@ -69,23 +77,28 @@ namespace wildcraft
             ICoreServerAPI sapi = Api as ICoreServerAPI;
 
             Block block = Api.World.BlockAccessor.GetBlock(Pos);
-            if (block == null){
-                return;
+
+            string clippingCode = this.Block.Variant["type"].ToString();
+            string blockCode;
+            Block clipBlock = Api.World.GetBlock(AssetLocation.Create("wildcraft:berrybush-" + clippingCode + "-empty"));
+
+            for (int i = 0; i < 5; i++)
+            {
+                
+                if (clippingCode == vanillaBerries[i])
+                {
+                    if (clippingCode == "blueberry" || clippingCode == "cranberry")
+                    {
+                        clipBlock = Api.World.GetBlock(AssetLocation.Create("game:smallberrybush-" + clippingCode + "-empty"));
+                    }
+                    else
+                    {
+                        clipBlock = Api.World.GetBlock(AssetLocation.Create("game:bigberrybush-" + clippingCode + "-empty"));
+                    }
+                }
             }
 
-            string herbtype = this.Block.Variant["wildflora"].ToString();
-            if(herbtype == null){
-                return;
-            }
-
-            Block herbBlock;
-            if(herbtype == "waterchestnut"){
-                herbBlock = Api.World.GetBlock(AssetLocation.Create("wildcraft:waterplant-" + herbtype + "-land-harvested-free", "wildcraft"));
-            } else {
-                herbBlock= Api.World.GetBlock(AssetLocation.Create("wildcraft:leafygroundvegetable-" + herbtype + "-harvested", "wildcraft"));
-            }
-
-            Api.World.BlockAccessor.SetBlock(herbBlock.BlockId, Pos);
+            Api.World.BlockAccessor.SetBlock(clipBlock.BlockId, Pos);
         }
         public override void ToTreeAttributes(ITreeAttribute tree)
         {

@@ -1,6 +1,6 @@
 {
 	code: "berrybush",
-	class: "WCBerryBush",
+	class: "WildcraftBerryBush",
 	attributes: {
 		stackable: true,
 		forageStatAffected: true,
@@ -43,7 +43,7 @@
 			"*-honeysuckle-*": 38
 		}
 	},
-	entityclass: "BlockEntityWCBerryBush",
+	entityclass: "BEWildcraftBerryBush",
 	behaviorsByType: {
 		"*-ripe": [ {name: "Harvestable", properties: { 
 			harvestTime: 0.6, 

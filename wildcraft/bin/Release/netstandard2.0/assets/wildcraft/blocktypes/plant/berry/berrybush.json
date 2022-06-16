@@ -11,15 +11,39 @@
 		beeFeedByType: {
 			"*-flowering": true
 		},
-		resetBelowTemperature: -2,
-		stopBelowTemperature: 4,
-		revertBlockBelowTemperature: -4,
-		
-		resetAboveTemperature: 35,
-		stopAboveTemperature: 30,
-		revertBlockAboveTemperature: 38,
+		stopBelowTemperatureByType:{
+			"*-huckleberry-*": -2,
+			"*-gooseberry-*": -2,
+			"*-honeysuckle-*": 4
+		},
+		resetBelowTemperatureByType:{
+			"*-huckleberry-*": -4,
+			"*-gooseberry-*": -4,
+			"*-honeysuckle-*": 0
+		},
+		revertBlockBelowTemperatureByType:{
+			"*-huckleberry-*": -6,
+			"*-gooseberry-*": -8,
+			"*-honeysuckle-*": -2
+		},
+
+		stopAboveTemperatureByType:{
+			"*-huckleberry-*": 27,
+			"*-gooseberry-*": 25,
+			"*-honeysuckle-*": 30
+		},
+		resetAboveTemperatureByType:{
+			"*-huckleberry-*": 30,
+			"*-gooseberry-*": 27,
+			"*-honeysuckle-*": 35
+		},
+		revertBlockAboveTemperatureByType:{
+			"*-huckleberry-*": 33,
+			"*-gooseberry-*": 30,
+			"*-honeysuckle-*": 38
+		}
 	},
-	entityclass: "BerryBush",
+	entityclass: "BlockEntityWCBerryBush",
 	behaviorsByType: {
 		"*-ripe": [ {name: "Harvestable", properties: { 
 			harvestTime: 0.6, 
@@ -41,7 +65,7 @@
 	blockmaterial: "Plant",
 	textures: {
 		"leavessmall": { base: "wildcraft:block/plant/berrybush/small/leaves/{type}*" },
-		"leaveslarge": { base: "wildcraft:block/plant/berrybush/large/leaves/{type}" },
+		"leaveslarge": { base: "wildcraft:block/plant/berrybush/small/leaves/{type}" },
 	},
 	texturesByType: {
 		"*-flowering": {

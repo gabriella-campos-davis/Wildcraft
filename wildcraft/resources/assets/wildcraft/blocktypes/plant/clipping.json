@@ -6,7 +6,8 @@
     "matureDays": {
       "avg": 7,
       "var": 2
-    }
+    },
+    "dieBelowTemp": -2
   },
   "variantgroups": [
     {

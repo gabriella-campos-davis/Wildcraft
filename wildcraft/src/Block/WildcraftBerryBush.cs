@@ -10,7 +10,7 @@ using wildcraft.config;
 
 namespace wildcraft
 {
-    public class WCBerryBush : BlockBerryBush
+    public class WildcraftBerryBush : BlockBerryBush
     {
         ItemStack clipping = new();
         
@@ -33,7 +33,7 @@ namespace wildcraft
             if ((byPlayer?.InventoryManager?.ActiveHotbarSlot?.Itemstack?.Collectible?.Tool == EnumTool.Knife && WildcraftConfig.Current.useKnifeForClipping) ||
                 (byPlayer?.InventoryManager?.ActiveHotbarSlot?.Itemstack?.Collectible?.Tool == EnumTool.Shears && WildcraftConfig.Current.useShearsForClipping))
             {
-                BlockEntityWCBerryBush bebush = world.BlockAccessor.GetBlockEntity(blockSel.Position) as BlockEntityWCBerryBush;
+                BEWildcraftBerryBush bebush = world.BlockAccessor.GetBlockEntity(blockSel.Position) as BEWildcraftBerryBush;
                 bebush.Prune();
 
                 if (!byPlayer.InventoryManager.TryGiveItemstack(clipping))

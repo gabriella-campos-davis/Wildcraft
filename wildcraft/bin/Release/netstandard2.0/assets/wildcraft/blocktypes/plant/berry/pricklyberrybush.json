@@ -19,7 +19,8 @@
 		stopAboveTemperature: 30,
 		revertBlockAboveTemperature: 38,
 	},
-	entityclass: "BerryBush",
+	walkspeedmultiplier: 0.55,
+	entityclass: "BlockEntityWCBerryBush",
 	behaviorsByType: {
 		"*-ripe": [ {name: "Harvestable", properties: { 
 			harvestTime: 0.6, 
@@ -41,7 +42,7 @@
 	blockmaterial: "Plant",
 	textures: {
 		"leavessmall": { base: "wildcraft:block/plant/berrybush/small/leaves/{type}*" },
-		"leaveslarge": { base: "wildcraft:block/plant/berrybush/large/leaves/{type}" },
+		"leaveslarge": { base: "wildcraft:block/plant/berrybush/small/leaves/{type}" },
 	},
 	texturesByType: {
 		"*-flowering": {

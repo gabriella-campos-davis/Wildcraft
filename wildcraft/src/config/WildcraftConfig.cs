@@ -10,9 +10,11 @@ namespace wildcraft.config
     {
         public float berryBushDamage = 0.5f;
         public float berryBushDamageTick = 0.7f;
-        public string[] berryBushWillDamage = new string[]{"game:wolf-male", "game:bear", "game:drifter", "game:player"};
+        public string[] berryBushWillDamage = new string[]{"game:wolf", "game:bear", "game:drifter", "game:player"};
         public bool useKnifeForClipping = true;
         public bool useShearsForClipping = true;
+
+        public bool plantsCanPoison = true;
 
         public bool poulticeHealOverTime = true;
 
@@ -28,9 +30,11 @@ namespace wildcraft.config
 
             defaultConfig.berryBushDamage = 0.5f;
             defaultConfig.berryBushDamageTick = 0.7f;
-            defaultConfig.berryBushWillDamage = new string[]{"game:wolf-male", "game:bear", "game:drifter", "game:player"};
+            defaultConfig.berryBushWillDamage = new string[]{"game:wolf", "game:bear", "game:drifter", "game:player"};
             defaultConfig.useKnifeForClipping = true;
             defaultConfig.useShearsForClipping = true;
+
+            defaultconfig.plantsCanPoison = true;
 
             defaultConfig.poulticeHealOverTime = true;
 
