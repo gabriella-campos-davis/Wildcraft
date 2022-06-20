@@ -26,13 +26,9 @@ namespace wildcraft
             api.RegisterBlockClass("PricklyBerryBush", typeof(PricklyBerryBush));
             api.RegisterBlockClass("LeafyGroundVegetable", typeof(LeafyGroundVegetable));
 
-            api.RegisterBlockClass("Clipping", typeof(Clipping));
-
             api.RegisterBlockEntityClass("BEClipping", typeof(BEClipping));
             api.RegisterBlockEntityClass("BESeedling", typeof(BESeedling));
             api.RegisterBlockEntityClass("BEWildcraftBerryBush", typeof(BEWildcraftBerryBush));
-
-            api.RegisterBlockEntityClass("BEEntityHerb", typeof(BEHerb));
 
             api.RegisterItemClass("ItemClipping", typeof(ItemClipping));
             api.RegisterItemClass("ItemHerbSeed", typeof(ItemHerbSeed));
@@ -65,8 +61,8 @@ namespace wildcraft
                 if (WildcraftConfig.Current.berryBushDamageTick == null)
                     WildcraftConfig.Current.berryBushDamageTick = WildcraftConfig.GetDefault().berryBushDamageTick;
 
-                if (WildcraftConfig.Current.berryBushWillDamage == null)
-                    WildcraftConfig.Current.berryBushWillDamage = WildcraftConfig.GetDefault().berryBushWillDamage;
+                if (WildcraftConfig.Current.plantsWillDamage == null)
+                    WildcraftConfig.Current.plantsWillDamage = WildcraftConfig.GetDefault().plantsWillDamage;
 
                 if (WildcraftConfig.Current.useKnifeForClipping == null)
                     WildcraftConfig.Current.useKnifeForClipping = WildcraftConfig.GetDefault().useKnifeForClipping;

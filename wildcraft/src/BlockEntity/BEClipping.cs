@@ -19,7 +19,8 @@ namespace wildcraft
     {
         double totalHoursTillGrowth;
         long growListenerId;
-        float dieBelowTemp;
+        public float dieBelowTemp;
+        public string bushCode;
         
         public override void Initialize(ICoreAPI api)
         {
@@ -88,62 +89,26 @@ namespace wildcraft
         private void DoGrow(string state){ //this contains the worst code ever written, please fix
             ICoreServerAPI sapi = Api as ICoreServerAPI;
 
-            Block block = Api.World.BlockAccessor.GetBlock(Pos);
-            string clippingType = block.Variant["type"].ToString();
-            string bushType;
             if(state == "alive")
             {
-                if(clippingType == "raspberry" ||
-                   clippingType == "brambleberry" ||
-                   clippingType == "dogrose")
-                {
-                    bushType = "wildcraft:pricklyberrybush-";
-                    Block newBushBlock = Api.World.GetBlock(AssetLocation.Create(bushType + clippingType + "-empty"));
-
-                    Api.World.BlockAccessor.SetBlock(newBushBlock.BlockId, Pos);
-                }
-                if(clippingType == "huckleberry" ||
-                   clippingType == "gooseberry" ||
-                   clippingType == "honeysuckle")
-                {
-                    bushType = "wildcraft:berrybush-";
-                    Block newBushBlock = Api.World.GetBlock(AssetLocation.Create(bushType + clippingType + "-empty"));
-
-                    Api.World.BlockAccessor.SetBlock(newBushBlock.BlockId, Pos);
-                }
-                if(clippingType == "whitecurrant" ||
-                   clippingType == "redcurrant" ||
-                   clippingType == "blackcurrant")
-                {
-                    bushType = "game:bigberrybush-";
-                    Block newBushBlock = Api.World.GetBlock(AssetLocation.Create(bushType + clippingType + "-empty"));
-
-                    Api.World.BlockAccessor.SetBlock(newBushBlock.BlockId, Pos);
-                }
-                if(clippingType == "blueberry" ||
-                   clippingType == "cranberry")
-                {
-                    bushType = "game:smallberrybush-";
-                    Block newBushBlock = Api.World.GetBlock(AssetLocation.Create(bushType + clippingType + "-empty"));
-
-                    Api.World.BlockAccessor.SetBlock(newBushBlock.BlockId, Pos);
-                }
+                Block newBushBlock = Api.World.GetBlock(AssetLocation.Create(bushCode));
+                Api.World.BlockAccessor.SetBlock(newBushBlock.BlockId, Pos);
             }
 
             if(state == "dead")
             {
-                Block deadClippingBlock = Api.World.GetBlock(AssetLocation.Create("wildcraft:clipping-" + clippingType + "-dead"));
-
+                Block deadClippingBlock = Api.World.GetBlock(AssetLocation.Create("wildcraft:clipping-" + this.Block.Variant["type"] + "-dead"));
                 Api.World.BlockAccessor.SetBlock(deadClippingBlock.BlockId, Pos);
             }
-            
         }
+
         public override void ToTreeAttributes(ITreeAttribute tree)
         {
             base.ToTreeAttributes(tree);
 
             tree.SetDouble("totalHoursTillGrowth", totalHoursTillGrowth);
             tree.SetFloat("dieBelowTemp", dieBelowTemp);
+            tree.SetString("bushCode", bushCode);
         }
 
         public override void FromTreeAttributes(ITreeAttribute tree, IWorldAccessor worldForResolving)
@@ -152,6 +117,7 @@ namespace wildcraft
 
             totalHoursTillGrowth = tree.GetDouble("totalHoursTillGrowth", 0);
             dieBelowTemp = tree.GetFloat("dieBelowTemp", -2);
+            bushCode = tree.GetString("bushCode");
         }
 
         public override void GetBlockInfo(IPlayer forPlayer, StringBuilder dsc)

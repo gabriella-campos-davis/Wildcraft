@@ -1,13 +1,32 @@
 {
   "code": "clipping",
-  "class": "Clipping",
+  "class": "BlockPlant",
   "entityclass": "BEClipping",
   "attributes": {
     "matureDays": {
       "avg": 7,
       "var": 2
     },
-    "dieBelowTemp": -2
+    "dieBelowTemp": -2,
+    "bushCodebyType": {
+      "*-redcurrant-*": "game:bigberrybush-redcurrant-empty",
+      "*-blackcurrant-*": "game:bigberrybush-blackcurrant-empty",
+      "*-whitecurrant-*": "game:bigberrybush-whitecurrant-empty",
+
+      "*-blueberry-*": "game:smallberrybush-blueberry-empty",
+      "*-cranberry-*": "game:smallberrybush-cranberry-empty",
+
+      "*-huckleberry-*": "wildcraft:berrybush-huckleberry-empty",
+      "*-gooseberry-*": "wildcraft:berrybush-gooseberry-empty",
+      "*-honeysuckle-*": "wildcraft:berrybush-honeysuckle-empty",
+
+      "*-elderberry-*": "wildcraft:shrubberrybush-elderberry-empty",
+      "*-snowberry-*": "wildcraft:shrubberrybush-snowberry-empty",
+
+      "*-raspberry-*": "wildcraft:pricklyberrybush-raspberry-empty",
+      "*-brambleberry-*": "wildcraft:pricklyberrybush-brambleberry-empty",
+      "*-dogrose-*": "wildcraft:pricklyberrybush-dogrose-empty"
+    }
   },
   "variantgroups": [
     {

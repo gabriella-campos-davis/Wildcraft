@@ -12,7 +12,7 @@ namespace wildcraft
 {
     public class PricklyBerryBush : WildcraftBerryBush
     {
-        public string[] willDamage = WildcraftConfig.Current.berryBushWillDamage;
+        public string[] willDamage = WildcraftConfig.Current.plantsWillDamage;
         public float dmg = WildcraftConfig.Current.berryBushDamage;
         public float dmgTick = WildcraftConfig.Current.berryBushDamageTick;
         
