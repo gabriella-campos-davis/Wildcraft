@@ -52,7 +52,6 @@ namespace wildcraft
                     , dmg); //Deal damage
                 }
             }
-            api.Logger.Notification("entity harmed");
             base.OnEntityInside(world, entity, pos);
         }
     }

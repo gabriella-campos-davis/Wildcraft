@@ -20,16 +20,12 @@ namespace wildcraft
         double totalHoursTillGrowth;
         long growListenerId;
         float dieBelowTemp;
-
-        string[] berries;
         
         public override void Initialize(ICoreAPI api)
         {
             base.Initialize(api);
-
-            dieBelowTemp = this.Block.Attributes["dieBelowTemp"].ToFloat;
-
-            berries = this.Block.Variant["type"].ToArray();
+            
+            Block block = api.World.BlockAccessor.GetBlock(Pos);
 
             if (api is ICoreServerAPI)
             {
@@ -64,8 +60,14 @@ namespace wildcraft
                 return;
 
             ClimateCondition conds = Api.World.BlockAccessor.GetClimateAt(Pos, EnumGetClimateMode.NowValues);
-            if (conds == null || conds.Temperature < 5)
+            if (conds == null)
             {
+                return;
+            }
+
+            if(conds.Temperature < dieBelowTemp)
+            {
+                DoGrow("dead");
                 return;
             }
 
@@ -74,37 +76,74 @@ namespace wildcraft
                 totalHoursTillGrowth = Api.World.Calendar.TotalHours + (float)Api.World.Rand.NextDouble() * 72 * GrowthRateMod;
                 return;
             }
+
+            if (conds.Temperature < 5)
+            {
+                return;
+            }
+
+            DoGrow("alive");
+            
+        }
+        private void DoGrow(string state){ //this contains the worst code ever written, please fix
             ICoreServerAPI sapi = Api as ICoreServerAPI;
 
             Block block = Api.World.BlockAccessor.GetBlock(Pos);
-
-            string clippingCode = this.Block.Variant["type"].ToString();
-            string blockCode;
-            Block clipBlock = Api.World.GetBlock(AssetLocation.Create("wildcraft:berrybush-" + clippingCode + "-empty"));
-
-            for (int i = 0; i < 5; i++)
+            string clippingType = block.Variant["type"].ToString();
+            string bushType;
+            if(state == "alive")
             {
-                
-                if (clippingCode == vanillaBerries[i])
+                if(clippingType == "raspberry" ||
+                   clippingType == "brambleberry" ||
+                   clippingType == "dogrose")
                 {
-                    if (clippingCode == "blueberry" || clippingCode == "cranberry")
-                    {
-                        clipBlock = Api.World.GetBlock(AssetLocation.Create("game:smallberrybush-" + clippingCode + "-empty"));
-                    }
-                    else
-                    {
-                        clipBlock = Api.World.GetBlock(AssetLocation.Create("game:bigberrybush-" + clippingCode + "-empty"));
-                    }
+                    bushType = "wildcraft:pricklyberrybush-";
+                    Block newBushBlock = Api.World.GetBlock(AssetLocation.Create(bushType + clippingType + "-empty"));
+
+                    Api.World.BlockAccessor.SetBlock(newBushBlock.BlockId, Pos);
+                }
+                if(clippingType == "huckleberry" ||
+                   clippingType == "gooseberry" ||
+                   clippingType == "honeysuckle")
+                {
+                    bushType = "wildcraft:berrybush-";
+                    Block newBushBlock = Api.World.GetBlock(AssetLocation.Create(bushType + clippingType + "-empty"));
+
+                    Api.World.BlockAccessor.SetBlock(newBushBlock.BlockId, Pos);
+                }
+                if(clippingType == "whitecurrant" ||
+                   clippingType == "redcurrant" ||
+                   clippingType == "blackcurrant")
+                {
+                    bushType = "game:bigberrybush-";
+                    Block newBushBlock = Api.World.GetBlock(AssetLocation.Create(bushType + clippingType + "-empty"));
+
+                    Api.World.BlockAccessor.SetBlock(newBushBlock.BlockId, Pos);
+                }
+                if(clippingType == "blueberry" ||
+                   clippingType == "cranberry")
+                {
+                    bushType = "game:smallberrybush-";
+                    Block newBushBlock = Api.World.GetBlock(AssetLocation.Create(bushType + clippingType + "-empty"));
+
+                    Api.World.BlockAccessor.SetBlock(newBushBlock.BlockId, Pos);
                 }
             }
 
-            Api.World.BlockAccessor.SetBlock(clipBlock.BlockId, Pos);
+            if(state == "dead")
+            {
+                Block deadClippingBlock = Api.World.GetBlock(AssetLocation.Create("wildcraft:clipping-" + clippingType + "-dead"));
+
+                Api.World.BlockAccessor.SetBlock(deadClippingBlock.BlockId, Pos);
+            }
+            
         }
         public override void ToTreeAttributes(ITreeAttribute tree)
         {
             base.ToTreeAttributes(tree);
 
             tree.SetDouble("totalHoursTillGrowth", totalHoursTillGrowth);
+            tree.SetFloat("dieBelowTemp", dieBelowTemp);
         }
 
         public override void FromTreeAttributes(ITreeAttribute tree, IWorldAccessor worldForResolving)
@@ -112,22 +151,32 @@ namespace wildcraft
             base.FromTreeAttributes(tree, worldForResolving);
 
             totalHoursTillGrowth = tree.GetDouble("totalHoursTillGrowth", 0);
+            dieBelowTemp = tree.GetFloat("dieBelowTemp", -2);
         }
+
         public override void GetBlockInfo(IPlayer forPlayer, StringBuilder dsc)
         {
             base.GetBlockInfo(forPlayer, dsc);
 
-            double hoursleft = totalHoursTillGrowth - Api.World.Calendar.TotalHours;
-            double daysleft = hoursleft / Api.World.Calendar.HoursPerDay;
+            string isAlive = this.Block.Variant["state"].ToString();
+            if(isAlive == "dead"){
+                string type = this.Block.Variant["type"].ToString();
+                dsc.AppendLine(Lang.Get("Dead {0} clipping", type));
+            }
+            else 
+            {
+                double hoursleft = totalHoursTillGrowth - Api.World.Calendar.TotalHours;
+                double daysleft = hoursleft / Api.World.Calendar.HoursPerDay;
 
-            if (daysleft <= 1)
-            {
-                dsc.AppendLine(Lang.Get("Will grow in less than a day"));
-            }
-            else
-            {
-                dsc.AppendLine(Lang.Get("Will grow in about {0} days", (int)daysleft));
-            }
+                if (daysleft <= 1)
+                {
+                    dsc.AppendLine(Lang.Get("Will grow in less than a day"));
+                }
+                else
+                {
+                    dsc.AppendLine(Lang.Get("Will grow in about {0} days", (int)daysleft));
+                }
+            } 
         }
     }
 }

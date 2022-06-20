@@ -1,7 +1,7 @@
 {
   "code": "clipping",
   "class": "Clipping",
-  "entityclass": "BlockEntityClipping",
+  "entityclass": "BEClipping",
   "attributes": {
     "matureDays": {
       "avg": 7,
@@ -17,10 +17,6 @@
     {
       "code": "state",
       "states": [ "alive", "dead" ]
-    },
-    {
-      "code": "placement",
-      "states": ["ground", "bush"]
     }
   ],
   "creativeinventory": {
@@ -33,11 +29,12 @@
   "randomDrawOffset": true,
   "randomizeRotations": true,
   "shapeByType": {
-    "*-elderberry-ground": { "base": "wildcraft:block/plant/clipping/clipping_shrub" },
-    "*-snowberry-ground": { "base": "wildcraft:block/plant/clipping/clipping_shrub" },
+    "*-elderberry-alive": { "base": "wildcraft:block/plant/clipping/clipping_shrub" },
+    "*-snowberry-alive": { "base": "wildcraft:block/plant/clipping/clipping_shrub" },
 
-    "*-ground": { "base": "wildcraft:block/plant/clipping/clipping_default" },
-    "*-bush": { "base": "wildcraft:block/plant/clipping/clipping_bush" }
+    "*-dead": { "base": "wildcraft:block/plant/ShrubBerryBush/child/child_dead" },
+
+    "*-alive": { "base": "wildcraft:block/plant/ShrubBerryBush/child/child" }
   },
   "blockmaterial": "Plant",
   "sideopaqueByType": {

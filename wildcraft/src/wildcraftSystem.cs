@@ -22,17 +22,17 @@ namespace wildcraft
         public override void Start(ICoreAPI api)
         {
             base.Start(api);
-            api.RegisterBlockClass("WildcraftBerryBush", typeof(WCBerryBush));
+            api.RegisterBlockClass("WildcraftBerryBush", typeof(WildcraftBerryBush));
             api.RegisterBlockClass("PricklyBerryBush", typeof(PricklyBerryBush));
             api.RegisterBlockClass("LeafyGroundVegetable", typeof(LeafyGroundVegetable));
 
             api.RegisterBlockClass("Clipping", typeof(Clipping));
 
             api.RegisterBlockEntityClass("BEClipping", typeof(BEClipping));
-            api.RegisterBlockEntityClass("BESeedling", typeof(BeSeedling));
-            api.RegisterBlockEntityClass("BEWildcraftBerryBush", typeof(BeWildcraftBerryBush));
+            api.RegisterBlockEntityClass("BESeedling", typeof(BESeedling));
+            api.RegisterBlockEntityClass("BEWildcraftBerryBush", typeof(BEWildcraftBerryBush));
 
-            api.RegisterBlockEntityClass("BlockEntityHerb", typeof(BlockEntityHerb));
+            api.RegisterBlockEntityClass("BEEntityHerb", typeof(BEHerb));
 
             api.RegisterItemClass("ItemClipping", typeof(ItemClipping));
             api.RegisterItemClass("ItemHerbSeed", typeof(ItemHerbSeed));

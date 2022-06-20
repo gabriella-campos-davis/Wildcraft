@@ -34,7 +34,7 @@ namespace wildcraft.config
             defaultConfig.useKnifeForClipping = true;
             defaultConfig.useShearsForClipping = true;
 
-            defaultconfig.plantsCanPoison = true;
+            defaultConfig.plantsCanPoison = true;
 
             defaultConfig.poulticeHealOverTime = true;
 
