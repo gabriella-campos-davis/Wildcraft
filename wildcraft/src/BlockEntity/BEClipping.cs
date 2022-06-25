@@ -21,12 +21,14 @@ namespace wildcraft
         long growListenerId;
         public float dieBelowTemp;
         public string bushCode;
+        Block block;
+
         
         public override void Initialize(ICoreAPI api)
         {
             base.Initialize(api);
             
-            Block block = api.World.BlockAccessor.GetBlock(Pos);
+            block = api.World.BlockAccessor.GetBlock(Pos);
 
             if (api is ICoreServerAPI)
             {
@@ -95,9 +97,10 @@ namespace wildcraft
                 Api.World.BlockAccessor.SetBlock(newBushBlock.BlockId, Pos);
             }
 
+            var clippingType = this.Block.Variant["type"].ToString();
             if(state == "dead")
             {
-                Block deadClippingBlock = Api.World.GetBlock(AssetLocation.Create("wildcraft:clipping-" + this.Block.Variant["type"] + "-dead"));
+                Block deadClippingBlock = Api.World.GetBlock(AssetLocation.Create("wildcraft:clipping-" + clippingType + "-dead"));
                 Api.World.BlockAccessor.SetBlock(deadClippingBlock.BlockId, Pos);
             }
         }
