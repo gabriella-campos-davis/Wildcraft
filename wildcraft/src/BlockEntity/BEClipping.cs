@@ -21,6 +21,7 @@ namespace wildcraft
         long growListenerId;
         public float dieBelowTemp;
         public string bushCode;
+        public string bushType;
         Block block;
 
         
@@ -51,9 +52,10 @@ namespace wildcraft
 
         float GrowthRateMod => Api.World.Config.GetString("saplingGrowthRate").ToFloat(1);
 
-        public override void OnBlockPlaced(ItemStack byItemStack = null)
+        public override void OnBlockPlaced(ItemStack byItemStack)
         {
             totalHoursTillGrowth = Api.World.Calendar.TotalHours + nextStageDaysRnd.nextFloat(1, Api.World.Rand) * 24 * GrowthRateMod;
+            bushType = byItemStack.Item.Variant["type"].ToString();
         }
 
 
@@ -97,10 +99,10 @@ namespace wildcraft
                 Api.World.BlockAccessor.SetBlock(newBushBlock.BlockId, Pos);
             }
 
-            var clippingType = this.Block.Variant["type"].ToString();
             if(state == "dead")
             {
-                Block deadClippingBlock = Api.World.GetBlock(AssetLocation.Create("wildcraft:clipping-" + clippingType + "-dead"));
+                Block deadClippingBlock = Api.World.GetBlock(AssetLocation.Create("wildcraft:clipping-" + bushType + "-dead"));
+                
                 Api.World.BlockAccessor.SetBlock(deadClippingBlock.BlockId, Pos);
             }
         }
