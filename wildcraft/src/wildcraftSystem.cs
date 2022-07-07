@@ -24,11 +24,14 @@ namespace wildcraft
             base.Start(api);
             api.RegisterBlockClass("WildcraftBerryBush", typeof(WildcraftBerryBush));
             api.RegisterBlockClass("PricklyBerryBush", typeof(PricklyBerryBush));
+            api.RegisterBlockClass("ShrubBerryBush", typeof(ShrubBerryBush));
             api.RegisterBlockClass("LeafyGroundVegetable", typeof(LeafyGroundVegetable));
 
             api.RegisterBlockEntityClass("BEClipping", typeof(BEClipping));
             api.RegisterBlockEntityClass("BESeedling", typeof(BESeedling));
             api.RegisterBlockEntityClass("BEWildcraftBerryBush", typeof(BEWildcraftBerryBush));
+            api.RegisterBlockEntityClass("BEShrubBerryBush", typeof(BEShrubBerryBush));
+
 
             api.RegisterItemClass("ItemClipping", typeof(ItemClipping));
             api.RegisterItemClass("ItemHerbSeed", typeof(ItemHerbSeed));

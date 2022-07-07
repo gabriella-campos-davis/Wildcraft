@@ -31,6 +31,8 @@ namespace wildcraft
             
             block = api.World.BlockAccessor.GetBlock(Pos);
 
+            bushCode = block.Attributes["bushCode"].ToString();
+
             if (api is ICoreServerAPI)
             {
                 growListenerId = RegisterGameTickListener(CheckGrow, 2000);
@@ -54,6 +56,8 @@ namespace wildcraft
 
         public override void OnBlockPlaced(ItemStack byItemStack)
         {
+            ICoreServerAPI sapi = Api as ICoreServerAPI;
+
             totalHoursTillGrowth = Api.World.Calendar.TotalHours + nextStageDaysRnd.nextFloat(1, Api.World.Rand) * 24 * GrowthRateMod;
             bushType = byItemStack.Item.Variant["type"].ToString();
         }
@@ -113,7 +117,6 @@ namespace wildcraft
 
             tree.SetDouble("totalHoursTillGrowth", totalHoursTillGrowth);
             tree.SetFloat("dieBelowTemp", dieBelowTemp);
-            tree.SetString("bushCode", bushCode);
         }
 
         public override void FromTreeAttributes(ITreeAttribute tree, IWorldAccessor worldForResolving)
@@ -122,7 +125,6 @@ namespace wildcraft
 
             totalHoursTillGrowth = tree.GetDouble("totalHoursTillGrowth", 0);
             dieBelowTemp = tree.GetFloat("dieBelowTemp", -2);
-            bushCode = tree.GetString("bushCode");
         }
 
         public override void GetBlockInfo(IPlayer forPlayer, StringBuilder dsc)

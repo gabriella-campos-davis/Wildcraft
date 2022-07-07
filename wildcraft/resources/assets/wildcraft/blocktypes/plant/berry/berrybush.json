@@ -11,33 +11,41 @@
 		beeFeedByType: {
 			"*-flowering": true
 		},
-		stopBelowTemperatureByType:{
+		state: "empty",
+
+		sproutAboveTemperatureByType: {
+			"*-huckleberry-*": 4,
+			"*-gooseberry-*": 4,
+			"*-honeysuckle-*": 10
+		}
+
+		stopGrowingBelowTemperatureByType:{
 			"*-huckleberry-*": -2,
 			"*-gooseberry-*": -2,
 			"*-honeysuckle-*": 4
 		},
-		resetBelowTemperatureByType:{
+		emptyBelowTemperatureByType:{
 			"*-huckleberry-*": -4,
 			"*-gooseberry-*": -4,
 			"*-honeysuckle-*": 0
 		},
-		revertBlockBelowTemperatureByType:{
+		barrenBelowTemperatureByType:{
 			"*-huckleberry-*": -6,
 			"*-gooseberry-*": -8,
 			"*-honeysuckle-*": -2
 		},
 
-		stopAboveTemperatureByType:{
+		stopGrowingAboveTemperatureByType:{
 			"*-huckleberry-*": 27,
 			"*-gooseberry-*": 25,
 			"*-honeysuckle-*": 30
 		},
-		resetAboveTemperatureByType:{
+		emptyAboveTemperatureByType:{
 			"*-huckleberry-*": 30,
 			"*-gooseberry-*": 27,
 			"*-honeysuckle-*": 35
 		},
-		revertBlockAboveTemperatureByType:{
+		barrenAboveTemperatureByType:{
 			"*-huckleberry-*": 33,
 			"*-gooseberry-*": 30,
 			"*-honeysuckle-*": 38
@@ -53,7 +61,7 @@
 	},
 	variantgroups: [
 		{ code: "type", states: ["huckleberry", "gooseberry", "honeysuckle"] },
-		{ code: "state", states: ["empty", "flowering", "ripe"] },
+		{ code: "stage", states: ["child", "teen", "adult", "mature", "ancient"] }
 	],
 	creativeinventory: { "general": ["*"], "flora": ["*"], "wildcraft": ["*"] },
 	renderpass: "OpaqueNoCull",

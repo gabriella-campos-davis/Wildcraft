@@ -8,8 +8,8 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"sticks3": "C:/Users/gcamp/AppData/Roaming/Vintagestory/assets/survival/textures/block/plant/fruittree/sticks3",
-		"blueberry1": "C:/Users/gcamp/AppData/Roaming/Vintagestory/assets/survival/textures/block/plant/berrybush/leaves/blueberry1"
+		"fertlow": "game:block/soil/fertlow",
+		"twigs": "game:block/plant/fruittree/sticks3"
 	},
 	"elements": [
 		{
@@ -266,40 +266,23 @@
 					]
 				},
 				{
-					"name": "Leaves",
-					"from": [ -4.0, 3.0, -5.0 ], 
-					"to": [ 4.0, 11.0, 3.0 ], 
-					"climateColorMap": "climatePlantTint",
-					"seasonColorMap": "seasonalFoliage",
-					"renderInEditor": false,
-					"rotationOrigin": [ -4.0, 3.0, -5.0 ],
-					"faces": {
-						"north": { "texture": "#blueberry1", "uv": [ 1.0, 1.0, 15.0, 15.0 ], "autoUv": false, "windMode": [-1,1,1,-1] },
-						"east": { "texture": "#blueberry1", "uv": [ 1.0, 1.0, 15.0, 15.0 ], "autoUv": false, "windMode": [-1,1,1,-1] },
-						"south": { "texture": "#blueberry1", "uv": [ 1.0, 1.0, 15.0, 15.0 ], "autoUv": false, "windMode": [-1,-1,1,1] },
-						"west": { "texture": "#blueberry1", "uv": [ 1.0, 1.0, 15.5, 15.0 ], "autoUv": false, "windMode": [-1,-1,1,1] },
-						"up": { "texture": "#blueberry1", "uv": [ 1.0, 1.0, 15.0, 15.0 ], "autoUv": false, "windMode": [1,1,1,1] },
-						"down": { "texture": "#blueberry1", "uv": [ 1.0, 1.0, 15.0, 15.0 ], "enabled": false, "autoUv": false }
-					}
-				},
-				{
-					"name": "Leaves20",
+					"name": "Twigs",
 					"from": [ -6.0, 3.0, -1.0 ], 
 					"to": [ 6.0, 13.0, -1.0 ], 
 					"climateColorMap": "climatePlantTint",
 					"seasonColorMap": "seasonalFoliage",
 					"rotationOrigin": [ -1.0, 3.0, -1.0 ],
 					"faces": {
-						"north": { "texture": "#sticks3", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [1,1,1,1] },
-						"east": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 10.0 ], "enabled": false },
-						"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 12.0, 10.0 ], "enabled": false },
-						"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 10.0 ], "enabled": false },
-						"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 12.0, 0.5 ], "enabled": false },
-						"down": { "texture": "#leaves", "uv": [ 0.0, 0.0, 12.0, 0.5 ], "enabled": false, "windMode": [1,1,1,1] }
+						"north": { "texture": "#twigs", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [1,1,1,1] },
+						"east": { "texture": "#twigs", "uv": [ 0.0, 0.0, 0.5, 10.0 ], "enabled": false },
+						"south": { "texture": "#twigs", "uv": [ 0.0, 0.0, 12.0, 10.0 ], "enabled": false },
+						"west": { "texture": "#twigs", "uv": [ 0.0, 0.0, 0.5, 10.0 ], "enabled": false },
+						"up": { "texture": "#twigs", "uv": [ 0.0, 0.0, 12.0, 0.5 ], "enabled": false },
+						"down": { "texture": "#twigs", "uv": [ 0.0, 0.0, 12.0, 0.5 ], "enabled": false, "windMode": [1,1,1,1] }
 					}
 				},
 				{
-					"name": "Leaves21",
+					"name": "Twigs2",
 					"from": [ -5.0, 3.0, -2.0 ], 
 					"to": [ 7.0, 13.0, -2.0 ], 
 					"climateColorMap": "climatePlantTint",
@@ -307,12 +290,12 @@
 					"rotationOrigin": [ 0.0, 3.0, -2.0 ],
 					"rotationY": -90.0,
 					"faces": {
-						"north": { "texture": "#sticks3", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [1,1,1,1] },
-						"east": { "texture": "#blueberry1", "uv": [ 0.0, 0.0, 0.5, 10.0 ], "enabled": false },
-						"south": { "texture": "#blueberry1", "uv": [ 0.0, 0.0, 12.0, 10.0 ], "enabled": false },
-						"west": { "texture": "#blueberry1", "uv": [ 0.0, 0.0, 0.5, 10.0 ], "enabled": false },
-						"up": { "texture": "#blueberry1", "uv": [ 0.0, 0.0, 12.0, 0.5 ], "enabled": false },
-						"down": { "texture": "#blueberry1", "uv": [ 0.0, 0.0, 12.0, 0.5 ], "enabled": false }
+						"north": { "texture": "#twigs", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [1,1,1,1] },
+						"east": { "texture": "#twigs", "uv": [ 0.0, 0.0, 0.5, 10.0 ], "enabled": false },
+						"south": { "texture": "#twigs", "uv": [ 0.0, 0.0, 12.0, 10.0 ], "enabled": false },
+						"west": { "texture": "#twigs", "uv": [ 0.0, 0.0, 0.5, 10.0 ], "enabled": false },
+						"up": { "texture": "#twigs", "uv": [ 0.0, 0.0, 12.0, 0.5 ], "enabled": false },
+						"down": { "texture": "#twigs", "uv": [ 0.0, 0.0, 12.0, 0.5 ], "enabled": false }
 					}
 				}
 			]

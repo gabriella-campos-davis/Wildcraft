@@ -1,7 +1,9 @@
 {
   "code": "clipping",
   "class": "BlockPlant",
-  "entityclass": "BEClipping",
+  "entityclassbytype": {
+    "*-alive": "BEClipping"
+  },
   "attributes": {
     "matureDays": {
       "avg": 7,
@@ -38,11 +40,6 @@
       "states": [ "alive", "dead" ]
     }
   ],
-  "creativeinventory": {
-    "general": [ "*" ],
-    "flora": [ "*" ],
-    "wildcraft": [ "*" ]
-  },
   "renderpass": "OpaqueNoCull",
   "drawtype": "JSON",
   "randomDrawOffset": true,
@@ -64,19 +61,19 @@
   },
   "texturesByType": {
     "*-blueberry-*": {
-      "leaves": { "base": "game:block/plant/berrybush/leaves/{type}*" }
+      "leaves": { "base": "game:block/plant/berrybush/small/leaves/{type}*" }
     },
     "*-cranberry-*": {
-      "leaves": { "base": "game:block/plant/berrybush/leaves/{type}*" }
+      "leaves": { "base": "game:block/plant/berrybush/small/leaves/{type}*" }
     },
     "*-redcurrant-*": {
-      "leaves": { "base": "game:block/plant/berrybush/leaves/{type}*" }
+      "leaves": { "base": "game:block/plant/berrybush/small/leaves/{type}*" }
     },
     "*-blackcurrant-*": {
-      "leaves": { "base": "game:block/plant/berrybush/leaves/{type}*" }
+      "leaves": { "base": "game:block/plant/berrybush/small/leaves/{type}*" }
     },
     "*-whitecurrant-*": {
-      "leaves": { "base": "game:block/plant/berrybush/leaves/redcurrant*" }
+      "leaves": { "base": "game:block/plant/berrybush/small/leaves/redcurrant*" }
     },
     "*-snowberry-*": {
       "leaves": { "base": "wildcraft:block/plant/clipping/greenleaves/snowberry_sapling" }
@@ -85,7 +82,7 @@
       "leaves": { "base": "wildcraft:block/plant/clipping/greenleaves/elderberry_sapling" }
     },
     "*": {
-      "leaves": { "base": "wildcraft:block/plant/berrybush/leaves/{type}*" }
+      "leaves": { "base": "wildcraft:block/plant/berrybush/small/leaves/{type}*" }
     }
   },
   "dropsByType": {

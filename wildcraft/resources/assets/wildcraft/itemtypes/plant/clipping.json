@@ -22,13 +22,13 @@
     "*-green": [
       {
         "type": "Dry",
-        "freshHours": { "avg": 18 },
-        "transitionHours": { "avg": 12 },
+        "freshHours": { "avg": 0 },
+        "transitionHours": { "avg": 36 },
         "transitionedStack": {
           "type": "item",
           "code": "wildcraft:clipping-{type}-dry"
         },
-        "transitionRatio": 0.25
+        "transitionRatio": 1
       }
     ]
   },
@@ -38,22 +38,22 @@
   },
   "texturesByType": {
     "*-blackcurrant-dry": {
-      "leaves": { "base": "game:block/plant/berrybush/leaves/{type}*" }
+      "leaves": { "base": "game:block/plant/berrybush/small/leaves/{type}*" }
     },
     "*-redcurrant-dry": {
-      "leaves": { "base": "game:block/plant/berrybush/leaves/{type}*" }
+      "leaves": { "base": "game:block/plant/berrybush/small/leaves/{type}*" }
     },
     "*-whitecurrant-dry": {
-      "leaves": { "base": "game:block/plant/berrybush/leaves/redcurrant*" }
+      "leaves": { "base": "game:block/plant/berrybush/small/leaves/redcurrant*" }
     },
     "*-blueberry-dry": {
-      "leaves": { "base": "game:block/plant/berrybush/leaves/{type}*" }
+      "leaves": { "base": "game:block/plant/berrybush/small/leaves/{type}*" }
     },
     "*-cranberry-dry": {
-      "leaves": { "base": "game:block/plant/berrybush/leaves/{type}*" }
+      "leaves": { "base": "game:block/plant/berrybush/small/leaves/{type}*" }
     },
     "*-dry": {
-      "leaves": { "base": "wildcraft:block/plant/berrybush/leaves/{type}*" }
+      "leaves": { "base": "wildcraft:block/plant/berrybush/small/leaves/{type}*" }
     },
     "*-blackcurrant-green": {
       "leaves": { "base": "wildcraft:block/plant/clipping/greenleaves/{type}*" }
@@ -81,18 +81,20 @@
   },
   "guiTransformByType": {
     "*": {
-        rotation: { x: 94, y: 0, z: 0 },
-        origin: { x: 0.6, y: 0.2, z: 0.6 },
-        scale: 1.47
+        rotation: { x: 65, y: 6, z: -29 },
+        origin: { x: 0.8, y: -0.1, z: 0.7 },
+        scale: 1.2
     }
   },
   "fpHandTransform": {
-		rotation: { x: 87, y: 152, z: -58 },
-		origin: { x: 0.5, y: 0.5, z: 0.3 }
+      rotation: { x: 107, y: 143, z: -67 },
+      origin: { x: 0.5, y: 0.3, z: 0.4 }
+
 	},
   "tpHandTransform": {
-      rotation: { x: 0, y: 55, z: 14 },
+      translation: { x: -1.5, y: -1.55, z: -1.4 },
+      rotation: { x: -16, y: 31, z: 21 },
       origin: { x: 0.5, y: 0.75, z: 0.4 },
       scale: 0.34
-  },
+  }
 }
