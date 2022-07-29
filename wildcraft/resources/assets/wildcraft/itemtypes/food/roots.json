@@ -3,26 +3,31 @@
 	"maxstacksize": 64,
 	"attributes": {},
 	"variantgroups": [
-		{ "code": "type", "states": ["bearleek", "marshmallow", "burdock", "chicory", "liquorice", "waterchestnut"] }
+		{ "code": "type", "states": ["bearleek", "marshmallow", "burdock", "chicory", "liquorice", "waterchestnut", "peeledwaterchestnut", "celery"] }
 	],
 	"shapebytype": {
-        "*-bearleek": { "base": "wildcraft:block/food/bearleek_bulb" },
+        "*-bearleek": { "base": "wildcraft:block/food/bearleek" },
 		"*-waterchestnut": { "base": "wildcraft:block/food/waterchestnut" },
+		"*-peeledwaterchestnut": { "base": "wildcraft:block/food/peeledwaterchestnut" },
 		"*-liquorice": { "base": "wildcraft:block/food/bearleek_bulb" },
 		"*-marshmallow": { "base": "wildcraft:block/food/marshmallow_root" },
 		"*-burdock": { "base": "wildcraft:block/food/burdock_root" },
 		"*-chicory": { "base": "wildcraft:block/food/chicory_root" },
+		"*-celery": { "base": "wildcraft:block/food/celery" },
 		"*": { "base": "game:item/food/vegetable/cattailsroot-cooked" }
 	},
 	"texturesbytype": {
         "*-bearleek": { 
-            "bearleek_bulb": { "base": "wildcraft:block/plant/leafygroundvegetable/bearleek_bulb" }
+            "bearleek_bulb": { "base": "wildcraft:block/food/roots/bearleek_bulb" }
         },
 		"*-liquorice": { 
-            "bearleek_bulb": { "base": "wildcraft:block/plant/leafygroundvegetable/liquorice_root" }
+            "bearleek_bulb": { "base": "wildcraft:block/food/roots/liquorice_root" }
         },
 		"*-waterchestnut": { 
-            "bearleek_bulb": { "base": "wildcraft:block/plant/leafygroundvegetable/waterchestnut_bulb" }
+            "bearleek_bulb": { "base": "wildcraft:block/food/roots/waterchestnut_bulb" }
+        },
+		"*-celery": { 
+            "celery": { "base": "wildcraft:block/food/roots/celery_root" }
         },
 		"*": { 			
 			"reeds" : { "base": "game:item/resource/reeds" }
@@ -46,38 +51,50 @@
 		"*-bearleek": {
 				translation: { x: 0, y: 0, z: 0 },
 				rotation: { x: -37, y: 135, z: -155 },
-				origin: { x: 0.35, y: 0.2, z: 0.6 },
+				origin: { x: 0.5, y: 0.1, z: 0.5 },
 				scale: 5.7
 		},
 		"*-waterchestnut": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: -37, y: 135, z: -155 },
-			origin: { x: 0.35, y: 0.2, z: 0.6 },
-			scale: 5.7
+				translation: { x: 0, y: 0, z: 0 },
+				rotation: { x: -49, y: 135, z: -155 },
+				origin: { x: 0.35, y: 0.2, z: 0.6 },
+				scale: 5.7
+		},
+		"*-peeledwaterchestnut": {
+				translation: { x: 0, y: 0, z: 0 },
+				rotation: { x: -49, y: 135, z: -155 },
+				origin: { x: 0.35, y: 0.2, z: 0.6 },
+				scale: 4.78
 		},
 		"*-liquorice": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: -37, y: 135, z: -155 },
-			origin: { x: 0.35, y: 0.2, z: 0.6 },
-			scale: 5.7
+				translation: { x: 0, y: 0, z: 0 },
+				rotation: { x: -32, y: 126, z: -155 },
+				origin: { x: 0.35, y: 0.23, z: 0.6 },
+				scale: 5.4
 		},
 		"*-chicory": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 32, y: 160, z: 98 },
-			origin: { x: 0.4299, y: 0.28, z: 0.45 },
-			scale: 2.64
+				translation: { x: 0, y: 0, z: 0 },
+				rotation: { x: 10, y: -4, z: 131 },
+				origin: { x: 0.475, y: 0.38, z: 0.45 },
+				scale: 2.64
 		},
 		"*-burdock": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 53, y: 52, z: 93 },
-			origin: { x: 0.5299, y: 0.43, z: 0.55 },
-			scale: 2.7
+				translation: { x: 0, y: 0, z: 0 },
+				rotation: { x: 53, y: 52, z: 93 },
+				origin: { x: 0.6299, y: 0.37, z: 0.62 },
+				scale: 2.7
 		},
-		"*-marshmallow": {
+		
+				translation: { x: 0, y: 0, z: 0 },
+				rotation: { x: 37, y: 58, z: 127 },
+				origin: { x: 0.3299, y: 0.33, z: 0.45 },
+				scale: 2.11
+		},
+		"*-celery": {
 			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 27, y: 134, z: 112 },
-			origin: { x: 0.3299, y: 0.33, z: 0.75 },
-			scale: 2.35
+			rotation: { x: 43, y: 73, z: 98 },
+			origin: { x: 0.5299, y: 0.2, z: 0.52 },
+			scale: 4.06
 		},
 		"*": {
 			"translation": { x: 0, y: 0, z: 0 },
@@ -88,17 +105,23 @@
 	},
 	"fpHandTransformByType": {
 		"*-bearleek": {
-				translation: { x: 0, y: 0, z: 0 },
-				rotation: { x: -38, y: 29, z: 21 },
-				origin: { x: 0.5, y: 0.3, z: 0.5 },
-				scale: 2
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -38, y: 29, z: 21 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 2
 		},
 		"*-waterchestnut": {
 			translation: { x: 0, y: 0, z: 0 },
 			rotation: { x: -38, y: 29, z: 21 },
 			origin: { x: 0.5, y: 0.3, z: 0.5 },
 			scale: 2
-	},
+		},
+		"*-peeledwaterchestnut": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -38, y: 29, z: 21 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 2
+		},
 		"*-liquorice": {
 			translation: { x: 0, y: 0, z: 0 },
 			rotation: { x: -38, y: 29, z: 21 },
@@ -124,6 +147,12 @@
 			"origin": { x: 0.5, y: 0.1, z: 0.5 },
 			"scale": 0.8
 		},
+		"*-peeledwaterchestnut": {
+			"translation": { x: -0.6, y: -0.18, z: -0.6 },
+			"rotation": { x: 0, y: 0, z: -42 },
+			"origin": { x: 0.5, y: 0.1, z: 0.5 },
+			"scale": 0.8
+		},
 		"*-liquorice": {
 			"translation": { x: -0.6, y: -0.18, z: -0.6 },
 			"rotation": { x: 0, y: 0, z: -42 },
@@ -144,6 +173,12 @@
 			"scale": 4.3
 		},
 		"*-waterchestnut": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 83 },
+			"origin": { "x": 0.47, "y": 0, "z": 0.5 },
+			"scale": 4.3
+		},
+		"*-peeledwaterchestnut": {
 			"translation": { "x": 0, "y": 0, "z": 0 },
 			"rotation": { "x": 0, "y": 0, "z": 83 },
 			"origin": { "x": 0.47, "y": 0, "z": 0.5 },

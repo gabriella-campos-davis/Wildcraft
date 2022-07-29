@@ -11,47 +11,42 @@
 		beeFeedByType: {
 			"*-flowering": true
 		},
-		state: "empty",
-
-		sproutAboveTemperatureByType: {
-			"*-huckleberry-*": 4,
-			"*-gooseberry-*": 4,
-			"*-honeysuckle-*": 10
-		}
-
-		stopGrowingBelowTemperatureByType:{
+		stopBelowTemperatureByType:{
 			"*-huckleberry-*": -2,
 			"*-gooseberry-*": -2,
 			"*-honeysuckle-*": 4
 		},
-		emptyBelowTemperatureByType:{
+		resetBelowTemperatureByType:{
 			"*-huckleberry-*": -4,
 			"*-gooseberry-*": -4,
 			"*-honeysuckle-*": 0
 		},
-		barrenBelowTemperatureByType:{
+		revertBlockBelowTemperatureByType:{
 			"*-huckleberry-*": -6,
 			"*-gooseberry-*": -8,
 			"*-honeysuckle-*": -2
 		},
 
-		stopGrowingAboveTemperatureByType:{
+		stopAboveTemperatureByType:{
 			"*-huckleberry-*": 27,
 			"*-gooseberry-*": 25,
 			"*-honeysuckle-*": 30
 		},
-		emptyAboveTemperatureByType:{
+		resetAboveTemperatureByType:{
 			"*-huckleberry-*": 30,
 			"*-gooseberry-*": 27,
 			"*-honeysuckle-*": 35
 		},
-		barrenAboveTemperatureByType:{
+		revertBlockAboveTemperatureByType:{
 			"*-huckleberry-*": 33,
 			"*-gooseberry-*": 30,
 			"*-honeysuckle-*": 38
 		}
 	},
-	entityclass: "BEWildcraftBerryBush",
+	entityclassByType: {
+		"*-gooseberry-*": "BETallBerryBush",
+		"*": "BEWildcraftBerryBush"
+	},
 	behaviorsByType: {
 		"*-ripe": [ {name: "Harvestable", properties: { 
 			harvestTime: 0.6, 
@@ -61,7 +56,7 @@
 	},
 	variantgroups: [
 		{ code: "type", states: ["huckleberry", "gooseberry", "honeysuckle"] },
-		{ code: "stage", states: ["child", "teen", "adult", "mature", "ancient"] }
+		{ code: "state", states: ["empty", "flowering", "ripe"] }
 	],
 	creativeinventory: { "general": ["*"], "flora": ["*"], "wildcraft": ["*"] },
 	renderpass: "OpaqueNoCull",

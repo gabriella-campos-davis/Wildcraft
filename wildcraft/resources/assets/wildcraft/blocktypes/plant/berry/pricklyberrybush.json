@@ -11,16 +11,20 @@
 		beeFeedByType: {
 			"*-flowering": true
 		},
-		resetBelowTemperature: -2,
 		stopBelowTemperature: 4,
+		resetBelowTemperature: -2,
 		revertBlockBelowTemperature: -4,
 		
-		resetAboveTemperature: 35,
 		stopAboveTemperature: 30,
+		resetAboveTemperature: 35,
 		revertBlockAboveTemperature: 38,
 	},
 	walkspeedmultiplier: 0.55,
-	entityclass: "BEWildcraftBerryBush",
+	entityclassbytype: {
+		"*-dogrose-*": "BETallBerryBush",
+		"*-brambleberry-*": "BETallBerryBush",
+		"*": "BEWildcraftBerryBush"
+	}
 	behaviorsByType: {
 		"*-ripe": [ {name: "Harvestable", properties: { 
 			harvestTime: 0.6, 
