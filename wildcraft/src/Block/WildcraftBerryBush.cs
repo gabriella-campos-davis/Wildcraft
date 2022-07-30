@@ -7,6 +7,7 @@ using Vintagestory.GameContent;
 using System.Linq;
 using Vintagestory.API.Common.Entities;
 using wildcraft.config;
+using wildcraft;
 
 namespace wildcraft
 {
@@ -33,8 +34,7 @@ namespace wildcraft
             if ((byPlayer?.InventoryManager?.ActiveHotbarSlot?.Itemstack?.Collectible?.Tool == EnumTool.Knife && WildcraftConfig.Current.useKnifeForClipping) ||
                 (byPlayer?.InventoryManager?.ActiveHotbarSlot?.Itemstack?.Collectible?.Tool == EnumTool.Shears && WildcraftConfig.Current.useShearsForClipping))
             {
-                BEWildcraftBerryBush bebush = world.BlockAccessor.GetBlockEntity(blockSel.Position) as BEWildcraftBerryBush;
-                bebush.Prune();
+                if(world.BlockAccessor.GetBlockEntity(blockSel.Position) is BEWildcraftBerryBush bewcbush) bewcbush.Prune();
 
                 if (!byPlayer.InventoryManager.TryGiveItemstack(clipping))
                 {
@@ -47,6 +47,16 @@ namespace wildcraft
             }
             
             return base.OnBlockInteractStart(world, byPlayer, blockSel);
+        }
+
+        public override bool CanPlantStay(IBlockAccessor blockAccessor, BlockPos pos)
+        {
+            Block belowBlock = blockAccessor.GetBlock(pos.DownCopy());
+            if (belowBlock.Fertility > 0) return true;
+            if (!(belowBlock is WildcraftBerryBush)) return false;
+
+            Block belowbelowBlock = blockAccessor.GetBlock(pos.DownCopy(2));
+            return belowbelowBlock.Fertility > 0 && this.Attributes?.IsTrue("stackable") == true && belowBlock.Attributes?.IsTrue("stackable") == true;
         }
 
         public override ItemStack[] GetDrops(IWorldAccessor world, BlockPos pos, IPlayer byPlayer, float dropQuantityMultiplier = 1)

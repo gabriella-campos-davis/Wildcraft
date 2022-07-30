@@ -17,14 +17,14 @@
 		
 		stopAboveTemperature: 30,
 		resetAboveTemperature: 35,
-		revertBlockAboveTemperature: 38,
+		revertBlockAboveTemperature: 38
 	},
 	walkspeedmultiplier: 0.55,
-	entityclassbytype: {
+	entityclassByType: {
 		"*-dogrose-*": "BETallBerryBush",
 		"*-brambleberry-*": "BETallBerryBush",
 		"*": "BEWildcraftBerryBush"
-	}
+	},
 	behaviorsByType: {
 		"*-ripe": [ {name: "Harvestable", properties: { 
 			harvestTime: 0.6, 

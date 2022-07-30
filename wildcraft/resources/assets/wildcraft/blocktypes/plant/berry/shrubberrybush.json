@@ -2,7 +2,7 @@
 	code: "shrubberrybush",
 	class: "ShrubBerryBush",
 	attributes: {
-		stackable: true,
+		stackable: false,
 		forageStatAffected: true,
 		reinforcable: true,
 		butterflyFeedByType: {

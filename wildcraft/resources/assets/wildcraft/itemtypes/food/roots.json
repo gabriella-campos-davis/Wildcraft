@@ -84,12 +84,6 @@
 				origin: { x: 0.6299, y: 0.37, z: 0.62 },
 				scale: 2.7
 		},
-		
-				translation: { x: 0, y: 0, z: 0 },
-				rotation: { x: 37, y: 58, z: 127 },
-				origin: { x: 0.3299, y: 0.33, z: 0.45 },
-				scale: 2.11
-		},
 		"*-celery": {
 			translation: { x: 0, y: 0, z: 0 },
 			rotation: { x: 43, y: 73, z: 98 },

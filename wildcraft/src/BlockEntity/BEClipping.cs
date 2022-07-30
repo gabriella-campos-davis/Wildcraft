@@ -59,7 +59,7 @@ namespace wildcraft
             ICoreServerAPI sapi = Api as ICoreServerAPI;
 
             totalHoursTillGrowth = Api.World.Calendar.TotalHours + nextStageDaysRnd.nextFloat(1, Api.World.Rand) * 24 * GrowthRateMod;
-            bushType = byItemStack.Item.Variant["type"].ToString();
+            bushType = this.Block.Variant["type"].ToString();
         }
 
 
@@ -105,9 +105,15 @@ namespace wildcraft
 
             if(state == "dead")
             {
-                Block deadClippingBlock = Api.World.GetBlock(AssetLocation.Create("wildcraft:clipping-" + bushType + "-dead"));
-                
-                Api.World.BlockAccessor.SetBlock(deadClippingBlock.BlockId, Pos);
+                Block deadClippingBlock;
+
+                if(this.Block.Code.FirstCodePart() == "growth"){
+                    deadClippingBlock = Api.World.GetBlock(AssetLocation.Create("wildcraft:growth-" + bushType + "-dead"));
+                    Api.World.BlockAccessor.SetBlock(deadClippingBlock.BlockId, Pos);
+                } else{
+                    deadClippingBlock = Api.World.GetBlock(AssetLocation.Create("wildcraft:clipping-" + bushType + "-dead"));
+                    Api.World.BlockAccessor.SetBlock(deadClippingBlock.BlockId, Pos);
+                }
             }
         }
 

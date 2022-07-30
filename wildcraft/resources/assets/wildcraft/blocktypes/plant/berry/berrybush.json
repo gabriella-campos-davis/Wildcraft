@@ -2,7 +2,7 @@
 	code: "berrybush",
 	class: "WildcraftBerryBush",
 	attributes: {
-		stackable: true,
+		stackable: false,
 		forageStatAffected: true,
 		reinforcable: true,
 		butterflyFeedByType: {

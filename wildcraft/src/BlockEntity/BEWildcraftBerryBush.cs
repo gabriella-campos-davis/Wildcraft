@@ -17,6 +17,12 @@ namespace wildcraft
 {
     public class BEWildcraftBerryBush : BlockEntityBerryBush
     {
+
+        public BEWildcraftBerryBush() : base()
+        {
+
+        }
+
         public void Prune()
         {
             Pruned = true;
