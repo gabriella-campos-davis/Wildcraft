@@ -101,6 +101,7 @@
 	"renderAlphaTest": 0.4,
 	"blockmaterial": "Plant",
 	"randomizeRotations": true,
+  "randomDrawOffset": true,
 	"sideopaque": {
 		"all": false
 	},
@@ -142,63 +143,84 @@
       {
         "type": "item",
         "code": "wildcraft:roots-bearleek",
-        "quantity": { "avg": 1.8 }
+        "quantity": { "avg": 1.2 }
       }
     ],
     "*-burdock-harvested": [
       {
         "type": "item",
         "code": "wildcraft:roots-burdock",
-        "quantity": { "avg": 1.8 }
+        "quantity": { "avg": 1.2 }
       }
     ],
     "*-marshmallow-harvested": [
       {
         "type": "item",
         "code": "wildcraft:roots-marshmallow",
-        "quantity": { "avg": 1.8 }
+        "quantity": { "avg": 1.2 }
       }
     ],
     "*-chicory-harvested": [
       {
         "type": "item",
         "code": "wildcraft:roots-chicory",
-        "quantity": { "avg": 1.8 }
+        "quantity": { "avg": 1.2 }
       }
     ],
     "*-liquorice-harvested": [
       {
         "type": "item",
         "code": "wildcraft:roots-liquorice",
-        "quantity": { "avg": 1.8 }
+        "quantity": { "avg": 1.2 }
       }
     ],
     "*-stingingnettle-normal": [
       {
         "type": "item",
         "code": "wildcraft:herbs-{herbs}",
-        "quantity": { "avg": 1.8 }
+        "quantity": { "avg": 1.5 }
       }
     ],
     "*-sedge-normal": [
       {
         "type": "item",
         "code": "wildcraft:herbs-{herbs}",
-        "quantity": { "avg": 1.0 }
+        "quantity": { "avg": 2.3 }
+      }
+    ],
+    "*-burdock-normal": [
+      {
+        "type": "item",
+        "code": "wildcraft:herbs-{herbs}",
+        "quantity": { "avg": 2.3 }
+      }
+    ],
+    "*-mugwort-normal": [
+      {
+        "type": "item",
+        "code": "wildcraft:herbs-{herbs}",
+        "quantity": { "avg": 2.3 }
+      }
+    ],
+    "*-inula-normal": [
+      {
+        "type": "item",
+        "code": "wildcraft:herbs-{herbs}",
+        "quantity": { "avg": 2.3 }
       }
     ],
     "*-minerslettuce-normal": [
       {
         "type": "item",
         "code": "wildcraft:herbs-{herbs}",
-        "quantity": { "avg": 1.3 }
+        "quantity": { "avg": 1.5 }
       }
     ],
     "*-normal": [
       {
         "type": "item",
         "code": "wildcraft:herbs-{herbs}",
-        "quantity": { "avg": 1.0 }
+        "quantity": { "avg": 1.5 }
       }
     ]
   }

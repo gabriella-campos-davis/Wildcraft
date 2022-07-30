@@ -30,8 +30,15 @@ namespace wildcraft
 
             prunedmeshes = new MeshData[Shape.BakedAlternates.Length];
 
-            var selems = new string[] { "Berries", "middleStem/*" };
-            if (State == "empty") selems = selems.Remove("Berries");
+            var selems = new string[] { "Berries13/*","Berries15/*", "Berries17/*", "Berries19/*", "Stems3/*", "Stems5/*", "Stems7/*", "Stems9/*"};
+            for(var i = 13; i <= 20; i = i + 2){
+                if (State == "empty"){
+                    selems = selems.Remove("Berries13/*");
+                    selems = selems.Remove("Berries15/*");
+                    selems = selems.Remove("Berries17/*");
+                    selems = selems.Remove("Berries19/*");
+                } 
+            }
 
             for (int i = 0; i < Shape.BakedAlternates.Length; i++)
             {

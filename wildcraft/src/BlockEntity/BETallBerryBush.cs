@@ -170,41 +170,35 @@ namespace wildcraft
         public bool DoGrow()
         {
             if (Api.World.BlockAccessor.GetBlock(Pos.X, Pos.Y + 1, Pos.Z).BlockMaterial == 0 && 
-                !(Api.World.BlockAccessor.GetBlock(Pos.X, Pos.Y - 1, Pos.Z) is BlockBerryBush))
+                !(Api.World.BlockAccessor.GetBlock(Pos.X, Pos.Y - 1, Pos.Z) is WildcraftBerryBush))
             {
                 Block clipping = Api.World.BlockAccessor.GetBlock(AssetLocation.Create("wildcraft:growth-" + this.Block.Variant["type"] + "-alive"));
-                Api.World.BlockAccessor.SetBlock(clipping.BlockId, Pos.Add(0, 1, 0));
-                Api.Logger.Debug("growth grown");
+                Api.World.BlockAccessor.SetBlock(clipping.BlockId, Pos.AddCopy(0, 1, 0));
             }
 
             if (Api.World.Calendar.TotalDays - LastPrunedTotalDays > Api.World.Calendar.DaysPerYear)
             {
                 Pruned = false;
-                Api.Logger.Debug(Pruned.ToString());
             }
 
             Block block = Api.World.BlockAccessor.GetBlock(Pos);
             string nowCodePart = block.LastCodePart();
             string nextCodePart = (nowCodePart == "empty") ? "flowering" : ((nowCodePart == "flowering") ? "ripe" : "empty");
 
-
-            AssetLocation loc = block.CodeWithParts(nextCodePart);
+            AssetLocation loc = block.CodeWithPart(nextCodePart, 1);
             Api.Logger.Debug(loc.Path);
 
             if (!loc.Valid)
             {
-                Api.Logger.Debug("remove block entity");
                 Api.World.BlockAccessor.RemoveBlockEntity(Pos);
                 return false;
             }
 
             Block nextBlock = Api.World.GetBlock(loc);
-            Api.Logger.Debug(nextBlock.Code.ToString()); //null
 
             if (nextBlock?.Code == null) return false;
 
             Api.World.BlockAccessor.ExchangeBlock(nextBlock.BlockId, Pos);
-            Api.Logger.Debug("block exchanged");
 
             MarkDirty(true);
             return true;
