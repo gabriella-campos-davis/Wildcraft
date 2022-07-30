@@ -31,8 +31,6 @@ namespace wildcraft
             api.RegisterBlockEntityClass("BESeedling", typeof(BESeedling));
             api.RegisterBlockEntityClass("BEWildcraftBerryBush", typeof(BEWildcraftBerryBush));
             api.RegisterBlockEntityClass("BETallBerryBush", typeof(BETallBerryBush));
-            api.RegisterBlockEntityClass("BEShrubBerryBush", typeof(BEShrubBerryBush));
-
 
             api.RegisterItemClass("ItemClipping", typeof(ItemClipping));
             api.RegisterItemClass("ItemHerbSeed", typeof(ItemHerbSeed));

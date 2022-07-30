@@ -25,11 +25,11 @@
 			harvestTime: 0.6, 
 			harvestedStack: { type: "item", code: "wildcraft:fruit-{type}", quantity: { avg: 2.2 }  },
 			harvestedBlockCode: "wildcraft:shrubberrybush-{type}-empty"
-		}} ],
+		}} ]
 	},
 	variantgroups: [
 		{ code: "type", states: ["snowberry", "elderberry"] },
-		{ code: "state", states: ["empty", "flowering", "ripe"] },
+		{ code: "state", states: ["empty", "flowering", "ripe"] }
 	],
 	creativeinventory: { "general": ["*"], "flora": ["*"], "wildcraft": ["*"] },
 	renderpass: "OpaqueNoCull",
@@ -39,13 +39,11 @@
 		"*": { base: "wildcraft:block/plant/berrybush/flowering/shrubberrybush_flowering*" },
 	},
 	blockmaterial: "Plant",
-	textures: {
-		"stems": { base: "wildcraft:block/plant/berrybush/small/leaves/{type}*" },
-	},
 	texturesByType: {
 		"*-empty": {
-			"stems": { base: "wildcraft:block/plant/berrybush/small/leaves/{type}*",
-			"berries": null }
+			"stems": { base: "wildcraft:block/plant/berrybush/small/leaves/{type}*" },
+			"berries": { base: "wildcraft:block/plant/berrybush/small/fruit/{type}*" }
+
 		},
 		"*-flowering": {
 			"berries": { base: "wildcraft:block/plant/berrybush/small/flower/{type}*", alternates: [{base: "wildcraft:block/plant/berrybush/small/flower/{type}*"}] },

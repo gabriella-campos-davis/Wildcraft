@@ -15,7 +15,7 @@
 			"from": [ 8.0, 0.0, 8.0 ], 
 			"to": [ 8.0, 1.0, 8.0 ], 
 			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
-			"rotationY": 157.5,
+			"rotationY": 112.5,
 			"faces": {
 				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 1.0 ] },
 				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 1.0 ] },
@@ -213,7 +213,7 @@
 					]
 				},
 				{
-					"name": "Berries19",
+					"name": "Berries9",
 					"from": [ -0.3188, 1.1043, -0.466 ], 
 					"to": [ 0.0812, 17.1043, 9.534 ], 
 					"climateColorMap": "",
@@ -232,13 +232,13 @@
 					},
 					"children": [
 						{
-							"name": "Berries20",
+							"name": "Berries10",
 							"from": [ -0.1, 0.0, 0.3 ], 
 							"to": [ 0.3, 16.0, 10.3 ], 
 							"climateColorMap": "",
 							"seasonColorMap": "",
 							"rotationOrigin": [ -0.1, 0.0, 5.3 ],
-							"rotationY": 89.98,
+							"rotationY": 22.5,
 							"faces": {
 								"north": { "texture": "#berries", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
 								"east": { "texture": "#berries", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0] },
@@ -251,7 +251,7 @@
 					]
 				},
 				{
-					"name": "Berries17",
+					"name": "Berries7",
 					"from": [ -4.2787, -0.1414, -2.7175 ], 
 					"to": [ -3.8787, 15.8586, 7.2825 ], 
 					"climateColorMap": "",
@@ -270,7 +270,7 @@
 					},
 					"children": [
 						{
-							"name": "Berries18",
+							"name": "Berries8",
 							"from": [ -0.1, 0.0, 0.3 ], 
 							"to": [ 0.3, 16.0, 10.3 ], 
 							"climateColorMap": "",
@@ -289,7 +289,7 @@
 					]
 				},
 				{
-					"name": "Berries15",
+					"name": "Berries5",
 					"from": [ -5.3188, -1.1043, -7.466 ], 
 					"to": [ -4.9188, 14.8957, 2.534 ], 
 					"climateColorMap": "",
@@ -308,7 +308,7 @@
 					},
 					"children": [
 						{
-							"name": "Berries16",
+							"name": "Berries6",
 							"from": [ -0.1, 0.0, 0.3 ], 
 							"to": [ 0.3, 16.0, 10.3 ], 
 							"climateColorMap": "",
@@ -327,7 +327,7 @@
 					]
 				},
 				{
-					"name": "Berries13",
+					"name": "Berries3",
 					"from": [ -0.3188, -0.9629, -6.5246 ], 
 					"to": [ 0.0812, 15.0371, 3.4754 ], 
 					"climateColorMap": "",
@@ -346,7 +346,7 @@
 					},
 					"children": [
 						{
-							"name": "Berries14",
+							"name": "Berries4",
 							"from": [ -0.1, 0.0, 0.3 ], 
 							"to": [ 0.3, 16.0, 10.3 ], 
 							"climateColorMap": "",

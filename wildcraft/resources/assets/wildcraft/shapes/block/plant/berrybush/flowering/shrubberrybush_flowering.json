@@ -212,7 +212,7 @@
 					]
 				},
 				{
-					"name": "Berries19",
+					"name": "Berries9",
 					"from": [ -0.3188, 1.1043, -0.466 ], 
 					"to": [ 0.0812, 17.1043, 9.534 ], 
 					"climateColorMap": "",
@@ -231,7 +231,7 @@
 					},
 					"children": [
 						{
-							"name": "Berries20",
+							"name": "Berries10",
 							"from": [ -0.1, 0.0, 0.3 ], 
 							"to": [ 0.3, 16.0, 10.3 ], 
 							"climateColorMap": "",
@@ -250,7 +250,7 @@
 					]
 				},
 				{
-					"name": "Berries17",
+					"name": "Berries7",
 					"from": [ -4.2787, -0.1414, -2.7175 ], 
 					"to": [ -3.8787, 15.8586, 7.2825 ], 
 					"climateColorMap": "",
@@ -269,7 +269,7 @@
 					},
 					"children": [
 						{
-							"name": "Berries18",
+							"name": "Berries8",
 							"from": [ -0.1, 0.0, 0.3 ], 
 							"to": [ 0.3, 16.0, 10.3 ], 
 							"climateColorMap": "",
@@ -288,7 +288,7 @@
 					]
 				},
 				{
-					"name": "Berries15",
+					"name": "Berries5",
 					"from": [ -5.3188, -1.1043, -7.466 ], 
 					"to": [ -4.9188, 14.8957, 2.534 ], 
 					"climateColorMap": "",
@@ -307,7 +307,7 @@
 					},
 					"children": [
 						{
-							"name": "Berries16",
+							"name": "Berries6",
 							"from": [ -0.1, 0.0, 0.3 ], 
 							"to": [ 0.3, 16.0, 10.3 ], 
 							"climateColorMap": "",
@@ -326,7 +326,7 @@
 					]
 				},
 				{
-					"name": "Berries13",
+					"name": "Berries3",
 					"from": [ -0.3188, -0.9629, -6.5246 ], 
 					"to": [ 0.0812, 15.0371, 3.4754 ], 
 					"climateColorMap": "",
@@ -345,7 +345,7 @@
 					},
 					"children": [
 						{
-							"name": "Berries14",
+							"name": "Berries4",
 							"from": [ -0.1, 0.0, 0.3 ], 
 							"to": [ 0.3, 16.0, 10.3 ], 
 							"climateColorMap": "",
