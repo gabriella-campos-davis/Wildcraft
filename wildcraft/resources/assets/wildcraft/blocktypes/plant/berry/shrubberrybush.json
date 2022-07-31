@@ -19,7 +19,7 @@
 		stopAboveTemperature: 30,
 		revertBlockAboveTemperature: 38,
 	},
-	entityclass: "BEWildcraftBerryBush",
+	entityclass: "BEShrubBerryBush",
 	behaviorsByType: {
 		"*-ripe": [ {name: "Harvestable", properties: { 
 			harvestTime: 0.6, 
@@ -35,7 +35,7 @@
 	renderpass: "OpaqueNoCull",
 	renderAlphaTest: 0.4,
 	shapeByType: {
-		"*-empty": { base: "wildcraft:block/plant/berrybush/flowering/shrubberrybush_flowering*", selectiveElements: ["Stems3/*", "Stems5/*", "Stems7/*", "Stems9/*", "middleStem/*"] },
+		"*-empty": { base: "wildcraft:block/plant/berrybush/flowering/shrubberrybush_flowering*", selectiveElements: ["Stems", "clipStem"] },
 		"*": { base: "wildcraft:block/plant/berrybush/flowering/shrubberrybush_flowering*" },
 	},
 	blockmaterial: "Plant",
@@ -43,7 +43,6 @@
 		"*-empty": {
 			"stems": { base: "wildcraft:block/plant/berrybush/small/leaves/{type}*" },
 			"berries": { base: "wildcraft:block/plant/berrybush/small/fruit/{type}*" }
-
 		},
 		"*-flowering": {
 			"berries": { base: "wildcraft:block/plant/berrybush/small/flower/{type}*", alternates: [{base: "wildcraft:block/plant/berrybush/small/flower/{type}*"}] },
