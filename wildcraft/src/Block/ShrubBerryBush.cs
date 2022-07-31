@@ -24,16 +24,19 @@ namespace wildcraft
             return prunedmeshes[rnd];
         }
 
-        private void genPrunedMeshes()
+        new private void genPrunedMeshes()
         {
             var capi = api as ICoreClientAPI;
 
             prunedmeshes = new MeshData[Shape.BakedAlternates.Length];
 
-            var selems = new string[] { "Berries", "Stems", "clipStem"};
+            var selems = new string[] { "Stem1/Leaves", "Stem1/Leaves2", "Stem3/Leaves5", "Stem3/Leaves6", "Stem1/Berries", "Stem1/Berries2", "Stem3/Berries5", "Stem3/Berries6"};
             if (State == "empty")
             {
-                selems = selems.Remove("Berries");
+                selems = selems.Remove("Stem1/Berries");
+                selems = selems.Remove("Stem1/Berries2");
+                selems = selems.Remove("Stem3/Berries5");
+                selems = selems.Remove("Stem3/Berries6");
             } 
 
             for (int i = 0; i < Shape.BakedAlternates.Length; i++)

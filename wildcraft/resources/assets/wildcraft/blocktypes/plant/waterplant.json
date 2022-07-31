@@ -8,27 +8,13 @@
 		climateColorMapForMap: "climatePlantTint", 
 		seasonColorMapForMap: "seasonalFoliage",
 		transientPropsByType: {
-			"waterplant-waterchestnut-ice-harvested-free": {
-				convertFrom: "waterplant-waterchestnut-ice-harvested-free", 
-				convertTo: "waterplant-waterchestnut-ice-normal-free", 
-				inGameHours: "200",
-				resetBelowTemperature: -8,
-				stopBelowTemperature: 2
-			},
-			"waterplant-waterchestnut-water-*": {
-				convertFrom: "*-harvested-{cover}", 
-				convertTo: "*-normal-{cover}", 
-				inGameHours: "168",
-				resetBelowTemperature: -8,
-				stopBelowTemperature: 2
-			},		
 			"waterplant-waterchestnut-*": {
 				convertFrom: "*-harvested-{cover}", 
-				convertTo: "*-normal-{cover}", 
+				convertTo: "waterplant-waterchestnut-land-normal-{cover}", 
 				inGameHours: "168",
 				resetBelowTemperature: -4,
 				stopBelowTemperature: 2
-			},
+			}
 		}
 	},
 	variantgroups: [
@@ -54,60 +40,16 @@
 		"waterplant-waterchestnut-*": { base: "wildcraft:block/plant/leafygroundvegetable/bushy_normal" }
 	},
 	drawtypeByType: {
-		"*-water-*": "JSONAndWater",
 		"*-snow": "JSONAndSnowLayer",
 		"*": "JSON"
 	},
-	liquidCodeByType: {
-		"*-water-*": "water"
-	},
-	renderpassByType: {
-		"*-water-*": "liquid",
-		"*": "OpaqueNoCull",
-	},
-	matterstateByType: {
-		"*-water-*": "liquid",
-		"*": "solid",
-	},
-	blockmaterialByType: {
-		"*-ice-*": "ice",
-		"*-water-*": "liquid",
-		"*": "plant"
-	},
-	faceCullModeByType: {
-		"*-ice-*": "callback",
-		"*-water-*": "liquid",
-		"*": "default"
-	},
-	liquidLevelByType: {
-		"*-water-*": 7
-	},
+	renderpass: "OpaqueNoCull",
+	matterstate: "solid",
+	blockmaterial: "plant",
+	faceCullMode: "default",
 	randomDrawOffset: true,
 	randomizeRotations: true,
 	texturesByType: {
-		"*-ice-*": {
-			"leaves": { base: "wildcraft:block/plant/leafygroundvegetable/{state}/{type}"  },
-			"leaves": { base: "wildcraft:block/plant/leafygroundvegetable/{state}/{type}" },
-			north: { base: "game:block/liquid/ice/lake*" },
-			east: { base: "game:block/liquid/ice/lake*" },
-			south: { base: "game:block/liquid/ice/lake*" },
-			west: { base: "game:block/liquid/ice/lake*" },
-			up: { base: "game:block/liquid/ice/lake*" },
-			down: { base: "game:block/liquid/ice/lake*" }
-		},
-		"*-water-*": {
-			north: { base: "game:block/liquid/water" },
-			east: { base: "game:block/liquid/water" },
-			south: { base: "game:block/liquid/water" },
-			west: { base: "game:block/liquid/water" },
-			up: { base: "game:block/liquid/water" },
-			down: { base: "game:block/liquid/water" },
-			specialSecondTexture: { base: "game:block/liquid/water2" },
-			"leaves": { base: "wildcraft:block/plant/leafygroundvegetable/{state}/{type}" },
-			"leaves": { base: "wildcraft:block/plant/leafygroundvegetable/{state}/{type}" },
-			"leaves": { base: "wildcraft:block/plant/leafygroundvegetable/{state}/{type}" },
-			"leaves": { base: "wildcraft:block/plant/leafygroundvegetable/{state}/{type}" }
-		},
 		"*": {
 			"leaves": { base: "wildcraft:block/plant/leafygroundvegetable/{state}/{type}}*" },
 			"leaves": { base: "wildcraft:block/plant/leafygroundvegetable/{state}/{type}" },
@@ -119,25 +61,13 @@
 		"*-snow": { all: false, down: true },
 		"*": { all: false }
 	},
-	sidesolidByType: {
-		"*-ice-*": { all: true },
-		"*": { all : false }
-	},
-	emitsideaoByType: {
-		"*-water-*": { all: true },
-		"*": { all: false },
-	},
+	sidesolid: { all : false },
+	emitsideao: { all: false },
 	sideao: { all: true },
 	replaceable: 3000,
-	lightAbsorptionByType: {
-		"*-water-*": 2,
-		"*": 0
-	},
+	lightAbsorption: 0,
 	resistance: 1,
-	collisionboxByType: {
-		"*-land-*": null,
-		"*-water-*": null,
-	},
+	collisionbox: null,
 	selectionbox: {
 		x1: 0, y1: 0, z1: 0,
 		x2: 1, y2: 1, z2: 1
@@ -145,34 +75,15 @@
 	guitransform: {
 		rotation: { x: 0, y: 0, z: 0 }
 	},
-	soundsByType: {
-		"*-ice-*": {
-			break: "game:block/plant",
-			hit: "game:block/plant",
-			walk: "game:walk/ice"
-		},
-		"*-water": {
-			place: "game:block/plant",
-			break: "game:block/plant",
-			hit: "game:block/plant",
-			inside: "game:walk/water"
-		},
-		"*": {
-			place: "game:block/plant",
-			break: "game:block/plant",
-			hit: "game:block/plant"
-		},
+	sounds: {
+		place: "game:block/plant",
+		break: "game:block/plant",
+		hit: "game:block/plant"
 	},
 	rainPermeableByType: {
 		"*-land-*": true
 	},
 	materialDensity: 200,
-	vertexFlagsByType: {
-		"*-ice-*": { zOffset: 1 }
-	},
-	dragMultiplierByType: {
-		"*-ice": 0.02,
-	},
 	frostable: true,
 	combustibleProps: {
 		burnTemperature: 600,

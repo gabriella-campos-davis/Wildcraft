@@ -55,7 +55,7 @@
 		}} ]
 	},
 	variantgroups: [
-		{ code: "type", states: ["huckleberry", "gooseberry", "honeysuckle"] },
+		{ code: "type", states: ["huckleberry", "gooseberry", "honeysuckle", "snowberry"] },
 		{ code: "state", states: ["empty", "flowering", "ripe"] }
 	],
 	creativeinventory: { "general": ["*"], "flora": ["*"], "wildcraft": ["*"] },
