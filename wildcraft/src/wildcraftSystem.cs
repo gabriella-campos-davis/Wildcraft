@@ -1,6 +1,7 @@
 using Vintagestory.API.Common;
 using Vintagestory.API.Server;
 using Vintagestory.API.Client;
+using Vintagestory.API.MathTools;
 using wildcraft.Gui;
 using wildcraft.config;
 using BuffStuff;
@@ -19,23 +20,32 @@ namespace wildcraft
             return true;
         }
 
+        // Stuff for rhizomes, seeds for random number calls etc
+        ICoreAPI Api;
+        public static LCGRandom lcgrnd;
+        public static NormalRandom rndn;
+
         public override void Start(ICoreAPI api)
         {
             base.Start(api);
             api.RegisterBlockClass("WildcraftBerryBush", typeof(WildcraftBerryBush));
             api.RegisterBlockClass("PricklyBerryBush", typeof(PricklyBerryBush));
             api.RegisterBlockClass("ShrubBerryBush", typeof(ShrubBerryBush));
-            api.RegisterBlockClass("LeafyGroundVegetable", typeof(LeafyGroundVegetable));
 
-            api.RegisterBlockEntityClass("BEClipping", typeof(BEClipping));
-            api.RegisterBlockEntityClass("BESeedling", typeof(BESeedling));
+            api.RegisterBlockClass("WildcraftPlant", typeof(WildcraftPlant));
+            api.RegisterBlockClass("RhizomatusPlant", typeof(RhizomatusPlant));
+
             api.RegisterBlockEntityClass("BEWildcraftBerryBush", typeof(BEWildcraftBerryBush));
             api.RegisterBlockEntityClass("BEShrubBerryBush", typeof(BEShrubBerryBush));
             api.RegisterBlockEntityClass("BETallBerryBush", typeof(BETallBerryBush));
+            api.RegisterBlockEntityClass("BEClipping", typeof(BEClipping));
+
+            api.RegisterBlockEntityClass("BEWildcraftRhizome", typeof(BEWildcraftRhizome));
+            api.RegisterBlockEntityClass("BESeedling", typeof(BESeedling));
 
             api.RegisterItemClass("ItemClipping", typeof(ItemClipping));
             api.RegisterItemClass("ItemHerbSeed", typeof(ItemHerbSeed));
-            api.RegisterItemClass("ItemWCPoultice", typeof(ItemWCPoultice));
+            api.RegisterItemClass("WildcraftPoultice", typeof(WildcraftPoultice));
 
             try
             {
@@ -58,23 +68,32 @@ namespace wildcraft
             }
             finally
             {
+                if (WildcraftConfig.Current.plantsCanDamage == null)
+                    WildcraftConfig.Current.plantsCanDamage = WildcraftConfig.GetDefault().plantsCanDamage;
+
+                if (WildcraftConfig.Current.plantsCanPoison == null)
+                    WildcraftConfig.Current.plantsCanPoison = WildcraftConfig.GetDefault().plantsCanPoison;
+
+                if (WildcraftConfig.Current.plantsWillDamage == null)
+                    WildcraftConfig.Current.plantsWillDamage = WildcraftConfig.GetDefault().plantsWillDamage;
+
+                if (WildcraftConfig.Current.berryBushCanDamage == null)
+                    WildcraftConfig.Current.berryBushCanDamage = WildcraftConfig.GetDefault().berryBushCanDamage;
+
                 if (WildcraftConfig.Current.berryBushDamage == null)
                     WildcraftConfig.Current.berryBushDamage = WildcraftConfig.GetDefault().berryBushDamage;
 
                 if (WildcraftConfig.Current.berryBushDamageTick == null)
                     WildcraftConfig.Current.berryBushDamageTick = WildcraftConfig.GetDefault().berryBushDamageTick;
 
-                if (WildcraftConfig.Current.plantsWillDamage == null)
-                    WildcraftConfig.Current.plantsWillDamage = WildcraftConfig.GetDefault().plantsWillDamage;
+                if (WildcraftConfig.Current.berryBushWillDamage == null)
+                    WildcraftConfig.Current.berryBushWillDamage = WildcraftConfig.GetDefault().berryBushWillDamage;
 
                 if (WildcraftConfig.Current.useKnifeForClipping == null)
                     WildcraftConfig.Current.useKnifeForClipping = WildcraftConfig.GetDefault().useKnifeForClipping;
 
                 if (WildcraftConfig.Current.useShearsForClipping == null)
                     WildcraftConfig.Current.useShearsForClipping = WildcraftConfig.GetDefault().useShearsForClipping;
-
-                if (WildcraftConfig.Current.plantsCanPoison == null)
-                    WildcraftConfig.Current.plantsCanPoison = WildcraftConfig.GetDefault().plantsCanPoison;
 
                 if (WildcraftConfig.Current.poulticeHealOverTime == null)
                     WildcraftConfig.Current.poulticeHealOverTime = WildcraftConfig.GetDefault().poulticeHealOverTime;
@@ -85,8 +104,7 @@ namespace wildcraft
         public override void StartServerSide(ICoreServerAPI api)
         {
             BuffManager.Initialize(api, this);
-            BuffManager.RegisterBuffType("StingingNettle", typeof(StingingNettle));
-            BuffManager.RegisterBuffType("PoisonOak", typeof(PoisonOak));
+            BuffManager.RegisterBuffType("RashDebuff", typeof(RashDebuff));
             BuffManager.RegisterBuffType("PoulticeBuff", typeof(PoulticeBuff));
         }
 

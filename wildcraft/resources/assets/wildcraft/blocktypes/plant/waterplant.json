@@ -36,7 +36,6 @@
    		"wildcraft": [ "*-land-normal-free" ]
 	},
 	shapeByType: {
-		"waterplant-waterchestnut-ice-*": { base: "wildcraft:block/plant/leafygroundvegetable/bushy_ice" },
 		"waterplant-waterchestnut-*": { base: "wildcraft:block/plant/leafygroundvegetable/bushy_normal" }
 	},
 	drawtypeByType: {

@@ -12,12 +12,17 @@ namespace wildcraft
 {
     public class PricklyBerryBush : WildcraftBerryBush
     {
-        public string[] willDamage = WildcraftConfig.Current.plantsWillDamage;
+        public bool canDamage = WildcraftConfig.Current.berryBushCanDamage;
+        public string[] willDamage = WildcraftConfig.Current.berryBushWillDamage;
         public float dmg = WildcraftConfig.Current.berryBushDamage;
         public float dmgTick = WildcraftConfig.Current.berryBushDamageTick;
         
         public override void OnEntityInside(IWorldAccessor world, Entity entity, BlockPos pos)
         {
+            if(!canDamage)
+            {
+                return;
+            }
             if(entity == null)
             {
                 return;

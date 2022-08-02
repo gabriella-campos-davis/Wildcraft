@@ -1,6 +1,6 @@
 {
   "code": "simplepoultice",
-  "class": "ItemWCPoultice",
+  "class": "WildcraftPoultice",
   "attributes": {
     "healthByType": {
       "@.*-reed-(stjohnswort|inula)": 2,

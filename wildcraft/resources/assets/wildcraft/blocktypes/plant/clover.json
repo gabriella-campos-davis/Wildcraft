@@ -41,19 +41,14 @@
     "forageStatAffected": true,
   },
   "texturesByType": {
+	"*-m"
   },
 	"creativeinventory": {
     "general": ["*"],
     "flora": ["*"],
     "wildcraft": [ "*" ]
   },
-  "shapeByType": {
-    "*-clover-flowering": {"base": "wildcraft:block/plant/clover/clover_flowering"},
-    "*-clover-normal": {"base": "wildcraft:block/plant/clover/clover_normal"},
-
-    "*-caltha-flowering": {"base": "wildcraft:block/plant/clover/caltha_flowering"},
-    "*-caltha-normal": {"base": "wildcraft:block/plant/clover/caltha_normal"}
-  },
+  "shape": "wildcraft:block/plant/clover/clover",
 	"renderpass": "OpaqueNoCull",
 	"renderAlphaTest": 0.4,
 	"blockmaterial": "Plant",
