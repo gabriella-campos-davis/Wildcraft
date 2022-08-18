@@ -1,6 +1,6 @@
 {
 	"code": "seeds",
-	"class": "ItemClipping",
+	"class": "ItemBerrySeed",
 	"attributes": {},
 	"maxstacksize": 64,
 	"variantgroups": [

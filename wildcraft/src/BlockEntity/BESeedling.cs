@@ -18,10 +18,15 @@ namespace wildcraft
     {
         double totalHoursTillGrowth;
         long growListenerId;
-        
+        public string plantCode;
+        Block block;
+
         public override void Initialize(ICoreAPI api)
         {
             base.Initialize(api);
+
+            block = api.World.BlockAccessor.GetBlock(Pos);
+            plantCode = block.Attributes["plantCode"].ToString();
 
             if (api is ICoreServerAPI)
             {
@@ -73,17 +78,7 @@ namespace wildcraft
                 return;
             }
 
-            string herbtype = this.Block.Variant["wildflora"].ToString();
-            if(herbtype == null){
-                return;
-            }
-
-            Block herbBlock;
-            if(herbtype == "waterchestnut"){
-                herbBlock = Api.World.GetBlock(AssetLocation.Create("wildcraft:waterplant-" + herbtype + "-land-harvested-free", "wildcraft"));
-            } else {
-                herbBlock= Api.World.GetBlock(AssetLocation.Create("wildcraft:leafygroundvegetable-" + herbtype + "-harvested", "wildcraft"));
-            }
+            Block herbBlock = Api.World.GetBlock(AssetLocation.Create(plantCode));
 
             Api.World.BlockAccessor.SetBlock(herbBlock.BlockId, Pos);
         }

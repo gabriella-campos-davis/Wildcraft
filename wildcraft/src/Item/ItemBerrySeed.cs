@@ -8,9 +8,9 @@ using Vintagestory.API.Util;
 
 namespace wildcraft
 {
-    public class ItemHerbSeed : Item
+    public class ItemBerrySeed : Item
     {
-        Block herbBlock;
+        Block berryBlock;
         Block block;
 
 
@@ -55,11 +55,10 @@ namespace wildcraft
                 return;
             }
 
-            string herbtype = Variant["herbs"].ToString();
-            api.Logger.Debug(herbtype);
-            herbBlock = byEntity.Api.World.GetBlock(AssetLocation.Create("wildcraft:seedling-" + herbtype + "-planted"));
+            string berrytype = Variant["type"].ToString();
+            berryBlock = byEntity.Api.World.GetBlock(AssetLocation.Create("wildcraft:groundberryseedling-" + berrytype + "-planted"));
 
-            if (herbBlock != null)
+            if (berryBlock != null)
             {
                 IPlayer byPlayer = null;
                 if (byEntity is EntityPlayer)
@@ -69,7 +68,7 @@ namespace wildcraft
                 blockSel.Position.Up();
 
                 string failureCode = "";
-                if (!herbBlock.TryPlaceBlock(api.World, byPlayer, itemslot.Itemstack, blockSel, ref failureCode))
+                if (!berryBlock.TryPlaceBlock(api.World, byPlayer, itemslot.Itemstack, blockSel, ref failureCode))
                 {
                     if (api is ICoreClientAPI capi && failureCode != null && failureCode != "__ignore__")
                     {

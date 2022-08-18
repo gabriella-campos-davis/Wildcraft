@@ -5,7 +5,7 @@
 		"*-harvested": "Transient"
 	},
 	"variantgroups": [
-		{ "code": "type", "states": ["bearleek", "chamomile", "dock", "marjoram", "marshmallow", "mint","saffron", "stingingnettle", "stjohnswort", "mugwort", "inula", "celandine", "leek", "plantain", "yarrow"] },
+		{ "code": "type", "states": ["bearleek", "marjoram", "sage", "sedge", "marshmallow", "mint", "saffron", "stjohnswort", "mugwort", "inula", "celandine", "leek", "plantain", "yarrow"] },
 		{ "code": "state", "states": ["harvested", "normal"] }
 	],
 	"attributes": {

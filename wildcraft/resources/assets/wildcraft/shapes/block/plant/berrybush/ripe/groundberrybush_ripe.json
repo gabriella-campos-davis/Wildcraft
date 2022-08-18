@@ -11,223 +11,274 @@
 	},
 	"elements": [
 		{
-			"name": "Berries",
-			"from": [ 13.0, 0.0, 5.5 ], 
-			"to": [ 13.0, 4.0, 8.5 ], 
-			"climateColorMap": "",
-			"seasonColorMap": "",
-			"rotationOrigin": [ 13.0, 0.0, 7.0 ],
+			"name": "base",
+			"from": [ 12.0, 0.0, 11.0 ], 
+			"to": [ 12.0, 0.0, 11.0 ], 
+			"shade": false,
+			"renderPass": 2,
+			"rotationOrigin": [ 12.0, 0.0, 11.0 ],
+			"rotationY": -57.0,
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+			},
+			"children": [
+				{
+					"name": "leaf1",
+					"from": [ -4.0, 0.0, -0.5 ], 
+					"to": [ 4.0, 0.0, 7.5 ], 
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "seasonalMaple",
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 0.0, 0.0, -0.5 ],
+					"rotationX": -25.0,
+					"faces": {
+						"north": { "texture": "#leaves", "uv": [ 0.0, 0.0, 8.0, 1.0 ], "enabled": false },
+						"east": { "texture": "#leaves", "uv": [ 0.0, 0.0, 8.0, 1.0 ], "enabled": false },
+						"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 8.0, 1.0 ], "enabled": false },
+						"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 8.0, 1.0 ], "enabled": false },
+						"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "rotation": 180, "autoUv": false, "windMode": [1,0,0,1] },
+						"down": { "texture": "#leaves", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "leaf2",
+					"from": [ -4.0, 0.0, -7.5 ], 
+					"to": [ 4.0, 0.0, 0.5 ], 
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "seasonalMaple",
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 0.0, 0.0, 0.5 ],
+					"rotationX": 25.0,
+					"faces": {
+						"north": { "texture": "#leaves", "uv": [ 0.0, 0.0, 8.0, 1.0 ], "enabled": false },
+						"east": { "texture": "#leaves", "uv": [ 0.0, 0.0, 8.0, 1.0 ], "enabled": false },
+						"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 8.0, 1.0 ], "enabled": false },
+						"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 8.0, 1.0 ], "enabled": false },
+						"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,1,1,0] },
+						"down": { "texture": "#leaves", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "berry1",
+					"from": [ -3.25, 0.0, 0.0 ], 
+					"to": [ 3.25, 4.5, 0.0 ], 
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": -45.0,
+					"faces": {
+						"north": { "texture": "#berries", "uv": [ 0.0, 0.0, 6.0, 4.0 ], "enabled": false },
+						"east": { "texture": "#berries", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "enabled": false },
+						"south": { "texture": "#berries", "uv": [ 1.0, 7.0, 14.0, 16.0 ], "autoUv": false, "windMode": [0,1,1,0] },
+						"west": { "texture": "#berries", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "enabled": false },
+						"up": { "texture": "#berries", "uv": [ 0.0, 0.0, 6.0, 1.0 ], "enabled": false },
+						"down": { "texture": "#berries", "uv": [ 0.0, 0.0, 6.0, 1.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "berry2",
+					"from": [ -3.25, 0.0, 0.0 ], 
+					"to": [ 3.25, 4.5, 0.0 ], 
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": 45.0,
+					"faces": {
+						"north": { "texture": "#berries", "uv": [ 0.0, 0.0, 6.0, 4.0 ], "enabled": false },
+						"east": { "texture": "#berries", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "enabled": false },
+						"south": { "texture": "#berries", "uv": [ 1.0, 7.0, 14.0, 16.0 ], "autoUv": false, "windMode": [0,1,1,0] },
+						"west": { "texture": "#berries", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "enabled": false },
+						"up": { "texture": "#berries", "uv": [ 0.0, 0.0, 6.0, 1.0 ], "enabled": false },
+						"down": { "texture": "#berries", "uv": [ 0.0, 0.0, 6.0, 1.0 ], "enabled": false }
+					}
+				}
+			]
+		},
+		{
+			"name": "base6",
+			"from": [ 8.5, 0.0, 4.0 ], 
+			"to": [ 8.5, 0.0, 4.0 ], 
+			"shade": false,
+			"renderPass": 2,
+			"rotationOrigin": [ 8.0, 0.0, 4.0 ],
 			"rotationY": 67.5,
 			"faces": {
-				"north": { "texture": "#berries", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
-				"east": { "texture": "#berries", "uv": [ 5.0, 4.0, 11.0, 12.0 ], "autoUv": false, "windMode": [0,1,1,0] },
-				"south": { "texture": "#berries", "uv": [ 0.0, 0.0, 0.5, 4.0 ], "enabled": false },
-				"west": { "texture": "#berries", "uv": [ 0.0, 0.0, 2.0, 4.0 ], "enabled": false },
-				"up": { "texture": "#berries", "uv": [ 2.0, 0.0, 4.0, 2.0 ], "enabled": false },
-				"down": { "texture": "#berries", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "enabled": false }
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
 			},
 			"children": [
 				{
-					"name": "Leaves2",
-					"from": [ 0.7071, 1.7, -2.0355 ], 
-					"to": [ 4.7071, 1.7, 1.9645 ], 
+					"name": "leaf7",
+					"from": [ -4.0, 0.0, -0.5 ], 
+					"to": [ 4.0, 0.0, 7.5 ], 
 					"climateColorMap": "climatePlantTint",
-					"seasonColorMap": "seasonalFoliage",
-					"rotationOrigin": [ 0.7071, -0.3, -2.0355 ],
-					"rotationX": 30.361,
-					"rotationY": -40.789,
-					"rotationZ": 20.941,
+					"seasonColorMap": "seasonalMaple",
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 0.0, 0.0, -0.5 ],
+					"rotationX": -25.0,
 					"faces": {
-						"north": { "texture": "#leaves", "uv": [ 0.0, 18.0, 16.0, 34.0 ], "enabled": false, "autoUv": false },
-						"east": { "texture": "#leaves", "uv": [ 0.0, -17.5, 16.0, -2.0 ], "enabled": false, "autoUv": false },
-						"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
-						"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
-						"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [1,0,0,1] },
-						"down": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false }
+						"north": { "texture": "#leaves", "uv": [ 0.0, 0.0, 8.0, 1.0 ], "enabled": false },
+						"east": { "texture": "#leaves", "uv": [ 0.0, 0.0, 8.0, 1.0 ], "enabled": false },
+						"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 8.0, 1.0 ], "enabled": false },
+						"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 8.0, 1.0 ], "enabled": false },
+						"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "rotation": 180, "autoUv": false, "windMode": [1,0,0,1] },
+						"down": { "texture": "#leaves", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "enabled": false }
 					}
 				},
 				{
-					"name": "Leaves",
-					"from": [ -0.7071, 0.0, -0.6213 ], 
-					"to": [ 3.2929, 0.0, 3.3787 ], 
+					"name": "leaf8",
+					"from": [ -4.0, 0.0, -7.5 ], 
+					"to": [ 4.0, 0.0, 0.5 ], 
 					"climateColorMap": "climatePlantTint",
-					"seasonColorMap": "seasonalFoliage",
-					"rotationOrigin": [ -0.7071, 0.0, -0.6213 ],
-					"rotationX": -30.361,
-					"rotationY": -40.789,
-					"rotationZ": -20.941,
+					"seasonColorMap": "seasonalMaple",
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 0.0, 0.0, 0.5 ],
+					"rotationX": 25.0,
 					"faces": {
-						"north": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.5 ], "enabled": false, "autoUv": false },
-						"east": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
-						"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
-						"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
+						"north": { "texture": "#leaves", "uv": [ 0.0, 0.0, 8.0, 1.0 ], "enabled": false },
+						"east": { "texture": "#leaves", "uv": [ 0.0, 0.0, 8.0, 1.0 ], "enabled": false },
+						"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 8.0, 1.0 ], "enabled": false },
+						"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 8.0, 1.0 ], "enabled": false },
 						"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,1,1,0] },
-						"down": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false }
+						"down": { "texture": "#leaves", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "enabled": false }
 					}
 				},
 				{
-					"name": "Berries2",
-					"from": [ -0.0024, 0.0, 0.0054 ], 
-					"to": [ -0.0024, 4.0, 3.0054 ], 
-					"climateColorMap": "",
-					"seasonColorMap": "",
-					"rotationOrigin": [ 0.0, 0.0, 1.5 ],
-					"rotationY": -89.972,
+					"name": "berry9",
+					"from": [ -3.25, 0.0, 0.0 ], 
+					"to": [ 3.25, 4.5, 0.0 ], 
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": -45.0,
 					"faces": {
-						"north": { "texture": "#berries", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "enabled": false },
-						"east": { "texture": "#berries", "uv": [ 5.0, 4.0, 11.0, 12.0 ], "autoUv": false, "windMode": [0,1,1,0] },
-						"south": { "texture": "#berries", "uv": [ 0.0, 0.0, 0.5, 4.0 ], "enabled": false },
-						"west": { "texture": "#berries", "uv": [ 0.5, 0.0, 3.5, 4.0 ], "enabled": false },
-						"up": { "texture": "#berries", "uv": [ 0.0, 0.0, 0.5, 3.0 ], "enabled": false },
-						"down": { "texture": "#berries", "uv": [ 0.0, 0.0, 0.5, 3.0 ], "enabled": false }
+						"north": { "texture": "#berries", "uv": [ 0.0, 0.0, 6.0, 4.0 ], "enabled": false },
+						"east": { "texture": "#berries", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "enabled": false },
+						"south": { "texture": "#berries", "uv": [ 1.0, 7.0, 14.0, 16.0 ], "autoUv": false, "windMode": [0,1,1,0] },
+						"west": { "texture": "#berries", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "enabled": false },
+						"up": { "texture": "#berries", "uv": [ 0.0, 0.0, 6.0, 1.0 ], "enabled": false },
+						"down": { "texture": "#berries", "uv": [ 0.0, 0.0, 6.0, 1.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "berry10",
+					"from": [ -3.25, 0.0, 0.0 ], 
+					"to": [ 3.25, 4.5, 0.0 ], 
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": 45.0,
+					"faces": {
+						"north": { "texture": "#berries", "uv": [ 0.0, 0.0, 6.0, 4.0 ], "enabled": false },
+						"east": { "texture": "#berries", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "enabled": false },
+						"south": { "texture": "#berries", "uv": [ 1.0, 7.0, 14.0, 16.0 ], "autoUv": false, "windMode": [0,1,1,0] },
+						"west": { "texture": "#berries", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "enabled": false },
+						"up": { "texture": "#berries", "uv": [ 0.0, 0.0, 6.0, 1.0 ], "enabled": false },
+						"down": { "texture": "#berries", "uv": [ 0.0, 0.0, 6.0, 1.0 ], "enabled": false }
 					}
 				}
 			]
 		},
 		{
-			"name": "Berries5",
-			"from": [ 3.0, 0.0, 10.5 ], 
-			"to": [ 3.0, 4.0, 13.5 ], 
-			"climateColorMap": "",
-			"seasonColorMap": "",
-			"rotationOrigin": [ 3.0, 0.0, 12.0 ],
-			"rotationY": -22.5,
+			"name": "base11",
+			"from": [ 4.5, 0.0, 10.0 ], 
+			"to": [ 4.5, 0.0, 10.0 ], 
+			"shade": false,
+			"renderPass": 2,
+			"rotationOrigin": [ 4.0, 0.0, 10.0 ],
+			"rotationY": -145.0,
 			"faces": {
-				"north": { "texture": "#berries", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
-				"east": { "texture": "#berries", "uv": [ 5.0, 4.0, 11.0, 12.0 ], "autoUv": false, "windMode": [0,1,1,0] },
-				"south": { "texture": "#berries", "uv": [ 0.0, 0.0, 0.5, 4.0 ], "enabled": false },
-				"west": { "texture": "#berries", "uv": [ 0.0, 0.0, 2.0, 4.0 ], "enabled": false },
-				"up": { "texture": "#berries", "uv": [ 2.0, 0.0, 4.0, 2.0 ], "enabled": false },
-				"down": { "texture": "#berries", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "enabled": false }
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
 			},
 			"children": [
 				{
-					"name": "Leaves6",
-					"from": [ 0.7071, 1.7, -2.0355 ], 
-					"to": [ 4.7071, 1.7, 1.9645 ], 
+					"name": "leaf12",
+					"from": [ -4.0, 0.0, -0.5 ], 
+					"to": [ 4.0, 0.0, 7.5 ], 
 					"climateColorMap": "climatePlantTint",
-					"seasonColorMap": "seasonalFoliage",
-					"rotationOrigin": [ 0.7071, -0.3, -2.0355 ],
-					"rotationX": 30.361,
-					"rotationY": -40.789,
-					"rotationZ": 20.941,
+					"seasonColorMap": "seasonalMaple",
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 0.0, 0.0, -0.5 ],
+					"rotationX": -25.0,
 					"faces": {
-						"north": { "texture": "#leaves", "uv": [ 0.0, 18.0, 16.0, 34.0 ], "enabled": false, "autoUv": false },
-						"east": { "texture": "#leaves", "uv": [ 0.0, -17.5, 16.0, -2.0 ], "enabled": false, "autoUv": false },
-						"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
-						"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
-						"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [1,0,0,1] },
-						"down": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false }
+						"north": { "texture": "#leaves", "uv": [ 0.0, 0.0, 8.0, 1.0 ], "enabled": false },
+						"east": { "texture": "#leaves", "uv": [ 0.0, 0.0, 8.0, 1.0 ], "enabled": false },
+						"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 8.0, 1.0 ], "enabled": false },
+						"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 8.0, 1.0 ], "enabled": false },
+						"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "rotation": 180, "autoUv": false, "windMode": [1,0,0,1] },
+						"down": { "texture": "#leaves", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "enabled": false }
 					}
 				},
 				{
-					"name": "Leaves7",
-					"from": [ -0.7071, 0.0, -0.6213 ], 
-					"to": [ 3.2929, 0.0, 3.3787 ], 
+					"name": "leaf13",
+					"from": [ -4.0, 0.0, -7.5 ], 
+					"to": [ 4.0, 0.0, 0.5 ], 
 					"climateColorMap": "climatePlantTint",
-					"seasonColorMap": "seasonalFoliage",
-					"rotationOrigin": [ -0.7071, 0.0, -0.6213 ],
-					"rotationX": -30.361,
-					"rotationY": -40.789,
-					"rotationZ": -20.941,
+					"seasonColorMap": "seasonalMaple",
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 0.0, 0.0, 0.5 ],
+					"rotationX": 25.0,
 					"faces": {
-						"north": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.5 ], "enabled": false, "autoUv": false },
-						"east": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
-						"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
-						"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
+						"north": { "texture": "#leaves", "uv": [ 0.0, 0.0, 8.0, 1.0 ], "enabled": false },
+						"east": { "texture": "#leaves", "uv": [ 0.0, 0.0, 8.0, 1.0 ], "enabled": false },
+						"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 8.0, 1.0 ], "enabled": false },
+						"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 8.0, 1.0 ], "enabled": false },
 						"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,1,1,0] },
-						"down": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false }
+						"down": { "texture": "#leaves", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "enabled": false }
 					}
 				},
 				{
-					"name": "Berries8",
-					"from": [ -0.0024, 0.0, 0.0054 ], 
-					"to": [ -0.0024, 4.0, 3.0054 ], 
-					"climateColorMap": "",
-					"seasonColorMap": "",
-					"rotationOrigin": [ 0.0, 0.0, 1.5 ],
-					"rotationY": -89.972,
+					"name": "berry14",
+					"from": [ -3.25, 0.0, 0.0 ], 
+					"to": [ 3.25, 4.5, 0.0 ], 
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": -45.0,
 					"faces": {
-						"north": { "texture": "#berries", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "enabled": false },
-						"east": { "texture": "#berries", "uv": [ 5.0, 4.0, 11.0, 12.0 ], "autoUv": false, "windMode": [0,1,1,0] },
-						"south": { "texture": "#berries", "uv": [ 0.0, 0.0, 0.5, 4.0 ], "enabled": false },
-						"west": { "texture": "#berries", "uv": [ 0.5, 0.0, 3.5, 4.0 ], "enabled": false },
-						"up": { "texture": "#berries", "uv": [ 0.0, 0.0, 0.5, 3.0 ], "enabled": false },
-						"down": { "texture": "#berries", "uv": [ 0.0, 0.0, 0.5, 3.0 ], "enabled": false }
-					}
-				}
-			]
-		},
-		{
-			"name": "Berries9",
-			"from": [ 6.0, 0.0, 2.5 ], 
-			"to": [ 6.0, 4.0, 5.5 ], 
-			"climateColorMap": "",
-			"seasonColorMap": "",
-			"rotationOrigin": [ 6.0, 0.0, 4.0 ],
-			"rotationY": 112.5,
-			"faces": {
-				"north": { "texture": "#berries", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
-				"east": { "texture": "#berries", "uv": [ 5.0, 4.0, 11.0, 12.0 ], "autoUv": false, "windMode": [0,1,1,0] },
-				"south": { "texture": "#berries", "uv": [ 0.0, 0.0, 0.5, 4.0 ], "enabled": false },
-				"west": { "texture": "#berries", "uv": [ 0.0, 0.0, 2.0, 4.0 ], "enabled": false },
-				"up": { "texture": "#berries", "uv": [ 2.0, 0.0, 4.0, 2.0 ], "enabled": false },
-				"down": { "texture": "#berries", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "enabled": false }
-			},
-			"children": [
-				{
-					"name": "Leaves10",
-					"from": [ 0.7071, 1.7, -2.0355 ], 
-					"to": [ 4.7071, 1.7, 1.9645 ], 
-					"climateColorMap": "climatePlantTint",
-					"seasonColorMap": "seasonalFoliage",
-					"rotationOrigin": [ 0.7071, -0.3, -2.0355 ],
-					"rotationX": 30.361,
-					"rotationY": -40.789,
-					"rotationZ": 20.941,
-					"faces": {
-						"north": { "texture": "#leaves", "uv": [ 0.0, 18.0, 16.0, 34.0 ], "enabled": false, "autoUv": false },
-						"east": { "texture": "#leaves", "uv": [ 0.0, -17.5, 16.0, -2.0 ], "enabled": false, "autoUv": false },
-						"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
-						"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
-						"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [1,0,0,1] },
-						"down": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false }
+						"north": { "texture": "#berries", "uv": [ 0.0, 0.0, 6.0, 4.0 ], "enabled": false },
+						"east": { "texture": "#berries", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "enabled": false },
+						"south": { "texture": "#berries", "uv": [ 1.0, 7.0, 14.0, 16.0 ], "autoUv": false, "windMode": [0,1,1,0] },
+						"west": { "texture": "#berries", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "enabled": false },
+						"up": { "texture": "#berries", "uv": [ 0.0, 0.0, 6.0, 1.0 ], "enabled": false },
+						"down": { "texture": "#berries", "uv": [ 0.0, 0.0, 6.0, 1.0 ], "enabled": false }
 					}
 				},
 				{
-					"name": "Leaves11",
-					"from": [ -0.7071, 0.0, -0.6213 ], 
-					"to": [ 3.2929, 0.0, 3.3787 ], 
-					"climateColorMap": "climatePlantTint",
-					"seasonColorMap": "seasonalFoliage",
-					"rotationOrigin": [ -0.7071, 0.0, -0.6213 ],
-					"rotationX": -30.361,
-					"rotationY": -40.789,
-					"rotationZ": -20.941,
+					"name": "berry15",
+					"from": [ -3.25, 0.0, 0.0 ], 
+					"to": [ 3.25, 4.5, 0.0 ], 
+					"shade": false,
+					"renderPass": 2,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": 45.0,
 					"faces": {
-						"north": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.5 ], "enabled": false, "autoUv": false },
-						"east": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
-						"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
-						"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false },
-						"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,1,1,0] },
-						"down": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "autoUv": false }
-					}
-				},
-				{
-					"name": "Berries12",
-					"from": [ -0.0024, 0.0, 0.0054 ], 
-					"to": [ -0.0024, 4.0, 3.0054 ], 
-					"climateColorMap": "",
-					"seasonColorMap": "",
-					"rotationOrigin": [ 0.0, 0.0, 1.5 ],
-					"rotationY": -89.972,
-					"faces": {
-						"north": { "texture": "#berries", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "enabled": false },
-						"east": { "texture": "#berries", "uv": [ 5.0, 4.0, 11.0, 12.0 ], "autoUv": false, "windMode": [0,1,1,0] },
-						"south": { "texture": "#berries", "uv": [ 0.0, 0.0, 0.5, 4.0 ], "enabled": false },
-						"west": { "texture": "#berries", "uv": [ 0.5, 0.0, 3.5, 4.0 ], "enabled": false },
-						"up": { "texture": "#berries", "uv": [ 0.0, 0.0, 0.5, 3.0 ], "enabled": false },
-						"down": { "texture": "#berries", "uv": [ 0.0, 0.0, 0.5, 3.0 ], "enabled": false }
+						"north": { "texture": "#berries", "uv": [ 0.0, 0.0, 6.0, 4.0 ], "enabled": false },
+						"east": { "texture": "#berries", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "enabled": false },
+						"south": { "texture": "#berries", "uv": [ 1.0, 7.0, 14.0, 16.0 ], "autoUv": false, "windMode": [0,1,1,0] },
+						"west": { "texture": "#berries", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "enabled": false },
+						"up": { "texture": "#berries", "uv": [ 0.0, 0.0, 6.0, 1.0 ], "enabled": false },
+						"down": { "texture": "#berries", "uv": [ 0.0, 0.0, 6.0, 1.0 ], "enabled": false }
 					}
 				}
 			]

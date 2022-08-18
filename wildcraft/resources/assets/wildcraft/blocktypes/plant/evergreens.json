@@ -1,28 +1,14 @@
 {
-	"code": "annualplant",
-	"class":"RhizomatusPlant",
+	"code": "evergreenplant",
+	"class":"WildcraftPlant",
 	"entityClassByType": {
 		"*-harvested": "Transient"
 	},
 	"variantgroups": [
-		{ "code": "type", "states": ["basil", "blackpepper", "celery", "chamomile", "cilantro", "dill", "dock", "mustard", "stingingnettle", "burdock", "chicory","marigold", "saltwort","liquorice"]},
+		{ "code": "type", "states": ["lavender","rosemary", "thyme", "holly", "poisonoak"]},
 		{ "code": "state", "states": ["harvested", "normal"] }
 	],
 	"attributes": {
-    "WildcraftRhizomeProps": {
-        "DieWhenTempBelow": 0,
-        "DieWhenTempAbove": 50,
-        "comfortableTemperatureMin": 5,
-        "comfortableTemperatureMax": 35,
-        "dieAfterFruiting": true,
-        "growingDaysMin": 1,
-        "growingDaysMax": 2,
-        "fruitingDaysMin": 2,
-        "fruitingDaysMax": 4,
-        "growRange": 3,
-        "grownPlantNumberMin": 3,
-        "grownPlantNumberMax": 15
-    },
     "butterflyFeedByType": {
       "*-normal": true
     },

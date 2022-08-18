@@ -99,6 +99,8 @@ namespace wildcraft
             {
                 int interval = 10000;
                 RegisterGameTickListener(onServerTick, interval, -api.World.Rand.Next(interval));
+
+                plantBlockCode = this.Block.Code;
                 
                 // If the rhizome's plant block is invalid nuke the rhizome
                 if (plantBlockCode != null && !setwcPlantBlock(Api.World.GetBlock(plantBlockCode)))

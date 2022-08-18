@@ -4,7 +4,7 @@
     "value": {
       "comment": "Patches of minerslettuce",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-minerslettuce-normal"
+        "wildcraft:smallannualplant-minerslettuce-normal"
       ],
       "minTemp": 0,
       "maxTemp": 20,
@@ -26,7 +26,7 @@
     "value": {
       "comment": "Patches of stinging nettle",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-stingingnettle-normal"
+        "wildcraft:annualplant-stingingnettle-normal"
       ],
       "minTemp": 0,
       "maxTemp": 20,
@@ -48,7 +48,7 @@
     "value": {
       "comment": "Patches of basil in warm wet areas (tropical)",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-basil-normal"
+        "wildcraft:annualplant-basil-normal"
       ],
       "minTemp": 22,
       "maxTemp": 42,
@@ -73,7 +73,7 @@
     "value": {
       "comment": "Patches of black pepper in warm wet areas (tropical)",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-blackpepper-normal"
+        "wildcraft:annualplant-blackpepper-normal"
       ],
       "minTemp": 22,
       "maxTemp": 42,
@@ -98,7 +98,7 @@
     "value": {
       "comment": "Patches of bearleek in temperate wooded/wet areas ",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-bearleek-normal"
+        "wildcraft:perennialplant-bearleek-normal"
       ],
       "minTemp": 2,
       "maxTemp": 22,
@@ -123,7 +123,7 @@
     "value": {
       "comment": "Patches of chamomile in temperate dry fields",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-chamomile-normal"
+        "wildcraft:annualplant-chamomile-normal"
       ],
       "minTemp": 2,
       "maxTemp": 22,
@@ -148,7 +148,7 @@
     "value": {
       "comment": "Patches of marshmallow in temperate areas near water",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-marshmallow-normal"
+        "wildcraft:perennialplant-marshmallow-normal"
       ],
       "minTemp": 2,
       "maxTemp": 22,
@@ -174,10 +174,10 @@
     "value": {
       "comment": "Larges Patches of sedge in temperate areas near water",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-sedge-normal",
-        "wildcraft:leafygroundvegetable-sedge-normal",
-        "wildcraft:leafygroundvegetable-sedge-normal",
-        "wildcraft:leafygroundvegetable-sedge-normal"
+        "wildcraft:perennialplant-sedge-normal",
+        "wildcraft:perennialplant-sedge-normal",
+        "wildcraft:perennialplant-sedge-normal",
+        "wildcraft:perennialplant-sedge-normal"
       ],
       "minTemp": -4,
       "maxTemp": 24,
@@ -217,7 +217,7 @@
     "value": {
       "comment": "Patches of burdock in temperate areas near water",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-burdock-normal"
+        "wildcraft:annualplant-burdock-normal"
       ],
       "minTemp": -2,
       "maxTemp": 22,
@@ -243,7 +243,7 @@
     "value": {
       "comment": "Patches of cilantro in temperate areas",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-cilantro-normal"
+        "wildcraft:annualplant-cilantro-normal"
       ],
       "minTemp": 2,
       "maxTemp": 22,
@@ -268,7 +268,7 @@
     "value": {
       "comment": "Patches of stjohnswort in temperate clear areas",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-stjohnswort-normal"
+        "wildcraft:perennialplant-stjohnswort-normal"
       ],
       "minTemp": 4,
       "maxTemp": 32,
@@ -292,7 +292,7 @@
     "value": {
       "comment": "Patches of holly in subtropical forests",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-holly-normal"
+        "wildcraft:evergreenplant-holly-normal"
       ],
       "minTemp": 12,
       "maxTemp": 36,
@@ -315,7 +315,7 @@
     "value": {
       "comment": "Patches of chicory in temperate areas",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-chicory-normal"
+        "wildcraft:annualplant-chicory-normal"
       ],
       "minTemp": 2,
       "maxTemp": 22,
@@ -338,7 +338,7 @@
     "value": {
       "comment": "Patches of marigold in subtropical areas",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-marigold-normal"
+        "wildcraft:annualplant-marigold-normal"
       ],
       "minTemp": 22,
       "maxTemp": 38,
@@ -361,7 +361,7 @@
     "value": {
       "comment": "Patches of inula in temperate areas",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-inula-normal"
+        "wildcraft:perennialplant-inula-normal"
       ],
       "minTemp": 2,
       "maxTemp": 22,
@@ -383,7 +383,7 @@
     "value": {
       "comment": "Patches of celandine in temperate areas",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-celandine-normal"
+        "wildcraft:perennialplant-celandine-normal"
       ],
       "minTemp": 2,
       "maxTemp": 22,
@@ -406,7 +406,7 @@
     "value": {
       "comment": "Patches of leek in temperate areas",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-leek-normal"
+        "wildcraft:perennialplant-leek-normal"
       ],
       "minTemp": 2,
       "maxTemp": 22,
@@ -429,7 +429,7 @@
     "value": {
       "comment": "Patches of plantain in areas",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-plantain-normal"
+        "wildcraft:perennialplant-plantain-normal"
       ],
       "minTemp": 2,
       "maxTemp": 38,
@@ -452,7 +452,7 @@
     "value": {
       "comment": "Patches of saltwort in warm areas",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-saltwort-normal"
+        "wildcraft:annualplant-saltwort-normal"
       ],
       "minTemp": 18,
       "maxTemp": 38,
@@ -473,7 +473,7 @@
     "value": {
       "comment": "Patches of yarrow in  areas",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-yarrow-normal"
+        "wildcraft:perennialplant-yarrow-normal"
       ],
       "minTemp": 2,
       "maxTemp": 38,
@@ -495,7 +495,7 @@
     "value": {
       "comment": "Patches of liquorice in  areas",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-liquorice-normal"
+        "wildcraft:annualplant-liquorice-normal"
       ],
       "minTemp": 2,
       "maxTemp": 28,
@@ -518,7 +518,7 @@
     "value": {
       "comment": "Patches of thyme in temperate clear areas",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-thyme-normal"
+        "wildcraft:evergreenplant-thyme-normal"
       ],
       "minTemp": 2,
       "maxTemp": 28,
@@ -543,7 +543,7 @@
     "value": {
       "comment": "Patches of mugwort in temperate clear and forestsed areas",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-mugwort-normal"
+        "wildcraft:perennialplant-mugwort-normal"
       ],
       "minTemp": 2,
       "maxTemp": 28,
@@ -568,7 +568,7 @@
     "value": {
       "comment": "Patches of mint in temperate areas",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-mint-normal"
+        "wildcraft:perennialplant-mint-normal"
       ],
       "minTemp": 0,
       "maxTemp": 24,
@@ -593,7 +593,7 @@
     "value": {
       "comment": "Patches of lavender in temperate areas",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-lavender-normal"
+        "wildcraft:evergreenplant-lavender-normal"
       ],
       "minTemp": 2,
       "maxTemp": 28,
@@ -615,7 +615,7 @@
     "value": {
       "comment": "Patches of mustard in temperate areas",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-mustard-normal"
+        "wildcraft:annualplant-mustard-normal"
       ],
       "minTemp": 0,
       "maxTemp": 22,
@@ -640,7 +640,7 @@
     "value": {
       "comment": "Patches of celery",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-celery-normal"
+        "wildcraft:annualplant-celery-normal"
       ],
       "minTemp": 2,
       "maxTemp": 22,
@@ -665,7 +665,7 @@
     "value": {
       "comment": "Patches of saffron",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-saffron-normal"
+        "wildcraft:perennialplant-saffron-normal"
       ],
       "minTemp": 2,
       "maxTemp": 22,
@@ -690,7 +690,7 @@
     "value": {
       "comment": "Patches of sage",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-sage-normal"
+        "wildcraft:perennialplant-sage-normal"
       ],
       "minTemp": 4,
       "maxTemp": 28,
@@ -715,7 +715,7 @@
     "value": {
       "comment": "Patches of dill",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-dill-normal"
+        "wildcraft:annualplant-dill-normal"
       ],
       "minTemp": 6,
       "maxTemp": 28,
@@ -740,7 +740,7 @@
     "value": {
       "comment": "Patches of rosemary",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-rosemary-normal"
+        "wildcraft:evergreenplant-rosemary-normal"
       ],
       "minTemp": 6,
       "maxTemp": 28,
@@ -765,7 +765,7 @@
     "value": {
       "comment": "Patches of marjoram",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-marjoram-normal"
+        "wildcraft:perennialplant-marjoram-normal"
       ],
       "minTemp": 8,
       "maxTemp": 32,
@@ -790,7 +790,7 @@
     "value": {
       "comment": "Patches of dock",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-dock-normal"
+        "wildcraft:annualplant-dock-normal"
       ],
       "minTemp": 2,
       "maxTemp": 32,
@@ -815,7 +815,7 @@
     "value": {
       "comment": "Patches of poison oak in temperate forests",
       "blockCodes": [
-        "wildcraft:leafygroundvegetable-poisonoak-normal"
+        "wildcraft:evergreenplant-poisonoak-normal"
       ],
       "minTemp": -4,
       "maxTemp": 22,

@@ -1,11 +1,11 @@
 {
-	"code": "annualplant",
+	"code": "smallannualplant",
 	"class":"RhizomatusPlant",
 	"entityClassByType": {
 		"*-harvested": "Transient"
 	},
 	"variantgroups": [
-		{ "code": "type", "states": ["basil", "blackpepper", "celery", "chamomile", "cilantro", "dill", "dock", "mustard", "stingingnettle", "burdock", "chicory","marigold", "saltwort","liquorice"]},
+		{ "code": "type", "states": ["minerslettuce"]},
 		{ "code": "state", "states": ["harvested", "normal"] }
 	],
 	"attributes": {
@@ -48,35 +48,17 @@
     "forageStatAffected": true,
     
     "hasRootByType":{
-        "*-burdock-*": "true",
-        "*-chicory-*": "true",
-        "*-liquorice-*": "true",
-        "*-celery-*": "true",
         "*": "false"
     },
+
     "isPoisonousByType":{
-        "*-poisonoak-normal": "true",
         "*":"false"
     }
   },
   "texturesByType": {
-    "*-burdock-normal*":{
-      "burdock_stem": {"base": "wildcraft:block/plant/leafygroundvegetable/burdock_stem"},
-      "burdock_flowers": {"base": "wildcraft:block/plant/leafygroundvegetable/burdock_flowers"},
-      "burdock_leaf_small": {"base": "wildcraft:block/plant/leafygroundvegetable/burdock_leaf_small"},
-      "burdock_leaf_big": {"base": "wildcraft:block/plant/leafygroundvegetable/burdock_leaf_big"} 
-    },
-    "*-lavender-*": {
-			"north": { "base": "wildcraft:block/plant/leafygroundvegetable/{state}/lavender" },
-			"south": { "base": "wildcraft:block/plant/leafygroundvegetable/{state}/lavender*" },
-			"flower2": { "base": "wildcraft:block/plant/leafygroundvegetable/{state}/lavender" },
-			"northTinted": { "base": "wildcraft:block/plant/leafygroundvegetable/{state}/lavender" },
-			"southTinted": { "base": "wildcraft:block/plant/leafygroundvegetable/{state}/lavender" },
-			"flower2Tinted": { "base": "wildcraft:block/plant/leafygroundvegetable/{state}/lavender" }
-    },
-
-    "*-burdock-harvested*":{
-      "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/burdock_harvested*"}
+    "*-minerslettuce-*": {
+      "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/minerlettucebase" },
+      "stems": { "base": "wildcraft:block/plant/leafygroundvegetable/minerlettucebase" }
     },
     "*": {
       "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/{state}/{type}*" }
@@ -88,11 +70,7 @@
     "wildcraft": [ "*-normal" ]
   },
   "shapeByType": {
-    "*-sedge-*": {"base": "wildcraft:block/plant/leafygroundvegetable/bushy_normal"},
-    "*-burdock-normal*": {"base": "wildcraft:block/plant/leafygroundvegetable/burdock_normal*"},
-    "*-thistle-normal*": {"base": "wildcraft:block/plant/leafygroundvegetable/burdock_normal*"},
-
-    "*-lavender-*": {"base": "wildcraft:block/plant/leafygroundvegetable/shrub"},
+    "*-minerslettuce-*": { "base": "wildcraft:block/plant/leafygroundvegetable/minerslettuce_{state}*" },
 
     "*": {"base": "wildcraft:block/plant/leafygroundvegetable/default_normal*"}
   },
@@ -137,41 +115,6 @@
 	"materialDensity": 200,
 	"frostable": true,
   "dropsByType": {
-    "*-budrock-harvested": [
-      {
-        "type": "item",
-        "code": "wildcraft:roots-budrock",
-        "quantity": { "avg": 1.8 }
-      }
-    ],
-    "*-chicory-harvested": [
-      {
-        "type": "item",
-        "code": "wildcraft:roots-chicory",
-        "quantity": { "avg": 1.8 }
-      }
-    ],
-    "*-liquorice-harvested": [
-      {
-        "type": "item",
-        "code": "wildcraft:roots-liquorice",
-        "quantity": { "avg": 1.8 }
-      }
-    ],
-    "*-celery-harvested": [
-      {
-        "type": "item",
-        "code": "wildcraft:roots-celery",
-        "quantity": { "avg": 1.8 }
-      }
-    ],
-    "*-stingingnettle-normal": [
-      {
-        "type": "item",
-        "code": "wildcraft:herbs-{type}",
-        "quantity": { "avg": 1.8 }
-      }
-    ],
     "*-normal": [
       {
         "type": "item",
