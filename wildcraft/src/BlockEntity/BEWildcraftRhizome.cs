@@ -252,6 +252,7 @@ namespace wildcraft
 
         public void OnGenerated(IBlockAccessor blockAccessor, LCGRandom rnd, RhizomatusPlant block)
         {
+            plantBlockCode = this.Block.Code;
             Api.Logger.Notification("Wildcraft Rhizome blockentity initialized with '{0}' as it's plant code at position {1}.", plantBlockCode, Pos);
             setwcPlantBlock(block);
             wildcraft.lcgrnd.InitPositionSeed(plantBlockCode.GetHashCode(), (int)(wcPlantBlock as RhizomatusPlant).Api.World.Calendar.GetHemisphere(Pos));
