@@ -1,8 +1,8 @@
 {
 	code: "shrubberrybush",
-	class: "WCBerryBush",
+	class: "ShrubBerryBush",
 	attributes: {
-		stackable: true,
+		stackable: false,
 		forageStatAffected: true,
 		reinforcable: true,
 		butterflyFeedByType: {
@@ -19,40 +19,38 @@
 		stopAboveTemperature: 30,
 		revertBlockAboveTemperature: 38,
 	},
-	entityclass: "BlockEntityWCBerryBush",
+	entityclass: "BEShrubBerryBush",
 	behaviorsByType: {
 		"*-ripe": [ {name: "Harvestable", properties: { 
 			harvestTime: 0.6, 
 			harvestedStack: { type: "item", code: "wildcraft:fruit-{type}", quantity: { avg: 2.2 }  },
 			harvestedBlockCode: "wildcraft:shrubberrybush-{type}-empty"
-		}} ],
+		}} ]
 	},
 	variantgroups: [
-		{ code: "type", states: ["snowberry", "elderberry"] },
-		{ code: "state", states: ["empty", "flowering", "ripe"] },
+		{ code: "type", states: ["elderberry"] },
+		{ code: "state", states: ["empty", "flowering", "ripe"] }
 	],
-	creativeinventory: { "general": ["*"], "flora": ["*"] },
+	creativeinventory: { "general": ["*"], "flora": ["*"], "wildcraft": ["*"] },
 	renderpass: "OpaqueNoCull",
 	renderAlphaTest: 0.4,
 	shapeByType: {
-		"*-empty": { base: "game:block/plant/berrybush/large*", selectiveElements: ["branchesN", "branchesS", "Leaves", "Largeleaves/*"] },
-		"*": { base: "game:block/plant/berrybush/large*" },
+		"*-empty": { base: "wildcraft:block/plant/berrybush/flowering/shrubberrybush_flowering*", selectiveElements: ["Stem1/Leaves", "Stem1/Leaves2", "Stem2/Leaves3", "Stem2/Leaves4", "Stem3/Leaves5","Stem3/Leaves6"] },
+		"*": { base: "wildcraft:block/plant/berrybush/flowering/shrubberrybush_flowering*" },
 	},
 	blockmaterial: "Plant",
-	textures: {
-		"leavessmall": { base: "wildcraft:block/plant/berrybush/small/leaves/{type}*" },
-		"leaveslarge": { base: "wildcraft:block/plant/berrybush/small/leaves/{type}" },
-	},
 	texturesByType: {
+		"*-empty": {
+			"leaves": { base: "wildcraft:block/plant/berrybush/small/leaves/{type}*" },
+			"berries": { base: "wildcraft:block/plant/berrybush/small/fruit/{type}*" }
+		},
 		"*-flowering": {
-			"flowerberrysmalltop": { base: "wildcraft:block/plant/berrybush/small/flower/{type}1", alternates: [{base: "wildcraft:block/plant/berrybush/small/flower/{type}2"}] },
-			"flowerberrysmall": { base: "wildcraft:block/plant/berrybush/small/flower/{type}1", alternates: [{base: "wildcraft:block/plant/berrybush/small/flower/{type}2"}] },
-			"flowerberrylarge": { base: "wildcraft:block/plant/berrybush/large/flower/{type}" },
+			"berries": { base: "wildcraft:block/plant/berrybush/small/flower/{type}*", alternates: [{base: "wildcraft:block/plant/berrybush/small/flower/{type}*"}] },
+			"leaves": { base: "wildcraft:block/plant/berrybush/small/leaves/{type}*" },
 		},
 		"*-ripe": {
-			"flowerberrysmalltop": { base: "wildcraft:block/plant/berrybush/small/fruit/{type}top*" },
-			"flowerberrysmall": { base: "wildcraft:block/plant/berrybush/small/fruit/{type}1", alternates: [{base: "wildcraft:block/plant/berrybush/small/fruit/{type}2"}] },
-			"flowerberrylarge": { base: "wildcraft:block/plant/berrybush/large/fruit/{type}" },
+			"berries": { base: "wildcraft:block/plant/berrybush/small/fruit/{type}*", alternates: [{base: "wildcraft:block/plant/berrybush/small/fruit/{type}*"}] },
+			"leaves": { base: "wildcraft:block/plant/berrybush/small/leaves/{type}*" },
 		}
 	},
 	sideopaque: {

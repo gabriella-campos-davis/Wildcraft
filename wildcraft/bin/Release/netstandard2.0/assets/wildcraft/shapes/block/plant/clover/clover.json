@@ -8,9 +8,6 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"clover_leaves": "D:/VSMods/Wildcraft/wildcraft/resources/assets/wildcraft/textures/block/plant/clover/clover_leaves",
-		"caltha_stems": "D:/VSMods/Wildcraft/wildcraft/resources/assets/wildcraft/textures/block/plant/clover/caltha_stems",
-		"clover_flowers": "D:/VSMods/Wildcraft/wildcraft/resources/assets/wildcraft/textures/block/plant/clover/clover_flowers"
 	},
 	"elements": [
 		{
@@ -21,12 +18,12 @@
 			"seasonColorMap": "seasonalFoliage",
 			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
 			"faces": {
-				"north": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false, "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] },
-				"east": { "texture": "#caltha_stems", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] },
-				"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false, "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
-				"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
-				"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
-				"down": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false, "windMode": [-1,-1,-1,-1] }
+				"north": { "texture": "#stems", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false, "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] },
+				"east": { "texture": "#stems", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] },
+				"south": { "texture": "#stems", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false, "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
+				"west": { "texture": "#stems", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
+				"up": { "texture": "#stems", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+				"down": { "texture": "#stems", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false, "windMode": [-1,-1,-1,-1] }
 			},
 			"children": [
 				{
@@ -38,12 +35,12 @@
 					"rotationOrigin": [ 0.0, 0.0, 8.0 ],
 					"rotationY": 90.0,
 					"faces": {
-						"north": { "texture": "#caltha_stems", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
-						"east": { "texture": "#caltha_stems", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] },
-						"south": { "texture": "#caltha_stems", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
-						"west": { "texture": "#caltha_stems", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false },
-						"up": { "texture": "#caltha_stems", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
-						"down": { "texture": "#caltha_stems", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false }
+						"north": { "texture": "#stems", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"east": { "texture": "#stems", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] },
+						"south": { "texture": "#stems", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"west": { "texture": "#stems", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false },
+						"up": { "texture": "#stems", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"down": { "texture": "#stems", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false }
 					}
 				},
 				{
@@ -54,32 +51,13 @@
 					"seasonColorMap": "",
 					"rotationOrigin": [ 0.0, 0.0, 8.0 ],
 					"faces": {
-						"north": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
-						"east": { "texture": "#clover_flowers", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] },
-						"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
-						"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false },
-						"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
-						"down": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false }
-					},
-					"children": [
-						{
-							"name": "Flowers2",
-							"from": [ -7.0E-4, 0.0, -0.0024 ], 
-							"to": [ -7.0E-4, 16.0, 15.9976 ], 
-							"climateColorMap": "",
-							"seasonColorMap": "",
-							"rotationOrigin": [ 0.0, 0.0, 8.0 ],
-							"rotationY": 90.0,
-							"faces": {
-								"north": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
-								"east": { "texture": "#clover_flowers", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] },
-								"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
-								"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false },
-								"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
-								"down": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false }
-							}
-						}
-					]
+						"north": { "texture": "#flowers", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"east": { "texture": "#flowers", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] },
+						"south": { "texture": "#flowers", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"west": { "texture": "#flowers", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false },
+						"up": { "texture": "#flowers", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"down": { "texture": "#flowers", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false }
+					}
 				},
 				{
 					"name": "Leaves",
@@ -89,12 +67,29 @@
 					"seasonColorMap": "seasonalFoliage",
 					"rotationOrigin": [ -8.0, 1.0, 0.0 ],
 					"faces": {
-						"north": { "texture": "#null", "uv": [ 0.0, 0.0, 16.0, 0.5 ] },
-						"east": { "texture": "#null", "uv": [ 0.0, 0.0, 16.0, 0.5 ] },
-						"south": { "texture": "#null", "uv": [ 0.0, 0.0, 16.0, 0.5 ] },
-						"west": { "texture": "#null", "uv": [ 0.0, 0.0, 16.0, 0.5 ] },
-						"up": { "texture": "#clover_leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "windMode": [7,7,7,7] },
-						"down": { "texture": "#clover_leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "windMode": [1,1,1,1] }
+						"north": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 0.5 ] },
+						"east": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 0.5 ] },
+						"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 0.5 ] },
+						"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 0.5 ] },
+						"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "windMode": [7,7,7,7] },
+						"down": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "windMode": [1,1,1,1] }
+					}
+				},
+				{
+					"name": "Flowers2",
+					"from": [ -0.0035, 0.0, -0.0024 ], 
+					"to": [ -0.0035, 16.0, 15.9976 ], 
+					"climateColorMap": "",
+					"seasonColorMap": "",
+					"rotationOrigin": [ 0.0, 0.0, 8.0 ],
+					"rotationY": 89.98,
+					"faces": {
+						"north": { "texture": "#flowers", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"east": { "texture": "#flowers", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] },
+						"south": { "texture": "#flowers", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"west": { "texture": "#flowers", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false },
+						"up": { "texture": "#flowers", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"down": { "texture": "#flowers", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false }
 					}
 				}
 			]

@@ -67,6 +67,17 @@ namespace wildcraft
 
                 blockSel = blockSel.Clone();
                 blockSel.Position.Up();
+                if(byEntity.Api.World.GetBlockAccessor(true, false, true).GetBlock(blockSel.Position).IsLiquid() == true){
+                    if (Attributes["waterplant"].ToString() == "true")
+                    {
+                        goto growPlant;
+                    }
+                    else 
+                    {
+                        return;
+                    }
+                }
+                growPlant:
 
                 string failureCode = "";
                 if (!herbBlock.TryPlaceBlock(api.World, byPlayer, itemslot.Itemstack, blockSel, ref failureCode))

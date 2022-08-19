@@ -5,9 +5,9 @@
       "value": {
         "comment": "Patches of raspberry bushes",
         "blockCodes": [
-          "wildcraft:berrybush-raspberry-empty",
-          "wildcraft:berrybush-raspberry-flowering",
-          "wildcraft:berrybush-raspberry-ripe"
+          "wildcraft:pricklyberrybush-raspberry-empty",
+          "wildcraft:pricklyberrybush-raspberry-flowering",
+          "wildcraft:pricklyberrybush-raspberry-ripe"
         ],
         "minTemp": -4,
         "maxTemp": 28,
@@ -56,9 +56,9 @@
       "value": {
         "comment": "Patches of elderberry bushes",
         "blockCodes": [
-          "wildcraft:berrybush-elderberry-empty",
-          "wildcraft:berrybush-elderberry-flowering",
-          "wildcraft:berrybush-elderberry-ripe"
+          "wildcraft:shrubberrybush-elderberry-empty",
+          "wildcraft:shrubberrybush-elderberry-flowering",
+          "wildcraft:shrubberrybush-elderberry-ripe"
         ],
         "minTemp": -16,
         "maxTemp": 24,
@@ -89,9 +89,9 @@
       "value": {
         "comment": "Patches of strawberry bushes",
         "blockCodes": [
-          "wildcraft:berrybush-strawberry-empty",
-          "wildcraft:berrybush-strawberry-flowering",
-          "wildcraft:berrybush-strawberry-ripe"
+          "wildcraft:groundberryplant-strawberry-empty",
+          "wildcraft:groundberryplant-strawberry-flowering",
+          "wildcraft:groundberryplant-strawberry-ripe"
         ],
         "minTemp": 18,
         "maxTemp": 40,
@@ -124,9 +124,9 @@
       "value": {
         "comment": "Patches of cloudberry bushes",
         "blockCodes": [
-          "wildcraft:berrybush-cloudberry-empty",
-          "wildcraft:berrybush-cloudberry-flowering",
-          "wildcraft:berrybush-cloudberry-ripe"
+          "wildcraft:groundberryplant-cloudberry-empty",
+          "wildcraft:groundberryplant-cloudberry-flowering",
+          "wildcraft:groundberryplant-cloudberry-ripe"
         ],
         "minTemp": -4,
         "maxTemp": 16,
@@ -193,9 +193,9 @@
       "value": {
         "comment": "Patches of bramblberry bushes in forest",
         "blockCodes": [
-          "wildcraft:berrybush-brambleberry-empty",
-          "wildcraft:berrybush-brambleberry-flowering",
-          "wildcraft:berrybush-brambleberry-ripe"
+          "wildcraft:pricklyberrybush-brambleberry-empty",
+          "wildcraft:pricklyberrybush-brambleberry-flowering",
+          "wildcraft:pricklyberrybush-brambleberry-ripe"
         ],
         "minTemp": 2,
         "maxTemp": 24,
@@ -213,9 +213,9 @@
       "value": {
         "comment": "Patches of dogrose bushes",
         "blockCodes": [
-          "wildcraft:berrybush-dogrose-empty",
-          "wildcraft:berrybush-dogrose-flowering",
-          "wildcraft:berrybush-dogrose-ripe"
+          "wildcraft:pricklyberrybush-dogrose-empty",
+          "wildcraft:pricklyberrybush-dogrose-flowering",
+          "wildcraft:pricklyberrybush-dogrose-ripe"
         ],
         "minTemp": 22,
         "maxTemp": 42,

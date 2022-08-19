@@ -8,7 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"blueberry1": "C:/Users/gcamp/AppData/Roaming/Vintagestory/assets/survival/textures/block/plant/berrybush/leaves/blueberry1"
+		"fertlow": "game:block/soil/fertlow"
 	},
 	"elements": [
 		{
@@ -272,12 +272,12 @@
 					"seasonColorMap": "seasonalFoliage",
 					"rotationOrigin": [ -4.0, 3.0, -5.0 ],
 					"faces": {
-						"north": { "texture": "#blueberry1", "uv": [ 1.0, 1.0, 15.0, 15.0 ], "autoUv": false, "windMode": [-1,1,1,-1] },
-						"east": { "texture": "#blueberry1", "uv": [ 1.0, 1.0, 15.0, 15.0 ], "autoUv": false, "windMode": [-1,1,1,-1] },
-						"south": { "texture": "#blueberry1", "uv": [ 1.0, 1.0, 15.0, 15.0 ], "autoUv": false, "windMode": [-1,-1,1,1] },
-						"west": { "texture": "#blueberry1", "uv": [ 1.0, 1.0, 15.5, 15.0 ], "autoUv": false, "windMode": [-1,-1,1,1] },
-						"up": { "texture": "#blueberry1", "uv": [ 1.0, 1.0, 15.0, 15.0 ], "autoUv": false, "windMode": [1,1,1,1] },
-						"down": { "texture": "#blueberry1", "uv": [ 1.0, 1.0, 15.0, 15.0 ], "enabled": false, "autoUv": false }
+						"north": { "texture": "#leaves", "uv": [ 1.0, 1.0, 15.0, 15.0 ], "autoUv": false, "windMode": [-1,1,1,-1] },
+						"east": { "texture": "#leaves", "uv": [ 1.0, 1.0, 15.0, 15.0 ], "autoUv": false, "windMode": [-1,1,1,-1] },
+						"south": { "texture": "#leaves", "uv": [ 1.0, 1.0, 15.0, 15.0 ], "autoUv": false, "windMode": [-1,-1,1,1] },
+						"west": { "texture": "#leaves", "uv": [ 1.0, 1.0, 15.5, 15.0 ], "autoUv": false, "windMode": [-1,-1,1,1] },
+						"up": { "texture": "#leaves", "uv": [ 1.0, 1.0, 15.0, 15.0 ], "autoUv": false, "windMode": [1,1,1,1] },
+						"down": { "texture": "#leaves", "uv": [ 1.0, 1.0, 15.0, 15.0 ], "enabled": false, "autoUv": false }
 					}
 				},
 				{
@@ -288,7 +288,7 @@
 					"seasonColorMap": "seasonalFoliage",
 					"rotationOrigin": [ -1.0, 3.0, -1.0 ],
 					"faces": {
-						"north": { "texture": "#blueberry1", "uv": [ 1.0, 1.0, 15.0, 15.0 ], "autoUv": false, "windMode": [1,1,1,1] },
+						"north": { "texture": "#leaves", "uv": [ 1.0, 1.0, 15.0, 15.0 ], "autoUv": false, "windMode": [1,1,1,1] },
 						"east": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 10.0 ], "enabled": false },
 						"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 12.0, 10.0 ], "enabled": false },
 						"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 10.0 ], "enabled": false },
@@ -305,12 +305,12 @@
 					"rotationOrigin": [ 0.0, 3.0, -2.0 ],
 					"rotationY": -90.0,
 					"faces": {
-						"north": { "texture": "#blueberry1", "uv": [ 1.0, 1.0, 15.0, 15.0 ], "autoUv": false, "windMode": [1,1,1,1] },
-						"east": { "texture": "#blueberry1", "uv": [ 0.0, 0.0, 0.5, 10.0 ], "enabled": false },
-						"south": { "texture": "#blueberry1", "uv": [ 0.0, 0.0, 12.0, 10.0 ], "enabled": false },
-						"west": { "texture": "#blueberry1", "uv": [ 0.0, 0.0, 0.5, 10.0 ], "enabled": false },
-						"up": { "texture": "#blueberry1", "uv": [ 0.0, 0.0, 12.0, 0.5 ], "enabled": false },
-						"down": { "texture": "#blueberry1", "uv": [ 0.0, 0.0, 12.0, 0.5 ], "enabled": false }
+						"north": { "texture": "#leaves", "uv": [ 1.0, 1.0, 15.0, 15.0 ], "autoUv": false, "windMode": [1,1,1,1] },
+						"east": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 10.0 ], "enabled": false },
+						"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 12.0, 10.0 ], "enabled": false },
+						"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 10.0 ], "enabled": false },
+						"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 12.0, 0.5 ], "enabled": false },
+						"down": { "texture": "#leaves", "uv": [ 0.0, 0.0, 12.0, 0.5 ], "enabled": false }
 					}
 				}
 			]

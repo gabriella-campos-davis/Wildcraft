@@ -4,7 +4,9 @@
 	"attributes": {
 		"handbook": {
 			"groupBy": ["herbseeds-*", "waterherbseeds-*", "seeds"]
-		}
+		},
+		"waterplant": "false"
+
 	},
 	"maxstacksize": 64,
 	"variantgroups": [

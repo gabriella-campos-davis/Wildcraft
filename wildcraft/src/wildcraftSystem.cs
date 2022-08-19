@@ -28,6 +28,7 @@ namespace wildcraft
         public override void Start(ICoreAPI api)
         {
             base.Start(api);
+            Api = api;
             api.RegisterBlockClass("WildcraftBerryBush", typeof(WildcraftBerryBush));
             api.RegisterBlockClass("PricklyBerryBush", typeof(PricklyBerryBush));
             api.RegisterBlockClass("ShrubBerryBush", typeof(ShrubBerryBush));
@@ -108,9 +109,10 @@ namespace wildcraft
             BuffManager.RegisterBuffType("RashDebuff", typeof(RashDebuff));
             BuffManager.RegisterBuffType("PoulticeBuff", typeof(PoulticeBuff));
 
-             api.RegisterCommand("wcdebug", "", "", onCmd, Privilege.controlserver);
-
+            api.RegisterCommand("wcdebug", "", "", onCmd, Privilege.controlserver);
             api.Event.SaveGameLoaded += Event_SaveGameLoaded;
+
+            this.Api = api;
         }
 
         public override void StartClientSide(ICoreClientAPI capi)

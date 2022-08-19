@@ -1,6 +1,6 @@
 {
   "code": "poultice",
-  "class": "ItemWCPoultice",
+  "class": "WildcraftPoultice",
   "attributes": {
     "healthByType": {
       "@.*-reed-honey-sulfur-(lavender|sage)": 6,

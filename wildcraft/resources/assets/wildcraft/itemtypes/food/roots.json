@@ -35,9 +35,22 @@
 	},
 	"creativeinventory": { "general": ["*"], "items": ["*"], "wildcraft": [ "*" ] },
 	"nutritionPropsByType": {
-		"*": { "satiety": 100, "foodcategory": "Vegetable" },
+		"*-bearleek": { "satiety": 100, "foodcategory": "Vegetable" },
+		"*-marshmallow": { "satiety": 100, "foodcategory": "Vegetable" },
+		"*-burdock": { "satiety": 100, "foodcategory": "Vegetable" },
+		"*-chicory": { "satiety": 100, "foodcategory": "Vegetable" },
+		"*-liquorice": { "satiety": 100, "foodcategory": "Vegetable" },
+		"*-peeledwaterchestnut": { "satiety": 100, "foodcategory": "Vegetable" },
+		"*-celery": { "satiety": 100, "foodcategory": "Vegetable" }
 	},
 	"transitionablePropsByType": {
+		"*-waterchestnut": [{
+			"type": "Perish",
+			"freshHours": { "avg":  2000 },
+			"transitionHours": { "avg": 96 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.5
+		}],
 		"*": [{
 			"type": "Perish",
 			"freshHours": { "avg":  504 },

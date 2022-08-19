@@ -8,9 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"blueberry14": "C:/Users/gcamp/AppData/Roaming/Vintagestory/assets/survival/textures/block/plant/berrybush/ripe/blueberry1",
-		"sticks1": "C:/Users/gcamp/AppData/Roaming/Vintagestory/assets/survival/textures/block/plant/fruittree/sticks1",
-		"blueberry1": "C:/Users/gcamp/AppData/Roaming/Vintagestory/assets/survival/textures/block/plant/berrybush/leaves/blueberry1"
+		"sticks1": "C:/Users/gcamp/AppData/Roaming/Vintagestory/assets/survival/textures/block/plant/fruittree/sticks1"
 	},
 	"elements": [
 		{

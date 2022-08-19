@@ -202,55 +202,62 @@
   "item-seeds-strawberry": "Strawberry seeds",
   "item-seeds-cloudberry": "Cloudberry seeds",
 
-  "block-clipping-huckleberry-ground": "Huckleberry (Growing)",
-  "block-clipping-huckleberry-bush": "Huckleberry (Growing)",
+  "block-clipping-huckleberry-alive": "Huckleberry Clipping",
+  "block-clipping-huckleberry-dead": "Dead Huckleberry Clipping",
+  "block-growth-huckleberry-alive": "Huckleberry growth",
+  "block-growth-huckleberry-dead": "Dead Huckleberry growth",
 
-  "block-clipping-snowberry-ground": "Snowberry (Growing)",
-  "block-clipping-snowberry-bush": "Snowberry (Growing)",
+  "block-clipping-snowberry-alive": "Snowberry Clipping",
+  "block-clipping-snowberry-dead": "Dead Snowberry Clipping",
 
-  "block-clipping-brambleberry-ground": "Brambleberry (Growing)",
-  "block-clipping-brambleberry-bush": "Brambleberry (Growing)",
+  "block-clipping-brambleberry-alive": "Brambleberry Clipping",
+  "block-clipping-brambleberry-dead": "Dead Brambleberry Clipping",
+  "block-growth-brambleberry-alive": "Brambleberry growth",
+  "block-growth-brambleberry-dead": "Dead Brambleberry growth",
 
-  "block-clipping-cloudberry-ground": "Cloudberry plant (Growing)",
-  "block-clipping-cloudberry-bush": "Cloudberry plant (Growing)",
+  "block-clipping-dogrose-alive": "Dogrose Clipping",
+  "block-clipping-dogrose-dead": "Dead Dogrose Clipping",
+  "block-growth-dogrose-alive": "Dogrose growth",
+  "block-growth-dogrose-dead": "Dead Dogrose growth",
 
-  "block-clipping-dogrose-ground": "Dogrose (Growing)",
-  "block-clipping-dogrose-bush": "Dogrose (Growing)",
+  "block-clipping-elderberry-alive": "Elderberry Clipping",
+  "block-clipping-elderberry-dead": "Dead Elderberry Clipping",
 
-  "block-clipping-elderberry-ground": "Elderberry (Growing)",
-  "block-clipping-elderberry-bush": "Elderberry (Growing)",
+  "block-clipping-gooseberry-alive": "Gooseberry Clipping",
+  "block-clipping-gooseberry-dead": "Dead Gooseberry Clipping",
+  "block-growth-gooseberry-alive": "Gooseberry growth",
+  "block-growth-gooseberry-dead": "Dead Gooseberry growth",
 
-  "block-clipping-gooseberry-ground": "Gooseberry (Growing)",
-  "block-clipping-gooseberry-bush": "Gooseberry (Growing)",
+  "block-clipping-honeysuckle-alive": "Honeysuckle Clipping",
+  "block-clipping-honeysuckle-dead": "Dead Honeysuckle Clipping",
+  "block-growth-honeysuckle-alive": "Honeysuckle growth",
+  "block-growth-honeysuckle-dead": "Dead Honeysuckle growth",
 
-  "block-clipping-honeysuckle-ground": "Honeysuckle (Growing)",
-  "block-clipping-honeysuckle-bush": "Honeysuckle (Growing)",
+  "block-clipping-raspberry-alive": "Raspberry Clipping",
+  "block-clipping-raspberry-dead": "Dead Raspberry Clipping",
+  "block-growth-raspberry-alive": "Raspberry growth",
+  "block-growth-raspberry-dead": "Dead Raspberry growth",
 
-  "block-clipping-raspberry-ground": "Raspberry (Growing)",
-  "block-clipping-raspberry-bush": "Raspberry (Growing)",
+  "block-clipping-blackcurrant-alive": "Black currant Clipping",
+  "block-clipping-blackcurrant-dead": "Dead Black currant Clipping",
+  "block-growth-blackcurrant-alive": "Black currant growth",
+  "block-growth-blackcurrant-dead": "Dead Black currant growth",
 
-  "block-clipping-strawberry-ground": "Strawberry plant (Growing)",
-  "block-clipping-strawberry-bush": "Strawberry plant (Growing)",
+  "block-clipping-redcurrant-alive": "Red currant Clipping",
+  "block-clipping-redcurrant-dead": "Dead Red currant Clipping",
+  "block-growth-redcurrant-alive": "Red currant growth",
+  "block-growth-redcurrant-dead": "Dead Red currant growth",
 
+  "block-clipping-whitecurrant-alive": "White currant Clipping",
+  "block-clipping-whitecurrant-dead": "Dead White currant Clipping",
+  "block-growth-whitecurrant-alive": "White currant growth",
+  "block-growth-whitecurrant-dead": "Dead White currant growth",
 
-  "block-clipping-blackcurrant-ground": "Black currant (Growing)",
-  "block-clipping-blackcurrant-bush": "Black currant (Growing)",
-
-  "block-clipping-redcurrant-ground": "Red currant (Growing)",
-  "block-clipping-redcurrant-bush": "Red currant (Growing)",
-
-  "block-clipping-whitecurrant-ground": "White currant (Growing)",
-  "block-clipping-whitecurrant-bush": "White currant (Growing)",
-
-  "block-clipping-blueberry-ground": "Blueberry (Growing)",
-  "block-clipping-blueberry-bush": "Blueberry (Growing)",
-
-  "block-clipping-cranberry-ground": "Cranberry (Growing)",
-  "block-clipping-cranberry-bush": "Cranberry (Growing)",
-
-
-  "item-minerslettuce": "Miner's Lettuce'",
-  "item-nettle": "Nettle",
+  "block-clipping-blueberry-alive": "Blueberry Clipping",
+  "block-clipping-blueberry-dead": "Dead Blueberry Clipping",
+  
+  "block-clipping-cranberry-alive": "Cranberry Clipping",
+  "block-clipping-cranberry-dead": "Dead Cranberry Clipping",
 
   "meal-ingredient-soup-secondary-herbs": "herbs",
   "meal-ingredient-stew-secondary-herbs": "herbs",
@@ -477,107 +484,107 @@
   "meal-ingredient-soup-secondary-roots-marshmallow": "marshmallow root",
   "meal-ingredient-stew-secondary-roots-marshmallow": "marshmallow root",
 
-  "block-leafygroundvegetable-minerslettuce-normal": "Miner's Lettuce",
-  "block-leafygroundvegetable-minerslettuce-harvested": "Miner's Lettuce (Growing)",
+  "block-smallannualplant-minerslettuce-normal": "Miner's Lettuce",
+  "block-smallannualplant-minerslettuce-harvested": "Miner's Lettuce (Growing)",
 
-  "block-leafygroundvegetable-stingingnettle-normal": "Stinging Nettle",
-  "block-leafygroundvegetable-stingingnettle-harvested": "Stinging Nettle (Growing)",
+  "block-annualplant-stingingnettle-normal": "Stinging Nettle",
+  "block-annualplant-stingingnettle-harvested": "Stinging Nettle (Growing)",
 
-  "block-leafygroundvegetable-basil-normal": "Basil",
-  "block-leafygroundvegetable-basil-harvested": "Basil (Growing)",
+  "block-annualplant-basil-normal": "Basil",
+  "block-annualplant-basil-harvested": "Basil (Growing)",
 
-  "block-leafygroundvegetable-bearleek-normal": "Bearleek",
-  "block-leafygroundvegetable-bearleek-harvested": "Bearleek (Growing)",
+  "block-perennialplant-bearleek-normal": "Bearleek",
+  "block-perennialplant-bearleek-harvested": "Bearleek (Growing)",
 
-  "block-leafygroundvegetable-blackpepper-normal": "Black pepper",
-  "block-leafygroundvegetable-blackpepper-harvested": "Black pepper (Growing)",
+  "block-annualplant-blackpepper-normal": "Black pepper",
+  "block-annualplant-blackpepper-harvested": "Black pepper (Growing)",
 
-  "block-leafygroundvegetable-celery-normal": "Celery",
-  "block-leafygroundvegetable-celery-harvested": "Celery (Growing)",
+  "block-annualplant-celery-normal": "Celery",
+  "block-annualplant-celery-harvested": "Celery (Growing)",
 
-  "block-leafygroundvegetable-dill-normal": "Dill",
-  "block-leafygroundvegetable-dill-harvested": "Dill (Growing)",
+  "block-annualplant-dill-normal": "Dill",
+  "block-annualplant-dill-harvested": "Dill (Growing)",
 
-  "block-leafygroundvegetable-chamomile-normal": "Chamomile",
-  "block-leafygroundvegetable-chamomile-harvested": "Chamomile (Growing)",
+  "block-annualplant-chamomile-normal": "Chamomile",
+  "block-annualplant-chamomile-harvested": "Chamomile (Growing)",
 
-  "block-leafygroundvegetable-cilantro-normal": "Cilantro",
-  "block-leafygroundvegetable-cilantro-harvested": "Cilantro (Growing)",
+  "block-annualplant-cilantro-normal": "Cilantro",
+  "block-annualplant-cilantro-harvested": "Cilantro (Growing)",
 
-  "block-leafygroundvegetable-dock-normal": "Dock",
-  "block-leafygroundvegetable-dock-harvested": "Dock (Growing)",
+  "block-annualplant-dock-normal": "Dock",
+  "block-annualplant-dock-harvested": "Dock (Growing)",
 
-  "block-leafygroundvegetable-lavender-normal": "Lavender",
-  "block-leafygroundvegetable-lavender-harvested": "Lavender (Growing)",
+  "block-evergreenplant-lavender-normal": "Lavender",
+  "block-evergreenplant-lavender-harvested": "Lavender (Growing)",
 
-  "block-leafygroundvegetable-marjoram-normal": "Marjoram",
-  "block-leafygroundvegetable-marjoram-harvested": "Marjoram (Growing)",
+  "block-perennialplant-marjoram-normal": "Marjoram",
+  "block-perennialplant-marjoram-harvested": "Marjoram (Growing)",
 
-  "block-leafygroundvegetable-marshmallow-normal": "Marshmallow",
-  "block-leafygroundvegetable-marshmallow-harvested": "Marshmallow (Growing)",
+  "block-perennialplant-marshmallow-normal": "Marshmallow",
+  "block-perennialplant-marshmallow-harvested": "Marshmallow (Growing)",
 
-  "block-leafygroundvegetable-mint-normal": "Mint",
-  "block-leafygroundvegetable-mint-harvested": "Mint (Growing)",
+  "block-perennialplant-mint-normal": "Mint",
+  "block-perennialplant-mint-harvested": "Mint (Growing)",
 
-  "block-leafygroundvegetable-mustard-normal": "Mustard",
-  "block-leafygroundvegetable-mustard-harvested": "Mustard (Growing)",
+  "block-annualplant-mustard-normal": "Mustard",
+  "block-annualplant-mustard-harvested": "Mustard (Growing)",
 
-  "block-leafygroundvegetable-rosemary-normal": "Rosemary",
-  "block-leafygroundvegetable-rosemary-harvested": "Rosemary (Growing)",
+  "block-evergreenplant-rosemary-normal": "Rosemary",
+  "block-evergreenplant-rosemary-harvested": "Rosemary (Growing)",
 
-  "block-leafygroundvegetable-saffron-normal": "Saffron",
-  "block-leafygroundvegetable-saffron-harvested": "Saffron (Growing)",
+  "block-perennialplant-saffron-normal": "Saffron",
+  "block-perennialplant-saffron-harvested": "Saffron (Growing)",
 
-  "block-leafygroundvegetable-sage-normal": "Sage",
-  "block-leafygroundvegetable-sage-harvested": "Sage (Growing)",
+  "block-perennialplant-sage-normal": "Sage",
+  "block-perennialplant-sage-harvested": "Sage (Growing)",
 
-  "block-leafygroundvegetable-sedge-normal": "Sedge",
-  "block-leafygroundvegetable-sedge-harvested": "Sedge (Growing)",
+  "block-perennialplant-sedge-normal": "Sedge",
+  "block-perennialplant-sedge-harvested": "Sedge (Growing)",
 
-  "block-leafygroundvegetable-stjohnswort-normal": "St John's Wort",
-  "block-leafygroundvegetable-stjohnswort-harvested": "St John's Wort (Growing)",
+  "block-perennialplant-stjohnswort-normal": "St John's Wort",
+  "block-perennialplant-stjohnswort-harvested": "St John's Wort (Growing)",
 
-  "block-leafygroundvegetable-thyme-normal": "Thyme",
-  "block-leafygroundvegetable-thyme-harvested": "Thyme (Growing)",
+  "block-evergreenplant-thyme-normal": "Thyme",
+  "block-evergreenplant-thyme-harvested": "Thyme (Growing)",
 
-  "block-leafygroundvegetable-mugwort-normal": "Mugwort",
-  "block-leafygroundvegetable-mugwort-harvested": "Mugwort (Growing)",
+  "block-perennialplant-mugwort-normal": "Mugwort",
+  "block-perennialplant-mugwort-harvested": "Mugwort (Growing)",
 
-  "block-leafygroundvegetable-burdock-normal": "Burdock",
-  "block-leafygroundvegetable-burdock-harvested": "Burdock (Growing)",
+  "block-annualplant-burdock-normal": "Burdock",
+  "block-annualplant-burdock-harvested": "Burdock (Growing)",
 
-  "block-leafygroundvegetable-poisonoak-normal": "Poison Oak",
-  "block-leafygroundvegetable-poisonoak-harvested": "Poison Oak (Growing)",
+  "block-evergreenplant-poisonoak-normal": "Poison Oak",
+  "block-evergreenplant-poisonoak-harvested": "Poison Oak (Growing)",
 
-  "block-leafygroundvegetable-holly-normal": "Holly",
-  "block-leafygroundvegetable-holly-harvested": "Holly (Growing)",
+  "block-evergreenplant-holly-normal": "Holly",
+  "block-evergreenplant-holly-harvested": "Holly (Growing)",
 
-  "block-leafygroundvegetable-chicory-normal": "Chicory",
-  "block-leafygroundvegetable-chicory-harvested": "Chicory (Growing)",
+  "block-annualplant-chicory-normal": "Chicory",
+  "block-annualplant-chicory-harvested": "Chicory (Growing)",
 
-  "block-leafygroundvegetable-marigold-normal": "Marigold",
-  "block-leafygroundvegetable-marigold-harvested": "Marigold (Growing)",
+  "block-annualplant-marigold-normal": "Marigold",
+  "block-annualplant-marigold-harvested": "Marigold (Growing)",
 
-  "block-leafygroundvegetable-inula-normal": "Inula",
-  "block-leafygroundvegetable-inula-harvested": "Inula (Growing)",
+  "block-perennialplant-inula-normal": "Inula",
+  "block-perennialplant-inula-harvested": "Inula (Growing)",
 
-  "block-leafygroundvegetable-celandine-normal": "Celandine",
-  "block-leafygroundvegetable-celandine-harvested": "Celanine (Growing)",
+  "block-perennialplant-celandine-normal": "Celandine",
+  "block-perennialplant-celandine-harvested": "Celanine (Growing)",
 
-  "block-leafygroundvegetable-leek-normal": "Leek",
-  "block-leafygroundvegetable-leek-harvested": "Leek (Growing)",
+  "block-perennialplant-leek-normal": "Leek",
+  "block-perennialplant-leek-harvested": "Leek (Growing)",
 
-  "block-leafygroundvegetable-plantain-normal": "Broadleaf plantain",
-  "block-leafygroundvegetable-plantain-harvested": "Broadleaf plantain (Growing)",
+  "block-perennialplant-plantain-normal": "Broadleaf plantain",
+  "block-perennialplant-plantain-harvested": "Broadleaf plantain (Growing)",
 
-  "block-leafygroundvegetable-saltwort-normal": "Saltwort",
-  "block-leafygroundvegetable-saltwort-harvested": "Saltwort (Growing)",
+  "block-annualplant-saltwort-normal": "Saltwort",
+  "block-annualplant-saltwort-harvested": "Saltwort (Growing)",
 
-  "block-leafygroundvegetable-yarrow-normal": "Yarrow",
-  "block-leafygroundvegetable-yarrow-harvested": "Yarrow (Growing)",
+  "block-perennialplant-yarrow-normal": "Yarrow",
+  "block-perennialplant-yarrow-harvested": "Yarrow (Growing)",
 
-  "block-leafygroundvegetable-liquorice-normal": "Liquorice",
-  "block-leafygroundvegetable-liquorice-harvested": "Liquorice (Growing)",
+  "block-annualplant-liquorice-normal": "Liquorice",
+  "block-annualplant-liquorice-harvested": "Liquorice (Growing)",
 
   "block-waterplant-waterchestnut-*-normal-*": "Water chestnut",
   "block-waterplant-waterchestnut-*-harvested-*": "Water chestnut (Growing)",
@@ -669,10 +676,11 @@
   "item-waterherbseeds-waterchestnut":"Waterchestnut Seeds",
 
   "item-roots-waterchestnut":"Water chestnut",
-  "recipeingredient-item-roots-waterchestnut-insturmentalcase": "water chestnut",
-  "recipeingredient-item-roots-waterchestnut": "water chestnut",
-  "meal-ingredient-soup-secondary-roots-waterchestnut": "water chestnut",
-  "meal-ingredient-stew-secondary-roots-waterchestnut": "water chestnut",
+  "item-roots-peeledwaterchestnut":"Peeled water chestnut",
+  "recipeingredient-item-roots-peeledwaterchestnut-insturmentalcase": "water chestnut",
+  "recipeingredient-item-roots-peeledwaterchestnut": "water chestnut",
+  "meal-ingredient-soup-secondary-roots-peeledwaterchestnut": "water chestnut",
+  "meal-ingredient-stew-secondary-roots-peeledwaterchestnut": "water chestnut",
 
   "item-roots-chicory":"Chicory root",
   "recipeingredient-item-roots-chicory-insturmentalcase": "chicory root",
@@ -680,11 +688,122 @@
   "meal-ingredient-soup-secondary-roots-chicory": "chicory root",
   "meal-ingredient-stew-secondary-roots-chicory": "chicory root",
 
+  "item-roots-celery":"Celery root",
+  "recipeingredient-item-roots-celery-insturmentalcase": "celery root",
+  "recipeingredient-item-roots-celery": "celery root",
+  "meal-ingredient-soup-secondary-roots-celery": "celery root",
+  "meal-ingredient-stew-secondary-roots-celery": "celery root",
+
   "item-roots-liquorice":"Liquorice root",
   "recipeingredient-item-roots-liquorice-insturmentalcase": "liquorice root",
   "recipeingredient-item-roots-liquorice": "liquorice root",
   "meal-ingredient-soup-secondary-roots-liquorice": "liquorice root",
   "meal-ingredient-stew-secondary-roots-liquorice": "liquorice root",
+
+  "block-seedling-bearleek-planted": "Bearleek Seeds (Growing)",
+  "block-seedling-bearleek-sprouting": "Bearleek Seeds (Sprouting)",
+
+  "block-seedling-basil-planted": "Basil Seeds (Growing)",
+  "block-seedling-basil-sprouting": "Basil Seeds (Sprouting)",
+
+  "block-seedling-blackpepper-planted": "Black pepper Seeds (Growing)",
+  "block-seedling-blackpepper-sprouting": "Black pepper Seeds (Sprouting)",
+
+  "block-seedling-celery-planted": "Celery Seeds (Growing)",
+  "block-seedling-celery-sprouting": "Celery Seeds (Sprouting)",
+
+  "block-seedling-chamomile-planted": "Chamomile Seeds (Growing)",
+  "block-seedling-chamomile-sprouting": "Chamomile Seeds (Sprouting)",
+
+  "block-seedling-cilantro-planted": "Cilantro Seeds (Growing)",
+  "block-seedling-cilantro-sprouting": "Cilantro Seeds (Sprouting)",
+
+  "block-seedling-dill-planted": "Dill Seeds (Growing)",
+  "block-seedling-dill-sprouting": "Dill Seeds (Sprouting)",
+
+  "block-seedling-lavender-planted": "Lavender Seeds (Growing)",
+  "block-seedling-lavender-sprouting": "Lavender Seeds (Sprouting)",
+
+  "block-seedling-dock-planted": "Dock Seeds (Growing)",
+  "block-seedling-dock-sprouting": "Dock Seeds (Sprouting)",
+
+  "block-seedling-marjoram-planted": "Marjoram Seeds (Growing)",
+  "block-seedling-marjoram-sprouting": "Marjoram Seeds (Sprouting)",
+
+  "block-seedling-marshmallow-planted": "Marshmallow Seeds (Growing)",
+  "block-seedling-marshmallow-sprouting": "Marshmallow Seeds (Sprouting)",
+
+  "block-seedling-mint-planted": "Mint Seeds (Growing)",
+  "block-seedling-mint-sprouting": "Mint Seeds (Sprouting)",
+
+  "block-seedling-mustard-planted": "Mustard Seeds (Growing)",
+  "block-seedling-mustard-sprouting": "Mustard Seeds (Sprouting)",
+
+  "block-seedling-rosemary-planted": "Rosemary Seeds (Growing)",
+  "block-seedling-rosemary-sprouting": "Rosemary Seeds (Sprouting)",
+
+  "block-seedling-saffron-planted": "Saffron Seeds (Growing)",
+  "block-seedling-saffron-sprouting": "Saffron Seeds (Sprouting)",
+
+  "block-seedling-sage-planted": "Sage Seeds (Growing)",
+  "block-seedling-sage-sprouting": "Sage Seeds (Sprouting)",
+
+  "block-seedling-sedge-planted": "Sedge Seeds (Growing)",
+  "block-seedling-sedge-sprouting": "Sedge Seeds (Sprouting)",
+
+  "block-seedling-stingingnettle-planted": "Stinging Nettle Seeds (Growing)",
+  "block-seedling-stingingnettle-sprouting": "Stinging Nettle Seeds (Sprouting)",
+
+  "block-seedling-stjohnswort-planted": "St John's Wort Seeds (Growing)",
+  "block-seedling-stjohnswort-sprouting": "St John's Wort Seeds (Sprouting)",
+
+  "block-seedling-thyme-planted": "Thyme Seeds (Growing)",
+  "block-seedling-thyme-sprouting": "Thyme Seeds (Sprouting)",
+
+  "block-seedling-minerslettuce-planted": "Miner's Lettuce Seeds (Growing)",
+  "block-seedling-minerslettuce-sprouting": "Miner's Lettuce Seeds (Sprouting)",
+
+  "block-seedling-mugwort-planted": "Mugwort Seeds (Growing)",
+  "block-seedling-mugwort-sprouting": "Mugwort Seeds (Sprouting)",
+
+  "block-seedling-burdock-planted": "Burdock Seeds (Growing)",
+  "block-seedling-burdock-sprouting": "Burdock Seeds (Sprouting)",
+
+  "block-seedling-poisonoak-planted": "Poison Oak Seeds (Growing)",
+  "block-seedling-poisonoak-sprouting": "Poison Oak  Seeds (Sprouting)",
+
+  "block-seedling-holly-planted": "Holly Seeds (Growing)",
+  "block-seedling-holly-sprouting": "Holly Seeds (Sprouting)",
+
+  "block-seedling-chicory-planted": "Chicory Seeds (Growing)",
+  "block-seedling-chicory-sprouting": "Chicory Seeds (Sprouting)",
+
+  "block-seedling-marigold-planted": "Marigold Seeds (Growing)",
+  "block-seedling-marigold-sprouting": "Marigold Seeds (Sprouting)",
+
+  "block-seedling-inula-planted": "Inula Seeds (Growing)",
+  "block-seedling-inula-sprouting": "Inula Seeds (Sprouting)",
+
+  "block-seedling-celandine-planted": "Celandine Seeds (Growing)",
+  "block-seedling-celandine-sprouting": "Celandine Seeds (Sprouting)",
+
+  "block-seedling-leek-planted": "Leek Seeds (Growing)",
+  "block-seedling-leek-sprouting": "Leek Seeds (Sprouting)",
+
+  "block-seedling-plantain-planted": "Plantain Seeds (Growing)",
+  "block-seedling-plantain-sprouting": "Plantain Seeds (Sprouting)",
+
+  "block-seedling-saltwort-planted": "Saltwort Seeds (Growing)",
+  "block-seedling-saltwort-sprouting": "Saltwort Seeds (Sprouting)",
+  
+  "block-seedling-yarrow-planted": "Yarrow Seeds (Growing)",
+  "block-seedling-yarrow-sprouting": "Yarrow Seeds (Sprouting)",
+
+  "block-seedling-liquorice-planted": "Liquorice Seeds (Growing)",
+  "block-seedling-liquorice-sprouting": "Liquorice Seeds (Sprouting)",
+
+  "block-seedling-waterchestnut-planted": "Water Chestnut Seeds (Growing)",
+  "block-seedling-waterchestnut-sprouting": "Water Chestnut Seeds (Sprouting)",
   
   "block-berrybush-huckleberry-empty": "Huckleberry Bush (Empty)",
   "block-berrybush-huckleberry-flowering": "Huckleberry Bush (Flowering)",
@@ -694,21 +813,21 @@
   "block-berrybush-snowberry-flowering": "Snowberry Bush (Flowering)",
   "block-berrybush-snowberry-ripe": "Snowberry Bush (Ripe)",
 
-  "block-berrybush-raspberry-empty": "Raspberry Bush (Empty)",
-  "block-berrybush-raspberry-flowering": "Raspberry Bush (Flowering)",
-  "block-berrybush-raspberry-ripe": "Raspberry Bush (Ripe)",
+  "block-pricklyberrybush-raspberry-empty": "Raspberry Bush (Empty)",
+  "block-pricklyberrybush-raspberry-flowering": "Raspberry Bush (Flowering)",
+  "block-pricklyberrybush-raspberry-ripe": "Raspberry Bush (Ripe)",
 
-  "block-berrybush-blueraspberry-empty": "Blue Raspberry Bush (Empty)",
-  "block-berrybush-blueraspberry-flowering": "Blue Raspberry Bush (Flowering)",
-  "block-berrybush-blueraspberry-ripe": "Blue Raspberry Bush (Ripe)",
+  "block-pricklyberrybush-blueraspberry-empty": "Blue Raspberry Bush (Empty)",
+  "block-pricklyberrybush-blueraspberry-flowering": "Blue Raspberry Bush (Flowering)",
+  "block-pricklyberrybush-blueraspberry-ripe": "Blue Raspberry Bush (Ripe)",
 
-  "block-berrybush-brambleberry-empty": "Brambleberry Bush (Empty)",
-  "block-berrybush-brambleberry-flowering": "Brambleberry Bush (Flowering)",
-  "block-berrybush-brambleberry-ripe": "Brambleberry Bush (Ripe)",
+  "block-pricklyberrybush-brambleberry-empty": "Brambleberry Bush (Empty)",
+  "block-pricklyberrybush-brambleberry-flowering": "Brambleberry Bush (Flowering)",
+  "block-pricklyberrybush-brambleberry-ripe": "Brambleberry Bush (Ripe)",
 
-  "block-berrybush-dogrose-empty": "Dogrose Bush (Empty)",
-  "block-berrybush-dogrose-flowering": "Dogrose Bush (Flowering)",
-  "block-berrybush-dogrose-ripe": "Dogrose Bush (Ripe)",
+  "block-pricklyberrybush-dogrose-empty": "Dogrose Bush (Empty)",
+  "block-pricklyberrybush-dogrose-flowering": "Dogrose Bush (Flowering)",
+  "block-pricklyberrybush-dogrose-ripe": "Dogrose Bush (Ripe)",
 
   "block-berrybush-gooseberry-empty": "Gooseberry Bush (Empty)",
   "block-berrybush-gooseberry-flowering": "Gooseberry Bush (Flowering)",
@@ -718,17 +837,24 @@
   "block-berrybush-honeysuckle-flowering": "Honeysuckle Bush (Flowering)",
   "block-berrybush-honeysuckle-ripe": "Honeysuckle Bush (Ripe)",
 
-  "block-berrybush-elderberry-empty": "Elderberry Bush (Empty)",
-  "block-berrybush-elderberry-flowering": "Elderberry Bush (Flowering)",
-  "block-berrybush-elderberry-ripe": "Elderberry Bush (Ripe)",
+  "block-shrubberrybush-elderberry-empty": "Elderberry Bush (Empty)",
+  "block-shrubberrybush-elderberry-flowering": "Elderberry Bush (Flowering)",
+  "block-shrubberrybush-elderberry-ripe": "Elderberry Bush (Ripe)",
 
-  "block-berrybush-strawberry-empty": "Strawberry Plant (Empty)",
-  "block-berrybush-strawberry-flowering": "Strawberry Plant (Flowering)",
-  "block-berrybush-strawberry-ripe": "Strawberry Plant (Ripe)",
+  "block-groundberryplant-strawberry-empty": "Strawberry Plant (Empty)",
+  "block-groundberryplant-strawberry-flowering": "Strawberry Plant (Flowering)",
+  "block-groundberryplant-strawberry-ripe": "Strawberry Plant (Ripe)",
 
-  "block-berrybush-cloudberry-empty": "Cloudberry Plant (Empty)",
-  "block-berrybush-cloudberry-flowering": "Cloudberry Plant (Flowering)",
-  "block-berrybush-cloudberry-ripe": "Cloudberry Plant (Ripe)",
+  "block-groundberryseedling-strawberry-planted": "Strawberry Seeds (Growing)",
+  "block-groundberryseedling-strawberry-sprouting": "Strawberry Seeds (Sprouting)",
+
+
+  "block-groundberryplant-cloudberry-empty": "Cloudberry Plant (Empty)",
+  "block-groundberryplant-cloudberry-flowering": "Cloudberry Plant (Flowering)",
+  "block-groundberryplant-cloudberry-ripe": "Cloudberry Plant (Ripe)",
+
+  "block-groundberryseedling-cloudberry-planted": "Cloudberry Seeds (Growing)",
+  "block-groundberryseedling-cloudberry-sprouting": "Cloudberry Seeds (Sprouting)",
 
   "item-pressedmash-huckleberry-dry": "Pressed Huckleberry mash",
   "item-pressedmash-huckleberry-wet": "Huckleberry mash ",

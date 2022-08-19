@@ -676,16 +676,23 @@
   "item-waterherbseeds-waterchestnut":"Waterchestnut Seeds",
 
   "item-roots-waterchestnut":"Water chestnut",
-  "recipeingredient-item-roots-waterchestnut-insturmentalcase": "water chestnut",
-  "recipeingredient-item-roots-waterchestnut": "water chestnut",
-  "meal-ingredient-soup-secondary-roots-waterchestnut": "water chestnut",
-  "meal-ingredient-stew-secondary-roots-waterchestnut": "water chestnut",
+  "item-roots-peeledwaterchestnut":"Peeled water chestnut",
+  "recipeingredient-item-roots-peeledwaterchestnut-insturmentalcase": "water chestnut",
+  "recipeingredient-item-roots-peeledwaterchestnut": "water chestnut",
+  "meal-ingredient-soup-secondary-roots-peeledwaterchestnut": "water chestnut",
+  "meal-ingredient-stew-secondary-roots-peeledwaterchestnut": "water chestnut",
 
   "item-roots-chicory":"Chicory root",
   "recipeingredient-item-roots-chicory-insturmentalcase": "chicory root",
   "recipeingredient-item-roots-chicory": "chicory root",
   "meal-ingredient-soup-secondary-roots-chicory": "chicory root",
   "meal-ingredient-stew-secondary-roots-chicory": "chicory root",
+
+  "item-roots-celery":"Celery root",
+  "recipeingredient-item-roots-celery-insturmentalcase": "celery root",
+  "recipeingredient-item-roots-celery": "celery root",
+  "meal-ingredient-soup-secondary-roots-celery": "celery root",
+  "meal-ingredient-stew-secondary-roots-celery": "celery root",
 
   "item-roots-liquorice":"Liquorice root",
   "recipeingredient-item-roots-liquorice-insturmentalcase": "liquorice root",
@@ -794,6 +801,9 @@
 
   "block-seedling-liquorice-planted": "Liquorice Seeds (Growing)",
   "block-seedling-liquorice-sprouting": "Liquorice Seeds (Sprouting)",
+
+  "block-seedling-waterchestnut-planted": "Water Chestnut Seeds (Growing)",
+  "block-seedling-waterchestnut-sprouting": "Water Chestnut Seeds (Sprouting)",
   
   "block-berrybush-huckleberry-empty": "Huckleberry Bush (Empty)",
   "block-berrybush-huckleberry-flowering": "Huckleberry Bush (Flowering)",

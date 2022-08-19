@@ -1,41 +1,78 @@
 {
     "code": "seedling",
-    "class": "Clipping",
-    "entityclassBytype": {
-      "*-dirt": "Transient",
-      "*-sprouting": "BlockEntitySeedling"
+    "class": "BlockPlant",
+    "entityclassbytype": {
+      "*-planted": "Transient",
+      "*-sprouting": "BESeedling"
     },
     "attributes": {
       "matureDays": {
         "avg": 7,
         "var": 2
+      },
+      "dieBelowTemp": -2,
+      "plantCodebyType": {
+        "*-basil-*": "wildcraft:annualplant-basil-normal",
+        "*-blackpepper-*": "wildcraft:annualplant-blackpepper-normal",
+        "*-celery-*": "wildcraft:annualplant-celery-normal",
+        "*-cilantro-*": "wildcraft:annualplant-cilantro-normal",
+        "*-dill-*": "wildcraft:annualplant-dill-normal",
+        "*-mustard-*": "wildcraft:annualplant-mustard-normal",
+        "*-burdock-*": "wildcraft:annualplant-burdock-normal",
+        "*-chicory-*": "wildcraft:annualplant-chicory-normal",
+        "*-marigold-*": "wildcraft:annualplant-saltwort-normal",
+        "*-liquorice-*": "wildcraft:annualplant-liquorice-normal",
+        "*-chamomile-*": "wildcraft:annualplant-chamomile-normal",
+        "*-dock-*": "wildcraft:annualplant-dock-normal",
+        "*-stingingnettle-*": "wildcraft:annualplant-stingingnettle-normal",
+  
+        "*-lavender-*": "wildcraft:evergreenplant-lavender-normal",
+        "*-rosemary-*": "wildcraft:evergreenplant-rosemary-normal",
+        "*-thyme-*": "wildcraft:evergreenplant-thyme-normal",
+        "*-holly-*": "wildcraft:evergreenplant-holly-normal",
+        "*-poisonoak-*": "wildcraft:evergreenplant-poisonoak-normal",
+
+        "*-bearleek-*": "wildcraft:perennialplant-bearleek-normal",
+        "*-marjoram-*": "wildcraft:perennialplant-marjoram-normal",
+        "*-marshmallow-*": "wildcraft:perennialplant-marshmallow-normal",
+        "*-mint-*": "wildcraft:perennialplant-mint-normal",
+        "*-saffron-*": "wildcraft:perennialplant-saffron-normal",
+        "*-stjohnswort-*": "wildcraft:perennialplant-stjohnswort-normal",
+        "*-mugwort-*": "wildcraft:perennialplant-mugwort-normal",
+        "*-inula-*": "wildcraft:perennialplant-inula-normal",
+        "*-celandine-*": "wildcraft:perennialplant-celandine-normal",
+        "*-leek-*": "wildcraft:perennialplant-leek-normal",
+        "*-plantain-*": "wildcraft:perennialplant-plantain-normal",
+        "*-yarrow-*": "wildcraft:perennialplant-yarrow-normal",
+        "*-sedge-*": "wildcraft:perennialplant-sedge-normal",
+        "*-sage-*": "wildcraft:perennialplant-sage-normal",
+
+        "*-waterchestnut-*": "wildcraft:waterplant-waterchestnut-normal"
+      },
+      "transientPropsByType": {
+        "*-planted": {
+          "convertFrom": "*-planted", 
+          "convertTo": "*-sprouting", 
+          "inGameHours": "48",
+          "resetBelowTemperature": -4,
+          "stopBelowTemperature": 2
+        }
       }
     },
     "variantgroups": [
         { "loadFromProperties": "wildcraft:wildcraft/wildflora" },
-        {"code": "state", "states": ["dirt", "sprouting"]}
+      {
+        "code": "state",
+        "states": [ "planted", "sprouting" ]
+      }
     ],
-    "transientPropsByType": {
-			"*-dirt": {
-				"convertFrom": "*-dirt", 
-				"convertTo": "*-sprouting", 
-				"inGameHours": "72",
-				"resetBelowTemperature": -4,
-				"stopBelowTemperature": 2
-			}
-		},
-    "creativeinventory": {
-      "general": [ "*-sprouting" ],
-      "flora": [ "*-sprouting" ],
-      "wildcraft": [ "*-sprouting" ]
-    },
     "renderpass": "OpaqueNoCull",
     "drawtype": "JSON",
     "randomDrawOffset": true,
     "randomizeRotations": true,
     "shapeByType": {
-      "*-dirt": { "base": "wildcraft:block/plant/seedling/dirt" },
-      "*-sprouting": { "base": "wildcraft:block/plant/clipping/clipping_shrub" }
+      "*-planted": { "base": "wildcraft:block/plant/seedling/dirt" },
+      "*-sprouting": { "base": "wildcraft:block/plant/seedling/seedling" }
     },
     "blockmaterial": "Plant",
     "sideopaqueByType": {
@@ -48,6 +85,22 @@
       "*": {
         "leaves": { "base": "wildcraft:block/plant/seedling/{wildflora}*" }
       }
+    },
+    "dropsByType": {
+      "*-dead-*": [
+        {
+          "type": "item",
+          "code": "game:stick",
+          "quantity": { "avg": 1.0 }
+        }
+      ],
+      "*-alive-*": [
+        {
+          "type": "item",
+          "code": "game:stick",
+          "quantity": { "avg": 1.0 }
+        }
+      ]
     },
     "replaceable": 5200,
     "lightAbsorption": 0,
