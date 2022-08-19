@@ -4,53 +4,141 @@
 		"file": "game:config/remaps.json",
 		"path": "/plantexpansion:plantexpansion",
     "value": [
-      "/bir remapq wildcraft:berrybush-huckleberry-empty plantexpansion:shortberrybush-huckleberry-empty force",
-      "/bir remapq wildcraft:berrybush-huckleberry-flowering plantexpansion:shortberrybush-huckleberry-flowering force",
-      "/bir remapq wildcraft:berrybush-huckleberry-ripe plantexpansion:shortberrybush-huckleberry-ripe force",
+      "bir remapq wildcraft:perennialplant-bearleek-normal wildcraft:leafygroundvegetable-bearleek-normal",
+      "bir remapq wildcraft:perennialplant-bearleek-harvested wildcraft:leafygroundvegetable-bearleek-harvested",
 
-      "/bir remapq wildcraft:berrybush-huckleberry-empty plantexpansion:berrybush-huckleberry-empty force",
-      "/bir remapq wildcraft:berrybush-huckleberry-flowering plantexpansion:berrybush-huckleberry-flowering force",
-      "/bir remapq wildcraft:berrybush-huckleberry-ripe plantexpansion:berrybush-huckleberry-ripe force",
+      "bir remapq wildcraft:perennialplant-marjoram-normal wildcraft:leafygroundvegetable-marjoram-normal",
+      "bir remapq wildcraft:perennialplant-marjoram-harvested wildcraft:leafygroundvegetable-marjoram-harvested",
 
-      "/bir remapq wildcraft:berrybush-raspberry-empty plantexpansion:brambleberrybush-raspberry-empty force",
-      "/bir remapq wildcraft:berrybush-raspberry-flowering plantexpansion:brambleberrybush-raspberry-flowering force",
-      "/bir remapq wildcraft:berrybush-raspberry-ripe plantexpansion:brambleberrybush-raspberry-ripe force",
+      "bir remapq wildcraft:perennialplant-sage-normal wildcraft:leafygroundvegetable-sage-normal",
+      "bir remapq wildcraft:perennialplant-sage-harvested wildcraft:leafygroundvegetable-sage-harvested",
 
-      "/bir remapq wildcraft:berrybush-blueraspberry-empty plantexpansion:brambleberrybush-blueraspberry-empty force",
-      "/bir remapq wildcraft:berrybush-blueraspberry-flowering plantexpansion:brambleberrybush-blueraspberry-flowering force",
-      "/bir remapq wildcraft:berrybush-blueraspberry-ripe plantexpansion:brambleberrybush-blueraspberry-ripe force",
+      "bir remapq wildcraft:perennialplant-sedge-normal wildcraft:leafygroundvegetable-sedge-normal",
+      "bir remapq wildcraft:perennialplant-sedge-harvested wildcraft:leafygroundvegetable-sedge-harvested",
 
-      "/bir remapq wildcraft:berrybush-strawberry-empty plantexpansion:groundberrybush-strawberry-empty force",
-      "/bir remapq wildcraft:berrybush-strawberry-flowering plantexpansion:groundberrybush-strawberry-flowering force",
-      "/bir remapq wildcraft:berrybush-strawberry-ripe plantexpansion:groundberrybush-strawberry-ripe force",
+      "bir remapq wildcraft:perennialplant-marshmallow-normal wildcraft:leafygroundvegetable-marshmallow-normal",
+      "bir remapq wildcraft:perennialplant-marshmallow-harvested wildcraft:leafygroundvegetable-marshmallow-harvested",
 
-      "/bir remapq wildcraft:berrybush-snowberry-empty plantexpansion:shrubberrybush-snowberry-empty force",
-      "/bir remapq wildcraft:berrybush-snowberry-flowering plantexpansion:shrubberrybush-snowberry-flowering force",
-      "/bir remapq wildcraft:berrybush-snowberry-ripe plantexpansion:shrubberrybush-snowberry-ripe force",
+      "bir remapq wildcraft:perennialplant-mint-normal wildcraft:leafygroundvegetable-mint-normal",
+      "bir remapq wildcraft:perennialplant-mint-harvested wildcraft:leafygroundvegetable-mint-harvested",
 
-      "/bir remapq wildcraft:leafygroundvegetable-stingingnettle-normal plantexpansion:stingingnettle force",
-      "/bir remapq wildcraft:leafygroundvegetable-minerslettuce-normal plantexpansion:leafygroundvegetable-minerslettuce-normal force",
-      "/bir remapq wildcraft:leafygroundvegetable-minerslettuce-harvested plantexpansion:leafygroundvegetable-minerslettuce-harvested force",
+      "bir remapq wildcraft:perennialplant-saffron-normal wildcraft:leafygroundvegetable-saffron-normal",
+      "bir remapq wildcraft:perennialplant-saffron-harvested wildcraft:leafygroundvegetable-saffron-harvested",
 
-      "/bir remapq wildcraft:leafygroundvegetable-chamomile-normal game:herb-chamomile force",
-      "/bir remapq wildcraft:leafygroundvegetable-basil-normal game:herb-basil force",
-      "/bir remapq wildcraft:leafygroundvegetable-cilantro-normal game:herb-cilantro force",
-      "/bir remapq wildcraft:leafygroundvegetable-lavender-normal game:herb-lavender force",
-      "/bir remapq wildcraft:leafygroundvegetable-marjoram-normal game:herb-marjoram force",
-      "/bir remapq wildcraft:leafygroundvegetable-mint-normal herb-mint force",
-      "/bir remapq wildcraft:leafygroundvegetable-saffron-normal game:herb-saffron force",
-      "/bir remapq wildcraft:leafygroundvegetable-sage-normal game:herb-sage force",
-      "/bir remapq wildcraft:leafygroundvegetable-thyme-normal game:herb-thyme force",
+      "bir remapq wildcraft:perennialplant-stjohnswort-normal wildcraft:leafygroundvegetable-stjohnswort-normal",
+      "bir remapq wildcraft:perennialplant-stjohnswort-harvested wildcraft:leafygroundvegetable-stjohnswort-harvested",
 
-      "/iir remapq wildcraft:fruit-huckleberry plantexpansion:fruit-huckleberry force",
-      "/iir remapq wildcraft:fruit-strawberry plantexpansion:fruit-strawberry force",
-      "/iir remapq wildcraft:fruit-raspberry plantexpansion:fruit-raspberry force",
-      "/iir remapq wildcraft:fruit-blueraspberry plantexpansion:fruit-blueraspberry force",
-      "/iir remapq wildcraft:fruit-snowberry plantexpansion:fruit-snowberry force",
+      "bir remapq wildcraft:perennialplant-mugwort-normal wildcraft:leafygroundvegetable-mugwort-normal",
+      "bir remapq wildcraft:perennialplant-mugwort-harvested wildcraft:leafygroundvegetable-mugwort-harvested",
 
-      "/iir remapq wildcraft:seeds-strawberry wildcraft:item-clipping-strawberry-green force",
-      "/iir remapq wildcraft:seeds-cloudberry wildcraft:item-clipping-cloudberry-green force"
+      "bir remapq wildcraft:perennialplant-inula-normal wildcraft:leafygroundvegetable-inula-normal",
+      "bir remapq wildcraft:perennialplant-inula-harvested wildcraft:leafygroundvegetable-inula-harvested",
 
+      "bir remapq wildcraft:perennialplant-celandine-normal wildcraft:leafygroundvegetable-celandine-normal",
+      "bir remapq wildcraft:perennialplant-celandine-harvested wildcraft:leafygroundvegetable-celandine-harvested",
+
+      "bir remapq wildcraft:perennialplant-leek-normal wildcraft:leafygroundvegetable-leek-normal",
+      "bir remapq wildcraft:perennialplant-leek-harvested wildcraft:leafygroundvegetable-leek-harvested",
+
+      "bir remapq wildcraft:perennialplant-plantain-normal wildcraft:leafygroundvegetable-plantain-normal",
+      "bir remapq wildcraft:perennialplant-plantain-harvested wildcraft:leafygroundvegetable-plantain-harvested",
+
+      "bir remapq wildcraft:perennialplant-yarrow-normal wildcraft:leafygroundvegetable-yarrow-normal",
+      "bir remapq wildcraft:perennialplant-yarrow-harvested wildcraft:leafygroundvegetable-yarrow-harvested",
+
+      "bir remapq wildcraft:annualplant-basil-normal wildcraft:leafygroundvegetable-basil-normal",
+      "bir remapq wildcraft:annualplant-basil-harvested wildcraft:leafygroundvegetable-basil-harvested",
+
+      "bir remapq wildcraft:annualplant-blackpepper-normal wildcraft:leafygroundvegetable-blackpepper-normal",
+      "bir remapq wildcraft:annualplant-blackpepper-harvested wildcraft:leafygroundvegetable-blackpepper-harvested",
+
+      "bir remapq wildcraft:annualplant-celery-normal wildcraft:leafygroundvegetable-celery-normal",
+      "bir remapq wildcraft:annualplant-celery-harvested wildcraft:leafygroundvegetable-celery-harvested",
+
+      "bir remapq wildcraft:annualplant-chamomile-normal wildcraft:leafygroundvegetable-chamomile-normal",
+      "bir remapq wildcraft:annualplant-chamomile-harvested wildcraft:leafygroundvegetable-chamomile-harvested",
+
+      "bir remapq wildcraft:annualplant-cilantro-normal wildcraft:leafygroundvegetable-cilantro-normal",
+      "bir remapq wildcraft:annualplant-cilantro-harvested wildcraft:leafygroundvegetable-cilantro-harvested",
+
+      "bir remapq wildcraft:annualplant-dill-normal wildcraft:leafygroundvegetable-dill-normal",
+      "bir remapq wildcraft:annualplant-dill-harvested wildcraft:leafygroundvegetable-dill-harvested",
+
+      "bir remapq wildcraft:annualplant-dock-normal wildcraft:leafygroundvegetable-dock-normal",
+      "bir remapq wildcraft:annualplant-dock-harvested wildcraft:leafygroundvegetable-dock-harvested",
+
+      "bir remapq wildcraft:annualplant-mustard-normal wildcraft:leafygroundvegetable-mustard-normal",
+      "bir remapq wildcraft:annualplant-mustard-harvested wildcraft:leafygroundvegetable-mustard-harvested",
+
+      "bir remapq wildcraft:annualplant-stingingnettle-normal wildcraft:leafygroundvegetable-stingingnettle-normal",
+      "bir remapq wildcraft:annualplant-stingingnettle-harvested wildcraft:leafygroundvegetable-stingingnettle-harvested",
+
+      "bir remapq wildcraft:annualplant-burdock-normal wildcraft:leafygroundvegetable-burdock-normal",
+      "bir remapq wildcraft:annualplant-burdock-harvested wildcraft:leafygroundvegetable-burdock-harvested",
+
+      "bir remapq wildcraft:annualplant-chicory-normal wildcraft:leafygroundvegetable-chicory-normal",
+      "bir remapq wildcraft:annualplant-chicory-harvested wildcraft:leafygroundvegetable-chicory-harvested",
+
+      "bir remapq wildcraft:annualplant-marigold-normal wildcraft:leafygroundvegetable-marigold-normal",
+      "bir remapq wildcraft:annualplant-marigold-harvested wildcraft:leafygroundvegetable-marigold-harvested",
+
+      "bir remapq wildcraft:annualplant-saltwort-normal wildcraft:leafygroundvegetable-saltwort-normal",
+      "bir remapq wildcraft:annualplant-saltwort-harvested wildcraft:leafygroundvegetable-saltwort-harvested",
+
+      "bir remapq wildcraft:annualplant-liquorice-normal wildcraft:leafygroundvegetable-liquorice-normal",
+      "bir remapq wildcraft:annualplant-liquorice-harvested wildcraft:leafygroundvegetable-liquorice-harvested",
+
+      "bir remapq wildcraft:evergreenplant-lavender-normal wildcraft:leafygroundvegetable-lavender-normal",
+      "bir remapq wildcraft:evergreenplant-lavender-harvested wildcraft:leafygroundvegetable-lavender-harvested",
+
+      "bir remapq wildcraft:evergreenplant-rosemary-normal wildcraft:leafygroundvegetable-rosemary-normal",
+      "bir remapq wildcraft:evergreenplant-rosemary-harvested wildcraft:leafygroundvegetable-rosemary-harvested",
+
+      "bir remapq wildcraft:evergreenplant-thyme-normal wildcraft:leafygroundvegetable-thyme-normal",
+      "bir remapq wildcraft:evergreenplant-thyme-harvested wildcraft:leafygroundvegetable-thyme-harvested",
+
+      "bir remapq wildcraft:evergreenplant-holly-normal wildcraft:leafygroundvegetable-holly-normal",
+      "bir remapq wildcraft:evergreenplant-holly-harvested wildcraft:leafygroundvegetable-holly-harvested",
+
+      "bir remapq wildcraft:evergreenplant-poisonoak-normal wildcraft:leafygroundvegetable-poisonoak-normal",
+      "bir remapq wildcraft:evergreenplant-poisonoak-harvested wildcraft:leafygroundvegetable-poisonoak-harvested",
+
+      "bir remapq wildcraft:smallannualplant-minerslettuce-normal wildcraft:leafygroundvegetable-minerslettuce-normal",
+      "bir remapq wildcraft:smallannualplant-minerslettuce-harvested wildcraft:leafygroundvegetable-minerslettuce-harvested",
+
+
+
+      "bir remapq wildcraft:groundberryplant-cloudberry-empty wildcraft:berrybush-cloudberry-empty",
+      "bir remapq wildcraft:groundberryplant-cloudberry-flowering wildcraft:berrybush-cloudberry-flowering",
+      "bir remapq wildcraft:groundberryplant-cloudberry-ripe wildcraft:berrybush-cloudberry-ripe",
+
+      "bir remapq wildcraft:groundberryplant-strawberry-empty wildcraft:berrybush-strawberry-empty",
+      "bir remapq wildcraft:groundberryplant-strawberry-flowering wildcraft:berrybush-strawberry-flowering",
+      "bir remapq wildcraft:groundberryplant-strawberry-ripe wildcraft:berrybush-strawberry-ripe",
+
+      "bir remapq wildcraft:groundberryplant-strawberry-empty wildcraft:berrybush-strawberry-empty",
+      "bir remapq wildcraft:groundberryplant-strawberry-flowering wildcraft:berrybush-strawberry-flowering",
+      "bir remapq wildcraft:groundberryplant-strawberry-ripe wildcraft:berrybush-strawberry-ripe",
+
+      "bir remapq wildcraft:groundberryplant-strawberry-empty wildcraft:berrybush-strawberry-empty",
+      "bir remapq wildcraft:groundberryplant-strawberry-flowering wildcraft:berrybush-strawberry-flowering",
+      "bir remapq wildcraft:groundberryplant-strawberry-ripe wildcraft:berrybush-strawberry-ripe",
+
+      "bir remapq wildcraft:pricklyberrybush-brambleberry-empty wildcraft:berrybush-brambleberry-empty",
+      "bir remapq wildcraft:pricklyberrybush-brambleberry-flowering wildcraft:berrybush-brambleberry-flowering",
+      "bir remapq wildcraft:pricklyberrybush-brambleberry-ripe wildcraft:berrybush-brambleberry-ripe",
+
+      "bir remapq wildcraft:pricklyberrybush-raspberry-empty wildcraft:berrybush-raspberry-empty",
+      "bir remapq wildcraft:pricklyberrybush-raspberry-flowering wildcraft:berrybush-raspberry-flowering",
+      "bir remapq wildcraft:pricklyberrybush-raspberry-ripe wildcraft:berrybush-raspberry-ripe",
+
+      "bir remapq wildcraft:pricklyberrybush-dogrose-empty wildcraft:berrybush-dogrose-empty",
+      "bir remapq wildcraft:pricklyberrybush-dogrose-flowering wildcraft:berrybush-dogrose-flowering",
+      "bir remapq wildcraft:pricklyberrybush-dogrose-ripe wildcraft:berrybush-dogrose-ripe",
+      
+      "bir remapq wildcraft:shrubberrybush-dogrose-empty wildcraft:berrybush-elderberry-empty",
+      "bir remapq wildcraft:shrubberrybush-dogrose-flowering wildcraft:berrybush-elderberry-flowering",
+      "bir remapq wildcraft:shrubberrybush-dogrose-ripe wildcraft:berrybush-elderberry-ripe",
     ]
 	}
 ]
