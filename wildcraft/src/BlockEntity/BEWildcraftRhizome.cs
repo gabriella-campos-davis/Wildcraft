@@ -99,8 +99,6 @@ namespace wildcraft
             {
                 int interval = 10000;
                 RegisterGameTickListener(onServerTick, interval, -api.World.Rand.Next(interval));
-
-                plantBlockCode = this.Block.Code;
                 
                 // If the rhizome's plant block is invalid nuke the rhizome
                 if (plantBlockCode != null && !setwcPlantBlock(Api.World.GetBlock(plantBlockCode)))
@@ -252,8 +250,7 @@ namespace wildcraft
 
         public void OnGenerated(IBlockAccessor blockAccessor, LCGRandom rnd, RhizomatusPlant block)
         {
-            plantBlockCode = this.Block.Code;
-            Api.Logger.Notification("Wildcraft Rhizome blockentity initialized with '{0}' as it's plant code at position {1}.", plantBlockCode, Pos);
+            //Api.Logger.Error("Wildcraft Rhizome blockentity initialized with '{0}' as it's plant code at position {1}.", plantBlockCode, Pos);
             setwcPlantBlock(block);
             wildcraft.lcgrnd.InitPositionSeed(plantBlockCode.GetHashCode(), (int)(wcPlantBlock as RhizomatusPlant).Api.World.Calendar.GetHemisphere(Pos));
             // 33% chance of the rhizome being set to grow for a short while before fruiting

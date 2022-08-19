@@ -107,6 +107,10 @@ namespace wildcraft
             BuffManager.Initialize(api, this);
             BuffManager.RegisterBuffType("RashDebuff", typeof(RashDebuff));
             BuffManager.RegisterBuffType("PoulticeBuff", typeof(PoulticeBuff));
+
+             api.RegisterCommand("wcdebug", "", "", onCmd, Privilege.controlserver);
+
+            api.Event.SaveGameLoaded += Event_SaveGameLoaded;
         }
 
         public override void StartClientSide(ICoreClientAPI capi)
@@ -114,6 +118,34 @@ namespace wildcraft
             base.StartClientSide(capi);
             //capi.Gui.RegisterDialog(new HudElementBuffs(capi));
             
+        }
+
+        private void Event_SaveGameLoaded()
+        {
+            lcgrnd = new LCGRandom(Api.World.Seed);
+            rndn = new NormalRandom(Api.World.Seed);
+        }
+
+        private void onCmd(IServerPlayer player, int groupId, CmdArgs args)
+        {
+            string cmd = args.PopWord();
+
+            BlockPos pos = player.Entity.Pos.XYZ.AsBlockPos;
+
+            switch (cmd)
+            {
+                case "regrow":
+                    BEWildcraftRhizome bemc = Api.World.BlockAccessor.GetBlockEntity(pos.DownCopy()) as BEWildcraftRhizome;
+                    if (bemc == null)
+                    {
+                        player.SendMessage(groupId, "No rhizome below you", EnumChatType.Notification);
+                        return;
+                    }
+                    player.SendMessage(groupId, "Regrowing rhizome!", EnumChatType.Notification);
+                    bemc.Regrow();
+
+                    break;
+            }
         }
     }
 }
