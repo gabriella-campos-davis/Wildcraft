@@ -2,7 +2,7 @@
 	{
 		"op": "add",
 		"file": "game:config/remaps.json",
-		"path": "/plantexpansion:plantexpansion",
+		"path": "/wildcraft:wildcraft",
     "value": [
       "bir remapq wildcraft:perennialplant-bearleek-normal wildcraft:leafygroundvegetable-bearleek-normal",
       "bir remapq wildcraft:perennialplant-bearleek-harvested wildcraft:leafygroundvegetable-bearleek-harvested",

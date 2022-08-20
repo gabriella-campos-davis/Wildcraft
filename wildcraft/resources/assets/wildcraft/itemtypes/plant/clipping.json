@@ -74,7 +74,7 @@
       "leaves": { "base": "wildcraft:block/plant/clipping/greenleaves/{type}*" }
     }
   },
-  "materialDensity": 200,
+  "materialDensity": 600,
   "combustibleProps": {
     "burnTemperature": 600,
     "burnDuration": 10

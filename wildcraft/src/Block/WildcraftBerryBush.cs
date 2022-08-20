@@ -16,7 +16,7 @@ namespace wildcraft
         ItemStack clipping = new();
         
         public AssetLocation harvestingSound;
-        
+
         public override void OnLoaded(ICoreAPI api)
         {
             base.OnLoaded(api);
@@ -31,22 +31,29 @@ namespace wildcraft
 
         public override bool OnBlockInteractStart(IWorldAccessor world, IPlayer byPlayer, BlockSelection blockSel)
         {
+
             if ((byPlayer?.InventoryManager?.ActiveHotbarSlot?.Itemstack?.Collectible?.Tool == EnumTool.Knife && WildcraftConfig.Current.useKnifeForClipping) ||
                 (byPlayer?.InventoryManager?.ActiveHotbarSlot?.Itemstack?.Collectible?.Tool == EnumTool.Shears && WildcraftConfig.Current.useShearsForClipping))
             {
+
+                if(clipping == null){
+                    return false;
+                }
+
                 if(world.BlockAccessor.GetBlockEntity(blockSel.Position) is BEWildcraftBerryBush bewcbush) bewcbush.Prune();
 
-                if (!byPlayer.InventoryManager.TryGiveItemstack(clipping))
+                clipping = new ItemStack(api.World.GetItem(AssetLocation.Create("wildcraft:clipping-" + this.Variant["type"] + "-green")), 1);
+                if (byPlayer?.InventoryManager.TryGiveItemstack(clipping) == false)
                 {
-                    world.SpawnItemEntity(clipping, blockSel.Position.ToVec3d().Add(0.5, 0.5, 0.5));
+                    world.SpawnItemEntity(clipping, byPlayer.Entity.SidedPos.XYZ);
                 }
 
                 world.PlaySoundAt(harvestingSound, blockSel.Position.X, blockSel.Position.Y, blockSel.Position.Z, byPlayer);
 
                 return true;
             }
-            
-            return base.OnBlockInteractStart(world, byPlayer, blockSel);
+
+            return base.OnBlockInteractStart(world, byPlayer, blockSel); 
         }
 
         public override bool CanPlantStay(IBlockAccessor blockAccessor, BlockPos pos)
@@ -58,6 +65,7 @@ namespace wildcraft
             Block belowbelowBlock = blockAccessor.GetBlock(pos.DownCopy(2));
             return belowbelowBlock.Fertility > 0 && this.Attributes?.IsTrue("stackable") == true && belowBlock.Attributes?.IsTrue("stackable") == true;
         }
+
 
         public override ItemStack[] GetDrops(IWorldAccessor world, BlockPos pos, IPlayer byPlayer, float dropQuantityMultiplier = 1)
         {

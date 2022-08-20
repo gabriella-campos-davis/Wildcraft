@@ -21,9 +21,9 @@
         "*-huckleberry-*": "wildcraft:berrybush-huckleberry-empty",
         "*-gooseberry-*": "wildcraft:berrybush-gooseberry-empty",
         "*-honeysuckle-*": "wildcraft:berrybush-honeysuckle-empty",
+        "*-snowberry-*": "wildcraft:berrybush-snowberry-empty",
   
         "*-elderberry-*": "wildcraft:shrubberrybush-elderberry-empty",
-        "*-snowberry-*": "wildcraft:shrubberrybush-snowberry-empty",
   
         "*-raspberry-*": "wildcraft:pricklyberrybush-raspberry-empty",
         "*-brambleberry-*": "wildcraft:pricklyberrybush-brambleberry-empty",
@@ -46,8 +46,8 @@
     "randomDrawOffset": true,
     "randomizeRotations": true,
     "shapeByType": {
-      "*-dead": { "base": "wildcraft:block/plant/ShrubBerryBush/child/child_dead_bush" },
-      "*-alive": { "base": "wildcraft:block/plant/ShrubBerryBush/child/child_bush" }
+      "*-dead": { "base": "wildcraft:block/plant/shrubberrybush/child/child_dead_bush" },
+      "*-alive": { "base": "wildcraft:block/plant/shrubberrybush/child/child_bush" }
     },
     "blockmaterial": "Plant",
     "sideopaqueByType": {
