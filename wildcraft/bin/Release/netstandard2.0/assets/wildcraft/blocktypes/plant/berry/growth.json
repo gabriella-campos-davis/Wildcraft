@@ -46,8 +46,8 @@
     "randomDrawOffset": true,
     "randomizeRotations": true,
     "shapeByType": {
-      "*-dead": { "base": "wildcraft:block/plant/shrubberrybush/child/child_dead_bush" },
-      "*-alive": { "base": "wildcraft:block/plant/shrubberrybush/child/child_bush" }
+      "*-dead": { "base": "wildcraft:block/plant/clipping/child_dead_bush" },
+      "*-alive": { "base": "wildcraft:block/plant/clipping/child_bush" }
     },
     "blockmaterial": "Plant",
     "sideopaqueByType": {

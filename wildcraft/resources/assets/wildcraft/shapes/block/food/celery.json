@@ -8,7 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"celery": "wildcraft:block/food/roots/celery_root"
+		"celery_root": "wildcraft:block/food/roots/celery_root"
 	},
 	"elements": [
 		{

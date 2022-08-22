@@ -55,24 +55,16 @@
         "*":"false"
     }
   },
-  "texturesByType": {
-    "*-minerslettuce-*": {
-      "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/minerlettucebase" },
-      "stems": { "base": "wildcraft:block/plant/leafygroundvegetable/minerlettucebase" }
-    },
-    "*": {
-      "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/{state}/{type}*" }
-    }
-  },
+  "randomDrawOffset": true,
 	"creativeinventory": {
     "general": ["*-normal"],
     "flora": ["*-normal"],
     "wildcraft": [ "*-normal" ]
   },
   "shapeByType": {
-    "*-minerslettuce-*": { "base": "wildcraft:block/plant/leafygroundvegetable/minerslettuce_{state}*" },
-
-    "*": {"base": "wildcraft:block/plant/leafygroundvegetable/default_normal*"}
+    "*-minerslettuce-normal": { "base": "wildcraft:block/plant/clover/minerslettuce_normal" },
+    "*-minerslettuce-harvested": { "base": "wildcraft:block/plant/clover/minerslettuce_harvested" },
+    "*": {"base": "wildcraft:block/plant/clover/clover"}
   },
 	"renderpass": "OpaqueNoCull",
 	"renderAlphaTest": 0.4,
@@ -119,7 +111,7 @@
       {
         "type": "item",
         "code": "wildcraft:herbs-{type}",
-        "quantity": { "avg": 1.0 }
+        "quantity": { "avg": 1.5 }
       }
     ]
   }

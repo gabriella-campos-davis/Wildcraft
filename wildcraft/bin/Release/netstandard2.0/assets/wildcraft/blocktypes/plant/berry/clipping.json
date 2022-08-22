@@ -46,10 +46,8 @@
   "randomizeRotations": true,
   "shapeByType": {
     "*-elderberry-alive": { "base": "wildcraft:block/plant/clipping/clipping_shrub" },
-
-    "*-dead": { "base": "wildcraft:block/plant/shrubberrybush/child/child_dead" },
-
-    "*-alive": { "base": "wildcraft:block/plant/shrubberrybush/child/child" }
+    "*-dead": { "base": "wildcraft:block/plant/clipping/child_dead" },
+    "*-alive": { "base": "wildcraft:block/plant/clipping/child" }
   },
   "blockmaterial": "Plant",
   "sideopaqueByType": {

@@ -57,6 +57,8 @@
         "*":"false"
     }
   },
+  "randomDrawOffset": true,
+  "randomizeRotations": true,
   "texturesByType": {
     "*-inula-normal*":{
       "burdock_stem": {"base": "wildcraft:block/plant/leafygroundvegetable/inula_stem"},
@@ -78,6 +80,7 @@
   "shapeByType": {
     "*-stingingnettle-*": { "base": "wildcraft:block/plant/stingingnettle/stingingnettle_normal*" },
     "*-mugwort-*": {"base": "wildcraft:block/plant/leafygroundvegetable/bushy_normal"},
+    "*-sedge-*": {"base": "wildcraft:block/plant/leafygroundvegetable/bushy_normal"},
     "*-inula-normal*": {"base": "wildcraft:block/plant/leafygroundvegetable/inula_normal*"},
     "*-plantain-normal": {"base": "wildcraft:block/plant/leafygroundvegetable/grounded_normal*"}, 
 
@@ -128,28 +131,42 @@
       {
         "type": "item",
         "code": "wildcraft:roots-bearleek",
-        "quantity": { "avg": 1.8 }
+        "quantity": { "avg": 1.2 }
       }
     ],
     "*-marshmallow-harvested": [
       {
         "type": "item",
         "code": "wildcraft:roots-marshmallow",
-        "quantity": { "avg": 1.8 }
+        "quantity": { "avg": 1.2 }
       }
     ],
     "*-stingingnettle-normal": [
       {
         "type": "item",
         "code": "wildcraft:herbs-{type}",
-        "quantity": { "avg": 1.8 }
+        "quantity": { "avg": 1.5 }
+      }
+    ],
+    "*-mugwort-normal": [
+      {
+        "type": "item",
+        "code": "wildcraft:herbs-{type}",
+        "quantity": { "avg": 2.5 }
+      }
+    ],
+    "*-sedge-normal": [
+      {
+        "type": "item",
+        "code": "wildcraft:herbs-{type}",
+        "quantity": { "avg": 2.5 }
       }
     ],
     "*-normal": [
       {
         "type": "item",
         "code": "wildcraft:herbs-{type}",
-        "quantity": { "avg": 1.0 }
+        "quantity": { "avg": 1.5 }
       }
     ]
   }
