@@ -47,6 +47,8 @@
         "*-sedge-*": "wildcraft:perennialplant-sedge-normal",
         "*-sage-*": "wildcraft:perennialplant-sage-normal",
 
+        "*-minerslettuce-*": "wildcraft:smallannualplant-minerslettuce-normal",
+
         "*-waterchestnut-*": "wildcraft:waterplant-waterchestnut-normal"
       },
       "transientPropsByType": {
@@ -71,6 +73,7 @@
     "randomDrawOffset": true,
     "randomizeRotations": true,
     "shapeByType": {
+      "*-minerslettuce-sprouting": { "base": "wildcraft:block/plant/clover/minerslettuce_sprouting"},
       "*-planted": { "base": "wildcraft:block/plant/seedling/dirt" },
       "*-sprouting": { "base": "wildcraft:block/plant/seedling/seedling" }
     },
@@ -82,6 +85,9 @@
       "all": false
     },
     "texturesByType": {
+      "*-minerslettuce-sprouting": {
+        "leaves": { "base": "wildcraft:block/plant/clover/minerslettuce_shoots_leaves" }
+      },
       "*": {
         "leaves": { "base": "wildcraft:block/plant/seedling/{wildflora}*" }
       }

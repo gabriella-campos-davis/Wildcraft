@@ -5,8 +5,6 @@
 		"*-harvested-*": "Transient"
 	},
 	attributes: {
-		climateColorMapForMap: "climatePlantTint", 
-		seasonColorMapForMap: "seasonalFoliage",
 		transientPropsByType: {
 			"waterplant-waterchestnut-*": {
 				convertFrom: "*-harvested-{cover}", 

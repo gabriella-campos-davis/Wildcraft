@@ -56,7 +56,6 @@ namespace wildcraft
             }
 
             string herbtype = Variant["herbs"].ToString();
-            api.Logger.Debug(herbtype);
             herbBlock = byEntity.Api.World.GetBlock(AssetLocation.Create("wildcraft:seedling-" + herbtype + "-planted"));
 
             if (herbBlock != null)

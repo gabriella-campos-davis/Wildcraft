@@ -59,6 +59,8 @@
         "*":"false"
     }
   },
+  "randomDrawOffset": true,
+  "randomizeRotations": true,
   "texturesByType": {
     "*-burdock-normal*":{
       "burdock_stem": {"base": "wildcraft:block/plant/leafygroundvegetable/burdock_stem"},
@@ -142,21 +144,21 @@
       {
         "type": "item",
         "code": "wildcraft:roots-budrock",
-        "quantity": { "avg": 1.8 }
+        "quantity": { "avg": 1.2 }
       }
     ],
     "*-chicory-harvested": [
       {
         "type": "item",
         "code": "wildcraft:roots-chicory",
-        "quantity": { "avg": 1.8 }
+        "quantity": { "avg": 1.2 }
       }
     ],
     "*-liquorice-harvested": [
       {
         "type": "item",
         "code": "wildcraft:roots-liquorice",
-        "quantity": { "avg": 1.8 }
+        "quantity": { "avg": 1.2 }
       }
     ],
     "*-celery-harvested": [
@@ -170,14 +172,14 @@
       {
         "type": "item",
         "code": "wildcraft:herbs-{type}",
-        "quantity": { "avg": 1.8 }
+        "quantity": { "avg": 1.5 }
       }
     ],
     "*-normal": [
       {
         "type": "item",
         "code": "wildcraft:herbs-{type}",
-        "quantity": { "avg": 1.0 }
+        "quantity": { "avg": 1.5 }
       }
     ]
   }
