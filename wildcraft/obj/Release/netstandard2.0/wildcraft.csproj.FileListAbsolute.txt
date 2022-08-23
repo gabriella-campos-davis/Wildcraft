@@ -533,3 +533,4 @@ D:\VSMods\Wildcraft\wildcraft\bin\Release\netstandard2.0\assets\wildcraft\shapes
 D:\VSMods\Wildcraft\wildcraft\bin\Release\netstandard2.0\assets\wildcraft\shapes\block\plant\clipping\child_bush.json
 D:\VSMods\Wildcraft\wildcraft\bin\Release\netstandard2.0\assets\wildcraft\shapes\block\plant\clipping\child_dead.json
 D:\VSMods\Wildcraft\wildcraft\bin\Release\netstandard2.0\assets\wildcraft\shapes\block\plant\clipping\child_dead_bush.json
+D:\VSMods\Wildcraft\wildcraft\bin\Release\netstandard2.0\assets\wildcraft\patches\fruitmash-in-trough.json
