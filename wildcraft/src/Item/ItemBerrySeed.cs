@@ -11,8 +11,6 @@ namespace wildcraft
     public class ItemBerrySeed : Item
     {
         Block berryBlock;
-        Block block;
-
 
         WorldInteraction[] interactions;
         public override void OnLoaded(ICoreAPI api)

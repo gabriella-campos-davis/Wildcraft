@@ -24,7 +24,7 @@ namespace wildcraft
             return prunedmeshes[rnd];
         }
 
-        new private void genPrunedMeshes()
+        private void genPrunedMeshes()
         {
             var capi = api as ICoreClientAPI;
 

@@ -100,6 +100,9 @@ namespace wildcraft
             if(state == "alive")
             {
                 Block newBushBlock = Api.World.GetBlock(AssetLocation.Create(bushCode));
+                if (newBushBlock is null){
+                    throw new ArgumentNullException(nameof(newBushBlock), "BEClipping newBushBlock is Null. Exiting.");
+                }
                 Api.World.BlockAccessor.SetBlock(newBushBlock.BlockId, Pos);
             }
 
@@ -108,10 +111,18 @@ namespace wildcraft
                 Block deadClippingBlock;
 
                 if(this.Block.Code.FirstCodePart() == "growth"){
+                    bushType = this.Block.Variant["type"].ToString();
                     deadClippingBlock = Api.World.GetBlock(AssetLocation.Create("wildcraft:growth-" + bushType + "-dead"));
+                    if (deadClippingBlock is null){
+                        throw new ArgumentNullException(nameof(deadClippingBlock), "BEClipping dead growth block is Null. Exiting.");  
+                    }
                     Api.World.BlockAccessor.SetBlock(deadClippingBlock.BlockId, Pos);
                 } else{
+                    bushType = this.Block.Variant["type"].ToString();
                     deadClippingBlock = Api.World.GetBlock(AssetLocation.Create("wildcraft:clipping-" + bushType + "-dead"));
+                    if (deadClippingBlock is null){
+                        throw new ArgumentNullException(nameof(deadClippingBlock), "BEClipping dead bush block is Null. Exiting.");  
+                    }
                     Api.World.BlockAccessor.SetBlock(deadClippingBlock.BlockId, Pos);
                 }
             }

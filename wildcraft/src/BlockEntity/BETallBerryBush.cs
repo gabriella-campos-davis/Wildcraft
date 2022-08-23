@@ -24,10 +24,10 @@ namespace wildcraft
         double? totalDaysForNextStageOld = null; // old v1.13 data format, here for backwards compatibility
 
         RoomRegistry roomreg;
-        public int roomness;
+        new public int roomness;
         
-        public bool Pruned;
-        public double LastPrunedTotalDays;
+        new public bool Pruned;
+        new public double LastPrunedTotalDays;
 
         public BETallBerryBush() : base()
         {
@@ -173,6 +173,9 @@ namespace wildcraft
                 !(Api.World.BlockAccessor.GetBlock(Pos.X, Pos.Y - 1, Pos.Z) is WildcraftBerryBush))
             {
                 Block clipping = Api.World.BlockAccessor.GetBlock(AssetLocation.Create("wildcraft:growth-" + this.Block.Variant["type"] + "-alive"));
+                if(clipping is null) {
+                    throw new ArgumentNullException(nameof(clipping), "BETallBerryBush growth is Null. Exiting");
+                }
                 Api.World.BlockAccessor.SetBlock(clipping.BlockId, Pos.AddCopy(0, 1, 0));
             }
 
@@ -186,7 +189,6 @@ namespace wildcraft
             string nextCodePart = (nowCodePart == "empty") ? "flowering" : ((nowCodePart == "flowering") ? "ripe" : "empty");
 
             AssetLocation loc = block.CodeWithPart(nextCodePart, 1);
-            Api.Logger.Debug(loc.Path);
 
             if (!loc.Valid)
             {
