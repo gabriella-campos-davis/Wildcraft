@@ -20,7 +20,7 @@
 	"creativeinventory": { "general": ["*"], "items": ["*"], "wildcraft": [ "*" ] },
 	"transitionableProps": [{		
 			"type": "Perish",
-			"freshHours": { "avg": 12 },
+			"freshHours": { "avg": 36 },
 			"transitionHours": { "avg": 12 },
 			"transitionedStack": { "type": "item", "code": "game:rot" },
 			"transitionRatio": 1
