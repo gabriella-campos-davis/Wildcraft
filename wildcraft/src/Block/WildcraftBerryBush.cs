@@ -5,6 +5,7 @@ using Vintagestory.API.MathTools;
 using Vintagestory.API.Util;
 using Vintagestory.GameContent;
 using System.Linq;
+using System;
 using Vintagestory.API.Common.Entities;
 using wildcraft.config;
 using wildcraft;
@@ -36,21 +37,23 @@ namespace wildcraft
                 (byPlayer?.InventoryManager?.ActiveHotbarSlot?.Itemstack?.Collectible?.Tool == EnumTool.Shears && WildcraftConfig.Current.useShearsForClipping))
             {
 
-                if(clipping == null){
-                    return false;
+                if (clipping is null){
+                    throw new ArgumentNullException(nameof(clipping), "WildcraftBerryBush clipping is Null. Exiting.");  
                 }
 
-                if(world.BlockAccessor.GetBlockEntity(blockSel.Position) is BEWildcraftBerryBush bewcbush) bewcbush.Prune();
-
-                clipping = new ItemStack(api.World.GetItem(AssetLocation.Create("wildcraft:clipping-" + this.Variant["type"] + "-green")), 1);
-                if (byPlayer?.InventoryManager.TryGiveItemstack(clipping) == false)
+                if(world.BlockAccessor.GetBlockEntity(blockSel.Position) is BEWildcraftBerryBush bewcbush && !bewcbush.Pruned)
                 {
-                    world.SpawnItemEntity(clipping, byPlayer.Entity.SidedPos.XYZ);
-                }
+                    bewcbush.Prune();
+                    clipping = new ItemStack(api.World.GetItem(AssetLocation.Create("wildcraft:clipping-" + this.Variant["type"] + "-green")), 1);
+                    if (byPlayer?.InventoryManager.TryGiveItemstack(clipping) == false)
+                    {
+                        world.SpawnItemEntity(clipping, byPlayer.Entity.SidedPos.XYZ);
+                    }
 
-                world.PlaySoundAt(harvestingSound, blockSel.Position.X, blockSel.Position.Y, blockSel.Position.Z, byPlayer);
+                    world.PlaySoundAt(harvestingSound, blockSel.Position.X, blockSel.Position.Y, blockSel.Position.Z, byPlayer);
 
-                return true;
+                    return true;
+                } 
             }
 
             return base.OnBlockInteractStart(world, byPlayer, blockSel); 

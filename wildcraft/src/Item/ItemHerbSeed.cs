@@ -5,6 +5,9 @@ using Vintagestory.API.Client;
 using Vintagestory.API.Common;
 using Vintagestory.API.Config;
 using Vintagestory.API.Util;
+using Vintagestory.API;
+using Vintagestory.API.MathTools;
+using Vintagestory.GameContent;
 
 namespace wildcraft
 {
@@ -47,13 +50,55 @@ namespace wildcraft
         }
         public override void OnHeldInteractStart(ItemSlot itemslot, EntityAgent byEntity, BlockSelection blockSel, EntitySelection entitySel, bool firstEvent, ref EnumHandHandling handHandling)
         {
+            BlockPos pos = blockSel.Position;
+            string lastCodePart = itemslot.Itemstack.Collectible.LastCodePart();
+            BlockEntity be = byEntity.World.BlockAccessor.GetBlockEntity(pos);
+            if (be is BlockEntityFarmland && Attributes["isCrop"].ToString() == "true")
+            {
+               placeCrop(itemslot, byEntity, blockSel, entitySel, true, ref handHandling);
+            }
+            if(be is not BlockEntityFarmland)
+            {
+                placeHerb(itemslot, byEntity, blockSel, entitySel, true, ref handHandling);
+            }
+        }
+
+        private void placeCrop(ItemSlot itemslot, EntityAgent byEntity, BlockSelection blockSel, EntitySelection entitySel, bool firstEvent, ref EnumHandHandling handHandling){
+            string lastCodePart = itemslot.Itemstack.Collectible.LastCodePart();
+            BlockPos pos = blockSel.Position;
+            BlockEntity be = byEntity.World.BlockAccessor.GetBlockEntity(pos);
+
+            Block cropBlock = byEntity.World.GetBlock(CodeWithPath("crop-" + lastCodePart + "-1"));
+            if (cropBlock == null) return;
+
+            IPlayer byPlayer = null;
+            if (byEntity is EntityPlayer) byPlayer = byEntity.World.PlayerByUid(((EntityPlayer)byEntity).PlayerUID);
+
+            bool planted = ((BlockEntityFarmland)be).TryPlant(cropBlock);
+            if (planted)
+            {
+                byEntity.World.PlaySoundAt(new AssetLocation("sounds/block/plant"), pos.X, pos.Y, pos.Z, byPlayer);
+
+                ((byEntity as EntityPlayer)?.Player as IClientPlayer)?.TriggerFpAnimation(EnumHandInteract.HeldItemInteract);
+
+                if (byPlayer?.WorldData?.CurrentGameMode != EnumGameMode.Creative)
+                {
+                    itemslot.TakeOut(1);
+                    itemslot.MarkDirty();
+                }
+            }
+
+            if (planted) handHandling = EnumHandHandling.PreventDefault;
+        }
+
+        private void placeHerb(ItemSlot itemslot, EntityAgent byEntity, BlockSelection blockSel, EntitySelection entitySel, bool firstEvent, ref EnumHandHandling handHandling){
             if (blockSel == null || !byEntity.Controls.Sneak)
             {
                 base.OnHeldInteractStart(itemslot, byEntity, blockSel, entitySel, firstEvent, ref handHandling);
                 return;
             }
 
-            string herbtype = Variant["herbs"].ToString();
+            string herbtype = this.LastCodePart();
             herbBlock = byEntity.Api.World.GetBlock(AssetLocation.Create("wildcraft:seedling-" + herbtype + "-planted"));
 
             if (herbBlock != null)

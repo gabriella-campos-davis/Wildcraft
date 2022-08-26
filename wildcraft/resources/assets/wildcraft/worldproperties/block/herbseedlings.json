@@ -1,0 +1,41 @@
+{
+    "code": "herbseedlings",
+    "variants": [
+      {
+        "code": "lavender"
+      },
+      {
+        "code": "rosemary"
+      },
+      {
+        "code": "sage"
+      },
+      {
+        "code": "sedge"
+      },
+      {
+        "code": "thyme"
+      },
+      {
+        "code": "mugwort"
+      },
+      {
+        "code": "burdock"
+      },
+      {
+        "code": "poisonoak"
+      },
+      {
+        "code": "holly"
+      },
+      {
+        "code": "inula"
+      },
+      {
+        "code": "plantain"
+      },
+      {
+        "code": "saltwort"
+      }
+    ]
+  }

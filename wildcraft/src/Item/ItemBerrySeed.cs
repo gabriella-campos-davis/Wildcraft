@@ -2,9 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using Vintagestory.API.Client;
+using Vintagestory.API.MathTools;
 using Vintagestory.API.Common;
 using Vintagestory.API.Config;
 using Vintagestory.API.Util;
+using Vintagestory.GameContent;
 
 namespace wildcraft
 {
@@ -55,6 +57,10 @@ namespace wildcraft
 
             string berrytype = Variant["type"].ToString();
             berryBlock = byEntity.Api.World.GetBlock(AssetLocation.Create("wildcraft:groundberryseedling-" + berrytype + "-planted"));
+
+            BlockPos pos = blockSel.Position;
+            BlockEntity be = byEntity.World.BlockAccessor.GetBlockEntity(pos);
+            if (be is BlockEntityFarmland) return;
 
             if (berryBlock != null)
             {

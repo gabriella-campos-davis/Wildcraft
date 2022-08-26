@@ -268,8 +268,6 @@
 					"name": "Leaves20",
 					"from": [ -4.0, 3.0, -1.0 ], 
 					"to": [ 2.0, 9.0, -1.0 ], 
-					"climateColorMap": "climatePlantTint",
-					"seasonColorMap": "seasonalFoliage",
 					"rotationOrigin": [ 4.0, 3.0, -1.0 ],
 					"faces": {
 						"north": { "texture": "#leaves", "uv": [ 0.0, 2.0, 16.0, 16.0 ], "autoUv": false, "windMode": [1,1,1,1] },
@@ -284,8 +282,6 @@
 					"name": "Leaves21",
 					"from": [ -9.0, 3.0, -6.0 ], 
 					"to": [ -3.0, 9.0, -6.0 ], 
-					"climateColorMap": "climatePlantTint",
-					"seasonColorMap": "seasonalFoliage",
 					"rotationOrigin": [ -1.0, 3.0, -6.0 ],
 					"rotationY": 90.0,
 					"faces": {

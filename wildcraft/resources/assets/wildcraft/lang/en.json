@@ -703,23 +703,51 @@
   "block-seedling-bearleek-planted": "Bearleek Seeds (Growing)",
   "block-seedling-bearleek-sprouting": "Bearleek Seeds (Sprouting)",
 
+  "block-crop-bearleek-1": "Bearleek Seeds (Growing)",
+  "block-crop-bearleek-2": "Bearleek (Growing)",
+  "block-crop-bearleek-3": "Bearleek",
+
   "block-seedling-basil-planted": "Basil Seeds (Growing)",
   "block-seedling-basil-sprouting": "Basil Seeds (Sprouting)",
+
+  "block-crop-basil-1": "Basil Seeds (Growing)",
+  "block-crop-basil-2": "Basil (Growing)",
+  "block-crop-basil-3": "Basil",
 
   "block-seedling-blackpepper-planted": "Black pepper Seeds (Growing)",
   "block-seedling-blackpepper-sprouting": "Black pepper Seeds (Sprouting)",
 
+  "block-crop-blackpepper-1": "Black pepper Seeds (Growing)",
+  "block-crop-blackpepper-2": "Black pepper (Growing)",
+  "block-crop-blackpepper-3": "Black pepper",
+
   "block-seedling-celery-planted": "Celery Seeds (Growing)",
   "block-seedling-celery-sprouting": "Celery Seeds (Sprouting)",
+
+  "block-crop-celery-1": "Celery Seeds (Growing)",
+  "block-crop-celery-2": "Celery (Growing)",
+  "block-crop-celery-3": "Celery",
 
   "block-seedling-chamomile-planted": "Chamomile Seeds (Growing)",
   "block-seedling-chamomile-sprouting": "Chamomile Seeds (Sprouting)",
 
+  "block-crop-chamomile-1": "Chamomile Seeds (Growing)",
+  "block-crop-chamomile-2": "Chamomile (Growing)",
+  "block-crop-chamomile-3": "Chamomile",
+
   "block-seedling-cilantro-planted": "Cilantro Seeds (Growing)",
   "block-seedling-cilantro-sprouting": "Cilantro Seeds (Sprouting)",
 
+  "block-crop-cilantro-1": "Cilantro Seeds (Growing)",
+  "block-crop-cilantro-2": "Cilantro (Growing)",
+  "block-crop-cilantro-3": "Cilantro",
+
   "block-seedling-dill-planted": "Dill Seeds (Growing)",
   "block-seedling-dill-sprouting": "Dill Seeds (Sprouting)",
+
+  "block-crop-dill-1": "Dill Seeds (Growing)",
+  "block-crop-dill-2": "Dill (Growing)",
+  "block-crop-dill-3": "Dill",
 
   "block-seedling-lavender-planted": "Lavender Seeds (Growing)",
   "block-seedling-lavender-sprouting": "Lavender Seeds (Sprouting)",
@@ -727,23 +755,47 @@
   "block-seedling-dock-planted": "Dock Seeds (Growing)",
   "block-seedling-dock-sprouting": "Dock Seeds (Sprouting)",
 
+  "block-crop-dock-1": "Dock Seeds (Growing)",
+  "block-crop-dock-2": "Dock (Growing)",
+  "block-crop-dock-3": "Dock",
+
   "block-seedling-marjoram-planted": "Marjoram Seeds (Growing)",
   "block-seedling-marjoram-sprouting": "Marjoram Seeds (Sprouting)",
+
+  "block-crop-marjoram-1": "Marjoram Seeds (Growing)",
+  "block-crop-marjoram-2": "Marjoram (Growing)",
+  "block-crop-marjoram-3": "Marjoram",
 
   "block-seedling-marshmallow-planted": "Marshmallow Seeds (Growing)",
   "block-seedling-marshmallow-sprouting": "Marshmallow Seeds (Sprouting)",
 
+  "block-crop-marshmallow-1": "Marshmallow Seeds (Growing)",
+  "block-crop-marshmallow-2": "Marshmallow (Growing)",
+  "block-crop-marshmallow-3": "Marshmallow",
+
   "block-seedling-mint-planted": "Mint Seeds (Growing)",
   "block-seedling-mint-sprouting": "Mint Seeds (Sprouting)",
 
+  "block-crop-mint-1": "Mint Seeds (Growing)",
+  "block-crop-mint-2": "Mint (Growing)",
+  "block-crop-mint-3": "Mint",
+
   "block-seedling-mustard-planted": "Mustard Seeds (Growing)",
   "block-seedling-mustard-sprouting": "Mustard Seeds (Sprouting)",
+
+  "block-crop-mustard-1": "Mustard Seeds (Growing)",
+  "block-crop-mustard-2": "Mustard (Growing)",
+  "block-crop-mustard-3": "Mustard",
 
   "block-seedling-rosemary-planted": "Rosemary Seeds (Growing)",
   "block-seedling-rosemary-sprouting": "Rosemary Seeds (Sprouting)",
 
   "block-seedling-saffron-planted": "Saffron Seeds (Growing)",
   "block-seedling-saffron-sprouting": "Saffron Seeds (Sprouting)",
+
+  "block-crop-saffron-1": "Saffron Seeds (Growing)",
+  "block-crop-saffron-2": "Saffron (Growing)",
+  "block-crop-saffron-3": "Saffron",
 
   "block-seedling-sage-planted": "Sage Seeds (Growing)",
   "block-seedling-sage-sprouting": "Sage Seeds (Sprouting)",
@@ -754,14 +806,26 @@
   "block-seedling-stingingnettle-planted": "Stinging Nettle Seeds (Growing)",
   "block-seedling-stingingnettle-sprouting": "Stinging Nettle Seeds (Sprouting)",
 
+  "block-crop-stingingnettle-1": "Stinging Nettle Seeds (Growing)",
+  "block-crop-stingingnettle-2": "Stinging Nettle (Growing)",
+  "block-crop-stingingnettle-3": "Stinging Nettle",
+
   "block-seedling-stjohnswort-planted": "St John's Wort Seeds (Growing)",
   "block-seedling-stjohnswort-sprouting": "St John's Wort Seeds (Sprouting)",
+
+  "block-crop-stjohnswort-1": "St John's Wort Seeds (Growing)",
+  "block-crop-stjohnswort-2": "St John's Wort (Growing)",
+  "block-crop-stjohnswort-3": "St John's Wort",
 
   "block-seedling-thyme-planted": "Thyme Seeds (Growing)",
   "block-seedling-thyme-sprouting": "Thyme Seeds (Sprouting)",
 
   "block-seedling-minerslettuce-planted": "Miner's Lettuce Seeds (Growing)",
   "block-seedling-minerslettuce-sprouting": "Miner's Lettuce Seeds (Sprouting)",
+
+  "block-crop-minerslettuce-1": "Miner's Lettuce Seeds (Growing)",
+  "block-crop-minerslettuce-2": "Miner's Lettuce (Growing)",
+  "block-crop-minerslettuce-3": "Miner's Lettuce",
 
   "block-seedling-mugwort-planted": "Mugwort Seeds (Growing)",
   "block-seedling-mugwort-sprouting": "Mugwort Seeds (Sprouting)",
@@ -778,8 +842,16 @@
   "block-seedling-chicory-planted": "Chicory Seeds (Growing)",
   "block-seedling-chicory-sprouting": "Chicory Seeds (Sprouting)",
 
+  "block-crop-chicory-1": "Chicory Seeds (Growing)",
+  "block-crop-chicory-2": "Chicory (Growing)",
+  "block-crop-chicory-3": "Chicory",
+
   "block-seedling-marigold-planted": "Marigold Seeds (Growing)",
   "block-seedling-marigold-sprouting": "Marigold Seeds (Sprouting)",
+
+  "block-crop-marigold-1": "Marigold Seeds (Growing)",
+  "block-crop-marigold-2": "Marigold (Growing)",
+  "block-crop-marigold-3": "Marigold",
 
   "block-seedling-inula-planted": "Inula Seeds (Growing)",
   "block-seedling-inula-sprouting": "Inula Seeds (Sprouting)",
@@ -787,8 +859,16 @@
   "block-seedling-celandine-planted": "Celandine Seeds (Growing)",
   "block-seedling-celandine-sprouting": "Celandine Seeds (Sprouting)",
 
+  "block-crop-celandine-1": "Celandine Seeds (Growing)",
+  "block-crop-celandine-2": "Celandine (Growing)",
+  "block-crop-celandine-3": "Celandine",
+
   "block-seedling-leek-planted": "Leek Seeds (Growing)",
   "block-seedling-leek-sprouting": "Leek Seeds (Sprouting)",
+
+  "block-crop-leek-1": "Leek Seeds (Growing)",
+  "block-crop-leek-2": "Leek (Growing)",
+  "block-crop-leek-3": "Leek",
 
   "block-seedling-plantain-planted": "Plantain Seeds (Growing)",
   "block-seedling-plantain-sprouting": "Plantain Seeds (Sprouting)",
@@ -799,8 +879,16 @@
   "block-seedling-yarrow-planted": "Yarrow Seeds (Growing)",
   "block-seedling-yarrow-sprouting": "Yarrow Seeds (Sprouting)",
 
+  "block-crop-yarrow-1": "Yarrow Seeds (Growing)",
+  "block-crop-yarrow-2": "Yarrow (Growing)",
+  "block-crop-yarrow-3": "Yarrow",
+
   "block-seedling-liquorice-planted": "Liquorice Seeds (Growing)",
   "block-seedling-liquorice-sprouting": "Liquorice Seeds (Sprouting)",
+
+  "block-crop-liquorice-1": "Liquorice Seeds (Growing)",
+  "block-crop-liquorice-2": "Liquorice (Growing)",
+  "block-crop-liquorice-3": "Liquorice",
 
   "block-seedling-waterchestnut-planted": "Water Chestnut Seeds (Growing)",
   "block-seedling-waterchestnut-sprouting": "Water Chestnut Seeds (Sprouting)",

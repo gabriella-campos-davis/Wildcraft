@@ -1,0 +1,120 @@
+{
+	"code": "crop",
+	"class": "BlockCrop",
+	"behaviors": [{"name": "Unstable"}],
+	"variantgroups": [
+		{ "loadFromProperties": "wildcraft:block/herbcrops" },
+		{ "code": "stage", "states": ["1", "2", "3"] },
+	],
+	"creativeinventory": { "general": [""], "plants": [""] },
+	"renderpass": "OpaqueNoCull",
+	"shapeByType": {
+        "*-stingingnettle-*": {"base": "wildcraft:block/plant/stingingnettle/stingingnettle_normal*"},
+
+        "*-minerslettuce-3": { "base": "wildcraft:block/plant/clover/minerslettuce_normal" },
+        "*-minerslettuce-2": { "base": "wildcraft:block/plant/clover/minerslettuce_sprouting"},
+        "*-minerslettuce-1": { "base": "wildcraft:block/plant/clover/minerslettuce_harvested" },
+
+		"*-1": {"base": "wildcraft:block/plant/leafygroundvegetable/default_normal*"},
+		"*-2": {"base": "wildcraft:block/plant/leafygroundvegetable/default_normal*"},
+		"*-3": {"base": "wildcraft:block/plant/leafygroundvegetable/default_normal*"},
+        "*": {"base": "wildcraft:block/plant/leafygroundvegetable/default_normal*"},
+	},
+	"blockmaterial": "Plant",
+	"texturesByType": {
+        "*-1": {
+            "leaves": { "base": "wildcraft:block/plant/seedling/{herbcrops}*" }
+        },
+        "*-2": {
+            "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/harvested/{herbcrops}*" }
+        },
+        "*-3": {
+            "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/normal/{herbcrops}*" }
+        }
+    },
+	"attributes": {
+		"butterflyFeedByType": {
+			"*-1": false,
+			"*-5": false,
+			"*": true
+		},
+		"beeFeedByType": {
+			"*-1": false,
+			"*-5": false,
+			"*": true
+		},
+		"sitHeight": 0.3,
+		"tickGrowthProbability": 0.05,
+		"handbook": {
+			"include": true
+		}
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-bearleek-3":[
+			{ "type": "item", "code": "wildcraft:herbseeds-{herbcrops}", "quantity": { "avg": 1.1 }  },
+			{ "type": "item", "code": "wildcraft:herb-{herbcrops}", "quantity": { "avg": 2 }  },
+			{ "type": "item", "code": "wildcraft:roots-{herbcrops}", "quantity": { "avg": 1.5}  },
+		],
+		"*-marshmallow-3":[
+			{ "type": "item", "code": "wildcraft:herbseeds-{herbcrops}", "quantity": { "avg": 1.1 }  },
+			{ "type": "item", "code": "wildcraft:herb-{herbcrops}", "quantity": { "avg": 2 }  },
+			{ "type": "item", "code": "wildcraft:roots-{herbcrops}", "quantity": { "avg": 1.5}  },
+		],
+		"*-chicory-3":[
+			{ "type": "item", "code": "wildcraft:herbseeds-{herbcrops}", "quantity": { "avg": 1.1 }  },
+			{ "type": "item", "code": "wildcraft:herb-{herbcrops}", "quantity": { "avg": 2 }  },
+			{ "type": "item", "code": "wildcraft:roots-{herbcrops}", "quantity": { "avg": 1.5}  },
+		], 
+		"*-liquorice-3":[
+			{ "type": "item", "code": "wildcraft:herbseeds-{herbcrops}", "quantity": { "avg": 1.1 }  },
+			{ "type": "item", "code": "wildcraft:herb-{herbcrops}", "quantity": { "avg": 2 }  },
+			{ "type": "item", "code": "wildcraft:roots-{herbcrops}", "quantity": { "avg": 1.5}  },
+		],  
+		"*-celery-3":[
+			{ "type": "item", "code": "wildcraft:herbseeds-{herbcrops}", "quantity": { "avg": 1.1 }  },
+			{ "type": "item", "code": "wildcraft:herb-{herbcrops}", "quantity": { "avg": 2 }  },
+			{ "type": "item", "code": "wildcraft:roots-{herbcrops}", "quantity": { "avg": 2.0}  },
+		],
+		"*-3": [
+			{ "type": "item", "code": "wildcraft:herbseeds-{herbcrops}", "quantity": { "avg": 1.1 }  },
+			{ "type": "item", "code": "wildcraft:herb-{herbcrops}", "quantity": { "avg": 2, "var": 1 }  },
+		],
+		"*-2": [
+			{ "type": "item", "code": "wildcraft:herbseeds-{herbcrops}", "quantity": { "avg": 0.8 }  },
+			{ "type": "item", "code": "wildcraft:herb-{herbcrops}", "quantity": { "avg": 6, "var": 1 }  },
+		],
+		"*": [
+			{ "type": "item", "code": "wildcraft:herbseeds-{herbcrops}", "quantity": { "avg": 0.5 }  },
+		]
+	},
+	"cropProps": {
+		"__comment": "Use 1/3 cup of a nitrogen-based fertilizer, such as 34-0-0 or 21-0-0 - http://homeguides.sfgate.com/fertilize-turnips-24795.html",
+		"requiredNutrient": "N",
+		"nutrientConsumption": 30,
+		"growthStages": 3,
+		"totalGrowthMonths": 0.5,
+		"heatDamageAbove": 27
+	},
+	"collisionbox": null,
+	"selectionbox": { "x1": 0.0625, "y1": 0, "z1": 0.0625, "x2": 0.9375, "y2": 0.25, "z2": 0.9375 },
+	"materialDensity": 200,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10,
+	}
+}

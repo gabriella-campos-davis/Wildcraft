@@ -18,6 +18,9 @@ namespace wildcraft
     public class BEWildcraftBerryBush : BlockEntityBerryBush
     {
 
+        public bool Pruned;
+        public double LastPrunedTotalDays;
+
         public BEWildcraftBerryBush() : base()
         {
 
@@ -28,6 +31,17 @@ namespace wildcraft
             Pruned = true;
             LastPrunedTotalDays = Api.World.Calendar.TotalDays;
             MarkDirty(true);
+        }
+
+        public override bool OnTesselation(ITerrainMeshPool mesher, ITesselatorAPI tessThreadTesselator)
+        {
+            if (Pruned)
+            {
+                mesher.AddMeshData((Block as WildcraftBerryBush).GetPrunedMesh(Pos));
+                return true;
+            }
+
+            return base.OnTesselation(mesher, tessThreadTesselator);
         }
     }
 }

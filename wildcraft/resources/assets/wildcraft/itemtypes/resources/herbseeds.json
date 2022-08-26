@@ -5,8 +5,11 @@
 		"handbook": {
 			"groupBy": ["herbseeds-*", "waterherbseeds-*", "seeds"]
 		},
-		"waterplant": "false"
-
+		"waterplant": "false",
+		"isCropByType":{
+			"*-(lavender|rosemary|sage|sedge|thyme|mugwort|burdock|poisonoak|holly|inula|plantain|saltwort)": "false",
+			"*": "true"
+		} 
 	},
 	"maxstacksize": 64,
 	"variantgroups": [

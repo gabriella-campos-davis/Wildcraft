@@ -8,6 +8,8 @@
 	"textureSizes": {
 	},
 	"textures": {
+		"stems": "wildcraft:block/plant/clover/minerslettuce_shoots_stems",
+		"leaves": "wildcraft:block/plant/clover/minerslettuce_shoots_leaves"
 	},
 	"elements": [
 		{
@@ -58,7 +60,7 @@
 				"east": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false },
 				"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false },
 				"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false },
-				"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "rotation": 90, "windMode": [0,0,0,0] },
+				"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "rotation": 90, "windMode": [2,2,2,2] },
 				"down": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false }
 			}
 		}
