@@ -1,0 +1,157 @@
+[
+	{
+    "op": "add",
+    "file": "game:config/remaps.json",
+		"path": "/wildcraft:wildcraft",
+    "value": [
+      "/bir remapq wildcraft:perennialplant-bearleek-normal wildcraft:leafygroundvegetable-bearleek-normal force",
+      "/bir remapq wildcraft:perennialplant-bearleek-harvested wildcraft:leafygroundvegetable-bearleek-harvested force",
+
+      "/bir remapq wildcraft:perennialplant-marjoram-normal wildcraft:leafygroundvegetable-marjoram-normal force",
+      "/bir remapq wildcraft:perennialplant-marjoram-harvested wildcraft:leafygroundvegetable-marjoram-harvested force",
+
+      "/bir remapq wildcraft:perennialplant-sage-normal wildcraft:leafygroundvegetable-sage-normal force",
+      "/bir remapq wildcraft:perennialplant-sage-harvested wildcraft:leafygroundvegetable-sage-harvested force",
+
+      "/bir remapq wildcraft:perennialplant-sedge-normal wildcraft:leafygroundvegetable-sedge-normal force",
+      "/bir remapq wildcraft:perennialplant-sedge-harvested wildcraft:leafygroundvegetable-sedge-harvested force",
+
+      "/bir remapq wildcraft:perennialplant-marshmallow-normal wildcraft:leafygroundvegetable-marshmallow-normal force",
+      "/bir remapq wildcraft:perennialplant-marshmallow-harvested wildcraft:leafygroundvegetable-marshmallow-harvested force",
+
+      "/bir remapq wildcraft:perennialplant-mint-normal wildcraft:leafygroundvegetable-mint-normal force",
+      "/bir remapq wildcraft:perennialplant-mint-harvested wildcraft:leafygroundvegetable-mint-harvested force",
+
+      "/bir remapq wildcraft:perennialplant-saffron-normal wildcraft:leafygroundvegetable-saffron-normal force",
+      "/bir remapq wildcraft:perennialplant-saffron-harvested wildcraft:leafygroundvegetable-saffron-harvested force",
+
+      "/bir remapq wildcraft:perennialplant-stjohnswort-normal wildcraft:leafygroundvegetable-stjohnswort-normal force",
+      "/bir remapq wildcraft:perennialplant-stjohnswort-harvested wildcraft:leafygroundvegetable-stjohnswort-harvested force",
+
+      "/bir remapq wildcraft:perennialplant-mugwort-normal wildcraft:leafygroundvegetable-mugwort-normal force",
+      "/bir remapq wildcraft:perennialplant-mugwort-harvested wildcraft:leafygroundvegetable-mugwort-harvested force",
+
+      "/bir remapq wildcraft:perennialplant-inula-normal wildcraft:leafygroundvegetable-inula-normal force",
+      "/bir remapq wildcraft:perennialplant-inula-harvested wildcraft:leafygroundvegetable-inula-harvested force",
+
+      "/bir remapq wildcraft:perennialplant-celandine-normal wildcraft:leafygroundvegetable-celandine-normal force",
+      "/bir remapq wildcraft:perennialplant-celandine-harvested wildcraft:leafygroundvegetable-celandine-harvested force",
+
+      "/bir remapq wildcraft:perennialplant-leek-normal wildcraft:leafygroundvegetable-leek-normal force",
+      "/bir remapq wildcraft:perennialplant-leek-harvested wildcraft:leafygroundvegetable-leek-harvested force",
+
+      "/bir remapq wildcraft:perennialplant-plantain-normal wildcraft:leafygroundvegetable-plantain-normal force",
+      "/bir remapq wildcraft:perennialplant-plantain-harvested wildcraft:leafygroundvegetable-plantain-harvested force",
+
+      "/bir remapq wildcraft:perennialplant-yarrow-normal wildcraft:leafygroundvegetable-yarrow-normal force",
+      "/bir remapq wildcraft:perennialplant-yarrow-harvested wildcraft:leafygroundvegetable-yarrow-harvested force",
+
+      "/bir remapq wildcraft:annualplant-basil-normal wildcraft:leafygroundvegetable-basil-normal force",
+      "/bir remapq wildcraft:annualplant-basil-harvested wildcraft:leafygroundvegetable-basil-harvested force",
+
+      "/bir remapq wildcraft:annualplant-blackpepper-normal wildcraft:leafygroundvegetable-blackpepper-normal force",
+      "/bir remapq wildcraft:annualplant-blackpepper-harvested wildcraft:leafygroundvegetable-blackpepper-harvested force",
+
+      "/bir remapq wildcraft:annualplant-celery-normal wildcraft:leafygroundvegetable-celery-normal force",
+      "/bir remapq wildcraft:annualplant-celery-harvested wildcraft:leafygroundvegetable-celery-harvested force",
+
+      "/bir remapq wildcraft:annualplant-chamomile-normal wildcraft:leafygroundvegetable-chamomile-normal force",
+      "/bir remapq wildcraft:annualplant-chamomile-harvested wildcraft:leafygroundvegetable-chamomile-harvested force",
+
+      "/bir remapq wildcraft:annualplant-cilantro-normal wildcraft:leafygroundvegetable-cilantro-normal force",
+      "/bir remapq wildcraft:annualplant-cilantro-harvested wildcraft:leafygroundvegetable-cilantro-harvested force",
+
+      "/bir remapq wildcraft:annualplant-dill-normal wildcraft:leafygroundvegetable-dill-normal force",
+      "/bir remapq wildcraft:annualplant-dill-harvested wildcraft:leafygroundvegetable-dill-harvested force",
+
+      "/bir remapq wildcraft:annualplant-dock-normal wildcraft:leafygroundvegetable-dock-normal force",
+      "/bir remapq wildcraft:annualplant-dock-harvested wildcraft:leafygroundvegetable-dock-harvested force",
+
+      "/bir remapq wildcraft:annualplant-mustard-normal wildcraft:leafygroundvegetable-mustard-normal force",
+      "/bir remapq wildcraft:annualplant-mustard-harvested wildcraft:leafygroundvegetable-mustard-harvested force",
+
+      "/bir remapq wildcraft:annualplant-stingingnettle-normal wildcraft:leafygroundvegetable-stingingnettle-normal force",
+      "/bir remapq wildcraft:annualplant-stingingnettle-harvested wildcraft:leafygroundvegetable-stingingnettle-harvested force",
+
+      "/bir remapq wildcraft:annualplant-burdock-normal wildcraft:leafygroundvegetable-burdock-normal force",
+      "/bir remapq wildcraft:annualplant-burdock-harvested wildcraft:leafygroundvegetable-burdock-harvested force",
+
+      "/bir remapq wildcraft:annualplant-chicory-normal wildcraft:leafygroundvegetable-chicory-normal force",
+      "/bir remapq wildcraft:annualplant-chicory-harvested wildcraft:leafygroundvegetable-chicory-harvested force",
+
+      "/bir remapq wildcraft:annualplant-marigold-normal wildcraft:leafygroundvegetable-marigold-normal force",
+      "/bir remapq wildcraft:annualplant-marigold-harvested wildcraft:leafygroundvegetable-marigold-harvested force",
+
+      "/bir remapq wildcraft:annualplant-saltwort-normal wildcraft:leafygroundvegetable-saltwort-normal force",
+      "/bir remapq wildcraft:annualplant-saltwort-harvested wildcraft:leafygroundvegetable-saltwort-harvested force",
+
+      "/bir remapq wildcraft:annualplant-liquorice-normal wildcraft:leafygroundvegetable-liquorice-normal force",
+      "/bir remapq wildcraft:annualplant-liquorice-harvested wildcraft:leafygroundvegetable-liquorice-harvested force",
+
+      "/bir remapq wildcraft:evergreenplant-lavender-normal wildcraft:leafygroundvegetable-lavender-normal force",
+      "/bir remapq wildcraft:evergreenplant-lavender-harvested wildcraft:leafygroundvegetable-lavender-harvested force",
+
+      "/bir remapq wildcraft:evergreenplant-rosemary-normal wildcraft:leafygroundvegetable-rosemary-normal force",
+      "/bir remapq wildcraft:evergreenplant-rosemary-harvested wildcraft:leafygroundvegetable-rosemary-harvested force",
+
+      "/bir remapq wildcraft:evergreenplant-thyme-normal wildcraft:leafygroundvegetable-thyme-normal force",
+      "/bir remapq wildcraft:evergreenplant-thyme-harvested wildcraft:leafygroundvegetable-thyme-harvested force",
+
+      "/bir remapq wildcraft:evergreenplant-holly-normal wildcraft:leafygroundvegetable-holly-normal force",
+      "/bir remapq wildcraft:evergreenplant-holly-harvested wildcraft:leafygroundvegetable-holly-harvested force",
+
+      "/bir remapq wildcraft:evergreenplant-poisonoak-normal wildcraft:leafygroundvegetable-poisonoak-normal force",
+      "/bir remapq wildcraft:evergreenplant-poisonoak-harvested wildcraft:leafygroundvegetable-poisonoak-harvested force",
+
+      "/bir remapq wildcraft:smallannualplant-minerslettuce-normal wildcraft:leafygroundvegetable-minerslettuce-normal force",
+      "/bir remapq wildcraft:smallannualplant-minerslettuce-harvested wildcraft:leafygroundvegetable-minerslettuce-harvested force",
+
+      "/bir remapq wildcraft:groundberryplant-cloudberry-empty wildcraft:berrybush-cloudberry-empty force",
+      "/bir remapq wildcraft:groundberryplant-cloudberry-flowering wildcraft:berrybush-cloudberry-flowering force",
+      "/bir remapq wildcraft:groundberryplant-cloudberry-ripe wildcraft:berrybush-cloudberry-ripe force",
+
+      "/bir remapq wildcraft:groundberryplant-strawberry-empty wildcraft:berrybush-strawberry-empty force",
+      "/bir remapq wildcraft:groundberryplant-strawberry-flowering wildcraft:berrybush-strawberry-flowering force",
+      "/bir remapq wildcraft:groundberryplant-strawberry-ripe wildcraft:berrybush-strawberry-ripe force",
+
+      "/bir remapq wildcraft:groundberryplant-strawberry-empty wildcraft:berrybush-strawberry-empty force",
+      "/bir remapq wildcraft:groundberryplant-strawberry-flowering wildcraft:berrybush-strawberry-flowering force",
+      "/bir remapq wildcraft:groundberryplant-strawberry-ripe wildcraft:berrybush-strawberry-ripe force",
+
+      "/bir remapq wildcraft:groundberryplant-strawberry-empty wildcraft:berrybush-strawberry-empty force",
+      "/bir remapq wildcraft:groundberryplant-strawberry-flowering wildcraft:berrybush-strawberry-flowering force",
+      "/bir remapq wildcraft:groundberryplant-strawberry-ripe wildcraft:berrybush-strawberry-ripe force",
+
+      "/bir remapq wildcraft:pricklyberrybush-brambleberry-empty wildcraft:berrybush-brambleberry-empty force",
+      "/bir remapq wildcraft:pricklyberrybush-brambleberry-flowering wildcraft:berrybush-brambleberry-flowering force",
+      "/bir remapq wildcraft:pricklyberrybush-brambleberry-ripe wildcraft:berrybush-brambleberry-ripe force",
+
+      "/bir remapq wildcraft:pricklyberrybush-raspberry-empty wildcraft:berrybush-raspberry-empty force",
+      "/bir remapq wildcraft:pricklyberrybush-raspberry-flowering wildcraft:berrybush-raspberry-flowering force",
+      "/bir remapq wildcraft:pricklyberrybush-raspberry-ripe wildcraft:berrybush-raspberry-ripe force",
+
+      "/bir remapq wildcraft:pricklyberrybush-dogrose-empty wildcraft:berrybush-dogrose-empty force",
+      "/bir remapq wildcraft:pricklyberrybush-dogrose-flowering wildcraft:berrybush-dogrose-flowering force",
+      "/bir remapq wildcraft:pricklyberrybush-dogrose-ripe wildcraft:berrybush-dogrose-ripe force",
+      
+      "/bir remapq wildcraft:shrubberrybush-dogrose-empty wildcraft:berrybush-elderberry-empty force",
+      "/bir remapq wildcraft:shrubberrybush-dogrose-flowering wildcraft:berrybush-elderberry-flowering force",
+      "/bir remapq wildcraft:shrubberrybush-dogrose-ripe wildcraft:berrybush-elderberry-ripe force",
+
+      "/bir remapq wildcraft:clipping-huckleberry-alive wildcraft:clipping-huckleberry force",
+      "/bir remapq wildcraft:clipping-snowberry-alive wildcraft:clipping-snowberry force",
+      "/bir remapq wildcraft:clipping-raspberry-alive wildcraft:clipping-raspberry force",
+      "/bir remapq wildcraft:clipping-brambleberry-alive wildcraft:clipping-brambleberry force",
+      "/bir remapq wildcraft:clipping-dogrose-alive wildcraft:clipping-dogrose force",
+      "/bir remapq wildcraft:clipping-gooseberry-alive wildcraft:clipping-gooseberry force",
+      "/bir remapq wildcraft:clipping-honeysuckle-alive wildcraft:clipping-honeysuckle force",
+      "/bir remapq wildcraft:clipping-elderberry-alive wildcraft:clipping-elderberry force",
+
+      "/bir remapq wildcraft:clipping-redcurrant-alive wildcraft:clipping-redcurrant force",
+      "/bir remapq wildcraft:clipping-blackcurrant-alive wildcraft:clipping-blackcurrant force",
+      "/bir remapq wildcraft:clipping-whitecurrant-alive wildcraft:clipping-whitecurrant force",
+      "/bir remapq wildcraft:clipping-blueberry-alive wildcraft:clipping-blueberry force",
+      "/bir remapq wildcraft:clipping-cranberry-alive wildcraft:clipping-cranberry force"
+    ]
+	}
+]

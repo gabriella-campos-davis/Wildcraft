@@ -1,0 +1,71 @@
+{
+    "code": "herbcrops",
+    "variants": [
+      {
+        "code": "basil"
+      },
+      {
+        "code": "bearleek"
+      },
+      {
+        "code": "blackpepper"
+      },
+      {
+        "code": "celery"
+      },
+      {
+        "code": "chamomile"
+      },
+      {
+        "code": "cilantro"
+      },
+      {
+        "code": "dill"
+      },
+      {
+        "code": "dock"
+      },
+      {
+        "code": "marjoram"
+      },
+      {
+        "code": "marshmallow"
+      },
+      {
+        "code": "mint"
+      },
+      {
+        "code": "mustard"
+      },
+      {
+        "code": "saffron"
+      },
+      {
+        "code": "stingingnettle"
+      },
+      {
+        "code": "stjohnswort"
+      },
+      {
+        "code": "minerslettuce"
+      },
+      {
+        "code": "chicory"
+      },
+      {
+        "code": "marigold"
+      },
+      {
+        "code": "celandine"
+      },
+      {
+        "code": "leek"
+      },
+      {
+        "code": "yarrow"
+      },
+      {
+        "code": "liquorice"
+      }
+    ]
+  }

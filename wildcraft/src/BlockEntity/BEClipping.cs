@@ -31,7 +31,11 @@ namespace wildcraft
             
             block = api.World.BlockAccessor.GetBlock(Pos);
 
-            bushCode = block.Attributes["bushCode"].ToString();
+            if(block.Attributes is null){
+                return;
+            } else {
+                bushCode = block.Attributes["bushCode"].ToString();
+            }
 
             if (api is ICoreServerAPI)
             {
