@@ -73,7 +73,7 @@
       "leaves": { "base": "game:block/plant/berrybush/small/leaves/redcurrant*" }
     },
     "*-elderberry-*": {
-      "leaves": { "base": "wildcraft:block/plant/berrybush/greenleaves/small/leaves/elderberry_growing" }
+      "leaves": { "base": "wildcraft:block/plant/clipping/elderberry_growing" }
     },
     "*": {
       "leaves": { "base": "wildcraft:block/plant/berrybush/small/leaves/{type}*" }
