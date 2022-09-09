@@ -81,9 +81,9 @@
 		},
 		"*-liquorice": {
 				translation: { x: 0, y: 0, z: 0 },
-				rotation: { x: -38, y: 29, z: 21 },
+				rotation: { x: -180, y: 29, z: 21 },
 				origin: { x: 0.5, y: 0.3, z: 0.5 },
-				scale: 1.66
+				scale: 2.47
 		},
 		"*-chicory": {
 			rotation: { x: -3, y: 35, z: -154 },
