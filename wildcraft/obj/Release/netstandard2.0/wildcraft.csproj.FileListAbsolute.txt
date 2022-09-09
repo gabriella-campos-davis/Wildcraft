@@ -542,7 +542,6 @@ D:\VSMods\Wildcraft\wildcraft\bin\Release\netstandard2.0\assets\wildcraft\textur
 D:\VSMods\Wildcraft\wildcraft\bin\Release\netstandard2.0\assets\wildcraft\textures\block\plant\berrybush\small\flower\wolfberry_flowers.png
 D:\VSMods\Wildcraft\wildcraft\bin\Release\netstandard2.0\assets\wildcraft\textures\block\plant\berrybush\small\fruit\husktomato1.png
 D:\VSMods\Wildcraft\wildcraft\bin\Release\netstandard2.0\assets\wildcraft\textures\block\plant\berrybush\small\fruit\wolfberry_berries.png
-D:\VSMods\Wildcraft\wildcraft\bin\Release\netstandard2.0\assets\wildcraft\textures\block\plant\berrybush\small\leaves\elderberry_growing.png
 D:\VSMods\Wildcraft\wildcraft\bin\Release\netstandard2.0\assets\wildcraft\textures\block\plant\berrybush\small\leaves\husktomato1.png
 D:\VSMods\Wildcraft\wildcraft\bin\Release\netstandard2.0\assets\wildcraft\textures\block\plant\berrybush\small\leaves\husktomato_growing.png
 D:\VSMods\Wildcraft\wildcraft\bin\Release\netstandard2.0\assets\wildcraft\textures\block\plant\berrybush\small\leaves\wolfberry_leaves.png
@@ -553,3 +552,4 @@ D:\VSMods\Wildcraft\wildcraft\bin\Release\netstandard2.0\assets\wildcraft\textur
 D:\VSMods\Wildcraft\wildcraft\bin\Release\netstandard2.0\assets\wildcraft\worldproperties\block\herbcrops.json
 D:\VSMods\Wildcraft\wildcraft\bin\Release\netstandard2.0\assets\wildcraft\worldproperties\block\herbseedlings.json
 D:\VSMods\Wildcraft\wildcraft\bin\Release\netstandard2.0\assets\wildcraft\patches\remaps.json
+D:\VSMods\Wildcraft\wildcraft\bin\Release\netstandard2.0\assets\wildcraft\textures\block\plant\clipping\elderberry_growing.png

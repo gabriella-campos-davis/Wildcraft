@@ -77,7 +77,7 @@ namespace wildcraft
             Block herbBlock = Api.World.GetBlock(AssetLocation.Create(plantCode));
 
             if(herbBlock is null){
-                throw new ArgumentNullException(nameof(herbBlock), "BESeedling herb block is Null. Exiting.");
+                return;
             }
 
             Api.World.BlockAccessor.SetBlock(herbBlock.BlockId, Pos);
