@@ -553,3 +553,6 @@ D:\VSMods\Wildcraft\wildcraft\bin\Release\netstandard2.0\assets\wildcraft\worldp
 D:\VSMods\Wildcraft\wildcraft\bin\Release\netstandard2.0\assets\wildcraft\worldproperties\block\herbseedlings.json
 D:\VSMods\Wildcraft\wildcraft\bin\Release\netstandard2.0\assets\wildcraft\patches\remaps.json
 D:\VSMods\Wildcraft\wildcraft\bin\Release\netstandard2.0\assets\wildcraft\textures\block\plant\clipping\elderberry_growing.png
+D:\VSMods\Wildcraft\wildcraft\bin\Release\netstandard2.0\assets\wildcraft\config\handbook\wildcraft-guide.json
+D:\VSMods\Wildcraft\wildcraft\bin\Release\netstandard2.0\assets\wildcraft\shapes\block\plant\skunkcabbage.json
+D:\VSMods\Wildcraft\wildcraft\bin\Release\netstandard2.0\assets\wildcraft\textures\block\plant\leafygroundvegetable\skunkcabbage_leaf_small.png

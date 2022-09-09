@@ -8,7 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"root": "wildcraft:block/food/roots/root"
+		"root": "wildcraft:block/plant/leafygroundvegetable/root"
 	},
 	"elements": [
 		{

@@ -8,7 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"liquorice_root": "wildcraft:block/plant/leafygroundvegetable/liquorice_root"
+		"liquorice_root": "wildcraft:block/food/roots/liquorice_root"
 	},
 	"elements": [
 		{

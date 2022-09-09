@@ -1,6 +1,37 @@
 {
   "game:tabname-wildcraft": "Wildcraft",
 
+  "game:wildcraft-guide-title": "Wildcraft Guide",
+  "game:wildcraft-guide-text":
+  "<strong>Wildcraft Survival Guide</strong>
+  <i>A herbalism and plant mod for Vintage Story</i>
+  <br>
+  <strong>Introduction</strong>
+  <br>
+  This mod is intended to expand upon some plant mechanics, and also add a variety of new plants.
+  <br>
+  <strong>Guide to Berries and Clippings</strong>
+  <br>
+  Berry bush propogation in Wildcraft is changed significantly from vanilla VS. No longer can you run around with stacks of berry bushes in your pocket, you must now take clippings from berry bushes in order to propogate them. In this version, you can take a knife or pair of shears to prune a berry bush, where you will then get a clipping. But be careful! Clippings only last so long before drying out and dying, so plant them quickly! And not all berries are grown using clippings. Small, ground dwelling berry plants (such as strawberries) need to be grown with seeds.
+  <br>
+  Be careful out there! Some berries aren't fit for consumption, and some are very prickly! (but luckily, if you're sneaky, it's not so bad).
+  <br>
+  <strong>Guide to Herbs and Plants</strong>
+  <br>
+  Wildcraft adds a variety of new plants to the game. Plants can be harvested with a knife. When the player does that, it leaves the plant in a 'harvested' state. in this state, the plant will eventually grow back and then the player can harvest it again. Some plants also have roots, which requires harvesting the plant in its 'harvested' state to obtain. Roots can be eaten, or used as secondary ingredients in meals. Bundles of herbs can be used in meals as secondary ingredients too, and can also be used in the crafting grid with a knife to make seeds.
+  <br>
+  All wildcraft plants can be planted on the ground with seeds. This will create a dirt mound in it's seedling state. Eventually the seedling will sprout, and then grow into a plant, which can then be harvested like a normally generated plant. Optionally, many plants can also be grown as crops. When grown on farmland as crops, the plants will have increased yields, but can only be harvested when they're fully grown (including for roots!).
+  <br>
+  <strong>Guide to Poultices and Rashes</strong>
+  <br>
+  One of the features of Wildcraft is that it adds many new poultices! it does this by expanding the number of 'primary ingredients' (think, Horsetail, or Honey & Sulfur for vanilla primary ingredints). Wildcraft adds St John's Wort, Poison Oak, Inula and Celandine as new primary ingredients for poultices. 
+  <br>
+  Now, Wildcraft also adds a new layer to poultices: secondary ingredients. Holly, Marigold, Yarrow, Sage, Lavender, Thyme and Marshmallow are the secondary ingrediens we add to poultices. Theses can be put 'ontop of' any simple poultice (a poultice containing only one, primary ingredient). The health benefit that a secondary ingredient gives a primary ingredient poultice is unique. Meaning different ingredients will react differently together and gives a lower/higher total health. So, for example, Thyme might heal more when paired with Horsetail than it does when paired with St John's Wort.
+  <br>
+  Some plants in Wildcraft will also give you a rash if you step on them (a rash is currently just a debuff that takes a small amount of damage every so often for a short amount of time.). Rashes can be cured by either using a poultice with Poison Oak or Yarrow as an ingredient.
+  <br>
+  Poultices also heal over time instead of being instant healing (which can be turned off)."
+  ,
   "item-basket": "Hand basket",
   "block-sedge-stationarybasket-*": "Sedge basket",
 
