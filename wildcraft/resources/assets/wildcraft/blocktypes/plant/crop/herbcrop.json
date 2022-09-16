@@ -22,6 +22,18 @@
 	},
 	"blockmaterial": "Plant",
 	"texturesByType": {
+		"*-minerslettuce-3": { 		
+			"stems": { "base": "wildcraft:block/plant/clover/minerslettuce_stems"},
+			"leaves":  {"base": "wildcraft:block/plant/clover/minerslettuce_leaves"} 
+		},
+        "*-minerslettuce-2": { 		
+			"stems": { "base": "wildcraft:block/plant/clover/minerslettuce_shoots_stems"},
+			"leaves": { "base": "wildcraft:block/plant/clover/minerslettuce_shoots_leaves"}
+		},
+        "*-minerslettuce-1": { 		
+			"stems": { "base": "wildcraft:block/plant/clover/minerslettuce_shoots_stems" }
+		},
+
         "*-1": {
             "leaves": { "base": "wildcraft:block/plant/seedling/{herbcrops}*" }
         },

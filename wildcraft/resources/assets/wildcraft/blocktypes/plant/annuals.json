@@ -56,11 +56,11 @@
     },
     "isPoisonousByType":{
         "*-poisonoak-normal": "true",
+        "*-stingingnettle-normal": "true",
         "*":"false"
     }
   },
   "randomDrawOffset": true,
-  "randomizeRotations": true,
   "texturesByType": {
     "*-burdock-normal*":{
       "burdock_stem": {"base": "wildcraft:block/plant/leafygroundvegetable/burdock_stem"},
@@ -140,10 +140,10 @@
 	"materialDensity": 200,
 	"frostable": true,
   "dropsByType": {
-    "*-budrock-harvested": [
+    "*-burdock-harvested": [
       {
         "type": "item",
-        "code": "wildcraft:roots-budrock",
+        "code": "wildcraft:roots-burdock",
         "quantity": { "avg": 1.2 }
       }
     ],

@@ -9,7 +9,7 @@
         "*-bearleek": { "base": "wildcraft:block/food/bearleek" },
 		"*-waterchestnut": { "base": "wildcraft:block/food/waterchestnut" },
 		"*-peeledwaterchestnut": { "base": "wildcraft:block/food/peeledwaterchestnut" },
-		"*-liquorice": { "base": "wildcraft:block/food/bearleek_bulb" },
+		"*-liquorice": { "base": "wildcraft:block/food/liquorice" },
 		"*-marshmallow": { "base": "wildcraft:block/food/marshmallow_root" },
 		"*-burdock": { "base": "wildcraft:block/food/burdock_root" },
 		"*-chicory": { "base": "wildcraft:block/food/chicory_root" },
@@ -21,13 +21,13 @@
             "bearleek_bulb": { "base": "wildcraft:block/food/roots/bearleek_bulb" }
         },
 		"*-liquorice": { 
-            "bearleek_bulb": { "base": "wildcraft:block/food/roots/liquorice_root" }
+            "liquorice_root": { "base": "wildcraft:block/food/roots/liquorice_root" }
         },
 		"*-waterchestnut": { 
             "bearleek_bulb": { "base": "wildcraft:block/food/roots/waterchestnut_bulb" }
         },
 		"*-celery": { 
-            "celery": { "base": "wildcraft:block/food/roots/celery_root" }
+            "celery_root": { "base": "wildcraft:block/food/roots/celery_root" }
         },
 		"*": { 			
 			"reeds" : { "base": "game:item/resource/reeds" }
@@ -81,9 +81,9 @@
 		},
 		"*-liquorice": {
 				translation: { x: 0, y: 0, z: 0 },
-				rotation: { x: -32, y: 126, z: -155 },
-				origin: { x: 0.35, y: 0.23, z: 0.6 },
-				scale: 5.4
+				rotation: { x: -180, y: 29, z: 21 },
+				origin: { x: 0.5, y: 0.3, z: 0.5 },
+				scale: 2.47
 		},
 		"*-chicory": {
 			rotation: { x: -3, y: 35, z: -154 },

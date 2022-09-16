@@ -556,3 +556,4 @@ D:\VSMods\Wildcraft\wildcraft\bin\Release\netstandard2.0\assets\wildcraft\textur
 D:\VSMods\Wildcraft\wildcraft\bin\Release\netstandard2.0\assets\wildcraft\config\handbook\wildcraft-guide.json
 D:\VSMods\Wildcraft\wildcraft\bin\Release\netstandard2.0\assets\wildcraft\shapes\block\plant\skunkcabbage.json
 D:\VSMods\Wildcraft\wildcraft\bin\Release\netstandard2.0\assets\wildcraft\textures\block\plant\leafygroundvegetable\skunkcabbage_leaf_small.png
+D:\VSMods\Wildcraft\wildcraft\bin\Release\netstandard2.0\assets\wildcraft\lang\pt-br.json
