@@ -50,6 +50,7 @@ namespace wildcraft
         }
         public override void OnHeldInteractStart(ItemSlot itemslot, EntityAgent byEntity, BlockSelection blockSel, EntitySelection entitySel, bool firstEvent, ref EnumHandHandling handHandling)
         {
+            if(blockSel is null) return;
             BlockPos pos = blockSel.Position;
             string lastCodePart = itemslot.Itemstack.Collectible.LastCodePart();
             BlockEntity be = byEntity.World.BlockAccessor.GetBlockEntity(pos);
