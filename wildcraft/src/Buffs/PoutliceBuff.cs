@@ -7,10 +7,10 @@ using BuffStuff;
 [ProtoContract(ImplicitFields = ImplicitFields.AllPublic)]
 public class PoulticeBuff : Buff {
     [ProtoIgnore]
-    private static int DURATION_TICKS = 4 * 8;
+    private static int DURATION_TICKS = 4 * 8 ; //8 seconds
     public double hpPerTick;
     public void init(double totalHealthChange) {
-      hpPerTick = totalHealthChange / DURATION_TICKS;
+      hpPerTick = totalHealthChange / 8;
       SetExpiryInTicks(DURATION_TICKS);
     }
     public override void OnDeath() {
@@ -22,9 +22,11 @@ public class PoulticeBuff : Buff {
       SetExpiryImmediately();
     }
     public override void OnTick() {
-      Entity.ReceiveDamage(new DamageSource {
-        Source = EnumDamageSource.Internal,
-        Type = hpPerTick < 0 ? EnumDamageType.Heal : EnumDamageType.Heal
-      }, (float)hpPerTick);
+      if (TickCounter % 4 == 0) {
+        Entity.ReceiveDamage(new DamageSource {
+          Source = EnumDamageSource.Internal,
+          Type = hpPerTick < 0 ? EnumDamageType.Heal : EnumDamageType.Heal
+        }, (float)hpPerTick);
+      }
     }
   }
