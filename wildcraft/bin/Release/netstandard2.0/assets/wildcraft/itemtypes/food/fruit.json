@@ -17,6 +17,11 @@
         "health": 0,
         "foodcategory": "Fruit"
       },
+      "*-wolfberry": {
+        "satiety": 70,
+        "health": -8,
+        "foodcategory": "Fruit"
+      },
       "*-dogrose": {
         "satiety": 40,
         "foodcategory": "Fruit"
@@ -68,9 +73,14 @@
       "satiety": 20,
       "foodcategory": "Fruit"
     },
+    "*-wolfberry": {
+      "satiety": 60,
+      "health": -8,
+      "foodcategory": "Fruit"
+    },
     "*-snowberry": {
       "satiety": 60,
-      "health": -5,
+      "health": -2,
       "foodcategory": "Fruit"
     },
     "*-elderberry": {
@@ -175,14 +185,14 @@
   },
   "guiTransformByType": {
     "*-wolfberry": {
-      rotation: { x: -40, y: 153, z: -56 },
-      origin: { x: 0.6, y: -0.2, z: 0.2 },
-      scale: 2.23
+        rotation: { x: -2, y: 140, z: 103 },
+        origin: { x: 0.37, y: -0.1, z: 0.8 },
+        scale: 2.23
     },
     "*-husktomato": {
-      rotation: { x: 0, y: 0, z: 180 },
-      origin: { x: 0.3, y: 0.3, z: 0 },
-      scale: 2.09
+        rotation: { x: -43, y: 3, z: 146 },
+        origin: { x: 0.5, y: -0.1, z: 0 },
+        scale: 2.09
     },
     "*-strawberry": {
         translation: { x: 0, y: 0, z: 0 },
