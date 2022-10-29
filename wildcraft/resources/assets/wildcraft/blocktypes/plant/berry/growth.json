@@ -83,14 +83,14 @@
       }
     },
     "dropsByType": {
-      "*-dead-*": [
+      "*-dead": [
         {
           "type": "item",
           "code": "game:stick",
           "quantity": { "avg": 1.0 }
         }
       ],
-      "*-alive-*": [
+      "*-alive": [
         {
           "type": "item",
           "code": "game:stick",

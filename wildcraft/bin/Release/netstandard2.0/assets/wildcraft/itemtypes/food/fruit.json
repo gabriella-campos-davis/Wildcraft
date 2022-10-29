@@ -12,7 +12,7 @@
       "base": "wildcraft:block/food/pie/fill-{fruit}"
     },
     "nutritionPropsWhenInMealByType": {
-      "*-(brambleberry|gooseberry|honeysuckle|strawberry|raspberry)": {
+      "@*-(brambleberry|gooseberry|honeysuckle|strawberry|raspberry)": {
         "satiety": 100,
         "health": 0,
         "foodcategory": "Fruit"
@@ -59,7 +59,7 @@
     "wildcraft": [ "*" ]
   },
   "nutritionPropsByType": {
-    "*-(brambleberry|gooseberry|honeysuckle|strawberry|raspberry)": {
+    "@*-(brambleberry|gooseberry|honeysuckle|strawberry|raspberry)": {
       "satiety": 80,
       "health": 0,
       "foodcategory": "Fruit"
@@ -112,7 +112,7 @@
         "transitionRatio": 0.25
       }
     ],
-    "*-(strawberry|honeysuckle)": [
+    "@*-(strawberry|honeysuckle)": [
       {
         "type": "Perish",
         "freshHours": { "avg": 24 },

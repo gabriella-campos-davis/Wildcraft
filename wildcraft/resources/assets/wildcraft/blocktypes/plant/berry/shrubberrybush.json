@@ -28,7 +28,7 @@
 		}} ]
 	},
 	variantgroups: [
-		{ code: "type", states: ["elderberry"] },
+		{ code: "type", states: ["elderberry", "husktomato"] },
 		{ code: "state", states: ["empty", "flowering", "ripe"] }
 	],
 	creativeinventory: { "general": ["*"], "flora": ["*"], "wildcraft": ["*"] },

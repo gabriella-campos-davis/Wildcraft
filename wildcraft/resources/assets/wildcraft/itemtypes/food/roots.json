@@ -1,7 +1,21 @@
 {
 	"code": "roots",
 	"maxstacksize": 64,
-	"attributes": {},
+	"attributes": {
+		"inContainerTexture": {
+			"base": "wildcraft:block/food/pie/fill-{type}"
+		  },
+		"inPiePropertiesByType": {
+			"*-waterchestnut": {
+			"texture": "wildcraft:block/food/pie/fill-{type}",
+			"partType": "Filling"
+		  },
+		  "@*-(bearleek|marshmallow|burdock|chicory|liquorice|celery)": {
+			"texture": "wildcraft:block/food/pie/fill-root",
+			"partType": "Filling"
+		  }
+		}
+	},
 	"variantgroups": [
 		{ "code": "type", "states": ["bearleek", "marshmallow", "burdock", "chicory", "liquorice", "waterchestnut", "peeledwaterchestnut", "celery"] }
 	],

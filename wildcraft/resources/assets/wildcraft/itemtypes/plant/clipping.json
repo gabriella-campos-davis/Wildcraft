@@ -11,7 +11,7 @@
   "variantgroups": [
     {
       "code": "type",
-      "states": [ "huckleberry", "snowberry", "raspberry", "brambleberry", "dogrose", "gooseberry", "honeysuckle", "elderberry", "redcurrant", "blackcurrant", "whitecurrant", "blueberry", "cranberry"]
+      "states": [ "huckleberry", "snowberry", "raspberry", "brambleberry", "dogrose", "gooseberry", "honeysuckle", "elderberry","blueraspberry", "redcurrant", "blackcurrant", "whitecurrant", "blueberry", "cranberry", "wolfberry", "husktomato"]
     },
     {
       "code": "state",
@@ -69,6 +69,9 @@
     },
     "*-cranberry-green": {
       "leaves": { "base": "wildcraft:block/plant/clipping/greenleaves/{type}*" }
+    },
+    "*-blueraspberry-green": {
+      "leaves": { "base": "wildcraft:block/plant/clipping/greenleaves/raspberry*" }
     },
     "*-green": {
       "leaves": { "base": "wildcraft:block/plant/clipping/greenleaves/{type}*" }

@@ -33,7 +33,7 @@
 		}} ],
 	},
 	variantgroups: [
-		{ code: "type", states: ["brambleberry", "raspberry", "dogrose"] },
+		{ code: "type", states: ["brambleberry", "raspberry", "dogrose", "blueraspberry"] },
 		{ code: "state", states: ["empty", "flowering", "ripe"] },
 	],
 	creativeinventory: { "general": ["*"], "flora": ["*"], "wildcraft": ["*"] },
