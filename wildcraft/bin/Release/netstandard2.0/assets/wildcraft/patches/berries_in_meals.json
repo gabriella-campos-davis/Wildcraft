@@ -16,5 +16,11 @@
             "code": "wildcraft:fruit-*",
             "shapeElement": "bowl/fruit 2/*"
         }
+    },
+    { "file": "game:recipes/cooking/meatystew", "op": "add", "path": "/ingredients/6/validStacks/-", "value": {
+        "type": "item",
+        "code": "wildcraft:fruit-*",
+        "shapeElement": "bowl/fruit 2/*"
     }
+}
 ]

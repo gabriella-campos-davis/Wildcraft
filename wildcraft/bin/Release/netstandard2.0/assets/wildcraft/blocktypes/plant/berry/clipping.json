@@ -33,7 +33,7 @@
   "variantgroups": [
     {
       "code": "type",
-      "states": [ "huckleberry", "snowberry", "raspberry", "brambleberry", "dogrose", "gooseberry", "honeysuckle", "elderberry", "redcurrant", "blackcurrant", "whitecurrant", "blueberry", "cranberry"]
+      "states": [ "huckleberry", "snowberry", "raspberry", "brambleberry", "dogrose", "gooseberry", "honeysuckle", "elderberry", "husktomato", "wolfberry", "blueraspberry", "redcurrant", "blackcurrant", "whitecurrant", "blueberry", "cranberry"]
     },
     {
       "code": "state",
@@ -46,6 +46,8 @@
   "randomizeRotations": true,
   "shapeByType": {
     "*-elderberry-alive": { "base": "wildcraft:block/plant/clipping/clipping_shrub" },
+    "*-husktomato-alive": { "base": "wildcraft:block/plant/clipping/clipping_shrub" },
+
     "*-dead": { "base": "wildcraft:block/plant/clipping/child_dead" },
     "*-alive": { "base": "wildcraft:block/plant/clipping/child" }
   },
@@ -75,19 +77,22 @@
     "*-elderberry-*": {
       "leaves": { "base": "wildcraft:block/plant/clipping/elderberry_growing" }
     },
+    "*-husktomato-*": {
+      "leaves": { "base": "wildcraft:block/plant/clipping/husktomato_growing" }
+    },
     "*": {
       "leaves": { "base": "wildcraft:block/plant/berrybush/small/leaves/{type}*" }
     }
   },
   "dropsByType": {
-    "*-dead-*": [
+    "*-dead": [
       {
         "type": "item",
         "code": "game:stick",
         "quantity": { "avg": 1.0 }
       }
     ],
-    "*-alive-*": [
+    "*-alive": [
       {
         "type": "item",
         "code": "game:stick",
