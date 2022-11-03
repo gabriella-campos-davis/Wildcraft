@@ -22,6 +22,25 @@
       "op": "add",
       "path": "/patches/-",
       "value": {
+        "comment": "Patches of blueraspberry bushes",
+        "blockCodes": [
+          "wildcraft:pricklyberrybush-blueraspberry-empty",
+          "wildcraft:pricklyberrybush-blueraspberry-flowering",
+          "wildcraft:pricklyberrybush-blueraspberry-ripe"
+        ],
+        "minTemp": 12,
+        "maxTemp": 32,
+        "minRain": 0.5,
+        "minForest": 0.5,
+        "chance": 0.0001,
+        "quantity": { "dist": "invexp", "avg": 8, "var": 15 }
+      },
+      "file": "game:worldgen/blockpatches.json"
+    },
+    {
+      "op": "add",
+      "path": "/patches/-",
+      "value": {
         "comment": "Patches of snowberry bushes",
         "blockCodes": [
           "wildcraft:berrybush-snowberry-empty",

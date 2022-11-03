@@ -76,7 +76,7 @@
 					"faces": {
 						"north": { "texture": "#berries", "uv": [ 0.0, 0.0, 6.0, 4.0 ], "enabled": false },
 						"east": { "texture": "#berries", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "enabled": false },
-						"south": { "texture": "#berries", "uv": [ 1.0, 7.0, 14.0, 16.0 ], "autoUv": false, "windMode": [0,1,1,0] },
+						"south": { "texture": "#berries", "uv": [ 1.0, 1.0, 14.0, 16.0 ], "autoUv": false, "windMode": [0,1,1,0] },
 						"west": { "texture": "#berries", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "enabled": false },
 						"up": { "texture": "#berries", "uv": [ 0.0, 0.0, 6.0, 1.0 ], "enabled": false },
 						"down": { "texture": "#berries", "uv": [ 0.0, 0.0, 6.0, 1.0 ], "enabled": false }
@@ -93,7 +93,7 @@
 					"faces": {
 						"north": { "texture": "#berries", "uv": [ 0.0, 0.0, 6.0, 4.0 ], "enabled": false },
 						"east": { "texture": "#berries", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "enabled": false },
-						"south": { "texture": "#berries", "uv": [ 1.0, 7.0, 14.0, 16.0 ], "autoUv": false, "windMode": [0,1,1,0] },
+						"south": { "texture": "#berries", "uv": [ 1.0, 1.0, 14.0, 16.0 ], "autoUv": false, "windMode": [0,1,1,0] },
 						"west": { "texture": "#berries", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "enabled": false },
 						"up": { "texture": "#berries", "uv": [ 0.0, 0.0, 6.0, 1.0 ], "enabled": false },
 						"down": { "texture": "#berries", "uv": [ 0.0, 0.0, 6.0, 1.0 ], "enabled": false }
@@ -167,7 +167,7 @@
 					"faces": {
 						"north": { "texture": "#berries", "uv": [ 0.0, 0.0, 6.0, 4.0 ], "enabled": false },
 						"east": { "texture": "#berries", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "enabled": false },
-						"south": { "texture": "#berries", "uv": [ 1.0, 7.0, 14.0, 16.0 ], "autoUv": false, "windMode": [0,1,1,0] },
+						"south": { "texture": "#berries", "uv": [ 1.0, 1.0, 14.0, 16.0 ], "autoUv": false, "windMode": [0,1,1,0] },
 						"west": { "texture": "#berries", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "enabled": false },
 						"up": { "texture": "#berries", "uv": [ 0.0, 0.0, 6.0, 1.0 ], "enabled": false },
 						"down": { "texture": "#berries", "uv": [ 0.0, 0.0, 6.0, 1.0 ], "enabled": false }
@@ -184,7 +184,7 @@
 					"faces": {
 						"north": { "texture": "#berries", "uv": [ 0.0, 0.0, 6.0, 4.0 ], "enabled": false },
 						"east": { "texture": "#berries", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "enabled": false },
-						"south": { "texture": "#berries", "uv": [ 1.0, 7.0, 14.0, 16.0 ], "autoUv": false, "windMode": [0,1,1,0] },
+						"south": { "texture": "#berries", "uv": [ 1.0, 1.0, 14.0, 16.0 ], "autoUv": false, "windMode": [0,1,1,0] },
 						"west": { "texture": "#berries", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "enabled": false },
 						"up": { "texture": "#berries", "uv": [ 0.0, 0.0, 6.0, 1.0 ], "enabled": false },
 						"down": { "texture": "#berries", "uv": [ 0.0, 0.0, 6.0, 1.0 ], "enabled": false }
@@ -258,7 +258,7 @@
 					"faces": {
 						"north": { "texture": "#berries", "uv": [ 0.0, 0.0, 6.0, 4.0 ], "enabled": false },
 						"east": { "texture": "#berries", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "enabled": false },
-						"south": { "texture": "#berries", "uv": [ 1.0, 7.0, 14.0, 16.0 ], "autoUv": false, "windMode": [0,1,1,0] },
+						"south": { "texture": "#berries", "uv": [ 1.0, 1.0, 14.0, 16.0 ], "autoUv": false, "windMode": [0,1,1,0] },
 						"west": { "texture": "#berries", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "enabled": false },
 						"up": { "texture": "#berries", "uv": [ 0.0, 0.0, 6.0, 1.0 ], "enabled": false },
 						"down": { "texture": "#berries", "uv": [ 0.0, 0.0, 6.0, 1.0 ], "enabled": false }
@@ -275,7 +275,7 @@
 					"faces": {
 						"north": { "texture": "#berries", "uv": [ 0.0, 0.0, 6.0, 4.0 ], "enabled": false },
 						"east": { "texture": "#berries", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "enabled": false },
-						"south": { "texture": "#berries", "uv": [ 1.0, 7.0, 14.0, 16.0 ], "autoUv": false, "windMode": [0,1,1,0] },
+						"south": { "texture": "#berries", "uv": [ 1.0, 1.0, 14.0, 16.0 ], "autoUv": false, "windMode": [0,1,1,0] },
 						"west": { "texture": "#berries", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "enabled": false },
 						"up": { "texture": "#berries", "uv": [ 0.0, 0.0, 6.0, 1.0 ], "enabled": false },
 						"down": { "texture": "#berries", "uv": [ 0.0, 0.0, 6.0, 1.0 ], "enabled": false }

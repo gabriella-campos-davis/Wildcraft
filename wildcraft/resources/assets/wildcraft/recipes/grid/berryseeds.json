@@ -4,7 +4,7 @@
     "shapeless": true,
     "ingredients": {
       "K": { "type": "item", "code": "game:knife-*", "isTool": true },
-      "H": { "type": "item", "code": "wildcraft:fruit-*", "name": "berry", "allowedVariants": ["strawberry", "cloudberry"] }
+      "H": { "type": "item", "code": "wildcraft:fruit-*", "name": "berry", "allowedVariants": ["strawberry", "cloudberry", "crowberry", "bunchberry"] }
     },
     "name": "berryseeds",
     "width": 1,
