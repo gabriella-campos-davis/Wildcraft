@@ -55,6 +55,8 @@
 	shapeByType: {
 		"*-bunchberry-flowering": { base: "wildcraft:block/plant/berrybush/{state}/tallgroundberrybush_{state}*" },
 		"*-bunchberry-ripe": { base: "wildcraft:block/plant/berrybush/{state}/tallgroundberrybush_{state}*" },
+		"*-crowberry-flowering": { base: "wildcraft:block/plant/berrybush/{state}/tallgroundberrybush_{state}*" },
+		"*-crowberry-ripe": { base: "wildcraft:block/plant/berrybush/{state}/tallgroundberrybush_{state}*" },
 		"*": { base: "wildcraft:block/plant/berrybush/{state}/groundberrybush_{state}*" }
 	},
 	blockmaterial: "Plant",

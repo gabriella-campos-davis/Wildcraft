@@ -16,7 +16,7 @@
 		}
 	},
 	variantgroups: [
-		{ code: "type", states: ["waterchestnut", "skunkcabbage"] },
+		{ code: "type", states: ["waterchestnut"] },
 		{ code: "habitat", states: ["land", "water", "ice"] },
 		{ code: "state", states: ["normal", "harvested"] },
 		{ code: "cover", states: ["free", "snow"] },

@@ -173,6 +173,68 @@
       "op": "add",
       "path": "/patches/-",
       "value": {
+        "comment": "Patches of bunchberry bushes",
+        "blockCodes": [
+          "wildcraft:groundberryplant-bunchberry-empty",
+          "wildcraft:groundberryplant-bunchberry-flowering",
+          "wildcraft:groundberryplant-bunchberry-ripe"
+        ],
+        "minTemp": -12,
+        "maxTemp": 12,
+        "maxForest": 0.5,
+        "chance": 0.04,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 5,
+          "var": 12
+        }
+      },
+      "file": "game:worldgen/blockpatches.json"
+    },
+    {
+      "op": "add",
+      "path": "/patches/-",
+      "value": {
+        "comment": "Patches of crowberry bushes",
+        "blockCodes": [
+          "wildcraft:groundberryplant-crowberry-empty",
+          "wildcraft:groundberryplant-crowberry-flowering",
+          "wildcraft:groundberryplant-crowberry-ripe"
+        ],
+        "minTemp": -12,
+        "maxTemp": 12,
+        "minForest": 0.5,
+        "chance": 0.04,
+        "offsetX": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "offsetZ": {
+          "dist": "gaussian",
+          "avg": 0,
+          "var": 15
+        },
+        "quantity": {
+          "avg": 5,
+          "var": 12
+        }
+      },
+      "file": "game:worldgen/blockpatches.json"
+    },
+    {
+      "op": "add",
+      "path": "/patches/-",
+      "value": {
         "comment": "Patches of cloudberry bushes",
         "blockCodes": [
           "wildcraft:groundberryplant-cloudberry-empty",

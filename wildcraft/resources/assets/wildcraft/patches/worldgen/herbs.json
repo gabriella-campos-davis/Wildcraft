@@ -215,6 +215,26 @@
     "op": "add",
     "path": "/patches/-",
     "value": {
+      "comment": "Large patches of skunk cabbage in temerpate rainy areas near water and in some forest (hopefully wetlands and swamps)",
+      "blockCodes": [
+        "wildcraft:amphibiousplant-skunkcabbage-land-small-free",
+        "wildcraft:amphibiousplant-skunkcabbage-land-medium-free",
+        "wildcraft:amphibiousplant-skunkcabbage-land-large-free"
+      ],
+      "minTemp": 2,
+      "maxTemp": 22,
+      "minForest": 0.6,
+      "minRain": 0.6,
+      "chance": 0.3,
+      "placement": "NearWater",
+      "quantity": { "avg": 25, "var": 5 },
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
       "comment": "Patches of burdock in temperate areas near water",
       "blockCodes": [
         "wildcraft:annualplant-burdock-normal"

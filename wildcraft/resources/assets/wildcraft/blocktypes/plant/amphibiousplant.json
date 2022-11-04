@@ -1,0 +1,128 @@
+{
+	code: "amphibiousplant",
+	class: "WaterPlant",
+	entityClassByType: {
+		"*-small-*": "Transient",
+        "*-medium-*": "Transient"
+	},
+	attributes: {
+		transientPropsByType: {
+			"amphibiousplant-skunkcabbage-{habitat}-small-{cover}": {
+				convertFrom: "*-small-{cover}", 
+				convertTo: "amphibiousplant-skunkcabbage-{habitat}-medium-{cover}", 
+				inGameHours: "168",
+				resetBelowTemperature: -4,
+				stopBelowTemperature: 0
+			},
+			"amphibiousplant-skunkcabbage-{habitat}-medium-{cover}":{
+				convertFrom: "*-medium-{cover}", 
+				convertTo: "amphibiousplant-skunkcabbage-{habitat}-large-{cover}", 
+				inGameHours: "168",
+				resetBelowTemperature: -4,
+				stopBelowTemperature: 0
+			}
+		}
+	},
+	variantgroups: [
+		{ code: "type", states: ["skunkcabbage"] },
+		{ code: "habitat", states: ["land", "water", "ice"] },
+		{ code: "state", states: ["small", "medium", "large"] },
+		{ code: "cover", states: ["free", "snow"] },
+	],
+	allowedVariants: [ 
+		"*-land-*", 
+		"*-water-large-free",
+		"*-water-medium-free",
+        "*-water-small-free",
+		"*-ice-large-free",
+		"*-ice-medium-free",
+        "*-ice-small-free",
+	],
+	creativeinventory: { 
+		"general": ["*-land-*-free"], 
+		"flora": ["*-land-*-free"],
+   		"wildcraft": [ "*-land-*-free" ]
+	},
+	shapeByType: {
+		"amphibiousplant-skunkcabbage-*-small-*": { base: "wildcraft:block/plant/skunkcabbage3" },
+        "amphibiousplant-skunkcabbage-*-medium-*": { base: "wildcraft:block/plant/skunkcabbage2" },
+        "amphibiousplant-skunkcabbage-*-large-*": { base: "wildcraft:block/plant/skunkcabbage1" }
+	},
+	drawtypeByType: {
+		"*-snow": "JSONAndSnowLayer",
+		"*": "JSON"
+	},
+	renderpass: "OpaqueNoCull",
+	matterstate: "solid",
+	blockmaterial: "plant",
+	faceCullMode: "default",
+	randomDrawOffset: true,
+	randomizeRotations: true,
+	texturesByType: {
+	},
+	sideopaqueByType: {
+		"*-snow": { all: false, down: true },
+		"*": { all: false }
+	},
+	sidesolid: { all : false },
+	emitsideao: { all: false },
+	sideao: { all: true },
+	replaceable: 3000,
+	lightAbsorption: 0,
+	resistance: 1,
+	collisionbox: null,
+	selectionbox: {
+		x1: 0, y1: 0, z1: 0,
+		x2: 1, y2: 1, z2: 1
+	},
+	guitransform: {
+		rotation: { x: 0, y: 0, z: 0 }
+	},
+	sounds: {
+		place: "game:block/plant",
+		break: "game:block/plant",
+		hit: "game:block/plant"
+	},
+	rainPermeableByType: {
+		"*-land-*": true
+	},
+	materialDensity: 200,
+	frostable: true,
+	combustibleProps: {
+		burnTemperature: 600,
+		burnDuration: 10,
+	},
+	guiTransform: {
+		translation: { x: 0, y: -1.5, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 1.2, z: 0.5 },
+		scale: 0.65
+	},
+	dropsByType: {
+		"*-skunkcabbage-*-small-*": [ { 
+			"type": "item", 
+			"code": "wildcraft:skunkcabbage-leafs", 
+			"quantity": { "avg": 0.5 } 
+		 } ],
+		"*-skunkcabbage-*-medium-*": [{ 
+			"type": "item", 
+			"code": "wildcraft:skunkcabbage-leafs", 
+			"quantity": { "avg": 1.1 } 
+		},
+		{ 
+			"type": "item", 
+			"code": "wildcraft:skunkcabbage-stem",
+			"quantity": { "avg": 0.7 } 
+		} ],
+		"*-skunkcabbage-*-large-*": [ { 
+			"type": "item", 
+			"code": "wildcraft:skunkcabbage-leafs", 
+			"quantity": { "avg": 2.1 } 
+		},
+		{ 
+			"type": "item", 
+			"code": "wildcraft:skunkcabbage-stem",
+			"quantity": { "avg": 1.2 } 
+		} ],
+	}
+}
