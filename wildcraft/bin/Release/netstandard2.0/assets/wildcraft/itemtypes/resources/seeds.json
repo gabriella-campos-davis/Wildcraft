@@ -4,7 +4,7 @@
 	"attributes": {},
 	"maxstacksize": 64,
 	"variantgroups": [
-		{ "code": "type", "states": [ "strawberry", "cloudberry" ] }
+		{ "code": "type", "states": [ "strawberry", "cloudberry", "bunchberry", "crowberry" ] }
 	],
 	"attributes": { "handbook": { "groupBy": ["herbseeds-*", "waterherbseeds-*"] } },
 	"texture": { "base": "items/seeds/{type}" },

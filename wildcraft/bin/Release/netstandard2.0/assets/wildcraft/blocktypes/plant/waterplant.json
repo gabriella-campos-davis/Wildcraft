@@ -34,7 +34,8 @@
    		"wildcraft": [ "*-land-normal-free" ]
 	},
 	shapeByType: {
-		"waterplant-waterchestnut-*": { base: "wildcraft:block/plant/leafygroundvegetable/bushy_normal" }
+		"waterplant-waterchestnut-*": { base: "wildcraft:block/plant/leafygroundvegetable/bushy_normal" },
+		"waterplant-skunkcabbage-*": { base: "wildcraft:block/plant/skunkcabbage*" }
 	},
 	drawtypeByType: {
 		"*-snow": "JSONAndSnowLayer",
@@ -47,7 +48,7 @@
 	randomDrawOffset: true,
 	randomizeRotations: true,
 	texturesByType: {
-		"*": {
+		"*-waterchestnut-*": {
 			"leaves": { base: "wildcraft:block/plant/leafygroundvegetable/{state}/{type}}*" },
 			"leaves": { base: "wildcraft:block/plant/leafygroundvegetable/{state}/{type}" },
 			"leaves": { base: "wildcraft:block/plant/leafygroundvegetable/{state}/{type}" },

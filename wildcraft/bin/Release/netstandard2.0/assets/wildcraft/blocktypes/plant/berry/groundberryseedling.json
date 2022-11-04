@@ -13,7 +13,9 @@
       "dieBelowTemp": -2,
       "plantCodebyType": {
         "*-strawberry-*": "wildcraft:groundberryplant-strawberry-empty",
-        "*-cloudberry-*": "wildcraft:groundberryplant-cloudberry-empty"
+        "*-cloudberry-*": "wildcraft:groundberryplant-cloudberry-empty",
+        "*-bunchberry-*": "wildcraft:groundberryplant-bunchberry-empty",
+        "*-crowberry-*": "wildcraft:groundberryplant-crowberry-empty"
       },
       "transientPropsByType": {
         "*-planted": {
@@ -28,7 +30,7 @@
     "variantgroups": [
         {
             "code": "type",
-            "states": [ "strawberry", "cloudberry" ]
+            "states": [ "strawberry", "cloudberry", "bunchberry", "crowberry" ]
         },
       {
         "code": "state",

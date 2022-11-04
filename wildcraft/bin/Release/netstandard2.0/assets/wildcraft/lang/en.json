@@ -160,6 +160,8 @@
   "item-fruit-strawberry": "Strawberry",
   "item-fruit-wolfberry": "Wolfberry",
   "item-fruit-husktomato": "Husk Tomato",
+  "item-fruit-crowberry": "Crowberry",
+  "item-fruit-bunchberry": "Bunchberry",
 
   "recipeingredient-item-fruit-huckleberry": "huckleberries",
   "recipeingredient-item-fruit-snowberry": "snowberris",
@@ -174,6 +176,8 @@
   "recipeingredient-item-fruit-strawberry": "strawberries",
   "recipeingredient-item-fruit-wolfberry": "wolfberries",
   "recipeingredient-item-fruit-husktomato": "husk tomatoes",
+  "recipeingredient-item-fruit-crowberry": "crowberries",
+  "recipeingredient-item-fruit-bunchberry": "bunchberries",
 
   "pie-single-wildcraft:fruit-huckleberry-raw": "Huckleberry pie (raw)",
   "pie-single-wildcraft:fruit-dogrose-raw": "Dogrose pie (raw)",
@@ -188,6 +192,8 @@
   "pie-single-wildcraft:fruit-strawberry-raw": "Strawberry pie (raw)",
   "pie-single-wildcraft:fruit-wolfberry-raw": "Wolfberry pie (raw)",
   "pie-single-wildcraft:fruit-husktomato-raw": "Husk Tomato pie (raw)",
+  "pie-single-wildcraft:fruit-bunchberry-raw": "Bunchberry pie (raw)",
+  "pie-single-wildcraft:fruit-crowberry-raw": "Crowberry pie (raw)",
 
   "pie-single-wildcraft:roots-bearleek-raw": "Bearleek pie (raw)",
   "pie-single-wildcraft:roots-marshmallow-raw": "Marshmallow pie (raw)",
@@ -210,6 +216,8 @@
   "pie-single-wildcraft:fruit-strawberry-partbaked": "Strawberry pie (part-baked)",
   "pie-single-wildcraft:fruit-wolfberry-partbaked": "Wolfberry pie (part-baked)",
   "pie-single-wildcraft:fruit-husktomato-partbaked": "Husk Tomato pie (part-baked)",
+  "pie-single-wildcraft:fruit-bunchberry-partbaked": "Bunchberry pie (part-baked)",
+  "pie-single-wildcraft:fruit-crowberry-partbaked": "Crowberry pie (part-baked)",
 
   "pie-single-wildcraft:roots-bearleek-partbaked": "Bearleek pie (part-baked)",
   "pie-single-wildcraft:roots-marshmallow-partbaked": "Marshmallow pie (part-baked)",
@@ -232,6 +240,8 @@
   "pie-single-wildcraft:fruit-strawberry-perfect": "Strawberry pie",
   "pie-single-wildcraft:fruit-wolfberry-perfect": "Wolfberry pie",
   "pie-single-wildcraft:fruit-husktomato-perfect": "Husk Tomato pie",
+  "pie-single-wildcraft:fruit-bunchberry-perfect": "Bunchberry pie",
+  "pie-single-wildcraft:fruit-crowberry-perfect": "Crowberry pie",
 
   "pie-single-wildcraft:roots-bearleek-perfect": "Bearleek pie",
   "pie-single-wildcraft:roots-marshmallow-perfect": "Marshmallow pie",
@@ -254,6 +264,8 @@
   "pie-single-wildcraft:fruit-strawberry-charred": "Strawberry pie (charred)",
   "pie-single-wildcraft:fruit-wolfberry-charred": "Wolfberry pie (charred)",
   "pie-single-wildcraft:fruit-husktomato-charred": "Husk Tomato pie (charred)",
+  "pie-single-wildcraft:fruit-bunchberry-charred": "Bunchberry pie (charred)",
+  "pie-single-wildcraft:fruit-crowberry-charred": "Crowberry pie (charred)",
 
   "pie-single-wildcraft:roots-bearleek-charred": "Bearleek pie (charred)",
   "pie-single-wildcraft:roots-marshmallow-charred": "Marshmallow pie (charred)",
@@ -276,6 +288,8 @@
   "recipeingredient-item-fruit-strawberry-insturmentalcase": "strawberries",
   "recipeingredient-item-fruit-wolfberry-insturmentalcase": "wolfberries",
   "recipeingredient-item-fruit-husktomato-insturmentalcase": "husk tomatoes",
+  "recipeingredient-item-fruit-crowberry-insturmentalcase": "crowberries",
+  "recipeingredient-item-fruit-bunchberry-insturmentalcase": "bunchberries",
 
   "item-clipping-huckleberry-green": "Huckleberry clipping (green)",
   "item-clipping-blueraspberry-green": "Blue Raspberry clipping (green)",
@@ -308,8 +322,6 @@
   "item-clipping-wolfberry-dry": "Wolfberry clipping (dry)",
   "item-clipping-husktomato-dry": "Husk Tomato clipping (dry)",
 
-  "item-clipping-strawberry-dry": "Strawberry seed",
-
   "item-clipping-blackcurrant-dry": "Black currant clipping (dry)",
   "item-clipping-redcurrant-dry": "Red currant clipping (dry)",
   "item-clipping-whitecurrant-dry": "White currant clipping (dry)",
@@ -318,6 +330,8 @@
 
   "item-seeds-strawberry": "Strawberry seeds",
   "item-seeds-cloudberry": "Cloudberry seeds",
+  "item-seeds-crowberry": "Crowberry seeds",
+  "item-seeds-bunchberry": "Bunchberry seeds",
 
   "block-clipping-huckleberry-alive": "Huckleberry Clipping",
   "block-clipping-huckleberry-dead": "Dead Huckleberry Clipping",
@@ -717,6 +731,13 @@
   "block-waterplant-waterchestnut-*-normal-*": "Water chestnut",
   "block-waterplant-waterchestnut-*-harvested-*": "Water chestnut (Growing)",
 
+  "block-amphibiousplant-skunkcabbage-*": "Skunk cabbage",
+  "item-skunkcabbage-leafs": "Skunk cabbage leafs", 
+  "item-skunkcabbage-stem": "Skunk cabbage stem", 
+  "item-waterherbseeds-skunkcabbage": "Skunk cabbage seeds",
+  "block-seedling-skunkcabbage-planted": "Skunk cabbage seeds (Growing)",
+  "block-seedling-skunkcabbage-sprouting": "Skunk cabbage seeds (Sprouting)",
+
   "item-herbs-poisonoak":"Poison Oak",
   "item-herbseeds-poisonoak":"Poison Oak Seeds",
 
@@ -1071,7 +1092,20 @@
 
   "block-groundberryseedling-strawberry-planted": "Strawberry Seeds (Growing)",
   "block-groundberryseedling-strawberry-sprouting": "Strawberry Seeds (Sprouting)",
+  
+  "block-groundberryplant-crowberry-empty": "Crowberry Plant (Empty)",
+  "block-groundberryplant-crowberry-flowering": "Crowberry Plant (Flowering)",
+  "block-groundberryplant-crowberry-ripe": "Crowberry Plant (Ripe)",
 
+  "block-groundberryseedling-crowberry-planted": "Crowberry Seeds (Growing)",
+  "block-groundberryseedling-crowberry-sprouting": "Crowberry Seeds (Sprouting)",
+
+  "block-groundberryplant-bunchberry-empty": "Bunchberry Plant (Empty)",
+  "block-groundberryplant-bunchberry-flowering": "Bunchberry Plant (Flowering)",
+  "block-groundberryplant-bunchberry-ripe": "Bunchberry Plant (Ripe)",
+
+  "block-groundberryseedling-bunchberry-planted": "Bunchberry Seeds (Growing)",
+  "block-groundberryseedling-bunchberry-sprouting": "Bunchberry Seeds (Sprouting)",
 
   "block-groundberryplant-cloudberry-empty": "Cloudberry Plant (Empty)",
   "block-groundberryplant-cloudberry-flowering": "Cloudberry Plant (Flowering)",
@@ -1133,6 +1167,24 @@
   "incontainer-item-ciderportion-cloudberry": "Cloudberry cider",
 	"item-spiritportion-cloudberry": "Cloudberry brandy",
   "incontainer-item-spiritportion-cloudberry": "Cloudberry brandy",
+
+  "item-pressedmash-bunchberry-dry": "Pressed Bunchberry mash",
+  "item-pressedmash-bunchberry-wet": "Bunchberry mash ",
+	"item-juiceportion-bunchberry": "Bunchberry juice",
+  "incontainer-item-juiceportion-bunchberry": "Bunchberry juice",
+	"item-ciderportion-bunchberry": "Bunchberry cider",
+  "incontainer-item-ciderportion-bunchberry": "Bunchberry cider",
+	"item-spiritportion-bunchberry": "Bunchberry brandy",
+  "incontainer-item-spiritportion-bunchberry": "Bunchberry brandy",
+
+  "item-pressedmash-crowberry-dry": "Pressed Crowberry mash",
+  "item-pressedmash-crowberry-wet": "Crowberry mash ",
+	"item-juiceportion-crowberry": "Crowberry juice",
+  "incontainer-item-juiceportion-crowberry": "Crowberry juice",
+	"item-ciderportion-crowberry": "Crowberry cider",
+  "incontainer-item-ciderportion-crowberry": "Crowberry cider",
+	"item-spiritportion-crowberry": "Crowberry brandy",
+  "incontainer-item-spiritportion-crowberry": "Crowberry brandy",
 
   "item-pressedmash-dogrose-dry": "Pressed Dogrose mash",
   "item-pressedmash-dogrose-wet": "Dogrose mash ",

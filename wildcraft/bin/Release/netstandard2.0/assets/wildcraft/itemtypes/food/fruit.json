@@ -12,27 +12,40 @@
       "base": "wildcraft:block/food/pie/fill-{fruit}"
     },
     "nutritionPropsWhenInMealByType": {
-      "@*-(brambleberry|gooseberry|honeysuckle|strawberry|raspberry)": {
+      "*-cloudberry": {
+        "satiety": 120,
+        "health": 1,
+        "foodcategory": "Fruit"
+      },
+      "*-strawberry": {
+        "satiety": 120,
+        "foodcategory": "Fruit"
+      },
+      "@*-(brambleberry|gooseberry|honeysuckle|raspberry)": {
         "satiety": 100,
         "health": 0,
         "foodcategory": "Fruit"
       },
       "*-wolfberry": {
-        "satiety": 70,
+        "satiety": 100,
         "health": -8,
         "foodcategory": "Fruit"
       },
-      "*-dogrose": {
-        "satiety": 40,
+      "*-elderberry": {
+        "satiety": 80,
+        "foodcategory": "Fruit"
+      },
+      "@*-(bunchberry|crowberry)": {
+        "satiety": 60,
         "foodcategory": "Fruit"
       },
       "*-snowberry": {
         "satiety": 60,
-        "health": -5,
+        "health": -2,
         "foodcategory": "Fruit"
       },
-      "*-cloudberry": {
-        "satiety": 140,
+      "*-dogrose": {
+        "satiety": 40,
         "foodcategory": "Fruit"
       },
       "*": {
@@ -64,13 +77,18 @@
     "wildcraft": [ "*" ]
   },
   "nutritionPropsByType": {
-    "@*-(brambleberry|gooseberry|honeysuckle|strawberry|raspberry)": {
-      "satiety": 80,
-      "health": 0,
+    "*-cloudberry": {
+      "satiety": 120,
+      "health": 0.5,
       "foodcategory": "Fruit"
     },
-    "*-dogrose": {
-      "satiety": 20,
+    "*-strawberry": {
+      "satiety": 100,
+      "foodcategory": "Fruit"
+    },
+    "@*-(brambleberry|gooseberry|honeysuckle|raspberry)": {
+      "satiety": 80,
+      "health": 0,
       "foodcategory": "Fruit"
     },
     "*-wolfberry": {
@@ -78,18 +96,22 @@
       "health": -8,
       "foodcategory": "Fruit"
     },
-    "*-snowberry": {
-      "satiety": 60,
-      "health": -2,
-      "foodcategory": "Fruit"
-    },
     "*-elderberry": {
       "satiety": 60,
       "health": -0.5,
       "foodcategory": "Fruit"
     },
-    "*-cloudberry": {
-      "satiety": 120,
+    "@*-(bunchberry|crowberry)": {
+      "satiety": 40,
+      "foodcategory": "Fruit"
+    },
+    "*-snowberry": {
+      "satiety": 40,
+      "health": -2,
+      "foodcategory": "Fruit"
+    },
+    "*-dogrose": {
+      "satiety": 20,
       "foodcategory": "Fruit"
     },
     "*": {
@@ -185,9 +207,19 @@
   },
   "guiTransformByType": {
     "*-wolfberry": {
-        rotation: { x: -2, y: 140, z: 103 },
-        origin: { x: 0.37, y: -0.1, z: 0.8 },
-        scale: 2.23
+      rotation: { x: -2, y: 140, z: 103 },
+      origin: { x: 0.37, y: -0.1, z: 0.8 },
+      scale: 2.23
+    },
+    "*-crowberry": {
+      rotation: { x: 13, y: 0, z: -8 },
+      origin: { x: 0.45, y: 0, z: 0 },
+      scale: 2.91
+    },
+    "*-bunchberry": {
+      rotation: { x: -30, y: 0, z: 16 },
+      origin: { x: 0.55, y: 0.45, z: 0 },
+      scale: 2.97
     },
     "*-husktomato": {
         rotation: { x: -43, y: 3, z: 146 },

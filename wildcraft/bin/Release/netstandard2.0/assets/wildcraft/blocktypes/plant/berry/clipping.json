@@ -22,8 +22,10 @@
       "*-gooseberry-*": "wildcraft:berrybush-gooseberry-empty",
       "*-honeysuckle-*": "wildcraft:berrybush-honeysuckle-empty",
       "*-snowberry-*": "wildcraft:berrybush-snowberry-empty",
+      "*-wolfberry-*": "wildcraft:berrybush-wolfberry-empty",
 
       "*-elderberry-*": "wildcraft:shrubberrybush-elderberry-empty",
+      "*-husktomato-*": "wildcraft:shrubberrybush-husktomato-empty",
 
       "*-raspberry-*": "wildcraft:pricklyberrybush-raspberry-empty",
       "*-brambleberry-*": "wildcraft:pricklyberrybush-brambleberry-empty",
