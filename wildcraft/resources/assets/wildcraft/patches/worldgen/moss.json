@@ -3,13 +3,15 @@
     "path": "/patches/-",
     "value": {
       "comment": "Very large patches of moss in very wet areas",
-      "blockCodes": [ "wildcraft:moss-d-bright-free" ],
+      "blockCodes": [ "wildcraft:moss-d-bright-sporangia-free", "wildcraft:moss-d-bright-normal-free" ],
       "minTemp": 2,
       "maxTemp": 20,
       "maxForest": 0.5,
       "minRain": 0.5,
       "quantity": { "dist": "invexp", "avg": 35, "var": 20 },
-      "chance": 1.2
+      "offsetX": { "dist": "gaussian", "avg": 0, "var": 10 },
+      "offsetZ": { "dist": "gaussian", "avg": 0, "var": 10 },
+      "chance": 2.1
     },
     "file": "game:worldgen/blockpatches.json"
   },
@@ -18,13 +20,16 @@
     "path": "/patches/-",
     "value": {
       "comment": "Very large patches of moss in very wet areas",
-      "blockCodes": [ "wildcraft:moss-d-dark-free" ],
+      "blockCodes": [ "wildcraft:moss-d-dark-sporangia-free","wildcraft:moss-d-dark-normal-free" ],
       "minTemp": 2,
       "maxTemp": 20,
       "minForest": 0.5,
       "minRain": 0.5,
       "quantity": { "avg": 35, "var": 5 },
-      "chance": 1.2
+      "offsetX": { "dist": "gaussian", "avg": 0, "var": 10 },
+      "offsetZ": { "dist": "gaussian", "avg": 0, "var": 10 },
+
+      "chance": 2.1
     },
     "file": "game:worldgen/blockpatches.json"
 }]

@@ -4,6 +4,7 @@
 	variantgroups: [
 		{ loadFromProperties: "abstract/coating", },
         { "code": "type", "states": [ "bright", "dark"]  },
+		{ "code": "growth", "states": [ "normal", "sporangia"]  },
         { "code": "cover", "states": [ "free", "snow", "snow2", "snow3"]  }
 	],
     "behaviorsByType": {
@@ -11,10 +12,11 @@
 		"*-snow3": [{"name": "BreakSnowFirst"}]
 	},
 
-	blockmaterial: "Soil",
-	creativeinventory: { "general": ["moss-d-*-free"], "terrain": ["moss-d-*-free"] },
+	blockmaterial: "Plant",
+	creativeinventory: { "general": ["moss-d-*-*-free"], "terrain": ["moss-d-*-*-free"] },
 	shapeByType: {
-		"*-d-*": { base: "game:block/coating/d" },
+		"*-d-*-normal-*": { base: "game:block/coating/d" },
+		"*-d-*-sporangia-*": { base: "wildcraft:block/moss/d" },
 		"*-u-*": { base: "game:block/coating/d", "rotateX": 180 },
 		"*-s-*": { base: "game:block/coating/d", "rotateX": 90, "rotateZ": 180 },
 		"*-n-*": { base: "game:block/coating/d", "rotateX": 90, "rotateZ": 0 },
@@ -82,6 +84,15 @@
 		"base": "wildcraft:block/moss/{type}_moss_cushion"
 	},
 	"texturesByType": {
+		"*-sporangia-*":{
+			"sporangia": {"base": "wildcraft:block/moss/{type}_moss_sporangia"},
+			"north": { "base": "wildcraft:block/moss/{type}_moss_cushion" },
+			"south": { "base": "wildcraft:block/moss/{type}_moss_cushion" },
+			"east": { "base": "wildcraft:block/moss/{type}_moss_cushion" },
+			"west": { "base": "wildcraft:block/moss/{type}_moss_cushion" },
+			"up": { "base": "wildcraft:block/moss/{type}_moss_cushion" },
+			"down": { "base": "wildcraft:block/moss/{type}_moss_cushion" }
+		},
 		"*-free": {
 			"north": { "base": "wildcraft:block/moss/{type}_moss_cushion" },
 			"south": { "base": "wildcraft:block/moss/{type}_moss_cushion" },
@@ -97,9 +108,10 @@
 			"west": { "base": "wildcraft:block/moss/{type}_moss_cushion" },
 			"up": { "base": "wildcraft:block/moss/{type}_moss_cushion" },
 			"down": { "base": "wildcraft:block/moss/{type}_moss_cushion" }
-		}
+		},
 	},
-
+	"renderpass": "OpaqueNoCull",
+	"renderAlphaTest": 0.4,
 	replaceable: 6001,
 	resistance: 1.2,
 	lightAbsorption: 0,
@@ -117,13 +129,13 @@
 	],
 	selectionbox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 1 },
 	selectionboxByType: {
-		"saltpeter-d": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.0625, z2: 1 },
-		"saltpeter-u": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.0625, z2: 1, rotateX: 180 },
+		"*-d": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.0625, z2: 1 },
+		"*-u": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.0625, z2: 1, rotateX: 180 },
 		
-		"saltpeter-n": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.0625 },
-		"saltpeter-e": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.0625, rotateY: 270 },
-		"saltpeter-s": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.0625, rotateY: 180 },
-		"saltpeter-w": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.0625, rotateY: 90 },
+		"*-n": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.0625 },
+		"*-e": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.0625, rotateY: 270 },
+		"*-s": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.0625, rotateY: 180 },
+		"*-w": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 1, z2: 0.0625, rotateY: 90 },
 	},
 	collisionbox: null,
 	sounds: {
