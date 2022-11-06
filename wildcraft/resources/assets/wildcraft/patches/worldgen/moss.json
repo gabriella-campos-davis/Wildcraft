@@ -1,0 +1,30 @@
+[{
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Very large patches of moss in very wet areas",
+      "blockCodes": [ "wildcraft:moss-d-bright-free" ],
+      "minTemp": 2,
+      "maxTemp": 20,
+      "maxForest": 0.5,
+      "minRain": 0.5,
+      "quantity": { "dist": "invexp", "avg": 35, "var": 20 },
+      "chance": 1.2
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Very large patches of moss in very wet areas",
+      "blockCodes": [ "wildcraft:moss-d-dark-free" ],
+      "minTemp": 2,
+      "maxTemp": 20,
+      "minForest": 0.5,
+      "minRain": 0.5,
+      "quantity": { "avg": 35, "var": 5 },
+      "chance": 1.2
+    },
+    "file": "game:worldgen/blockpatches.json"
+}]

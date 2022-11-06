@@ -8,9 +8,9 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"skunkcabbage_leaf": "wildcraft:block/plant/leafygroundvegetable/skunkcabbage_leaf",
+		"skunkcabbage_leaf": "wildcraft:block/plant/leafygroundvegetable/skunkcabbage_leaf_big",
 		"skunkcabbage_stem": "wildcraft:block/plant/leafygroundvegetable/skunkcabbage_stem",
-		"skunkcabbage_leaf_small": "wildcraft:block/plant/leafygroundvegetable/skunkcabbage_leaf_small",
+		"skunkcabbage_leaf_small": "wildcraft:block/plant/leafygroundvegetable/skunkcabbage_leaf_small_green",
 		"skunkcabbage_spathe": "wildcraft:block/plant/leafygroundvegetable/skunkcabbage_spathe"
 	},
 	"elements": [
@@ -54,8 +54,7 @@
 					"to": [ 0.0, 24.0, 24.0 ], 
 					"shade": false,
 					"renderPass": 2,
-					"climateColorMap": "climatePlantTint",
-					"seasonColorMap": "seasonalFoliage",
+
 					"rotationOrigin": [ 0.0, 0.0, 12.0 ],
 					"rotationX": 15.0,
 					"rotationY": 90.0,
@@ -93,8 +92,7 @@
 					"to": [ 0.0, 24.0, 24.0 ], 
 					"shade": false,
 					"renderPass": 2,
-					"climateColorMap": "climatePlantTint",
-					"seasonColorMap": "seasonalFoliage",
+
 					"rotationOrigin": [ 0.0, 0.0, 12.0 ],
 					"rotationY": 22.5,
 					"rotationZ": -15.0,
@@ -113,8 +111,7 @@
 					"to": [ 0.0, 24.0, 24.0 ], 
 					"shade": false,
 					"renderPass": 2,
-					"climateColorMap": "climatePlantTint",
-					"seasonColorMap": "seasonalFoliage",
+
 					"rotationOrigin": [ 0.0, 0.0, 12.0 ],
 					"rotationX": -15.0,
 					"rotationY": -90.0,
@@ -133,8 +130,6 @@
 							"to": [ -0.4, 38.6, 25.0 ], 
 							"shade": false,
 							"renderPass": 2,
-							"climateColorMap": "climatePlantTint",
-							"seasonColorMap": "seasonalFoliage",
 							"rotationOrigin": [ 0.2569, 24.5706, 13.0 ],
 							"rotationZ": 67.5,
 							"faces": {
@@ -154,8 +149,7 @@
 					"to": [ 0.0, 24.0, 24.0 ], 
 					"shade": false,
 					"renderPass": 2,
-					"climateColorMap": "climatePlantTint",
-					"seasonColorMap": "seasonalFoliage",
+
 					"rotationOrigin": [ 0.0, 0.0, 12.0 ],
 					"rotationY": -22.5,
 					"rotationZ": -20.0,
@@ -174,8 +168,7 @@
 					"to": [ 0.0, 24.0, 24.0 ], 
 					"shade": false,
 					"renderPass": 2,
-					"climateColorMap": "climatePlantTint",
-					"seasonColorMap": "seasonalFoliage",
+
 					"rotationOrigin": [ 0.0, 0.0, 12.0 ],
 					"rotationY": 22.5,
 					"rotationZ": 20.0,
@@ -212,8 +205,7 @@
 					"to": [ 0.0, 24.0, 24.0 ], 
 					"shade": false,
 					"renderPass": 2,
-					"climateColorMap": "climatePlantTint",
-					"seasonColorMap": "seasonalFoliage",
+
 					"rotationOrigin": [ 0.0, 0.0, 12.0 ],
 					"rotationX": 15.0,
 					"rotationY": 90.0,
@@ -232,8 +224,6 @@
 							"to": [ -0.4, 38.6, 25.0 ], 
 							"shade": false,
 							"renderPass": 2,
-							"climateColorMap": "climatePlantTint",
-							"seasonColorMap": "seasonalFoliage",
 							"rotationOrigin": [ 0.2569, 24.5706, 13.0 ],
 							"rotationZ": 67.5,
 							"faces": {
