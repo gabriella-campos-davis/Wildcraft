@@ -8,7 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"skunkcabbage_leaf": "wildcraft:block/plant/leafygroundvegetable/skunkcabbage_leaf",
+		"skunkcabbage_leaf": "wildcraft:block/plant/leafygroundvegetable/skunkcabbage_leaf_big",
 		"skunkcabbage_stem": "wildcraft:block/plant/leafygroundvegetable/skunkcabbage_stem",
 		"skunkcabbage_leaf_small": "wildcraft:block/plant/leafygroundvegetable/skunkcabbage_leaf_small",
 		"skunkcabbage_spathe": "wildcraft:block/plant/leafygroundvegetable/skunkcabbage_spathe"

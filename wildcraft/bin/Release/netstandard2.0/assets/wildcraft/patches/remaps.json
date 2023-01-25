@@ -138,6 +138,10 @@
       "/bir remapq wildcraft:shrubberrybush-dogrose-flowering wildcraft:berrybush-elderberry-flowering force",
       "/bir remapq wildcraft:shrubberrybush-dogrose-ripe wildcraft:berrybush-elderberry-ripe force",
 
+      "/bir remapq wildcraft:amphibiousplant-skunkcabbage-small-free wildcraft:amphibiousplant-skunkcabbage-land-small-free force",
+      "/bir remapq wildcraft:amphibiousplant-skunkcabbage-medium-free wildcraft:amphibiousplant-skunkcabbage-land-medium-free force",
+      "/bir remapq wildcraft:amphibiousplant-skunkcabbage-large-free wildcraft:amphibiousplant-skunkcabbage-land-large-free force",
+
       "/bir remapq wildcraft:clipping-huckleberry-alive wildcraft:clipping-huckleberry force",
       "/bir remapq wildcraft:clipping-snowberry-alive wildcraft:clipping-snowberry force",
       "/bir remapq wildcraft:clipping-raspberry-alive wildcraft:clipping-raspberry force",

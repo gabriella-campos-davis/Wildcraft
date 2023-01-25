@@ -157,8 +157,9 @@ namespace wildcraft
 
         public bool TryPlaceBlockForWorldGen(IBlockAccessor blockAccessor, BlockPos pos, BlockFacing onBlockFace)
         {
-            var hblock = blockAccessor.GetBlock(pos);
+            var hblock = blockAccessor.GetBlock(pos.DownCopy());
             if (hblock.Replaceable < 6000 || hblock.IsLiquid()) return false; // Don't place where there's solid blocks
+            if (hblock.FirstCodePart() == "soil" && hblock.LastCodePart() == "normal") return false;
 
             string facings = getSolidFacesAtPos(blockAccessor, pos);
 

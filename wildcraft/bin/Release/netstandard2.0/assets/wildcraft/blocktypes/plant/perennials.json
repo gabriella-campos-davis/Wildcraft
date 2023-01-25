@@ -1,11 +1,14 @@
 {
 	"code": "perennialplant",
-	"class":"WildcraftPlant",
+	"classByType":{
+    "*-tule-*": "WaterPlant",
+    "*": "WildcraftPlant"
+  },
 	"entityClassByType": {
 		"*-harvested": "Transient"
 	},
 	"variantgroups": [
-		{ "code": "type", "states": ["bearleek", "marjoram", "sage", "sedge", "marshmallow", "mint", "saffron", "stjohnswort", "mugwort", "inula", "celandine", "leek", "plantain", "yarrow"] },
+		{ "code": "type", "states": ["bearleek", "marjoram", "sage", "marshmallow", "mint", "saffron", "stjohnswort", "mugwort", "inula", "celandine", "leek", "plantain", "yarrow", "foxglove", "angelica", "rockrose", "horehound", "ginger", "burnet", "arnica"] },
 		{ "code": "state", "states": ["harvested", "normal"] }
 	],
 	"attributes": {
@@ -57,7 +60,6 @@
     }
   },
   "randomDrawOffset": true,
-  "randomizeRotations": true,
   "texturesByType": {
     "*-inula-normal*":{
       "burdock_stem": {"base": "wildcraft:block/plant/leafygroundvegetable/inula_stem"},
@@ -83,10 +85,29 @@
     "*-inula-normal*": {"base": "wildcraft:block/plant/leafygroundvegetable/inula_normal*"},
     "*-plantain-normal": {"base": "wildcraft:block/plant/leafygroundvegetable/grounded_normal*"}, 
 
-    "*": {"base": "wildcraft:block/plant/leafygroundvegetable/default_normal*"}
+    "*-bearleek-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-marjoram-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-sage-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-marshmallow-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-mint-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-saffron-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-stjohnswort-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-celandine-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-leek-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-foxglove-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-yarrow-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-angelica-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-rockrose-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-horehound-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-ginger-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-arnica-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-burnet-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
+
+
+    "@*-(bearleek|marjoram|sage|marshmallow|mint|saffron|stjohnswort|celandine|leek|foxglove)-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*": {"base": "wildcraft:block/plant/leafygroundvegetable/default_normal"}
   },
-	"renderpass": "OpaqueNoCull",
-	"renderAlphaTest": 0.4,
+	"renderpass": "BlendNoCull",
 	"blockmaterial": "Plant",
 	"randomizeRotations": true,
 	"sideopaque": {

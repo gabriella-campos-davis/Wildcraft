@@ -1,0 +1,159 @@
+[
+    {
+        "op": "add",
+        "path": "/patches/-",
+        "value": {
+          "comment": "Larges Patches of green sedge in temperate areas near water",
+          "blockCodes": [
+            "wildcraft:sedge-green-normal",
+            "wildcraft:sedge-green-normal",
+            "wildcraft:sedge-green-normal",
+            "wildcraft:sedge-green-normal"
+          ],
+          "minTemp": -4,
+          "maxTemp": 22,
+          "minRain": 0.45,
+          "maxRain": 1.0,
+          "chance": 0.9,
+          "placement": "NearWater",
+          "quantity": { "avg": 50, "var": 25 },
+          "offsetX": { "avg": 0, "var": 12 },
+          "offsetZ": { "avg": 0, "var": 12 }
+        },
+        "file": "game:worldgen/blockpatches.json"
+      },
+      { 
+        "op": "add",
+        "path": "/patches/-",
+        "value": {
+          "comment": "Larges Patches of tule in temperate areas near water",
+          "blockCodes": [
+            "wildcraft:sedge-tule-normal",
+            "wildcraft:sedge-tule-normal",
+            "wildcraft:sedge-tule-normal",
+            "wildcraft:sedge-tule-normal",
+          ],
+          "minTemp": -4,
+          "maxTemp": 24,
+          "minRain": 0.65,
+          "maxRain": 1.0,
+          "minForest": 0,
+          "maxForest": 0.4,
+          "chance": 3.0,
+          "placement": "NearWater",
+          "quantity": { "dist": "invexp", "avg": 50, "var": 25 },
+          "offsetX": { "avg": 0, "var": 5 },
+          "offsetZ": { "avg": 0, "var": 5 }
+        },
+        "file": "game:worldgen/blockpatches.json"
+      },
+      {
+        "op": "add",
+        "path": "/patches/-",
+        "value": {
+          "comment": "Larges Patches of brownsedge in temperate areas near water",
+          "blockCodes": [
+            "wildcraft:sedge-brown-normal",
+            "wildcraft:sedge-brown-normal",
+            "wildcraft:sedge-brown-normal",
+            "wildcraft:sedge-brown-normal",
+          ],
+          "minTemp": 24,
+          "minRain": 0.45,
+          "maxRain": 1.0,
+          "chance": 0.1,
+          "placement": "NearWater",
+          quantity: { dist: "invexp", avg: 250, var: 50 },
+          offsetX: { dist: "gaussian", avg: 0, var: 24 },
+          offsetZ: { dist: "gaussian", avg: 0, var: 24 },
+        },
+        "file": "game:worldgen/blockpatches.json"
+      },
+      {
+        "op": "add",
+        "path": "/patches/-",
+        "value": {
+          "comment": "Larges Patches of water chestnut in tropical areas near water",
+          "blockCodes": [
+            "wildcraft:sedge-waterchestnut-normal",
+            "wildcraft:sedge-waterchestnut-normal",
+            "wildcraft:sedge-waterchestnut-normal",
+            "wildcraft:sedge-waterchestnut-normal"
+          ],
+          "minTemp": 24,
+          "minRain": 0.45,
+          "maxRain": 1.0,
+          "chance": 0.3,
+          "placement": "NearWater",
+          "quantity": { "avg": 10, "var": 5 },
+          "offsetX": { "avg": 0, "var": 12 },
+          "offsetZ": { "avg": 0, "var": 12 }
+        },
+        "file": "game:worldgen/blockpatches.json"
+      },
+      {
+        "op": "add",
+        "path": "/patches/-",
+        "value": {
+          "comment": "Larges Patches of european bungleweed in temperate areas near water",
+          "blockCodes": [
+            "wildcraft:bugleweed-european-tall",
+            "wildcraft:bugleweed-european-short",
+          ],
+          "minTemp": -4,
+          "maxTemp": 22,
+          "minRain": 0.45,
+          "maxRain": 1.0,
+          "chance": 0.8,
+          "placement": "NearWater",
+          "quantity": { "avg": 25, "var": 15 },
+          "offsetX": { "avg": 0, "var": 12 },
+          "offsetZ": { "avg": 0, "var": 12 }
+        },
+        "file": "game:worldgen/blockpatches.json"
+      },
+      {
+        "op": "add",
+        "path": "/patches/-",
+        "value": {
+          "comment": "Larges Patches of hogweed in temperate areas near water",
+          "blockCodes": [
+            "wildcraft:hogweed-giant-normal",
+            "wildcraft:hogweed-giant-normal"
+          ],
+          "minTemp": -8,
+          "maxTemp": 12,
+          "minRain": 0.45,
+          "maxRain": 1.0,
+          "minForest": 0.65,
+          "chance": 0.05,
+          "minY": 0.52,
+          "quantity": { "avg": 5, "var": 3 },
+          "offsetX": { "avg": 0, "var": 12 },
+          "offsetZ": { "avg": 0, "var": 12 }
+        },
+        "file": "game:worldgen/blockpatches.json"
+      },
+      {
+        "op": "add",
+        "path": "/patches/-",
+        "value": {
+          "comment": "Larges Patches of hogweed in temperate areas near water",
+          "blockCodes": [
+            "wildcraft:hogweed-giant-normal",
+            "wildcraft:hogweed-giant-normal"
+          ],
+          "minTemp": -8,
+          "maxTemp": 12,
+          "minRain": 0.45,
+          "maxRain": 1.0,
+          "minForest": 0.65,
+          "chance": 0.05,
+          "minY": 0.72,
+          "quantity": { "avg": 25, "var": 15 },
+          "offsetX": { "avg": 0, "var": 12 },
+          "offsetZ": { "avg": 0, "var": 12 }
+        },
+        "file": "game:worldgen/blockpatches.json"
+      }
+]

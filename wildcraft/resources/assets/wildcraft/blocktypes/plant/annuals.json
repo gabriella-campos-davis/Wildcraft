@@ -94,15 +94,31 @@
     "*-burdock-normal*": {"base": "wildcraft:block/plant/leafygroundvegetable/burdock_normal*"},
     "*-thistle-normal*": {"base": "wildcraft:block/plant/leafygroundvegetable/burdock_normal*"},
     "*-stingingnettle-*": {"base": "wildcraft:block/plant/stingingnettle/stingingnettle_normal*"},
-
     "*-lavender-*": {"base": "wildcraft:block/plant/leafygroundvegetable/shrub"},
 
-    "*": {"base": "wildcraft:block/plant/leafygroundvegetable/default_normal*"}
+    "*-celery-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-basil-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-chamomile-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-cilantro-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-dill-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-dock-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-mustard-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-chicory-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-marigold-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
+
+
+    "@*-(celery|basil|chamomile|cilantro|dill|dock|mustard|chicory|marigold)": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
+
+
+    "*": {"base": "wildcraft:block/plant/leafygroundvegetable/default_normal"}
   },
-	"renderpass": "OpaqueNoCull",
-	"renderAlphaTest": 0.4,
+	"renderpass": "BlendNoCull",
 	"blockmaterial": "Plant",
 	"randomizeRotations": true,
+  "drawtypeByType": {
+		"*-snow": "JSONAndSnowLayer",
+		"*": "JSON",
+	},
 	"sideopaque": {
 		"all": false
 	},

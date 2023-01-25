@@ -1260,5 +1260,9 @@
   "herb-harvested-1day": "Will grow in less than a day, weather permitting",
 
   "Will grow in less than a day, weather permitting": "Will grow in less than a day, weather permitting",
-  "Will grow in {0} days, weather permitting": "Will grow in {0} days, weather permitting"
+  "Will grow in {0} days, weather permitting": "Will grow in {0} days, weather permitting",
+
+  "with plant roots": "With plant roots",
+  "heldhelp-plantroot": "Plant root"
+
 }

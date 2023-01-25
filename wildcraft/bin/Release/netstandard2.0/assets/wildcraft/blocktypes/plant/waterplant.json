@@ -1,25 +1,25 @@
 {
-	code: "waterplant",
-	class: "BlockReeds",
-	entityClassByType: {
+	"code": "waterplant",
+	"class": "BlockReeds",
+	"entityClassByType": {
 		"*-harvested-*": "Transient"
 	},
-	attributes: {
-		transientPropsByType: {
+	"attributes": {
+		"transientPropsByType": {
 			"waterplant-waterchestnut-*": {
-				convertFrom: "*-harvested-{cover}", 
-				convertTo: "waterplant-waterchestnut-land-normal-{cover}", 
-				inGameHours: "168",
-				resetBelowTemperature: -4,
-				stopBelowTemperature: 2
+				"convertFrom": "*-harvested-{cover}", 
+				"convertTo": "waterplant-waterchestnut-land-normal-{cover}", 
+				"inGameHours": "168",
+				"resetBelowTemperature": -4,
+				"stopBelowTemperature": 2
 			}
 		}
 	},
-	variantgroups: [
-		{ code: "type", states: ["waterchestnut"] },
-		{ code: "habitat", states: ["land", "water", "ice"] },
-		{ code: "state", states: ["normal", "harvested"] },
-		{ code: "cover", states: ["free", "snow"] },
+	"variantgroups": [
+		{ "code": "type", "states": ["waterchestnut"] },
+		{ "code": "habitat", "states": ["land", "water", "ice"] },
+		{ "code": "state", "states": ["normal", "harvested"] },
+		{ "code": "cover", "states": ["free", "snow"] },
 	],
 	allowedVariants: [ 
 		"*-land-*", 
@@ -41,7 +41,7 @@
 		"*-snow": "JSONAndSnowLayer",
 		"*": "JSON"
 	},
-	renderpass: "OpaqueNoCull",
+	renderpass: "BlendNoCull",
 	matterstate: "solid",
 	blockmaterial: "plant",
 	faceCullMode: "default",

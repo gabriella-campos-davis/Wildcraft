@@ -1,23 +1,123 @@
 [
-    {
-      "op": "add",
-      "path": "/patches/-",
-      "value": {
-        "comment": "Patches of raspberry bushes",
-        "blockCodes": [
-          "wildcraft:pricklyberrybush-raspberry-empty",
-          "wildcraft:pricklyberrybush-raspberry-flowering",
-          "wildcraft:pricklyberrybush-raspberry-ripe"
-        ],
-        "minTemp": -4,
-        "maxTemp": 28,
-        "maxRain": 0.8,
-        "maxForest": 0.5,
-        "chance": 0.04,
-        "quantity": { "dist": "invexp", "avg": 8, "var": 15 }
-      },
-      "file": "game:worldgen/blockpatches.json"
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "mid-sized patch of snowberries in dry to wet woodlands",
+      "blockCodes": [
+        "wildcraft:berrybush-snowberry-empty",
+        "wildcraft:berrybush-snowberry-flowering",
+        "wildcraft:berrybush-snowberry-ripe"
+      ],
+      "minTemp": -16,
+      "maxTemp": 16,
+      "maxRain": 0.65,
+      "minForest": 0.36,
+      "maxForest": 0.67,
+      "maxY": 0.65,
+      "chance": 0.02,
+      "placement": "OnSurface",
+      "quantity": { "dist": "invexp", "avg": 25, "var": 8 },
+      "offsetX": { "dist": "gaussian", "avg": 0, "var": 8 },
+      "offsetZ": { "dist": "gaussian", "avg": 0, "var": 8 }
     },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "small patch of snowberries in dry to wet woodlands",
+      "blockCodes": [
+        "wildcraft:berrybush-snowberry-empty",
+        "wildcraft:berrybush-snowberry-flowering",
+        "wildcraft:berrybush-snowberry-ripe"
+      ],
+      "minTemp": -16,
+      "maxTemp": 16,
+      "maxRain": 0.65,
+      "minForest": 0.36,
+      "maxForest": 0.67,
+      "maxY": 0.65,
+      "chance": 0.02,
+      "placement": "OnSurface",
+      "quantity": { "dist": "invexp", "avg": 8, "var": 4 },
+      "offsetX": { "dist": "gaussian", "avg": 0, "var": 8 },
+      "offsetZ": { "dist": "gaussian", "avg": 0, "var": 8 }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "small patch of huckleberries in temerpate to dry forests in mid-high elevations.",
+      "blockCodes": [
+        "wildcraft:berrybush-huckleberry-flowering",
+        "wildcraft:berrybush-huckleberry-ripe"
+      ],
+      "minTemp": -6,
+      "maxTemp": 16,
+      "minRain": 0.3,
+      "maxRain": 0.9,
+      "minFertility": 0.25,
+      "chance": 0.03,
+      "minForest": 0.55,
+      "maxY": 0.87,
+      "minY":0.27,
+      "quantity": {
+        "dist": "invexp",
+        "avg": 4,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "rare large patch of huckleberries in temerpate to dry forests in mid-high elevations.",
+      "blockCodes": [
+        "wildcraft:berrybush-huckleberry-flowering",
+        "wildcraft:berrybush-huckleberry-ripe"
+      ],
+      "minTemp": -6,
+      "maxTemp": 16,
+      "minRain": 0.3,
+      "maxRain": 0.9,
+      "minFertility": 0.25,
+      "chance": 0.01,
+      "minForest": 0.55,
+      "maxY": 0.87,
+      "minY":0.27,
+      "quantity": {
+        "dist": "invexp",
+        "avg": 25,
+        "var": 8
+      }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of raspberry bushes",
+      "blockCodes": [
+        "wildcraft:pricklyberrybush-raspberry-empty",
+        "wildcraft:pricklyberrybush-raspberry-flowering",
+        "wildcraft:pricklyberrybush-raspberry-ripe"
+      ],
+      "minTemp": -4,
+      "maxTemp": 28,
+      "maxRain": 0.8,
+      "maxForest": 0.5,
+      "chance": 0.04,
+      "quantity": { "dist": "invexp", "avg": 8, "var": 15 }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
     {
       "op": "add",
       "path": "/patches/-",
@@ -34,38 +134,6 @@
         "minForest": 0.5,
         "chance": 0.0001,
         "quantity": { "dist": "invexp", "avg": 8, "var": 15 }
-      },
-      "file": "game:worldgen/blockpatches.json"
-    },
-    {
-      "op": "add",
-      "path": "/patches/-",
-      "value": {
-        "comment": "Patches of snowberry bushes",
-        "blockCodes": [
-          "wildcraft:berrybush-snowberry-empty",
-          "wildcraft:berrybush-snowberry-flowering",
-          "wildcraft:berrybush-snowberry-ripe"
-        ],
-        "minTemp": -16,
-        "maxTemp": 22,
-        "maxRain": 0.55,
-        "maxForest": 0.55,
-        "chance": 0.02,
-        "offsetX": {
-          "dist": "gaussian",
-          "avg": 0,
-          "var": 8
-        },
-        "offsetZ": {
-          "dist": "gaussian",
-          "avg": 0,
-          "var": 8
-        },
-        "quantity": {
-          "avg": 8,
-          "var": 12
-        }
       },
       "file": "game:worldgen/blockpatches.json"
     },
@@ -357,6 +425,51 @@
       "op": "add",
       "path": "/patches/-",
       "value": {
+        "comment": "rare Patches of large bramblberry bushes in forest",
+        "blockCodes": [
+          "wildcraft:pricklyberrybush-brambleberry-empty",
+          "wildcraft:pricklyberrybush-brambleberry-flowering",
+          "wildcraft:pricklyberrybush-brambleberry-ripe"
+        ],
+        "minTemp": 2,
+        "maxTemp": 24,
+        "minRain": 0.6,
+        "minForest": 0.5,
+        "minFertility": 0.25,
+        "chance": 0.01,
+        "placement": "OnSurface",
+        quantity: { dist: "invexp", avg: 100, var: 25 },
+        offsetX: { dist: "gaussian", avg: 0, var: 12 },
+        offsetZ: { dist: "gaussian", avg: 0, var: 12 },
+      },
+      "file": "game:worldgen/blockpatches.json"
+    },
+    {
+      "op": "add",
+      "path": "/patches/-",
+      "value": {
+        "comment": "rare Patches of large bramblberry bushes in forest",
+        "blockCodes": [
+          "wildcraft:pricklyberrybush-brambleberry-flowering",
+          "wildcraft:pricklyberrybush-brambleberry-ripe"
+        ],
+        "minTemp": 2,
+        "maxTemp": 24,
+        "minRain": 0.6,
+        "minForest": 0.5,
+        "minFertility": 0.25,
+        "chance": 0.001,
+        "placement": "OnSurface",
+        quantity: { dist: "invexp", avg: 1000, var: 250 },
+        offsetX: { dist: "gaussian", avg: 0, var: 24 },
+        offsetZ: { dist: "gaussian", avg: 0, var: 24 },
+      },
+      "file": "game:worldgen/blockpatches.json"
+    },
+    {
+      "op": "add",
+      "path": "/patches/-",
+      "value": {
         "comment": "Patches of dogrose bushes",
         "blockCodes": [
           "wildcraft:pricklyberrybush-dogrose-empty",
@@ -396,57 +509,6 @@
           "dist": "invexp",
           "avg": 2,
           "var": 4
-        }
-      },
-      "file": "game:worldgen/blockpatches.json"
-    },
-    {
-      "op": "add",
-      "path": "/patches/-",
-      "value": {
-        "comment": "Patches of huckleberry bushes near water",
-        "blockCodes": [
-          "wildcraft:berrybush-huckleberry-empty",
-          "wildcraft:berrybush-huckleberry-flowering",
-          "wildcraft:berrybush-huckleberry-ripe"
-        ],
-        "minTemp": -6,
-        "maxTemp": 16,
-        "minRain": 0.2,
-        "minFertility": 0.25,
-        "chance": 0.01,
-        "maxForest": 0.8,
-        "maxY": 0.62,
-        "placement": "NearWater",
-        "quantity": {
-          "dist": "invexp",
-          "avg": 4,
-          "var": 8
-        }
-      },
-      "file": "game:worldgen/blockpatches.json"
-    },
-    {
-      "op": "add",
-      "path": "/patches/-",
-      "value": {
-        "comment": "Patches of huckleberry bushes in forests",
-        "blockCodes": [
-          "wildcraft:berrybush-huckleberry-empty",
-          "wildcraft:berrybush-huckleberry-flowering",
-          "wildcraft:berrybush-huckleberry-ripe"
-        ],
-        "minTemp": -6,
-        "maxTemp": 16,
-        "minRain": 0.2,
-        "minFertility": 0.25,
-        "chance": 0.02,
-        "minForest": 0.55,
-        "maxY": 0.82,
-        "quantity": {
-          "dist": "invexp",
-          "avg": 4,
-          "var": 8
         }
       },
       "file": "game:worldgen/blockpatches.json"

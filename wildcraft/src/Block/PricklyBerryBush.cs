@@ -1,10 +1,10 @@
 using System.Collections.Generic;
+using System.Linq;
 using Vintagestory.API.Client;
 using Vintagestory.API.Common;
 using Vintagestory.API.MathTools;
 using Vintagestory.API.Util;
 using Vintagestory.GameContent;
-using System.Linq;
 using Vintagestory.API.Common.Entities;
 using wildcraft.config;
 
@@ -43,18 +43,21 @@ namespace wildcraft
             return;
             damagecreature:
 
-            if (world.Side == EnumAppSide.Server && entity is EntityAgent && !(entity as EntityAgent).ServerControls.Sneak) //if the creature ins't sneaking, deal damage.
+            if (world.Side == EnumAppSide.Server && entity is EntityAgent)   //if the creature ins't sneaking, deal damage.
             {
-                if (world.Rand.NextDouble() > dmgTick) //while standing in the bush, how often will it hurt you
+                if( (entity as EntityAgent).ServerControls.TriesToMove && !(entity as EntityAgent).ServerControls.Sneak)
                 {
-                    entity.ReceiveDamage(new DamageSource() 
-                    { 
-                        Source = EnumDamageSource.Block, 
-                        SourceBlock = this, 
-                        Type = EnumDamageType.PiercingAttack, 
-                        SourcePos = pos.ToVec3d() 
+                    if (world.Rand.NextDouble() > dmgTick) //while standing in the bush, how often will it hurt you
+                    {
+                        entity.ReceiveDamage(new DamageSource() 
+                        { 
+                            Source = EnumDamageSource.Block, 
+                            SourceBlock = this, 
+                            Type = EnumDamageType.PiercingAttack, 
+                            SourcePos = pos.ToVec3d() 
+                        }
+                        , dmg); //Deal damage
                     }
-                    , dmg); //Deal damage
                 }
             }
             base.OnEntityInside(world, entity, pos);

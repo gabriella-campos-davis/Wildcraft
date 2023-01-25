@@ -1,92 +1,103 @@
 {
-	code: "groundberryplant",
-	class: "GroundBerryPlant",
-	attributes: {
-		stackable: false,
-		forageStatAffected: true,
-		reinforcable: true,
-		butterflyFeedByType: {
+	"code": "groundberryplant",
+	"class": "GroundBerryPlant",
+	"attributes": {
+		"stackable": false,
+		"forageStatAffected": true,
+		"reinforcable": true,
+		"butterflyFeedByType": {
 			"*-flowering": true
 		},
-		beeFeedByType: {
+		"beeFeedByType": {
 			"*-flowering": true
 		},
-		stopBelowTemperatureByType:{
+		"stopBelowTemperatureByType":{
 			"*-cloudberry-*": -2,
+			"*-bunchberry-*": -8,
+			"*-crowberry-*": -8,
 			"*-strawberry-*": 4
 		},
-		resetBelowTemperatureByType:{
+		"resetBelowTemperatureByType":{
 			"*-cloudberry-*": -4,
+			"*-bunchberry-*": -10,
+			"*-crowberry-*": -10,
 			"*-strawberry-*": 0
 		},
-		revertBlockBelowTemperatureByType:{
+		"revertBlockBelowTemperatureByType":{
 			"*-cloudberry-*": -6,
+			"*-bunchberry-*": -12,
+			"*-crowberry-*": -12,
 			"*-strawberry-*": -2
 		},
 
-		stopAboveTemperatureByType:{
+		"stopAboveTemperatureByType":{
 			"*-cloudberry-*": 27,
+			"*-bunchberry-*": 12,
+			"*-crowberry-*": 12,
 			"*-strawberry-*": 30
 		},
-		resetAboveTemperatureByType:{
+		"resetAboveTemperatureByType":{
 			"*-cloudberry-*": 30,
+			"*-bunchberry-*": 14,
+			"*-crowberry-*": 14,
 			"*-strawberry-*": 35
 		},
-		revertBlockAboveTemperatureByType:{
+		"revertBlockAboveTemperatureByType":{
 			"*-cloudberry-*": 33,
+			"*-bunchberry-*": 16,
+			"*-crowberry-*": 16,
 			"*-strawberry-*": 38
 		}
 	},
-	entityclass: "BEGroundBerryPlant",
-	behaviorsByType: {
-		"*-ripe": [ {name: "Harvestable", properties: { 
-			harvestTime: 0.6, 
-			harvestedStack: { type: "item", code: "wildcraft:fruit-{type}", quantity: { avg: 2.2 }  },
-			harvestedBlockCode: "wildcraft:groundberryplant-{type}-empty"
+	"entityclass": "BEGroundBerryPlant",
+	"behaviorsByType": {
+		"*-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "wildcraft:fruit-{type}", "quantity": { "avg": 2.2 }  },
+			"harvestedBlockCode": "wildcraft:groundberryplant-{type}-empty"
 		}} ]
 	},
-	variantgroups: [
-		{ code: "type", states: ["strawberry", "cloudberry", "bunchberry", "crowberry"] },
-		{ code: "state", states: ["empty", "flowering", "ripe"] }
+	"variantgroups": [
+		{ "code": "type", "states": ["strawberry", "cloudberry", "bunchberry", "crowberry"] },
+		{ "code": "state", "states": ["empty", "flowering", "ripe"] }
 	],
-	creativeinventory: { "general": ["*"], "flora": ["*"], "wildcraft": ["*"] },
-	renderpass: "OpaqueNoCull",
-	renderAlphaTest: 0.4,
-	shapeByType: {
-		"*-bunchberry-flowering": { base: "wildcraft:block/plant/berrybush/{state}/tallgroundberrybush_{state}*" },
-		"*-bunchberry-ripe": { base: "wildcraft:block/plant/berrybush/{state}/tallgroundberrybush_{state}*" },
-		"*-crowberry-flowering": { base: "wildcraft:block/plant/berrybush/{state}/tallgroundberrybush_{state}*" },
-		"*-crowberry-ripe": { base: "wildcraft:block/plant/berrybush/{state}/tallgroundberrybush_{state}*" },
-		"*": { base: "wildcraft:block/plant/berrybush/{state}/groundberrybush_{state}*" }
+	"creativeinventory": { "general": ["*"], "flora": ["*"], "wildcraft": ["*"] },
+	"renderpass": "BlendNoCull",
+	"shapeByType": {
+		"*-bunchberry-flowering": { "base": "wildcraft:block/plant/berrybush/{state}/tallgroundberrybush_{state}*" },
+		"*-bunchberry-ripe": { "base": "wildcraft:block/plant/berrybush/{state}/tallgroundberrybush_{state}*" },
+		"*-crowberry-flowering": { "base": "wildcraft:block/plant/berrybush/{state}/tallgroundberrybush_{state}*" },
+		"*-crowberry-ripe": { "base": "wildcraft:block/plant/berrybush/{state}/tallgroundberrybush_{state}*" },
+		"*": { "base": "wildcraft:block/plant/berrybush/{state}/groundberrybush_{state}*" }
 	},
-	blockmaterial: "Plant",
-	texturesbytype: {
+	"blockmaterial": "Plant",
+	"texturesbytype": {
 		"*-flowering": {
-			"berries": { base: "wildcraft:block/plant/berrybush/small/flower/{type}*" },
-			"leaves": { base: "wildcraft:block/plant/berrybush/small/leaves/{type}*" },
+			"berries": { "base": "wildcraft:block/plant/berrybush/small/flower/{type}*" },
+			"leaves": { "base": "wildcraft:block/plant/berrybush/small/leaves/{type}*" }
 		},
 		"*-ripe": {
-			"berries": { base: "wildcraft:block/plant/berrybush/small/fruit/{type}*" },
-			"leaves": { base: "wildcraft:block/plant/berrybush/small/leaves/{type}*" },
+			"berries": { "base": "wildcraft:block/plant/berrybush/small/fruit/{type}*" },
+			"leaves": { "base": "wildcraft:block/plant/berrybush/small/leaves/{type}*" }
 		},
 		"*": {
-			"leaves": { base: "wildcraft:block/plant/berrybush/small/leaves/{type}*" },
+			"leaves": { "base": "wildcraft:block/plant/berrybush/small/leaves/{type}*" }
 		}
 	},
-	sideopaque: {
-		all: false
+	"sideopaque": {
+		"all": false
 	},
-	sidesolid: {
-		all: false
+	"sidesolid": {
+		"all": false
 	},
-	replaceable: 3000,
-	lightAbsorption: 0,
-	resistance: 0.5,
-	collisionbox: null,
-	sounds: {
-		place: "game:block/plant",
-		break: "game:block/plant",
-		hit: "game:block/plant",
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": null,
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant"
 	},
 	"selectionbox": {
 		"x1": 0.1,
@@ -96,19 +107,19 @@
 		"y2": 0.3,
 		"z2": 0.9
 	  },
-	rainPermeable: false,
-	dropsByType: {
+	"rainPermeable": false,
+	"dropsByType": {
 		"*-ripe": [
-			{ type: "item", code: "wildcraft:fruit-{type}", quantity: { avg: 2.2 }  },
+			{ "type": "item", "code": "wildcraft:fruit-{type}", "quantity": { "avg": 2.2 }  }
 		]
 	},
-	materialDensity: 400,
-	vertexFlags: {
-		zOffset: 2
+	"materialDensity": 400,
+	"vertexFlags": {
+		"zOffset": 2
 	},
-	combustibleProps: {
-		burnTemperature: 600,
-		burnDuration: 10,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10
 	},
-	frostable: true,
+	"frostable": true
 }

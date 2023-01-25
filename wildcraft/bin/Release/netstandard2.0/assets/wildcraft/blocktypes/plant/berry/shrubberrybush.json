@@ -32,8 +32,7 @@
 		{ code: "state", states: ["empty", "flowering", "ripe"] }
 	],
 	creativeinventory: { "general": ["*"], "flora": ["*"], "wildcraft": ["*"] },
-	renderpass: "OpaqueNoCull",
-	renderAlphaTest: 0.4,
+	renderpass: "BlendNoCull",
 	shapeByType: {
 		"*-empty": { base: "wildcraft:block/plant/berrybush/flowering/shrubberrybush_flowering*", selectiveElements: ["Stem1/Leaves", "Stem1/Leaves2", "Stem2/Leaves3", "Stem2/Leaves4", "Stem3/Leaves5","Stem3/Leaves6"] },
 		"*": { base: "wildcraft:block/plant/berrybush/flowering/shrubberrybush_flowering*" },

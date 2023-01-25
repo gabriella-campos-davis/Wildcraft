@@ -1,5 +1,6 @@
 {
 	"code": "roots",
+	"class": "ItemRoot",
 	"maxstacksize": 64,
 	"attributes": {
 		"inContainerTexture": {
@@ -14,10 +15,16 @@
 			"texture": "wildcraft:block/food/pie/fill-root",
 			"partType": "Filling"
 		  }
+		},
+		"plantableInWaterBytype": {
+			"*-waterchestnut": true,
+			"*-peeledwaterchestnut": true,
+			"*-tule": true,
+			"*": false
 		}
 	},
 	"variantgroups": [
-		{ "code": "type", "states": ["bearleek", "marshmallow", "burdock", "chicory", "liquorice", "waterchestnut", "peeledwaterchestnut", "celery"] }
+		{ "code": "type", "states": ["bearleek", "marshmallow", "burdock", "chicory", "liquorice", "waterchestnut", "peeledwaterchestnut", "celery", "tule"] }
 	],
 	"shapebytype": {
         "*-bearleek": { "base": "wildcraft:block/food/bearleek" },
@@ -28,6 +35,7 @@
 		"*-burdock": { "base": "wildcraft:block/food/burdock_root" },
 		"*-chicory": { "base": "wildcraft:block/food/chicory_root" },
 		"*-celery": { "base": "wildcraft:block/food/celery" },
+		"*-tule": { "base": "wildcraft:item/tule-root" },
 		"*": { "base": "game:item/food/vegetable/cattailsroot-cooked" }
 	},
 	"texturesbytype": {
@@ -55,6 +63,7 @@
 		"*-chicory": { "satiety": 80, "foodcategory": "Vegetable" },
 		"*-liquorice": { "satiety": 80, "foodcategory": "Vegetable" },
 		"*-peeledwaterchestnut": { "satiety": 60, "foodcategory": "Vegetable" },
+		"*-tule": { "satiety": 80, "foodcategory": "Vegetable" },
 		"*-celery": { "satiety": 100, "foodcategory": "Vegetable" }
 	},
 	"transitionablePropsByType": {
@@ -75,6 +84,12 @@
 	},
 	"materialDensity": 600,
 	"guiTransformByType": {
+		"*-tule": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 49, y: -121, z: 80 },
+			origin: { x: 0.5299, y: 0.53, z: 0.55 },
+			scale: 2.16
+		},
 		"*-bearleek": {
 				translation: { x: 0, y: 0, z: 0 },
 				rotation: { x: -37, y: 135, z: -155 },

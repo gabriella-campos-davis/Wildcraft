@@ -1,4 +1,4 @@
- using System.Collections.Generic;
+using System.Collections.Generic;
 using Vintagestory.API.Client;
 using Vintagestory.API.Common;
 using Vintagestory.API.MathTools;
@@ -9,12 +9,27 @@ using Vintagestory.API.Common.Entities;
 
 namespace wildcraft
 {
-    public class WaterPlant : BlockPlant
+    public class WaterPlant : WildcraftPlant
     {
         public ICoreAPI Api => api;
+        int depth;
 
-     // Worldgen placement, attempt to place a rhizome in the soil beneath the plant
-     public override bool TryPlaceBlockForWorldGen(IBlockAccessor blockAccessor, BlockPos pos, BlockFacing onBlockFace, LCGRandom worldGenRand)
+
+        public override void OnLoaded(ICoreAPI api)
+        {
+             base.OnLoaded(api);
+
+            if (Variant["state"] == "harvested")
+                return;
+
+            if(Attributes["isPoisonous"].ToString() == "true") isPoisonous = true;
+
+            depth = this.Attributes["maxDepth"].AsInt();
+
+        }
+
+        // Worldgen placement, tests to see how many blocks below water the plant is being placed, and if that's allowed for the plant
+        public override bool TryPlaceBlockForWorldGen(IBlockAccessor blockAccessor, BlockPos pos, BlockFacing onBlockFace, LCGRandom worldGenRand)
         {
             Block block = blockAccessor.GetBlock(pos);
 
@@ -24,26 +39,31 @@ namespace wildcraft
             }
 
             Block belowBlock = blockAccessor.GetBlock(pos.X, pos.Y - 1, pos.Z);
+
             if (belowBlock.Fertility > 0)
             {
-                Block placingBlock = blockAccessor.GetBlock(CodeWithVariant("habitat", "land"));
+                Block placingBlock = blockAccessor.GetBlock(Code);
                 if (placingBlock == null) return false;
+                
                 blockAccessor.SetBlock(placingBlock.BlockId, pos);
                 return true;
             }
 
             if (belowBlock.LiquidCode == "water")
             {
-                belowBlock = blockAccessor.GetBlock(pos.X, pos.Y - 2, pos.Z);
-                if (belowBlock.Fertility > 0)
+                for(var currentDepth = 0; currentDepth <= depth + 1; currentDepth ++)
                 {
-                    Block placingBlock = blockAccessor.GetBlock(CodeWithVariant("habitat", "land"));
-                    if (placingBlock == null) return false;
-                    blockAccessor.SetBlock(placingBlock.BlockId, pos.DownCopy());
-                    return true;
+                    belowBlock = blockAccessor.GetBlock(pos.X, pos.Y - currentDepth, pos.Z);
+                    if (belowBlock.Fertility > 0)
+                    {
+                        Block placingBlock = blockAccessor.GetBlock(Code);
+                        if (placingBlock == null) return false;
+
+                        blockAccessor.SetBlock(placingBlock.BlockId, pos.DownCopy(currentDepth - 1));
+                        return true;
+                    }
                 }
             }
-
 
             return false;
         }   

@@ -1,28 +1,14 @@
 {
 	"code": "smallannualplant",
-	"class":"WildcraftPlant",
+	"class":"BlockPlant",
 	"entityClassByType": {
 		"*-harvested": "Transient"
 	},
 	"variantgroups": [
-		{ "code": "type", "states": ["minerslettuce"]},
-		{ "code": "state", "states": ["harvested", "normal"] }
+		{ "code": "type", "states": ["minerslettuce", "clover", "caltha"]},
+		{ "code": "state", "states": ["flowering", "normal"] }
 	],
 	"attributes": {
-    "WildcraftRhizomeProps": {
-        "DieWhenTempBelow": 0,
-        "DieWhenTempAbove": 50,
-        "comfortableTemperatureMin": 5,
-        "comfortableTemperatureMax": 35,
-        "dieAfterFruiting": true,
-        "growingDaysMin": 1,
-        "growingDaysMax": 2,
-        "fruitingDaysMin": 2,
-        "fruitingDaysMax": 4,
-        "growRange": 3,
-        "grownPlantNumberMin": 3,
-        "grownPlantNumberMax": 15
-    },
     "butterflyFeedByType": {
       "*-normal": true
     },
@@ -30,46 +16,66 @@
       "*-normal": true
     },
     "transientPropsByType": {
-			"*-harvested": {
-				"convertFrom": "*-harvested", 
+			"*-flowering": {
+				"convertFrom": "*-flowering", 
 				"convertTo": "*-normal", 
 				"inGameHours": "84",
-				"resetBelowTemperature": -4,
-				"stopBelowTemperature": 2
+				"resetBelowTemperature": 10,
+				"stopBelowTemperature": 12
 			}
 		},
-    "resetBelowTemperature": -1,
-    "stopBelowTemperature": 4,
-    "revertBlockBelowTemperature": -4,
-
-    "resetAboveTemperature": 35,
-    "stopAboveTemperature": 30,
-    "revertBlockAboveTemperature": 38,
     "forageStatAffected": true,
-    
     "hasRootByType":{
         "*": "false"
     },
-
     "isPoisonousByType":{
         "*":"false"
     }
   },
-  "randomDrawOffset": true,
 	"creativeinventory": {
-    "general": ["*-normal"],
-    "flora": ["*-normal"],
-    "wildcraft": [ "*-normal" ]
+    "general": ["*"],
+    "flora": ["*"],
+    "wildcraft": [ "*" ]
+  },
+  "texturesByType": {
+    "*-minerslettuce-normal":{
+      "stems": {"base": "wildcraft:block/plant/clover/minerslettuce_stems"},
+      "leaves": {"base": "wildcraft:block/plant/clover/minerslettuce_leaves"},
+    },
+    "*-minerslettuce-flowering":{
+      "stems": {"base": "wildcraft:block/plant/clover/minerslettuce__shoots_stems"},
+      "leaves": {"base": "wildcraft:block/plant/clover/minerslettuce_shoots_leaves"},
+    },
+
+    "*-clover-normal":{
+      "stems": {"base": "wildcraft:block/plant/clover/clover_stems"},
+      "leaves": {"base": "wildcraft:block/plant/clover/clover_leaves"},
+    },
+    "*-clover-flowering":{
+      "stems": {"base": "wildcraft:block/plant/clover/clover_stems"},
+      "flowers": {"base": "wildcraft:block/plant/clover/clover_flowers"},
+      "leaves": {"base": "wildcraft:block/plant/clover/clover_leaves"},
+    },
+
+    "*-caltha-normal":{
+      "stems": {"base": "wildcraft:block/plant/clover/caltha_stems"},
+      "leaves": {"base": "wildcraft:block/plant/clover/caltha_leaves"},
+    },
+    "*-caltha-flowering":{
+      "stems": {"base": "wildcraft:block/plant/clover/caltha_stems"},
+      "flowers": {"base": "wildcraft:block/plant/clover/caltha_flowers"},
+      "leaves": {"base": "wildcraft:block/plant/clover/caltha_leaves"},
+    },
   },
   "shapeByType": {
-    "*-minerslettuce-normal": { "base": "wildcraft:block/plant/clover/minerslettuce_normal" },
-    "*-minerslettuce-harvested": { "base": "wildcraft:block/plant/clover/minerslettuce_harvested" },
-    "*": {"base": "wildcraft:block/plant/clover/clover"}
+    "*-minerslettuce-*": { "base": "wildcraft:block/plant/clover/minerslettuce_normal" },
+    "*-flowering": {"base": "wildcraft:block/plant/clover/{type}_flowering"},
+    "*-normal": {"base": "wildcraft:block/plant/clover/{type}_normal"}
+
   },
-	"renderpass": "OpaqueNoCull",
-	"renderAlphaTest": 0.4,
+	"renderpass": "BlendNoCull",
 	"blockmaterial": "Plant",
-	"randomizeRotations": true,
+  "randomDrawOffset": true,
 	"sideopaque": {
 		"all": false
 	},
@@ -107,11 +113,18 @@
 	"materialDensity": 200,
 	"frostable": true,
   "dropsByType": {
-    "*-normal": [
+    "smallannual-minerslettuce-normal": [
       {
         "type": "item",
         "code": "wildcraft:herbs-{type}",
-        "quantity": { "avg": 1.5 }
+        "quantity": { "avg": 1.6 }
+      }
+    ],
+    "smallannual-minerslettuce-flowering": [
+      {
+        "type": "item",
+        "code": "wildcraft:herbs-{type}",
+        "quantity": { "avg": 0.9 }
       }
     ]
   }
