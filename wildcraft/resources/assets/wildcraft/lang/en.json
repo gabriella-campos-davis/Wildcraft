@@ -1263,6 +1263,7 @@
   "Will grow in {0} days, weather permitting": "Will grow in {0} days, weather permitting",
 
   "with plant roots": "With plant roots",
-  "heldhelp-plantroot": "Plant root"
+  "game:Contains rhizomes": "Contains rhizomes",
+  "wildcraft:heldhelp-plantroot": "Plant root"
 
 }

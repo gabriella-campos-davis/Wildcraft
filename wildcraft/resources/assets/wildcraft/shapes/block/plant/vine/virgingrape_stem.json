@@ -8,8 +8,6 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"vine_stem": "wildcraft:block/plant/vine/vine_stem",
-		"virgingrape_leaves": "wildcraft:block/plant/vine/virgingrape_leaves"
 	},
 	"elements": [
 		{
@@ -31,9 +29,9 @@
 			"name": "Cube2",
 			"from": [ 3.0, -2.0, 0.0 ], 
 			"to": [ 12.5, 5.5, 0.0 ], 
+			"shade": false,
 			"climateColorMap": "climatePlantTint",
 			"seasonColorMap": "seasonalBlueberry",
-			"shade": false,
 			"renderPass": 2,
 			"rotationOrigin": [ 7.75, 5.5, 0.0 ],
 			"rotationX": -45.0,
@@ -50,9 +48,9 @@
 			"name": "Cube3",
 			"from": [ 2.0, 6.0, 0.0 ], 
 			"to": [ 11.5, 13.5, 0.0 ], 
+			"shade": false,
 			"climateColorMap": "climatePlantTint",
 			"seasonColorMap": "seasonalBlueberry",
-			"shade": false,
 			"renderPass": 2,
 			"rotationOrigin": [ 6.75, 13.5, 0.0 ],
 			"rotationX": -45.0,
@@ -69,9 +67,9 @@
 			"name": "Cube4",
 			"from": [ 9.5, 3.3, 0.3 ], 
 			"to": [ 19.0, 10.8, 0.3 ], 
+			"shade": false,
 			"climateColorMap": "climatePlantTint",
 			"seasonColorMap": "seasonalBlueberry",
-			"shade": false,
 			"renderPass": 2,
 			"rotationOrigin": [ 13.75, 10.5, 0.0 ],
 			"rotationX": -45.0,
@@ -88,9 +86,9 @@
 			"name": "Cube5",
 			"from": [ 3.5, 1.3, 0.3 ], 
 			"to": [ 13.0, 8.8, 0.3 ], 
+			"shade": false,
 			"climateColorMap": "climatePlantTint",
 			"seasonColorMap": "seasonalBlueberry",
-			"shade": false,
 			"renderPass": 2,
 			"rotationOrigin": [ 7.75, 8.5, 0.0 ],
 			"rotationX": -45.0,

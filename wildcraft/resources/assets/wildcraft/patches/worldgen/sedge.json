@@ -155,5 +155,71 @@
           "offsetZ": { "avg": 0, "var": 12 }
         },
         "file": "game:worldgen/blockpatches.json"
-      }
+      },
+
+
+      {
+        "op": "add",
+        "path": "/patches/-",
+        "value": {
+          "comment": "Larges Patches of european bungleweed in temperate areas near water",
+          "blockCodes": [
+            "wildcraft:waterplant-pepperdulse-normal",
+          ],
+          minTemp: 3,
+          maxTemp: 40,
+          minRain: 0,
+          maxRain: 1,
+          "chance": 1,
+          "minWaterDepth": 2,
+          "placement": "UnderWater",
+          "quantity": { "avg": 25, "var": 15 },
+          "offsetX": { "avg": 0, "var": 12 },
+          "offsetZ": { "avg": 0, "var": 12 }
+        },
+        "file": "game:worldgen/blockpatches.json"
+      },
+      {
+        "op": "add",
+        "path": "/patches/-",
+        "value": {
+          "comment": "Larges Patches of european bungleweed in temperate areas near water",
+          "blockCodes": [
+            "wildcraft:waterplant-wakame-normal",
+          ],
+          minTemp: 3,
+          maxTemp: 40,
+          minRain: 0,
+          maxRain: 1,
+          "chance": 1,
+          "minWaterDepth": 2,
+          "placement": "UnderWater",
+          "quantity": { "avg": 25, "var": 15 },
+          "offsetX": { "avg": 0, "var": 12 },
+          "offsetZ": { "avg": 0, "var": 12 }
+        },
+        "file": "game:worldgen/blockpatches.json"
+      },
+
+      {
+        "op": "add",
+        "path": "/patches/-",
+        "value": {
+          "comment": "Larges Patches of european bungleweed in temperate areas near water",
+          "blockCodes": [
+            "wildcraft:waterplant-pickleweed-normal",
+          ],
+          minTemp: 3,
+          maxTemp: 40,
+          minRain: 0,
+          maxRain: 1,
+          "chance": 1,
+          "minWaterDepth": 2,
+          "placement": "UnderWater",
+          "quantity": { "avg": 25, "var": 15 },
+          "offsetX": { "avg": 0, "var": 12 },
+          "offsetZ": { "avg": 0, "var": 12 }
+        },
+        "file": "game:worldgen/blockpatches.json"
+      },
 ]

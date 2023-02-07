@@ -113,6 +113,11 @@
 			{ "type": "item", "code": "wildcraft:fruit-{type}", "quantity": { "avg": 2.2 }  }
 		]
 	},
+	guiTransform: {
+		rotation: { x: -50, y: -45.3, z: 0 },
+		origin: { x: 0.5, y: 0.3, z: 0.55 },
+		scale: 1.41
+	},
 	"materialDensity": 400,
 	"vertexFlags": {
 		"zOffset": 2

@@ -64,6 +64,9 @@ namespace wildcraft
             
             byEntity.Api.World.PlaySoundAt(plantingSound, blockSel.Position.X, blockSel.Position.Y, blockSel.Position.Z, byPlayer);
 
+            Vec3d particleVec3D = new Vec3d(blockSel.Position.X + 0.5F, blockSel.Position.Y + 1, blockSel.Position.Z + 0.5F);
+            byEntity.Api.World.SpawnCubeParticles(blockSel.Position, particleVec3D, 0.25F, 50, 1F, byPlayer);
+
             return;
         }
 
@@ -87,6 +90,9 @@ namespace wildcraft
             if (byEntity.Api.World.Rand.NextDouble() < 0.05)
             {
                 byEntity.Api.World.PlaySoundAt(plantingSound, blockSel.Position.X, blockSel.Position.Y, blockSel.Position.Z, byPlayer);
+
+                Vec3d particleVec3D = new Vec3d(blockSel.Position.X + 0.5F, blockSel.Position.Y + 1, blockSel.Position.Z + 0.5F);
+                byEntity.Api.World.SpawnCubeParticles(blockSel.Position, particleVec3D, 0.25F, 50, 1F, byPlayer);
             }
 
             return byEntity.Api.World.Side == EnumAppSide.Client || secondsUsed < plantingTime;
@@ -135,18 +141,18 @@ namespace wildcraft
                             return;
                         }
                         byEntity.Api.World.BlockAccessor.ExchangeBlock(dirtBlock.BlockId, rootPos);
-                        byEntity.Api.World.BlockAccessor.MarkBlockModified(rootPos);
+                       // byEntity.Api.World.BlockAccessor.MarkBlockModified(rootPos);
                     }
 
                     ItemStack rootStack = new ItemStack(this, 1);
 
                     byEntity.Api.World.BlockAccessor.SpawnBlockEntity("BERhizome", rootPos, rootStack);
-                    byEntity.Api.World.BlockAccessor.MarkBlockModified(rootPos);
+//byEntity.Api.World.BlockAccessor.MarkBlockModified(rootPos);
 
                     byEntity.Api.World.PlaySoundAt(plantedSound, rootPos.X, rootPos.Y, rootPos.Z, byPlayer);
 
-                    Vec3d particleVec3D = new Vec3d(0.5F, 1F, 0.5F);
-                    byEntity.Api.World.SpawnCubeParticles(rootPos, particleVec3D, 10, 150, 1F, byPlayer);
+                    Vec3d particleVec3D = new Vec3d(rootPos.X + 0.5F, rootPos.Y + 1, rootPos.Z + 0.5F);
+                    byEntity.Api.World.SpawnCubeParticles(blockSel.Position, particleVec3D, 0.25F, 50, 1F, byPlayer);
 
                     slot.TakeOut(1);
                     slot.MarkDirty();

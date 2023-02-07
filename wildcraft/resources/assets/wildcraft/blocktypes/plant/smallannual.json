@@ -43,7 +43,7 @@
       "leaves": {"base": "wildcraft:block/plant/clover/minerslettuce_leaves"},
     },
     "*-minerslettuce-flowering":{
-      "stems": {"base": "wildcraft:block/plant/clover/minerslettuce__shoots_stems"},
+      "stems": {"base": "wildcraft:block/plant/clover/minerslettuce_shoots_stems"},
       "leaves": {"base": "wildcraft:block/plant/clover/minerslettuce_shoots_leaves"},
     },
 

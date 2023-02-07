@@ -1,6 +1,9 @@
 using System;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
+using System.Collections.Generic;
+using Vintagestory.API;
 using Vintagestory.API.Client;
 using Vintagestory.API.Common;
 using Vintagestory.API.Common.Entities;
@@ -8,6 +11,7 @@ using Vintagestory.API.Config;
 using Vintagestory.API.Datastructures;
 using Vintagestory.API.MathTools;
 using Vintagestory.API.Server;
+using Vintagestory.API.Util;
 using Vintagestory.GameContent;
 
 namespace wildcraft
@@ -22,11 +26,6 @@ namespace wildcraft
         RoomRegistry roomreg;
         public int roomness;
 
-        public BERhizome() : base()
-        {
-
-        }
-
         public override void Initialize(ICoreAPI api)
         {
             base.Initialize(api);
@@ -40,7 +39,7 @@ namespace wildcraft
             }
         }
 
-        public override void  OnBlockPlaced(ItemStack rootStack)
+        public override void OnBlockPlaced(ItemStack rootStack)
         {
             plantType = rootStack.Item.Variant["type"].ToString();
             this.Api.World.Logger.Chat(plantType);
@@ -55,20 +54,20 @@ namespace wildcraft
         public override void FromTreeAttributes(ITreeAttribute tree, IWorldAccessor worldForResolving)
         {
             base.FromTreeAttributes(tree, worldForResolving);
-            this.Api.World.Logger.Chat("FromTreeAttributes");
+            tree.SetFloat("timer", growListenerId);
         }
 
         public override void ToTreeAttributes(ITreeAttribute tree)
         {
             base.ToTreeAttributes(tree);
-            this.Api.World.Logger.Chat("ToTreeAttributes");
+            growListenerId = tree.GetLong("timer");
         }
 
         public override void GetBlockInfo(IPlayer forPlayer, StringBuilder dsc)
         {
-            this.Api.World.Logger.Chat("why no bloc info :(");
             base.GetBlockInfo(forPlayer, dsc);
-            dsc.AppendLine(Lang.Get("Contains  rhizomes"));
+            
+            dsc.AppendLine("abcdefg");
         }
     }
 }

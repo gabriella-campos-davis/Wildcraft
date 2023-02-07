@@ -5,7 +5,7 @@
 		"*-harvested": "Transient"
 	},
 	"variantgroups": [
-		{ "code": "type", "states": ["basil", "blackpepper", "celery", "chamomile", "cilantro", "dill", "dock", "mustard", "stingingnettle", "burdock", "chicory","marigold", "saltwort","liquorice"]},
+		{ "code": "type", "states": ["basil", "blackpepper", "celery", "chamomile", "cilantro", "dill", "dock", "mustard", "stingingnettle", "burdock", "chicory","marigold", "saltwort","liquorice", "jewelweed"]},
 		{ "code": "state", "states": ["harvested", "normal"] }
 	],
 	"attributes": {
