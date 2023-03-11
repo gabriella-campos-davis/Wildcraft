@@ -46,6 +46,7 @@ namespace wildcraft
 
             if (belowBlock.LiquidCode == "water")
             {
+                if(belowBlock.LiquidCode == "saltwater") return false;
                 for(var currentDepth = 0; currentDepth <= depth + 1; currentDepth ++)
                 {
                     belowBlock = blockAccessor.GetBlock(pos.X, pos.Y - currentDepth, pos.Z);

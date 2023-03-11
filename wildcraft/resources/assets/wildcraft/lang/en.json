@@ -1114,6 +1114,15 @@
   "block-groundberryseedling-cloudberry-planted": "Cloudberry Seeds (Growing)",
   "block-groundberryseedling-cloudberry-sprouting": "Cloudberry Seeds (Sprouting)",
 
+  "block-sedge-tule-normal": "Tule",
+  "block-sedge-tule-harvested": "Tule (growing)",
+
+  "block-sedge-swamptule-normal": "Tule",
+  "block-sedge-swamptule-harvested": "Tule (growing)",
+
+  "item-tuletops": "Tule bundle",
+  "item-roots-tule": "Tule root",
+
   "item-pressedmash-huckleberry-dry": "Pressed Huckleberry mash",
   "item-pressedmash-huckleberry-wet": "Huckleberry mash ",
 	"item-juiceportion-huckleberry": "Huckleberry juice",

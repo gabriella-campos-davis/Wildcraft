@@ -5,7 +5,7 @@
 		"*-harvested": "Transient"
 	},
 	"variantgroups": [
-		{ "code": "type", "states": ["minerslettuce", "clover", "caltha"]},
+		{ "code": "type", "states": ["minerslettuce", "clover", "caltha", "woodspurge"]},
 		{ "code": "state", "states": ["flowering", "normal"] }
 	],
 	"attributes": {
@@ -68,14 +68,24 @@
     },
   },
   "shapeByType": {
-    "*-minerslettuce-*": { "base": "wildcraft:block/plant/clover/minerslettuce_normal" },
+    "*-minerslettuce-normal": { "base": "wildcraft:block/plant/clover/minerslettuce_normal" },
+    "*-minerslettuce-flowering": { "base": "wildcraft:block/plant/clover/minerslettuce_sprouting" },
+    "*-woodspurge-normal": { "base": "wildcraft:block/plant/clover/woodspurge*" },
+    "*-woodspurge-flowering": { "base": "wildcraft:block/plant/clover/woodspurge_small" },
     "*-flowering": {"base": "wildcraft:block/plant/clover/{type}_flowering"},
     "*-normal": {"base": "wildcraft:block/plant/clover/{type}_normal"}
-
   },
 	"renderpass": "BlendNoCull",
 	"blockmaterial": "Plant",
-  "randomDrawOffset": true,
+  "randomDrawOffsetByType": {
+    "*-minerslettuce-*": true,
+    "*-woodspurge-*": true,
+    "*":false
+  },
+  "randomizeRotationsByType": {
+    "*-clover-*": false,
+    "*": true
+  },
 	"sideopaque": {
 		"all": false
 	},

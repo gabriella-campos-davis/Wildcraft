@@ -141,13 +141,11 @@ namespace wildcraft
                             return;
                         }
                         byEntity.Api.World.BlockAccessor.ExchangeBlock(dirtBlock.BlockId, rootPos);
-                       // byEntity.Api.World.BlockAccessor.MarkBlockModified(rootPos);
                     }
 
                     ItemStack rootStack = new ItemStack(this, 1);
 
                     byEntity.Api.World.BlockAccessor.SpawnBlockEntity("BERhizome", rootPos, rootStack);
-//byEntity.Api.World.BlockAccessor.MarkBlockModified(rootPos);
 
                     byEntity.Api.World.PlaySoundAt(plantedSound, rootPos.X, rootPos.Y, rootPos.Z, byPlayer);
 

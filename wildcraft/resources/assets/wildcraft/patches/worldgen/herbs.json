@@ -7,8 +7,8 @@
       "blockCodes": [
         "wildcraft:smallannualplant-minerslettuce-normal"
       ],
-      "minTemp": 0,
-      "maxTemp": 20,
+      "minTemp": 4,
+      "maxTemp": 22,
       "minRain": 0.55,
       "maxRain": 1,
       "minFertility": 0.35,
@@ -16,11 +16,80 @@
       "chance": 0.3,
       "minForest": 0.55,
       "maxForest": 1,
-      "maxY": 0.62,
-      "quantity": { "dist": "stronginvexp", "avg": 6, "var": 25 }
+      "maxY": 1.22,
+      "quantity": { "dist": "stronginvexp", "avg": 120, "var": 50 }
     },
     "file": "game:worldgen/blockpatches.json"
   },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of minerslettuce",
+      "blockCodes": [
+        "wildcraft:smallannualplant-caltha-normal"
+      ],
+      "minTemp": 2,
+      "maxTemp": 32,
+      "minRain": 0.4,
+      "maxRain": 1,
+      "minFertility": 0.35,
+      "maxFertility": 1.0,
+      "chance": 0.3,
+      "minForest": 0.55,
+      "maxForest": 1,
+      "maxY": 1.62,
+      "quantity": { "dist": "stronginvexp", "avg": 120, "var": 50 }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of minerslettuce",
+      "blockCodes": [
+        "wildcraft:smallannualplant-clover-normal",
+        "wildcraft:smallannualplant-clover-normal",
+        "wildcraft:smallannualplant-clover-normal",
+        "wildcraft:smallannualplant-clover-normal",
+        "game:tallgrass-mediumshort-free",
+        "game:tallgrass-veryshort-free"
+      ],
+      "minTemp": 2,
+      "maxTemp": 26,
+      "minRain": 0.4,
+      "maxRain": 1,
+      "minFertility": 0.35,
+      "maxFertility": 1.0,
+      "chance": 1.0,
+      "maxForest": 0.45,
+      "maxY": 1.82,
+      "quantity": { "avg": 150, "var": 50 },
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+  {
+    "op": "add",
+    "path": "/patches/-",
+    "value": {
+      "comment": "Patches of minerslettuce",
+      "blockCodes": [
+        "wildcraft:smallannualplant-woodspurge-normal"
+      ],
+      "minTemp": -5,
+      "maxTemp": 24,
+      "minRain": 0.3,
+      "minFertility": 0.35,
+      "maxFertility": 1.0,
+      "chance": 1.0,
+      "minForest": 0.5,
+      "maxY": 1.82,
+      "quantity": { "dist": "stronginvexp", "avg": 120, "var": 50 }
+    },
+    "file": "game:worldgen/blockpatches.json"
+  },
+
   {
     "op": "add",
     "path": "/patches/-",
@@ -181,7 +250,7 @@
       ],
       "minTemp": 2,
       "maxTemp": 22,
-      "minForest": 0.6,
+      "minForest": 0.8,
       "minRain": 0.6,
       "chance": 0.3,
       "placement": "NearWater",

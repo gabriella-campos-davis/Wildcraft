@@ -26,9 +26,6 @@ namespace wildcraft
         RoomRegistry roomreg;
         new public int roomness;
         
-        new public bool Pruned;
-        new public double LastPrunedTotalDays;
-
         public BETallBerryBush() : base()
         {
 

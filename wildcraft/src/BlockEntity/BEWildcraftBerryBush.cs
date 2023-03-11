@@ -17,10 +17,6 @@ namespace wildcraft
 {
     public class BEWildcraftBerryBush : BlockEntityBerryBush
     {
-
-        public bool Pruned;
-        public double LastPrunedTotalDays;
-
         public BEWildcraftBerryBush() : base()
         {
 

@@ -9,10 +9,10 @@ using Vintagestory.API.Common.Entities;
 
 namespace wildcraft
 {
-    public class AquaticPlant : WildcraftPlant
+    public class SaltwaterPlant : WildcraftPlant
     {
         public ICoreAPI Api => api;
-        int depth;
+        int depth = 15;
 
 
         public override void OnLoaded(ICoreAPI api)
@@ -57,9 +57,8 @@ namespace wildcraft
                 return true;
             }
 */
-            if (belowBlock.LiquidCode == "water")
+            if (belowBlock.LiquidCode == "saltwater")
             {
-                if(belowBlock.LiquidCode == "saltwater") return false;
                 for(var currentDepth = 0; currentDepth <= depth + 1; currentDepth ++)
                 {
                     belowBlock = blockAccessor.GetBlock(pos.X, pos.Y - currentDepth, pos.Z);
@@ -78,6 +77,5 @@ namespace wildcraft
         } 
     }
 }
- 
  
  

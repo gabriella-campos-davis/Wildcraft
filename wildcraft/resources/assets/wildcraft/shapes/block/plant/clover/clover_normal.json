@@ -8,19 +8,18 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"clover_leaves": "wildcraft:block/plant/clover/clover_leaves",
-		"caltha_leaves": "wildcraft:block/plant/clover/caltha_leaves",
-		"caltha_stems": "wildcraft:block/plant/clover/caltha_stems",
-		"clover_stems": "wildcraft:block/plant/clover/clover_stems"
+		"clover_leaves": "block/plant/clover/clover_leaves",
+		"clover_stems": "block/plant/clover/clover_stems"
 	},
 	"elements": [
 		{
 			"name": "Stems",
 			"from": [ 8.0, 0.0, 0.0 ], 
 			"to": [ 8.0, 16.0, 16.0 ], 
-			"climateColorMap": "climatePlantTint",
-			"seasonColorMap": "seasonalGrass",
 			"shade": false,
+			"climateColorMap": "climateLighterPlantTint",
+			"seasonColorMap": "seasonalBirch",
+			"renderPass": 2,
 			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
 			"faces": {
 				"north": { "texture": "#caltha_stems", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false, "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] },
@@ -35,9 +34,10 @@
 					"name": "Stems2",
 					"from": [ -7.0E-4, 0.0, -0.0024 ], 
 					"to": [ -7.0E-4, 16.0, 15.9976 ], 
-					"climateColorMap": "climatePlantTint",
-					"seasonColorMap": "seasonalGrass",
 					"shade": false,
+					"climateColorMap": "climateLighterPlantTint",
+					"seasonColorMap": "seasonalBirch",
+					"renderPass": 2,
 					"rotationOrigin": [ 0.0, 0.0, 8.0 ],
 					"rotationY": 112.5,
 					"faces": {
@@ -51,28 +51,29 @@
 				},
 				{
 					"name": "Leaves",
-					"from": [ -7.0, 1.8, 1.0 ], 
-					"to": [ 7.0, 1.8, 15.0 ], 
-					"climateColorMap": "climatePlantTint",
-					"seasonColorMap": "seasonalGrass",
+					"from": [ -8.0, 1.8, 0.0 ], 
+					"to": [ 8.0, 1.8, 16.0 ], 
 					"shade": false,
-					"rotationOrigin": [ -7.0, 1.8, 1.0 ],
+					"climateColorMap": "climateLighterPlantTint",
+					"seasonColorMap": "seasonalBirch",
+					"rotationOrigin": [ -8.0, 1.8, 0.0 ],
 					"faces": {
-						"north": { "texture": "#caltha_leaves", "uv": [ 0.0, 0.0, 14.0, 0.5 ], "enabled": false },
-						"east": { "texture": "#caltha_leaves", "uv": [ 0.0, 0.0, 14.0, 0.5 ], "enabled": false },
-						"south": { "texture": "#caltha_leaves", "uv": [ 0.0, 0.0, 14.0, 0.5 ], "enabled": false },
-						"west": { "texture": "#clover_leaves", "uv": [ 0.0, 0.0, 14.0, 0.5 ], "enabled": false },
+						"north": { "texture": "#caltha_leaves", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false },
+						"east": { "texture": "#caltha_leaves", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false },
+						"south": { "texture": "#caltha_leaves", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false },
+						"west": { "texture": "#clover_leaves", "uv": [ 0.0, 0.0, 16.0, 0.5 ], "enabled": false },
 						"up": { "texture": "#clover_leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [7,7,7,7] },
-						"down": { "texture": "#clover_leaves", "uv": [ 0.0, 0.0, 14.0, 14.0 ], "enabled": false, "windMode": [1,1,1,1] }
+						"down": { "texture": "#clover_leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "enabled": false, "windMode": [1,1,1,1] }
 					}
 				},
 				{
 					"name": "Stems6",
 					"from": [ -7.0E-4, 0.0, -0.0024 ], 
-					"to": [ -7.0E-4, 16.0, 15.9976 ],
+					"to": [ -7.0E-4, 16.0, 15.9976 ], 
 					"shade": false,
-					"climateColorMap": "climatePlantTint",
-					"seasonColorMap": "seasonalGrass",
+					"climateColorMap": "climateLighterPlantTint",
+					"seasonColorMap": "seasonalBirch",
+					"renderPass": 2,
 					"rotationOrigin": [ 0.0, 0.0, 8.0 ],
 					"rotationY": 45.0,
 					"faces": {

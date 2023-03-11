@@ -67,7 +67,9 @@ namespace wildcraft
         {
             base.GetBlockInfo(forPlayer, dsc);
             
-            dsc.AppendLine("abcdefg");
+            dsc.AppendLine("why no block info");
+
+            //base.GetBlockInfo(forPlayer, dsc);
         }
     }
 }
