@@ -5,10 +5,10 @@
         "value": {
           "comment": "Larges Patches of green sedge in temperate areas near water",
           "blockCodes": [
-            "wildcraft:sedge-green-normal",
-            "wildcraft:sedge-green-normal",
-            "wildcraft:sedge-green-normal",
-            "wildcraft:sedge-green-normal"
+            "wildcraft:sedge-hard-normal",
+            "wildcraft:sedge-hard-normal",
+            "wildcraft:sedge-hard-normal",
+            "wildcraft:sedge-hard-normal"
           ],
           "minTemp": -4,
           "maxTemp": 22,
@@ -22,16 +22,39 @@
         },
         "file": "game:worldgen/blockpatches.json"
       },
-        { 
+      {
+        "op": "add",
+        "path": "/patches/-",
+        "value": {
+          "comment": "Larges Patches of green sedge in temperate areas near water",
+          "blockCodes": [
+            "wildcraft:sedge-soft-normal",
+            "wildcraft:sedge-soft-normal",
+            "wildcraft:sedge-soft-normal",
+            "wildcraft:sedge-soft-normal"
+          ],
+          "minTemp": -4,
+          "maxTemp": 22,
+          "minRain": 0.45,
+          "maxRain": 1.0,
+          "chance": 3.0,
+          "placement": "NearWater",
+          "quantity": { "dist": "invexp", "avg": 50, "var": 25 },
+          "offsetX": { "avg": 0, "var": 4 },
+          "offsetZ": { "avg": 0, "var": 4 }
+        },
+        "file": "game:worldgen/blockpatches.json"
+      },
+      { 
         "op": "add",
         "path": "/patches/-",
         "value": {
           "comment": "Larges Patches of swamptule in temperate areas near water",
           "blockCodes": [
-            "wildcraft:sedge-green-normal",
-            "wildcraft:sedge-green-normal",
-            "wildcraft:sedge-green-normal",
-            "wildcraft:sedge-green-normal"
+            "wildcraft:sedge-hard-normal",
+            "wildcraft:sedge-hard-normal",
+            "wildcraft:sedge-hard-normal",
+            "wildcraft:sedge-hard-normal"
           ],
           "minTemp": -4,
           "maxTemp": 24,
@@ -242,6 +265,22 @@
           "quantity": { "avg": 25, "var": 15 },
           "offsetX": { "avg": 0, "var": 12 },
           "offsetZ": { "avg": 0, "var": 12 }
+        },
+        "file": "game:worldgen/blockpatches.json"
+      },
+      {
+        "op": "add",
+        "path": "/patches/-",
+        "value": {
+          "comment": "duckweed",
+          "blockCodes": [
+            "wildcraft:duckweed-duckweed-empty"
+          ],
+          "minTemp": 5,
+          "maxTemp": 40,
+          "minRain": 0.6,
+          "quantity": { dist: "invexp", avg: 120, var: 90 },
+          "chance": 6.0
         },
         "file": "game:worldgen/blockpatches.json"
       }

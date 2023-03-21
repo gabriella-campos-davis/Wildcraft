@@ -35,10 +35,8 @@ namespace wildcraft
             if (soundCode != null && plantedSoundCode != null) {
                 plantingSound = AssetLocation.Create(soundCode);
                 plantedSound = AssetLocation.Create(plantedSoundCode);
-
             }
         }
-
         
         public override void OnHeldInteractStart(ItemSlot slot, EntityAgent byEntity, BlockSelection blockSel, EntitySelection entitySel, bool firstEvent, ref EnumHandHandling handling)
         {
@@ -61,11 +59,11 @@ namespace wildcraft
             {
                 return;
             }
-            
-            byEntity.Api.World.PlaySoundAt(plantingSound, blockSel.Position.X, blockSel.Position.Y, blockSel.Position.Z, byPlayer);
 
             Vec3d particleVec3D = new Vec3d(blockSel.Position.X + 0.5F, blockSel.Position.Y + 1, blockSel.Position.Z + 0.5F);
             byEntity.Api.World.SpawnCubeParticles(blockSel.Position, particleVec3D, 0.25F, 50, 1F, byPlayer);
+            
+            byEntity.Api.World.PlaySoundAt(plantingSound, blockSel.Position.X, blockSel.Position.Y, blockSel.Position.Z, byPlayer);
 
             return;
         }
@@ -89,10 +87,10 @@ namespace wildcraft
 
             if (byEntity.Api.World.Rand.NextDouble() < 0.05)
             {
-                byEntity.Api.World.PlaySoundAt(plantingSound, blockSel.Position.X, blockSel.Position.Y, blockSel.Position.Z, byPlayer);
-
                 Vec3d particleVec3D = new Vec3d(blockSel.Position.X + 0.5F, blockSel.Position.Y + 1, blockSel.Position.Z + 0.5F);
                 byEntity.Api.World.SpawnCubeParticles(blockSel.Position, particleVec3D, 0.25F, 50, 1F, byPlayer);
+
+                byEntity.Api.World.PlaySoundAt(plantingSound, blockSel.Position.X, blockSel.Position.Y, blockSel.Position.Z, byPlayer);
             }
 
             return byEntity.Api.World.Side == EnumAppSide.Client || secondsUsed < plantingTime;
@@ -144,13 +142,12 @@ namespace wildcraft
                     }
 
                     ItemStack rootStack = new ItemStack(this, 1);
-
                     byEntity.Api.World.BlockAccessor.SpawnBlockEntity("BERhizome", rootPos, rootStack);
-
-                    byEntity.Api.World.PlaySoundAt(plantedSound, rootPos.X, rootPos.Y, rootPos.Z, byPlayer);
 
                     Vec3d particleVec3D = new Vec3d(rootPos.X + 0.5F, rootPos.Y + 1, rootPos.Z + 0.5F);
                     byEntity.Api.World.SpawnCubeParticles(blockSel.Position, particleVec3D, 0.25F, 50, 1F, byPlayer);
+
+                    byEntity.Api.World.PlaySoundAt(plantedSound, rootPos.X, rootPos.Y, rootPos.Z, byPlayer);
 
                     slot.TakeOut(1);
                     slot.MarkDirty();

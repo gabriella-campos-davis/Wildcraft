@@ -18,10 +18,11 @@ namespace wildcraft
 {
     public class BERhizome : BlockEntity
     {
-        Block plantBlock;
-        string plantType;
+        public Block plantBlock;
+        public string rootType = "";
         long growListenerId;
 
+        public ItemStack root {get; set;}
 
         RoomRegistry roomreg;
         public int roomness;
@@ -29,8 +30,7 @@ namespace wildcraft
         public override void Initialize(ICoreAPI api)
         {
             base.Initialize(api);
-            api.World.Logger.Chat("BERhizome initialized!!");
-            api.World.Logger.Chat(api.World.BlockAccessor.GetBlock(Pos).Code.ToString());
+            this.Block.EntityClass = "BERhizome";
 
             if (api is ICoreServerAPI)
             {
@@ -41,13 +41,17 @@ namespace wildcraft
 
         public override void OnBlockPlaced(ItemStack rootStack)
         {
-            plantType = rootStack.Item.Variant["type"].ToString();
-            this.Api.World.Logger.Chat(plantType);
+            rootType = rootStack.Item.Variant["type"].ToString();
+            //this.Block.Attributes[].ToAttribute.SetString("timer", growListenerId);
+        }
+
+        private void DoGrow()
+        {
+
         }
 
         private void CheckGrow(float dt)
         {
-            this.Api.World.Logger.Chat("CheckGrow");
             return;
         }
 
@@ -63,13 +67,10 @@ namespace wildcraft
             growListenerId = tree.GetLong("timer");
         }
 
-        public override void GetBlockInfo(IPlayer forPlayer, StringBuilder dsc)
+        public override void GetBlockInfo(IPlayer forPlayer, StringBuilder sb)        
         {
-            base.GetBlockInfo(forPlayer, dsc);
-            
-            dsc.AppendLine("why no block info");
-
-            //base.GetBlockInfo(forPlayer, dsc);
+            this.Api.World.Logger.Chat(rootType);
+            sb.AppendLine(Lang.Get("Contains {0} roots", rootType));
         }
     }
 }

@@ -38,6 +38,7 @@ namespace wildcraft
             api.RegisterBlockClass("WaterPlant", typeof(WaterPlant));
             api.RegisterBlockClass("SimpleWaterPlant", typeof(SimpleWaterPlant));
             api.RegisterBlockClass("AquaticPlant", typeof(AquaticPlant));
+            api.RegisterBlockClass("DuckWeed", typeof(DuckWeed));
             api.RegisterBlockClass("SaltwaterPlant", typeof(SaltwaterPlant));
 
             api.RegisterBlockEntityClass("BEWildcraftBerryBush", typeof(BEWildcraftBerryBush));

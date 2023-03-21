@@ -7,14 +7,15 @@
 		"*-harvested": "Transient"
 	},
 	"variantgroups": [
-		{ "code": "type", "states": ["swamptule", "tule", "green", "brown", "waterchestnut"] },
+		{ "code": "type", "states": ["swamptule", "tule", "soft", "hard", "brown", "waterchestnut"] },
 		{ "code": "state", "states": ["normal", "harvested"] }
 	],
 	"attributes": {
     "maxDepthByType": {
       "*-swamptule-*": 3,
         "*-tule-*": 3,
-        "*-green-*": 1,
+        "*-soft-*": 1,
+        "*-hard-*": 1,
         "*-brown-*": 1,
         "*-waterchestnut-*": 1
     },
@@ -78,6 +79,8 @@
     "*-swamptule-normal": {"base": "wildcraft:block/plant/leafygroundvegetable/tule/tule_fin_tufts"},
     "*-swamptule-harvested": {"base": "wildcraft:block/plant/leafygroundvegetable/tule/tule_fin"},
     "*-tule-*": {"base": "wildcraft:block/plant/leafygroundvegetable/tule/tule_fin"},
+    "*-soft-*": {"base": "wildcraft:block/plant/leafygroundvegetable/sedge/sedge_untinted"},
+    "*-brown-*": {"base": "wildcraft:block/plant/leafygroundvegetable/sedge/sedge_untinted"},
     "*": {"base": "wildcraft:block/plant/leafygroundvegetable/sedge/sedge2"}
   },
   "dropsByType": {

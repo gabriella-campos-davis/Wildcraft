@@ -51,7 +51,8 @@
         "*-minerslettuce-*": "wildcraft:smallannualplant-minerslettuce-normal",
 
         "*-waterchestnut-*": "wildcraft:waterplant-waterchestnut-normal",
-        "*-skunkcabbage-*": "wildcraft:amphibiousplant-skunkcabbage-small-free"
+        "*-skunkcabbage-*": "wildcraft:amphibiousplant-skunkcabbage-small-free",
+        "*-tule-*": "wildcraft:sedge-tule-normal"
       },
       "transientPropsByType": {
         "*-planted": {
