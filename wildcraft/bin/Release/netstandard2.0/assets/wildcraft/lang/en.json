@@ -67,6 +67,22 @@
   "item-poultice-reed-horsetail-yarrow": "Horsetail and Yarrow Poultice (from reeds)",
   "item-poultice-reed-horsetail-sage": "Horsetail and Sage Poultice (from reeds)",
 
+  "item-poultice-linen-jewelweed-lavender": "Jewelweed and Lavender Poultice (from linen)",
+  "item-poultice-linen-jewelweed-thyme": "Jewelweed and Thyme Poultice (from linen)",
+  "item-poultice-linen-jewelweed-marshmallow": "Jewelweed and Marshmallow Poultice (from linen)",
+  "item-poultice-linen-jewelweed-holly": "Jewelweed and Holly Poultice (from linen)",
+  "item-poultice-linen-jewelweed-marigold": "Jewelweed and Marigold Poultice (from linen)",
+  "item-poultice-linen-jewelweed-yarrow": "Jewelweed and Yarrow Poultice (from linen)",
+  "item-poultice-linen-jewelweed-sage": "Jewelweed and Sage Poultice (from linen)",
+
+  "item-poultice-reed-jewelweed-lavender": "Jewelweed and Lavender Poultice (from reeds)",
+  "item-poultice-reed-jewelweed-thyme": "Jewelweed and Thyme Poultice (from reeds)",
+  "item-poultice-reed-jewelweed-marshmallow": "Jewelweed and Marshmallow Poultice (from reeds)",
+  "item-poultice-reed-jewelweed-holly": "Jewelweed and Holly Poultice (from reeds)",
+  "item-poultice-reed-jewelweed-marigold": "Jewelweed and Marigold Poultice (from reeds)",
+  "item-poultice-reed-jewelweed-yarrow": "Jewelweed and Yarrow Poultice (from reeds)",
+  "item-poultice-reed-jewelweed-sage": "Jewelweed and Sage Poultice (from reeds)",
+
   "item-poultice-linen-stjohnswort-lavender": "St John's Wort and Lavender Poultice (from linen)",
   "item-poultice-linen-stjohnswort-thyme": "St John's Wort and Thyme Poultice (from linen)",
   "item-poultice-linen-stjohnswort-marshmallow": "St John's Wort and Marshmallow Poultice (from linen)",
@@ -537,13 +553,13 @@
   "item-herbseeds-saffron":"Saffron Seeds",
 
 
-  "recipeingredient-item-herbs-sedge-insturmentalcase": "sedge",
-  "recipeingredient-item-herbs-sedge": "sedge",
-  "meal-ingredient-soup-secondary-herbs-sedge": "sedge",
-  "meal-ingredient-stew-secondary-herbs-sedge": "sedge",
+  "recipeingredient-item-herbs-softsedge-insturmentalcase": "softsedge",
+  "recipeingredient-item-herbs-softsedge": "softsedge",
+  "meal-ingredient-soup-secondary-herbs-softsedge": "softsedge",
+  "meal-ingredient-stew-secondary-herbs-softsedge": "softsedge",
 
-  "item-herbs-sedge":"Sedge",
-  "item-herbseeds-sedge":"Sedge Seeds",
+  "item-herbs-softsedge":"Softsedge",
+  "item-herbseeds-softsedge":"Softsedge Seeds",
 
 
   "recipeingredient-item-herbs-sage-insturmentalcase": "sage",
@@ -590,6 +606,12 @@
   "item-herbs-minerslettuce":"Miner's Lettuce",
   "item-herbseeds-minerslettuce":"Miner's Lettuc Seeds",
 
+  "item-herbs-woodspurge":"Woodspurge",
+  "item-herbseeds-woodspurge":"Woodspurge Seeds",
+
+  "item-herbs-brownsedge":"Brownsedge",
+  "item-herbseeds-brownsedge":"Brownsedge Seeds",
+
 
   "recipeingredient-item-herbs-mugwort-insturmentalcase": "mugwort",
   "recipeingredient-item-herbs-mugwort": "mugwort",
@@ -626,8 +648,200 @@
   "meal-ingredient-soup-secondary-roots-marshmallow": "marshmallow root",
   "meal-ingredient-stew-secondary-roots-marshmallow": "marshmallow root",
 
+
+  "recipeingredient-item-herbs-jewelweed-insturmentalcase": "jewelweed",
+  "recipeingredient-item-herbs-jewelweed": "jewelweed",
+  "meal-ingredient-soup-secondary-herbs-jewelweed": "jewelweed",
+  "meal-ingredient-stew-secondary-herbs-jewelweed": "jewelweed",
+
+  "item-herbs-jewelweed":"Jewelweed",
+  "item-herbseeds-jewelweed":"Jewelweed Seeds",
+
+  "recipeingredient-item-herbs-rhubarb-insturmentalcase": "rhubarb",
+  "recipeingredient-item-herbs-rhubarb": "rhubarb",
+  "meal-ingredient-soup-secondary-herbs-rhubarb": "rhubarb",
+  "meal-ingredient-stew-secondary-herbs-rhubarb": "rhubarb",
+
+  "item-herbs-rhubarb":"Rhubarb",
+  "item-herbseeds-rhubarb":"Rhubarb Seeds",
+
+  "recipeingredient-item-herbs-butterbur-insturmentalcase": "butterbur",
+  "recipeingredient-item-herbs-butterbur": "butterbur",
+  "meal-ingredient-soup-secondary-herbs-butterbur": "butterbur",
+  "meal-ingredient-stew-secondary-herbs-butterbur": "butterbur",
+
+  "item-herbs-butterbur":"Butterbur",
+  "item-herbseeds-butterbur":"Butterbur Seeds",
+
+
+  "recipeingredient-item-herbs-arrowhead-insturmentalcase": "arrowhead",
+  "recipeingredient-item-herbs-arrowhead": "arrowhead",
+  "meal-ingredient-soup-secondary-herbs-arrowhead": "arrowhead",
+  "meal-ingredient-stew-secondary-herbs-arrowhead": "arrowhead",
+
+  "item-herbs-arrowhead":"Arrowhead",
+  "item-herbseeds-arrowhead":"Arrowhead Seeds",
+
+
+  "recipeingredient-item-herbs-bugleweed-insturmentalcase": "bugleweed",
+  "recipeingredient-item-herbs-bugleweed": "bugleweed",
+  "meal-ingredient-soup-secondary-herbs-bugleweed": "bugleweed",
+  "meal-ingredient-stew-secondary-herbs-bugleweed": "bugleweed",
+
+  "item-herbs-bugleweed":"Bugleweed",
+  "item-herbseeds-bugleweed":"Bugleweed Seeds",
+
+  "recipeingredient-item-herbs-angelica-insturmentalcase": "angelica",
+  "recipeingredient-item-herbs-angelica": "angelica",
+  "meal-ingredient-soup-secondary-herbs-angelica": "angelica",
+  "meal-ingredient-stew-secondary-herbs-angelica": "angelica",
+
+  "item-herbs-angelica":"Angelica",
+  "item-herbseeds-angelica":"Angelica Seeds",
+
+  "recipeingredient-item-herbs-foxglove-insturmentalcase": "foxglove",
+  "recipeingredient-item-herbs-foxglove": "foxglove",
+  "meal-ingredient-soup-secondary-herbs-foxglove": "foxglove",
+  "meal-ingredient-stew-secondary-herbs-foxglove": "foxglove",
+
+  "item-herbs-foxglove":"Foxglove",
+  "item-herbseeds-foxglove":"Foxglove Seeds",
+
+  "recipeingredient-item-herbs-rockrose-insturmentalcase": "rockrose",
+  "recipeingredient-item-herbs-rockrose": "rockrose",
+  "meal-ingredient-soup-secondary-herbs-rockrose": "rockrose",
+  "meal-ingredient-stew-secondary-herbs-rockrose": "rockrose",
+
+  "item-herbs-rockrose":"Rockrose",
+  "item-herbseeds-rockrose":"Rockrose Seeds",
+
+  "recipeingredient-item-herbs-horehound-insturmentalcase": "horehound",
+  "recipeingredient-item-herbs-horehound": "horehound",
+  "meal-ingredient-soup-secondary-herbs-horehound": "horehound",
+  "meal-ingredient-stew-secondary-herbs-horehound": "horehound",
+
+  "item-herbs-horehound":"Horehound",
+  "item-herbseeds-horehound":"Horehound Seeds",
+
+  "recipeingredient-item-herbs-ginger-insturmentalcase": "ginger",
+  "recipeingredient-item-herbs-ginger": "ginger",
+  "meal-ingredient-soup-secondary-herbs-ginger": "ginger",
+  "meal-ingredient-stew-secondary-herbs-ginger": "ginger",
+
+  "item-herbs-ginger":"Ginger",
+  "item-herbseeds-ginger":"Ginger Seeds",
+
+  "recipeingredient-item-herbs-burnet-insturmentalcase": "burnet",
+  "recipeingredient-item-herbs-burnet": "burnet",
+  "meal-ingredient-soup-secondary-herbs-burnet": "burnet",
+  "meal-ingredient-stew-secondary-herbs-burnet": "burnet",
+
+  "item-herbs-burnet":"Burnet",
+  "item-herbseeds-burnet":"Burnet Seeds",
+
+  "recipeingredient-item-herbs-arnica-insturmentalcase": "arnica",
+  "recipeingredient-item-herbs-arnica": "arnica",
+  "meal-ingredient-soup-secondary-herbs-arnica": "arnica",
+  "meal-ingredient-stew-secondary-herbs-arnica": "arnica",
+
+  "item-herbs-arnica":"Arnica",
+  "item-herbseeds-arnica":"Arnica Seeds",
+
+  
+  "recipeingredient-item-herbs-cicuta-insturmentalcase": "cicuta",
+  "recipeingredient-item-herbs-cicuta": "cicuta",
+  "meal-ingredient-soup-secondary-herbs-cicuta": "cicuta",
+  "meal-ingredient-stew-secondary-herbs-cicuta": "cicuta",
+
+  "item-herbs-cicuta":"Cicuta",
+  "item-herbseeds-cicuta":"Cicuta Seeds",
+
+  "recipeingredient-item-herbs-tansy-insturmentalcase": "tansy",
+  "recipeingredient-item-herbs-tansy": "tansy",
+  "meal-ingredient-soup-secondary-herbs-tansy": "tansy",
+  "meal-ingredient-stew-secondary-herbs-tansy": "tansy",
+
+  "item-herbs-tansy":"Tansy",
+  "item-herbseeds-tansy":"Tansy Seeds",
+
+  "recipeingredient-item-herbs-ginseng-insturmentalcase": "ginseng",
+  "recipeingredient-item-herbs-ginseng": "ginseng",
+  "meal-ingredient-soup-secondary-herbs-ginseng": "ginseng",
+  "meal-ingredient-stew-secondary-herbs-ginseng": "ginseng",
+
+  "item-herbs-ginseng":"Ginseng",
+  "item-herbseeds-ginseng":"Ginseng Seeds",
+
+  "recipeingredient-item-herbs-katuk-insturmentalcase": "katuk",
+  "recipeingredient-item-herbs-katuk": "katuk",
+  "meal-ingredient-soup-secondary-herbs-katuk": "katuk",
+  "meal-ingredient-stew-secondary-herbs-katuk": "katuk",
+
+  "item-herbs-katuk":"Katuk",
+  "item-herbseeds-katuk":"Katuk Seeds",
+
   "block-smallannualplant-minerslettuce-normal": "Miner's Lettuce",
-  "block-smallannualplant-minerslettuce-harvested": "Miner's Lettuce (Growing)",
+  "block-smallannualplant-minerslettuce-flowering": "Miner's Lettuce (Growing)",
+
+  "block-smallannualplant-woodspurge-normal": "Woodspurge",
+  "block-smallannualplant-woodspurge-flowering": "Woodspurge (Growing)",
+
+  "block-smallannualplant-clover-normal": "Clover",
+  "block-smallannualplant-clover-flowering": "Clover (Growing)",
+
+  "block-smallannualplant-caltha-normal": "Caltha",
+  "block-smallannualplant-caltha-flowering": "Caltha (Growing)",
+
+
+  "block-perennialplant-katuk-normal": "Katuk",
+  "block-perennialplant-katuk-harvested": "Katuk (Growing)",
+
+  "block-perennialplant-ginseng-normal": "Ginseng",
+  "block-perennialplant-ginseng-harvested": "Ginseng (Growing)",
+
+  "block-perennialplant-tansy-normal": "Tansy",
+  "block-perennialplant-tansy-harvested": "Tansy (Growing)",
+
+  "block-perennialplant-cicuta-normal": "Cicuta",
+  "block-perennialplant-cicuta-harvested": "Cicuta (Growing)",
+
+  "block-perennialplant-arnica-normal": "Arnica",
+  "block-perennialplant-arnica-harvested": "Arnica (Growing)",
+
+  "block-perennialplant-burnet-normal": "Burnet",
+  "block-perennialplant-burnet-harvested": "Burnet (Growing)",
+
+  "block-perennialplant-ginger-normal": "Ginger",
+  "block-perennialplant-ginger-harvested": "Ginger (Growing)",
+
+  "block-perennialplant-horehound-normal": "Horehound",
+  "block-perennialplant-horehound-harvested": "Horehound (Growing)",
+
+    "block-perennialplant-rockrose-normal": "Rockrose",
+  "block-perennialplant-rockrose-harvested": "Rockrose (Growing)",
+
+  "block-perennialplant-angelica-normal": "Angelica",
+  "block-perennialplant-angelica-harvested": "Angelica (Growing)",
+
+  "block-perennialplant-foxglove-normal": "Foxglove",
+  "block-perennialplant-foxglove-harvested": "Foxglove (Growing)",
+
+  "block-leafyperennialplant-rhubarb-normal": "Rhubarb",
+  "block-leafyperennialplant-rhubarb-harvested": "Rhubarb (Growing)",
+
+  "block-duckweed-*": "Duckweed",
+
+  "block-leafyperennialplant-butterbur-normal": "Butterbur",
+  "block-leafyperennialplant-butterbur-harvested": "Butterbur (Growing)",
+
+  "block-arrowhead-arrowhead-normal": "Arrowhead",
+  "block-arrowhead-arrowhead-harvested": "Arrowhead (Growing)",
+
+  "block-bugleweed-european-tall": "European bugleweed (tall)",
+  "block-bugleweed-european-short": "European bugleweed (short)",
+
+  "block-annualplant-jewelweed-normal": "Jewelweed",
+  "block-annualplant-jewelweed-harvested": "Jewelweed (Growing)",
 
   "block-annualplant-stingingnettle-normal": "Stinging Nettle",
   "block-annualplant-stingingnettle-harvested": "Stinging Nettle (Growing)",
@@ -680,8 +894,17 @@
   "block-perennialplant-sage-normal": "Sage",
   "block-perennialplant-sage-harvested": "Sage (Growing)",
 
-  "block-perennialplant-sedge-normal": "Sedge",
-  "block-perennialplant-sedge-harvested": "Sedge (Growing)",
+  "block-sedge-softsedge-normal": "Softsedge",
+  "block-sedge-softsedge-harvested": "Softsedge (Growing)",
+
+  "block-sedge-brownsedge-normal": "Brownsedge",
+  "block-sedge-brownsedge-harvested": "Brownsedge (Growing)",
+
+  "block-sedge-hardsedge-normal": "Hardsedge",
+  "block-sedge-hardsedge-harvested": "Hardsedge (Growing)",
+
+  "block-sedge-waterchestnut-normal": "Water chestnut",
+  "block-sedge-waterchestnut-harvested": "Water chestnut (Growing)",
 
   "block-perennialplant-stjohnswort-normal": "St John's Wort",
   "block-perennialplant-stjohnswort-harvested": "St John's Wort (Growing)",
@@ -728,8 +951,6 @@
   "block-annualplant-liquorice-normal": "Liquorice",
   "block-annualplant-liquorice-harvested": "Liquorice (Growing)",
 
-  "block-waterplant-waterchestnut-*-normal-*": "Water chestnut",
-  "block-waterplant-waterchestnut-*-harvested-*": "Water chestnut (Growing)",
 
   "block-amphibiousplant-skunkcabbage-*": "Skunk cabbage",
   "item-skunkcabbage-leafs": "Skunk cabbage leafs", 
@@ -824,6 +1045,15 @@
   "item-waterherbs-waterchestnut":"Waterchestnut ends",
   "item-waterherbseeds-waterchestnut":"Waterchestnut Seeds",
 
+  "item-wherbs-waterchestnut":"Waterchestnut ends",
+  "item-herbseeds-waterchestnut":"Waterchestnut Seeds",
+
+  "item-waterherbseeds-hardsedge": "Hardsedge seeds",
+  "item-waterherbseeds-brownsedge": "Brownsedge seeds",
+  "item-waterherbseeds-tule": "Tule seeds",
+
+
+
   "item-roots-waterchestnut":"Water chestnut",
   "item-roots-peeledwaterchestnut":"Peeled water chestnut",
   "recipeingredient-item-roots-peeledwaterchestnut-insturmentalcase": "water chestnut",
@@ -851,6 +1081,135 @@
 
   "block-seedling-bearleek-planted": "Bearleek Seeds (Growing)",
   "block-seedling-bearleek-sprouting": "Bearleek Seeds (Sprouting)",
+
+  "block-seedling-angelica-planted": "Angelica Seeds (Growing)",
+  "block-seedling-angelica-sprouting": "Angelica Seeds (Sprouting)",
+
+  "block-crop-angelica-1": "Angelica Seeds (Growing)",
+  "block-crop-angelica-2": "Angelica (Growing)",
+  "block-crop-angelica-3": "Angelica",
+
+  "block-seedling-foxglove-planted": "Foxglove Seeds (Growing)",
+  "block-seedling-foxglove-sprouting": "Foxglove Seeds (Sprouting)",
+
+  "block-crop-foxglove-1": "Foxglove Seeds (Growing)",
+  "block-crop-foxglove-2": "Foxglove (Growing)",
+  "block-crop-foxglove-3": "Foxglove",
+
+  "block-seedling-burnet-planted": "Burnet Seeds (Growing)",
+  "block-seedling-burnet-sprouting": "Burnet Seeds (Sprouting)",
+
+  "block-crop-burnet-1": "Burnet Seeds (Growing)",
+  "block-crop-burnet-2": "Burnet (Growing)",
+  "block-crop-burnet-3": "Burnet",
+
+  "block-seedling-arnica-planted": "Arnica Seeds (Growing)",
+  "block-seedling-arnica-sprouting": "Arnica Seeds (Sprouting)",
+
+  "block-crop-arnica-1": "Arnica Seeds (Growing)",
+  "block-crop-arnica-2": "Arnica (Growing)",
+  "block-crop-arnica-3": "Arnica",
+
+  "block-seedling-ginger-planted": "Ginger Seeds (Growing)",
+  "block-seedling-ginger-sprouting": "Ginger Seeds (Sprouting)",
+
+  "block-crop-ginger-1": "Ginger Seeds (Growing)",
+  "block-crop-ginger-2": "Ginger (Growing)",
+  "block-crop-ginger-3": "Ginger",
+
+  "block-seedling-horehound-planted": "Horehound Seeds (Growing)",
+  "block-seedling-horehound-sprouting": "Horehound Seeds (Sprouting)",
+
+  "block-crop-horehound-1": "Horehound Seeds (Growing)",
+  "block-crop-horehound-2": "Horehound (Growing)",
+  "block-crop-horehound-3": "Horehound",
+
+  "block-seedling-rockrose-planted": "Rockrose Seeds (Growing)",
+  "block-seedling-rockrose-sprouting": "Rockrose Seeds (Sprouting)",
+
+  "block-crop-rockrose-1": "Rockrose Seeds (Growing)",
+  "block-crop-rockrose-2": "Rockrose (Growing)",
+  "block-crop-rockrose-3": "Rockrose",
+
+  "block-seedling-tansy-planted": "Tansy Seeds (Growing)",
+  "block-seedling-tansy-sprouting": "Tansy Seeds (Sprouting)",
+
+  "block-crop-tansy-1": "Tansy Seeds (Growing)",
+  "block-crop-tansy-2": "Tansy (Growing)",
+  "block-crop-tansy-3": "Tansy",
+
+  "block-seedling-cicuta-planted": "Cicuta Seeds (Growing)",
+  "block-seedling-cicuta-sprouting": "Cicuta Seeds (Sprouting)",
+
+  "block-crop-cicuta-1": "Cicuta Seeds (Growing)",
+  "block-crop-cicuta-2": "Cicuta (Growing)",
+  "block-crop-cicuta-3": "Cicuta",
+
+  "block-seedling-ginseng-planted": "Ginseng Seeds (Growing)",
+  "block-seedling-ginseng-sprouting": "Ginseng Seeds (Sprouting)",
+
+  "block-crop-ginseng-1": "Ginseng Seeds (Growing)",
+  "block-crop-ginseng-2": "Ginseng (Growing)",
+  "block-crop-ginseng-3": "Ginseng",
+
+  "block-seedling-katuk-planted": "Katuk Seeds (Growing)",
+  "block-seedling-katuk-sprouting": "Katuk Seeds (Sprouting)",
+
+  "block-crop-katuk-1": "Katuk Seeds (Growing)",
+  "block-crop-katuk-2": "Katuk (Growing)",
+  "block-crop-katuk-3": "Katuk",
+
+  
+  "block-seedling-softsedge-planted": "Softsegde Seeds (Growing)",
+  "block-seedling-softsedge-sprouting": "Softsegde Seeds (Sprouting)",
+
+  "block-crop-softsedge-1": "Softsegde Seeds (Growing)",
+  "block-crop-softsedge-2": "Softsegde (Growing)",
+  "block-crop-softsedge-3": "Softsegde",
+
+  "block-seedling-jewelweed-planted": "Jewelweed Seeds (Growing)",
+  "block-seedling-jewelweed-sprouting": "Jewelweed Seeds (Sprouting)",
+
+  "block-crop-jewelweed-1": "Jewelweed Seeds (Growing)",
+  "block-crop-jewelweed-2": "Jewelweed (Growing)",
+  "block-crop-jewelweed-3": "Jewelweed",
+
+  "block-seedling-rhubarb-planted": "Rhubarb Seeds (Growing)",
+  "block-seedling-rhubarb-sprouting": "Rhubarb Seeds (Sprouting)",
+
+  "block-crop-rhubarb-1": "Rhubarb Seeds (Growing)",
+  "block-crop-rhubarb-2": "Rhubarb (Growing)",
+  "block-crop-rhubarb-3": "Rhubarb",
+
+  "block-seedling-butterbur-planted": "Butterbur Seeds (Growing)",
+  "block-seedling-butterbur-sprouting": "Butterbur Seeds (Sprouting)",
+
+  "block-crop-butterbur-1": "Butterbur Seeds (Growing)",
+  "block-crop-butterbur-2": "Butterbur (Growing)",
+  "block-crop-butterbur-3": "Butterbur",
+
+  "block-seedling-woodspurge-planted": "Woodspurge Seeds (Growing)",
+  "block-seedling-woodspurge-sprouting": "Woodspurge Seeds (Sprouting)",
+
+  "block-crop-woodspurge-1": "Woodspurge Seeds (Growing)",
+  "block-crop-woodspurge-2": "Woodspurge (Growing)",
+  "block-crop-woodspurge-3": "Woodspurge",
+  
+  "block-seedling-hardsedge-planted": "Hardsedge Seeds (Growing)",
+  "block-seedling-hardsedge-sprouting": "Hardsedge Seeds (Sprouting)",
+
+  "block-seedling-brownsedge-planted": "Brownsedge Seeds (Growing)",
+  "block-seedling-brownsedge-sprouting": "Brownsedge Seeds (Sprouting)",
+
+  "block-seedling-tule-planted": "Tule Seeds (Growing)",
+  "block-seedling-tule-sprouting": "Tule Seeds (Sprouting)",
+
+  "block-seedling-swamptule-planted": "Tule Seeds (Growing)",
+  "block-seedling-swamptule-sprouting": "Tule Seeds (Sprouting)",
+
+  "block-seedling-arrowhead-planted": "arrowhead Seeds (Growing)",
+  "block-seedling-arrowhead-sprouting": "arrowhead Seeds (Sprouting)",
+
 
   "block-crop-bearleek-1": "Bearleek Seeds (Growing)",
   "block-crop-bearleek-2": "Bearleek (Growing)",
@@ -1114,6 +1473,60 @@
   "block-groundberryseedling-cloudberry-planted": "Cloudberry Seeds (Growing)",
   "block-groundberryseedling-cloudberry-sprouting": "Cloudberry Seeds (Sprouting)",
 
+  "block-sedge-tule-normal": "Tule",
+  "block-sedge-tule-harvested": "Tule (growing)",
+
+  "block-sedge-swamptule-normal": "Tule",
+  "block-sedge-swamptule-harvested": "Tule (growing)",
+
+  "item-plantfibers-hardsedge": "Hardsedge bundle",
+  "item-plantfibers-brownsedge": "Brownsedge bundle",
+  "item-plantfibers-tule": "Tule bundle",
+
+  "item-roots-tule": "Tule root",
+  "recipeingredient-item-roots-tule-insturmentalcase": "tule root",
+  "recipeingredient-item-roots-tule": "tule root",
+  "meal-ingredient-soup-secondary-roots-tule": "tule root",
+  "meal-ingredient-stew-secondary-roots-tule": "tule root",
+
+  "item-roots-brownsedge": "Brownsedge root",
+  "recipeingredient-item-roots-brownsedge-insturmentalcase": "brownsedge root",
+  "recipeingredient-item-roots-brownsedge": "brownsedge root",
+  "meal-ingredient-soup-secondary-roots-brownsedge": "brownsedge root",
+  "meal-ingredient-stew-secondary-roots-brownsedge": "brownsedge root",
+
+  "item-roots-hardsedge": "Hardsedge root",
+  "recipeingredient-item-roots-hardsedge-insturmentalcase": "hardsedge root",
+  "recipeingredient-item-roots-hardsedge": "hardsedge root",
+  "meal-ingredient-soup-secondary-roots-hardsedge": "hardsedge root",
+  "meal-ingredient-stew-secondary-roots-hardsedge": "hardsedge root",
+
+  "item-roots-arrowhead": "Arrowhead root",
+  "recipeingredient-item-roots-arrowhead-insturmentalcase": "arrowhead root",
+  "recipeingredient-item-roots-arrowhead": "arrowhead root",
+  "meal-ingredient-soup-secondary-roots-arrowhead": "arrowhead root",
+  "meal-ingredient-stew-secondary-roots-arrowhead": "arrowhead root",
+
+  "item-roots-ginger": "Ginger root",
+  "recipeingredient-item-roots-ginger-insturmentalcase": "ginger root",
+  "recipeingredient-item-roots-ginger": "ginger root",
+  "meal-ingredient-soup-secondary-roots-ginger": "ginger root",
+  "meal-ingredient-stew-secondary-roots-ginger": "ginger root",
+
+  "item-roots-ginseng": "Ginseng root",
+  "recipeingredient-item-roots-ginseng-insturmentalcase": "ginseng root",
+  "recipeingredient-item-roots-ginseng": "ginseng root",
+  "meal-ingredient-soup-secondary-roots-ginseng": "ginseng root",
+  "meal-ingredient-stew-secondary-roots-ginseng": "ginseng root",
+
+  "item-roots-burnet": "Burnet root",
+  "recipeingredient-item-roots-burnet-insturmentalcase": "burnet root",
+  "recipeingredient-item-roots-burnet": "burnet root",
+  "meal-ingredient-soup-secondary-roots-burnet": "burnet root",
+  "meal-ingredient-stew-secondary-roots-ginseburnetng": "burnet root",
+
+
+
   "item-pressedmash-huckleberry-dry": "Pressed Huckleberry mash",
   "item-pressedmash-huckleberry-wet": "Huckleberry mash ",
 	"item-juiceportion-huckleberry": "Huckleberry juice",
@@ -1263,6 +1676,7 @@
   "Will grow in {0} days, weather permitting": "Will grow in {0} days, weather permitting",
 
   "with plant roots": "With plant roots",
-  "heldhelp-plantroot": "Plant root"
+  "game:Contains rhizomes": "Contains rhizomes",
+  "wildcraft:heldhelp-plantroot": "Plant root"
 
 }

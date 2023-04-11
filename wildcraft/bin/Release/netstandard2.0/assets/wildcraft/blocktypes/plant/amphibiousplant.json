@@ -32,14 +32,14 @@
 		{ "code": "cover", "states": ["free", "snow"] }
 	],
 	"creativeinventory": { 
-		"general": [ "*-small-free","*-medium-free" ], 
-		"flora": [ "*-small-free","*-medium-free" ],
-   		"wildcraft": [ "*-small-free","*-medium-free" ]
+		"general": [ "*-free"], 
+		"flora": [ "*-free"],
+   		"wildcraft": [ "*-free"]
 	},
 	"shapeByType": {
 		"amphibiousplant-skunkcabbage-small-*": { "base": "wildcraft:block/plant/skunkcabbage3" },
         "amphibiousplant-skunkcabbage-medium-*": { "base": "wildcraft:block/plant/skunkcabbage2" },
-        "amphibiousplant-skunkcabbage-large-*": { "base": "wildcraft:block/plant/skunkcabbage2" }
+        "amphibiousplant-skunkcabbage-large-*": { "base": "wildcraft:block/plant/skunkcabbage1" }
 	},
 	"drawtypeByType": {
 		"*-snow": "JSONAndSnowLayer",
@@ -85,12 +85,19 @@
 		"burnTemperature": 600,
 		"burnDuration": 10
 	},
-	"guiTransform": {
-		"translation": { "x": 0, "y": -1.5, "z": 0 },
-		"rotation": { "x": 0, "y": 0, "z": 0 },
-		"origin": { "x": 0.5, "y": 1.2, "z": 0.5 },
-		"scale": 0.65
-	},
+	guiTransformByType: {
+		"*-small-*": {
+			translation: { x: 0, y: -1.5, z: 0 },
+			rotation: { x: -4, y: -121, z: -8 },
+			scale: 1.56
+		},
+		"*-medium-*": {
+			translation: { x: 0, y: -1.5, z: 0 },
+			rotation: { x: -24, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0.8, z: 0.5 },
+			scale: 1.04
+		}
+	},	
 	"dropsByType": {
 		"*-skunkcabbage-small-*": [ 
 			{ 

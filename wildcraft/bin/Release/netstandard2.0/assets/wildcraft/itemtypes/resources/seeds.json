@@ -6,7 +6,10 @@
 	"variantgroups": [
 		{ "code": "type", "states": [ "strawberry", "cloudberry", "bunchberry", "crowberry" ] }
 	],
-	"attributes": { "handbook": { "groupBy": ["herbseeds-*", "waterherbseeds-*"] } },
+	"attributes": { 
+
+		"handbook": { "groupBy": ["herbseeds-*", "waterherbseeds-*"] } 
+	},
 	"texture": { "base": "items/seeds/{type}" },
 	"creativeinventory": { "general": ["*"], "items": ["*"], "wildcraft": [ "*" ] },
 	"fpHandTransform": {

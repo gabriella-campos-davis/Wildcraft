@@ -8,7 +8,7 @@
 		"*-harvested": "Transient"
 	},
 	"variantgroups": [
-		{ "code": "type", "states": ["bearleek", "marjoram", "sage", "marshmallow", "mint", "saffron", "stjohnswort", "mugwort", "inula", "celandine", "leek", "plantain", "yarrow", "foxglove", "angelica", "rockrose", "horehound", "ginger", "burnet", "arnica"] },
+		{ "code": "type", "states": ["bearleek", "marjoram", "sage", "marshmallow", "mint", "saffron", "stjohnswort", "mugwort", "inula", "celandine", "leek", "plantain", "yarrow", "foxglove", "angelica", "rockrose", "horehound", "ginger", "burnet", "arnica", "cicuta", "tansy", "ginseng", "katuk"] },
 		{ "code": "state", "states": ["harvested", "normal"] }
 	],
 	"attributes": {
@@ -53,6 +53,9 @@
     "hasRootByType":{
         "*-bearleek-*": "true",
         "*-marshmallow-*": "true",
+        "*-burnet-*": "true",
+        "*-ginger-*": "true",
+        "*-ginseng-*": "true",
         "*": "false"
     },
     "isPoisonousByType":{
@@ -80,10 +83,11 @@
   },
   "shapeByType": {
     "*-stingingnettle-*": { "base": "wildcraft:block/plant/stingingnettle/stingingnettle_normal*" },
-    "*-mugwort-*": {"base": "wildcraft:block/plant/leafygroundvegetable/bushy_normal"},
+    "*-mugwort-*": {"base": "wildcraft:block/plant/leafygroundvegetable/sedge/sedge_untinted"},
     "*-sedge-*": {"base": "wildcraft:block/plant/leafygroundvegetable/bushy_normal"},
     "*-inula-normal*": {"base": "wildcraft:block/plant/leafygroundvegetable/inula_normal*"},
-    "*-plantain-normal": {"base": "wildcraft:block/plant/leafygroundvegetable/grounded_normal*"}, 
+    "*-plantain-normal": {"base": "wildcraft:block/plant/leafygroundvegetable/plantain/plantain*"}, 
+    "*-katuk-*": { "base": "wildcraft:block/plant/leafygroundvegetable/katuk"},
 
     "*-bearleek-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
     "*-marjoram-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
@@ -102,6 +106,10 @@
     "*-ginger-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
     "*-arnica-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
     "*-burnet-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-ginseng-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-cicuta-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-tansy-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
+
 
 
     "@*-(bearleek|marjoram|sage|marshmallow|mint|saffron|stjohnswort|celandine|leek|foxglove)-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},

@@ -5,7 +5,7 @@
 		"*-harvested": "Transient"
 	},
 	"variantgroups": [
-		{ "code": "type", "states": ["basil", "blackpepper", "celery", "chamomile", "cilantro", "dill", "dock", "mustard", "stingingnettle", "burdock", "chicory","marigold", "saltwort","liquorice"]},
+		{ "code": "type", "states": ["basil", "blackpepper", "celery", "chamomile", "cilantro", "dill", "dock", "mustard", "stingingnettle", "burdock", "chicory","marigold", "saltwort","liquorice", "jewelweed"]},
 		{ "code": "state", "states": ["harvested", "normal"] }
 	],
 	"attributes": {
@@ -90,8 +90,7 @@
     "wildcraft": [ "*-normal" ]
   },
   "shapeByType": {
-    "*-sedge-*": {"base": "wildcraft:block/plant/leafygroundvegetable/bushy_normal"},
-    "*-burdock-normal*": {"base": "wildcraft:block/plant/leafygroundvegetable/burdock_normal*"},
+    "*-burdock-normal*": {"base": "wildcraft:block/plant/leafygroundvegetable/burdock_normal1"},
     "*-thistle-normal*": {"base": "wildcraft:block/plant/leafygroundvegetable/burdock_normal*"},
     "*-stingingnettle-*": {"base": "wildcraft:block/plant/stingingnettle/stingingnettle_normal*"},
     "*-lavender-*": {"base": "wildcraft:block/plant/leafygroundvegetable/shrub"},

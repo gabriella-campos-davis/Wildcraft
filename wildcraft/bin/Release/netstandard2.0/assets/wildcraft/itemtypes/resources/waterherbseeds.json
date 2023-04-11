@@ -6,9 +6,14 @@
 	},
 	"maxstacksize": 64,
 	"variantgroups": [
-		{ "code": "herbs", "states": ["waterchestnut", "skunkcabbage"] }
+		{ "code": "herbs", "states": ["skunkcabbage", "tule", "brownsedge", "hardsedge"] }
 	],
-	"texture": { "base": "wildcraft:items/seeds/{herbs}" },
+	"textureByType": {
+		"*-tule": { "base": "wildcraft:items/seeds/softsedge" },
+		"*-hardsedge": { "base": "wildcraft:items/seeds/softsedge" },
+		"*-brownsedge": { "base": "wildcraft:items/seeds/softsedge" },
+		"*": { "base": "wildcraft:items/seeds/{herbs}" }
+	},
 	"creativeinventory": { "general": ["*"], "items": ["*"], "wildcraft": [ "*" ] },
 	"fpHandTransform": {
 		"translation": { "x": 0, "y": 0, "z": 0 },

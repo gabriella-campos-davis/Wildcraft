@@ -1,100 +1,112 @@
 {
-	"code": "waterplant",
-	"class": "BlockReeds",
+    "code": "waterplant",
+    "classByType":{
+        "*": "SaltwaterPlant"
+    },
 	"entityClassByType": {
-		"*-harvested-*": "Transient"
-	},
-	"attributes": {
-		"transientPropsByType": {
-			"waterplant-waterchestnut-*": {
-				"convertFrom": "*-harvested-{cover}", 
-				"convertTo": "waterplant-waterchestnut-land-normal-{cover}", 
-				"inGameHours": "168",
-				"resetBelowTemperature": -4,
-				"stopBelowTemperature": 2
-			}
-		}
+		"*-harvested": "Transient"
 	},
 	"variantgroups": [
-		{ "code": "type", "states": ["waterchestnut"] },
-		{ "code": "habitat", "states": ["land", "water", "ice"] },
-		{ "code": "state", "states": ["normal", "harvested"] },
-		{ "code": "cover", "states": ["free", "snow"] },
+		{ "code": "type", "states": ["pepperdulse", "pickleweed", "wakame"] },
+		{ "code": "state", "states": ["normal", "harvested"] }
 	],
-	allowedVariants: [ 
-		"*-land-*", 
-		"*-water-normal-free",
-		"*-water-harvested-free",
-		"*-ice-normal-free",
-		"*-ice-harvested-free",
-	],
-	creativeinventory: { 
-		"general": ["*-land-normal-free"], 
-		"flora": ["*-land-normal-free"],
-   		"wildcraft": [ "*-land-normal-free" ]
+	"attributes": {
+        "butterflyFeedByType": {
+        "*-normal": true
+        },
+        "beeFeedByType": {
+        "*-normal": true
+        },
+        "transientPropsByType": {
+            "*-normal": {
+                "convertFrom": "*-normal", 
+                "convertTo": "*-harvested", 
+                "inGameHours": "84",
+                "whenAboveTemperature": 12
+            },
+            "*-harvested": {
+                "convertFrom": "*-harvested", 
+                "convertTo": "*-normal", 
+                "inGameHours": "84",
+                "whenBelowTemperature": 8
+            }
+        },
+        "forageStatAffected": true,
+        "hasRootByType":{
+        "*": "false"
+        },
+        "isPoisonousByType":{
+            "*":"false"
+        }
+    },
+    "walkspeedmultiplierByType":{
+        "*": 1
+    },
+    drawtype: "JSONAndWater",
+	renderpass: "liquid",
+	matterstate: "liquid",
+	blockmaterial: "liquid",
+	faceCullMode: "liquid",
+    "randomDrawOffset": true,
+    "texturesByType": {
+        "*-normal": {
+            "leaves": { "base": "wildcraft:block/plant/waterplant/{type}" }
+        },
+        "*-harvested": {
+            "leaves": { "base": "wildcraft:block/plant/waterplant/{type}_harvested*" }
+        }
+    },
+	"creativeinventory": {
+        "general": ["*-normal"],
+        "flora": ["*-normal"],
+        "wildcraft": [ "*-normal" ]
+    },
+    "shapeByType": {
+        "*": {"base": "wildcraft:block/plant/leafygroundvegetable/default_normal"}
+    },
+    "dropsByType": {},
+	"renderpass": "OpaqueNoCull",
+	"blockmaterial": "Plant",
+	"randomizeRotations": true,
+	"sideopaque": {
+		"all": false
 	},
-	shapeByType: {
-		"waterplant-waterchestnut-*": { base: "wildcraft:block/plant/leafygroundvegetable/bushy_normal" },
-		"waterplant-skunkcabbage-*": { base: "wildcraft:block/plant/skunkcabbage*" }
+	"sidesolid": {
+		"all": false
 	},
-	drawtypeByType: {
-		"*-snow": "JSONAndSnowLayer",
-		"*": "JSON"
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 1.5,
+	"collisionbox": null,
+	"selectionBoxByType": {
+        "*": { "x1": 0 , "y1": 0, "z1": 0, "x2": 1, "y2": 1.5, "z2": 1 }
+    },
+    "guiTransformByType": {
+        "*":{
+        "rotation": { "x": -22, "y": 107, "z": 0 },
+        "origin": { "x": 0.3, "y": 0.5, "z": 0.4 },
+        "scale": 1.32
+        }
+    },
+	"groundTransform": {
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 2.5
 	},
-	renderpass: "BlendNoCull",
-	matterstate: "solid",
-	blockmaterial: "plant",
-	faceCullMode: "default",
-	randomDrawOffset: true,
-	randomizeRotations: true,
-	texturesByType: {
-		"*-waterchestnut-*": {
-			"leaves": { base: "wildcraft:block/plant/leafygroundvegetable/{state}/{type}}*" },
-			"leaves": { base: "wildcraft:block/plant/leafygroundvegetable/{state}/{type}" },
-			"leaves": { base: "wildcraft:block/plant/leafygroundvegetable/{state}/{type}" },
-			"leaves": { base: "wildcraft:block/plant/leafygroundvegetable/{state}/{type}" }
-		}
+	"tpHandTransform": {
+		"translation": { "x": -0.93, "y": -0.17, "z": -0.8 },
+		"rotation": { "x": 15, "y": -10, "z": -114 },
+		"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+		"scale": 0.58
 	},
-	sideopaqueByType: {
-		"*-snow": { all: false, down: true },
-		"*": { all: false }
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant",
+        "inside": "walk/water"
 	},
-	sidesolid: { all : false },
-	emitsideao: { all: false },
-	sideao: { all: true },
-	replaceable: 3000,
-	lightAbsorption: 0,
-	resistance: 1,
-	collisionbox: null,
-	selectionbox: {
-		x1: 0, y1: 0, z1: 0,
-		x2: 1, y2: 1, z2: 1
+	"vertexFlags": {
+		"leavesWindWave": true
 	},
-	guitransform: {
-		rotation: { x: 0, y: 0, z: 0 }
-	},
-	sounds: {
-		place: "game:block/plant",
-		break: "game:block/plant",
-		hit: "game:block/plant"
-	},
-	rainPermeableByType: {
-		"*-land-*": true
-	},
-	materialDensity: 200,
-	frostable: true,
-	combustibleProps: {
-		burnTemperature: 600,
-		burnDuration: 10,
-	},
-	guiTransform: {
-		translation: { x: 0, y: -1.5, z: 0 },
-		rotation: { x: 0, y: 0, z: 0 },
-		origin: { x: 0.5, y: 1.2, z: 0.5 },
-		scale: 0.65
-	},
-	dropsByType: {
-		"*-waterchestnut-*-normal-*": [ { type: "item", code: "wildcraft:waterherbs-waterchestnut" } ],
-		"*-waterchestnut-*-harvested-*": [ { type: "item", code: "wildcraft:roots-waterchestnut" } ],
-	}
+	"materialDensity": 200,
+	"frostable": true
 }

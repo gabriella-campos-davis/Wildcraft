@@ -110,7 +110,8 @@
 			"down": { "base": "wildcraft:block/moss/{type}_moss_cushion" }
 		},
 	},
-	renderpass: "BlendNoCull",
+	"renderpass": "OpaqueNoCull",
+	"renderAlphaTest": 0.4,
 	replaceable: 6001,
 	resistance: 1.2,
 	lightAbsorption: 0,

@@ -29,7 +29,8 @@
 
       "*-raspberry-*": "wildcraft:pricklyberrybush-raspberry-empty",
       "*-brambleberry-*": "wildcraft:pricklyberrybush-brambleberry-empty",
-      "*-dogrose-*": "wildcraft:pricklyberrybush-dogrose-empty"
+      "*-dogrose-*": "wildcraft:pricklyberrybush-dogrose-empty",
+      "*-blueraspberry-*": "wildcraft:pricklyberrybush-blueraspberry-empty"
     }
   },
   "variantgroups": [

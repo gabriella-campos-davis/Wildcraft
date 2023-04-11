@@ -9,7 +9,6 @@
 		"arrowhead_bulb": [24,24]
 	},
 	"textures": {
-		"arrowhead_bulb": "wildcraft:block/food/roots/arrowhead_bulb"
 	},
 	"elements": [
 		{
