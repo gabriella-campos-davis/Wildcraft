@@ -19,14 +19,49 @@
           "health": -2,
           "foodcategory": "Vegetable"
         },
+        "*-woodspurge": {
+          "satiety": 35,
+          "health": -1,
+          "foodcategory": "Vegetable"
+        },
+        "*-cicuta": {
+          "satiety": 55,
+          "health": -10,
+          "foodcategory": "Vegetable"
+        },
+        "*-foxglove": {
+          "satiety": 45,
+          "health": -10,
+          "foodcategory": "Vegetable"
+        },
         "*-stingingnettle": {
           "satiety": 45,
           "health": 0,
           "foodcategory": "Vegetable"
         },
+        "*-stjohnswort": {
+          "satiety": 45,
+          "health": -3,
+          "foodcategory": "Vegetable"
+        },
         "*-basil": {
           "satiety": 45,
           "health": 3.5,
+          "foodcategory": "Vegetable"
+        },
+        "*-celandine": {
+          "satiety": 55,
+          "health": -0.5,
+          "foodcategory": "Vegetable"
+        },
+        "*-inula": {
+          "satiety": 55,
+          "health": -0.5,
+          "foodcategory": "Vegetable"
+        },
+        "*-tansy": {
+          "satiety": 55,
+          "health": -0.5,
           "foodcategory": "Vegetable"
         },
         "*": {
@@ -52,13 +87,48 @@
         "health": -1,
         "foodcategory": "Vegetable"
       },
+      "*-woodspurge": {
+        "satiety": 25,
+        "health": -3,
+        "foodcategory": "Vegetable"
+      },
       "*-stingingnettle": {
         "satiety": 30,
         "health": -1,
         "foodcategory": "Vegetable"
       },
+      "*-cicuta": {
+        "satiety": 35,
+        "health": -10,
+        "foodcategory": "Vegetable"
+      },
+      "*-foxglove": {
+        "satiety": 35,
+        "health": -10,
+        "foodcategory": "Vegetable"
+      },
+      "*-stjohnswort": {
+        "satiety": 35,
+        "health": -3,
+        "foodcategory": "Vegetable"
+      },
       "*-basil": {
         "satiety": 25,
+        "foodcategory": "Vegetable"
+      },
+      "*-celandine": {
+        "satiety": 35,
+        "health": -0.5,
+        "foodcategory": "Vegetable"
+      },
+      "*-inula": {
+        "satiety": 35,
+        "health": -0.5,
+        "foodcategory": "Vegetable"
+      },
+      "*-tansy": {
+        "satiety": 35,
+        "health": -0.5,
         "foodcategory": "Vegetable"
       },
       "*": {

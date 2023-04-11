@@ -159,6 +159,9 @@
   "item-simplepoultice-reed-inula": "Inula Poultice (from reeds)",
   "item-simplepoultice-linen-inula": "Inula Poultice (from linen)",
 
+  "item-simplepoultice-reed-jewelweed": "Jewelweed Poultice (from reeds)",
+  "item-simplepoultice-linen-jewelweed": "Jewelweed Poultice (from linen)",
+
   "itemdesc-poultice-*": "A bandage to heal minor wounds",
   "item-handbooktitle-poultice-*": "About:",
   "item-handbooktext-poultice-*": "Poultices are a sort of combination of bandage with other healing components, used to help heal wounds.",	

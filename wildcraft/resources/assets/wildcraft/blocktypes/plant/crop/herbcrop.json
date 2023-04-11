@@ -19,10 +19,10 @@
         "*-woodspurge-2": { "base": "wildcraft:block/plant/clover/woodspurge_small"},
         "*-woodspurge-1": { "base": "wildcraft:block/plant/clover/harvested_woodspurge" },
 
-		"*-1": {"base": "wildcraft:block/plant/leafygroundvegetable/default_normal*"},
-		"*-2": {"base": "wildcraft:block/plant/leafygroundvegetable/default_normal*"},
-		"*-3": {"base": "wildcraft:block/plant/leafygroundvegetable/default_normal*"},
-        "*": {"base": "wildcraft:block/plant/leafygroundvegetable/default_normal*"},
+		"*-1": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal"},
+		"*-2": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal"},
+		"*-3": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal"},
+        "*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal"},
 	},
 	"blockmaterial": "Plant",
 	"texturesByType": {
