@@ -1,6 +1,5 @@
 {
 	"code": "roots",
-	"class": "ItemRoot",
 	"maxstacksize": 64,
 	"attributes": {
 		"inContainerTexture": {

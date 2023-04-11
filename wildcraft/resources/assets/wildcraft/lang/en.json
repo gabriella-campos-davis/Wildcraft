@@ -1045,6 +1045,15 @@
   "item-waterherbs-waterchestnut":"Waterchestnut ends",
   "item-waterherbseeds-waterchestnut":"Waterchestnut Seeds",
 
+  "item-wherbs-waterchestnut":"Waterchestnut ends",
+  "item-herbseeds-waterchestnut":"Waterchestnut Seeds",
+
+  "item-waterherbseeds-hardsedge": "Hardsedge seeds",
+  "item-waterherbseeds-brownsedge": "Brownsedge seeds",
+  "item-waterherbseeds-tule": "Tule seeds",
+
+
+
   "item-roots-waterchestnut":"Water chestnut",
   "item-roots-peeledwaterchestnut":"Peeled water chestnut",
   "recipeingredient-item-roots-peeledwaterchestnut-insturmentalcase": "water chestnut",
@@ -1475,12 +1484,46 @@
   "item-plantfibers-tule": "Tule bundle",
 
   "item-roots-tule": "Tule root",
+  "recipeingredient-item-roots-tule-insturmentalcase": "tule root",
+  "recipeingredient-item-roots-tule": "tule root",
+  "meal-ingredient-soup-secondary-roots-tule": "tule root",
+  "meal-ingredient-stew-secondary-roots-tule": "tule root",
+
   "item-roots-brownsedge": "Brownsedge root",
-  "item-roots-hardsegde": "Hardsegde root",
+  "recipeingredient-item-roots-brownsedge-insturmentalcase": "brownsedge root",
+  "recipeingredient-item-roots-brownsedge": "brownsedge root",
+  "meal-ingredient-soup-secondary-roots-brownsedge": "brownsedge root",
+  "meal-ingredient-stew-secondary-roots-brownsedge": "brownsedge root",
+
+  "item-roots-hardsedge": "Hardsedge root",
+  "recipeingredient-item-roots-hardsedge-insturmentalcase": "hardsedge root",
+  "recipeingredient-item-roots-hardsedge": "hardsedge root",
+  "meal-ingredient-soup-secondary-roots-hardsedge": "hardsedge root",
+  "meal-ingredient-stew-secondary-roots-hardsedge": "hardsedge root",
+
   "item-roots-arrowhead": "Arrowhead root",
+  "recipeingredient-item-roots-arrowhead-insturmentalcase": "arrowhead root",
+  "recipeingredient-item-roots-arrowhead": "arrowhead root",
+  "meal-ingredient-soup-secondary-roots-arrowhead": "arrowhead root",
+  "meal-ingredient-stew-secondary-roots-arrowhead": "arrowhead root",
+
   "item-roots-ginger": "Ginger root",
+  "recipeingredient-item-roots-ginger-insturmentalcase": "ginger root",
+  "recipeingredient-item-roots-ginger": "ginger root",
+  "meal-ingredient-soup-secondary-roots-ginger": "ginger root",
+  "meal-ingredient-stew-secondary-roots-ginger": "ginger root",
+
   "item-roots-ginseng": "Ginseng root",
+  "recipeingredient-item-roots-ginseng-insturmentalcase": "ginseng root",
+  "recipeingredient-item-roots-ginseng": "ginseng root",
+  "meal-ingredient-soup-secondary-roots-ginseng": "ginseng root",
+  "meal-ingredient-stew-secondary-roots-ginseng": "ginseng root",
+
   "item-roots-burnet": "Burnet root",
+  "recipeingredient-item-roots-burnet-insturmentalcase": "burnet root",
+  "recipeingredient-item-roots-burnet": "burnet root",
+  "meal-ingredient-soup-secondary-roots-burnet": "burnet root",
+  "meal-ingredient-stew-secondary-roots-ginseburnetng": "burnet root",
 
 
 

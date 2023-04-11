@@ -53,6 +53,9 @@
     "hasRootByType":{
         "*-bearleek-*": "true",
         "*-marshmallow-*": "true",
+        "*-burnet-*": "true",
+        "*-ginger-*": "true",
+        "*-ginseng-*": "true",
         "*": "false"
     },
     "isPoisonousByType":{

@@ -71,7 +71,7 @@
     "*-minerslettuce-normal": { "base": "wildcraft:block/plant/clover/minerslettuce_normal" },
     "*-minerslettuce-flowering": { "base": "wildcraft:block/plant/clover/minerslettuce_sprouting" },
     "*-woodspurge-normal": { "base": "wildcraft:block/plant/clover/woodspurge*" },
-    "*-woodspurge-flowering": { "base": "wildcraft:block/plant/clover/woodspurge_small" },
+    "*-woodspurge-flowering": { "base": "wildcraft:block/plant/clover/harvested_woodspurge" },
     "*-flowering": {"base": "wildcraft:block/plant/clover/{type}_flowering"},
     "*-normal": {"base": "wildcraft:block/plant/clover/{type}_normal"}
   },
