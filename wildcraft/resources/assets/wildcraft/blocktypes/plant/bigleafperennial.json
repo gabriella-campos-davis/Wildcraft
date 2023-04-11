@@ -1,7 +1,6 @@
 {
 	"code": "leafyperennialplant",
 	"classByType":{
-    "*-tule-*": "WaterPlant",
     "*": "WildcraftPlant"
   },
 	"entityClassByType": {
@@ -61,6 +60,9 @@
   },
   "randomDrawOffset": true,
   "texturesByType": {
+    "*-harvested": {
+      "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/harvested/{type}*" }
+    },
     "*":{
       "stem": {"base": "wildcraft:block/plant/butterbur/{type}"},
       "leaf_big": {"base": "wildcraft:block/plant/butterbur/{type}_leaf_big"},
@@ -73,6 +75,8 @@
     "wildcraft": [ "*-normal" ]
   },
   "shapeByType": {
+    "*-normal": {"base": "wildcraft:block/plant/butterbur/butterbur_normal"},
+    "*-harvested": {"base": "wildcraft:block/plant/leafygroundvegetable/bushy_untinted"},
     "*": {"base": "wildcraft:block/plant/butterbur/butterbur_normal"}
   },
 	"renderpass": "BlendNoCull",

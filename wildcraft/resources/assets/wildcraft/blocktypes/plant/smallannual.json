@@ -123,18 +123,18 @@
 	"materialDensity": 200,
 	"frostable": true,
   "dropsByType": {
-    "smallannual-minerslettuce-normal": [
+    "smallannualplant-minerslettuce-normal": [
       {
         "type": "item",
         "code": "wildcraft:herbs-{type}",
         "quantity": { "avg": 1.6 }
       }
     ],
-    "smallannual-minerslettuce-flowering": [
+    "smallannualplant-woodspurge-normal": [
       {
         "type": "item",
         "code": "wildcraft:herbs-{type}",
-        "quantity": { "avg": 0.9 }
+        "quantity": { "avg": 1.6 }
       }
     ]
   }

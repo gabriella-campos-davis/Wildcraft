@@ -82,8 +82,8 @@
 
     "*-lavender-*": {"base": "wildcraft:block/plant/leafygroundvegetable/shrub"},
 
-    "*-rosemary-*":{"base": "wildcraft:block/plant/leafygroundvegetable/bushytest/bushy_test*"},
-    "*-thyme-*":{"base": "wildcraft:block/plant/leafygroundvegetable/bushytest/bushy_test*"},
+    "*-rosemary-*":{"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-thyme-*":{"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
 
     "@.*-(rosemary|thyme)": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
     "*": {"base": "wildcraft:block/plant/leafygroundvegetable/default_normal"}

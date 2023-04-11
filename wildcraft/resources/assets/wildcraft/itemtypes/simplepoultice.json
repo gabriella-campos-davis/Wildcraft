@@ -2,19 +2,28 @@
   "code": "simplepoultice",
   "class": "WildcraftPoultice",
   "attributes": {
-    "healthByType": {
-      "@.*-reed-(stjohnswort|inula)": 2,
-      "@.*-linen-(stjohnswort|inula)": 4,
-      "*-reed-poisonoak": 1,
-      "*-linen-poisonoak": 3,
-      "*-reed-celandine": 3,
-      "*-linen-celandine": 5
+    "materialHealthByType":{
+      "*-reed-*": 1,
+      "*-linen-*": 3
+    },
+    "primaryHealthByType":{
+      "*-honey-sulfur-*": 3,
+      "*-horsetail-*": 1,
+      "*-stjohnswort-*": 1,
+      "*-poisonoak-*": 1,
+      "*-inula-*": 2,
+      "*-celandine-*": 2,
+      "*-jewelweed-*": 2
+    },
+    "curesRashByType":{
+      "*-jewelweed-*": true,
+      "*": false
     }
   },
   "maxstacksize": 16,
   "variantgroups": [
     { "code": "material", "states": ["linen", "reed"] },
-    { "code": "primary", "states": ["stjohnswort", "poisonoak", "inula", "celandine"] }
+    { "code": "primary", "states": ["stjohnswort", "poisonoak", "inula", "celandine", "jewelweed"] }
   ],
   "shape": { "base": "wildcraft:item/medicine/{material}/{material}" },
   "textures": {

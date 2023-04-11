@@ -74,7 +74,10 @@ namespace wildcraft
             ICoreServerAPI sapi = Api as ICoreServerAPI;
 
             Block block = Api.World.BlockAccessor.GetBlock(Pos);
-            if(plantCode is null) return;
+            if(this.Block.Attributes["plantCodeByType"] == null){
+                Api.World.Logger.Debug("plantCode is null for " + this.Block.Variant["type"].ToString());
+                return;
+            }
             Block herbBlock = Api.World.GetBlock(AssetLocation.Create(plantCode));
 
             if(herbBlock is null)

@@ -1,5 +1,8 @@
 {
-	code: "tuletops",
+	code: "plantfibers",
+	"variantgroups": [
+		{ "code": "type", "states": [ "tule", "brownsedge", "hardsedge"] }
+	],
 	shape: { base: "wildcraft:item/tule" },
 	texture: { base: "game:item/resource/reeds" },
 	creativeinventory: { "general": ["*"], "items": ["*"], "wildcraft": ["*"] },

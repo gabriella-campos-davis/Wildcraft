@@ -20,6 +20,7 @@ namespace wildcraft
             
         }
 
+        /*
         public override void OnJsonTesselation(ref MeshData sourceMesh, ref int[] lightRgbsByCorner, BlockPos pos, Block[] chunkExtBlocks, int extIndex3d)
         {
             if(api.World.BlockAccessor.GetBlock(pos.X, pos.Y, pos.AddCopy(0, 0, -1).Z ).FirstCodePart(1) == "duckweed")
@@ -55,6 +56,8 @@ namespace wildcraft
             }
 
         }
+        */
+        
         public override bool TryPlaceBlock(IWorldAccessor world, IPlayer byPlayer, ItemStack itemstack, BlockSelection blockSel, ref string failureCode)
         {
             if (CanPlantStay(world.BlockAccessor, blockSel.Position.UpCopy()))

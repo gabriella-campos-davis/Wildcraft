@@ -27,14 +27,15 @@
   
         "*-raspberry-*": "wildcraft:pricklyberrybush-raspberry-empty",
         "*-brambleberry-*": "wildcraft:pricklyberrybush-brambleberry-empty",
-        "*-dogrose-*": "wildcraft:pricklyberrybush-dogrose-empty"
+        "*-dogrose-*": "wildcraft:pricklyberrybush-dogrose-empty",
+        "*-blueraspberry-*": "wildcraft:pricklyberrybush-blueraspberry-empty"
       },
       "isGrowth": true
     },
     "variantgroups": [
       {
         "code": "type",
-        "states": [ "huckleberry", "snowberry", "raspberry", "brambleberry", "dogrose", "gooseberry", "honeysuckle", "elderberry", "redcurrant", "blackcurrant", "whitecurrant", "blueberry", "cranberry"]
+        "states": [ "huckleberry", "snowberry", "raspberry", "brambleberry", "dogrose", "gooseberry", "honeysuckle", "elderberry", "redcurrant", "blackcurrant", "whitecurrant", "blueberry", "cranberry", "blueraspberry"]
       },
       {
         "code": "state",

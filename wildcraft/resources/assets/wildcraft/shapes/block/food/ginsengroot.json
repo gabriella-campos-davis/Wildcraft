@@ -9,7 +9,6 @@
 		"ginseng_root": [24,24]
 	},
 	"textures": {
-		"ginseng_root": "wildcraft:block/food/roots/ginseng_root"
 	},
 	"elements": [
 		{

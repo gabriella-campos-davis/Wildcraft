@@ -90,21 +90,20 @@
     "wildcraft": [ "*-normal" ]
   },
   "shapeByType": {
-    "*-sedge-*": {"base": "wildcraft:block/plant/leafygroundvegetable/bushy_normal"},
     "*-burdock-normal*": {"base": "wildcraft:block/plant/leafygroundvegetable/burdock_normal1"},
     "*-thistle-normal*": {"base": "wildcraft:block/plant/leafygroundvegetable/burdock_normal*"},
     "*-stingingnettle-*": {"base": "wildcraft:block/plant/stingingnettle/stingingnettle_normal*"},
     "*-lavender-*": {"base": "wildcraft:block/plant/leafygroundvegetable/shrub"},
 
-    "*-celery-*": {"base": "wildcraft:block/plant/leafygroundvegetable/bushytest/bushy_test*"},
-    "*-basil-*": {"base": "wildcraft:block/plant/leafygroundvegetable/bushytest/bushy_test*"},
-    "*-chamomile-*": {"base": "wildcraft:block/plant/leafygroundvegetable/bushytest/bushy_test*"},
-    "*-cilantro-*": {"base": "wildcraft:block/plant/leafygroundvegetable/bushytest/bushy_test*"},
-    "*-dill-*": {"base": "wildcraft:block/plant/leafygroundvegetable/bushytest/bushy_test*"},
-    "*-dock-*": {"base": "wildcraft:block/plant/leafygroundvegetable/bushytest/bushy_test*"},
-    "*-mustard-*": {"base": "wildcraft:block/plant/leafygroundvegetable/bushytest/bushy_test*"},
-    "*-chicory-*": {"base": "wildcraft:block/plant/leafygroundvegetable/bushytest/bushy_test*"},
-    "*-marigold-*": {"base": "wildcraft:block/plant/leafygroundvegetable/bushytest/bushy_test*"},
+    "*-celery-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-basil-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-chamomile-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-cilantro-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-dill-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-dock-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-mustard-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-chicory-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
+    "*-marigold-*": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},
 
 
     "@*-(celery|basil|chamomile|cilantro|dill|dock|mustard|chicory|marigold)": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal*"},

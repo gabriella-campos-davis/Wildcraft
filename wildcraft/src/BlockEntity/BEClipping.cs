@@ -95,6 +95,11 @@ namespace wildcraft
                 return;
             }
 
+            if(this.Block.Attributes["bushCodeByType"] == null){
+                Api.World.Logger.Debug("bushCode is null for " + this.Block.Variant["type"].ToString());
+                return;
+            }
+
             DoGrow("alive");
             
         }

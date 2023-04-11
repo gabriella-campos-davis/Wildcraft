@@ -3,7 +3,7 @@
   "ingredientPattern": "H,L,_",
   "ingredients": {
     "L": { "type": "block", "code": "game:linen-*" },
-    "H": { "type": "item", "code": "wildcraft:herbs-*", "quantity": 4, "name": "herb", "allowedVariants": ["stjohnswort", "poisonoak", "inula", "celandine"] }
+    "H": { "type": "item", "code": "wildcraft:herbs-*", "quantity": 4, "name": "herb", "allowedVariants": ["stjohnswort", "poisonoak", "inula", "celandine", "jewelweed"] }
   },
   "width": 1,
   "height": 3,

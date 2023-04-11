@@ -5,9 +5,18 @@
 		"handbook": {
 			"groupBy": ["herbseeds-*", "waterherbseeds-*", "seeds"]
 		},
-		"waterplant": "false",
+		"waterPlantByType":{
+			"*-waterchestnut": "true",
+			"*-skunkcabbage": "true",
+			"*-tule": "true",
+			"*-hardsedge": "true",
+			"*-brownsedge": "true",
+			"*-softsedge": "true",
+			"*-arrowhead": "true",
+			"*": false
+		},
 		"isCropByType":{
-			"*-(lavender|rosemary|sage|sedge|thyme|mugwort|burdock|poisonoak|holly|inula|plantain|saltwort)": "false",
+			"*-(lavender|rosemary|sage|sedge|thyme|mugwort|burdock|poisonoak|holly|inula|plantain|saltwort|waterchestnut|arrowhead|skunkcabbage|tule|brownsedge|hardsedge)": "false",
 			"*": "true"
 		} 
 	},

@@ -64,6 +64,8 @@
     "*": {"base": "wildcraft:block/plant/leafygroundvegetable/bushy_untinted"}
   },
   "dropsByType": {
+    "*-arrowhead-normal": [ { "type": "item", "code": "wildcraft:herbs-arrowhead","quantity": { "avg": 2.5 } } ],
+    "*-arrowhead-harvested": [ { "type": "item", "code": "wildcraft:roots-arrowhead" } ]
 	},
 	"renderpass": "OpaqueNoCull",
 	"blockmaterial": "Plant",
