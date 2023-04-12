@@ -19,6 +19,9 @@
         "*-woodspurge-2": { "base": "wildcraft:block/plant/clover/woodspurge_small"},
         "*-woodspurge-1": { "base": "wildcraft:block/plant/clover/harvested_woodspurge" },
 
+		"*-rhubarb-3": {"base": "wildcraft:block/plant/butterbur/butterbur_normal"},
+		"*-butterbur-3": {"base": "wildcraft:block/plant/butterbur/butterbur_normal"},
+
 		"*-1": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal"},
 		"*-2": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal"},
 		"*-3": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal"},
@@ -37,6 +40,30 @@
         "*-minerslettuce-1": { 		
 			"stems": { "base": "wildcraft:block/plant/clover/minerslettuce_shoots_stems" }
 		},
+
+		"*rhubarb-1": {
+            "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/harvested/{herbcrops}*" }
+        },
+        "*rhubarb-2": {
+            "leaves": { "base": "wildcraft:block/plant/seedling/{herbcrops}*" }
+        },
+        "*rhubarb-3": {
+            "stem": {"base": "wildcraft:block/plant/butterbur/{herbcrops}"},
+      		"leaf_big": {"base": "wildcraft:block/plant/butterbur/{herbcrops}_leaf_big"},
+      		"leaf_small": {"base": "wildcraft:block/plant/butterbur/{herbcrops}_leaf_small"}
+        },
+
+		"*butterbur-1": {
+            "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/harvested/{herbcrops}*" }
+        },
+        "*butterbur-2": {
+            "leaves": { "base": "wildcraft:block/plant/seedling/{herbcrops}*" }
+        },
+        "*butterbur-3": {
+            "stem": {"base": "wildcraft:block/plant/butterbur/{herbcrops}"},
+      		"leaf_big": {"base": "wildcraft:block/plant/butterbur/{herbcrops}_leaf_big"},
+      		"leaf_small": {"base": "wildcraft:block/plant/butterbur/{herbcrops}_leaf_small"}
+        },
 
         "*-1": {
             "leaves": { "base": "wildcraft:block/plant/seedling/{herbcrops}*" }
