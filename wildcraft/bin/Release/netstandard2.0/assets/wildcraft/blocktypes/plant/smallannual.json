@@ -65,7 +65,7 @@
       "stems": {"base": "wildcraft:block/plant/clover/caltha_stems"},
       "flowers": {"base": "wildcraft:block/plant/clover/caltha_flowers"},
       "leaves": {"base": "wildcraft:block/plant/clover/caltha_leaves"},
-    },
+    }
   },
   "shapeByType": {
     "*-minerslettuce-normal": { "base": "wildcraft:block/plant/clover/minerslettuce_normal" },

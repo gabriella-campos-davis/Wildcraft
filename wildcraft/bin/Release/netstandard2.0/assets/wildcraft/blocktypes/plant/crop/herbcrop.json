@@ -19,6 +19,9 @@
         "*-woodspurge-2": { "base": "wildcraft:block/plant/clover/woodspurge_small"},
         "*-woodspurge-1": { "base": "wildcraft:block/plant/clover/harvested_woodspurge" },
 
+		"*-rhubarb-3": {"base": "wildcraft:block/plant/butterbur/butterbur_normal"},
+		"*-butterbur-3": {"base": "wildcraft:block/plant/butterbur/butterbur_normal"},
+
 		"*-1": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal"},
 		"*-2": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal"},
 		"*-3": {"base": "wildcraft:block/plant/leafygroundvegetable/default/default_normal"},
@@ -38,6 +41,30 @@
 			"stems": { "base": "wildcraft:block/plant/clover/minerslettuce_shoots_stems" }
 		},
 
+		"*rhubarb-1": {
+            "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/harvested/{herbcrops}*" }
+        },
+        "*rhubarb-2": {
+            "leaves": { "base": "wildcraft:block/plant/seedling/{herbcrops}*" }
+        },
+        "*rhubarb-3": {
+            "stem": {"base": "wildcraft:block/plant/butterbur/{herbcrops}"},
+      		"leaf_big": {"base": "wildcraft:block/plant/butterbur/{herbcrops}_leaf_big"},
+      		"leaf_small": {"base": "wildcraft:block/plant/butterbur/{herbcrops}_leaf_small"}
+        },
+
+		"*butterbur-1": {
+            "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/harvested/{herbcrops}*" }
+        },
+        "*butterbur-2": {
+            "leaves": { "base": "wildcraft:block/plant/seedling/{herbcrops}*" }
+        },
+        "*butterbur-3": {
+            "stem": {"base": "wildcraft:block/plant/butterbur/{herbcrops}"},
+      		"leaf_big": {"base": "wildcraft:block/plant/butterbur/{herbcrops}_leaf_big"},
+      		"leaf_small": {"base": "wildcraft:block/plant/butterbur/{herbcrops}_leaf_small"}
+        },
+
         "*-1": {
             "leaves": { "base": "wildcraft:block/plant/seedling/{herbcrops}*" }
         },
@@ -51,18 +78,18 @@
 	"attributes": {
 		"butterflyFeedByType": {
 			"*-1": false,
-			"*-5": false,
+			"*-2": false,
 			"*": true
 		},
 		"beeFeedByType": {
 			"*-1": false,
-			"*-5": false,
+			"*-2": false,
 			"*": true
 		},
 		"sitHeight": 0.3,
 		"tickGrowthProbability": 0.05,
 		"handbook": {
-			"include": true
+			"include": false
 		}
 	},
 	"sideopaque": {
@@ -84,27 +111,42 @@
 		"*-bearleek-3":[
 			{ "type": "item", "code": "wildcraft:herbseeds-{herbcrops}", "quantity": { "avg": 1.1 }  },
 			{ "type": "item", "code": "wildcraft:herbs-{herbcrops}", "quantity": { "avg": 2 }  },
-			{ "type": "item", "code": "wildcraft:roots-{herbcrops}", "quantity": { "avg": 1.5}  },
+			{ "type": "item", "code": "wildcraft:roots-{herbcrops}", "quantity": { "avg": 1.5}  }
 		],
 		"*-marshmallow-3":[
 			{ "type": "item", "code": "wildcraft:herbseeds-{herbcrops}", "quantity": { "avg": 1.1 }  },
 			{ "type": "item", "code": "wildcraft:herbs-{herbcrops}", "quantity": { "avg": 2 }  },
-			{ "type": "item", "code": "wildcraft:roots-{herbcrops}", "quantity": { "avg": 1.5}  },
+			{ "type": "item", "code": "wildcraft:roots-{herbcrops}", "quantity": { "avg": 1.5}  }
 		],
 		"*-chicory-3":[
 			{ "type": "item", "code": "wildcraft:herbseeds-{herbcrops}", "quantity": { "avg": 1.1 }  },
 			{ "type": "item", "code": "wildcraft:herbs-{herbcrops}", "quantity": { "avg": 2 }  },
-			{ "type": "item", "code": "wildcraft:roots-{herbcrops}", "quantity": { "avg": 1.5}  },
+			{ "type": "item", "code": "wildcraft:roots-{herbcrops}", "quantity": { "avg": 1.5}  }
 		], 
 		"*-liquorice-3":[
 			{ "type": "item", "code": "wildcraft:herbseeds-{herbcrops}", "quantity": { "avg": 1.1 }  },
 			{ "type": "item", "code": "wildcraft:herbs-{herbcrops}", "quantity": { "avg": 2 }  },
-			{ "type": "item", "code": "wildcraft:roots-{herbcrops}", "quantity": { "avg": 1.5}  },
+			{ "type": "item", "code": "wildcraft:roots-{herbcrops}", "quantity": { "avg": 1.5}  }
 		],  
 		"*-celery-3":[
 			{ "type": "item", "code": "wildcraft:herbseeds-{herbcrops}", "quantity": { "avg": 1.1 }  },
 			{ "type": "item", "code": "wildcraft:herbs-{herbcrops}", "quantity": { "avg": 2 }  },
-			{ "type": "item", "code": "wildcraft:roots-{herbcrops}", "quantity": { "avg": 2.0}  },
+			{ "type": "item", "code": "wildcraft:roots-{herbcrops}", "quantity": { "avg": 2.0}  }
+		],
+		"*-burnet-3":[
+			{ "type": "item", "code": "wildcraft:herbseeds-{herbcrops}", "quantity": { "avg": 1.1 }  },
+			{ "type": "item", "code": "wildcraft:herbs-{herbcrops}", "quantity": { "avg": 2 }  },
+			{ "type": "item", "code": "wildcraft:roots-{herbcrops}", "quantity": { "avg": 2.0}  }
+		],
+		"*-ginger-3":[
+			{ "type": "item", "code": "wildcraft:herbseeds-{herbcrops}", "quantity": { "avg": 1.1 }  },
+			{ "type": "item", "code": "wildcraft:herbs-{herbcrops}", "quantity": { "avg": 2 }  },
+			{ "type": "item", "code": "wildcraft:roots-{herbcrops}", "quantity": { "avg": 2.0}  }
+		],
+		"*-ginseng-3":[
+			{ "type": "item", "code": "wildcraft:herbseeds-{herbcrops}", "quantity": { "avg": 1.1 }  },
+			{ "type": "item", "code": "wildcraft:herbs-{herbcrops}", "quantity": { "avg": 2 }  },
+			{ "type": "item", "code": "wildcraft:roots-{herbcrops}", "quantity": { "avg": 2.0}  }
 		],
 		"*-3": [
 			{ "type": "item", "code": "wildcraft:herbseeds-{herbcrops}", "quantity": { "avg": 1.1 }  },
@@ -119,7 +161,7 @@
 		]
 	},
 	"cropProps": {
-		"__comment": "Use 1/3 cup of a nitrogen-based fertilizer, such as 34-0-0 or 21-0-0 - http://homeguides.sfgate.com/fertilize-turnips-24795.html",
+		"__comment": "",
 		"requiredNutrient": "N",
 		"nutrientConsumption": 30,
 		"growthStages": 3,
