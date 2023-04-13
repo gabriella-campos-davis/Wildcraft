@@ -53,6 +53,62 @@
       		"leaf_small": {"base": "wildcraft:block/plant/butterbur/{herbcrops}_leaf_small"}
         },
 
+		"*chicory-1": {
+            "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/harvested/{herbcrops}*" }
+        },
+        "*chicory-2": {
+            "leaves": { "base": "wildcraft:block/plant/seedling/{herbcrops}*" }
+        },
+
+		"*softsedge-1": {
+            "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/harvested/{herbcrops}*" }
+        },
+        "*softsedge-2": {
+            "leaves": { "base": "wildcraft:block/plant/seedling/{herbcrops}*" }
+        },
+
+		"*basil-1": {
+            "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/harvested/{herbcrops}*" }
+        },
+        "*basil-2": {
+            "leaves": { "base": "wildcraft:block/plant/seedling/{herbcrops}*" }
+        },
+
+		"*celery-1": {
+            "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/harvested/{herbcrops}*" }
+        },
+        "*celery-2": {
+            "leaves": { "base": "wildcraft:block/plant/seedling/{herbcrops}*" }
+        },
+
+		"*dill-1": {
+            "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/harvested/{herbcrops}*" }
+        },
+        "*dill-2": {
+            "leaves": { "base": "wildcraft:block/plant/seedling/{herbcrops}*" }
+        },
+
+		"*chamomile-1": {
+            "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/harvested/{herbcrops}*" }
+        },
+        "*chamomile-2": {
+            "leaves": { "base": "wildcraft:block/plant/seedling/{herbcrops}*" }
+        },
+
+		"*bearleek-1": {
+            "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/harvested/{herbcrops}*" }
+        },
+        "*bearleek-2": {
+            "leaves": { "base": "wildcraft:block/plant/seedling/{herbcrops}*" }
+        },
+
+		"*yarrow-1": {
+            "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/harvested/{herbcrops}*" }
+        },
+        "*yarrow-2": {
+            "leaves": { "base": "wildcraft:block/plant/seedling/{herbcrops}*" }
+        },
+
 		"*butterbur-1": {
             "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/harvested/{herbcrops}*" }
         },
@@ -160,13 +216,143 @@
 			{ "type": "item", "code": "wildcraft:herbseeds-{herbcrops}", "quantity": { "avg": 0.6 }  },
 		]
 	},
-	"cropProps": {
-		"__comment": "",
-		"requiredNutrient": "N",
-		"nutrientConsumption": 30,
-		"growthStages": 3,
-		"totalGrowthMonths": 0.5,
-		"heatDamageAbove": 27
+	"cropPropsByType": {
+		"*-basil-*": {
+			"__comment": "",
+			"requiredNutrient": "N",
+			"nutrientConsumption": 15,
+			"growthStages": 3,
+			"totalGrowthMonths": 0.5,
+			"heatDamageAbove": 42
+		},
+		"*-marigold-*": {
+			"__comment": "",
+			"requiredNutrient": "N",
+			"nutrientConsumption": 15,
+			"growthStages": 3,
+			"totalGrowthMonths": 0.5,
+			"heatDamageAbove": 42
+		},
+		"*-blackpepper-*": {
+			"__comment": "",
+			"requiredNutrient": "P",
+			"nutrientConsumption": 30,
+			"growthStages": 3,
+			"totalGrowthMonths": 0.5,
+			"heatDamageAbove": 42
+		},
+		"*-ginger-*": {
+			"__comment": "",
+			"requiredNutrient": "K",
+			"nutrientConsumption": 25,
+			"growthStages": 3,
+			"totalGrowthMonths": 0.5,
+			"heatDamageAbove": 42
+		},
+		"*-rockrose-*": {
+			"__comment": "",
+			"requiredNutrient": "K",
+			"nutrientConsumption": 25,
+			"growthStages": 3,
+			"totalGrowthMonths": 0.5,
+			"heatDamageAbove": 42
+		},
+		"*-yarrow-*": {
+			"__comment": "",
+			"requiredNutrient": "K",
+			"nutrientConsumption": 20,
+			"growthStages": 3,
+			"totalGrowthMonths": 0.5,
+			"heatDamageAbove": 40
+		},
+		"*-dill-*": {
+			"__comment": "",
+			"requiredNutrient": "P",
+			"nutrientConsumption": 15,
+			"growthStages": 3,
+			"totalGrowthMonths": 0.5,
+			"heatDamageAbove": 32
+		},
+		"*-jewelweed-*": {
+			"__comment": "",
+			"requiredNutrient": "P",
+			"nutrientConsumption": 25,
+			"growthStages": 3,
+			"totalGrowthMonths": 0.5,
+			"heatDamageAbove": 28
+		},
+		"*-ginseng-*": {
+			"__comment": "",
+			"requiredNutrient": "K",
+			"nutrientConsumption": 25,
+			"growthStages": 3,
+			"totalGrowthMonths": 0.5,
+			"heatDamageAbove": 24
+		},
+		"*-dock-*": {
+			"__comment": "",
+			"requiredNutrient": "N",
+			"nutrientConsumption": 15,
+			"growthStages": 3,
+			"totalGrowthMonths": 0.5,
+			"heatDamageAbove": 34
+		},
+		"*-stjohnswort-*": {
+			"__comment": "",
+			"requiredNutrient": "N",
+			"nutrientConsumption": 15,
+			"growthStages": 3,
+			"totalGrowthMonths": 0.5,
+			"heatDamageAbove": 34
+		},
+		"*-marjoram-*": {
+			"__comment": "",
+			"requiredNutrient": "P",
+			"nutrientConsumption": 30,
+			"growthStages": 3,
+			"totalGrowthMonths": 0.5,
+			"heatDamageAbove": 34
+		},
+		"*-marshmallow-*": {
+			"__comment": "",
+			"requiredNutrient": "P",
+			"nutrientConsumption": 25,
+			"growthStages": 3,
+			"totalGrowthMonths": 0.5,
+			"heatDamageAbove": 28
+		},
+		"*-foxglove-*": {
+			"__comment": "",
+			"requiredNutrient": "P",
+			"nutrientConsumption": 25,
+			"growthStages": 3,
+			"totalGrowthMonths": 0.5,
+			"heatDamageAbove": 28
+		},
+		"*-celery-*": {
+			"__comment": "",
+			"requiredNutrient": "K",
+			"nutrientConsumption": 20,
+			"growthStages": 3,
+			"totalGrowthMonths": 0.5,
+			"heatDamageAbove": 40
+		},
+		"*-stingingnettle-*": {
+			"__comment": "",
+			"requiredNutrient": "K",
+			"nutrientConsumption": 25,
+			"growthStages": 3,
+			"totalGrowthMonths": 0.5,
+			"heatDamageAbove": 27
+		},
+		"*": {
+			"__comment": "",
+			"requiredNutrient": "N",
+			"nutrientConsumption": 25,
+			"growthStages": 3,
+			"totalGrowthMonths": 0.5,
+			"heatDamageAbove": 27
+		}
 	},
 	"collisionbox": null,
 	"selectionbox": { "x1": 0.0625, "y1": 0, "z1": 0.0625, "x2": 0.9375, "y2": 0.25, "z2": 0.9375 },
