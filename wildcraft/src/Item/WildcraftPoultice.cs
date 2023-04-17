@@ -53,7 +53,17 @@ namespace wildcraft
 
                 float health = materialHealth + primaryHealth + secondaryHealth;
 
+                double time = 8 - secondaryHealth;
+
                 bool isHealingOverTimeEnabled = WildcraftConfig.Current.poulticeHealOverTime;
+
+                /*
+                following line for vanilla poultice health attributes. 
+                (i could make a patch to give them proper health properties,
+                but I tried and it wasn't working and it's late while i'm coding
+                it and this is easier right now.)
+                */
+                if(attr["health"].Exists) health = attr["health"].AsFloat(); 
 
                 if(!isHealingOverTimeEnabled){
                     byEntity.ReceiveDamage(new DamageSource()
@@ -69,7 +79,7 @@ namespace wildcraft
                     // only consume item and apply buff if there isn't a buff already active
                     if (!isPoulticeActive) {
                         var buff = new PoulticeBuff();
-                        buff.init(health);
+                        buff.init(health, time);
                         buff.Apply(entitySel?.Entity != null ? entitySel.Entity : byEntity);
 
                         if(isRashDebuff && curesRash){
