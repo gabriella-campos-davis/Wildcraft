@@ -82,7 +82,9 @@
 		"*-liquorice": { "satiety": 80, "foodcategory": "Vegetable" },
 		"*-peeledwaterchestnut": { "satiety": 60, "foodcategory": "Vegetable" },
 		"*-tule": { "satiety": 80, "foodcategory": "Vegetable" },
-		"*-celery": { "satiety": 100, "foodcategory": "Vegetable" }
+		"*-celery": { "satiety": 100, "foodcategory": "Vegetable" },
+		"*-ginseng": { "satiety": 100, "foodcategory": "Vegetable" },
+		"*-arrowhead": { "satiety": 100, "foodcategory": "Vegetable" }
 	},
 	"transitionablePropsByType": {
 		"*-waterchestnut": [{

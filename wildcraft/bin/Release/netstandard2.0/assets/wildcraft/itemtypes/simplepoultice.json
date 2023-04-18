@@ -7,13 +7,14 @@
       "*-linen-*": 3
     },
     "primaryHealthByType":{
-      "*-honey-sulfur-*": 3,
-      "*-horsetail-*": 1,
-      "*-stjohnswort-*": 1,
-      "*-poisonoak-*": 1,
-      "*-inula-*": 2,
-      "*-celandine-*": 2,
-      "*-jewelweed-*": 2
+      "*-stjohnswort": 1,
+      "*-poisonoak": 1,
+      "*-inula": 2,
+      "*-celandine": 2,
+      "*-jewelweed": 2
+    },
+    "secondaryHealthByType":{
+      "*": 0
     },
     "curesRashByType":{
       "*-jewelweed-*": true,

@@ -1,10 +1,11 @@
-using System.Collections.Generic;
 using Vintagestory.API.Client;
 using Vintagestory.API.Common;
 using Vintagestory.API.MathTools;
 using Vintagestory.API.Util;
 using Vintagestory.GameContent;
+using System.Collections.Generic;
 using System.Linq;
+using System;
 using Vintagestory.API.Common.Entities;
 using wildcraft.config;
 using wildcraft;
@@ -17,7 +18,6 @@ namespace wildcraft
         public override void OnLoaded(ICoreAPI api)
         {
             base.OnLoaded(api);
-            
         }
 
         /*
@@ -66,7 +66,7 @@ namespace wildcraft
                 blockSel.Position = blockSel.Position.Up();
                 return base.TryPlaceBlock(world, byPlayer, itemstack, blockSel, ref failureCode);
             }
-
+            
             failureCode = "requirefullwater";
 
             return false;
@@ -76,6 +76,7 @@ namespace wildcraft
         {
             Block block = blockAccessor.GetBlock(pos.DownCopy(), BlockLayersAccess.Fluid);
             Block upblock = blockAccessor.GetBlock(pos, BlockLayersAccess.Fluid);
+            if (blockAccessor.GetBlock(pos.X, pos.Y - 5, pos.Z, BlockLayersAccess.Fluid).Id != 0) return false;
             return block.IsLiquid() && block.LiquidLevel == 7 && block.LiquidCode == "water" && upblock.Id==0;
         }
 
@@ -85,6 +86,19 @@ namespace wildcraft
             if (blockAccessor.GetBlock(pos.X, pos.Y - 5, pos.Z, BlockLayersAccess.Fluid).Id != 0) return false;
 
             return base.TryPlaceBlockForWorldGen(blockAccessor, pos, onBlockFace, worldGenRand);
+        }
+
+        public override bool ShouldReceiveServerGameTicks(IWorldAccessor world, BlockPos pos, Random offThreadRandom, out object extra)
+        {
+            extra = null;
+            ClimateCondition conds = world.BlockAccessor.GetClimateAt(pos, EnumGetClimateMode.NowValues);
+            float chance = conds == null ? 0 : GameMath.Clamp(-(conds.Temperature - 4f) / 20f, 0, 1);
+            return offThreadRandom.NextDouble() < chance;
+        }
+
+        public override void OnServerGameTick(IWorldAccessor world, BlockPos pos, object extra = null)
+        {
+            world.BlockAccessor.SetBlock(0, pos);
         }
 
         public override ItemStack[] GetDrops(IWorldAccessor world, BlockPos pos, IPlayer byPlayer, float dropQuantityMultiplier = 1)

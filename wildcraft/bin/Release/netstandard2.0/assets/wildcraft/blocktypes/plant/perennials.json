@@ -1,7 +1,6 @@
 {
 	"code": "perennialplant",
 	"classByType":{
-    "*-tule-*": "WaterPlant",
     "*": "WildcraftPlant"
   },
 	"entityClassByType": {
@@ -166,6 +165,27 @@
       {
         "type": "item",
         "code": "wildcraft:roots-marshmallow",
+        "quantity": { "avg": 1.2 }
+      }
+    ],
+    "*-burnet-harvested": [
+      {
+        "type": "item",
+        "code": "wildcraft:roots-burnet",
+        "quantity": { "avg": 1.2 }
+      }
+    ],
+    "*-ginger-harvested": [
+      {
+        "type": "item",
+        "code": "wildcraft:roots-ginger",
+        "quantity": { "avg": 1.2 }
+      }
+    ],
+    "*-ginseng-harvested": [
+      {
+        "type": "item",
+        "code": "wildcraft:roots-ginseng",
         "quantity": { "avg": 1.2 }
       }
     ],

@@ -854,7 +854,7 @@
       "blockCodes": [
         "wildcraft:perennialplant-marjoram-normal"
       ],
-      "minTemp": 8,
+      "minTemp": 15,
       "maxTemp": 32,
       "minRain": 0.65,
       "maxRain": 1,

@@ -185,6 +185,7 @@ namespace wildcraft
             string nowCodePart = block.LastCodePart();
             string nextCodePart = (nowCodePart == "empty") ? "flowering" : ((nowCodePart == "flowering") ? "ripe" : "empty");
 
+            if(block is null) return false;
             AssetLocation loc = block.CodeWithPart(nextCodePart, 1);
 
             if (!loc.Valid)

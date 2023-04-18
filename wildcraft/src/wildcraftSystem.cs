@@ -1,7 +1,20 @@
 using Vintagestory.API.Common;
 using Vintagestory.API.Server;
 using Vintagestory.API.Client;
+using Vintagestory.API;
+using System;
+using System.Reflection;
+using System.Runtime;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
+using Vintagestory.API.Common.Entities;
+using Vintagestory.API.Config;
+using Vintagestory.API.Datastructures;
 using Vintagestory.API.MathTools;
+using Vintagestory.API.Util;
+using Vintagestory.GameContent;
 using wildcraft.Gui;
 using wildcraft.config;
 using BuffStuff;
@@ -28,6 +41,7 @@ namespace wildcraft
         public override void Start(ICoreAPI api)
         {
             base.Start(api);
+
             Api = api;
             api.RegisterBlockClass("WildcraftBerryBush", typeof(WildcraftBerryBush));
             api.RegisterBlockClass("PricklyBerryBush", typeof(PricklyBerryBush));
@@ -42,6 +56,7 @@ namespace wildcraft
             api.RegisterBlockClass("SaltwaterPlant", typeof(SaltwaterPlant));
             api.RegisterBlockClass("BlockMossCoating", typeof(BlockMossCoating));
             api.RegisterBlockClass("WildcraftMoss", typeof(WildcraftMoss));
+            api.RegisterBlockClass("WildcraftWater", typeof(WildcraftWater));
 
             api.RegisterBlockEntityClass("BEWildcraftBerryBush", typeof(BEWildcraftBerryBush));
             api.RegisterBlockEntityClass("BEShrubBerryBush", typeof(BEShrubBerryBush));

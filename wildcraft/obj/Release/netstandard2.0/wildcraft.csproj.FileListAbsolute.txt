@@ -947,3 +947,4 @@ D:\VSMods\Wildcraft\wildcraft\bin\Release\netstandard2.0\assets\wildcraft\recipe
 D:\VSMods\Wildcraft\wildcraft\bin\Release\netstandard2.0\assets\wildcraft\textures\block\plant\leafygroundvegetable\harvested\softsedge.png
 D:\VSMods\Wildcraft\wildcraft\bin\Release\netstandard2.0\assets\wildcraft\textures\block\plant\leafygroundvegetable\normal\softsedge.png
 D:\VSMods\Wildcraft\wildcraft\bin\Release\netstandard2.0\assets\wildcraft\lang\ja.json
+D:\VSMods\Wildcraft\wildcraft\bin\Release\netstandard2.0\assets\wildcraft\shapes\block\dryingrack.json
