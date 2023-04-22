@@ -18,6 +18,7 @@ namespace wildcraft
         bool swampy;
         Block duckweedBlock;
         float swampyPoint = 18;
+        float permaDuckweed = 32;
         float freezingPoint = -4;
         public override void OnLoaded(ICoreAPI api)
         {
@@ -40,29 +41,27 @@ namespace wildcraft
         public override bool ShouldReceiveServerGameTicks(IWorldAccessor world, BlockPos pos, Random offThreadRandom, out object extra)
         {
             extra = null;
-            BlockPos nPos = pos.UpCopy(1);
+            if (!GlobalConstants.MeltingFreezingEnabled) return false;
 
             ClimateCondition conds = world.BlockAccessor.GetClimateAt(pos, EnumGetClimateMode.NowValues);
+            if (conds.WorldGenTemperature >= permaDuckweed) return false;
+
+            BlockPos nPos = pos.UpCopy(1);
             if (conds.Temperature >= swampyPoint && world.BlockAccessor.GetBlock(nPos) is not DuckWeed)
             {
-                if (!GlobalConstants.MeltingFreezingEnabled) return false;
-
-                if (swampy && offThreadRandom.NextDouble() < 0.6)
+                if (swampy && offThreadRandom.NextDouble() < 0.95) // even less?
                 {
                     int rainY = world.BlockAccessor.GetRainMapHeightAt(pos);
-                    if (rainY <= pos.Y)
+                    if (rainY <= pos.Y)//change this to allow growth underneath trees
                     {
-                        for (int i = 0; i < BlockFacing.HORIZONTALS.Length; i++)
+                        if (world.BlockAccessor.GetBlock(nPos) is not DuckWeed || world.BlockAccessor.GetBlock(nPos).Replaceable < 6000)
                         {
-                            BlockFacing.HORIZONTALS[i].IterateThruFacingOffsets(nPos);
-
-                            if (world.BlockAccessor.GetBlock(nPos) is not DuckWeed || world.BlockAccessor.GetBlock(nPos).Replaceable < 6000)
+                            //check to make sure this is a swampy place, and we're not too cold
+                            if (conds != null && conds.Temperature >= swampyPoint && conds.WorldgenRainfall > 0.6)
                             {
-                                if (conds != null && conds.Temperature >= swampyPoint && conds.Rainfall >= 0.6)
-                                {
-                                    if (world.BlockAccessor.GetBlock(pos.X, pos.Y - 5, pos.Z, BlockLayersAccess.Fluid).Id != 0 || world.BlockAccessor.GetBlock(pos).LiquidCode != "water") return false;
-                                    return true;
-                                }
+                                //check to make sure it's not too deep or not fresh-water
+                                if (world.BlockAccessor.GetBlock(pos.X, pos.Y - 5, pos.Z, BlockLayersAccess.Fluid).Id != 0 || world.BlockAccessor.GetBlock(pos).LiquidCode != "water") return false;
+                                return true;
                             }
                         }
                     }

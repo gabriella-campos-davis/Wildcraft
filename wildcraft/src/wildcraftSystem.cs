@@ -53,10 +53,10 @@ namespace wildcraft
             api.RegisterBlockClass("SimpleWaterPlant", typeof(SimpleWaterPlant));
             api.RegisterBlockClass("AquaticPlant", typeof(AquaticPlant));
             api.RegisterBlockClass("DuckWeed", typeof(DuckWeed));
+            api.RegisterBlockClass("DuckWeedRoot", typeof(DuckWeedRoot));
             api.RegisterBlockClass("SaltwaterPlant", typeof(SaltwaterPlant));
             api.RegisterBlockClass("BlockMossCoating", typeof(BlockMossCoating));
             api.RegisterBlockClass("WildcraftMoss", typeof(WildcraftMoss));
-            api.RegisterBlockClass("WildcraftWater", typeof(WildcraftWater));
 
             api.RegisterBlockEntityClass("BEWildcraftBerryBush", typeof(BEWildcraftBerryBush));
             api.RegisterBlockEntityClass("BEShrubBerryBush", typeof(BEShrubBerryBush));
@@ -66,6 +66,7 @@ namespace wildcraft
             api.RegisterBlockEntityClass("BEWildcraftRhizome", typeof(BEWildcraftRhizome));
             api.RegisterBlockEntityClass("BESeedling", typeof(BESeedling));
             api.RegisterBlockEntityClass("BERhizome", typeof(BERhizome));
+            api.RegisterBlockEntityClass("BEDuckWeedRoot", typeof(BEDuckWeedRoot));
 
             api.RegisterItemClass("ItemClipping", typeof(ItemClipping));
             api.RegisterItemClass("ItemRoot", typeof(ItemRoot));
