@@ -249,11 +249,11 @@
           "blockCodes": [
             "wildcraft:duckweed-duckweed-nesw"
           ],
-          "minTemp": 5,
+          "minTemp": 8,
           "maxTemp": 40,
           "minRain": 0.6,
-          "quantity": { dist: "invexp", avg: 120, var: 90 },
-          "chance": 6.0
+          "quantity": { dist: "invexp", avg: 25, var: 15 },
+          "chance": 12.0
         },
         "file": "game:worldgen/blockpatches.json"
       }

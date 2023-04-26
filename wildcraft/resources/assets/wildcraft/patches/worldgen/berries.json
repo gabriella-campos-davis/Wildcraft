@@ -21,7 +21,8 @@
       "offsetX": { "dist": "gaussian", "avg": 0, "var": 8 },
       "offsetZ": { "dist": "gaussian", "avg": 0, "var": 8 }
     },
-    "file": "game:worldgen/blockpatches.json"
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
   },
   {
     "op": "add",
@@ -45,7 +46,8 @@
       "offsetX": { "dist": "gaussian", "avg": 0, "var": 8 },
       "offsetZ": { "dist": "gaussian", "avg": 0, "var": 8 }
     },
-    "file": "game:worldgen/blockpatches.json"
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
   },
   {
     "op": "add",
@@ -71,7 +73,8 @@
         "var": 8
       }
     },
-    "file": "game:worldgen/blockpatches.json"
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
   },
   {
     "op": "add",
@@ -97,7 +100,8 @@
         "var": 8
       }
     },
-    "file": "game:worldgen/blockpatches.json"
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
   },
   {
     "op": "add",
@@ -116,7 +120,8 @@
       "chance": 0.04,
       "quantity": { "dist": "invexp", "avg": 8, "var": 15 }
     },
-    "file": "game:worldgen/blockpatches.json"
+    "file": "game:worldgen/blockpatches.json",
+    "side": "server"
   },
     {
       "op": "add",
@@ -135,7 +140,8 @@
         "chance": 0.0001,
         "quantity": { "dist": "invexp", "avg": 8, "var": 15 }
       },
-      "file": "game:worldgen/blockpatches.json"
+      "file": "game:worldgen/blockpatches.json",
+      "side": "server"
     },
     {
       "op": "add",
@@ -168,7 +174,8 @@
           "var": 12
         }
       },
-      "file": "game:worldgen/blockpatches.json"
+      "file": "game:worldgen/blockpatches.json",
+      "side": "server"
     },
     {
       "op": "add",
@@ -200,7 +207,8 @@
           "var": 12
         }
       },
-      "file": "game:worldgen/blockpatches.json"
+      "file": "game:worldgen/blockpatches.json",
+      "side": "server"
     },
     {
       "op": "add",
@@ -235,7 +243,8 @@
           "var": 12
         }
       },
-      "file": "game:worldgen/blockpatches.json"
+      "file": "game:worldgen/blockpatches.json",
+      "side": "server"
     },
     {
       "op": "add",
@@ -266,7 +275,8 @@
           "var": 12
         }
       },
-      "file": "game:worldgen/blockpatches.json"
+      "file": "game:worldgen/blockpatches.json",
+      "side": "server"
     },
     {
       "op": "add",
@@ -297,7 +307,8 @@
           "var": 12
         }
       },
-      "file": "game:worldgen/blockpatches.json"
+      "file": "game:worldgen/blockpatches.json",
+      "side": "server"
     },
     {
       "op": "add",
@@ -332,7 +343,8 @@
           "var": 12
         }
       },
-      "file": "game:worldgen/blockpatches.json"
+      "file": "game:worldgen/blockpatches.json",
+      "side": "server"
     },
     {
       "op": "add",
@@ -366,7 +378,8 @@
           "var": 12
         }
       },
-      "file": "game:worldgen/blockpatches.json"
+      "file": "game:worldgen/blockpatches.json",
+      "side": "server"
     },
     {
       "op": "add",
@@ -399,7 +412,8 @@
           "var": 12
         }
       },
-      "file": "game:worldgen/blockpatches.json"
+      "file": "game:worldgen/blockpatches.json",
+      "side": "server"
     },
     {
       "op": "add",
@@ -419,7 +433,8 @@
         "chance": 0.03,
         "quantity": { "dist": "invexp", "avg": 8, "var": 15 }
       },
-      "file": "game:worldgen/blockpatches.json"
+      "file": "game:worldgen/blockpatches.json",
+      "side": "server"
     },
     {
       "op": "add",
@@ -442,7 +457,8 @@
         offsetX: { dist: "gaussian", avg: 0, var: 12 },
         offsetZ: { dist: "gaussian", avg: 0, var: 12 },
       },
-      "file": "game:worldgen/blockpatches.json"
+      "file": "game:worldgen/blockpatches.json",
+      "side": "server"
     },
     {
       "op": "add",
@@ -464,7 +480,8 @@
         offsetX: { dist: "gaussian", avg: 0, var: 24 },
         offsetZ: { dist: "gaussian", avg: 0, var: 24 },
       },
-      "file": "game:worldgen/blockpatches.json"
+      "file": "game:worldgen/blockpatches.json",
+      "side": "server"
     },
     {
       "op": "add",
@@ -487,7 +504,8 @@
         "maxY": 1.0,
         "quantity": { "dist": "invexp", "avg": 8, "var": 15 }
       },
-      "file": "game:worldgen/blockpatches.json"
+      "file": "game:worldgen/blockpatches.json",
+      "side": "server"
     },
     {
       "op": "add",
@@ -511,6 +529,7 @@
           "var": 4
         }
       },
-      "file": "game:worldgen/blockpatches.json"
+      "file": "game:worldgen/blockpatches.json",
+      "side": "server"
     }
 ]

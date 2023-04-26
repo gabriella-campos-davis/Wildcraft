@@ -1,4 +1,0 @@
-[
-    { "file": "game:blocktypes/liquid/water", "op": "replace", "path": "/classByType/water-still-*", "value": "WildcraftWater" }
-
-]

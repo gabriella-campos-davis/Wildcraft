@@ -55,5 +55,5 @@
 		"break": "game:block/plant",
 		"hit": "game:block/plant"
 	},
-	"materialDensity": 200,
+	"materialDensity": 200
 }

@@ -20,7 +20,8 @@
           "offsetX": { "avg": 0, "var": 4 },
           "offsetZ": { "avg": 0, "var": 4 }
         },
-        "file": "game:worldgen/blockpatches.json"
+        "file": "game:worldgen/blockpatches.json",
+        "side": "server"
       },
       { 
         "op": "add",
@@ -45,7 +46,8 @@
           "offsetX": { "avg": 0, "var": 100 },
           "offsetZ": { "avg": 0, "var": 100 }
         },
-        "file": "game:worldgen/blockpatches.json"
+        "file": "game:worldgen/blockpatches.json",
+        "side": "server"
       },
       {
         "op": "add",
@@ -68,7 +70,8 @@
           "offsetX": { "avg": 0, "var": 4 },
           "offsetZ": { "avg": 0, "var": 4 }
         },
-        "file": "game:worldgen/blockpatches.json"
+        "file": "game:worldgen/blockpatches.json",
+        "side": "server"
       },
       { 
         "op": "add",
@@ -89,7 +92,8 @@
           "quantity": { "dist": "invexp", "avg": 15, "var": 5 },
 
         },
-        "file": "game:worldgen/blockpatches.json"
+        "file": "game:worldgen/blockpatches.json",
+        "side": "server"
       },
       { 
         "op": "add",
@@ -113,7 +117,8 @@
           "offsetX": { "avg": 0, "var": 100 },
           "offsetZ": { "avg": 0, "var": 100 }
         },
-        "file": "game:worldgen/blockpatches.json"
+        "file": "game:worldgen/blockpatches.json",
+        "side": "server"
       },
 
       {
@@ -132,7 +137,8 @@
           "placement": "NearWater",
           "quantity": { "dist": "invexp", "avg": 15, "var": 5 }
         },
-        "file": "game:worldgen/blockpatches.json"
+        "file": "game:worldgen/blockpatches.json",
+        "side": "server"
       },
       {
         "op": "add",
@@ -154,7 +160,8 @@
           "offsetX": { "avg": 0, "var": 4 },
           "offsetZ": { "avg": 0, "var": 4 }
         },
-        "file": "game:worldgen/blockpatches.json"
+        "file": "game:worldgen/blockpatches.json",
+        "side": "server"
       },
       {
         "op": "add",
@@ -176,7 +183,8 @@
           "offsetX": { "avg": 0, "var": 4 },
           "offsetZ": { "avg": 0, "var": 4 }
         },
-        "file": "game:worldgen/blockpatches.json"
+        "file": "game:worldgen/blockpatches.json",
+        "side": "server"
       },
       {
         "op": "add",
@@ -196,7 +204,8 @@
           "placement": "NearWater",
           "quantity": { "avg": 11, "var": 5 }
         },
-        "file": "game:worldgen/blockpatches.json"
+        "file": "game:worldgen/blockpatches.json",
+        "side": "server"
       },
 
       {
@@ -218,7 +227,8 @@
           "offsetX": { "avg": 0, "var": 12 },
           "offsetZ": { "avg": 0, "var": 12 }
         },
-        "file": "game:worldgen/blockpatches.json"
+        "file": "game:worldgen/blockpatches.json",
+        "side": "server"
       },
       {
         "op": "add",
@@ -239,7 +249,8 @@
           "offsetX": { "avg": 0, "var": 12 },
           "offsetZ": { "avg": 0, "var": 12 }
         },
-        "file": "game:worldgen/blockpatches.json"
+        "file": "game:worldgen/blockpatches.json",
+        "side": "server"
       },
       {
         "op": "add",
@@ -255,6 +266,7 @@
           "quantity": { dist: "invexp", avg: 25, var: 15 },
           "chance": 12.0
         },
-        "file": "game:worldgen/blockpatches.json"
+        "file": "game:worldgen/blockpatches.json",
+        "side": "server"
       }
 ]

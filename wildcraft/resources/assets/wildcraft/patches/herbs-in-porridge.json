@@ -11,7 +11,8 @@
           "group10"
         ]
       },
-      "file": "game:recipes/cooking/porridge.json"
+      "file": "game:recipes/cooking/porridge.json",
+      "side": "server"
     },
     {
       "op": "add",
@@ -25,6 +26,7 @@
           "group10"
         ]
       },
-      "file": "game:recipes/cooking/porridge.json"
+      "file": "game:recipes/cooking/porridge.json",
+      "side": "server"
     }
   ]
