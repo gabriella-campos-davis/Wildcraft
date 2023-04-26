@@ -15,11 +15,6 @@ namespace wildcraft
 {
     public class DuckWeedRoot : BlockPlant
     {
-        bool swampy;
-        Block duckweedBlock;
-        float swampyPoint = 18;
-        float permaDuckweed = 32;
-        Block block;
         public override void OnLoaded(ICoreAPI api)
         {
             base.OnLoaded(api);

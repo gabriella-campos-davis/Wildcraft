@@ -20,9 +20,7 @@ namespace wildcraft
         double totalHoursTillGrowth;
         long growListenerId;
         
-        Block duckweedBlock;
-        float swampyPoint = 18;
-        float permaDuckweed = 32;
+        float swampyPoint = 8;
         Block block;
 
         
