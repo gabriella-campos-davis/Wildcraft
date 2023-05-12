@@ -95,6 +95,13 @@ namespace wildcraft
             }
         }
 
+        public override void GetHeldItemInfo(ItemSlot inSlot, StringBuilder dsc, IWorldAccessor world, bool withDebugInfo)
+        {
+            base.GetHeldItemInfo(inSlot, dsc, world, withDebugInfo);
+            dsc.AppendLine(Lang.Get("wildcraft:clipping-item-desc"));
+            return; 
+        }
+
 
         public override WorldInteraction[] GetHeldInteractionHelp(ItemSlot inSlot)
         {

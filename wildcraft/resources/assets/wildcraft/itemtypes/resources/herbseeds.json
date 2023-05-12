@@ -6,18 +6,12 @@
 			"groupBy": ["herbseeds-*", "waterherbseeds-*", "seeds"]
 		},
 		"waterPlantByType":{
-			"*-waterchestnut": "true",
-			"*-skunkcabbage": "true",
-			"*-tule": "true",
-			"*-hardsedge": "true",
-			"*-brownsedge": "true",
-			"*-softsedge": "true",
-			"*-arrowhead": "true",
+			"@.*-(arrowhead|softsedge|brownsedge|hardsedge|skunkcabbage|tule|waterchestnut)": true,
 			"*": false
 		},
 		"isCropByType":{
-			"*-(lavender|rosemary|sage|sedge|thyme|mugwort|burdock|poisonoak|holly|inula|plantain|saltwort|waterchestnut|arrowhead|skunkcabbage|tule|brownsedge|hardsedge)": "false",
-			"*": "true"
+			"@.*-(lavender|rosemary|sage|sedge|thyme|mugwort|burdock|poisonoak|holly|inula|plantain|saltwort|waterchestnut|arrowhead|skunkcabbage|tule|brownsedge|hardsedge)": false,
+			"*": true
 		} 
 	},
 	"maxstacksize": 64,

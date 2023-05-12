@@ -54,7 +54,7 @@ namespace wildcraft
             BlockPos pos = blockSel.Position;
             string lastCodePart = itemslot.Itemstack.Collectible.LastCodePart();
             BlockEntity be = byEntity.World.BlockAccessor.GetBlockEntity(pos);
-            if (be is BlockEntityFarmland && Attributes["isCrop"].ToString() == "true")
+            if (be is BlockEntityFarmland && Attributes["isCrop"].AsBool())
             {
                placeCrop(itemslot, byEntity, blockSel, entitySel, true, ref handHandling);
             }
@@ -111,7 +111,7 @@ namespace wildcraft
                 blockSel = blockSel.Clone();
                 blockSel.Position.Up();
                 if(byEntity.Api.World.GetBlockAccessor(true, false, true).GetBlock(blockSel.Position).IsLiquid() == true){
-                    if (Attributes["waterplant"].ToString() == "true")
+                    if (Attributes["waterplant"].AsBool())
                     {
                         goto growPlant;
                     }
@@ -144,6 +144,45 @@ namespace wildcraft
                 }
 
                 handHandling = EnumHandHandling.PreventDefault;
+            }
+        }
+
+        public override void GetHeldItemInfo(ItemSlot inSlot, StringBuilder dsc, IWorldAccessor world, bool withDebugInfo)
+        {
+            base.GetHeldItemInfo(inSlot, dsc, world, withDebugInfo);
+
+            if(!Attributes["isCrop"].AsBool())
+            {
+                dsc.AppendLine(Lang.Get("wildcraft:plantable-on-normal-soil"));
+                if (Attributes["waterplant"].AsBool()) dsc.AppendLine(Lang.Get("wildcraft:plantable-in-water-or-land"));
+                return;
+            }  
+
+            else if(Attributes["isCrop"].AsBool())
+            {
+                Block cropBlock = world.GetBlock(CodeWithPath("crop-" + inSlot.Itemstack.Collectible.LastCodePart() + "-1"));
+                if (cropBlock == null || cropBlock.CropProps == null) return;
+
+                dsc.AppendLine(Lang.Get("soil-nutrition-requirement") + cropBlock.CropProps.RequiredNutrient);
+                dsc.AppendLine(Lang.Get("soil-nutrition-consumption") + cropBlock.CropProps.NutrientConsumption);
+
+                double totalDays = cropBlock.CropProps.TotalGrowthDays;
+                if (totalDays > 0)
+                {
+                    var defaultTimeInMonths = totalDays / 12;
+                    totalDays = defaultTimeInMonths * world.Calendar.DaysPerMonth;
+                } else
+                {
+                    totalDays = cropBlock.CropProps.TotalGrowthMonths * world.Calendar.DaysPerMonth;
+                }
+
+                totalDays /= api.World.Config.GetDecimal("cropGrowthRateMul", 1);
+
+                dsc.AppendLine(Lang.Get("soil-growth-time") + Math.Round(totalDays, 1) + " days");
+                dsc.AppendLine(Lang.Get("crop-coldresistance", Math.Round(cropBlock.CropProps.ColdDamageBelow, 1)));
+                dsc.AppendLine(Lang.Get("crop-heatresistance", Math.Round(cropBlock.CropProps.HeatDamageAbove, 1)));
+                dsc.AppendLine(Lang.Get("wildcraft:plantable-on-farmland-or-soil"));  
+                if (Attributes["waterplant"].AsBool()) dsc.AppendLine(Lang.Get("wildcraft:plantable-in-water-or-land"));
             }
         }
 

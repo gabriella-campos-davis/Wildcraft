@@ -1,0 +1,1685 @@
+{
+	"game:tabname-wildcraft": "Wildcraft",
+
+	"game:wildcraft-guide-title": "Гайд по Wildcraft",
+	"game:wildcraft-guide-text":
+	"<strong>Wildcraft Гайд виживання</strong>
+	<i>Модифікация трав та рослин для Vintage Story.</i>
+	<br>
+	<strong>Введення</strong>
+	<br>
+	Цей мод призначений для розширення деяких механік рослин, а також для додавання розмаїття нових рослин.
+	<br>
+	<strong>Ягоди та пагони</strong>
+	<br>
+	Розмноження ягідних кущів в Wildcraft суттєво змінено порівняно з Vanilla VS. Більше не можна бігати з купами ягідних кущів у кишені, тепер потрібно брати пагони ягідних кущів, щоб їх розмножити. Ви можете взяти ніж або ножиці для обрізки ягідного куща, і потім отримаєте пагін. Але будьте обережні! Пагони зберігаються недовго, потім висихають і гинуть, тому садіть їх швидко! І не всі ягоди вирощують за допомогою пагонів. Невеликі наземні ягідні рослини (наприклад, полуницю) потрібно вирощувати з насіння.
+	<br>
+	Будьте обережні! Деякі ягоди непридатні до вживання, а інші ще й колючі! (але, на щастя, якщо ти підступний, це не так вже й погано).
+	<br>
+	<strong>Трави та інші рослини</strong>
+	<br>
+	Wildcraft додає у гру безліч нових рослин. Рослини можна збирати ножем. Коли гравець робить це, рослина залишається у «зібраному» стані. у цьому стані рослина зрештою виросте знову, і тоді гравець зможе знову зібрати її. У деяких рослин також є коріння, для отримання яких потрібно зібрати рослину в «зібраному» стані. Коріння можна їсти або використовувати як додаткові інгредієнти у стравах. Пучки трав також можна використовувати в їжі як допоміжні інгредієнти, а також можна використовувати в решітці крафту з ножем для виготовлення насіння.
+	<br>
+	Усі дикорослі рослини можна висаджувати в землю насінням. Це створить купку землі з розсадою. Згодом розсада проросте, а потім виросте в рослину, яку потім можна буде збирати як звичайну дикорослу рослину. За бажанням багато рослин також можна вирощувати як сільськогосподарські культури. При вирощуванні на підготовлених угіддях рослини матимуть підвищену врожайність, але їх можна буде збирати лише тоді, коли вони повністю виростуть (включаючи коріння!).
+	<br>
+	<strong>Припарки та висипання</strong>
+	<br>
+	Однією з особливостей Wildcraft є те, що він додає багато нових припарок! Це досягається шляхом збільшення кількості «основних інгредієнтів» (наприклад, хвощ або мед і сірка для ванільних основних інгредієнтів). Wildcraft додає звіробій, отруйний дуб, Оман та чистотіл як нові основні інгредієнти для припарок.
+	<br>
+	Тепер Wildcraft також додає новий шар до припарок: вторинні інгредієнти. Падуб, нагідки, деревій, шавлія, лаванда, чебрець і алтея є другорядними інгредієнтами, які ми додаємо в припарки. Їх можна накласти «поверх» будь-якої простої припарки (припарки, яка містить лише один основний інгредієнт). Користь для здоров’я, яку вторинний інгредієнт надає припарці основного інгредієнта, унікальна. Це означає, що різні інгредієнти по-різному реагуватимуть разом і дають нижчий/вищий загальний рівень здоров’я. Так, наприклад, чебрець може лікувати краще в поєднанні з хвощем, ніж у поєднанні зі звіробоєм.
+	<br>
+	Деякі рослини в Wildcraft також викликають у вас висип, якщо наступити на них (висип наразі є лише негативним ефектом, який періодично завдає невеликої шкоди протягом короткого періоду часу). Висипання можна вилікувати, використовуючи припарки з отруйним дубом або деревієм як інгредієнт.
+	<br>
+	Припарки також діють повільно, а не миттєво загоюють (це можна вимкнути).",
+
+	"item-basket": "Простий кошик",
+	"block-sedge-stationarybasket-*": "Кошик з осоки",
+
+	"item-poultice-linen-honey-sulfur-lavender": "Припарка з меду, сірки та лаванди (з льону)",
+	"item-poultice-linen-honey-sulfur-thyme": "Припарка з меду, сірки та чебрецю (з льону)",
+	"item-poultice-linen-honey-sulfur-marshmallow": "Припарка з меду, сірки та алтеї (з льону)",
+	"item-poultice-linen-honey-sulfur-holly": "Припарка з меду, сірки та падуба (з льону)",
+	"item-poultice-linen-honey-sulfur-marigold": "Припарка з меду, сірки та нагідок (з льону)",
+	"item-poultice-linen-honey-sulfur-yarrow": "Припарка з меду, сірки та деревію (з льону)",
+	"item-poultice-linen-honey-sulfur-sage": "Припарка з меду, сірки та шавлії (з льону)",
+
+	"item-poultice-reed-honey-sulfur-lavender": "Припарка з меду, сірки та лаванди (з очерету)",
+	"item-poultice-reed-honey-sulfur-thyme": "Припарка з меду, сірки та чебрецю (з очерету)",
+	"item-poultice-reed-honey-sulfur-marshmallow": "Припарка з меду, сірки та алтеї (з очерету)",
+	"item-poultice-reed-honey-sulfur-holly": "Припарка з меду, сірки та падуба (з очерету)",
+	"item-poultice-reed-honey-sulfur-marigold": "Припарка з меду, сірки та нагідок (з очерету)",
+	"item-poultice-reed-honey-sulfur-yarrow": "Припарка з меду, сірки та деревію (з очерету)",
+	"item-poultice-reed-honey-sulfur-sage": "Припарка з меду, сірки та шавлії (з очерету)",
+
+	"item-poultice-linen-horsetail-lavender": "Припарка з хвощу та лаванди (з льону)",
+	"item-poultice-linen-horsetail-thyme": "Припарка з хвощу та чебрецю (з льону)",
+	"item-poultice-linen-horsetail-marshmallow": "Припарка з хвощу та алтеї (з льону)",
+	"item-poultice-linen-horsetail-holly": "Припарка з хвощу та падуба (з льону)",
+	"item-poultice-linen-horsetail-marigold": "Припарка з хвощу та нагідок (з льону)",
+	"item-poultice-linen-horsetail-yarrow": "Припарка з хвощу та деревію (з льону)",
+	"item-poultice-linen-horsetail-sage": "Припарка з хвощу и шалфея (з льону)",
+
+	"item-poultice-reed-horsetail-lavender": "Припарка з хвощу та лаванди (з очерету)",
+	"item-poultice-reed-horsetail-thyme": "Припарка з хвощу та чебрецю (з очерету)",
+	"item-poultice-reed-horsetail-marshmallow": "Припарка з хвощу та алтеї (з очерету)",
+	"item-poultice-reed-horsetail-holly": "Припарка з хвощу та падуба (з очерету)",
+	"item-poultice-reed-horsetail-marigold": "Припарка з хвощу та нагідок (з очерету)",
+	"item-poultice-reed-horsetail-yarrow": "Припарка з хвощу та деревію (з очерету)",
+	"item-poultice-reed-horsetail-sage": "Припарка з хвощу та шавлії (з очерету)",
+
+	"item-poultice-linen-jewelweed-lavender": "Припарка з бальзаміну та лаванди (з льону)",
+	"item-poultice-linen-jewelweed-thyme": "Припарка з бальзаміну та чебрецю (з льону)",
+	"item-poultice-linen-jewelweed-marshmallow": "Припарка з бальзаміну та алтеї (з льону)",
+	"item-poultice-linen-jewelweed-holly": "Припарка з бальзаміну та падуба (з льону)",
+	"item-poultice-linen-jewelweed-marigold": "Припарка з бальзаміну та нагідок (з льону)",
+	"item-poultice-linen-jewelweed-yarrow": "Припарка з бальзаміну та деревію (з льону)",
+	"item-poultice-linen-jewelweed-sage": "Припарка з бальзаміну та шавлії (з льону)",
+  
+	"item-poultice-reed-jewelweed-lavender": "Припарка з бальзаміну та лаванди (з очерету)",
+	"item-poultice-reed-jewelweed-thyme": "Припарка з бальзаміну та чебрецю (з очерету)",
+	"item-poultice-reed-jewelweed-marshmallow": "Припарка з бальзаміну та алтеї (з очерету)",
+	"item-poultice-reed-jewelweed-holly": "Припарка з бальзаміну та падуба (з очерету)",
+	"item-poultice-reed-jewelweed-marigold": "Припарка з бальзаміну та нагідок (з очерету)",
+	"item-poultice-reed-jewelweed-yarrow": "Припарка з бальзаміну та деревію (з очерету)",
+	"item-poultice-reed-jewelweed-sage": "Припарка з бальзаміну та шавлії (з очерету)",
+
+	"item-poultice-linen-stjohnswort-lavender": "Припарка із звіробою та лаванди (з льону)",
+	"item-poultice-linen-stjohnswort-thyme": "Припарка із звіробою та чебрецю (з льону)",
+	"item-poultice-linen-stjohnswort-marshmallow": "Припарка із звіробою та алтеї (з льону)",
+	"item-poultice-linen-stjohnswort-holly": "Припарка із звіробою та падуба (з льону)",
+	"item-poultice-linen-stjohnswort-marigold": "Припарка із звіробою та нагідок (з льону)",
+	"item-poultice-linen-stjohnswort-yarrow": "Припарка із звіробою та деревію (з льону)",
+	"item-poultice-linen-stjohnswort-sage": "Припарка із звіробою та шавлії (з льону)",
+
+	"item-poultice-reed-stjohnswort-lavender": "Припарка із звіробою та лаванди (з очерету)",
+	"item-poultice-reed-stjohnswort-thyme": "Припарка із звіробою та чебрецю (з очерету)",
+	"item-poultice-reed-stjohnswort-marshmallow": "Припарка із звіробою та алтеї (з очерету)",
+	"item-poultice-reed-stjohnswort-holly": "Припарка із звіробою та падуба (з очерету)",
+	"item-poultice-reed-stjohnswort-marigold": "Припарка із звіробою та нагідок (з очерету)",
+	"item-poultice-reed-stjohnswort-yarrow": "Припарка із звіробою та деревію (з очерету)",
+	"item-poultice-reed-stjohnswort-sage": "Припарка із звіробою та шавлії (з очерету)",
+
+	"item-poultice-linen-poisonoak-lavender": "Припарка з отруйного дуба та лаванди (з льону)",
+	"item-poultice-linen-poisonoak-thyme": "Припарка з отруйного дуба та чебрецю (з льону)",
+	"item-poultice-linen-poisonoak-marshmallow": "Припарка з отруйного дуба та алтеї (з льону)",
+	"item-poultice-linen-poisonoak-holly": "Припарка з отруйного дуба та падуба (з льону)",
+	"item-poultice-linen-poisonoak-marigold": "Припарка з отруйного дуба та нагідок (з льону)",
+	"item-poultice-linen-poisonoak-yarrow": "Припарка з отруйного дуба та деревію (з льону)",
+	"item-poultice-linen-poisonoak-sage": "Припарка з отруйного дуба та шавлії (з льону)",
+
+	"item-poultice-reed-poisonoak-lavender": "Припарка з отруйного дуба та лаванди (з очерету)",
+	"item-poultice-reed-poisonoak-thyme": "Припарка з отруйного дуба та чебрецю (з очерету)",
+	"item-poultice-reed-poisonoak-marshmallow": "Припарка з отруйного дуба та алтеї (з очерету)",
+	"item-poultice-reed-poisonoak-holly": "Припарка з отруйного дуба та падуба (з очерету)",
+	"item-poultice-reed-poisonoak-marigold": "Припарка з отруйного дуба та нагідок (з очерету)",
+	"item-poultice-reed-poisonoak-yarrow": "Припарка з отруйного дуба та деревію (з очерету)",
+	"item-poultice-reed-poisonoak-sage": "Припарка з отруйного дуба та шавлії (з очерету)",
+
+	"item-poultice-linen-inula-lavender": "Припарка з оману та лаванди (з льону)",
+	"item-poultice-linen-inula-thyme": "Припарка з оману та чебрецю (з льону)",
+	"item-poultice-linen-inula-marshmallow": "Припарка з оману та алтеї (з льону)",
+	"item-poultice-linen-inula-holly": "Припарка з оману та падуба (з льону)",
+	"item-poultice-linen-inula-marigold": "Припарка з оману та нагідок (з льону)",
+	"item-poultice-linen-inula-yarrow": "Припарка з оману та деревію (з льону)",
+	"item-poultice-linen-inula-sage": "Припарка з оману та шавлії (з льону)",
+
+	"item-poultice-reed-inula-lavender": "Припарка з оману та лаванди (з очерету)",
+	"item-poultice-reed-inula-thyme": "Припарка з оману та чебрецю (з очерету)",
+	"item-poultice-reed-inula-marshmallow": "Припарка з оману та алтеї (з очерету)",
+	"item-poultice-reed-inula-holly": "Припарка з оману та падуба (з очерету)",
+	"item-poultice-reed-inula-marigold": "Припарка з оману та нагідок (з очерету)",
+	"item-poultice-reed-inula-yarrow": "Припарка з оману та деревію (з очерету)",
+	"item-poultice-reed-inula-sage": "Припарка з оману та шавлії (з очерету)",
+
+	"item-poultice-linen-celandine-lavender": "Припарка з чистотілу та лаванди (з льону)",
+	"item-poultice-linen-celandine-thyme": "Припарка з чистотілу та чебрецю (з льону)",
+	"item-poultice-linen-celandine-marshmallow": "Припарка з чистотілу та алтеї (з льону)",
+	"item-poultice-linen-celandine-holly": "Припарка з чистотілу та падуба (з льону)",
+	"item-poultice-linen-celandine-marigold": "Припарка з чистотілу та нагідок (з льону)",
+	"item-poultice-linen-celandine-yarrow": "Припарка з чистотілу та деревію (з льону)",
+	"item-poultice-linen-celandine-sage": "Припарка з чистотілу та шавлії (з льону)",
+
+	"item-poultice-reed-celandine-lavender": "Припарка з чистотілу та лаванди (з очерету)",
+	"item-poultice-reed-celandine-thyme": "Припарка з чистотілу та чебрецю (з очерету)",
+	"item-poultice-reed-celandine-marshmallow": "Припарка з чистотілу та алтеї (з очерету)",
+	"item-poultice-reed-celandine-holly": "Припарка з чистотілу та падуба (з очерету)",
+	"item-poultice-reed-celandine-marigold": "Припарка з чистотілу та нагідок (з очерету)",
+	"item-poultice-reed-celandine-yarrow": "Припарка з чистотілу та деревію (з очерету)",
+	"item-poultice-reed-celandine-sage": "Припарка з чистотілу та шавлії (з очерету)",
+
+	"item-simplepoultice-reed-stjohnswort": "Припарка із звіробою (з очерету)",
+	"item-simplepoultice-linen-stjohnswort": "Припарка із звіробою (з льону)",
+
+	"item-simplepoultice-reed-poisonoak": "Припарка з отруйного дуба (з очерету)",
+	"item-simplepoultice-linen-poisonoak": "Припарка з отруйного дуба (з льону)",
+
+	"item-simplepoultice-reed-celandine": "Припарка з чистотілу (з очерету)",
+	"item-simplepoultice-linen-celandine": "Припарка з чистотілу (з льону)",
+
+	"item-simplepoultice-reed-inula": "Припарка з оману (з очерету)",
+	"item-simplepoultice-linen-inula": "Припарка з оману (з льону)",
+
+	"item-simplepoultice-reed-jewelweed": "Припарка з бальзаміну (з очерету)",
+	"item-simplepoultice-linen-jewelweed": "Припарка з бальзаміну (з льону)",
+  
+	"itemdesc-poultice-*": "Повязка для загоєння невеликих ран",
+	"item-handbooktitle-poultice-*": "Про:",
+	"item-handbooktext-poultice-*": "Припарки - це своєрідна комбінація пов'язки з іншими цілющими компонентами, яка використовується для загоєння ран.",	
+
+	"item-fruit-huckleberry": "Чорниця",
+	"item-fruit-snowberry": "Сніжноягідник",
+	"item-fruit-brambleberry": "Ожина",
+	"item-fruit-cloudberry": "Морошка",
+	"item-fruit-dogrose": "Шипшина",
+	"item-fruit-elderberry": "Бузина",
+	"item-fruit-gooseberry": "Аґрус",
+	"item-fruit-honeysuckle": "Жимолость",
+	"item-fruit-raspberry": "Малина",
+	"item-fruit-blueraspberry": "Синя малина",
+	"item-fruit-strawberry": "Полуниця",
+	"item-fruit-wolfberry": "Вовчі ягоди",
+	"item-fruit-husktomato": "Фізаліс",
+	"item-fruit-crowberry": "Горобина",
+	"item-fruit-bunchberry": "Дерен",
+
+	"recipeingredient-item-fruit-huckleberry": "чорниця",
+	"recipeingredient-item-fruit-snowberry": "сніжна ягода",
+	"recipeingredient-item-fruit-brambleberry": "ожина",
+	"recipeingredient-item-fruit-cloudberry": "морошка",
+	"recipeingredient-item-fruit-dogrose": "шипшина",
+	"recipeingredient-item-fruit-elderberry": "бузина",
+	"recipeingredient-item-fruit-gooseberry": "аґрус",
+	"recipeingredient-item-fruit-honeysuckle": "жимолость",
+	"recipeingredient-item-fruit-raspberry": "малина",
+	"recipeingredient-item-fruit-blueraspberry": "синя малина",
+	"recipeingredient-item-fruit-strawberry": "полуниця",
+	"recipeingredient-item-fruit-wolfberry": "вовчі ягоди",
+	"recipeingredient-item-fruit-husktomato": "фізаліс",
+	"recipeingredient-item-fruit-crowberry": "горобина",
+	"recipeingredient-item-fruit-bunchberry": "дерен",
+
+	"pie-single-wildcraft:fruit-huckleberry-raw": "Пиріг з чорницею (сирий)",
+	"pie-single-wildcraft:fruit-dogrose-raw": "Пиріг з шипшиною (сирий)",
+	"pie-single-wildcraft:fruit-snowberry-raw": "Пиріг з сніжною ягодою (сирий)",
+	"pie-single-wildcraft:fruit-brambleberry-raw": "Пиріг з ожиною (сирий)",
+	"pie-single-wildcraft:fruit-cloudberry-raw": "Пиріг з морошкою (сирий)",
+	"pie-single-wildcraft:fruit-elderberry-raw": "Пиріг з бузиною (сирий)",
+	"pie-single-wildcraft:fruit-gooseberry-raw": "Пиріг з аґрусом (сирий)",
+	"pie-single-wildcraft:fruit-honeysuckle-raw": "Пиріг з жимолостю (сирий)",
+	"pie-single-wildcraft:fruit-raspberry-raw": "Пиріг з малиною (сирий)",
+	"pie-single-wildcraft:fruit-blueraspberry-raw": "Пиріг з синьою малиною (сирий)",
+	"pie-single-wildcraft:fruit-strawberry-raw": "Пиріг з полуницею (сирий)",
+	"pie-single-wildcraft:fruit-wolfberry-raw": "Пиріг з вовчими ягодами (сирий)",
+	"pie-single-wildcraft:fruit-husktomato-raw": "Пиріг з фізалісом (сирий)",
+	"pie-single-wildcraft:fruit-bunchberry-raw": "Пиріг з горобиною (сирий)",
+	"pie-single-wildcraft:fruit-crowberry-raw": "Пиріг з дереном (сирий)",
+
+	"pie-single-wildcraft:roots-bearleek-raw": "Пиріг з черемшею (сирий)",
+	"pie-single-wildcraft:roots-marshmallow-raw": "Пиріг з алтеєю (сирий)",
+	"pie-single-wildcraft:roots-burdock-raw": "Пиріг з лопухом (сирий)",
+	"pie-single-wildcraft:roots-chicory-raw": "Пиріг з цикорієм (сирий)",
+	"pie-single-wildcraft:roots-liquorice-raw": "Пиріг з солодкою (сирий)",
+	"pie-single-wildcraft:roots-waterchestnut-raw": "Пиріг з водяними каштанами (сирий)",
+	"pie-single-wildcraft:roots-celery-raw": "Пиріг з селерою (сирий)",
+
+	"pie-single-wildcraft:fruit-huckleberry-partbaked": "Пиріг з чорницею (недопечений)",
+	"pie-single-wildcraft:fruit-dogrose-partbaked": "Пиріг з шипшиною (недопечений)",
+	"pie-single-wildcraft:fruit-snowberry-partbaked": "Пиріг з сніжноягідником (недопечений)",
+	"pie-single-wildcraft:fruit-brambleberry-partbaked": "Пиріг з ожиною (недопечений)",
+	"pie-single-wildcraft:fruit-cloudberry-partbaked": "Пиріг з морошкою (недопечений)",
+	"pie-single-wildcraft:fruit-elderberry-partbaked": "Пиріг з бузиною (недопечений)",
+	"pie-single-wildcraft:fruit-gooseberry-partbaked": "Пиріг з аґрусом (недопечений)",
+	"pie-single-wildcraft:fruit-honeysuckle-partbaked": "Пиріг з жимолостю (недопечений)",
+	"pie-single-wildcraft:fruit-raspberry-partbaked": "Пиріг з малиною (недопечений)",
+	"pie-single-wildcraft:fruit-blueraspberry-partbaked": "Пиріг з синьою малиною (недопечений)",
+	"pie-single-wildcraft:fruit-strawberry-partbaked": "Пиріг з полуницею (недопечений)",
+	"pie-single-wildcraft:fruit-wolfberry-partbaked": "Пиріг з вовчими ягодами (недопечений)",
+	"pie-single-wildcraft:fruit-husktomato-partbaked": "Пиріг з фізалісом (недопечений)",
+	"pie-single-wildcraft:fruit-bunchberry-partbaked": "Пиріг з горобиною (недопечений)",
+	"pie-single-wildcraft:fruit-crowberry-partbaked": "Пиріг з дереном (недопечений)",
+  
+	"pie-single-wildcraft:roots-bearleek-partbaked": "Пиріг з черемшею (недопечений)",
+	"pie-single-wildcraft:roots-marshmallow-partbaked": "Пиріг з алтеєю (недопечений)",
+	"pie-single-wildcraft:roots-burdock-partbaked": "Пиріг з лопухом (недопечений)",
+	"pie-single-wildcraft:roots-chicory-partbaked": "Пиріг з цикорієм (недопечений)",
+	"pie-single-wildcraft:roots-liquorice-partbaked": "Пиріг з солодкою (недопечений)",
+	"pie-single-wildcraft:roots-waterchestnut-partbaked": "Пиріг з водяними каштанами (недопечений)",
+	"pie-single-wildcraft:roots-celery-partbaked": "Пиріг з селерою (недопечений)",
+  
+	"pie-single-wildcraft:fruit-huckleberry-perfect": "Пиріг з чорницею",
+	"pie-single-wildcraft:fruit-dogrose-perfect": "Пиріг з шипшиною",
+	"pie-single-wildcraft:fruit-snowberry-perfect": "Пиріг з сніжноягідником",
+	"pie-single-wildcraft:fruit-brambleberry-perfect": "Пиріг з ожиною",
+	"pie-single-wildcraft:fruit-cloudberry-perfect": "Пиріг з морошкою",
+	"pie-single-wildcraft:fruit-elderberry-perfect": "Пиріг з бузиною",
+	"pie-single-wildcraft:fruit-gooseberry-perfect": "Пиріг з аґрусом",
+	"pie-single-wildcraft:fruit-honeysuckle-perfect": "Пиріг з жимолостю",
+	"pie-single-wildcraft:fruit-raspberry-perfect": "Пиріг з малиною",
+	"pie-single-wildcraft:fruit-blueraspberry-perfect": "Пиріг з синьою малиною",
+	"pie-single-wildcraft:fruit-strawberry-perfect": "Пиріг з полуницею",
+	"pie-single-wildcraft:fruit-wolfberry-perfect": "Пиріг з вовчими ягодами",
+	"pie-single-wildcraft:fruit-husktomato-perfect": "Пиріг з фізалісом",
+	"pie-single-wildcraft:fruit-bunchberry-perfect": "Пиріг з горобиною",
+	"pie-single-wildcraft:fruit-crowberry-perfect": "Пиріг з дереном",
+  
+	"pie-single-wildcraft:roots-bearleek-perfect": "Пиріг з черемшею",
+	"pie-single-wildcraft:roots-marshmallow-perfect": "Пиріг з алтеєю",
+	"pie-single-wildcraft:roots-burdock-perfect": "Пиріг з лопухом",
+	"pie-single-wildcraft:roots-chicory-perfect": "Пиріг з цикорієм",
+	"pie-single-wildcraft:roots-liquorice-perfect": "Пиріг з солодкою",
+	"pie-single-wildcraft:roots-waterchestnut-perfect": "Пиріг з водяними каштанами",
+	"pie-single-wildcraft:roots-celery-perfect": "Пиріг з селерою",
+  
+	"pie-single-wildcraft:fruit-huckleberry-charred": "Пиріг з чорницею (пригорів)",
+	"pie-single-wildcraft:fruit-dogrose-charred": "Пиріг з шипшиною (пригорів)",
+	"pie-single-wildcraft:fruit-snowberry-charred": "Пиріг з сніжноягідником (пригорів)",
+	"pie-single-wildcraft:fruit-brambleberry-charred": "Пиріг з ожиною (пригорів)",
+	"pie-single-wildcraft:fruit-cloudberry-charred": "Пиріг з морошкою (пригорів)",
+	"pie-single-wildcraft:fruit-elderberry-charred": "Пиріг з бузиною (пригорів)",
+	"pie-single-wildcraft:fruit-gooseberry-charred": "Пиріг з аґрусом (пригорів)",
+	"pie-single-wildcraft:fruit-honeysuckle-charred": "Пиріг з жимолостю (пригорів)",
+	"pie-single-wildcraft:fruit-raspberry-charred": "Пиріг з малиною (пригорів)",
+	"pie-single-wildcraft:fruit-blueraspberry-charred": "Пиріг з синьою малиною (пригорів)",
+	"pie-single-wildcraft:fruit-strawberry-charred": "Пиріг з полуницею (пригорів)",
+	"pie-single-wildcraft:fruit-wolfberry-charred": "Пиріг з вовчими ягодами (пригорів)",
+	"pie-single-wildcraft:fruit-husktomato-charred": "Пиріг з фізалісом (пригорів)",
+	"pie-single-wildcraft:fruit-bunchberry-charred": "Пиріг з горобиною (пригорів)",
+	"pie-single-wildcraft:fruit-crowberry-charred": "Пиріг з дереном (пригорів)",
+  
+	"pie-single-wildcraft:roots-bearleek-charred": "Пиріг з черемшею (пригорів)",
+	"pie-single-wildcraft:roots-marshmallow-charred": "Пиріг з алтеєю (пригорів)",
+	"pie-single-wildcraft:roots-burdock-charred": "Пиріг з лопухом (пригорів)",
+	"pie-single-wildcraft:roots-chicory-charred": "Пиріг з цикорієм (пригорів)",
+	"pie-single-wildcraft:roots-liquorice-charred": "Пиріг з солодкою (пригорів)",
+	"pie-single-wildcraft:roots-waterchestnut-charred": "Пиріг з водяними каштанами (пригорів)",
+	"pie-single-wildcraft:roots-celery-charred": "Пиріг з селерою (пригорів)",
+  
+	"recipeingredient-item-fruit-huckleberry-insturmentalcase": "чорницею",
+	"recipeingredient-item-fruit-snowberry-insturmentalcase": "сніжною ягодою",
+	"recipeingredient-item-fruit-brambleberry-insturmentalcase": "ожиною",
+	"recipeingredient-item-fruit-cloudberry-insturmentalcase": "морошкою",
+	"recipeingredient-item-fruit-dogrose-insturmentalcase": "шипшиною",
+	"recipeingredient-item-fruit-elderberry-insturmentalcase": "бузиною",
+	"recipeingredient-item-fruit-gooseberry-insturmentalcase": "аґрусом",
+	"recipeingredient-item-fruit-honeysuckle-insturmentalcase": "жимолостю",
+	"recipeingredient-item-fruit-raspberry-insturmentalcase": "малиною",
+	"recipeingredient-item-fruit-blueraspberry-insturmentalcase": "синьою малиною",
+	"recipeingredient-item-fruit-strawberry-insturmentalcase": "полуницею",
+	"recipeingredient-item-fruit-wolfberry-insturmentalcase": "вовчими ягодами",
+	"recipeingredient-item-fruit-husktomato-insturmentalcase": "фізалісом",
+	"recipeingredient-item-fruit-crowberry-insturmentalcase": "горобиною",
+	"recipeingredient-item-fruit-bunchberry-insturmentalcase": "дереном",
+ 
+	"item-clipping-huckleberry-green": "Пагін чорниці (зелений)",
+	"item-clipping-blueraspberry-green": "Пагін синьої малини (зелений)",
+	"item-clipping-snowberry-green": "Пагін сніжноягідника (зелений)",
+	"item-clipping-brambleberry-green": "Пагін ожини (зелений)",
+	"item-clipping-dogrose-green": "Пагін шипшини (зелений)",
+	"item-clipping-elderberry-green": "Пагін бузини (зелений)",
+	"item-clipping-gooseberry-green": "Пагін аґрусу (зелений)",
+	"item-clipping-honeysuckle-green": "Пагін жимолості (зелений)",
+	"item-clipping-raspberry-green": "Пагін малини (зелений)",
+	"item-clipping-wolfberry-green": "Пагін вовчих ягід (зелений)",
+	"item-clipping-husktomato-green": "Пагін фізалісу (зелений)",
+  
+	"item-clipping-blackcurrant-green": "Пагін чорної порічки (зелений)",
+	"item-clipping-redcurrant-green": "Пагін червоних порічок (зелений)",
+	"item-clipping-whitecurrant-green": "Пагін білих порічок (зелений)",
+	"item-clipping-blueberry-green": "Пагін лохини (зелений)",
+	"item-clipping-cranberry-green": "Пагін журавлини (зелений)",
+
+	"item-clipping-huckleberry-dry": "Пагін чорниці (засохший)",
+	"item-clipping-blueraspberry-dry": "Пагін синьої малини (засохший)",
+	"item-clipping-snowberry-dry": "Пагін сніжноягідника (засохший)",
+	"item-clipping-brambleberry-dry": "Пагін ожини (засохший)",
+	"item-clipping-cloudberry-dry": "Насіння морошки",
+	"item-clipping-dogrose-dry": "Пагін шипшини (засохший)",
+	"item-clipping-elderberry-dry": "Пагін бузини (засохший)",
+	"item-clipping-gooseberry-dry": "Пагін аґрусу (засохший)",
+	"item-clipping-honeysuckle-dry": "Пагін жимолості (засохший)",
+	"item-clipping-raspberry-dry": "Пагін малини (засохший)",
+	"item-clipping-wolfberry-dry": "Пагін вовчих ягід (засохший)",
+	"item-clipping-husktomato-dry": "Пагін фізалісу (засохший)",
+
+	"item-clipping-blackcurrant-dry": "Пагін чорної порічки (засохший)",
+	"item-clipping-redcurrant-dry": "Пагін червоних порічок (засохший)",
+	"item-clipping-whitecurrant-dry": "Пагін білих порічок (засохший)",
+	"item-clipping-blueberry-dry": "Пагін лохини (засохший)",
+	"item-clipping-cranberry-dry": "Пагін журавлини (засохший)",
+
+	"item-seeds-strawberry": "Насіння полуниці",
+	"item-seeds-cloudberry": "Насіння морошки",
+	"item-seeds-crowberry": "Насіння горобини",
+	"item-seeds-bunchberry": "Насіння дерену",
+
+	"block-clipping-huckleberry-alive": "Чорниця (Пагін)",
+	"block-clipping-huckleberry-dead": "Засохла чорниця (Пагін)",
+	"block-growth-huckleberry-alive": "Чорниця (Паросток)",
+	"block-growth-huckleberry-dead": "Засохла чорниця (Паросток)",
+
+	"block-clipping-snowberry-alive": "Сніжноягідник (Пагін)",
+	"block-clipping-snowberry-dead": "Засохлий сніжноягідник (Пагін)",
+
+	"block-clipping-brambleberry-alive": "Ожина (Пагін)",
+	"block-clipping-brambleberry-dead": "Засохла ожина (Пагін)",
+	"block-growth-brambleberry-alive": "Ожина (Паросток)",
+	"block-growth-brambleberry-dead": "Засохла ожина (Паросток)",
+
+	"block-clipping-dogrose-alive": "Шипшина (Пагін)",
+	"block-clipping-dogrose-dead": "Засохла шипшина (Пагін)",
+	"block-growth-dogrose-alive": "Шипшина (Паросток)",
+	"block-growth-dogrose-dead": "Засохла шипшина (Паросток)",
+
+	"block-clipping-elderberry-alive": "Бузина (Пагін)",
+	"block-clipping-elderberry-dead": "Засохла бузина (Пагін)",
+
+	"block-clipping-gooseberry-alive": "Аґрус (Пагін)",
+	"block-clipping-gooseberry-dead": "Засохлий аґрус (Пагін)",
+	"block-growth-gooseberry-alive": "Аґрус (Паросток)",
+	"block-growth-gooseberry-dead": "Засохлий аґрус (Паросток)",
+
+	"block-clipping-honeysuckle-alive": "Жимолость (Пагін)",
+	"block-clipping-honeysuckle-dead": "Засохла жимолость (Пагін)",
+	"block-growth-honeysuckle-alive": "Жимолость (Паросток)",
+	"block-growth-honeysuckle-dead": "Засохла жимолость (Паросток)",
+
+	"block-clipping-raspberry-alive": "Малина (Пагін)",
+	"block-clipping-raspberry-dead": "Засохла малина (Пагін)",
+	"block-growth-raspberry-alive": "Малина (Паросток)",
+	"block-growth-raspberry-dead": "Засохла малина (Паросток)",
+
+	"block-clipping-blueraspberry-alive": "Синя малина (Пагін)",
+	"block-clipping-blueraspberry-dead": "Засохла синя малина (Пагін)",
+	"block-growth-blueraspberry-alive": "Синя малина (Паросток)",
+	"block-growth-blueraspberry-dead": "Засохла синя малина (Паросток)",
+  
+	"block-clipping-wolfberry-alive": "Пагін вовчих ягід",
+	"block-clipping-wolfberry-dead": "Засохлий пагін вовчих ягід",
+  
+	"block-clipping-husktomato-alive": "Пагін фізалісу",
+	"block-clipping-husktomato-dead": "Засохлий пагін фізалісу",
+  
+	"block-clipping-blackcurrant-alive": "Чорна порічка (Пагін)",
+	"block-clipping-blackcurrant-dead": "Засохла чорна порічка (Пагін)",
+	"block-growth-blackcurrant-alive": "Чорна порічка (Паросток)",
+	"block-growth-blackcurrant-dead": "Засохла чорна порічка (Паросток)",
+
+	"block-clipping-redcurrant-alive": "Червона порічка (Пагін)",
+	"block-clipping-redcurrant-dead": "Засохла червона порічка (Пагін)",
+	"block-growth-redcurrant-alive": "Червона порічка (Паросток)",
+	"block-growth-redcurrant-dead": "Засохла червона порічка (Паросток)",
+
+	"block-clipping-whitecurrant-alive": "Білі порічка (Пагін)",
+	"block-clipping-whitecurrant-dead": "Засохла біла порічка (Пагін)",
+	"block-growth-whitecurrant-alive": "Біла порічка (Паросток)",
+	"block-growth-whitecurrant-dead": "Засохла біла порічка (Паросток)",
+
+	"block-clipping-blueberry-alive": "Чорниця (Пагін)",
+	"block-clipping-blueberry-dead": "Засохла чорниця (Пагін)",
+
+	"block-clipping-cranberry-alive": "Журавлина (Пагін)",
+	"block-clipping-cranberry-dead": "Засохла журавлина (Пагін)",
+
+	"meal-ingredient-soup-secondary-herbs": "трави",
+	"meal-ingredient-stew-secondary-herbs": "трави",
+
+	"recipeingredient-item-herbs-mustard-insturmentalcase": "гірчицею",
+	"recipeingredient-item-herbs-mustard": "гірчицею",
+	"meal-ingredient-soup-secondary-herbs-mustard": "гірчицею",
+	"meal-ingredient-stew-secondary-herbs-mustard": "гірчицею",
+
+	"item-herbs-mustard":"Гірчиця",
+	"item-herbseeds-mustard":"Насіння гірчиці",
+
+	"recipeingredient-item-herbs-basil-insturmentalcase": "базиліком",
+	"recipeingredient-item-herbs-basil": "базиліком",
+	"meal-ingredient-soup-secondary-herbs-basil": "базиліком",
+	"meal-ingredient-stew-secondary-herbs-basil": "базиліком",
+
+	"item-herbs-basil":"Базилік",
+	"item-herbseeds-basil":"Насіння базиліку",
+
+	"recipeingredient-item-herbs-bearleek-insturmentalcase": "черемшою",
+	"recipeingredient-item-herbs-bearleek": "черемшою",
+	"meal-ingredient-soup-secondary-herbs-bearleek": "черемшою",
+	"meal-ingredient-stew-secondary-herbs-bearleek": "черемшою",
+
+	"item-herbs-bearleek":"Черемша",
+	"item-herbseeds-bearleek":"Насіння черемші",
+
+
+	"recipeingredient-item-herbs-blackpepper-insturmentalcase": "чорним перцем",
+	"recipeingredient-item-herbs-blackpepper": "чорним перцем",
+	"meal-ingredient-soup-secondary-herbs-blackpepper": "чорним перцем",
+	"meal-ingredient-stew-secondary-herbs-blackpepper": "чорним перцем",
+
+	"item-herbs-blackpepper":"Чорний перець",
+	"item-herbseeds-blackpepper":"Насіння чорного перцю",
+
+
+	"recipeingredient-item-herbs-celery-insturmentalcase": "селерою",
+	"recipeingredient-item-herbs-celery": "селерою",
+	"meal-ingredient-soup-secondary-herbs-celery": "селерою",
+	"meal-ingredient-stew-secondary-herbs-celery": "селерою",
+
+	"item-herbs-celery":"Селера",
+	"item-herbseeds-celery":"Насіння селери",
+
+
+	"recipeingredient-item-herbs-chamomile-insturmentalcase": "ромашкою",
+	"recipeingredient-item-herbs-chamomile": "ромашкою",
+	"meal-ingredient-soup-secondary-herbs-chamomile": "ромашкою",
+	"meal-ingredient-stew-secondary-herbs-chamomile": "ромашкою",
+
+	"item-herbs-chamomile":"Ромашка",
+	"item-herbseeds-chamomile":"Насіння ромашки",
+
+
+	"recipeingredient-item-herbs-cilantro-insturmentalcase": "кінзою",
+	"recipeingredient-item-herbs-cilantro": "кінзою",
+	"meal-ingredient-soup-secondary-herbs-cilantro": "кінзою",
+	"meal-ingredient-stew-secondary-herbs-cilantro": "кінзою",
+
+	"item-herbs-cilantro":"Кінза",
+	"item-herbseeds-cilantro":"Насіння кінзи",
+
+
+	"recipeingredient-item-herbs-dill-insturmentalcase": "кропом",
+	"recipeingredient-item-herbs-dill": "кропом",
+	"meal-ingredient-soup-secondary-herbs-dill": "кропом",
+	"meal-ingredient-stew-secondary-herbs-dill": "кропом",
+
+	"item-herbs-dill":"Кріп",
+	"item-herbseeds-dill":"Насіння кропу",
+
+
+	"recipeingredient-item-herbs-dock-insturmentalcase": "щавлем",
+	"recipeingredient-item-herbs-dock": "щавлем",
+	"meal-ingredient-soup-secondary-herbs-dock": "щавлем",
+	"meal-ingredient-stew-secondary-herbs-dock": "щавлем",
+
+	"item-herbs-dock":"Щавель",
+	"item-herbseeds-dock":"Насіяння щавлю",
+
+
+	"recipeingredient-item-herbs-marjoram-insturmentalcase": "майораном",
+	"recipeingredient-item-herbs-marjoram": "майораном",
+	"meal-ingredient-soup-secondary-herbs-marjoram": "майораном",
+	"meal-ingredient-stew-secondary-herbs-marjoram": "майораном",
+
+	"item-herbs-marjoram":"Майоран",
+	"item-herbseeds-marjoram":"Насіяння майорану",
+
+
+	"recipeingredient-item-herbs-lavender-insturmentalcase": "лавандою",
+	"recipeingredient-item-herbs-lavender": "лавандою",
+	"meal-ingredient-soup-secondary-herbs-lavender": "лавандою",
+	"meal-ingredient-stew-secondary-herbs-lavender": "лавандою",
+
+	"item-herbs-lavender":"Лаванда",
+	"item-herbseeds-lavender":"Насіння лаванди",
+
+
+	"recipeingredient-item-herbs-marshmallow-insturmentalcase": "алтеєю",
+	"recipeingredient-item-herbs-marshmallow": "алтеєю",
+	"meal-ingredient-soup-secondary-herbs-marshmallow": "алтеєю",
+	"meal-ingredient-stew-secondary-herbs-marshmallow": "алтеєю",
+
+	"item-herbs-marshmallow":"Алтея",
+	"item-herbseeds-marshmallow":"Насіння алтеї",
+
+
+	"recipeingredient-item-herbs-mint-insturmentalcase": "м'ятою",
+	"recipeingredient-item-herbs-mint": "м'ятою",
+	"meal-ingredient-soup-secondary-herbs-mint": "м'ятою",
+	"meal-ingredient-stew-secondary-herbs-mint": "м'ятою",
+
+	"item-herbs-mint":"М'ята",
+	"item-herbseeds-mint":"Насіння м'яти",
+
+
+	"recipeingredient-item-herbs-rosemary-insturmentalcase": "розмарином",
+	"recipeingredient-item-herbs-rosemary": "розмарином",
+	"meal-ingredient-soup-secondary-herbs-rosemary": "розмарином",
+	"meal-ingredient-stew-secondary-herbs-rosemary": "розмарином",
+
+	"item-herbs-rosemary":"Розмарин",
+	"item-herbseeds-rosemary":"Насіння розмарину",
+
+
+	"recipeingredient-item-herbs-saffron-insturmentalcase": "шафраном",
+	"recipeingredient-item-herbs-saffron": "шафраном",
+	"meal-ingredient-soup-secondary-herbs-saffron": "шафраном",
+	"meal-ingredient-stew-secondary-herbs-saffron": "шафраном",
+
+	"item-herbs-saffron":"Шафран",
+	"item-herbseeds-saffron":"Насіння шафрану",
+
+
+	"recipeingredient-item-herbs-softsedge-insturmentalcase": "м'якою осокою",
+	"recipeingredient-item-herbs-softsedge": "м'якою осокою",
+	"meal-ingredient-soup-secondary-herbs-softsedge": "м'якою осокою",
+	"meal-ingredient-stew-secondary-herbs-softsedge": "м'якою осокою",
+  
+	"item-herbs-softsedge":"М'яка осока",
+	"item-herbseeds-softsedge":"Насіння м'якої осоки",
+
+
+	"recipeingredient-item-herbs-sage-insturmentalcase": "шавлією",
+	"recipeingredient-item-herbs-sage": "шавлією",
+	"meal-ingredient-soup-secondary-herbs-sage": "шавлією",
+	"meal-ingredient-stew-secondary-herbs-sage": "шавлією",
+
+	"item-herbs-sage":"Шавлія",
+	"item-herbseeds-sage":"Насіння шавлії",
+
+
+	"recipeingredient-item-herbs-stingingnettle-insturmentalcase": "кропивою",
+	"recipeingredient-item-herbs-stingingnettle": "кропивою",
+	"meal-ingredient-soup-secondary-herbs-stingingnettle": "кропивою",
+	"meal-ingredient-stew-secondary-herbs-stingingnettle": "кропивою",
+
+	"item-herbs-stingingnettle":"Кропива",
+	"item-herbseeds-stingingnettle":"Насіння кропиви",
+
+
+	"recipeingredient-item-herbs-stjohnswort-insturmentalcase": "звіробоєм",
+	"recipeingredient-item-herbs-stjohnswort": "звіробоєм",
+	"meal-ingredient-soup-secondary-herbs-stjohnswort": "звіробоєм",
+	"meal-ingredient-stew-secondary-herbs-stjohnswort": "звіробоєм",
+
+	"item-herbs-stjohnswort":"Звіробій",
+	"item-herbseeds-stjohnswort":"Насіння звіробою",
+
+
+	"recipeingredient-item-herbs-thyme-insturmentalcase": "чебрецем",
+	"recipeingredient-item-herbs-thyme": "чебрецем",
+	"meal-ingredient-soup-secondary-herbs-thyme": "чебрецем",
+	"meal-ingredient-stew-secondary-herbs-thyme": "чебрецем",
+
+	"item-herbs-thyme":"Чебрець",
+	"item-herbseeds-thyme":"Насіння чебрецю",
+
+
+	"recipeingredient-item-herbs-minerslettuce-insturmentalcase": "шахтарським салатом",
+	"recipeingredient-item-herbs-minerslettuce": "шахтарським салатом",
+	"meal-ingredient-soup-secondary-herbs-minerslettuce": "шахтарським салатом",
+	"meal-ingredient-stew-secondary-herbs-minerslettuce": "шахтарським салатом",
+
+	"item-herbs-minerslettuce":"Шахтарський салат",
+	"item-herbseeds-minerslettuce":"Насіння шахтарського салату",
+
+	"item-herbs-woodspurge":"Молочай",
+	"item-herbseeds-woodspurge":"Насіння молочаю",
+  
+	"item-herbs-brownsedge":"Бура осока",
+	"item-herbseeds-brownsedge":"Насіння бурої осоки",
+  
+
+	"recipeingredient-item-herbs-mugwort-insturmentalcase": "полином",
+	"recipeingredient-item-herbs-mugwort": "полином",
+	"meal-ingredient-soup-secondary-herbs-mugwort": "полином",
+	"meal-ingredient-stew-secondary-herbs-mugwort": "полином",
+
+	"item-herbs-mugwort":"Полин",
+	"item-herbseeds-mugwort":"Насіння полину",
+
+
+	"recipeingredient-item-herbs-burdock-insturmentalcase": "лопухом",
+	"recipeingredient-item-herbs-burdock": "лопухом",
+	"meal-ingredient-soup-secondary-herbs-burdock": "лопухом",
+	"meal-ingredient-stew-secondary-herbs-burdock": "лопухом",
+
+	"item-herbs-burdock":"Лопух",
+	"item-herbseeds-burdock":"Насіння лопуха",
+
+	"item-roots-burdock":"Корінь лопуха",
+	"recipeingredient-item-roots-burdock-insturmentalcase": "коренем лопуха",
+	"recipeingredient-item-roots-burdock": "коренем лопуха",
+	"meal-ingredient-soup-secondary-roots-burdock": "коренем лопуха",
+	"meal-ingredient-stew-secondary-roots-burdock": "коренем лопуха",
+
+	"item-roots-bearleek":"Цибулина черемші",
+	"recipeingredient-item-roots-bearleek-insturmentalcase": "цибулиною черемші",
+	"recipeingredient-item-roots-bearleek": "цибулиною черемші",
+	"meal-ingredient-soup-secondary-roots-bearleek": "цибулиною черемші",
+	"meal-ingredient-stew-secondary-roots-bearleek": "цибулиною черемші",
+
+	"item-roots-marshmallow":"Корінь алтеї",
+	"recipeingredient-item-roots-marshmallow-insturmentalcase": "коренем алтеї",
+	"recipeingredient-item-roots-marshmallow": "коренем алтеї",
+	"meal-ingredient-soup-secondary-roots-marshmallow": "коренем алтеї",
+	"meal-ingredient-stew-secondary-roots-marshmallow": "коренем алтеї",
+
+
+	"recipeingredient-item-herbs-jewelweed-insturmentalcase": "бальзаміном",
+	"recipeingredient-item-herbs-jewelweed": "бальзаміном",
+	"meal-ingredient-soup-secondary-herbs-jewelweed": "бальзаміном",
+	"meal-ingredient-stew-secondary-herbs-jewelweed": "бальзаміном",
+  
+	"item-herbs-jewelweed":"Бальзамін",
+	"item-herbseeds-jewelweed":"Насіння бальзаміну",
+  
+	"recipeingredient-item-herbs-rhubarb-insturmentalcase": "ревенем",
+	"recipeingredient-item-herbs-rhubarb": "ревенем",
+	"meal-ingredient-soup-secondary-herbs-rhubarb": "ревенем",
+	"meal-ingredient-stew-secondary-herbs-rhubarb": "ревенем",
+  
+	"item-herbs-rhubarb":"Ревінь",
+	"item-herbseeds-rhubarb":"Насіння ревеню",
+  
+	"recipeingredient-item-herbs-butterbur-insturmentalcase": "підмаренником",
+	"recipeingredient-item-herbs-butterbur": "підмаренником",
+	"meal-ingredient-soup-secondary-herbs-butterbur": "підмаренником",
+	"meal-ingredient-stew-secondary-herbs-butterbur": "підмаренником",
+  
+	"item-herbs-butterbur":"Підмаренник",
+	"item-herbseeds-butterbur":"Насіння підмаренника",
+  
+  
+	"recipeingredient-item-herbs-arrowhead-insturmentalcase": "сингоніумом",
+	"recipeingredient-item-herbs-arrowhead": "сингоніумом",
+	"meal-ingredient-soup-secondary-herbs-arrowhead": "сингоніумом",
+	"meal-ingredient-stew-secondary-herbs-arrowhead": "сингоніумом",
+  
+	"item-herbs-arrowhead":"Сингоніум",
+	"item-herbseeds-arrowhead":"Насіння сингоніуму",
+
+
+	"recipeingredient-item-herbs-bugleweed-insturmentalcase": "горлянкою",
+	"recipeingredient-item-herbs-bugleweed": "горлянкою",
+	"meal-ingredient-soup-secondary-herbs-bugleweed": "горлянкою",
+	"meal-ingredient-stew-secondary-herbs-bugleweed": "горлянкою",
+  
+	"item-herbs-bugleweed":"Горлянка",
+	"item-herbseeds-bugleweed":"Насіння горлянки",
+  
+	"recipeingredient-item-herbs-angelica-insturmentalcase": "дягелем",
+	"recipeingredient-item-herbs-angelica": "дягелем",
+	"meal-ingredient-soup-secondary-herbs-angelica": "дягелем",
+	"meal-ingredient-stew-secondary-herbs-angelica": "дягелем",
+  
+	"item-herbs-angelica":"Дягель",
+	"item-herbseeds-angelica":"Насіння дягелю",
+  
+	"recipeingredient-item-herbs-foxglove-insturmentalcase": "наперстянкою",
+	"recipeingredient-item-herbs-foxglove": "наперстянкою",
+	"meal-ingredient-soup-secondary-herbs-foxglove": "наперстянкою",
+	"meal-ingredient-stew-secondary-herbs-foxglove": "наперстянкою",
+  
+	"item-herbs-foxglove":"Наперстянка",
+	"item-herbseeds-foxglove":"Насіння наперстянки",
+  
+	"recipeingredient-item-herbs-rockrose-insturmentalcase": "чистом",
+	"recipeingredient-item-herbs-rockrose": "чистом",
+	"meal-ingredient-soup-secondary-herbs-rockrose": "чистом",
+	"meal-ingredient-stew-secondary-herbs-rockrose": "чистом",
+  
+	"item-herbs-rockrose":"Чист",
+	"item-herbseeds-rockrose":"Насіння чисту",
+
+	"recipeingredient-item-herbs-horehound-insturmentalcase": "шандрою",
+	"recipeingredient-item-herbs-horehound": "шандрою",
+	"meal-ingredient-soup-secondary-herbs-horehound": "шандрою",
+	"meal-ingredient-stew-secondary-herbs-horehound": "шандрою",
+  
+	"item-herbs-horehound":"Шандра",
+	"item-herbseeds-horehound":"Насіння шандри",
+  
+	"recipeingredient-item-herbs-ginger-insturmentalcase": "імбирем",
+	"recipeingredient-item-herbs-ginger": "імбирем",
+	"meal-ingredient-soup-secondary-herbs-ginger": "імбирем",
+	"meal-ingredient-stew-secondary-herbs-ginger": "імбирем",
+  
+	"item-herbs-ginger":"Імбир",
+	"item-herbseeds-ginger":"Насіння імбирю",
+  
+	"recipeingredient-item-herbs-burnet-insturmentalcase": "родовиком",
+	"recipeingredient-item-herbs-burnet": "родовиком",
+	"meal-ingredient-soup-secondary-herbs-burnet": "родовиком",
+	"meal-ingredient-stew-secondary-herbs-burnet": "родовиком",
+  
+	"item-herbs-burnet":"Родовик",
+	"item-herbseeds-burnet":"Насіння родовику",
+  
+	"recipeingredient-item-herbs-arnica-insturmentalcase": "арнікою",
+	"recipeingredient-item-herbs-arnica": "арнікою",
+	"meal-ingredient-soup-secondary-herbs-arnica": "арнікою",
+	"meal-ingredient-stew-secondary-herbs-arnica": "арнікою",
+  
+	"item-herbs-arnica":"Арніка",
+	"item-herbseeds-arnica":"Насіння арніки",
+
+
+	"recipeingredient-item-herbs-cicuta-insturmentalcase": "цикутою",
+	"recipeingredient-item-herbs-cicuta": "цикутою",
+	"meal-ingredient-soup-secondary-herbs-cicuta": "цикутою",
+	"meal-ingredient-stew-secondary-herbs-cicuta": "цикутою",
+  
+	"item-herbs-cicuta":"Цикута",
+	"item-herbseeds-cicuta":"Насіння цикути",
+  
+	"recipeingredient-item-herbs-tansy-insturmentalcase": "пижмом",
+	"recipeingredient-item-herbs-tansy": "пижмом",
+	"meal-ingredient-soup-secondary-herbs-tansy": "пижмом",
+	"meal-ingredient-stew-secondary-herbs-tansy": "пижмом",
+  
+	"item-herbs-tansy":"Пижмо",
+	"item-herbseeds-tansy":"Насіння пижма",
+  
+	"recipeingredient-item-herbs-ginseng-insturmentalcase": "женьшенем",
+	"recipeingredient-item-herbs-ginseng": "женьшенем",
+	"meal-ingredient-soup-secondary-herbs-ginseng": "женьшенем",
+	"meal-ingredient-stew-secondary-herbs-ginseng": "женьшенем",
+  
+	"item-herbs-ginseng":"Женьшень",
+	"item-herbseeds-ginseng":"Насіння женьшеню",
+  
+	"recipeingredient-item-herbs-katuk-insturmentalcase": "катуком",
+	"recipeingredient-item-herbs-katuk": "катуком",
+	"meal-ingredient-soup-secondary-herbs-katuk": "катуком",
+	"meal-ingredient-stew-secondary-herbs-katuk": "катуком",
+  
+	"item-herbs-katuk":"Катук",
+	"item-herbseeds-katuk":"Насіння катуку",
+
+	"block-smallannualplant-minerslettuce-normal": "Шахтарський салат",
+	"block-smallannualplant-minerslettuce-harvested": "Шахтарський салат (росте)",
+
+	"block-smallannualplant-woodspurge-normal": "Молочай",
+	"block-smallannualplant-woodspurge-flowering": "Woodspurge (росте)",
+  
+	"block-smallannualplant-clover-normal": "Конюшина",
+	"block-smallannualplant-clover-flowering": "Конюшина (росте)",
+  
+	"block-smallannualplant-caltha-normal": "Калюжниця",
+	"block-smallannualplant-caltha-flowering": "Калюжниця (росте)",
+  
+  
+	"block-perennialplant-katuk-normal": "Катук",
+	"block-perennialplant-katuk-harvested": "Катук (росте)",
+
+	"block-perennialplant-ginseng-normal": "Женьшень",
+	"block-perennialplant-ginseng-harvested": "Женьшень (росте)",
+  
+	"block-perennialplant-tansy-normal": "Пижмо",
+	"block-perennialplant-tansy-harvested": "Пижмо (росте)",
+  
+	"block-perennialplant-cicuta-normal": "Цикута",
+	"block-perennialplant-cicuta-harvested": "Цикута (росте)",
+  
+	"block-perennialplant-arnica-normal": "Арніка",
+	"block-perennialplant-arnica-harvested": "Арніка (росте)",
+  
+	"block-perennialplant-burnet-normal": "Родовик",
+	"block-perennialplant-burnet-harvested": "Родовик (росте)",
+  
+	"block-perennialplant-ginger-normal": "Імбир",
+	"block-perennialplant-ginger-harvested": "Імбир (росте)",
+  
+	"block-perennialplant-horehound-normal": "Шандра",
+	"block-perennialplant-horehound-harvested": "Шандра (росте)",
+  
+	  "block-perennialplant-rockrose-normal": "Чист",
+	"block-perennialplant-rockrose-harvested": "Чист (росте)",
+  
+	"block-perennialplant-angelica-normal": "Дягель",
+	"block-perennialplant-angelica-harvested": "Дягель (росте)",
+  
+	"block-perennialplant-foxglove-normal": "Наперстянка",
+	"block-perennialplant-foxglove-harvested": "Наперстянка (росте)",
+
+	"block-leafyperennialplant-rhubarb-normal": "Ревінь",
+	"block-leafyperennialplant-rhubarb-harvested": "Ревінь (росте)",
+  
+	"block-duckweed-*": "Ряска",
+  
+	"block-leafyperennialplant-butterbur-normal": "Підмаренник",
+	"block-leafyperennialplant-butterbur-harvested": "Підмаренник (росте)",
+  
+	"block-arrowhead-arrowhead-normal": "Сингоніум",
+	"block-arrowhead-arrowhead-harvested": "Сингоніум (росте)",
+  
+	"block-bugleweed-european-tall": "Горлянка повзуча (висока)",
+	"block-bugleweed-european-short": "Горлянка повзуча (коротка)",
+  
+	"block-annualplant-jewelweed-normal": "Бальзамін",
+	"block-annualplant-jewelweed-harvested": "Бальзамін (росте)",
+
+	"block-annualplant-stingingnettle-normal": "Жалка кропива",
+	"block-annualplant-stingingnettle-harvested": "Жалка кропива (росте)",
+
+	"block-annualplant-basil-normal": "Базилік",
+	"block-annualplant-basil-harvested": "Базилік (росте)",
+
+	"block-perennialplant-bearleek-normal": "Черемша",
+	"block-perennialplant-bearleek-harvested": "Черемша (росте)",
+
+	"block-annualplant-blackpepper-normal": "Чорний перець",
+	"block-annualplant-blackpepper-harvested": "Чорний перець (росте)",
+
+	"block-annualplant-celery-normal": "Селера",
+	"block-annualplant-celery-harvested": "Селера (росте)",
+
+	"block-annualplant-dill-normal": "Кріп",
+	"block-annualplant-dill-harvested": "Кріп (росте)",
+
+	"block-annualplant-chamomile-normal": "Ромашка",
+	"block-annualplant-chamomile-harvested": "Ромашка (росте)",
+
+	"block-annualplant-cilantro-normal": "Кінза",
+	"block-annualplant-cilantro-harvested": "Кінза (росте)",
+
+	"block-annualplant-dock-normal": "Щавель",
+	"block-annualplant-dock-harvested": "Щавель (росте)",
+
+	"block-evergreenplant-lavender-normal": "Лаванда",
+	"block-evergreenplant-lavender-harvested": "Лаванда (росте)",
+
+	"block-perennialplant-marjoram-normal": "Майоран",
+	"block-perennialplant-marjoram-harvested": "Майоран (росте)",
+
+	"block-perennialplant-marshmallow-normal": "Алтея",
+	"block-perennialplant-marshmallow-harvested": "Алтея (росте)",
+
+	"block-perennialplant-mint-normal": "М'ята",
+	"block-perennialplant-mint-harvested": "М'ята (росте)",
+
+	"block-annualplant-mustard-normal": "Гірчиця",
+	"block-annualplant-mustard-harvested": "Гірчиця (росте)",
+
+	"block-evergreenplant-rosemary-normal": "Розмарин",
+	"block-evergreenplant-rosemary-harvested": "Розмарин (росте)",
+
+	"block-perennialplant-saffron-normal": "Шафран",
+	"block-perennialplant-saffron-harvested": "Шафран (росте)",
+
+	"block-perennialplant-sage-normal": "Шавлія",
+	"block-perennialplant-sage-harvested": "Шавлія (росте)",
+
+	"block-sedge-softsedge-normal": "М'яка осока",
+	"block-sedge-softsedge-harvested": "М'яка осока (росте)",
+  
+	"block-sedge-brownsedge-normal": "Бура осока",
+	"block-sedge-brownsedge-harvested": "Бура осока (росте)",
+  
+	"block-sedge-hardsedge-normal": "Осока гостра",
+	"block-sedge-hardsedge-harvested": "Осока гостра (росте)",
+  
+	"block-sedge-waterchestnut-normal": "Водяний каштан",
+	"block-sedge-waterchestnut-harvested": "Водяний каштан (росте)",
+
+	"block-perennialplant-stjohnswort-normal": "Звіробій",
+	"block-perennialplant-stjohnswort-harvested": "Звіробій (росте)",
+
+	"block-evergreenplant-thyme-normal": "Чебрець",
+	"block-evergreenplant-thyme-harvested": "Чебрець (росте)",
+
+	"block-perennialplant-mugwort-normal": "Полин",
+	"block-perennialplant-mugwort-harvested": "Полин (росте)",
+
+	"block-annualplant-burdock-normal": "Лопух",
+	"block-annualplant-burdock-harvested": "Лопух (росте)",
+
+	"block-evergreenplant-poisonoak-normal": "Ядовитий дуб",
+	"block-evergreenplant-poisonoak-harvested": "Ядовитий дуб (росте)",
+
+	"block-evergreenplant-holly-normal": "Падуб",
+	"block-evergreenplant-holly-harvested": "Падуб (росте)",
+
+	"block-annualplant-chicory-normal": "Цикорій",
+	"block-annualplant-chicory-harvested": "Цикорій (росте)",
+
+	"block-annualplant-marigold-normal": "Нагідки",
+	"block-annualplant-marigold-harvested": "Нагідки (росте)",
+
+	"block-perennialplant-inula-normal": "Оман",
+	"block-perennialplant-inula-harvested": "Оман (росте)",
+
+	"block-perennialplant-celandine-normal": "Чистотіл",
+	"block-perennialplant-celandine-harvested": "Чистотіл (росте)",
+
+	"block-perennialplant-leek-normal": "Цибуля-порей",
+	"block-perennialplant-leek-harvested": "Цибуля-порей (росте)",
+
+	"block-perennialplant-plantain-normal": "Подорожник великий",
+	"block-perennialplant-plantain-harvested": "Подорожник великий (росте)",
+
+	"block-annualplant-saltwort-normal": "Солянка",
+	"block-annualplant-saltwort-harvested": "Солянка (росте)",
+
+	"block-perennialplant-yarrow-normal": "Деревій",
+	"block-perennialplant-yarrow-harvested": "Деревій (росте)",
+
+	"block-annualplant-liquorice-normal": "Солодка",
+	"block-annualplant-liquorice-harvested": "Солодка (росте)",
+
+
+	"block-amphibiousplant-skunkcabbage-*": "Скунсова капуста",
+	"item-skunkcabbage-leafs": "Листя скунсової капусти", 
+	"item-skunkcabbage-stem": "Стебло скунсової капусти", 
+	"item-waterherbseeds-skunkcabbage": "Насіння скунсової капусти",
+	"block-seedling-skunkcabbage-planted": "Насіння скунсової капусти (росте)",
+	"block-seedling-skunkcabbage-sprouting": "Насіння скунсової капусти (проростає)",
+
+	"item-herbs-poisonoak":"Ядовитий дуб",
+	"item-herbseeds-poisonoak":"Насіння ядовитого дуба",
+
+	"item-herbs-holly":"Падуб",
+	"item-herbseeds-holly":"Насіння падуба",
+
+	"recipeingredient-item-herbs-chicory-insturmentalcase": "цикорієм",
+	"recipeingredient-item-herbs-chicory": "цикорієм",
+	"meal-ingredient-soup-secondary-herbs-chicory": "цикорієм",
+	"meal-ingredient-stew-secondary-herbs-chicory": "цикорієм",
+
+	"item-herbs-chicory":"Цикорій",
+	"item-herbseeds-chicory":"Насіння цикорію",
+
+	"recipeingredient-item-herbs-marigold-insturmentalcase": "нагідками",
+	"recipeingredient-item-herbs-marigold": "нагідками",
+	"meal-ingredient-soup-secondary-herbs-marigold": "нагідками",
+	"meal-ingredient-stew-secondary-herbs-marigold": "нагідками",
+
+	"item-herbs-marigold":"Нагідки",
+	"item-herbseeds-marigold":"Насіння нагідок",
+
+	"recipeingredient-item-herbs-inula-insturmentalcase": "оманом",
+	"recipeingredient-item-herbs-inula": "оманом",
+	"meal-ingredient-soup-secondary-herbs-inula": "оманом",
+	"meal-ingredient-stew-secondary-herbs-inula": "оманом",
+
+	"item-herbs-inula":"Оман",
+	"item-herbseeds-inula":"Насіння оману",
+
+	"recipeingredient-item-herbs-celandine-insturmentalcase": "чистотілом",
+	"recipeingredient-item-herbs-celandine": "чистотілом",
+	"meal-ingredient-soup-secondary-herbs-celandine": "чистотілом",
+	"meal-ingredient-stew-secondary-herbs-celandine": "чистотілом",
+
+	"item-herbs-celandine":"Чистотіл",
+	"item-herbseeds-celandine":"Насіння чистотілу",
+
+	"recipeingredient-item-herbs-leek-insturmentalcase": "цибулею-пореєм",
+	"recipeingredient-item-herbs-leek": "цибулею-пореєм",
+	"meal-ingredient-soup-secondary-herbs-leek": "цибулею-пореєм",
+	"meal-ingredient-stew-secondary-herbs-leek": "цибулею-пореєм",
+
+	"item-herbs-leek":"Цибуля-порей",
+	"item-herbseeds-leek":"Насіння цибулі-порею",
+
+	"recipeingredient-item-herbs-plantain-insturmentalcase": "подорожником",
+	"recipeingredient-item-herbs-plantain": "подорожником",
+	"meal-ingredient-soup-secondary-herbs-plantain": "подорожником",
+	"meal-ingredient-stew-secondary-herbs-plantain": "подорожником",
+
+	"item-herbs-plantain":"Подорожник великий",
+	"item-herbseeds-plantain":"Насіння великого подорожника",
+
+	"recipeingredient-item-herbs-saltwort-insturmentalcase": "солянкою",
+	"recipeingredient-item-herbs-saltwort": "солянкою",
+	"meal-ingredient-soup-secondary-herbs-saltwort": "солянкою",
+	"meal-ingredient-stew-secondary-herbs-saltwort": "солянкою",
+
+	"item-herbs-saltwort":"Солянка",
+	"item-herbseeds-saltwort":"Насіння солянки",
+
+	"recipeingredient-item-herbs-yarrow-insturmentalcase": "деревієм",
+	"recipeingredient-item-herbs-yarrow": "деревієм",
+	"meal-ingredient-soup-secondary-herbs-yarrow": "деревієм",
+	"meal-ingredient-stew-secondary-herbs-yarrow": "деревієм",
+
+	"item-herbs-yarrow":"Деревій",
+	"item-herbseeds-yarrow":"Насіння деревію",
+
+	"recipeingredient-item-herbs-liquorice-insturmentalcase": "солодкою",
+	"recipeingredient-item-herbs-liquorice": "солодкою",
+	"meal-ingredient-soup-secondary-herbs-liquorice": "солодкою",
+	"meal-ingredient-stew-secondary-herbs-liquorice": "солодкою",
+
+	"item-herbs-liquorice":"Солодка",
+	"item-herbseeds-liquorice":"Насіння солодки",
+
+	"recipeingredient-item-herbs-waterchestnut-insturmentalcase": "хвостами водяного каштану",
+	"recipeingredient-item-herbs-waterchestnut": "хвостами водяного каштану",
+	"meal-ingredient-soup-secondary-herbs-waterchestnut": "хвостами водяного каштану",
+	"meal-ingredient-stew-secondary-herbs-waterchestnut": "хвостами водяного каштану",
+
+	"item-waterherbs-waterchestnut":"Хвости водяного каштану",
+	"item-waterherbseeds-waterchestnut":"Насіння водяного каштану",
+
+	"item-wherbs-waterchestnut":"Хвости водяного каштану",
+	"item-herbseeds-waterchestnut":"Насіння водяного каштану",
+  
+	"item-waterherbseeds-hardsedge": "Осока гостра seeds",
+	"item-waterherbseeds-brownsedge": "Насіння бурої осоки",
+	"item-waterherbseeds-tule": "Насіння куги",
+
+
+
+	"item-roots-waterchestnut":"Водяний каштан",
+	"item-roots-peeledwaterchestnut":"Очищений Водяний каштан",
+	"recipeingredient-item-roots-peeledwaterchestnut-insturmentalcase": "коренем водяного каштану",
+	"recipeingredient-item-roots-peeledwaterchestnut": "коренем водяного каштану",
+	"meal-ingredient-soup-secondary-roots-peeledwaterchestnut": "коренем водяного каштану",
+	"meal-ingredient-stew-secondary-roots-peeledwaterchestnut": "коренем водяного каштану",
+
+	"item-roots-chicory":"Корінь цикорію",
+	"recipeingredient-item-roots-chicory-insturmentalcase": "коренем цикорію",
+	"recipeingredient-item-roots-chicory": "коренем цикорію",
+	"meal-ingredient-soup-secondary-roots-chicory": "коренем цикорію",
+	"meal-ingredient-stew-secondary-roots-chicory": "коренем цикорію",
+
+	"item-roots-celery":"Корінь селери",
+	"recipeingredient-item-roots-celery-insturmentalcase": "коренем селери",
+	"recipeingredient-item-roots-celery": "коренем селери",
+	"meal-ingredient-soup-secondary-roots-celery": "коренем селери",
+	"meal-ingredient-stew-secondary-roots-celery": "коренем селери",
+
+	"item-roots-liquorice":"Корінь солодки",
+	"recipeingredient-item-roots-liquorice-insturmentalcase": "коренем солодки",
+	"recipeingredient-item-roots-liquorice": "коренем солодки",
+	"meal-ingredient-soup-secondary-roots-liquorice": "коренем солодки",
+	"meal-ingredient-stew-secondary-roots-liquorice": "коренем солодки",
+
+	"block-seedling-bearleek-planted": "Насіння черемші (росте)",
+	"block-seedling-bearleek-sprouting": "Насіння черемші (Пускає паростки)",
+
+	"block-seedling-angelica-planted": "Насіння дягелю (росте)",
+	"block-seedling-angelica-sprouting": "Насіння дягелю (проростає)",
+  
+	"block-crop-angelica-1": "Насіння дягелю (росте)",
+	"block-crop-angelica-2": "Дягель (росте)",
+	"block-crop-angelica-3": "Дягель",
+  
+	"block-seedling-foxglove-planted": "Насіння наперстянки (росте)",
+	"block-seedling-foxglove-sprouting": "Насіння наперстянки (проростає)",
+  
+	"block-crop-foxglove-1": "Насіння наперстянки (росте)",
+	"block-crop-foxglove-2": "Наперстянка (росте)",
+	"block-crop-foxglove-3": "Наперстянка",
+  
+	"block-seedling-burnet-planted": "Насіння родовика (росте)",
+	"block-seedling-burnet-sprouting": "Насіння родовика (проростає)",
+  
+	"block-crop-burnet-1": "Насіння родовика (росте)",
+	"block-crop-burnet-2": "Родовик (росте)",
+	"block-crop-burnet-3": "Родовик",
+  
+	"block-seedling-arnica-planted": "Насіння арніки (росте)",
+	"block-seedling-arnica-sprouting": "Насіння арніки (проростає)",
+  
+	"block-crop-arnica-1": "Насіння арніки (росте)",
+	"block-crop-arnica-2": "Арніка (росте)",
+	"block-crop-arnica-3": "Арніка",
+  
+	"block-seedling-ginger-planted": "Насіння імбиру (росте)",
+	"block-seedling-ginger-sprouting": "Насіння імбиру (проростає)",
+  
+	"block-crop-ginger-1": "Насіння імбиру (росте)",
+	"block-crop-ginger-2": "Імбир (росте)",
+	"block-crop-ginger-3": "Імбир",
+  
+	"block-seedling-horehound-planted": "Насіння шандри (росте)",
+	"block-seedling-horehound-sprouting": "Насіння шандри (проростає)",
+  
+	"block-crop-horehound-1": "Насіння шандри (росте)",
+	"block-crop-horehound-2": "Шандра (росте)",
+	"block-crop-horehound-3": "Шандра",
+  
+	"block-seedling-rockrose-planted": "Насіння чисту (росте)",
+	"block-seedling-rockrose-sprouting": "Насіння чисту (проростає)",
+  
+	"block-crop-rockrose-1": "Насіння чисту (росте)",
+	"block-crop-rockrose-2": "Чист (росте)",
+	"block-crop-rockrose-3": "Чист",
+  
+	"block-seedling-tansy-planted": "Насіння пижма (росте)",
+	"block-seedling-tansy-sprouting": "Насіння пижма (проростає)",
+  
+	"block-crop-tansy-1": "Насіння пижма (росте)",
+	"block-crop-tansy-2": "Пижмо (росте)",
+	"block-crop-tansy-3": "Пижмо",
+  
+	"block-seedling-cicuta-planted": "Насіння цикути (росте)",
+	"block-seedling-cicuta-sprouting": "Насіння цикути (проростає)",
+  
+	"block-crop-cicuta-1": "Насіння цикути (росте)",
+	"block-crop-cicuta-2": "Цикута (росте)",
+	"block-crop-cicuta-3": "Цикута",
+  
+	"block-seedling-ginseng-planted": "Насіння женьшеню (росте)",
+	"block-seedling-ginseng-sprouting": "Насіння женьшеню (проростає)",
+  
+	"block-crop-ginseng-1": "Насіння женьшеню (росте)",
+	"block-crop-ginseng-2": "Женьшень (росте)",
+	"block-crop-ginseng-3": "Женьшень",
+  
+	"block-seedling-katuk-planted": "Насіння катуку (росте)",
+	"block-seedling-katuk-sprouting": "Насіння катуку (проростає)",
+  
+	"block-crop-katuk-1": "Насіння катуку (росте)",
+	"block-crop-katuk-2": "Катук (росте)",
+	"block-crop-katuk-3": "Катук",
+  
+	
+	"block-seedling-softsedge-planted": "Насіння м'якої осоки (росте)",
+	"block-seedling-softsedge-sprouting": "Насіння м'якої осоки (проростає)",
+  
+	"block-crop-softsedge-1": "Насіння м'якої осоки (росте)",
+	"block-crop-softsedge-2": "М'яка осока (росте)",
+	"block-crop-softsedge-3": "М'яка осока",
+  
+	"block-seedling-jewelweed-planted": "Насіння бальзаміну (росте)",
+	"block-seedling-jewelweed-sprouting": "Насіння бальзаміну (проростає)",
+  
+	"block-crop-jewelweed-1": "Насіння бальзаміну (росте)",
+	"block-crop-jewelweed-2": "Бальзамін (росте)",
+	"block-crop-jewelweed-3": "Бальзамін",
+  
+	"block-seedling-rhubarb-planted": "Насіння ревеню (росте)",
+	"block-seedling-rhubarb-sprouting": "Насіння ревеню (проростає)",
+  
+	"block-crop-rhubarb-1": "Насіння ревеню (росте)",
+	"block-crop-rhubarb-2": "Ревінь (росте)",
+	"block-crop-rhubarb-3": "Ревінь",
+  
+	"block-seedling-butterbur-planted": "Насіння підмареннику (росте)",
+	"block-seedling-butterbur-sprouting": "Насіння підмареннику (проростає)",
+  
+	"block-crop-butterbur-1": "Насіння підмареннику (росте)",
+	"block-crop-butterbur-2": "Підмаренник (росте)",
+	"block-crop-butterbur-3": "Підмаренник",
+  
+	"block-seedling-woodspurge-planted": "Насіння молочаю (росте)",
+	"block-seedling-woodspurge-sprouting": "Насіння молочаю (проростає)",
+  
+	"block-crop-woodspurge-1": "Насіння молочаю (росте)",
+	"block-crop-woodspurge-2": "Молочай (росте)",
+	"block-crop-woodspurge-3": "Молочай",
+	
+	"block-seedling-hardsedge-planted": "Насіння гострої осоки (росте)",
+	"block-seedling-hardsedge-sprouting": "Насіння гострої осоки (проростає)",
+  
+	"block-seedling-brownsedge-planted": "Насіння бурої осоки (росте)",
+	"block-seedling-brownsedge-sprouting": "Насіння бурої осоки (проростає)",
+  
+	"block-seedling-tule-planted": "Насіння куги (росте)",
+	"block-seedling-tule-sprouting": "Насіння куги (проростає)",
+  
+	"block-seedling-swamptule-planted": "Насіння куги (росте)",
+	"block-seedling-swamptule-sprouting": "Насіння куги (проростає)",
+  
+	"block-seedling-arrowhead-planted": "Насіння сингоніуму (росте)",
+	"block-seedling-arrowhead-sprouting": "Насіння сингоніуму (проростає)",
+  
+
+	"block-crop-bearleek-1": "Насіння черемші (росте)",
+	"block-crop-bearleek-2": "Черемша (росте)",
+	"block-crop-bearleek-3": "Черемша",
+
+	"block-seedling-basil-planted": "Насіння базиліку (росте)",
+	"block-seedling-basil-sprouting": "Насіння базиліку (Пускає паростки)",
+
+	"block-crop-basil-1": "Насіння базиліку (росте)",
+	"block-crop-basil-2": "Базилік (росте)",
+	"block-crop-basil-3": "Базилік",
+
+	"block-seedling-blackpepper-planted": "Насіння чорного перцю (росте)",
+	"block-seedling-blackpepper-sprouting": "Насіння чорного перцю (Пускає паростки)",
+
+	"block-crop-blackpepper-1": "Насіння чорного перцю (росте)",
+	"block-crop-blackpepper-2": "Чорний перець (росте)",
+	"block-crop-blackpepper-3": "Чорний перець",
+
+	"block-seedling-celery-planted": "Насіння селери (росте)",
+	"block-seedling-celery-sprouting": "Насіння селери (Пускає паростки)",
+
+	"block-crop-celery-1": "Насіння селери (росте)",
+	"block-crop-celery-2": "Селера (росте)",
+	"block-crop-celery-3": "Селера",
+
+	"block-seedling-chamomile-planted": "Насіння ромашки (росте)",
+	"block-seedling-chamomile-sprouting": "Насіння ромашки (Пускає паростки)",
+
+	"block-crop-chamomile-1": "Насіння ромашки (росте)",
+	"block-crop-chamomile-2": "Ромашка (росте)",
+	"block-crop-chamomile-3": "Ромашка",
+
+	"block-seedling-cilantro-planted": "Насіння кінзи (росте)",
+	"block-seedling-cilantro-sprouting": "Насіння кінзи (Пускає паростки)",
+
+	"block-crop-cilantro-1": "Насіння кінзи (росте)",
+	"block-crop-cilantro-2": "Кінза (росте)",
+	"block-crop-cilantro-3": "Кінза",
+
+	"block-seedling-dill-planted": "Насіння кропу (росте)",
+	"block-seedling-dill-sprouting": "Насіння кропу (Пускає паростки)",
+
+	"block-crop-dill-1": "Насіння кропу (росте)",
+	"block-crop-dill-2": "Кріп (росте)",
+	"block-crop-dill-3": "Кріп",
+
+	"block-seedling-lavender-planted": "Насіння лаванди (росте)",
+	"block-seedling-lavender-sprouting": "Насіння лаванди (Пускає паростки)",
+
+	"block-seedling-dock-planted": "Насіяння щавлю (росте)",
+	"block-seedling-dock-sprouting": "Насіяння щавлю (Пускає паростки)",
+
+	"block-crop-dock-1": "Насіяння щавлю (росте)",
+	"block-crop-dock-2": "Щавель (росте)",
+	"block-crop-dock-3": "Щавель",
+
+	"block-seedling-marjoram-planted": "Насіяння майорану (росте)",
+	"block-seedling-marjoram-sprouting": "Насіяння майорану (Пускає паростки)",
+
+	"block-crop-marjoram-1": "Насіяння майорану (росте)",
+	"block-crop-marjoram-2": "Майоран (росте)",
+	"block-crop-marjoram-3": "Майоран",
+
+	"block-seedling-marshmallow-planted": "Насіння алтеї (росте)",
+	"block-seedling-marshmallow-sprouting": "Насіння алтеї (Пускає паростки)",
+
+	"block-crop-marshmallow-1": "Насіння алтеї (росте)",
+	"block-crop-marshmallow-2": "Алтея (росте)",
+	"block-crop-marshmallow-3": "Алтея",
+
+	"block-seedling-mint-planted": "Насіння м'яти (росте)",
+	"block-seedling-mint-sprouting": "Насіння м'яти (Пускає паростки)",
+
+	"block-crop-mint-1": "Насіння м'яти (росте)",
+	"block-crop-mint-2": "М'ята (росте)",
+	"block-crop-mint-3": "М'ята",
+
+	"block-seedling-mustard-planted": "Насіння гірчиці (росте)",
+	"block-seedling-mustard-sprouting": "Насіння гірчиці (Пускає паростки)",
+
+	"block-crop-mustard-1": "Насіння гірчиці (росте)",
+	"block-crop-mustard-2": "Гірчиця (росте)",
+	"block-crop-mustard-3": "Гірчиця",
+
+	"block-seedling-rosemary-planted": "Насіння розмарину (росте)",
+	"block-seedling-rosemary-sprouting": "Насіння розмарину (Пускає паростки)",
+
+	"block-seedling-saffron-planted": "Насіння шафрану (росте)",
+	"block-seedling-saffron-sprouting": "Насіння шафрану (Пускає паростки)",
+
+	"block-crop-saffron-1": "Насіння шафрану (росте)",
+	"block-crop-saffron-2": "Шафран (росте)",
+	"block-crop-saffron-3": "Шафран",
+
+	"block-seedling-sage-planted": "Насіння шавлії (росте)",
+	"block-seedling-sage-sprouting": "Насіння шавлії (Пускає паростки)",
+
+	"block-seedling-sedge-planted": "Насіння осоки (росте)",
+	"block-seedling-sedge-sprouting": "Насіння осоки (Пускає паростки)",
+
+	"block-seedling-stingingnettle-planted": "Насіння кропиви (росте)",
+	"block-seedling-stingingnettle-sprouting": "Насіння кропиви (Пускає паростки)",
+
+	"block-crop-stingingnettle-1": "Насіння кропиви (росте)",
+	"block-crop-stingingnettle-2": "Кропива (росте)",
+	"block-crop-stingingnettle-3": "Кропива",
+
+	"block-seedling-stjohnswort-planted": "Насіння звіробою (росте)",
+	"block-seedling-stjohnswort-sprouting": "Насіння звіробою (Пускає паростки)",
+
+	"block-crop-stjohnswort-1": "Насіння звіробою (росте)",
+	"block-crop-stjohnswort-2": "Звіробій (росте)",
+	"block-crop-stjohnswort-3": "Звіробій",
+
+	"block-seedling-thyme-planted": "Насіння чебрецю (росте)",
+	"block-seedling-thyme-sprouting": "Насіння чебрецю (Пускає паростки)",
+
+	"block-seedling-minerslettuce-planted": "Насіння шахтарського салату (росте)",
+	"block-seedling-minerslettuce-sprouting": "Насіння шахтарського салату (Пускає паростки)",
+
+	"block-crop-minerslettuce-1": "Насіння шахтарського салату (росте)",
+	"block-crop-minerslettuce-2": "Шахтарський салат (росте)",
+	"block-crop-minerslettuce-3": "Шахтарський салат",
+
+	"block-seedling-mugwort-planted": "Насіння полину (росте)",
+	"block-seedling-mugwort-sprouting": "Насіння полину (Пускає паростки)",
+
+	"block-seedling-burdock-planted": "Насіння лопуха (росте)",
+	"block-seedling-burdock-sprouting": "Насіння лопуха (Пускає паростки)",
+
+	"block-seedling-poisonoak-planted": "Насіння ядовитого дуба (росте)",
+	"block-seedling-poisonoak-sprouting": "Насіння ядовитого дуба (Пускає паростки)",
+
+	"block-seedling-holly-planted": "Насіння падуба (росте)",
+	"block-seedling-holly-sprouting": "Насіння падуба (Пускає паростки)",
+
+	"block-seedling-chicory-planted": "Насіння цикорію (росте)",
+	"block-seedling-chicory-sprouting": "Насіння цикорію (Пускає паростки)",
+
+	"block-crop-chicory-1": "Насіння цикорію (росте)",
+	"block-crop-chicory-2": "Цикорій (росте)",
+	"block-crop-chicory-3": "Цикорій",
+
+	"block-seedling-marigold-planted": "Насіння нагідок (росте)",
+	"block-seedling-marigold-sprouting": "Насіння нагідок (Пускає паростки)",
+
+	"block-crop-marigold-1": "Насіння нагідок (росте)",
+	"block-crop-marigold-2": "Нагідки (росте)",
+	"block-crop-marigold-3": "Нагідки",
+
+	"block-seedling-inula-planted": "Насіння оману (росте)",
+	"block-seedling-inula-sprouting": "Насіння оману (Пускає паростки)",
+
+	"block-seedling-celandine-planted": "Насіння чистотілу (росте)",
+	"block-seedling-celandine-sprouting": "Насіння чистотілу (Пускає паростки)",
+
+	"block-crop-celandine-1": "Насіння чистотілу (росте)",
+	"block-crop-celandine-2": "Чистотіл (росте)",
+	"block-crop-celandine-3": "Чистотіл",
+
+	"block-seedling-leek-planted": "Насіння цибулі-порею (росте)",
+	"block-seedling-leek-sprouting": "Насіння цибулі-порею (Пускає паростки)",
+
+	"block-crop-leek-1": "Насіння цибулі-порею (росте)",
+	"block-crop-leek-2": "Цибуля-порей (росте)",
+	"block-crop-leek-3": "Цибуля-порей",
+
+	"block-seedling-plantain-planted": "Насіння великого подорожника (росте)",
+	"block-seedling-plantain-sprouting": "Насіння великого подорожника (Пускає паростки)",
+
+	"block-seedling-saltwort-planted": "Насіння солянки (росте)",
+	"block-seedling-saltwort-sprouting": "Насіння солянки (Пускає паростки)",
+
+	"block-seedling-yarrow-planted": "Насіння деревію (росте)",
+	"block-seedling-yarrow-sprouting": "Насіння деревію (Пускає паростки)",
+
+	"block-crop-yarrow-1": "Насіння деревію (росте)",
+	"block-crop-yarrow-2": "Деревій (росте)",
+	"block-crop-yarrow-3": "Деревій",
+
+	"block-seedling-liquorice-planted": "Насіння солодки (росте)",
+	"block-seedling-liquorice-sprouting": "Насіння солодки (Пускає паростки)",
+
+	"block-crop-liquorice-1": "Насіння солодки (росте)",
+	"block-crop-liquorice-2": "Солодка (росте)",
+	"block-crop-liquorice-3": "Солодка",
+
+	"block-seedling-waterchestnut-planted": "Насіння водяного каштану (росте)",
+	"block-seedling-waterchestnut-sprouting": "Насіння водяного каштану (Пускає паростки)",
+
+	"block-berrybush-huckleberry-empty": "Кущ чорниці (порожній)",
+	"block-berrybush-huckleberry-flowering": "Кущ чорниці (цвіте)",
+	"block-berrybush-huckleberry-ripe": "Кущ чорниці (стиглий)",
+
+	"block-berrybush-snowberry-empty": "Кущ сніжноягідника (порожній)",
+	"block-berrybush-snowberry-flowering": "Кущ сніжноягідника (цвіте)",
+	"block-berrybush-snowberry-ripe": "Кущ сніжноягідника (стиглий)",
+
+	"block-pricklyberrybush-raspberry-empty": "Кущ малини (порожній)",
+	"block-pricklyberrybush-raspberry-flowering": "Кущ малини (цвіте)",
+	"block-pricklyberrybush-raspberry-ripe": "Кущ малини (стиглий)",
+
+	"block-berrybush-wolfberry-empty": "Кущ вовчої ягоди (порожній)",
+	"block-berrybush-wolfberry-flowering": "Кущ вовчої ягоди (цвіте)",
+	"block-berrybush-wolfberry-ripe": "Кущ вовчої ягоди (стиглий)",
+  
+	"block-pricklyberrybush-blueraspberry-empty": "Кущ синьої малини (порожній)",
+	"block-pricklyberrybush-blueraspberry-flowering": "Кущ синьої малини (цвіте)",
+	"block-pricklyberrybush-blueraspberry-ripe": "Кущ синьої малини (стиглий)",
+
+	"block-pricklyberrybush-brambleberry-empty": "Кущ ожини (порожній)",
+	"block-pricklyberrybush-brambleberry-flowering": "Кущ ожини (цвіте)",
+	"block-pricklyberrybush-brambleberry-ripe": "Кущ ожини (стиглий)",
+
+	"block-pricklyberrybush-dogrose-empty": "Кущ шипшини (порожній)",
+	"block-pricklyberrybush-dogrose-flowering": "Кущ шипшини (цвіте)",
+	"block-pricklyberrybush-dogrose-ripe": "Кущ шипшини (стиглий)",
+
+	"block-berrybush-gooseberry-empty": "Кущ аґрусу (порожній)",
+	"block-berrybush-gooseberry-flowering": "Кущ аґрусу (цвіте)",
+	"block-berrybush-gooseberry-ripe": "Кущ аґрусу (стиглий)",
+
+	"block-berrybush-honeysuckle-empty": "Кущ жимолості (порожній)",
+	"block-berrybush-honeysuckle-flowering": "Кущ жимолості (цвіте)",
+	"block-berrybush-honeysuckle-ripe": "Кущ жимолості (стиглий)",
+
+	"block-shrubberrybush-elderberry-empty": "Кущ бузини (порожній)",
+	"block-shrubberrybush-elderberry-flowering": "Кущ бузини (цвіте)",
+	"block-shrubberrybush-elderberry-ripe": "Кущ бузини (стиглий)",
+
+	"block-shrubberrybush-husktomato-empty": "Кущ фізалісу (порожній)",
+	"block-shrubberrybush-husktomato-flowering": "Кущ фізалісу (цвіте)",
+	"block-shrubberrybush-husktomato-ripe": "Кущ фізалісу (стиглий)",
+  
+	"block-groundberryplant-strawberry-empty": "Кущ полуниці (порожній)",
+	"block-groundberryplant-strawberry-flowering": "Кущ полуниці (цвіте)",
+	"block-groundberryplant-strawberry-ripe": "Кущ полуниці (стиглий)",
+
+	"block-groundberryseedling-strawberry-planted": "Насіння полуниці (росте)",
+	"block-groundberryseedling-strawberry-sprouting": "Насіння полуниці (Пускає паростки)",
+  
+	"block-groundberryplant-crowberry-empty": "Кущ горобини (порожній)",
+	"block-groundberryplant-crowberry-flowering": "Кущ горобини (цвіте)",
+	"block-groundberryplant-crowberry-ripe": "Кущ горобини (стиглий)",
+  
+	"block-groundberryseedling-crowberry-planted": "Насіння горобини (росте)",
+	"block-groundberryseedling-crowberry-sprouting": "Насіння горобини (проростає)",
+  
+	"block-groundberryplant-bunchberry-empty": "Кущ дерену (порожній)",
+	"block-groundberryplant-bunchberry-flowering": "Кущ дерену (цвіте)",
+	"block-groundberryplant-bunchberry-ripe": "Кущ дерену (стиглий)",
+  
+	"block-groundberryseedling-bunchberry-planted": "Насіння дерену (росте)",
+	"block-groundberryseedling-bunchberry-sprouting": "Насіння дерену (проростає)",
+
+	"block-groundberryplant-cloudberry-empty": "Кущ морошки (порожній)",
+	"block-groundberryplant-cloudberry-flowering": "Кущ морошки (цвіте)",
+	"block-groundberryplant-cloudberry-ripe": "Кущ морошки (стиглий)",
+
+	"block-groundberryseedling-cloudberry-planted": "Насіння морошки (росте)",
+	"block-groundberryseedling-cloudberry-sprouting": "Насіння морошки (Пускає паростки)",
+
+	"block-sedge-tule-normal": "Куга озерна",
+	"block-sedge-tule-harvested": "Куга озерна (росте)",
+  
+	"block-sedge-swamptule-normal": "Куга озерна",
+	"block-sedge-swamptule-harvested": "Куга озерна (росте)",
+  
+	"item-plantfibers-hardsedge": "В'язанка гострої осоки",
+	"item-plantfibers-brownsedge": "В'язанка бурої осоки",
+	"item-plantfibers-tule": "В'язанка куги озерної",
+
+	"item-roots-tule": "Корінь куги озерної",
+	"recipeingredient-item-roots-tule-insturmentalcase": "коренем куги",
+	"recipeingredient-item-roots-tule": "коренем куги",
+	"meal-ingredient-soup-secondary-roots-tule": "коренем куги",
+	"meal-ingredient-stew-secondary-roots-tule": "коренем куги",
+  
+	"item-roots-brownsedge": "Корінь бурої осоки",
+	"recipeingredient-item-roots-brownsedge-insturmentalcase": "коренем бурої осоки",
+	"recipeingredient-item-roots-brownsedge": "коренем бурої осоки",
+	"meal-ingredient-soup-secondary-roots-brownsedge": "коренем бурої осоки",
+	"meal-ingredient-stew-secondary-roots-brownsedge": "коренем бурої осоки",
+  
+	"item-roots-hardsedge": "Корінь гострої осоки",
+	"recipeingredient-item-roots-hardsedge-insturmentalcase": "коренем гострої осоки",
+	"recipeingredient-item-roots-hardsedge": "коренем гострої осоки",
+	"meal-ingredient-soup-secondary-roots-hardsedge": "коренем гострої осоки",
+	"meal-ingredient-stew-secondary-roots-hardsedge": "коренем гострої осоки",
+
+	"item-roots-arrowhead": "Корінь сингоніуму",
+	"recipeingredient-item-roots-arrowhead-insturmentalcase": "коренем сингоніуму",
+	"recipeingredient-item-roots-arrowhead": "коренем сингоніуму",
+	"meal-ingredient-soup-secondary-roots-arrowhead": "коренем сингоніуму",
+	"meal-ingredient-stew-secondary-roots-arrowhead": "коренем сингоніуму",
+  
+	"item-roots-ginger": "Корінь імбиру",
+	"recipeingredient-item-roots-ginger-insturmentalcase": "коренем імбиру",
+	"recipeingredient-item-roots-ginger": "коренем імбиру",
+	"meal-ingredient-soup-secondary-roots-ginger": "коренем імбиру",
+	"meal-ingredient-stew-secondary-roots-ginger": "коренем імбиру",
+  
+	"item-roots-ginseng": "Корінь женьшеню",
+	"recipeingredient-item-roots-ginseng-insturmentalcase": "коренем женьшеню",
+	"recipeingredient-item-roots-ginseng": "коренем женьшеню",
+	"meal-ingredient-soup-secondary-roots-ginseng": "коренем женьшеню",
+	"meal-ingredient-stew-secondary-roots-ginseng": "коренем женьшеню",
+  
+	"item-roots-burnet": "Коріння родовика",
+	"recipeingredient-item-roots-burnet-insturmentalcase": "коренем родовика",
+	"recipeingredient-item-roots-burnet": "коренем родовика",
+	"meal-ingredient-soup-secondary-roots-burnet": "коренем родовика",
+	"meal-ingredient-stew-secondary-roots-ginseburnetng": "коренем родовика",
+
+
+
+	"item-pressedmash-huckleberry-dry": "Суха мякоть чорниці",
+	"item-pressedmash-huckleberry-wet": "Мякоть чорниці ",
+	"item-juiceportion-huckleberry": "Сік з чорниці",
+	"incontainer-item-juiceportion-huckleberry": "Сік з чорниці",
+	"item-ciderportion-huckleberry": "Сидр з чорниці",
+	"incontainer-item-ciderportion-huckleberry": "Вино з чорниці",
+	"item-spiritportion-huckleberry": "Бренді з чорниці",
+	"incontainer-item-spiritportion-huckleberry": "Бренді з чорниці",
+
+	"item-pressedmash-wolfberry-dry": "Суха мякоть вовчих ягід",
+	"item-pressedmash-wolfberry-wet": "Мякоть вовчих ягід ",
+	"item-juiceportion-wolfberry": "Сік з вовчих ягід",
+	"incontainer-item-juiceportion-wolfberry": "Сік з вовчих ягід",
+	"item-ciderportion-wolfberry": "Сидр з вовчих ягід",
+	"incontainer-item-ciderportion-wolfberry": "Вино з вовчих ягід",
+	"item-spiritportion-wolfberry": "Бренді з вовчих ягід",
+	"incontainer-item-spiritportion-wolfberry": "Бренді з вовчих ягід",
+  
+	"item-pressedmash-husktomato-dry": "Суха мякоть фізалісу",
+	"item-pressedmash-husktomato-wet": "Мякоть фізалісу ",
+	"item-juiceportion-husktomato": "Сік з фізалісу",
+	"incontainer-item-juiceportion-husktomato": "Сік з фізалісу",
+	"item-ciderportion-husktomato": "Сидр з фізалісу",
+	"incontainer-item-ciderportion-husktomato": "Вино з фізалісу",
+	"item-spiritportion-husktomato": "Бренді з фізалісу",
+	"incontainer-item-spiritportion-husktomato": "Бренді з фізалісу",
+
+	"item-pressedmash-snowberry-dry": "Суха мякоть сніжної ягоди",
+	"item-pressedmash-snowberry-wet": "Мякоть сніжної ягоди ",
+	"item-juiceportion-snowberry": "Сік з сніжної ягоди",
+	"incontainer-item-juiceportion-snowberry": "Сік з сніжної ягоди",
+	"item-ciderportion-snowberry": "Сидр з сніжної ягоди",
+	"incontainer-item-ciderportion-snowberry": "Вино з сніжної ягоди",
+	"item-spiritportion-snowberry": "Бренді з сніжної ягоди",
+	"incontainer-item-spiritportion-snowberry": "Бренді з сніжної ягоди",
+
+	"item-pressedmash-brambleberry-dry": "Суха мякоть ожини",
+	"item-pressedmash-brambleberry-wet": "Мякоть ожини ",
+	"item-juiceportion-brambleberry": "Сік з ожини",
+	"incontainer-item-juiceportion-brambleberry": "Сік з ожини",
+	"item-ciderportion-brambleberry": "Сидр з ожини",
+	"incontainer-item-ciderportion-brambleberry": "Вино з ожини",
+	"item-spiritportion-brambleberry": "Бренді з ожини",
+	"incontainer-item-spiritportion-brambleberry": "Бренді з ожини",
+
+	"item-pressedmash-cloudberry-dry": "Суха мякоть морошки",
+	"item-pressedmash-cloudberry-wet": "Мякоть морошки ",
+	"item-juiceportion-cloudberry": "Сік з морошки",
+	"incontainer-item-juiceportion-cloudberry": "Сік з морошки",
+	"item-ciderportion-cloudberry": "Сидр з морошки",
+	"incontainer-item-ciderportion-cloudberry": "Вино з морошки",
+	"item-spiritportion-cloudberry": "Бренді з морошки",
+	"incontainer-item-spiritportion-cloudberry": "Бренді з морошки",
+
+	"item-pressedmash-bunchberry-dry": "Суха мякоть дерену",
+	"item-pressedmash-bunchberry-wet": "Мякоть дерену ",
+	"item-juiceportion-bunchberry": "Сік з дерену",
+	"incontainer-item-juiceportion-bunchberry": "Сік з дерену",
+	"item-ciderportion-bunchberry": "Сидр з дерену",
+	"incontainer-item-ciderportion-bunchberry": "Вино з дерену",
+	"item-spiritportion-bunchberry": "Бренді з дерену",
+	"incontainer-item-spiritportion-bunchberry": "Бренді з дерену",
+  
+	"item-pressedmash-crowberry-dry": "Суха мякоть горобини",
+	"item-pressedmash-crowberry-wet": "Мякоть горобини ",
+	"item-juiceportion-crowberry": "Сік з горобини",
+	"incontainer-item-juiceportion-crowberry": "Сік з горобини",
+	"item-ciderportion-crowberry": "Сидр з горобини",
+	"incontainer-item-ciderportion-crowberry": "Вино з горобини",
+	"item-spiritportion-crowberry": "Бренді з горобини",
+	"incontainer-item-spiritportion-crowberry": "Бренді з горобини",
+  
+	"item-pressedmash-dogrose-dry": "Суха мякоть шипшини",
+	"item-pressedmash-dogrose-wet": "Мякоть шипшини ",
+	"item-juiceportion-dogrose": "Сік з шипшини",
+	"incontainer-item-juiceportion-dogrose": "Сік з шипшини",
+	"item-ciderportion-dogrose": "Сидр з шипшини",
+	"incontainer-item-ciderportion-dogrose": "Вино з шипшини",
+	"item-spiritportion-dogrose": "Бренді з шипшини",
+	"incontainer-item-spiritportion-dogrose": "Бренді з шипшини",
+
+	"item-pressedmash-elderberry-dry": "Суха мякоть бузини",
+	"item-pressedmash-elderberry-wet": "Мякоть бузини ",
+	"item-juiceportion-elderberry": "Сік з бузини",
+	"incontainer-item-juiceportion-elderberry": "Сік з бузини",
+	"item-ciderportion-elderberry": "Сидр з бузини",
+	"incontainer-item-ciderportion-elderberry": "Вино з бузини",
+	"item-spiritportion-elderberry": "Бренді з бузини",
+	"incontainer-item-spiritportion-elderberry": "Бренді з бузини",
+
+	"item-pressedmash-gooseberry-dry": "Суха мякоть аґрусу",
+	"item-pressedmash-gooseberry-wet": "Мякоть аґрусу ",
+	"item-juiceportion-gooseberry": "Сік з аґрусу",
+	"incontainer-item-juiceportion-gooseberry": "Сік з аґрусу",
+	"item-ciderportion-gooseberry": "Сидр з аґрусу",
+	"incontainer-item-ciderportion-gooseberry": "Вино з аґрусу",
+	"item-spiritportion-gooseberry": "Бренді з аґрусу",
+	"incontainer-item-spiritportion-gooseberry": "Бренді з аґрусу",
+
+	"item-pressedmash-honeysuckle-dry": "Суха мякоть жимолості",
+	"item-pressedmash-honeysuckle-wet": "Мякоть жимолості ",
+	"item-juiceportion-honeysuckle": "Сік з жимолості",
+	"incontainer-item-juiceportion-honeysuckle": "Сік з жимолості",
+	"item-ciderportion-honeysuckle": "Сидр з жимолості",
+	"incontainer-item-ciderportion-honeysuckle": "Вино з жимолості",
+	"item-spiritportion-honeysuckle": "Бренді з жимолості",
+	"incontainer-item-spiritportion-honeysuckle": "Бренді з жимолості",
+
+	"item-pressedmash-raspberry-dry": "Суха мякоть малини",
+	"item-pressedmash-raspberry-wet": "Мякоть малини ",
+	"item-juiceportion-raspberry": "Сік з малини",
+	"incontainer-item-juiceportion-raspberry": "Сік з малини",
+	"item-ciderportion-raspberry": "Сидр з малини",
+	"incontainer-item-ciderportion-raspberry": "Вино з малини",
+	"item-spiritportion-raspberry": "Бренді з малини",
+	"incontainer-item-spiritportion-raspberry": "Бренді з малини",
+
+	"item-pressedmash-blueraspberry-dry": "Суха мякоть синьої малини",
+	"item-pressedmash-blueraspberry-wet": "Мякоть синьої малини ",
+	"item-juiceportion-blueraspberry": "Сік з синьої малини",
+	"incontainer-item-juiceportion-blueraspberry": "Сік з синьої малини",
+	"item-ciderportion-blueraspberry": "Сидр з синьої малини",
+	"incontainer-item-ciderportion-blueraspberry": "Вино з синьої малини",
+	"item-spiritportion-blueraspberry": "Бренді з синьої малини",
+	"incontainer-item-spiritportion-blueraspberry": "Бренді з синьої малини",
+
+	"item-pressedmash-strawberry-dry": "Суха мякоть полуниці",
+	"item-pressedmash-strawberry-wet": "Мякоть полуниці ",
+	"item-juiceportion-strawberry": "Сік з полуниці",
+	"incontainer-item-juiceportion-strawberry": "Сік з полуниці",
+	"item-ciderportion-strawberry": "Сидр з полуниці",
+	"incontainer-item-ciderportion-strawberry": "Вино з полуниці",
+	"item-spiritportion-strawberry": "Бренді з полуниці",
+	"incontainer-item-spiritportion-strawberry": "Бренді з полуниці",
+
+	"heldhelp-plant": "Рослина",
+	"heldhelp-seedextraction": "Добути насіння",
+	"Will grow in less than a day": "Виросте менше ніж через день",
+	"Will grow in about {0} days": "Виросте приблизно через {0} дня",
+
+	"blockhelp-clippable-clip": "Відрізати пагін",
+
+	"herb-harvested-xdays": "Виросте через {0} днів, за гарної погоди",
+	"herb-harvested-1day": "Виросте менш ніж через день, за гарної погоди",
+
+	"Will grow in less than a day, weather permitting": "Виросте менш ніж через день, за гарної погоди",
+	"Will grow in {0} days, weather permitting": "Виросте через {0} днів, за гарної погоди",
+
+	"with plant roots": "З корінням рослин",
+	"game:Contains rhizomes": "Містить корені",
+	"wildcraft:heldhelp-plantroot": "Корінь рослини"
+
+}

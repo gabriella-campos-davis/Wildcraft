@@ -20,6 +20,9 @@ namespace wildcraft
         public float dieTemp = 4f;
         public float duckweedRootTemp = 17f;
         public float permaDuckweedTemp = 28f;
+        public Random rand = new Random();
+
+
         public override void OnLoaded(ICoreAPI api)
         {
             base.OnLoaded(api);
@@ -60,6 +63,7 @@ namespace wildcraft
         {
             extra = null;
             ClimateCondition conds = world.BlockAccessor.GetClimateAt(pos, EnumGetClimateMode.NowValues);
+            if (conds is null) return false;
             double chance;
             if (conds.WorldGenTemperature >= permaDuckweedTemp) return false; //we don't need to tick here at all (probably)
             if (conds.Temperature <= needsToDieTemp) return true; //make sure we die when it's super cold
@@ -89,7 +93,6 @@ namespace wildcraft
         private void DoDeath(IWorldAccessor world, BlockPos pos)
         {
             //random chance to spawn a duckweed root when it dies.
-            Random rand = new Random();
             if (rand.Next(0, 10) > 8)
             {
                 bool lakeBed = false;
@@ -120,7 +123,6 @@ namespace wildcraft
 
         private void DoGrowth(IWorldAccessor world, BlockPos pos)
         {
-            Random rand = new Random();
             if(rand.Next(0,10) > 8) //Random chance to make grow less, because duckweed grows aggressivley ;(
             {
                 int randomDirection = rand.Next(0,4);

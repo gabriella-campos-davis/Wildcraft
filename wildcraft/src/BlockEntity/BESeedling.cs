@@ -1,10 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-using Vintagestory.API;
-using Vintagestory.API.Client;
 using Vintagestory.API.Common;
 using Vintagestory.API.Config;
 using Vintagestory.API.Datastructures;
@@ -74,7 +68,8 @@ namespace wildcraft
             ICoreServerAPI sapi = Api as ICoreServerAPI;
 
             Block block = Api.World.BlockAccessor.GetBlock(Pos);
-            if(this.Block.Attributes["plantCodeByType"] == null){
+            if(plantCode is null)
+            {
                 Api.World.Logger.Debug("plantCode is null for " + this.Block.Variant["type"].ToString());
                 return;
             }

@@ -42,8 +42,18 @@ namespace wildcraft
         public override void OnBlockPlaced(ItemStack rootStack)
         {
             rootType = rootStack.Item.Variant["type"].ToString();
+            root = rootStack;
             //this.Block.Attributes[].ToAttribute.SetString("timer", growListenerId);
         }
+
+        
+
+    public override void OnBlockBroken(IPlayer byPlayer = null)
+    {
+        //SpawnItemEntity(ItemStack itemstack, Vec3d position, Vec3d velocity = null)
+    }
+
+
 
         private void DoGrow()
         {

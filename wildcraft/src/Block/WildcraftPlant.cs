@@ -72,7 +72,7 @@ namespace wildcraft
             if (byPlayer != null)
             {
                 EnumTool? tool = byPlayer.InventoryManager.ActiveTool;
-                if (IsGrown() && tool == EnumTool.Knife)
+                if (IsGrown() && (tool == EnumTool.Knife || tool == EnumTool.Sickle || tool == EnumTool.Scythe))
                 {
                     Block harvestedBlock = GetHarvestedBlock(world);
                     world.BlockAccessor.SetBlock(harvestedBlock.BlockId, pos);

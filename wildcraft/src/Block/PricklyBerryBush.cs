@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using System;
 using Vintagestory.API.Client;
 using Vintagestory.API.Common;
 using Vintagestory.API.MathTools;
@@ -19,16 +20,7 @@ namespace wildcraft
         
         public override void OnEntityInside(IWorldAccessor world, Entity entity, BlockPos pos)
         {
-            if(!canDamage)
-            {
-                return;
-            }
-            if(entity == null)
-            {
-                return;
-            }
-
-            if(willDamage == null)
+            if (!canDamage || entity == null || willDamage == null)
             {
                 return;
             }
@@ -42,10 +34,27 @@ namespace wildcraft
             }
             return;
             damagecreature:
+            /* ChatGPT alternative without goto:
+            bool shouldDamage = false;
+            foreach (string creature in willDamage)
+            {
+                if (entity.Code.ToString().Contains(creature))
+                {
+                    shouldDamage = true;
+                    break;
+                }
+            }
+
+            if (!shouldDamage)
+            {
+                return;
+            }
+            */
 
             if (world.Side == EnumAppSide.Server && entity is EntityAgent)   //if the creature ins't sneaking, deal damage.
             {
-                if( (entity as EntityAgent).ServerControls.TriesToMove && !(entity as EntityAgent).ServerControls.Sneak)
+                EntityAgent agent = (EntityAgent)entity;
+                if (agent.ServerControls.TriesToMove && !agent.ServerControls.Sneak)
                 {
                     if (world.Rand.NextDouble() > dmgTick) //while standing in the bush, how often will it hurt you
                     {

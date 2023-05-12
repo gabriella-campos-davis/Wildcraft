@@ -72,6 +72,7 @@ namespace wildcraft
             api.RegisterItemClass("ItemRoot", typeof(ItemRoot));
             api.RegisterItemClass("ItemHerbSeed", typeof(ItemHerbSeed));
             api.RegisterItemClass("ItemBerrySeed", typeof(ItemBerrySeed));
+            api.RegisterItemClass("ItemHerb", typeof(ItemHerb));
             api.RegisterItemClass("WildcraftPoultice", typeof(WildcraftPoultice));
 
             try

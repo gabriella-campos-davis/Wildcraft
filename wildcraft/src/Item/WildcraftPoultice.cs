@@ -71,6 +71,9 @@ namespace wildcraft
                         Source = EnumDamageSource.Internal,
                         Type = health > 0 ? EnumDamageType.Heal : EnumDamageType.Poison
                         }, Math.Abs(health));
+
+                    slot.TakeOut(1);
+                    slot.MarkDirty();
                 } 
                 else 
                 {
