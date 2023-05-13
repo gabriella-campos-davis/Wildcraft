@@ -1,5 +1,5 @@
 {
-    "code": "herbs",
+    "code": "driedherbs",
     "maxstacksize": 64,
     "variantgroups": [
       { "loadFromProperties": "wildcraft:block/herbs" }
@@ -71,7 +71,7 @@
         }
       }
     },
-    "texture": { "base": "wildcraft:items/herbs/{herbs}" },
+    "texture": { "base": "wildcraft:items/herbs/dried/dried_{herbs}" },
     "creativeinventory": {
       "general": [ "*" ],
       "items": [ "*" ],
@@ -135,27 +135,6 @@
         "satiety": 35,
         "foodcategory": "Vegetable"
       }
-    },
-    "transitionablePropsByType": {
-      "*": [
-        {
-          "type": "Perish",
-          "freshHours": { "avg": 480 },
-          "transitionHours": { "avg": 86 },
-          "transitionedStack": {
-            "type": "item",
-            "code": "game:rot"
-          },
-          "transitionRatio": 1
-        },
-        {
-          "type": "Dry",
-          "freshHours": { "avg": 6 },
-          "transitionHours": { "avg": 86 },
-          "transitionedStack": { "type": "item", "code": "wildcraft:driedherbs-{herbs}" },
-          "transitionRatio": 1
-        }
-      ]
     }
   }
   
