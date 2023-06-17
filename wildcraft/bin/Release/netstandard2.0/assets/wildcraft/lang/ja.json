@@ -1,8 +1,8 @@
 {
-	// Japanese localization file for 'Wildcraft'.
-	// Mod Version: v1.6.2
-	// Translated By: Macoto Hino
-	// Machine translation using PCOT and DeepL.
+    "comment_description": "Japanese localization file for 'Wildcraft'.",
+    "comment_version": "Mod Version: v1.6.6",
+    "comment_author": "Translated By: Macoto Hino",
+    "comment_technical_details": "Machine translation using PCOT and DeepL.",
 
   "game:tabname-wildcraft": "Wildcraft",
 
@@ -35,8 +35,8 @@
   <br>
   Wildcraftの植物の中には、踏むと気触れるものもあります(気触れは現在、短時間の間、頻繁に少量のダメージを受けるだけのデバフです)。気触れは、ウルシかノコギリソウを成分とする湿布薬を使うことで治すことが出来ます。
   <br>
-  また、湿布は即時回復ではなく、時間経過で回復します（オフにすることも可能）。"
-  ,
+  また、湿布は即時回復ではなく、時間経過で回復します（オフにすることも可能）。",
+
   "item-basket": "手提げカゴ",
   "block-sedge-stationarybasket-*": "スゲのカゴ",
 
@@ -168,8 +168,12 @@
   "item-simplepoultice-linen-jewelweed": "ホウセンカの湿布(亜麻布)",
 
   "itemdesc-poultice-*": "小さな傷を治す絆創膏",
+  "itemdesc-simplepoultice-*": "小さな傷を治す絆創膏",
   "item-handbooktitle-poultice-*": "About:",
   "item-handbooktext-poultice-*": "湿布は、包帯と他の治癒成分を組み合わせたもので、傷を治すのに使用されます。",	
+
+  "item-handbooktitle-simplepoultice-*": "About:",
+  "item-handbooktext-simplepoultice-*": "湿布は、包帯と他の治癒成分を組み合わせたもので、傷を治すのに使用されます。",	
 
   "item-fruit-huckleberry": "ハックルベリー",
   "item-fruit-snowberry": "セッコウボク",
@@ -1685,6 +1689,10 @@
 
   "with plant roots": "根を張っている",
   "game:Contains rhizomes": "内容物ランダム化",
-  "wildcraft:heldhelp-plantroot": "植物の根"
+  "wildcraft:heldhelp-plantroot": "植物の根",
+
+  "plantable-on-farmland-or-soil": "農地や通常の土壌に植えることが出来ます。",
+  "plantable-on-normal-soil": "通常の土壌に植えることが出来ます(但し、農地は除く)。",
+  "plantable-in-water-or-land": "水中にも植栽が出来ます"
 
 }

@@ -30,8 +30,8 @@
   <br>
   Some plants in Wildcraft will also give you a rash if you step on them (a rash is currently just a debuff that takes a small amount of damage every so often for a short amount of time.). Rashes can be cured by either using a poultice with Poison Oak or Yarrow as an ingredient.
   <br>
-  Poultices also heal over time instead of being instant healing (which can be turned off)."
-  ,
+  Poultices also heal over time instead of being instant healing (which can be turned off).",
+
   "item-basket": "Hand basket",
   "block-sedge-stationarybasket-*": "Sedge basket",
 
@@ -163,8 +163,12 @@
   "item-simplepoultice-linen-jewelweed": "Jewelweed Poultice (from linen)",
 
   "itemdesc-poultice-*": "A bandage to heal minor wounds",
+  "itemdesc-simplepoultice-*": "A bandage to heal minor wounds",
   "item-handbooktitle-poultice-*": "About:",
   "item-handbooktext-poultice-*": "Poultices are a sort of combination of bandage with other healing components, used to help heal wounds.",	
+
+  "item-handbooktitle-simplepoultice-*": "About:",
+  "item-handbooktext-simplepoultice-*": "Poultices are a sort of combination of bandage with other healing components, used to help heal wounds.",	
 
   "item-fruit-huckleberry": "Huckleberry",
   "item-fruit-snowberry": "Snowberry",
@@ -183,7 +187,7 @@
   "item-fruit-bunchberry": "Bunchberry",
 
   "recipeingredient-item-fruit-huckleberry": "huckleberries",
-  "recipeingredient-item-fruit-snowberry": "snowberris",
+  "recipeingredient-item-fruit-snowberry": "snowberries",
   "recipeingredient-item-fruit-brambleberry": "blackberries",
   "recipeingredient-item-fruit-cloudberry": "cloudberries",
   "recipeingredient-item-fruit-dogrose": "dogrose",
@@ -1680,6 +1684,10 @@
 
   "with plant roots": "With plant roots",
   "game:Contains rhizomes": "Contains rhizomes",
-  "wildcraft:heldhelp-plantroot": "Plant root"
+  "wildcraft:heldhelp-plantroot": "Plant root",
+
+  "plantable-on-farmland-or-soil": "Can be planted on farmland or regular soil",
+  "plantable-on-normal-soil": "Can be planted on regular soil (but not farmland)",
+  "plantable-in-water-or-land": "May be planted in water"
 
 }

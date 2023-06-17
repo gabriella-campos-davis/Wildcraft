@@ -30,13 +30,16 @@
       "*-raspberry-*": "wildcraft:pricklyberrybush-raspberry-empty",
       "*-brambleberry-*": "wildcraft:pricklyberrybush-brambleberry-empty",
       "*-dogrose-*": "wildcraft:pricklyberrybush-dogrose-empty",
-      "*-blueraspberry-*": "wildcraft:pricklyberrybush-blueraspberry-empty"
+      "*-blueraspberry-*": "wildcraft:pricklyberrybush-blueraspberry-empty",
+
+      "*-tea-*": "wildcraft:teaplant-tea-empty"
+
     }
   },
   "variantgroups": [
     {
       "code": "type",
-      "states": [ "huckleberry", "snowberry", "raspberry", "brambleberry", "dogrose", "gooseberry", "honeysuckle", "elderberry", "husktomato", "wolfberry", "blueraspberry", "redcurrant", "blackcurrant", "whitecurrant", "blueberry", "cranberry"]
+      "states": [ "huckleberry", "snowberry", "raspberry", "brambleberry", "dogrose", "gooseberry", "honeysuckle", "elderberry", "husktomato", "wolfberry", "blueraspberry", "redcurrant", "blackcurrant", "whitecurrant", "blueberry", "cranberry", "tea"]
     },
     {
       "code": "state",
@@ -51,8 +54,8 @@
     "*-elderberry-alive": { "base": "wildcraft:block/plant/clipping/clipping_shrub" },
     "*-husktomato-alive": { "base": "wildcraft:block/plant/clipping/clipping_shrub" },
 
-    "*-dead": { "base": "wildcraft:block/plant/clipping/child_dead" },
-    "*-alive": { "base": "wildcraft:block/plant/clipping/child" }
+    "*-dead": { "base": "wildcraft:block/plant/clipping/cutting_planted_dead" },
+    "*-alive": { "base": "wildcraft:block/plant/clipping/cutting_planted" }
   },
   "blockmaterial": "Plant",
   "sideopaqueByType": {

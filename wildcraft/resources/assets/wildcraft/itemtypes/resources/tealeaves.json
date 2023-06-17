@@ -1,0 +1,32 @@
+{
+    "code": "driedherbs",
+    "maxstacksize": 64,
+    "variantgroups": [
+		{ "code": "type", "states": ["young", "mature"] }
+    ],
+    "materialDensityByType": {
+      "*": 600
+    },
+    "attributes": {
+      "nutritionPropsWhenInMealByType": {
+        "*": {
+          "satiety": 55,
+          "health": 1,
+          "foodcategory": "Vegetable"
+        }
+      }
+    },
+    "texture": { "base": "wildcraft:items/herbs/dried/dried_{herbs}" },
+    "creativeinventory": {
+      "general": [ "*" ],
+      "items": [ "*" ],
+      "wildcraft": [ "*" ]
+    },
+    "nutritionPropsByType": {
+      "*": {
+        "satiety": 35,
+        "foodcategory": "Vegetable"
+      }
+    }
+  }
+  

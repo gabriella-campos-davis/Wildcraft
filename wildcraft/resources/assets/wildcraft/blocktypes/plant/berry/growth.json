@@ -44,11 +44,11 @@
     ],
     "renderpass": "OpaqueNoCull",
     "drawtype": "JSON",
-    "randomDrawOffset": true,
+    "randomDrawOffset": false,
     "randomizeRotations": true,
     "shapeByType": {
-      "*-dead": { "base": "wildcraft:block/plant/clipping/child_dead_bush" },
-      "*-alive": { "base": "wildcraft:block/plant/clipping/child_bush" }
+      "*-dead": { "base": "wildcraft:block/plant/clipping/cutting_grafted_dead" },
+      "*-alive": { "base": "wildcraft:block/plant/clipping/cutting_grafted" }
     },
     "blockmaterial": "Plant",
     "sideopaqueByType": {

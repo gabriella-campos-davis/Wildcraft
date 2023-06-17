@@ -3,12 +3,9 @@
     "classByType":{
         "*": "SaltwaterPlant"
     },
-	"entityClassByType": {
-		"*-harvested": "Transient"
-	},
 	"variantgroups": [
-		{ "code": "type", "states": ["pepperdulse", "pickleweed", "wakame"] },
-		{ "code": "state", "states": ["normal", "harvested"] }
+		{ "code": "type", "states": ["watermilfoil", "seagrass"] },
+		{ "code": "state", "states": ["small", "medium", "large"] }
 	],
 	"attributes": {
         "butterflyFeedByType": {
@@ -16,20 +13,6 @@
         },
         "beeFeedByType": {
         "*-normal": true
-        },
-        "transientPropsByType": {
-            "*-normal": {
-                "convertFrom": "*-normal", 
-                "convertTo": "*-harvested", 
-                "inGameHours": "84",
-                "whenAboveTemperature": 12
-            },
-            "*-harvested": {
-                "convertFrom": "*-harvested", 
-                "convertTo": "*-normal", 
-                "inGameHours": "84",
-                "whenBelowTemperature": 8
-            }
         },
         "forageStatAffected": true,
         "hasRootByType":{
@@ -42,17 +25,20 @@
     "walkspeedmultiplierByType":{
         "*": 1
     },
-    drawtype: "JSONAndWater",
-	renderpass: "liquid",
-	matterstate: "liquid",
-	blockmaterial: "liquid",
-	faceCullMode: "liquid",
+    "drawtype": "JSONAndWater",
+	"renderpass": "liquid",
+	"matterstate": "liquid",
+	"blockmaterial": "liquid",
+	"faceCullMode": "liquid",
     "randomDrawOffset": true,
     "texturesByType": {
-        "*-normal": {
+        "*-small": {
             "leaves": { "base": "wildcraft:block/plant/waterplant/{type}" }
         },
-        "*-harvested": {
+        "*-medium": {
+            "leaves": { "base": "wildcraft:block/plant/waterplant/{type}_harvested*" }
+        },
+        "*-large": {
             "leaves": { "base": "wildcraft:block/plant/waterplant/{type}_harvested*" }
         }
     },
