@@ -23,6 +23,15 @@ namespace wildcraft
         RoomRegistry roomreg;
         public int roomness;
 
+        float resetBelowTemperature = 0;
+        float resetAboveTemperature = 0;
+        float stopBelowTemperature = 0;
+        float stopAboveTemperature = 0;
+        float revertBlockBelowTemperature = 0;
+        float revertBlockAboveTemperature = 0;
+
+        float growthRateMul = 1f;
+
         public BEGroundBerryPlant() : base()
         {
 
@@ -31,6 +40,8 @@ namespace wildcraft
         public override void Initialize(ICoreAPI api)
         {
             base.Initialize(api);
+
+            growthRateMul = (float)Api.World.Config.GetDecimal("cropGrowthRateMul", growthRateMul);
 
             if (api is ICoreServerAPI)
             {
@@ -52,6 +63,8 @@ namespace wildcraft
                 {
                     transitionHoursLeft = ((double)totalDaysForNextStageOld - Api.World.Calendar.TotalDays) * Api.World.Calendar.HoursPerDay;
                 }
+
+                
             }
         }
 
@@ -84,16 +97,8 @@ namespace wildcraft
 
             bool changed = false;
             float oneHour = 1f / Api.World.Calendar.HoursPerDay;
-            float resetBelowTemperature = 0, resetAboveTemperature = 0, stopBelowTemperature = 0, stopAboveTemperature = 0, revertBlockBelowTemperature = 0, revertBlockAboveTemperature = 0;
             if (daysToCheck > oneHour)
             {
-                resetBelowTemperature = Block.Attributes["resetBelowTemperature"].AsFloat(-999);
-                resetAboveTemperature = Block.Attributes["resetAboveTemperature"].AsFloat(999);
-                stopBelowTemperature = Block.Attributes["stopBelowTemperature"].AsFloat(-999);
-                stopAboveTemperature = Block.Attributes["stopAboveTemperature"].AsFloat(999);
-                revertBlockBelowTemperature = Block.Attributes["revertBlockBelowTemperature"].AsFloat(-999);
-                revertBlockAboveTemperature = Block.Attributes["revertBlockAboveTemperature"].AsFloat(999);
-
                 if (Api.World.BlockAccessor.GetRainMapHeightAt(Pos) > Pos.Y) // Fast pre-check
                 {
                     Room room = roomreg?.GetRoomForPosition(Pos);
@@ -161,11 +166,41 @@ namespace wildcraft
             if (changed) MarkDirty(false);
         }
 
+        public override void OnExchanged(Block block)
+        {
+            base.OnExchanged(block);
+            if (Api?.Side == EnumAppSide.Server) UpdateTransitionsFromBlock();
+        }
+
+        public override void CreateBehaviors(Block block, IWorldAccessor worldForResolve)
+        {
+            base.CreateBehaviors(block, worldForResolve);
+            if (worldForResolve.Side == EnumAppSide.Server) UpdateTransitionsFromBlock();
+        }
+
+        protected void UpdateTransitionsFromBlock()
+        {
+            // In case we have a Block which is not a BerryBush block (why does this happen?)
+            if (Block?.Attributes == null)
+            {
+                resetBelowTemperature = stopBelowTemperature = revertBlockBelowTemperature = -999;
+                resetAboveTemperature = stopAboveTemperature = revertBlockAboveTemperature = 999;
+                return;
+            }
+            // These Attributes lookups are costly because Newtonsoft JSON lib ~~sucks~~ uses a weird approximation to a Dictionary in JToken.TryGetValue() but it can ignore case
+            resetBelowTemperature = Block.Attributes["resetBelowTemperature"].AsFloat(-999);
+            resetAboveTemperature = Block.Attributes["resetAboveTemperature"].AsFloat(999);
+            stopBelowTemperature = Block.Attributes["stopBelowTemperature"].AsFloat(-999);
+            stopAboveTemperature = Block.Attributes["stopAboveTemperature"].AsFloat(999);
+            revertBlockBelowTemperature = Block.Attributes["revertBlockBelowTemperature"].AsFloat(-999);
+            revertBlockAboveTemperature = Block.Attributes["revertBlockAboveTemperature"].AsFloat(999);
+        }
+
         public double GetHoursForNextStage()
         {
-            if (IsRipe()) return (4 * (5 + rand.NextDouble()) * 0.8) * Api.World.Calendar.HoursPerDay;
+            if (IsRipe()) return 4 * (5 + rand.NextDouble()) * 1.6 * Api.World.Calendar.HoursPerDay;
 
-            return ((5 + rand.NextDouble()) * 0.8) * Api.World.Calendar.HoursPerDay;
+            return (5 + rand.NextDouble()) * 1.6 * Api.World.Calendar.HoursPerDay / growthRateMul;
         }
 
         public bool IsRipe()
@@ -321,6 +356,11 @@ namespace wildcraft
             {
                 Api.ModLoader.GetModSystem<POIRegistry>().RemovePOI(this);
             }
+        }
+
+        public override bool OnTesselation(ITerrainMeshPool mesher, ITesselatorAPI tessThreadTesselator)
+        {
+            return base.OnTesselation(mesher, tessThreadTesselator);
         }
     }
 }
