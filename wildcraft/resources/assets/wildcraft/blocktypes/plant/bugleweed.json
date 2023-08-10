@@ -1,13 +1,16 @@
 {
     "code": "bugleweed",
     "classByType":{
-        "*": "WaterPlant"
+        "*": "SimpleWaterPlant"
     },
     "variantgroups": [
         { "code": "type", "states": ["european"] },
         { "code": "state", "states": ["short", "tall"] }
     ],
     "attributes": {
+        "minDepthByType":{
+            "*": 0
+        },
         "maxDepthByType": {
             "*-short": 0,
             "*-tall": 1
@@ -24,6 +27,9 @@
         },
         "isPoisonousByType":{
             "*":"false"
+        },
+        "waterCodeByType":{
+            "*": "water"
         }
     },
     "walkspeedmultiplierByType":{

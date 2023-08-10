@@ -1,72 +1,53 @@
 {
     "code": "waterplant",
     "classByType":{
-        "*": "SaltwaterPlant"
+        "*": "SimpleWaterPlant"
     },
-	"entityClassByType": {
-		"*-harvested": "Transient"
-	},
 	"variantgroups": [
-		{ "code": "type", "states": ["pepperdulse", "pickleweed", "wakame"] },
-		{ "code": "state", "states": ["normal", "harvested"] }
+		{ "code": "type", "states": ["seagrass", "watermilfoil"] },
+		{ "code": "state", "states": ["small", "medium", "large"] }
 	],
 	"attributes": {
-        "butterflyFeedByType": {
-        "*-normal": true
+        "minDepthByType":{
+            "*-seagrass-*": 1,
+            "*-watermilfoil-*": 3
         },
-        "beeFeedByType": {
-        "*-normal": true
+        "maxDepthByType": {
+            "*-seagrass-*": 15,
+            "*-watermilfoil-*": 12
         },
-        "transientPropsByType": {
-            "*-normal": {
-                "convertFrom": "*-normal", 
-                "convertTo": "*-harvested", 
-                "inGameHours": "84",
-                "whenAboveTemperature": 12
-            },
-            "*-harvested": {
-                "convertFrom": "*-harvested", 
-                "convertTo": "*-normal", 
-                "inGameHours": "84",
-                "whenBelowTemperature": 8
-            }
-        },
-        "forageStatAffected": true,
-        "hasRootByType":{
-        "*": "false"
-        },
-        "isPoisonousByType":{
-            "*":"false"
+        "waterCodeByType":{
+            "*-seagrass-*": "saltwater",
+            "*-watermilfoil-*": "water"
         }
     },
-    "walkspeedmultiplierByType":{
-        "*": 1
-    },
-    drawtype: "JSONAndWater",
-	renderpass: "liquid",
-	matterstate: "liquid",
-	blockmaterial: "liquid",
-	faceCullMode: "liquid",
+    "drawtype": "JSONAndWater",
+	"renderpass": "liquid",
+	"matterstate": "liquid",
+	"blockmaterial": "liquid",
+	"faceCullMode": "liquid",
     "randomDrawOffset": true,
     "texturesByType": {
-        "*-normal": {
-            "leaves": { "base": "wildcraft:block/plant/waterplant/{type}" }
+        "*-small": {
+            "plant": { "base": "wildcraft:block/plant/{type}/{type}_short" }
         },
-        "*-harvested": {
-            "leaves": { "base": "wildcraft:block/plant/waterplant/{type}_harvested*" }
+        "*-medium": {
+            "plant": { "base": "wildcraft:block/plant/{type}/{type}_medium" }
+        },
+        "*-large": {
+            "plant": { "base": "wildcraft:block/plant/{type}/{type}_tall" }
         }
     },
 	"creativeinventory": {
-        "general": ["*-normal"],
-        "flora": ["*-normal"],
-        "wildcraft": [ "*-normal" ]
+        "general": ["*-medium"],
+        "flora": ["*-medium"],
+        "wildcraft": [ "*-medium" ]
     },
     "shapeByType": {
-        "*": {"base": "wildcraft:block/plant/leafygroundvegetable/default_normal"}
+        "*-watermilfoil-large": {"base": "wildcraft:block/plant/waterplant/tall" },
+        "*": {"base": "wildcraft:block/plant/waterplant/normal" }
     },
     "dropsByType": {},
-	"renderpass": "OpaqueNoCull",
-	"blockmaterial": "Plant",
 	"randomizeRotations": true,
 	"sideopaque": {
 		"all": false

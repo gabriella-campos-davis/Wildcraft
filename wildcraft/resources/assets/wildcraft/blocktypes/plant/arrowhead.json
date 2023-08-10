@@ -1,7 +1,7 @@
 {
 	"code": "arrowhead",
 	"classByType":{
-        "*": "WaterPlant"
+        "*": "WaterHerb"
   },
 	"entityClassByType": {
 		"*-harvested": "Transient"
@@ -11,8 +11,14 @@
 		{ "code": "state", "states": ["normal", "harvested"] }
 	],
 	"attributes": {
+    "minDepthByType":{
+      "*": 0
+    },
     "maxDepthByType": {
         "*-arrowhead-*": 1
+    },
+    "waterCodeByType":{
+      "*": "water"
     },
     "butterflyFeedByType": {
     "*-normal": true

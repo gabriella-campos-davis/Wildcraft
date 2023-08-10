@@ -9,22 +9,26 @@ using Vintagestory.API.Common.Entities;
 
 namespace wildcraft
 {
-    public class WaterPlant : WildcraftPlant
+    public class WaterHerb : WildcraftPlant
     {
         public ICoreAPI Api => api;
-        int depth;
+        int maxDepth;
+        int minDepth = 2 ;
+        string waterCode;
 
 
         public override void OnLoaded(ICoreAPI api)
         {
-             base.OnLoaded(api);
+            base.OnLoaded(api);
 
             if (Variant["state"] == "harvested")
                 return;
 
             if(Attributes["isPoisonous"].ToString() == "true") isPoisonous = true;
 
-            depth = this.Attributes["maxDepth"].AsInt();
+            maxDepth = this.Attributes["maxDepth"].AsInt();
+            minDepth = this.Attributes["minDepth"].AsInt();
+            waterCode = this.Attributes["waterCode"].AsString();
 
         }
 
@@ -40,23 +44,27 @@ namespace wildcraft
 
             Block belowBlock = blockAccessor.GetBlock(pos.X, pos.Y - 1, pos.Z);
 
-            if (belowBlock.Fertility > 0)
+            if (belowBlock.Fertility > 0 && minDepth == 0)
             {
                 Block placingBlock = blockAccessor.GetBlock(Code);
                 if (placingBlock == null) return false;
-                
+
                 blockAccessor.SetBlock(placingBlock.BlockId, pos);
                 return true;
             }
 
-            if (belowBlock.LiquidCode == "water")
+            if (belowBlock.LiquidCode == waterCode)
             {
-                if(belowBlock.LiquidCode == "saltwater") return false;
-                for(var currentDepth = 0; currentDepth <= depth + 1; currentDepth ++)
+                if(belowBlock.LiquidCode != waterCode) return false;
+                for(var currentDepth = 1; currentDepth <= maxDepth + 1; currentDepth ++)
                 {
                     belowBlock = blockAccessor.GetBlock(pos.X, pos.Y - currentDepth, pos.Z);
                     if (belowBlock.Fertility > 0)
                     {
+                        Block aboveBlock = blockAccessor.GetBlock(pos.X, pos.Y - currentDepth + 1, pos.Z);
+                        if(aboveBlock.LiquidCode != waterCode) return false;
+                        if(currentDepth < minDepth + 1) return false;
+
                         Block placingBlock = blockAccessor.GetBlock(Code);
                         if (placingBlock == null) return false;
 

@@ -53,6 +53,9 @@
 			"*-gooseberry-*": 30,
 			"*-snowberry-*": 27,
 			"*-honeysuckle-*": 38
+		},
+		"growthBlockByType":{
+			"*-gooseberry-*": "wildcraft:growth-gooseberry-alive"
 		}
 	},
 	"entityclassByType": {

@@ -3,6 +3,7 @@
     "class": "DuckWeedRoot",
     "entityClass": "BEDuckWeedRoot",
     "attributes": {
+      "duckweedBlock": "wildcraft:duckweed-duckweed-nesw"
     },
     "renderpass": "OpaqueNoCull",
     "drawtype": "JSON",

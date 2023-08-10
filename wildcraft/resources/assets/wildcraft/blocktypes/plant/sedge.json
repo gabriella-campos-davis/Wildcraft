@@ -1,7 +1,7 @@
 {
 	"code": "sedge",
 	"classByType":{
-    "*": "WaterPlant"
+    "*": "WaterHerb"
   },
 	"entityClassByType": {
 		"*-harvested": "Transient"
@@ -11,6 +11,9 @@
 		{ "code": "state", "states": ["normal", "harvested"] }
 	],
 	"attributes": {
+    "minDepthByType":{
+      "*": 0
+    },
     "maxDepthByType": {
       "*-swamptule-*": 3,
         "*-tule-*": 3,
@@ -50,6 +53,9 @@
     },
     "isPoisonousByType":{
         "*":"false"
+    },
+    "waterCodeByType":{
+      "*": "water"
     }
   },
   "walkspeedmultiplierByType":{

@@ -49,14 +49,14 @@ namespace wildcraft
             api.RegisterBlockClass("GroundBerryPlant", typeof(GroundBerryPlant));
             api.RegisterBlockClass("WildcraftPlant", typeof(WildcraftPlant));
             api.RegisterBlockClass("RhizomatusPlant", typeof(RhizomatusPlant));
-            api.RegisterBlockClass("WaterPlant", typeof(WaterPlant));
+            api.RegisterBlockClass("WaterHerb", typeof(WaterHerb));
             api.RegisterBlockClass("SimpleWaterPlant", typeof(SimpleWaterPlant));
             api.RegisterBlockClass("AquaticPlant", typeof(AquaticPlant));
             api.RegisterBlockClass("DuckWeed", typeof(DuckWeed));
             api.RegisterBlockClass("DuckWeedRoot", typeof(DuckWeedRoot));
-            api.RegisterBlockClass("SaltwaterPlant", typeof(SaltwaterPlant));
             api.RegisterBlockClass("BlockMossCoating", typeof(BlockMossCoating));
             api.RegisterBlockClass("WildcraftMoss", typeof(WildcraftMoss));
+            api.RegisterBlockClass("GiantKelp", typeof(GiantKelp));
 
             api.RegisterBlockEntityClass("BEWildcraftBerryBush", typeof(BEWildcraftBerryBush));
             api.RegisterBlockEntityClass("BEShrubBerryBush", typeof(BEShrubBerryBush));
@@ -135,7 +135,6 @@ namespace wildcraft
             BuffManager.RegisterBuffType("RashDebuff", typeof(RashDebuff));
             BuffManager.RegisterBuffType("PoulticeBuff", typeof(PoulticeBuff));
 
-            api.RegisterCommand("wcdebug", "", "", onCmd, Privilege.controlserver);
             api.Event.SaveGameLoaded += Event_SaveGameLoaded;
 
             this.Api = api;
@@ -152,28 +151,6 @@ namespace wildcraft
         {
             lcgrnd = new LCGRandom(Api.World.Seed);
             rndn = new NormalRandom(Api.World.Seed);
-        }
-
-        private void onCmd(IServerPlayer player, int groupId, CmdArgs args)
-        {
-            string cmd = args.PopWord();
-
-            BlockPos pos = player.Entity.Pos.XYZ.AsBlockPos;
-
-            switch (cmd)
-            {
-                case "regrow":
-                    BEWildcraftRhizome bemc = Api.World.BlockAccessor.GetBlockEntity(pos.DownCopy()) as BEWildcraftRhizome;
-                    if (bemc == null)
-                    {
-                        player.SendMessage(groupId, "No rhizome below you", EnumChatType.Notification);
-                        return;
-                    }
-                    player.SendMessage(groupId, "Regrowing rhizome!", EnumChatType.Notification);
-                    bemc.Regrow();
-
-                    break;
-            }
         }
     }
 }

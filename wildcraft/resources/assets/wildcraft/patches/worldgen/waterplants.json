@@ -214,15 +214,14 @@
         "value": {
           "comment": "Larges Patches of european bungleweed in temperate areas near water",
           "blockCodes": [
-            "wildcraft:waterplant-pepperdulse-normal",
+            "wildcraft:waterplant-seagrass-small",
+            "wildcraft:waterplant-seagrass-medium",
+            "wildcraft:waterplant-seagrass-large",
           ],
-          minTemp: 3,
-          maxTemp: 40,
-          minRain: 0,
-          maxRain: 1,
-          "chance": 1,
-          "minWaterDepth": 2,
-          "placement": "UnderWater",
+          "minTemp": 3,
+          "maxTemp": 40,
+          "chance": 6,
+          "placement": "Anywhere",
           "quantity": { "avg": 25, "var": 15 },
           "offsetX": { "avg": 0, "var": 12 },
           "offsetZ": { "avg": 0, "var": 12 }
@@ -236,22 +235,201 @@
         "value": {
           "comment": "Larges Patches of european bungleweed in temperate areas near water",
           "blockCodes": [
-            "wildcraft:waterplant-wakame-normal",
+            "wildcraft:waterplant-watermilfoil-small",
+            "wildcraft:waterplant-watermilfoil-medium",
+            "wildcraft:waterplant-watermilfoil-large"
           ],
-          minTemp: 3,
-          maxTemp: 40,
-          minRain: 0,
-          maxRain: 1,
-          "chance": 1,
-          "minWaterDepth": 2,
-          "placement": "UnderWater",
-          "quantity": { "avg": 25, "var": 15 },
+          "minTemp": 3,
+          "maxTemp": 40,
+          "chance": 3,
+          "placement": "Anywhere",
+          "quantity": { "avg": 35, "var": 15 },
           "offsetX": { "avg": 0, "var": 12 },
           "offsetZ": { "avg": 0, "var": 12 }
         },
         "file": "game:worldgen/blockpatches.json",
         "side": "server"
       },
+      {
+        "op": "add",
+        "path": "/patches/-",
+        "value": {
+          "comment": "Larges Patches of european bungleweed in temperate areas near water",
+          "blockCodes": [
+            "wildcraft:waterherb-pepperdulse-normal"
+          ],
+          "minTemp": 3,
+          "maxTemp": 40,
+          "chance": 2,
+          "placement": "Anywhere",
+          "quantity": { "avg": 35, "var": 15 },
+          "offsetX": { "avg": 0, "var": 12 },
+          "offsetZ": { "avg": 0, "var": 12 }
+        },
+        "file": "game:worldgen/blockpatches.json",
+        "side": "server"
+      },
+      {
+        "op": "add",
+        "path": "/patches/-",
+        "value": {
+          "comment": "Larges Patches of european bungleweed in temperate areas near water",
+          "blockCodes": [
+            "wildcraft:waterherb-ulva-normal"
+          ],
+          "minTemp": 3,
+          "maxTemp": 40,
+          "chance": 0.5,
+          "placement": "Anywhere",
+          "quantity": { "avg": 35, "var": 15 },
+          "offsetX": { "avg": 0, "var": 12 },
+          "offsetZ": { "avg": 0, "var": 12 }
+        },
+        "file": "game:worldgen/blockpatches.json",
+        "side": "server"
+      },
+      {
+        "op": "add",
+        "path": "/patches/-",
+        "value": {
+          "comment": "large patches of wakame in cold oceans",
+          "blockCodes": [
+            "wildcraft:waterherb-wakame-normal"
+          ],
+          "minTemp": -10,
+          "maxTemp": 10,
+          "chance": 1,
+          "placement": "Anywhere",
+          "quantity": { "avg": 35, "var": 15 },
+          "offsetX": { "avg": 0, "var": 12 },
+          "offsetZ": { "avg": 0, "var": 12 }
+        },
+        "file": "game:worldgen/blockpatches.json",
+        "side": "server"
+      },
+      {
+        "op": "add",
+        "path": "/patches/-",
+        "value": {
+          "comment": "large patches of wakame in cold oceans",
+          "blockCodes": [
+            "wildcraft:waterherb-seagrape-normal"
+          ],
+          "minTemp": -10,
+          "maxTemp": 40,
+          "chance": 0.5,
+          "placement": "Anywhere",
+          "quantity": { "avg": 35, "var": 15 },
+          "offsetX": { "avg": 0, "var": 12 },
+          "offsetZ": { "avg": 0, "var": 12 }
+        },
+        "file": "game:worldgen/blockpatches.json",
+        "side": "server"
+      },
+      {
+        "op": "add",
+        "path": "/patches/-",
+        "value": {
+          "comment": "large patches of wakame in cold oceans",
+          "blockCodes": [
+            "wildcraft:waterherb-sealeek-normal"
+          ],
+          "minTemp": -10,
+          "maxTemp": 10,
+          "chance": 1.5,
+          "placement": "Anywhere",
+          "quantity": { "avg": 35, "var": 15 },
+          "offsetX": { "avg": 0, "var": 12 },
+          "offsetZ": { "avg": 0, "var": 12 }
+        },
+        "file": "game:worldgen/blockpatches.json",
+        "side": "server"
+      },
+      {
+        "op": "add",
+        "path": "/patches/-",
+        "value": {
+          "comment": "large patches of dragon whiskers red algae in warm deep salt waters",
+          "blockCodes": [
+            "wildcraft:waterherb-dragonwhiskers-normal"
+          ],
+          "minTemp": 20,
+          "maxTemp": 40,
+          "chance": 1,
+          "placement": "Anywhere",
+          "quantity": { "avg": 35, "var": 15 },
+          "offsetX": { "avg": 0, "var": 12 },
+          "offsetZ": { "avg": 0, "var": 12 }
+        },
+        "file": "game:worldgen/blockpatches.json",
+        "side": "server"
+      },
+      {
+        "op": "add",
+        "path": "/patches/-",
+        "value": {
+          "comment": "Larges Patches of soft sedge in temperate areas near water",
+          "blockCodes": [
+            "wildcraft:simplewaterplant-waterpineapple",
+          ],
+          "minTemp": -12,
+          "maxTemp": 22,
+          "minRain": 0.45,
+          "maxRain": 1.0,
+          "chance": 1.0,
+          "placement": "NearWater",
+          "quantity": { "dist": "invexp", "avg": 50, "var": 25 },
+          "offsetX": { "avg": 0, "var": 4 },
+          "offsetZ": { "avg": 0, "var": 4 }
+        },
+        "file": "game:worldgen/blockpatches.json",
+        "side": "server"
+      },
+      {
+        "op": "add",
+        "path": "/patches/-",
+        "value": {
+          "comment": "Larges Patches of soft sedge in temperate areas near water",
+          "blockCodes": [
+            "wildcraft:simplewaterplant-laminaria",
+          ],
+          "minTemp": -12,
+          "maxTemp": 22,
+          "minRain": 0.45,
+          "maxRain": 1.0,
+          "chance": 1.5,
+          "placement": "Anywhere",
+          "quantity": { "dist": "invexp", "avg": 25, "var": 8 },
+          "offsetX": { "avg": 0, "var": 10 },
+          "offsetZ": { "avg": 0, "var": 10 }
+        },
+        "file": "game:worldgen/blockpatches.json",
+        "side": "server"
+      },
+
+      {
+        "op": "add",
+        "path": "/patches/-",
+        "value": {
+          "comment": "Giant kelp",
+          "blockCodes": [
+            "wildcraft:giantkelp-base",
+          ],
+          "minTemp": -12,
+          "maxTemp": 22,
+          "minRain": 0.45,
+          "maxRain": 1.0,
+          "chance": 1.5,
+          "placement": "Anywhere",
+          "quantity": { "dist": "invexp", "avg": 25, "var": 8 },
+          "offsetX": { "avg": 0, "var": 10 },
+          "offsetZ": { "avg": 0, "var": 10 }
+        },
+        "file": "game:worldgen/blockpatches.json",
+        "side": "server"
+      },
+
+
       {
         "op": "add",
         "path": "/patches/-",

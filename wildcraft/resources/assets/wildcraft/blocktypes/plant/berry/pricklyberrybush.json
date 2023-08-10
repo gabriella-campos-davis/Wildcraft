@@ -47,6 +47,10 @@
 			"*-raspberry-*": 33,
 			"*-blueraspberry-*": 18,
 			"*-dogrose-*": 42
+		},
+		"growthBlockByType":{
+			"*-dogrose-*": "wildcraft:growth-dogrose-alive",
+			"*-brambleberry-*": "wildcraft:growth-brambleberry-alive"
 		}
 	},
 	"walkspeedmultiplier": 0.55,

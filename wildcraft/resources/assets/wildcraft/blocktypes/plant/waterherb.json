@@ -1,0 +1,109 @@
+{
+    "code": "waterherb",
+    "classByType":{
+        "*": "WaterHerb"
+    },
+	"variantgroups": [
+		{ "code": "type", "states": ["pepperdulse", "ulva", "dragonwhiskers", "wakame", "seagrape", "sealeek"] },
+		{ "code": "state", "states": ["normal", "harvested"] }
+	],
+	"attributes": {
+        "minDepthByType":{
+            "*-pepperdulse-*": 1,
+            "*-ulva-*": 4,
+            "*-dragonwhiskers-*": 8,
+            "*-wakame-*": 4,
+            "*-seagrape-*": 4,
+            "*-sealeek-*": 1
+        },
+        "maxDepthByType": {
+            "*-pepperdulse-*": 5,
+            "*-ulva-*": 8,
+            "*-dragonwhiskers-*": 16,
+            "*-wakame-*": 9,
+            "*-seagrape-*": 8,
+            "*-sealeek-*": 10
+        },
+        "waterCodeByType":{
+            "*-pepperdulse-*": "saltwater",
+            "*-ulva-*": "saltwater",
+            "*-dragonwhiskers-*": "saltwater",
+            "*-wakame-*": "saltwater",
+            "*-seagrape-*": "saltwater",
+            "*-sealeek-*": "saltwater"
+        },
+        "hasRootByType":{
+            "*": "false"
+        },
+        "isPoisonousByType":{
+            "*":"false"
+        }
+    },
+    "drawtype": "JSONAndWater",
+	"renderpass": "liquid",
+	"matterstate": "liquid",
+	"blockmaterial": "liquid",
+	"faceCullMode": "liquid",
+    "randomDrawOffset": true,
+    "texturesByType": {
+        "*-normal": {
+            "plant": { "base": "wildcraft:block/plant/waterherb/{type}" }
+        },
+        "*-harvested": {
+            "plant": { "base": "wildcraft:block/plant/waterherb/{type}_{state}" }
+        }
+    },
+	"creativeinventory": {
+        "general": ["*-normal"],
+        "flora": ["*-normal"],
+        "wildcraft": [ "*-normal" ]
+    },
+    "shapeByType": {
+        "*-ulva-*": {"base": "wildcraft:block/plant/waterplant/ulva" },
+        "*-wakame-*": {"base": "wildcraft:block/plant/waterplant/ulva" },
+        "*": {"base": "wildcraft:block/plant/waterplant/normal" }
+    },
+    "dropsByType": {},
+	"randomizeRotations": true,
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 1.5,
+	"collisionbox": null,
+	"selectionBoxByType": {
+        "*": { "x1": 0 , "y1": 0, "z1": 0, "x2": 1, "y2": 1.5, "z2": 1 }
+    },
+    "guiTransformByType": {
+        "*":{
+        "rotation": { "x": -22, "y": 107, "z": 0 },
+        "origin": { "x": 0.3, "y": 0.5, "z": 0.4 },
+        "scale": 1.32
+        }
+    },
+	"groundTransform": {
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 2.5
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.93, "y": -0.17, "z": -0.8 },
+		"rotation": { "x": 15, "y": -10, "z": -114 },
+		"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+		"scale": 0.58
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant",
+        "inside": "walk/water"
+	},
+	"vertexFlags": {
+		"leavesWindWave": true
+	},
+	"materialDensity": 200,
+	"frostable": true
+}
